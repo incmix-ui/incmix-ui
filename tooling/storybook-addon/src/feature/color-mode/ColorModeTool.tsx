@@ -8,7 +8,7 @@ import { ADDON_ID, EVENTS } from "../../constants"
  * This component is rendered in the Storybook toolbar
  */
 export const ColorModeTool = () => {
-  const isDarkMode = localStorage.getItem("chakra-ui-color-mode") === "dark"
+  const isDarkMode = localStorage.getItem("incmix-ui-color-mode") === "dark"
   const [darkMode, setDarkMode] = useAddonState(
     `${ADDON_ID}/dark-mode`,
     isDarkMode,

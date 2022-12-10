@@ -50,7 +50,7 @@ By default, this plugin adds the main context provider to make all components
 work correctly.
 
 - **ChakraProvider:** Your custom theme and all
-  [ChakraProvider Props](https://chakra-ui.com/docs/getting-started#chakraprovider-props)
+  [ChakraProvider Props](https://incmix-ui.com/docs/getting-started#chakraprovider-props)
   are passed to this instance
 
 ```jsx
@@ -103,8 +103,8 @@ export default extendTheme(theme)
 ```
 
 You can learn more about custom theme at
-[Chakra UI's documentation](https://chakra-ui.com/theme).
+[Chakra UI's documentation](https://incmix-ui.com/theme).
 
 By default, Chakra provides a sensible
-[default theme](https://github.com/chakra-ui/chakra-ui/tree/main/packages/theme)
+[default theme](https://github.com/incmix-ui/incmix-ui/tree/main/packages/theme)
 inspired by Tailwind CSS.
