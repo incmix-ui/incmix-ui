@@ -1,5 +1,5 @@
-import { chakra, forwardRef, PropsOf } from "@chakra-ui/system"
-import { fireEvent, render, screen, testA11y } from "@chakra-ui/test-utils"
+import { incmix, forwardRef, PropsOf } from "@incmix-ui/system"
+import { fireEvent, render, screen, testA11y } from "@incmix-ui/test-utils"
 import * as React from "react"
 import {
   FormControl,
@@ -13,13 +13,13 @@ import {
 } from "../src"
 
 type OmittedTypes = "disabled" | "required" | "readOnly"
-type InputProps = Omit<PropsOf<typeof chakra.input>, OmittedTypes> &
+type InputProps = Omit<PropsOf<typeof incmix.input>, OmittedTypes> &
   FormControlOptions
 
 const Input: React.FC<InputProps> = forwardRef<InputProps, "input">(
   (props, ref) => {
     const inputProps = useFormControl<HTMLInputElement>(props)
-    return <chakra.input ref={ref} {...inputProps} />
+    return <incmix.input ref={ref} {...inputProps} />
   },
 )
 

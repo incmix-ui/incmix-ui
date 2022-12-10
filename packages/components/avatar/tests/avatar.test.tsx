@@ -1,4 +1,4 @@
-import { mocks, render, testA11y, act } from "@chakra-ui/test-utils"
+import { mocks, render, testA11y, act } from "@incmix-ui/test-utils"
 import * as React from "react"
 import { Avatar, AvatarBadge } from "../src"
 
@@ -78,6 +78,6 @@ describe("fallback + loading strategy", () => {
 
   test("renders a default avatar if no name or src", () => {
     const tools = render(<Avatar />)
-    expect(tools.getByRole("img")).toHaveClass("chakra-avatar__svg")
+    expect(tools.getByRole("img")).toHaveClass("incmix-avatar__svg")
   })
 })

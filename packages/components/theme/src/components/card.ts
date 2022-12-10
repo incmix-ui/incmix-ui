@@ -1,5 +1,5 @@
-import { cardAnatomy as parts } from "@chakra-ui/anatomy"
-import { createMultiStyleConfigHelpers, cssVar } from "@chakra-ui/styled-system"
+import { cardAnatomy as parts } from "@incmix-ui/anatomy"
+import { createMultiStyleConfigHelpers, cssVar } from "@incmix-ui/styled-system"
 
 const { definePartsStyle, defineMultiStyleConfig } =
   createMultiStyleConfigHelpers(parts.keys)
@@ -9,9 +9,9 @@ const $padding = cssVar("card-padding")
 
 const baseStyle = definePartsStyle({
   container: {
-    [$bg.variable]: "chakra-body-bg",
+    [$bg.variable]: "incmix-body-bg",
     backgroundColor: $bg.reference,
-    color: "chakra-body-text",
+    color: "incmix-body-text",
   },
   body: {
     padding: $padding.reference,
@@ -58,12 +58,12 @@ const variants = {
   outline: definePartsStyle({
     container: {
       borderWidth: "1px",
-      borderColor: "chakra-border-color",
+      borderColor: "incmix-border-color",
     },
   }),
   filled: definePartsStyle({
     container: {
-      [$bg.variable]: "colors.chakra-subtle-bg",
+      [$bg.variable]: "colors.incmix-subtle-bg",
     },
   }),
   unstyled: {

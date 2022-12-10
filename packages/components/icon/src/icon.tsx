@@ -1,11 +1,11 @@
 import {
-  chakra,
-  ChakraProps,
+  incmix,
+  incmixProps,
   forwardRef,
   SystemStyleObject,
   useStyleConfig,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 
 const fallbackIcon = {
   path: (
@@ -29,15 +29,15 @@ const fallbackIcon = {
 type Orientation = "vertical" | "horizontal"
 
 export interface IconProps
-  extends Omit<React.SVGAttributes<SVGElement>, keyof ChakraProps>,
-    ChakraProps {
+  extends Omit<React.SVGAttributes<SVGElement>, keyof incmixProps>,
+    incmixProps {
   orientation?: Orientation
 }
 
 /**
  * The Icon component renders as an svg element to help define your own custom components.
  *
- * @see Docs https://chakra-ui.com/docs/components/icon#using-the-icon-component
+ * @see Docs https://incmix-ui.com/docs/components/icon#using-the-icon-component
  */
 export const Icon = forwardRef<IconProps, "svg">((props, ref) => {
   const {
@@ -51,7 +51,7 @@ export const Icon = forwardRef<IconProps, "svg">((props, ref) => {
     ...rest
   } = props
 
-  const _className = cx("chakra-icon", className)
+  const _className = cx("incmix-icon", className)
   const customStyles = useStyleConfig("Icon", props)
 
   const styles: SystemStyleObject = {
@@ -79,15 +79,15 @@ export const Icon = forwardRef<IconProps, "svg">((props, ref) => {
    * Note: anyone passing the `as` prop, should manage the `viewBox` from the external component
    */
   if (element && typeof element !== "string") {
-    return <chakra.svg as={element} {...shared} {...rest} />
+    return <incmix.svg as={element} {...shared} {...rest} />
   }
 
   const _path = (children ?? fallbackIcon.path) as React.ReactNode
 
   return (
-    <chakra.svg verticalAlign="middle" viewBox={_viewBox} {...shared} {...rest}>
+    <incmix.svg verticalAlign="middle" viewBox={_viewBox} {...shared} {...rest}>
       {_path}
-    </chakra.svg>
+    </incmix.svg>
   )
 })
 

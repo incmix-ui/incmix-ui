@@ -1,5 +1,5 @@
-import { IconButton } from "@chakra-ui/button"
-import { Box, Link, Text } from "@chakra-ui/layout"
+import { IconButton } from "@incmix-ui/button"
+import { Box, Link, Text } from "@incmix-ui/layout"
 import * as React from "react"
 import { MdCheck } from "react-icons/md"
 import {

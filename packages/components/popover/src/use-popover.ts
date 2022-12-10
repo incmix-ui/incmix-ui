@@ -1,15 +1,15 @@
-import { useAnimationState } from "@chakra-ui/react-use-animation-state"
-import { useFocusOnPointerDown } from "@chakra-ui/react-use-focus-on-pointer-down"
+import { useAnimationState } from "@incmix-ui/react-use-animation-state"
+import { useFocusOnPointerDown } from "@incmix-ui/react-use-focus-on-pointer-down"
 import {
   useFocusOnHide,
   useFocusOnShow,
-} from "@chakra-ui/react-use-focus-effect"
-import { useDisclosure } from "@chakra-ui/react-use-disclosure"
-import { popperCSSVars, usePopper, UsePopperProps } from "@chakra-ui/popper"
-import { DOMAttributes, PropGetter } from "@chakra-ui/react-types"
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
-import { callAllHandlers } from "@chakra-ui/shared-utils"
-import { lazyDisclosure, LazyMode } from "@chakra-ui/lazy-utils"
+} from "@incmix-ui/react-use-focus-effect"
+import { useDisclosure } from "@incmix-ui/react-use-disclosure"
+import { popperCSSVars, usePopper, UsePopperProps } from "@incmix-ui/popper"
+import { DOMAttributes, PropGetter } from "@incmix-ui/react-types"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
+import { callAllHandlers } from "@incmix-ui/shared-utils"
+import { lazyDisclosure, LazyMode } from "@incmix-ui/lazy-utils"
 import { useCallback, useEffect, useId, useRef, useState } from "react"
 
 const TRIGGER = {

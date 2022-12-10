@@ -1,7 +1,7 @@
 import * as React from "react"
-import { render, testA11y } from "@chakra-ui/test-utils"
-import { FormControl } from "@chakra-ui/form-control"
-// import { theme } from "@chakra-ui/theme"
+import { render, testA11y } from "@incmix-ui/test-utils"
+import { FormControl } from "@incmix-ui/form-control"
+// import { theme } from "@incmix-ui/theme"
 import { Select } from "../src"
 
 test("should pass a11y check", async () => {
@@ -28,7 +28,7 @@ test("renders an icon by default", () => {
   const icon = getByRole("presentation", { hidden: true })
 
   expect(icon).toHaveAttribute("aria-hidden", "true")
-  expect(icon).toHaveClass("chakra-select__icon")
+  expect(icon).toHaveClass("incmix-select__icon")
 })
 
 test("renders in disabled state if isDisabled is true", () => {
@@ -37,7 +37,7 @@ test("renders in disabled state if isDisabled is true", () => {
   )
   const select = container.querySelector("select") as HTMLElement
   const iconWrapper = container.querySelector(
-    ".chakra-select__icon-wrapper",
+    ".incmix-select__icon-wrapper",
   ) as HTMLElement
   expect(select).toBeDisabled()
   expect(iconWrapper).toHaveAttribute("data-disabled", "")
@@ -49,7 +49,7 @@ test("doesnt renders in disabled state if isDisabled is false", () => {
   )
   const select = container.querySelector("select") as HTMLElement
   const iconWrapper = container.querySelector(
-    ".chakra-select__icon-wrapper",
+    ".incmix-select__icon-wrapper",
   ) as HTMLElement
   expect(select).not.toBeDisabled()
   expect(iconWrapper).not.toHaveAttribute("data-disabled")
@@ -63,7 +63,7 @@ test("renders in disabled state if wrapped by FormControl with isDisabled=true",
   )
   const select = container.querySelector("select") as HTMLElement
   const iconWrapper = container.querySelector(
-    ".chakra-select__icon-wrapper",
+    ".incmix-select__icon-wrapper",
   ) as HTMLElement
   expect(select).toBeDisabled()
   expect(iconWrapper).toHaveAttribute("data-disabled", "")
@@ -95,9 +95,9 @@ test("renders in disabled state if wrapped by FormControl with isDisabled=true",
 //         },
 //       })
 //       const { container } = render(
-//         <ChakraProvider theme={theme}>
+//         <incmixProvider theme={theme}>
 //           <Select />
-//         </ChakraProvider>,
+//         </incmixProvider>,
 //       )
 //       const select = container.querySelector("select") as HTMLElement
 
@@ -113,9 +113,9 @@ test("renders in disabled state if wrapped by FormControl with isDisabled=true",
 //       }
 //       const theme = extendTheme({ components: { Select: { sizes } } })
 //       const { container } = render(
-//         <ChakraProvider theme={theme}>
+//         <incmixProvider theme={theme}>
 //           <Select size={size} />
-//         </ChakraProvider>,
+//         </incmixProvider>,
 //       )
 //       const select = container.querySelector("select") as HTMLElement
 

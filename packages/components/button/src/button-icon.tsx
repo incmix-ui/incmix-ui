@@ -1,8 +1,8 @@
-import { chakra, HTMLChakraProps } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { incmix, HTMLincmixProps } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { cloneElement, isValidElement } from "react"
 
-export function ButtonIcon(props: HTMLChakraProps<"span">) {
+export function ButtonIcon(props: HTMLincmixProps<"span">) {
   const { children, className, ...rest } = props
 
   const _children = isValidElement(children)
@@ -12,10 +12,10 @@ export function ButtonIcon(props: HTMLChakraProps<"span">) {
       })
     : children
 
-  const _className = cx("chakra-button__icon", className)
+  const _className = cx("incmix-button__icon", className)
 
   return (
-    <chakra.span
+    <incmix.span
       display="inline-flex"
       alignSelf="center"
       flexShrink={0}
@@ -23,7 +23,7 @@ export function ButtonIcon(props: HTMLChakraProps<"span">) {
       className={_className}
     >
       {_children}
-    </chakra.span>
+    </incmix.span>
   )
 }
 

@@ -1,16 +1,16 @@
-import { callAll, cx } from "@chakra-ui/shared-utils"
+import { callAll, cx } from "@incmix-ui/shared-utils"
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   SystemStyleObject,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 import { HTMLMotionProps } from "framer-motion"
 import { usePopoverContext, usePopoverStyles } from "./popover-context"
 import { PopoverTransition, PopoverTransitionProps } from "./popover-transition"
 
 export interface PopoverContentProps extends PopoverTransitionProps {
-  rootProps?: HTMLChakraProps<"div">
+  rootProps?: HTMLincmixProps<"div">
   motionProps?: HTMLMotionProps<"section">
 }
 
@@ -30,10 +30,10 @@ export const PopoverContent = forwardRef<PopoverContentProps, "section">(
     }
 
     return (
-      <chakra.div
+      <incmix.div
         {...getPopoverPositionerProps(rootProps)}
         __css={styles.popper}
-        className="chakra-popover__popper"
+        className="incmix-popover__popper"
       >
         <PopoverTransition
           {...motionProps}
@@ -42,10 +42,10 @@ export const PopoverContent = forwardRef<PopoverContentProps, "section">(
             onAnimationComplete,
             contentProps.onAnimationComplete,
           )}
-          className={cx("chakra-popover__content", props.className)}
+          className={cx("incmix-popover__content", props.className)}
           __css={contentStyles}
         />
-      </chakra.div>
+      </incmix.div>
     )
   },
 )

@@ -1,14 +1,14 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   ThemingProps,
   useMultiStyleConfig,
   SystemStyleObject,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
-import { createContext } from "@chakra-ui/react-context"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { createContext } from "@incmix-ui/react-context"
 
 const [TableStylesProvider, useTableStyles] = createContext<
   Record<string, SystemStyleObject>
@@ -22,14 +22,14 @@ export { useTableStyles }
 export interface TableOptions {}
 
 export interface TableProps
-  extends HTMLChakraProps<"table">,
+  extends HTMLincmixProps<"table">,
     TableOptions,
     ThemingProps<"Table"> {}
 
 /**
  * The `Table` component is used to organize and display data efficiently. It renders a `<table>` element by default.
  *
- * @see Docs https://chakra-ui.com/docs/components/table
+ * @see Docs https://incmix-ui.com/docs/components/table
  * @see WAI-ARIA https://www.w3.org/WAI/ARIA/apg/patterns/table/
  */
 export const Table = forwardRef<TableProps, "table">((props, ref) => {
@@ -38,10 +38,10 @@ export const Table = forwardRef<TableProps, "table">((props, ref) => {
 
   return (
     <TableStylesProvider value={styles}>
-      <chakra.table
+      <incmix.table
         ref={ref}
         __css={styles.table}
-        className={cx("chakra-table", className)}
+        className={cx("incmix-table", className)}
         {...tableProps}
       />
     </TableStylesProvider>

@@ -1,5 +1,5 @@
-import { ImageProps, useImage } from "@chakra-ui/image"
-import { chakra, SystemStyleObject } from "@chakra-ui/system"
+import { ImageProps, useImage } from "@incmix-ui/image"
+import { incmix, SystemStyleObject } from "@incmix-ui/system"
 import { cloneElement } from "react"
 import { AvatarName } from "./avatar-name"
 import { GenericAvatarIcon } from "./generic-avatar-icon"
@@ -47,7 +47,7 @@ export function AvatarImage(props: AvatarImageProps) {
   if (showFallback) {
     return name ? (
       <AvatarName
-        className="chakra-avatar__initials"
+        className="incmix-avatar__initials"
         getInitials={getInitials}
         name={name}
       />
@@ -63,13 +63,13 @@ export function AvatarImage(props: AvatarImageProps) {
    * If `src` was passed and the image has loaded, we'll show it
    */
   return (
-    <chakra.img
+    <incmix.img
       src={src}
       srcSet={srcSet}
       alt={name}
       onLoad={onLoad}
       referrerPolicy={referrerPolicy}
-      className="chakra-avatar__img"
+      className="incmix-avatar__img"
       loading={loading}
       __css={{
         width: "100%",

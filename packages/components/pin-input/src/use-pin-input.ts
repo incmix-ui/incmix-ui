@@ -1,8 +1,8 @@
-import { createDescendantContext } from "@chakra-ui/descendant"
-import { useControllableState } from "@chakra-ui/react-use-controllable-state"
-import { ariaAttr, callAllHandlers } from "@chakra-ui/shared-utils"
-import { createContext } from "@chakra-ui/react-context"
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
+import { createDescendantContext } from "@incmix-ui/descendant"
+import { useControllableState } from "@incmix-ui/react-use-controllable-state"
+import { ariaAttr, callAllHandlers } from "@incmix-ui/shared-utils"
+import { createContext } from "@incmix-ui/react-context"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
 import { useCallback, useEffect, useState, useId } from "react"
 
 /* -------------------------------------------------------------------------------------------------

@@ -2,7 +2,7 @@ import {
   cssVar,
   defineStyle,
   defineStyleConfig,
-} from "@chakra-ui/styled-system"
+} from "@incmix-ui/styled-system"
 
 const $bg = cssVar("skip-link-bg")
 

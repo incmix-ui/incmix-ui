@@ -1,4 +1,4 @@
-import { forwardRef } from "@chakra-ui/system"
+import { forwardRef } from "@incmix-ui/system"
 import { ModalProps, Modal } from "./modal"
 import { ModalContentProps, ModalContent } from "./modal-content"
 
@@ -9,7 +9,7 @@ export interface AlertDialogProps extends Omit<ModalProps, "initialFocusRef"> {
 /**
  * `AlertDialog` component is used interrupt the user with a mandatory confirmation or action.
  *
- * @see Docs https://chakra-ui.com/docs/components/alert-dialog
+ * @see Docs https://incmix-ui.com/docs/components/alert-dialog
  * @see WAI-ARIA https://www.w3.org/WAI/ARIA/apg/patterns/alertdialog/
  */
 export function AlertDialog(props: AlertDialogProps) {

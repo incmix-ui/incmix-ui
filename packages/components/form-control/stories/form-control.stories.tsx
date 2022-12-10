@@ -1,4 +1,4 @@
-import { chakra, PropsOf, useMultiStyleConfig } from "@chakra-ui/system"
+import { incmix, PropsOf, useMultiStyleConfig } from "@incmix-ui/system"
 import * as React from "react"
 import {
   FormControlOptions,
@@ -14,9 +14,9 @@ export default {
   title: "Components / Forms / FormControl",
   decorators: [
     (story: Function) => (
-      <chakra.div mx="auto" mt="40px" maxW="400px">
+      <incmix.div mx="auto" mt="40px" maxW="400px">
         {story()}
-      </chakra.div>
+      </incmix.div>
     ),
   ],
 }
@@ -37,7 +37,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps & Props>(
   function Input(props, ref) {
     const styles = useMultiStyleConfig("Input", props)
     const inputProps = useFormControl<HTMLInputElement>(props)
-    return <chakra.input ref={ref} __css={styles.field} {...inputProps} />
+    return <incmix.input ref={ref} __css={styles.field} {...inputProps} />
   },
 )
 
@@ -57,7 +57,7 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextAreaProps>(
   function Textarea(props, ref) {
     const styles = useMultiStyleConfig("Textarea", props)
     const inputProps = useFormControl<HTMLTextAreaElement>(props)
-    return <chakra.textarea ref={ref} __css={styles} {...inputProps} />
+    return <incmix.textarea ref={ref} __css={styles} {...inputProps} />
   },
 )
 
@@ -81,7 +81,7 @@ const Select = React.forwardRef<HTMLSelectElement, SelectProps>(function Select(
 ) {
   const styles = useMultiStyleConfig("Select", props)
   const inputProps = useFormControl<HTMLSelectElement>(props)
-  return <chakra.select ref={ref} __css={styles.field} {...inputProps} />
+  return <incmix.select ref={ref} __css={styles.field} {...inputProps} />
 })
 
 export const SelectExample: React.FC = () => (

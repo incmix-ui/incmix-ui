@@ -6,13 +6,13 @@ button to remove it.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/tag
+yarn add @incmix-ui/tag
 ```
 
 ## Import component
 
 ```jsx
-import { Tag } from "@chakra-ui/tag"
+import { Tag } from "@incmix-ui/tag"
 ```
 
 ## Basic Usage

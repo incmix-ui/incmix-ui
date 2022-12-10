@@ -1,4 +1,4 @@
-import { useDisclosure } from "@chakra-ui/hooks"
+import { useDisclosure } from "@incmix-ui/hooks"
 import React from "react"
 import { Drawer, DrawerBody, DrawerOverlay, DrawerHeader } from "../src/drawer"
 import { DrawerContent } from "../src/drawer-content"

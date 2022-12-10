@@ -1,4 +1,4 @@
-import { useInterval } from "@chakra-ui/react-use-interval"
+import { useInterval } from "@incmix-ui/react-use-interval"
 import { useCallback, useEffect, useRef, useState } from "react"
 
 /**

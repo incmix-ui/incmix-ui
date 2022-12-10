@@ -1,11 +1,11 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
   ResponsiveValue,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
-import { mapResponsive } from "@chakra-ui/breakpoint-utils"
-import { cx } from "@chakra-ui/shared-utils"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
+import { mapResponsive } from "@incmix-ui/breakpoint-utils"
+import { cx } from "@incmix-ui/shared-utils"
 
 import { Children } from "react"
 
@@ -19,14 +19,14 @@ interface AspectRatioOptions {
 }
 
 export interface AspectRatioProps
-  extends HTMLChakraProps<"div">,
+  extends HTMLincmixProps<"div">,
     AspectRatioOptions {}
 
 /**
  * React component used to cropping media (videos, images and maps)
  * to a desired aspect ratio.
  *
- * @see Docs https://chakra-ui.com/aspectratiobox
+ * @see Docs https://incmix-ui.com/aspectratiobox
  */
 export const AspectRatio = forwardRef<AspectRatioProps, "div">(function (
   props,
@@ -37,10 +37,10 @@ export const AspectRatio = forwardRef<AspectRatioProps, "div">(function (
   // enforce single child
   const child = Children.only(children)
 
-  const _className = cx("chakra-aspect-ratio", className)
+  const _className = cx("incmix-aspect-ratio", className)
 
   return (
-    <chakra.div
+    <incmix.div
       ref={ref}
       position="relative"
       className={_className}
@@ -71,7 +71,7 @@ export const AspectRatio = forwardRef<AspectRatioProps, "div">(function (
       {...rest}
     >
       {child}
-    </chakra.div>
+    </incmix.div>
   )
 })
 

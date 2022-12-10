@@ -1,4 +1,4 @@
-import { cx } from "@chakra-ui/shared-utils"
+import { cx } from "@incmix-ui/shared-utils"
 
 import { type MenuGroupProps, MenuGroup } from "./menu-group"
 import { UseMenuOptionGroupProps, useMenuOptionGroup } from "./use-menu"
@@ -13,7 +13,7 @@ export const MenuOptionGroup: React.FC<MenuOptionGroupProps> = (props) => {
   return (
     <MenuGroup
       title={title}
-      className={cx("chakra-menu__option-group", className)}
+      className={cx("incmix-menu__option-group", className)}
       {...ownProps}
     />
   )

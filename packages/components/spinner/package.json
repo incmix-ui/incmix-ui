@@ -1,16 +1,16 @@
 {
-  "name": "@chakra-ui/spinner",
+  "name": "@incmix-ui/spinner",
   "version": "2.0.11",
   "description": "A React component for displaying spinners and loaders",
   "keywords": [
     "spinner",
     "loader",
     "react",
-    "chakra ui"
+    "incmix ui"
   ],
   "sideEffects": false,
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -21,21 +21,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/components/spinner"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/utils": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/utils": "workspace:*",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   },
   "scripts": {

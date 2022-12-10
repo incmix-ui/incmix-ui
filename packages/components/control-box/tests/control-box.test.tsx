@@ -1,4 +1,4 @@
-import { testA11y } from "@chakra-ui/test-utils"
+import { testA11y } from "@incmix-ui/test-utils"
 import * as React from "react"
 import ControlBox from "../src/control-box"
 

@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/color-mode",
+  "name": "@incmix-ui/color-mode",
   "version": "2.1.10",
   "description": "React component and hooks for handling light and dark mode.",
   "keywords": [
@@ -13,11 +13,11 @@
     "hook",
     "color scheme",
     "media query",
-    "chakra ui"
+    "incmix ui"
   ],
   "sideEffects": false,
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -37,20 +37,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/components/color-mode"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/react-use-safe-layout-effect": "workspace:*"
+    "@incmix-ui/react-use-safe-layout-effect": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=18"
   },
   "devDependencies": {
-    "@chakra-ui/utils": "workspace:*",
+    "@incmix-ui/utils": "workspace:*",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   }

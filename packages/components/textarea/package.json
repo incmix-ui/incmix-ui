@@ -1,7 +1,7 @@
 {
-  "name": "@chakra-ui/textarea",
+  "name": "@incmix-ui/textarea",
   "version": "2.0.14",
-  "description": "Textarea React component for Chakra UI",
+  "description": "Textarea React component for incmix UI",
   "keywords": [
     "theme",
     "theming",
@@ -9,11 +9,11 @@
     "form",
     "react",
     "form-control",
-    "chakra ui"
+    "incmix ui"
   ],
   "sideEffects": false,
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -24,24 +24,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/components/textarea"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/form-control": "workspace:*"
+    "@incmix-ui/form-control": "workspace:*"
   },
   "devDependencies": {
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/object-utils": "workspace:*",
-    "@chakra-ui/shared-utils": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/object-utils": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   },
   "scripts": {

@@ -1,11 +1,11 @@
 {
-  "name": "@chakra-ui/avatar",
+  "name": "@incmix-ui/avatar",
   "version": "2.2.1",
   "description": "A React component used to show users avatar or initials",
   "keywords": [
     "component",
     "react",
-    "chakra-ui",
+    "incmix-ui",
     "react-component",
     "avatar",
     "profile-image",
@@ -14,7 +14,7 @@
   ],
   "sideEffects": false,
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -25,27 +25,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/components/avatar"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/image": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*",
-    "@chakra-ui/react-children-utils": "workspace:*"
+    "@incmix-ui/image": "workspace:*",
+    "@incmix-ui/react-context": "workspace:*",
+    "@incmix-ui/react-children-utils": "workspace:*"
   },
   "devDependencies": {
-    "@chakra-ui/object-utils": "workspace:*",
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/layout": "workspace:*",
+    "@incmix-ui/object-utils": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/layout": "workspace:*",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   },
   "scripts": {

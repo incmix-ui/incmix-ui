@@ -1,7 +1,7 @@
 {
-  "name": "@chakra-ui/theme",
+  "name": "@incmix-ui/theme",
   "version": "2.2.2",
-  "description": "The default theme for chakra components",
+  "description": "The default theme for incmix components",
   "keywords": [
     "theme",
     "theming",
@@ -10,7 +10,7 @@
   ],
   "sideEffects": false,
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -31,23 +31,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/components/theme"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/anatomy": "workspace:*",
-    "@chakra-ui/theme-tools": "workspace:*"
+    "@incmix-ui/anatomy": "workspace:*",
+    "@incmix-ui/theme-tools": "workspace:*"
   },
   "peerDependencies": {
-    "@chakra-ui/styled-system": ">=2.0.0"
+    "@incmix-ui/styled-system": ">=2.0.0"
   },
   "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/cli": "workspace:*",
-    "@chakra-ui/styled-system": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
+    "@incmix-ui/cli": "workspace:*",
+    "@incmix-ui/styled-system": "workspace:*",
     "clean-package": "2.1.1"
   },
   "scripts": {

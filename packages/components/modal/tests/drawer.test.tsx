@@ -7,7 +7,7 @@ import {
   DrawerOverlay,
   DrawerProps,
 } from "../src"
-import { render, testA11y, screen } from "@chakra-ui/test-utils"
+import { render, testA11y, screen } from "@incmix-ui/test-utils"
 
 const SimpleDrawer = (props: {
   placement?: DrawerProps["placement"]
@@ -50,7 +50,7 @@ it("passes a11y test", async () => {
   await testA11y(baseElement, {
     axeOptions: {
       rules: {
-        // https://github.com/chakra-ui/chakra-ui/issues/7006
+        // https://github.com/incmix-ui/incmix-ui/issues/7006
         "aria-dialog-name": { enabled: false },
       },
     },

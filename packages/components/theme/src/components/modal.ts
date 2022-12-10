@@ -1,9 +1,9 @@
-import { modalAnatomy as parts } from "@chakra-ui/anatomy"
+import { modalAnatomy as parts } from "@incmix-ui/anatomy"
 import {
   createMultiStyleConfigHelpers,
   defineStyle,
-} from "@chakra-ui/styled-system"
-import { mode } from "@chakra-ui/theme-tools"
+} from "@incmix-ui/styled-system"
+import { mode } from "@incmix-ui/theme-tools"
 import { runIfFn } from "../utils/run-if-fn"
 
 const { defineMultiStyleConfig, definePartsStyle } =

@@ -1,9 +1,9 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { useEditableContext, useEditableStyles } from "./editable-context"
 import { commonStyles } from "./shared"
 
-export interface EditableTextareaProps extends HTMLChakraProps<"textarea"> {}
+export interface EditableTextareaProps extends HTMLincmixProps<"textarea"> {}
 
 /**
  * EditableTextarea
@@ -17,10 +17,10 @@ export const EditableTextarea = forwardRef<EditableTextareaProps, "textarea">(
     const styles = useEditableStyles()
 
     const textareaProps = getTextareaProps(props, ref)
-    const _className = cx("chakra-editable__textarea", props.className)
+    const _className = cx("incmix-editable__textarea", props.className)
 
     return (
-      <chakra.textarea
+      <incmix.textarea
         {...textareaProps}
         __css={{
           outline: 0,

@@ -14,12 +14,12 @@ const padStart = (text: string, length: number, char: string) => {
   return text.padStart(length, char)
 }
 
-export const reactPkg = "@chakra-ui/react"
+export const reactPkg = "@incmix-ui/react"
 
-export const docsPkg = "@chakra-ui/docs"
+export const docsPkg = "@incmix-ui/docs"
 
 export function getPackageName(name: string) {
-  return startCase(name.replace("@chakra-ui/", ""))
+  return startCase(name.replace("@incmix-ui/", ""))
 }
 export function getCurrentDate() {
   const date = new Date()

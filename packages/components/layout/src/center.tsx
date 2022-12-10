@@ -1,14 +1,14 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
 
-export interface CenterProps extends HTMLChakraProps<"div"> {}
+export interface CenterProps extends HTMLincmixProps<"div"> {}
 
 /**
  * React component used to horizontally and vertically center its child.
  * It uses the popular `display: flex` centering technique.
  *
- * @see Docs https://chakra-ui.com/center
+ * @see Docs https://incmix-ui.com/center
  */
-export const Center = chakra("div", {
+export const Center = incmix("div", {
   baseStyle: {
     display: "flex",
     alignItems: "center",
@@ -18,7 +18,7 @@ export const Center = chakra("div", {
 
 Center.displayName = "Center"
 
-export interface AbsoluteCenterProps extends HTMLChakraProps<"div"> {
+export interface AbsoluteCenterProps extends HTMLincmixProps<"div"> {
   axis?: "horizontal" | "vertical" | "both"
 }
 
@@ -44,14 +44,14 @@ const centerStyles = {
  *
  * It uses the `position: absolute` strategy.
  *
- * @see Docs https://chakra-ui.com/center
+ * @see Docs https://incmix-ui.com/center
  * @see WebDev https://web.dev/centering-in-css/#5.-pop-and-plop
  */
 export const AbsoluteCenter = forwardRef<AbsoluteCenterProps, "div">(
   function AbsoluteCenter(props, ref) {
     const { axis = "both", ...rest } = props
     return (
-      <chakra.div
+      <incmix.div
         ref={ref}
         __css={centerStyles[axis]}
         {...rest}

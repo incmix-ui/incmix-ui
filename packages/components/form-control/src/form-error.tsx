@@ -1,15 +1,15 @@
-import { type IconProps, Icon } from "@chakra-ui/icon"
-import { createContext } from "@chakra-ui/react-context"
+import { type IconProps, Icon } from "@incmix-ui/icon"
+import { createContext } from "@incmix-ui/react-context"
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { useFormControlContext } from "./form-control"
 
 const [FormErrorStylesProvider, useFormErrorStyles] = createContext<
@@ -21,7 +21,7 @@ const [FormErrorStylesProvider, useFormErrorStyles] = createContext<
 
 export { useFormErrorStyles }
 export interface FormErrorMessageProps
-  extends HTMLChakraProps<"div">,
+  extends HTMLincmixProps<"div">,
     ThemingProps<"FormErrorMessage"> {}
 
 /**
@@ -38,9 +38,9 @@ export const FormErrorMessage = forwardRef<FormErrorMessageProps, "div">(
 
     return (
       <FormErrorStylesProvider value={styles}>
-        <chakra.div
+        <incmix.div
           {...field?.getErrorMessageProps(ownProps, ref)}
-          className={cx("chakra-form__error-message", props.className)}
+          className={cx("incmix-form__error-message", props.className)}
           __css={{
             display: "flex",
             alignItems: "center",
@@ -64,7 +64,7 @@ export const FormErrorIcon = forwardRef<IconProps, "svg">((props, ref) => {
 
   if (!field?.isInvalid) return null
 
-  const _className = cx("chakra-form__error-icon", props.className)
+  const _className = cx("incmix-form__error-icon", props.className)
 
   return (
     <Icon

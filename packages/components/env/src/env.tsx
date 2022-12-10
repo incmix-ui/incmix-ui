@@ -59,7 +59,7 @@ export function EnvironmentProvider(props: EnvironmentProviderProps) {
       {children}
       {!environmentProp && mounted && (
         <span
-          id="__chakra_env"
+          id="__incmix_env"
           hidden
           ref={(el) => {
             startTransition(() => {

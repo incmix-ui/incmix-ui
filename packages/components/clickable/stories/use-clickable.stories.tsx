@@ -1,10 +1,10 @@
-import { chakra, forwardRef } from "@chakra-ui/system"
+import { incmix, forwardRef } from "@incmix-ui/system"
 import * as React from "react"
 import { useClickable } from "../src"
 
 const Clickable: React.FC<any> = forwardRef((props, ref) => {
   const clickable = useClickable({ ...props, ref })
-  return <chakra.button display="inline-flex" {...clickable} />
+  return <incmix.button display="inline-flex" {...clickable} />
 })
 
 export default {

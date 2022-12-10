@@ -9,7 +9,7 @@ const direction: ThemeDirection = "ltr"
 const config: ThemeConfig = {
   useSystemColorMode: false,
   initialColorMode: "light",
-  cssVarPrefix: "chakra",
+  cssVarPrefix: "incmix",
 }
 
 export const theme = {
@@ -24,7 +24,7 @@ export const theme = {
 export type Theme = typeof theme
 
 export * from "./theme.types"
-export * from "./utils/is-chakra-theme"
+export * from "./utils/is-incmix-theme"
 
 export default theme
 

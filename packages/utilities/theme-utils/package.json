@@ -1,14 +1,14 @@
 {
-  "name": "@chakra-ui/theme-utils",
+  "name": "@incmix-ui/theme-utils",
   "version": "2.0.5",
   "description": "",
   "keywords": [
     "theme",
     "utilities",
-    "chakra"
+    "incmix"
   ],
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -20,11 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/utilities/theme-utils"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "scripts": {
     "build": "tsup src/index.ts --format=esm,cjs --dts",
@@ -36,13 +36,13 @@
     "postpack": "clean-package restore"
   },
   "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
     "@types/lodash.mergewith": "4.6.6",
     "clean-package": "2.1.1"
   },
   "dependencies": {
-    "@chakra-ui/styled-system": "workspace:*",
-    "@chakra-ui/theme": "workspace:*",
+    "@incmix-ui/styled-system": "workspace:*",
+    "@incmix-ui/theme": "workspace:*",
     "lodash.mergewith": "4.6.2"
   }
 }

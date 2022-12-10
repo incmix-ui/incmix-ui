@@ -1,13 +1,13 @@
-import { Icon, IconProps } from "@chakra-ui/icon"
+import { Icon, IconProps } from "@incmix-ui/icon"
 import {
-  chakra,
+  incmix,
   forwardRef,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
   useStyleConfig,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
 
 function CloseIcon(props: IconProps) {
   return (
@@ -21,7 +21,7 @@ function CloseIcon(props: IconProps) {
 }
 
 export interface CloseButtonProps
-  extends HTMLChakraProps<"button">,
+  extends HTMLincmixProps<"button">,
     ThemingProps<"CloseButton"> {
   /**
    * If `true`, the close button will be disabled.
@@ -35,7 +35,7 @@ export interface CloseButtonProps
  * It is used to handle the close functionality in feedback and overlay components
  * like Alerts, Toasts, Drawers and Modals.
  *
- * @see Docs https://chakra-ui.com/docs/components/close-button
+ * @see Docs https://incmix-ui.com/docs/components/close-button
  */
 export const CloseButton = forwardRef<CloseButtonProps, "button">(
   function CloseButton(props, ref) {
@@ -51,7 +51,7 @@ export const CloseButton = forwardRef<CloseButtonProps, "button">(
     }
 
     return (
-      <chakra.button
+      <incmix.button
         type="button"
         aria-label="Close"
         ref={ref}
@@ -64,7 +64,7 @@ export const CloseButton = forwardRef<CloseButtonProps, "button">(
         {...rest}
       >
         {children || <CloseIcon width="1em" height="1em" />}
-      </chakra.button>
+      </incmix.button>
     )
   },
 )

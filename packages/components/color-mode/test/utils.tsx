@@ -1,5 +1,5 @@
 /* eslint-disable global-require */
-import { mocks, screen } from "@chakra-ui/test-utils"
+import { mocks, screen } from "@incmix-ui/test-utils"
 import * as React from "react"
 
 export const DummyComponent = () => {
@@ -34,7 +34,7 @@ export const getColorModeButton = () => screen.getByRole("button")
 export const defaultThemeOptions = {
   useSystemColorMode: false,
   initialColorMode: "light",
-  cssVarPrefix: "chakra",
+  cssVarPrefix: "incmix",
 } as const
 
 export function mockMatchMedia(query: string) {
@@ -46,5 +46,5 @@ export function mockLocalStorage(colorMode: string) {
 }
 
 export function mockCookieStorage(colorMode: string | null) {
-  mocks.cookie("chakra-ui-color-mode", colorMode)
+  mocks.cookie("incmix-ui-color-mode", colorMode)
 }

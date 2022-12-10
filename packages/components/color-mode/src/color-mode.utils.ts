@@ -1,8 +1,8 @@
 import { ColorMode } from "./color-mode-types"
 
 const classNames = {
-  light: "chakra-ui-light",
-  dark: "chakra-ui-dark",
+  light: "incmix-ui-light",
+  dark: "incmix-ui-dark",
 }
 
 type UtilOptions = {

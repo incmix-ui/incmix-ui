@@ -1,14 +1,14 @@
-import { Icon, IconProps } from "@chakra-ui/icon"
-import { createContext } from "@chakra-ui/react-context"
+import { Icon, IconProps } from "@incmix-ui/icon"
+import { createContext } from "@incmix-ui/react-context"
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 
 const [TagStylesProvider, useTagStyles] = createContext<
   Record<string, SystemStyleObject>
@@ -20,13 +20,13 @@ const [TagStylesProvider, useTagStyles] = createContext<
 export { useTagStyles }
 
 export interface TagProps
-  extends HTMLChakraProps<"span">,
+  extends HTMLincmixProps<"span">,
     ThemingProps<"Tag"> {}
 
 /**
  * The tag component is used to label or categorize UI elements.
  * To style the tag globally, change the styles in `theme.components.Tag`
- * @see Docs https://chakra-ui.com/tag
+ * @see Docs https://incmix-ui.com/tag
  */
 export const Tag = forwardRef<TagProps, "span">((props, ref) => {
   const styles = useMultiStyleConfig("Tag", props)
@@ -42,18 +42,18 @@ export const Tag = forwardRef<TagProps, "span">((props, ref) => {
 
   return (
     <TagStylesProvider value={styles}>
-      <chakra.span ref={ref} {...ownProps} __css={containerStyles} />
+      <incmix.span ref={ref} {...ownProps} __css={containerStyles} />
     </TagStylesProvider>
   )
 })
 
 Tag.displayName = "Tag"
 
-export interface TagLabelProps extends HTMLChakraProps<"span"> {}
+export interface TagLabelProps extends HTMLincmixProps<"span"> {}
 
 export const TagLabel = forwardRef<TagLabelProps, "span">((props, ref) => {
   const styles = useTagStyles()
-  return <chakra.span ref={ref} noOfLines={1} {...props} __css={styles.label} />
+  return <incmix.span ref={ref} noOfLines={1} {...props} __css={styles.label} />
 })
 
 TagLabel.displayName = "TagLabel"
@@ -82,13 +82,13 @@ const TagCloseIcon: React.FC<IconProps> = (props) => (
 TagCloseIcon.displayName = "TagCloseIcon"
 
 export interface TagCloseButtonProps
-  extends Omit<HTMLChakraProps<"button">, "disabled"> {
+  extends Omit<HTMLincmixProps<"button">, "disabled"> {
   isDisabled?: boolean
 }
 
 /**
  * TagCloseButton is used to close "remove" the tag
- * @see Docs https://chakra-ui.com/tag
+ * @see Docs https://incmix-ui.com/tag
  */
 export const TagCloseButton = forwardRef<TagCloseButtonProps, "button">(
   (props, ref) => {
@@ -105,7 +105,7 @@ export const TagCloseButton = forwardRef<TagCloseButtonProps, "button">(
     }
 
     return (
-      <chakra.button
+      <incmix.button
         ref={ref}
         aria-label="close"
         {...rest}
@@ -114,7 +114,7 @@ export const TagCloseButton = forwardRef<TagCloseButtonProps, "button">(
         __css={btnStyles}
       >
         {children || <TagCloseIcon />}
-      </chakra.button>
+      </incmix.button>
     )
   },
 )

@@ -1,5 +1,5 @@
-import { type IconProps, Icon } from "@chakra-ui/icon"
-import { chakra } from "@chakra-ui/system"
+import { type IconProps, Icon } from "@incmix-ui/icon"
+import { incmix } from "@incmix-ui/system"
 
 import { useStatStyles } from "./stat"
 
@@ -41,7 +41,7 @@ export function StatArrow(props: StatArrowProps) {
 
   return (
     <>
-      <chakra.span srOnly>{label}</chakra.span>
+      <incmix.span srOnly>{label}</incmix.span>
       <BaseIcon aria-hidden {...rest} __css={styles.icon} />
     </>
   )

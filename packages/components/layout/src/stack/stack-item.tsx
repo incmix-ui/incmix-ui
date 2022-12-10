@@ -1,8 +1,8 @@
-import { ChakraComponent, chakra } from "@chakra-ui/system"
+import { incmixComponent, incmix } from "@incmix-ui/system"
 
-export const StackItem: ChakraComponent<"div"> = (props) => (
-  <chakra.div
-    className="chakra-stack__item"
+export const StackItem: incmixComponent<"div"> = (props) => (
+  <incmix.div
+    className="incmix-stack__item"
     {...props}
     __css={{
       display: "inline-block",

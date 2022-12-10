@@ -1,17 +1,17 @@
-import theme, { ChakraTheme, isChakraTheme } from "../src"
+import theme, { incmixTheme, isincmixTheme } from "../src"
 
 describe("Theme", () => {
-  it("should be of type ChakraTheme", () => {
-    // Check if default theme is of type ChakraTheme
-    const defaultThemeIsAChakraTheme: ChakraTheme = theme
-    expect(defaultThemeIsAChakraTheme).toBeTruthy()
+  it("should be of type incmixTheme", () => {
+    // Check if default theme is of type incmixTheme
+    const defaultThemeIsAincmixTheme: incmixTheme = theme
+    expect(defaultThemeIsAincmixTheme).toBeTruthy()
   })
 
-  it("should be check that this is a ChakraTheme", () => {
-    expect(isChakraTheme(theme)).toBeTruthy()
+  it("should be check that this is a incmixTheme", () => {
+    expect(isincmixTheme(theme)).toBeTruthy()
   })
 
-  it("should be check that this is not a ChakraTheme", () => {
-    expect(isChakraTheme({ colors: {} })).toBeFalsy()
+  it("should be check that this is not a incmixTheme", () => {
+    expect(isincmixTheme({ colors: {} })).toBeFalsy()
   })
 })

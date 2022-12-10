@@ -1,16 +1,16 @@
-import { chakra, ChakraComponent } from "@chakra-ui/system"
+import { incmix, incmixComponent } from "@incmix-ui/system"
 
 /**
  * Fallback avatar react component.
  * This should be a generic svg used to represent an avatar
  */
-export const GenericAvatarIcon: ChakraComponent<"svg"> = (props) => (
-  <chakra.svg
+export const GenericAvatarIcon: incmixComponent<"svg"> = (props) => (
+  <incmix.svg
     viewBox="0 0 128 128"
     color="#fff"
     width="100%"
     height="100%"
-    className="chakra-avatar__svg"
+    className="incmix-avatar__svg"
     {...props}
   >
     <path
@@ -21,5 +21,5 @@ export const GenericAvatarIcon: ChakraComponent<"svg"> = (props) => (
       fill="currentColor"
       d="M63.9961647,24 C51.2938136,24 41,34.2938136 41,46.9961647 C41,59.7061864 51.2938136,70 63.9961647,70 C76.6985159,70 87,59.7061864 87,46.9961647 C87,34.2938136 76.6985159,24 63.9961647,24"
     />
-  </chakra.svg>
+  </incmix.svg>
 )

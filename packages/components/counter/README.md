@@ -6,17 +6,17 @@ used to create numeric inputs and countdown timers.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/counter
+yarn add @incmix-ui/counter
 
 # or
 
-npm i @chakra-ui/counter
+npm i @incmix-ui/counter
 ```
 
 ## Import hook
 
 ```js
-import { useCounter } from "@chakra-ui/counter"
+import { useCounter } from "@incmix-ui/counter"
 ```
 
 ## Basic usage

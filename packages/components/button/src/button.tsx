@@ -1,14 +1,14 @@
-import { useMergeRefs } from "@chakra-ui/react-use-merge-refs"
+import { useMergeRefs } from "@incmix-ui/react-use-merge-refs"
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
   useStyleConfig,
-} from "@chakra-ui/system"
-import { cx, dataAttr } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx, dataAttr } from "@incmix-ui/shared-utils"
 
 import { useMemo } from "react"
 import { useButtonGroup } from "./button-context"
@@ -18,14 +18,14 @@ import { ButtonOptions } from "./button-types"
 import { useButtonType } from "./use-button-type"
 
 export interface ButtonProps
-  extends HTMLChakraProps<"button">,
+  extends HTMLincmixProps<"button">,
     ButtonOptions,
     ThemingProps<"Button"> {}
 
 /**
  * Button component is used to trigger an action or event, such as submitting a form, opening a Dialog, canceling an action, or performing a delete operation.
  *
- * @see Docs https://chakra-ui.com/docs/components/button
+ * @see Docs https://incmix-ui.com/docs/components/button
  * @see WAI-ARIA https://www.w3.org/WAI/ARIA/apg/patterns/button/
  */
 export const Button = forwardRef<ButtonProps, "button">((props, ref) => {
@@ -78,7 +78,7 @@ export const Button = forwardRef<ButtonProps, "button">((props, ref) => {
   const contentProps = { rightIcon, leftIcon, iconSpacing, children }
 
   return (
-    <chakra.button
+    <incmix.button
       disabled={isDisabled || isLoading}
       ref={useMergeRefs(ref, _ref)}
       as={as}
@@ -86,12 +86,12 @@ export const Button = forwardRef<ButtonProps, "button">((props, ref) => {
       data-active={dataAttr(isActive)}
       data-loading={dataAttr(isLoading)}
       __css={buttonStyles}
-      className={cx("chakra-button", className)}
+      className={cx("incmix-button", className)}
       {...rest}
     >
       {isLoading && spinnerPlacement === "start" && (
         <ButtonSpinner
-          className="chakra-button__spinner--start"
+          className="incmix-button__spinner--start"
           label={loadingText}
           placement="start"
           spacing={iconSpacing}
@@ -102,9 +102,9 @@ export const Button = forwardRef<ButtonProps, "button">((props, ref) => {
 
       {isLoading ? (
         loadingText || (
-          <chakra.span opacity={0}>
+          <incmix.span opacity={0}>
             <ButtonContent {...contentProps} />
-          </chakra.span>
+          </incmix.span>
         )
       ) : (
         <ButtonContent {...contentProps} />
@@ -112,7 +112,7 @@ export const Button = forwardRef<ButtonProps, "button">((props, ref) => {
 
       {isLoading && spinnerPlacement === "end" && (
         <ButtonSpinner
-          className="chakra-button__spinner--end"
+          className="incmix-button__spinner--end"
           label={loadingText}
           placement="end"
           spacing={iconSpacing}
@@ -120,7 +120,7 @@ export const Button = forwardRef<ButtonProps, "button">((props, ref) => {
           {spinner}
         </ButtonSpinner>
       )}
-    </chakra.button>
+    </incmix.button>
   )
 })
 

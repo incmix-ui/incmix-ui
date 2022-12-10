@@ -1,18 +1,18 @@
-import { cx } from "@chakra-ui/shared-utils"
-import { HTMLChakraProps, chakra, forwardRef } from "@chakra-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { HTMLincmixProps, incmix, forwardRef } from "@incmix-ui/system"
 import { useStatStyles } from "./stat"
 
-export interface StatHelpTextProps extends HTMLChakraProps<"dd"> {}
+export interface StatHelpTextProps extends HTMLincmixProps<"dd"> {}
 
 export const StatHelpText = forwardRef<StatHelpTextProps, "dd">(
   function StatHelpText(props, ref) {
     const styles = useStatStyles()
 
     return (
-      <chakra.dd
+      <incmix.dd
         ref={ref}
         {...props}
-        className={cx("chakra-stat__help-text", props.className)}
+        className={cx("incmix-stat__help-text", props.className)}
         __css={styles.helpText}
       />
     )

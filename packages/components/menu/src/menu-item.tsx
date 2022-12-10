@@ -1,12 +1,12 @@
-import { forwardRef, HTMLChakraProps, SystemProps } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { forwardRef, HTMLincmixProps, SystemProps } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 
 import { MenuCommand } from "./menu-command"
 import { MenuIcon } from "./menu-icon"
 import { StyledMenuItem } from "./styled-menu-item"
 import { useMenuItem, UseMenuItemProps } from "./use-menu"
 
-export interface StyledMenuItemProps extends HTMLChakraProps<"button"> {}
+export interface StyledMenuItemProps extends HTMLincmixProps<"button"> {}
 
 interface MenuItemOptions
   extends Pick<
@@ -42,7 +42,7 @@ type HTMLAttributes = React.HTMLAttributes<HTMLElement>
 type IsDisabledProps = "disabled" | "aria-disabled"
 
 export interface MenuItemProps
-  extends Omit<HTMLChakraProps<"button">, IsDisabledProps>,
+  extends Omit<HTMLincmixProps<"button">, IsDisabledProps>,
     MenuItemOptions {}
 
 export const MenuItem = forwardRef<MenuItemProps, "button">((props, ref) => {
@@ -68,7 +68,7 @@ export const MenuItem = forwardRef<MenuItemProps, "button">((props, ref) => {
   return (
     <StyledMenuItem
       {...menuitemProps}
-      className={cx("chakra-menu__menuitem", menuitemProps.className)}
+      className={cx("incmix-menu__menuitem", menuitemProps.className)}
     >
       {icon && (
         <MenuIcon fontSize="0.8em" marginEnd={iconSpacing}>

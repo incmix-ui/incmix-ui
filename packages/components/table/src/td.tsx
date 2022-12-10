@@ -1,7 +1,7 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
 import { useTableStyles } from "./table"
 
-export interface TableCellProps extends HTMLChakraProps<"td"> {
+export interface TableCellProps extends HTMLincmixProps<"td"> {
   /**
    * Aligns the cell content to the right
    */
@@ -12,7 +12,7 @@ export const Td = forwardRef<TableCellProps, "td">(
     const styles = useTableStyles()
 
     return (
-      <chakra.td
+      <incmix.td
         {...rest}
         ref={ref}
         __css={styles.td}

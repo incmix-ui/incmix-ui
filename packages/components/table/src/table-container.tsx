@@ -1,15 +1,15 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 
-export interface TableContainerProps extends HTMLChakraProps<"div"> {}
+export interface TableContainerProps extends HTMLincmixProps<"div"> {}
 
 export const TableContainer = forwardRef<TableContainerProps, "div">(
-  (props: HTMLChakraProps<"div">, ref) => {
+  (props: HTMLincmixProps<"div">, ref) => {
     const { overflow, overflowX, className, ...rest } = props
     return (
-      <chakra.div
+      <incmix.div
         ref={ref}
-        className={cx("chakra-table__container", className)}
+        className={cx("incmix-table__container", className)}
         {...rest}
         __css={{
           display: "block",

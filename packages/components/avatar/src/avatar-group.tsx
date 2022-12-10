@@ -1,16 +1,16 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
   omitThemingProps,
   SystemProps,
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
-import { getValidChildren } from "@chakra-ui/react-children-utils"
-import { compact } from "@chakra-ui/object-utils"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { getValidChildren } from "@incmix-ui/react-children-utils"
+import { compact } from "@incmix-ui/object-utils"
 import { baseStyle } from "./avatar"
 import { cloneElement } from "react"
 
@@ -35,7 +35,7 @@ interface AvatarGroupOptions {
 
 export interface AvatarGroupProps
   extends AvatarGroupOptions,
-    Omit<HTMLChakraProps<"div">, "children">,
+    Omit<HTMLincmixProps<"div">, "children">,
     ThemingProps<"Avatar"> {}
 
 /**
@@ -101,20 +101,20 @@ export const AvatarGroup = forwardRef<AvatarGroupProps, "div">(
     }
 
     return (
-      <chakra.div
+      <incmix.div
         ref={ref}
         role="group"
         __css={groupStyles}
         {...rest}
-        className={cx("chakra-avatar__group", props.className)}
+        className={cx("incmix-avatar__group", props.className)}
       >
         {excess > 0 && (
-          <chakra.span className="chakra-avatar__excess" __css={excessStyles}>
+          <incmix.span className="incmix-avatar__excess" __css={excessStyles}>
             {`+${excess}`}
-          </chakra.span>
+          </incmix.span>
         )}
         {clones}
-      </chakra.div>
+      </incmix.div>
     )
   },
 )

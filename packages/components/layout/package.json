@@ -1,7 +1,7 @@
 {
-  "name": "@chakra-ui/layout",
+  "name": "@incmix-ui/layout",
   "version": "2.1.11",
-  "description": "Chakra UI layout components that give you massive speed",
+  "description": "incmix UI layout components that give you massive speed",
   "keywords": [
     "layout",
     "component",
@@ -14,11 +14,11 @@
     "badge",
     "react",
     "primitives",
-    "chakra ui"
+    "incmix ui"
   ],
   "sideEffects": false,
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -29,29 +29,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/components/layout"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/icon": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*",
-    "@chakra-ui/react-children-utils": "workspace:*",
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/object-utils": "workspace:*",
-    "@chakra-ui/breakpoint-utils": "workspace:*"
+    "@incmix-ui/icon": "workspace:*",
+    "@incmix-ui/react-context": "workspace:*",
+    "@incmix-ui/react-children-utils": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
+    "@incmix-ui/object-utils": "workspace:*",
+    "@incmix-ui/breakpoint-utils": "workspace:*"
   },
   "devDependencies": {
-    "@chakra-ui/system": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
     "react-icons": "^4.2.0",
     "react-router-dom": "6.0.0",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   },
   "scripts": {

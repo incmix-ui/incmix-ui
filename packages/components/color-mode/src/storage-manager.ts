@@ -1,6 +1,6 @@
 import { ColorMode } from "./color-mode-types"
 
-export const STORAGE_KEY = "chakra-ui-color-mode"
+export const STORAGE_KEY = "incmix-ui-color-mode"
 
 type MaybeColorMode = ColorMode | undefined
 

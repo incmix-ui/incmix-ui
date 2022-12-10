@@ -16,7 +16,7 @@ describe("localStorage: color-mode-script", () => {
     })),
   )("%s", (entry) => {
     mockMatchMedia(entry.system)
-    localStorage.removeItem("chakra-ui-color-mode")
+    localStorage.removeItem("incmix-ui-color-mode")
 
     const script = document.createElement("script")
     script.innerHTML = getScriptSrc({

@@ -1,14 +1,14 @@
-import { FormControlOptions, useFormControl } from "@chakra-ui/form-control"
+import { FormControlOptions, useFormControl } from "@incmix-ui/form-control"
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
-import { omit } from "@chakra-ui/object-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { omit } from "@incmix-ui/object-utils"
 
 interface TextareaOptions {
   /**
@@ -30,14 +30,14 @@ type Omitted = "disabled" | "required" | "readOnly"
 const omitted = ["h", "minH", "height", "minHeight"]
 
 export interface TextareaProps
-  extends Omit<HTMLChakraProps<"textarea">, Omitted>,
+  extends Omit<HTMLincmixProps<"textarea">, Omitted>,
     TextareaOptions,
     FormControlOptions,
     ThemingProps<"Textarea"> {}
 
 /**
  * Textarea is used to enter an amount of text that's longer than a single line
- * @see Docs https://chakra-ui.com/textarea
+ * @see Docs https://incmix-ui.com/textarea
  */
 export const Textarea = forwardRef<TextareaProps, "textarea">((props, ref) => {
   const styles = useStyleConfig("Textarea", props)
@@ -49,11 +49,11 @@ export const Textarea = forwardRef<TextareaProps, "textarea">((props, ref) => {
   const textareaStyles = rows ? omit(styles, omitted) : styles
 
   return (
-    <chakra.textarea
+    <incmix.textarea
       ref={ref}
       rows={rows}
       {...textareaProps}
-      className={cx("chakra-textarea", className)}
+      className={cx("incmix-textarea", className)}
       __css={textareaStyles}
     />
   )

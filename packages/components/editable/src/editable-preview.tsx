@@ -1,9 +1,9 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { useEditableContext, useEditableStyles } from "./editable-context"
 import { commonStyles } from "./shared"
 
-export interface EditablePreviewProps extends HTMLChakraProps<"div"> {}
+export interface EditablePreviewProps extends HTMLincmixProps<"div"> {}
 
 /**
  * EditablePreview
@@ -15,11 +15,11 @@ export const EditablePreview = forwardRef<EditablePreviewProps, "span">(
     const { getPreviewProps } = useEditableContext()
     const styles = useEditableStyles()
 
-    const previewProps = getPreviewProps(props, ref) as HTMLChakraProps<"span">
-    const _className = cx("chakra-editable__preview", props.className)
+    const previewProps = getPreviewProps(props, ref) as HTMLincmixProps<"span">
+    const _className = cx("incmix-editable__preview", props.className)
 
     return (
-      <chakra.span
+      <incmix.span
         {...previewProps}
         __css={{
           cursor: "text",

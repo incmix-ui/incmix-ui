@@ -1,11 +1,11 @@
-import { chakra, HTMLChakraProps, forwardRef } from "@chakra-ui/system"
+import { incmix, HTMLincmixProps, forwardRef } from "@incmix-ui/system"
 import { HTMLMotionProps, motion, Variant } from "framer-motion"
 import React from "react"
 import { usePopoverContext } from "./popover-context"
 
 // TODO: consider moving this to some util
-type HTMLMotionChakraProps<T extends keyof React.ReactHTML> = Omit<
-  HTMLChakraProps<T>,
+type HTMLMotionincmixProps<T extends keyof React.ReactHTML> = Omit<
+  HTMLincmixProps<T>,
   keyof HTMLMotionProps<T>
 > &
   Omit<
@@ -58,10 +58,10 @@ const scaleFade: MotionVariants = {
   },
 }
 
-const MotionSection = chakra(motion.section)
+const MotionSection = incmix(motion.section)
 
 export interface PopoverTransitionProps
-  extends HTMLMotionChakraProps<"section"> {}
+  extends HTMLMotionincmixProps<"section"> {}
 
 export const PopoverTransition = forwardRef(function PopoverTransition(
   props: PopoverTransitionProps,

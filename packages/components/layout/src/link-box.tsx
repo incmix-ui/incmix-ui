@@ -1,7 +1,7 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 
-export interface LinkOverlayProps extends HTMLChakraProps<"a"> {
+export interface LinkOverlayProps extends HTMLincmixProps<"a"> {
   /**
    *  If `true`, the link will open in new tab
    */
@@ -12,10 +12,10 @@ export const LinkOverlay = forwardRef<LinkOverlayProps, "a">(
   function LinkOverlay(props, ref) {
     const { isExternal, target, rel, className, ...rest } = props
     return (
-      <chakra.a
+      <incmix.a
         {...rest}
         ref={ref}
-        className={cx("chakra-linkbox__overlay", className)}
+        className={cx("incmix-linkbox__overlay", className)}
         rel={isExternal ? "noopener noreferrer" : rel}
         target={isExternal ? "_blank" : target}
         __css={{
@@ -37,12 +37,12 @@ export const LinkOverlay = forwardRef<LinkOverlayProps, "a">(
   },
 )
 
-export interface LinkBoxProps extends HTMLChakraProps<"div"> {}
+export interface LinkBoxProps extends HTMLincmixProps<"div"> {}
 
 /**
  * `LinkBox` is used to wrap content areas within a link while ensuring semantic html
  *
- * @see Docs https://chakra-ui.com/docs/navigation/link-overlay
+ * @see Docs https://incmix-ui.com/docs/navigation/link-overlay
  * @see Resources https://www.sarasoueidan.com/blog/nested-links
  */
 export const LinkBox = forwardRef<LinkBoxProps, "div">(function LinkBox(
@@ -52,14 +52,14 @@ export const LinkBox = forwardRef<LinkBoxProps, "div">(function LinkBox(
   const { className, ...rest } = props
 
   return (
-    <chakra.div
+    <incmix.div
       ref={ref}
       position="relative"
       {...rest}
-      className={cx("chakra-linkbox", className)}
+      className={cx("incmix-linkbox", className)}
       __css={{
         /* Elevate the links and abbreviations up */
-        "a[href]:not(.chakra-linkbox__overlay), abbr[title]": {
+        "a[href]:not(.incmix-linkbox__overlay), abbr[title]": {
           position: "relative",
           zIndex: 1,
         },

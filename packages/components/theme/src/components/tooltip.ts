@@ -1,5 +1,5 @@
-import { defineStyle, defineStyleConfig } from "@chakra-ui/styled-system"
-import { cssVar } from "@chakra-ui/theme-tools"
+import { defineStyle, defineStyleConfig } from "@incmix-ui/styled-system"
+import { cssVar } from "@incmix-ui/theme-tools"
 
 const $bg = cssVar("tooltip-bg")
 const $fg = cssVar("tooltip-fg")

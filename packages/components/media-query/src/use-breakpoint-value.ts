@@ -1,6 +1,6 @@
-import { useTheme } from "@chakra-ui/system"
-import { isObject } from "@chakra-ui/shared-utils"
-import { arrayToObjectNotation } from "@chakra-ui/breakpoint-utils"
+import { useTheme } from "@incmix-ui/system"
+import { isObject } from "@incmix-ui/shared-utils"
+import { arrayToObjectNotation } from "@incmix-ui/breakpoint-utils"
 import { getClosestValue } from "./media-query.utils"
 import { useBreakpoint, UseBreakpointOptions } from "./use-breakpoint"
 
@@ -14,7 +14,7 @@ import { useBreakpoint, UseBreakpointOptions } from "./use-breakpoint"
  * @example
  * const width = useBreakpointValue({ base: '150px', md: '250px' })
  *
- * @see Docs https://chakra-ui.com/docs/hooks/use-breakpoint-value
+ * @see Docs https://incmix-ui.com/docs/hooks/use-breakpoint-value
  */
 export function useBreakpointValue<T = any>(
   values: Partial<Record<string, T>> | T[],

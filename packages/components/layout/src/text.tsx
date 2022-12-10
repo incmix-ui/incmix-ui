@@ -1,16 +1,16 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
   omitThemingProps,
   SystemProps,
   ThemingProps,
   useStyleConfig,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
-import { compact } from "@chakra-ui/object-utils"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { compact } from "@incmix-ui/object-utils"
 
-export interface TextProps extends HTMLChakraProps<"p">, ThemingProps<"Text"> {
+export interface TextProps extends HTMLincmixProps<"p">, ThemingProps<"Text"> {
   /**
    * The CSS `text-align` property
    * @type SystemProps["textAlign"]
@@ -31,7 +31,7 @@ export interface TextProps extends HTMLChakraProps<"p">, ThemingProps<"Text"> {
 /**
  * Used to render texts or paragraphs.
  *
- * @see Docs https://chakra-ui.com/text
+ * @see Docs https://incmix-ui.com/text
  */
 export const Text = forwardRef<TextProps, "p">(function Text(props, ref) {
   const styles = useStyleConfig("Text", props)
@@ -45,9 +45,9 @@ export const Text = forwardRef<TextProps, "p">(function Text(props, ref) {
   })
 
   return (
-    <chakra.p
+    <incmix.p
       ref={ref}
-      className={cx("chakra-text", props.className)}
+      className={cx("incmix-text", props.className)}
       {...aliasedProps}
       {...rest}
       __css={styles}

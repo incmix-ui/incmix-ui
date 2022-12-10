@@ -1,11 +1,11 @@
 import {
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
   useStyleConfig,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 import { Fragment, useMemo } from "react"
 import { Box } from "./box"
 
@@ -53,7 +53,7 @@ export type HighlightProps = {
   styles?: SystemStyleObject
 }
 
-export type MarkProps = ThemingProps<"Mark"> & HTMLChakraProps<"mark">
+export type MarkProps = ThemingProps<"Mark"> & HTMLincmixProps<"mark">
 
 export const Mark = forwardRef<MarkProps, "mark">(function Mark(props, ref) {
   const styles = useStyleConfig("Mark", props)
@@ -71,7 +71,7 @@ export const Mark = forwardRef<MarkProps, "mark">(function Mark(props, ref) {
 /**
  * `Highlight` allows you to highlight substrings of a text.
  *
- * @see Docs https://chakra-ui.com/docs/components/highlight
+ * @see Docs https://incmix-ui.com/docs/components/highlight
  */
 export function Highlight(props: HighlightProps): JSX.Element {
   const { children, query, styles } = props

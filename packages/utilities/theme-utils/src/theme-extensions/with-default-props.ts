@@ -1,4 +1,4 @@
-import { ComponentDefaultProps } from "@chakra-ui/theme"
+import { ComponentDefaultProps } from "@incmix-ui/theme"
 import { mergeThemeOverride } from "../extend-theme"
 import { withDefaultColorScheme } from "./with-default-color-scheme"
 import { withDefaultSize } from "./with-default-size"

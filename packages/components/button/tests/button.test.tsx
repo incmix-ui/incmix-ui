@@ -1,6 +1,6 @@
 import * as React from "react"
-import { render, testA11y, screen } from "@chakra-ui/test-utils"
-import { EmailIcon, ArrowForwardIcon } from "@chakra-ui/icons"
+import { render, testA11y, screen } from "@incmix-ui/test-utils"
+import { EmailIcon, ArrowForwardIcon } from "@incmix-ui/icons"
 import { Button, ButtonGroup } from "../src"
 
 it("passes a11y test", async () => {
@@ -46,7 +46,7 @@ test("shows spinner and loading text if isLoading and loadingText", () => {
 
   // Confirm spinner position
   expect(screen.getByText(/Spinner at start/i)).toHaveClass(
-    "chakra-button__spinner--start",
+    "incmix-button__spinner--start",
   )
 
   rerender(
@@ -61,7 +61,7 @@ test("shows spinner and loading text if isLoading and loadingText", () => {
   )
 
   expect(screen.getByText(/Spinner at end/i)).toHaveClass(
-    "chakra-button__spinner--end",
+    "incmix-button__spinner--end",
   )
   // expect(screen.queryByTestId("placement-end")).toBeInTheDocument()
   // expect(screen.queryByTestId("placement-start")).not.toBeInTheDocument()

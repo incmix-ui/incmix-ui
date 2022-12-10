@@ -5,8 +5,8 @@ import type {
   StyleObjectOrFn,
   SystemStyleInterpolation,
   ThemingProps,
-} from "@chakra-ui/styled-system"
-import { Styles } from "@chakra-ui/theme-tools"
+} from "@incmix-ui/styled-system"
+import { Styles } from "@incmix-ui/theme-tools"
 
 type ColorMode = "light" | "dark"
 type Dict = Record<string, any>
@@ -56,18 +56,18 @@ export interface ComponentDefaultProps
   extends Omit<ThemingProps, "styleConfig">,
     Dict {}
 
-export interface ThemeComponentProps<T extends ChakraTheme = ChakraTheme>
+export interface ThemeComponentProps<T extends incmixTheme = incmixTheme>
   extends Omit<ThemingProps, "styleConfig"> {
   colorMode: ColorMode
   theme: T
   [x: string]: any
 }
 
-export type ThemeComponentFunction<S, T extends ChakraTheme = ChakraTheme> = (
+export type ThemeComponentFunction<S, T extends incmixTheme = incmixTheme> = (
   props: ThemeComponentProps<T>,
 ) => S
 
-export type ThemingPropsThunk<S, T extends ChakraTheme = ChakraTheme> =
+export type ThemingPropsThunk<S, T extends incmixTheme = incmixTheme> =
   | S
   | ThemeComponentFunction<S, T>
 
@@ -119,7 +119,7 @@ interface Foundations extends Typography {
   zIndices: RecursiveObject
 }
 
-export interface ChakraTheme extends Foundations {
+export interface incmixTheme extends Foundations {
   semanticTokens?: Partial<
     Record<keyof Foundations, Record<string, SemanticValue<keyof Pseudos>>>
   >

@@ -1,4 +1,4 @@
-import { SystemProps } from "@chakra-ui/system"
+import { SystemProps } from "@incmix-ui/system"
 
 export interface AvatarOptions {
   /**

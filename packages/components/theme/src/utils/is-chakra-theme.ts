@@ -1,7 +1,7 @@
-import { isObject } from "@chakra-ui/shared-utils"
-import type { ChakraTheme } from "../theme.types"
+import { isObject } from "@incmix-ui/shared-utils"
+import type { incmixTheme } from "../theme.types"
 
-export const requiredChakraThemeKeys: (keyof ChakraTheme)[] = [
+export const requiredincmixThemeKeys: (keyof incmixTheme)[] = [
   "borders",
   "breakpoints",
   "colors",
@@ -22,12 +22,12 @@ export const requiredChakraThemeKeys: (keyof ChakraTheme)[] = [
   "zIndices",
 ]
 
-export function isChakraTheme(unit: unknown): unit is ChakraTheme {
+export function isincmixTheme(unit: unknown): unit is incmixTheme {
   if (!isObject(unit)) {
     return false
   }
 
-  return requiredChakraThemeKeys.every((propertyName) =>
+  return requiredincmixThemeKeys.every((propertyName) =>
     Object.prototype.hasOwnProperty.call(unit, propertyName),
   )
 }

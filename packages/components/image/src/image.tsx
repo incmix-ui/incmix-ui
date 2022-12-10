@@ -1,10 +1,10 @@
 import {
-  chakra,
+  incmix,
   SystemProps,
   forwardRef,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
-import { omit } from "@chakra-ui/object-utils"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
+import { omit } from "@incmix-ui/object-utils"
 import {
   FallbackStrategy,
   shouldShowFallbackImage,
@@ -51,7 +51,7 @@ interface ImageOptions extends NativeImageOptions {
    * - onError: loads the fallbackImage only if there is an error fetching the src
    *
    * @default "beforeLoadOrError"
-   * @see Issue https://github.com/chakra-ui/chakra-ui/issues/5581
+   * @see Issue https://github.com/incmix-ui/incmix-ui/issues/5581
    */
   fallbackStrategy?: FallbackStrategy
   /**
@@ -63,14 +63,14 @@ interface ImageOptions extends NativeImageOptions {
 
 export interface ImageProps
   extends UseImageProps,
-    Omit<HTMLChakraProps<"img">, keyof UseImageProps>,
+    Omit<HTMLincmixProps<"img">, keyof UseImageProps>,
     ImageOptions {}
 
 /**
  * React component that renders an image with support
  * for fallbacks
  *
- * @see Docs https://chakra-ui.com/image
+ * @see Docs https://incmix-ui.com/image
  */
 export const Image = forwardRef<ImageProps, "img">(function Image(props, ref) {
   const {
@@ -91,7 +91,7 @@ export const Image = forwardRef<ImageProps, "img">(function Image(props, ref) {
   const providedFallback = fallbackSrc !== undefined || fallback !== undefined
   /**
    * Defer to native `img` tag if `loading` prop is passed
-   * @see https://github.com/chakra-ui/chakra-ui/issues/1027
+   * @see https://github.com/incmix-ui/incmix-ui/issues/1027
    *
    * shouldIgnoreFallbackImage determines if we have the possibility to render a fallback image
    */
@@ -127,9 +127,9 @@ export const Image = forwardRef<ImageProps, "img">(function Image(props, ref) {
     if (fallback) return fallback
 
     return (
-      <chakra.img
+      <incmix.img
         as={NativeImage}
-        className="chakra-image__placeholder"
+        className="incmix-image__placeholder"
         src={fallbackSrc}
         {...shared}
       />
@@ -137,14 +137,14 @@ export const Image = forwardRef<ImageProps, "img">(function Image(props, ref) {
   }
 
   return (
-    <chakra.img
+    <incmix.img
       as={NativeImage}
       src={src}
       srcSet={srcSet}
       crossOrigin={crossOrigin}
       loading={loading}
       referrerPolicy={referrerPolicy}
-      className="chakra-image"
+      className="incmix-image"
       {...shared}
     />
   )

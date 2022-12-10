@@ -1,4 +1,4 @@
-# @chakra-ui/theme-utils
+# @incmix-ui/theme-utils
 
 A Quick description of the component
 
@@ -7,18 +7,18 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @chakra-ui/theme-utils
+yarn add @incmix-ui/theme-utils
 # or
-npm i @chakra-ui/theme-utils
+npm i @incmix-ui/theme-utils
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/chakra-ui/chakra-ui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/incmix-ui/incmix-ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## Licence
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/chakra-ui/chakra-ui/blob/master/LICENSE).
+[MIT license](https://github.com/incmix-ui/incmix-ui/blob/master/LICENSE).

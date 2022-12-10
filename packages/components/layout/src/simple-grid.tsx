@@ -3,8 +3,8 @@ import {
   getToken,
   ResponsiveValue,
   useTheme,
-} from "@chakra-ui/system"
-import { mapResponsive } from "@chakra-ui/breakpoint-utils"
+} from "@incmix-ui/system"
+import { mapResponsive } from "@incmix-ui/breakpoint-utils"
 import { Grid, GridProps } from "./grid"
 
 interface SimpleGridOptions {
@@ -40,7 +40,7 @@ export interface SimpleGridProps extends GridProps, SimpleGridOptions {}
  *
  * Provides props that easily define columns and spacing.
  *
- * @see Docs https://chakra-ui.com/simplegrid
+ * @see Docs https://incmix-ui.com/simplegrid
  */
 export const SimpleGrid = forwardRef<SimpleGridProps, "div">(
   function SimpleGrid(props, ref) {

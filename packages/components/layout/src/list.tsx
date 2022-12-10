@@ -1,18 +1,18 @@
-import { Icon, IconProps } from "@chakra-ui/icon"
-import { createContext } from "@chakra-ui/react-context"
-import { getValidChildren } from "@chakra-ui/react-children-utils"
+import { Icon, IconProps } from "@incmix-ui/icon"
+import { createContext } from "@incmix-ui/react-context"
+import { getValidChildren } from "@incmix-ui/react-children-utils"
 import type {
-  HTMLChakraProps,
+  HTMLincmixProps,
   SystemProps,
   ThemingProps,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 import {
-  chakra,
+  incmix,
   forwardRef,
   omitThemingProps,
   SystemStyleObject,
   useMultiStyleConfig,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 
 const [ListStylesProvider, useListStyles] = createContext<
   Record<string, SystemStyleObject>
@@ -42,14 +42,14 @@ interface ListOptions {
 }
 
 export interface ListProps
-  extends HTMLChakraProps<"ul">,
+  extends HTMLincmixProps<"ul">,
     ThemingProps<"List">,
     ListOptions {}
 
 /**
  * List is used to display list items, it renders a `<ul>` by default.
  *
- * @see Docs https://chakra-ui.com/list
+ * @see Docs https://incmix-ui.com/list
  */
 export const List = forwardRef<ListProps, "ul">(function List(props, ref) {
   const styles = useMultiStyleConfig("List", props)
@@ -69,7 +69,7 @@ export const List = forwardRef<ListProps, "ul">(function List(props, ref) {
 
   return (
     <ListStylesProvider value={styles}>
-      <chakra.ul
+      <incmix.ul
         ref={ref}
         listStyleType={styleType}
         listStylePosition={stylePosition}
@@ -82,7 +82,7 @@ export const List = forwardRef<ListProps, "ul">(function List(props, ref) {
         {...rest}
       >
         {validChildren}
-      </chakra.ul>
+      </incmix.ul>
     </ListStylesProvider>
   )
 })
@@ -110,7 +110,7 @@ export const UnorderedList = forwardRef<ListProps, "ul">(function UnorderedList(
 
 UnorderedList.displayName = "UnorderedList"
 
-export interface ListItemProps extends HTMLChakraProps<"li"> {}
+export interface ListItemProps extends HTMLincmixProps<"li"> {}
 
 /**
  * ListItem
@@ -123,7 +123,7 @@ export const ListItem = forwardRef<ListItemProps, "li">(function ListItem(
 ) {
   const styles = useListStyles()
 
-  return <chakra.li ref={ref} {...props} __css={styles.item} />
+  return <incmix.li ref={ref} {...props} __css={styles.item} />
 })
 
 ListItem.displayName = "ListItem"

@@ -1,4 +1,4 @@
-import { createIcon } from "@chakra-ui/icon"
+import { createIcon } from "@incmix-ui/icon"
 
 export const DragHandleIcon = createIcon({
   viewBox: "0 0 10 10",

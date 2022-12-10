@@ -1,4 +1,4 @@
-import { warn } from "@chakra-ui/shared-utils"
+import { warn } from "@incmix-ui/shared-utils"
 
 export interface BaseBreakpointConfig {
   sm: string
@@ -20,7 +20,7 @@ export const createBreakpoints = <T extends BaseBreakpointConfig>(
   warn({
     condition: true,
     message: [
-      `[chakra-ui]: createBreakpoints(...) will be deprecated pretty soon`,
+      `[incmix-ui]: createBreakpoints(...) will be deprecated pretty soon`,
       `simply pass the breakpoints as an object. Remove the createBreakpoints(..) call`,
     ].join(""),
   })

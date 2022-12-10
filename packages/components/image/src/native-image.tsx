@@ -1,4 +1,4 @@
-import { PropsOf, forwardRef } from "@chakra-ui/system"
+import { PropsOf, forwardRef } from "@incmix-ui/system"
 
 export interface NativeImageOptions {
   /**

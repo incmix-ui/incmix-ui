@@ -7,11 +7,11 @@ for entering digits quickly.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/pin-input
+yarn add @incmix-ui/pin-input
 
 or
 
-npm i @chakra-ui/pin-input
+npm i @incmix-ui/pin-input
 ```
 
 ## Import component
@@ -22,13 +22,13 @@ import {
   PinInputField,
   usePinInput,
   usePinInputField,
-} from "@chakra-ui/pin-input"
+} from "@incmix-ui/pin-input"
 ```
 
 ## Usage
 
-Chakra UI exports two primary components, `PinInput` and `PinInputField` to
-compose a PinInput component. Chakra UI also provides hooks to can create a
+incmix UI exports two primary components, `PinInput` and `PinInputField` to
+compose a PinInput component. incmix UI also provides hooks to can create a
 custom PinInput component.
 
 ```jsx

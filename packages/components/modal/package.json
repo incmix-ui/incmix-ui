@@ -1,7 +1,7 @@
 {
-  "name": "@chakra-ui/modal",
+  "name": "@incmix-ui/modal",
   "version": "2.2.5",
-  "description": "An accessible dialog (modal) component for React & Chakra UI",
+  "description": "An accessible dialog (modal) component for React & incmix UI",
   "keywords": [
     "react",
     "react component",
@@ -15,11 +15,11 @@
     "modal component",
     "react modal component",
     "react modal",
-    "chakra"
+    "incmix"
   ],
   "sideEffects": false,
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -30,27 +30,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/components/modal"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/close-button": "workspace:*",
-    "@chakra-ui/focus-lock": "workspace:*",
-    "@chakra-ui/portal": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*",
-    "@chakra-ui/react-types": "workspace:*",
-    "@chakra-ui/react-use-merge-refs": "workspace:*",
-    "@chakra-ui/transition": "workspace:*",
+    "@incmix-ui/close-button": "workspace:*",
+    "@incmix-ui/focus-lock": "workspace:*",
+    "@incmix-ui/portal": "workspace:*",
+    "@incmix-ui/react-context": "workspace:*",
+    "@incmix-ui/react-types": "workspace:*",
+    "@incmix-ui/react-use-merge-refs": "workspace:*",
+    "@incmix-ui/transition": "workspace:*",
     "aria-hidden": "^1.1.1",
     "react-remove-scroll": "^2.5.4"
   },
   "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/hooks": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/hooks": "workspace:*",
     "@testing-library/react-hooks": "8.0.0",
     "framer-motion": "^6.2.9",
     "react-lorem-component": "0.13.0",
@@ -59,7 +59,7 @@
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "framer-motion": ">=4.0.0",
     "react": ">=18",
     "react-dom": ">=18"

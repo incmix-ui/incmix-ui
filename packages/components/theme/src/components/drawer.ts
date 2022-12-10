@@ -1,9 +1,9 @@
-import { drawerAnatomy as parts } from "@chakra-ui/anatomy"
+import { drawerAnatomy as parts } from "@incmix-ui/anatomy"
 import {
   createMultiStyleConfigHelpers,
   cssVar,
   defineStyle,
-} from "@chakra-ui/styled-system"
+} from "@incmix-ui/styled-system"
 import { runIfFn } from "../utils/run-if-fn"
 
 const { definePartsStyle, defineMultiStyleConfig } =

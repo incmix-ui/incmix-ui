@@ -1,4 +1,4 @@
-import { chakra } from "@chakra-ui/system"
+import { incmix } from "@incmix-ui/system"
 import * as React from "react"
 import { Textarea } from "../src"
 
@@ -6,9 +6,9 @@ export default {
   title: "Components / Forms / Textarea",
   decorators: [
     (story: Function) => (
-      <chakra.div maxW="500px" mt="40px" mx="auto">
+      <incmix.div maxW="500px" mt="40px" mx="auto">
         {story()}
-      </chakra.div>
+      </incmix.div>
     ),
   ],
 }

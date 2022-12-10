@@ -1,4 +1,4 @@
-# @chakra-ui/visually-hidden
+# @incmix-ui/visually-hidden
 
 The visually hidden component styles itself so that it’s content is not visible,
 but it is available to assistive technologies like screen readers and other text
@@ -7,17 +7,17 @@ to speech programs.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/visually-hidden
+yarn add @incmix-ui/visually-hidden
 
 # or
 
-npm i @chakra-ui/visually-hidden
+npm i @incmix-ui/visually-hidden
 ```
 
 ## Import component
 
 ```jsx
-import { VisuallyHidden } from "@chakra-ui/visually-hidden"
+import { VisuallyHidden } from "@incmix-ui/visually-hidden"
 ```
 
 ## Basic usage

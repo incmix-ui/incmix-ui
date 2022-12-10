@@ -1,24 +1,24 @@
-# @chakra-ui/image
+# @incmix-ui/image
 
 The Image component is used to display images.
 
 ## Installation
 
 ```sh
-yarn add @chakra-ui/image
+yarn add @incmix-ui/image
 ```
 
 ## Import component
 
 ```jsx
-import { Image } from "@chakra-ui/image"
+import { Image } from "@incmix-ui/image"
 ```
 
 ## Basic Usage
 
 ```jsx
 import React from "react"
-import { Image } from "@chakra-ui/image"
+import { Image } from "@incmix-ui/image"
 
 const Example = () => (
   <Image

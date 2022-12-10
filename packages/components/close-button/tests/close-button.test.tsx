@@ -1,5 +1,5 @@
 import * as React from "react"
-import { render, testA11y, screen } from "@chakra-ui/test-utils"
+import { render, testA11y, screen } from "@incmix-ui/test-utils"
 import { CloseButton } from "../src"
 
 test("passes a11y test", async () => {

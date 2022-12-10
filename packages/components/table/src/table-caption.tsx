@@ -1,7 +1,7 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
 import { useTableStyles } from "./table"
 
-export interface TableCaptionProps extends HTMLChakraProps<"caption"> {
+export interface TableCaptionProps extends HTMLincmixProps<"caption"> {
   /**
    * The placement of the table caption. This sets the `caption-side` CSS attribute.
    * @default "bottom"
@@ -14,7 +14,7 @@ export const TableCaption = forwardRef<TableCaptionProps, "caption">(
     const { placement = "bottom", ...rest } = props
     const styles = useTableStyles()
     return (
-      <chakra.caption
+      <incmix.caption
         {...rest}
         ref={ref}
         __css={{

@@ -1,5 +1,5 @@
-import { Heading } from "@chakra-ui/layout"
-import { chakra } from "@chakra-ui/system"
+import { Heading } from "@incmix-ui/layout"
+import { incmix } from "@incmix-ui/system"
 import * as React from "react"
 import {
   Editable,
@@ -14,9 +14,9 @@ export default {
   title: "Components / Forms / Editable",
   decorators: [
     (Story: Function) => (
-      <chakra.div maxW="400px" mt="40px" mx="auto">
+      <incmix.div maxW="400px" mt="40px" mx="auto">
         <Story />
-      </chakra.div>
+      </incmix.div>
     ),
   ],
 }
@@ -98,14 +98,14 @@ export const Basic = () => (
 
 export const CodeSandboxTopbar = () => {
   return (
-    <chakra.div py="4" display="flex" alignItems="center">
-      <chakra.p fontWeight="medium">My Sandboxes</chakra.p>
-      <chakra.span mx="3">/</chakra.span>
-      <Editable defaultValue="chakra-ui-demo">
+    <incmix.div py="4" display="flex" alignItems="center">
+      <incmix.p fontWeight="medium">My Sandboxes</incmix.p>
+      <incmix.span mx="3">/</incmix.span>
+      <Editable defaultValue="incmix-ui-demo">
         <EditableInput _focus={{ boxShadow: "none" }} />
         <EditablePreview />
       </Editable>
-    </chakra.div>
+    </incmix.div>
   )
 }
 

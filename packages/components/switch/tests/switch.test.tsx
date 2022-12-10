@@ -1,5 +1,5 @@
-import { FormControl, FormLabel } from "@chakra-ui/form-control"
-import { render, fireEvent } from "@chakra-ui/test-utils"
+import { FormControl, FormLabel } from "@incmix-ui/form-control"
+import { render, fireEvent } from "@incmix-ui/test-utils"
 import * as React from "react"
 import { Switch } from "../src"
 
@@ -103,7 +103,7 @@ test("Uncontrolled FormControl - mark label as invalid", () => {
   expect(switchThree).toHaveAttribute("aria-invalid", "false")
 
   const [labelOne, labelTwo, labelThree] = Array.from(
-    container.querySelectorAll("span.chakra-switch__label"),
+    container.querySelectorAll("span.incmix-switch__label"),
   )
 
   expect(labelOne).toHaveAttribute("data-invalid", "")
@@ -111,7 +111,7 @@ test("Uncontrolled FormControl - mark label as invalid", () => {
   expect(labelThree).not.toHaveAttribute("data-invalid")
 
   const [controlOne, controlTwo, controlThree] = Array.from(
-    container.querySelectorAll("span.chakra-switch__track"),
+    container.querySelectorAll("span.incmix-switch__track"),
   )
 
   expect(controlOne).toHaveAttribute("data-invalid", "")
@@ -157,7 +157,7 @@ test("Uncontrolled FormControl - mark readonly", () => {
   expect(switchThree).not.toHaveAttribute("readOnly")
 
   const [controlOne, controlTwo, controlThree] = Array.from(
-    container.querySelectorAll("span.chakra-switch__track"),
+    container.querySelectorAll("span.incmix-switch__track"),
   )
 
   expect(controlOne).toHaveAttribute("data-readonly", "")

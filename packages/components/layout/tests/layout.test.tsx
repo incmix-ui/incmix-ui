@@ -5,9 +5,9 @@ import {
   testA11y,
   waitFor,
   hooks,
-} from "@chakra-ui/test-utils"
+} from "@incmix-ui/test-utils"
 import * as React from "react"
-// import { ChakraProvider, extendTheme } from "@chakra-ui/react"
+// import { incmixProvider, extendTheme } from "@incmix-ui/react"
 import {
   Box,
   Badge,
@@ -61,11 +61,11 @@ describe("<Container />", () => {
   //     },
   //   })
   //   render(
-  //     <ChakraProvider theme={theme}>
+  //     <incmixProvider theme={theme}>
   //       <Container variant="customBackground">
   //         This is container has a red background
   //       </Container>
-  //     </ChakraProvider>,
+  //     </incmixProvider>,
   //   )
   // })
 })

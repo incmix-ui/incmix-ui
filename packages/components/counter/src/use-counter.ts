@@ -1,9 +1,9 @@
-import { useCallbackRef } from "@chakra-ui/react-use-callback-ref"
+import { useCallbackRef } from "@incmix-ui/react-use-callback-ref"
 import {
   clampValue,
   countDecimalPlaces,
   toPrecision,
-} from "@chakra-ui/number-utils"
+} from "@incmix-ui/number-utils"
 import { useCallback, useState } from "react"
 
 export interface UseCounterProps {

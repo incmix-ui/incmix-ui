@@ -1,9 +1,9 @@
 # Icon
 
-A base React icon component for Chakra UI.
+A base React icon component for incmix UI.
 
 ## Installation
 
 ```sh
-yarn add @chakra-ui/icon
+yarn add @incmix-ui/icon
 ```

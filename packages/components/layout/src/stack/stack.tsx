@@ -1,11 +1,11 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   SystemProps,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
-import { getValidChildren } from "@chakra-ui/react-children-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { getValidChildren } from "@incmix-ui/react-children-utils"
 import { cloneElement, Fragment, useMemo } from "react"
 
 import type { StackDirection } from "./stack.utils"
@@ -55,7 +55,7 @@ interface StackOptions {
   isInline?: boolean
 }
 
-export interface StackProps extends HTMLChakraProps<"div">, StackOptions {}
+export interface StackProps extends HTMLincmixProps<"div">, StackOptions {}
 
 /**
  * Stacks help you easily create flexible and automatically distributed layouts
@@ -65,7 +65,7 @@ export interface StackProps extends HTMLChakraProps<"div">, StackOptions {}
  *
  * It uses `display: flex` internally and renders a `div`.
  *
- * @see Docs https://chakra-ui.com/stack
+ * @see Docs https://incmix-ui.com/stack
  *
  */
 export const Stack = forwardRef<StackProps, "div">((props, ref) => {
@@ -136,10 +136,10 @@ export const Stack = forwardRef<StackProps, "div">((props, ref) => {
     children,
   ])
 
-  const _className = cx("chakra-stack", className)
+  const _className = cx("incmix-stack", className)
 
   return (
-    <chakra.div
+    <incmix.div
       ref={ref}
       display="flex"
       alignItems={align}
@@ -151,7 +151,7 @@ export const Stack = forwardRef<StackProps, "div">((props, ref) => {
       {...rest}
     >
       {clones}
-    </chakra.div>
+    </incmix.div>
   )
 })
 

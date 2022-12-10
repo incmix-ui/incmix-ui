@@ -1,12 +1,12 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   SystemStyleObject,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 import { useBreadcrumbStyles } from "./breadcrumb-context"
 
-export interface BreadcrumbSeparatorProps extends HTMLChakraProps<"div"> {
+export interface BreadcrumbSeparatorProps extends HTMLincmixProps<"div"> {
   /**
    * @type SystemStyleObject["mx"]
    */
@@ -27,7 +27,7 @@ export const BreadcrumbSeparator = forwardRef<BreadcrumbSeparatorProps, "span">(
     }
 
     return (
-      <chakra.span
+      <incmix.span
         ref={ref}
         role="presentation"
         {...rest}

@@ -5,13 +5,13 @@ import {
   screen,
   act,
   waitFor,
-} from "@chakra-ui/test-utils"
-import { Portal } from "@chakra-ui/portal"
+} from "@incmix-ui/test-utils"
+import { Portal } from "@incmix-ui/portal"
 import * as React from "react"
-import { Button } from "@chakra-ui/button"
+import { Button } from "@incmix-ui/button"
 import { FaSearch, FaTruck, FaUndoAlt, FaUnlink } from "react-icons/fa"
-import { ChakraProvider } from "@chakra-ui/provider"
-import theme from "@chakra-ui/theme"
+import { incmixProvider } from "@incmix-ui/provider"
+import theme from "@incmix-ui/theme"
 import {
   Menu,
   MenuButton,
@@ -125,7 +125,7 @@ test("does not fire onClick on disabled MenuItem", () => {
 /**
  * skipped because broken
  *
- * @see https://github.com/chakra-ui/chakra-ui/issues/1651
+ * @see https://github.com/incmix-ui/incmix-ui/issues/1651
  */
 test.skip("allows focusing disabled MenuItems given isFocusable", async () => {
   render(
@@ -452,7 +452,7 @@ test("MenuItem can override its parent menu's `closeOnSelect` and close the menu
 
 test("MenuList direction flips in rtl", () => {
   render(
-    <ChakraProvider theme={{ ...theme, direction: "rtl" }}>
+    <incmixProvider theme={{ ...theme, direction: "rtl" }}>
       <Menu placement="top-end" isOpen>
         <MenuButton as={Button}>Open menu</MenuButton>
         <MenuList>
@@ -460,7 +460,7 @@ test("MenuList direction flips in rtl", () => {
           <MenuItem>No no, pick me</MenuItem>
         </MenuList>
       </Menu>
-    </ChakraProvider>,
+    </incmixProvider>,
   )
 
   const menuList = screen.getByRole("menu")

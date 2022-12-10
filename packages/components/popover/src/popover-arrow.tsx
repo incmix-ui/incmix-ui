@@ -1,8 +1,8 @@
-import { chakra, HTMLChakraProps } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { incmix, HTMLincmixProps } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { usePopoverContext, usePopoverStyles } from "./popover-context"
 
-export interface PopoverArrowProps extends HTMLChakraProps<"div"> {}
+export interface PopoverArrowProps extends HTMLincmixProps<"div"> {}
 
 export function PopoverArrow(props: PopoverArrowProps) {
   const { bg, bgColor, backgroundColor } = props
@@ -10,12 +10,12 @@ export function PopoverArrow(props: PopoverArrowProps) {
   const styles = usePopoverStyles()
   const arrowBg = bg ?? bgColor ?? backgroundColor
   return (
-    <chakra.div
+    <incmix.div
       {...getArrowProps()}
-      className="chakra-popover__arrow-positioner"
+      className="incmix-popover__arrow-positioner"
     >
-      <chakra.div
-        className={cx("chakra-popover__arrow", props.className)}
+      <incmix.div
+        className={cx("incmix-popover__arrow", props.className)}
         {...getArrowInnerProps(props)}
         __css={{
           ...styles.arrow,
@@ -24,7 +24,7 @@ export function PopoverArrow(props: PopoverArrowProps) {
             : undefined,
         }}
       />
-    </chakra.div>
+    </incmix.div>
   )
 }
 

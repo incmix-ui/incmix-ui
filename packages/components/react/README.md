@@ -1,41 +1,41 @@
-# Welcome to Chakra UI ⚡️
+# Welcome to incmix UI ⚡️
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 
-- Works out of the box. Chakra UI contains a set of polished React components
+- Works out of the box. incmix UI contains a set of polished React components
   that work out of the box.
 
-- Flexible & composable. Chakra UI components are built on top of a React UI
+- Flexible & composable. incmix UI components are built on top of a React UI
   Primitive for endless composability.
 
-- Accessible. Chakra UI components follows the WAI-ARIA guidelines
+- Accessible. incmix UI components follows the WAI-ARIA guidelines
   specifications.
 
 - Dark Mode 😍: All components are dark mode compatible.
 
 ## Looking for the documentation?
 
-https://chakra-ui.com
+https://incmix-ui.com
 
-## Installing Chakra UI
+## Installing incmix UI
 
-⚡️Chakra UI is made up of multiple components and tools which you can import
-one by one. All you need to do is install the `@chakra-ui/react` package:
+⚡️incmix UI is made up of multiple components and tools which you can import
+one by one. All you need to do is install the `@incmix-ui/react` package:
 
 ```sh
-$ yarn add @chakra-ui/react
+$ yarn add @incmix-ui/react
 # or
-$ npm install --save @chakra-ui/react
+$ npm install --save @incmix-ui/react
 ```
 
 # Getting set up
 
 To start using the components, please follow these steps:
 
-1. Wrap your application in a `ThemeProvider` provided by **@chakra-ui/react**
+1. Wrap your application in a `ThemeProvider` provided by **@incmix-ui/react**
 
 ```jsx
-import { ThemeProvider, ColorModeProvider } from "@chakra-ui/react"
+import { ThemeProvider, ColorModeProvider } from "@incmix-ui/react"
 
 const App = ({ children }) => (
   <ThemeProvider>
@@ -51,9 +51,9 @@ mode.
 2. Now you can start using components like so!:
 
 ```jsx
-import { Button } from "@chakra-ui/react"
+import { Button } from "@incmix-ui/react"
 
-const App = () => <Button>I just consumed some ⚡️Chakra!</Button>
+const App = () => <Button>I just consumed some ⚡️incmix!</Button>
 ```
 
 # Contributing
@@ -74,8 +74,8 @@ Thanks goes to these wonderful people
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td style="text-align: center"><a href="https://github.com/segunadebayo"><img src="https://avatars2.githubusercontent.com/u/6916170?v=4" width="100px;" alt="Segun Adebayo"/><br /><sub><b>Segun Adebayo</b></sub></a><br /><a href="https://github.com/chakra-ui/chakra-ui/commits?author=segunadebayo" title="Code">💻</a> <a href="#maintenance-segunadebayo" title="Maintenance">🚧</a> <a href="https://github.com/chakra-ui/chakra-ui/commits?author=segunadebayo" title="Documentation">📖</a> <a href="#example-segunadebayo" title="Examples">💡</a> <a href="#design-segunadebayo" title="Design">🎨</a></td>
-    <td style="text-align: center"><a href="https://github.com/tioluwani94"><img src="https://avatars1.githubusercontent.com/u/11310046?v=4" width="100px;" alt="Tioluwani Kolawole"/><br /><sub><b>Tioluwani Kolawole</b></sub></a><br /><a href="https://github.com/chakra-ui/chakra-ui/commits?author=tioluwani94" title="Documentation">📖</a> <a href="#example-tioluwani94" title="Examples">💡</a> <a href="#maintenance-tioluwani94" title="Maintenance">🚧</a></td>
+    <td style="text-align: center"><a href="https://github.com/segunadebayo"><img src="https://avatars2.githubusercontent.com/u/6916170?v=4" width="100px;" alt="Segun Adebayo"/><br /><sub><b>Segun Adebayo</b></sub></a><br /><a href="https://github.com/incmix-ui/incmix-ui/commits?author=segunadebayo" title="Code">💻</a> <a href="#maintenance-segunadebayo" title="Maintenance">🚧</a> <a href="https://github.com/incmix-ui/incmix-ui/commits?author=segunadebayo" title="Documentation">📖</a> <a href="#example-segunadebayo" title="Examples">💡</a> <a href="#design-segunadebayo" title="Design">🎨</a></td>
+    <td style="text-align: center"><a href="https://github.com/tioluwani94"><img src="https://avatars1.githubusercontent.com/u/11310046?v=4" width="100px;" alt="Tioluwani Kolawole"/><br /><sub><b>Tioluwani Kolawole</b></sub></a><br /><a href="https://github.com/incmix-ui/incmix-ui/commits?author=tioluwani94" title="Documentation">📖</a> <a href="#example-tioluwani94" title="Examples">💡</a> <a href="#maintenance-tioluwani94" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 

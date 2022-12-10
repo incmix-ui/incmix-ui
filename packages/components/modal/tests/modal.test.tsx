@@ -4,7 +4,7 @@ import {
   render,
   testA11y,
   waitFor,
-} from "@chakra-ui/test-utils"
+} from "@incmix-ui/test-utils"
 import * as React from "react"
 import {
   Modal,

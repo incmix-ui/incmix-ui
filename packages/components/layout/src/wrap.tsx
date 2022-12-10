@@ -1,15 +1,15 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   SystemProps,
   tokenToCSSVar,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
-import { mapResponsive } from "@chakra-ui/breakpoint-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { mapResponsive } from "@incmix-ui/breakpoint-utils"
 import { Children, useMemo } from "react"
 
-export interface WrapProps extends HTMLChakraProps<"div"> {
+export interface WrapProps extends HTMLincmixProps<"div"> {
   /**
    * The space between each child (even if it wraps)
    * @type SystemProps["margin"]
@@ -58,7 +58,7 @@ function px(value: number | string | null): string | null {
  * - Buttons that appear together at the end of forms
  * - Lists of tags and chips
  *
- * @see Docs https://chakra-ui.com/wrap
+ * @see Docs https://incmix-ui.com/wrap
  */
 export const Wrap = forwardRef<WrapProps, "div">(function Wrap(props, ref) {
   const {
@@ -80,12 +80,12 @@ export const Wrap = forwardRef<WrapProps, "div">(function Wrap(props, ref) {
       spacingY,
     }
     return {
-      "--chakra-wrap-x-spacing": (theme: Record<string, any>) =>
+      "--incmix-wrap-x-spacing": (theme: Record<string, any>) =>
         mapResponsive(x, (value) => px(tokenToCSSVar("space", value)(theme))),
-      "--chakra-wrap-y-spacing": (theme: Record<string, any>) =>
+      "--incmix-wrap-y-spacing": (theme: Record<string, any>) =>
         mapResponsive(y, (value) => px(tokenToCSSVar("space", value)(theme))),
-      "--wrap-x-spacing": "calc(var(--chakra-wrap-x-spacing) / 2)",
-      "--wrap-y-spacing": "calc(var(--chakra-wrap-y-spacing) / 2)",
+      "--wrap-x-spacing": "calc(var(--incmix-wrap-x-spacing) / 2)",
+      "--wrap-y-spacing": "calc(var(--incmix-wrap-y-spacing) / 2)",
       display: "flex",
       flexWrap: "wrap",
       justifyContent: justify,
@@ -112,22 +112,22 @@ export const Wrap = forwardRef<WrapProps, "div">(function Wrap(props, ref) {
   )
 
   return (
-    <chakra.div
+    <incmix.div
       ref={ref}
-      className={cx("chakra-wrap", className)}
+      className={cx("incmix-wrap", className)}
       overflow="hidden"
       {...rest}
     >
-      <chakra.ul className="chakra-wrap__list" __css={styles}>
+      <incmix.ul className="incmix-wrap__list" __css={styles}>
         {childrenToRender}
-      </chakra.ul>
-    </chakra.div>
+      </incmix.ul>
+    </incmix.div>
   )
 })
 
 Wrap.displayName = "Wrap"
 
-export interface WrapItemProps extends HTMLChakraProps<"li"> {}
+export interface WrapItemProps extends HTMLincmixProps<"li"> {}
 
 export const WrapItem = forwardRef<WrapItemProps, "li">(function WrapItem(
   props,
@@ -135,10 +135,10 @@ export const WrapItem = forwardRef<WrapItemProps, "li">(function WrapItem(
 ) {
   const { className, ...rest } = props
   return (
-    <chakra.li
+    <incmix.li
       ref={ref}
       __css={{ display: "flex", alignItems: "flex-start" }}
-      className={cx("chakra-wrap__listitem", className)}
+      className={cx("incmix-wrap__listitem", className)}
       {...rest}
     />
   )

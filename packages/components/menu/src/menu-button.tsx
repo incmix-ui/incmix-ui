@@ -1,15 +1,15 @@
-import { forwardRef, HTMLChakraProps, chakra } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { forwardRef, HTMLincmixProps, incmix } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 
 import { useMenuStyles } from "./menu"
 import { useMenuButton } from "./use-menu"
 
-export interface MenuButtonProps extends HTMLChakraProps<"button"> {}
+export interface MenuButtonProps extends HTMLincmixProps<"button"> {}
 
 const StyledMenuButton = forwardRef<MenuButtonProps, "button">((props, ref) => {
   const styles = useMenuStyles()
   return (
-    <chakra.button
+    <incmix.button
       ref={ref}
       {...props}
       __css={{
@@ -39,13 +39,13 @@ export const MenuButton = forwardRef<MenuButtonProps, "button">(
     return (
       <Element
         {...buttonProps}
-        className={cx("chakra-menu__menu-button", props.className)}
+        className={cx("incmix-menu__menu-button", props.className)}
       >
-        <chakra.span
+        <incmix.span
           __css={{ pointerEvents: "none", flex: "1 1 auto", minW: 0 }}
         >
           {props.children}
-        </chakra.span>
+        </incmix.span>
       </Element>
     )
   },

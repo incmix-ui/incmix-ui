@@ -1,10 +1,10 @@
 import {
   theme,
   baseTheme,
-  ChakraTheme,
-  isChakraTheme,
+  incmixTheme,
+  isincmixTheme,
   Theme,
-} from "@chakra-ui/theme"
+} from "@incmix-ui/theme"
 import mergeWith from "lodash.mergewith"
 
 type CloneKey<Target, Key> = Key extends keyof Target ? Target[Key] : unknown
@@ -32,8 +32,8 @@ type DeepThemeExtension<BaseTheme, ThemeType> = {
 }
 
 export declare type ThemeOverride<BaseTheme = Theme> =
-  DeepPartial<ChakraTheme> &
-    DeepThemeExtension<BaseTheme, ChakraTheme> &
+  DeepPartial<incmixTheme> &
+    DeepThemeExtension<BaseTheme, incmixTheme> &
     Record<string, any>
 
 export type ThemeExtension<Override extends ThemeOverride = ThemeOverride> = (
@@ -43,7 +43,7 @@ export type ThemeExtension<Override extends ThemeOverride = ThemeOverride> = (
 type AnyFunction<T = any> = (...args: T[]) => any
 
 export type BaseThemeWithExtensions<
-  BaseTheme extends ChakraTheme,
+  BaseTheme extends incmixTheme,
   Extensions extends readonly [...any],
 > = BaseTheme &
   (Extensions extends [infer L, ...infer R]
@@ -56,11 +56,11 @@ export type BaseThemeWithExtensions<
  * NOTE: This got too complex to manage, and it's not worth the extra complexity.
  * We'll re-evaluate this API in the future releases.
  *
- * Function to override or customize the Chakra UI theme conveniently.
+ * Function to override or customize the incmix UI theme conveniently.
  * First extension overrides the baseTheme and following extensions override the preceding extensions.
  *
  * @example:
- * import { theme as baseTheme, extendTheme, withDefaultColorScheme } from '@chakra-ui/react'
+ * import { theme as baseTheme, extendTheme, withDefaultColorScheme } from '@incmix-ui/react'
  *
  * const customTheme = extendTheme(
  *   {
@@ -94,7 +94,7 @@ const createExtendTheme = (theme: Record<string, any>) => {
     let activeTheme = extensions[extensions.length - 1]
 
     if (
-      isChakraTheme(activeTheme) &&
+      isincmixTheme(activeTheme) &&
       // this ensures backward compatibility
       // previously only `extendTheme(override, activeTheme?)` was allowed
       overrides.length > 1

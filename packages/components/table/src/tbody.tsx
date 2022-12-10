@@ -1,9 +1,9 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
 import { useTableStyles } from "./table"
 
-export interface TableBodyProps extends HTMLChakraProps<"tbody"> {}
+export interface TableBodyProps extends HTMLincmixProps<"tbody"> {}
 
 export const Tbody = forwardRef<TableBodyProps, "tbody">((props, ref) => {
   const styles = useTableStyles()
-  return <chakra.tbody {...props} ref={ref} __css={styles.tbody} />
+  return <incmix.tbody {...props} ref={ref} __css={styles.tbody} />
 })

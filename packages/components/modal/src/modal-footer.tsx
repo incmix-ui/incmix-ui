@@ -1,23 +1,23 @@
-import { cx } from "@chakra-ui/shared-utils"
+import { cx } from "@incmix-ui/shared-utils"
 import {
-  HTMLChakraProps,
+  HTMLincmixProps,
   SystemStyleObject,
-  chakra,
+  incmix,
   forwardRef,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 
 import { useModalStyles } from "./modal"
 
-export interface ModalFooterProps extends HTMLChakraProps<"footer"> {}
+export interface ModalFooterProps extends HTMLincmixProps<"footer"> {}
 
 /**
  * ModalFooter houses the action buttons of the modal.
- * @see Docs https://chakra-ui.com/modal
+ * @see Docs https://incmix-ui.com/modal
  */
 export const ModalFooter = forwardRef<ModalFooterProps, "footer">(
   (props, ref) => {
     const { className, ...rest } = props
-    const _className = cx("chakra-modal__footer", className)
+    const _className = cx("incmix-modal__footer", className)
 
     const styles = useModalStyles()
     const footerStyles: SystemStyleObject = {
@@ -28,7 +28,7 @@ export const ModalFooter = forwardRef<ModalFooterProps, "footer">(
     }
 
     return (
-      <chakra.footer
+      <incmix.footer
         ref={ref}
         {...rest}
         __css={footerStyles}

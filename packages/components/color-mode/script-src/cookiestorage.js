@@ -12,8 +12,8 @@
       var root = document.documentElement
       var body = document.body
 
-      var clxLight = "chakra-ui-light"
-      var clxDark = "chakra-ui-dark"
+      var clxLight = "incmix-ui-light"
+      var clxDark = "incmix-ui-dark"
 
       var dark = _value === "dark"
       body.classList.add(dark ? clxDark : clxLight)

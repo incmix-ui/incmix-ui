@@ -8,7 +8,7 @@ export default {
 
 /**
  * Here's a basic link component
- * in Chakra.
+ * in incmix.
  */
 export const Default = () => (
   <Link isExternal href="https://google.com">
@@ -17,10 +17,10 @@ export const Default = () => (
 )
 
 /**
- * Chakra components supports can infer types
+ * incmix components supports can infer types
  * from the `as` prop.
  *
- * In this example, we're using Chakra Link with
+ * In this example, we're using incmix Link with
  * React Router DOM and its types are inferred
  * correctly.
  */

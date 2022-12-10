@@ -1,11 +1,11 @@
-import { FocusLockProps } from "@chakra-ui/focus-lock"
-import { Portal, PortalProps } from "@chakra-ui/portal"
-import { createContext } from "@chakra-ui/react-context"
+import { FocusLockProps } from "@incmix-ui/focus-lock"
+import { Portal, PortalProps } from "@incmix-ui/portal"
+import { createContext } from "@incmix-ui/react-context"
 import {
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 import { AnimatePresence } from "framer-motion"
 import { useModal, UseModalProps, UseModalReturn } from "./use-modal"
 
@@ -132,7 +132,7 @@ const [ModalContextProvider, useModalContext] = createContext<ModalContext>({
  *
  * It doesn't render any DOM node.
  *
- * @see Docs https://chakra-ui.com/docs/components/modal
+ * @see Docs https://incmix-ui.com/docs/components/modal
  * @see WAI-ARIA https://www.w3.org/WAI/ARIA/apg/patterns/dialogmodal/
  */
 export const Modal: React.FC<ModalProps> = (props) => {

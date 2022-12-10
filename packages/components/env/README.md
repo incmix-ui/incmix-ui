@@ -1,4 +1,4 @@
-# @chakra-ui/react-env
+# @incmix-ui/react-env
 
 React component and hook for handling window and document object in iframe or
 ssr environment
@@ -8,9 +8,9 @@ ssr environment
 ## Installation
 
 ```sh
-yarn add @chakra-ui/react-env
+yarn add @incmix-ui/react-env
 # or
-npm i @chakra-ui/react-env
+npm i @incmix-ui/react-env
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ the `useEnvironment` hook anywhere in your app to get access to the correct
 `window` and `document`.
 
 ```jsx
-import { EnvironmentProvider } from "@chakra-ui/react-env"
+import { EnvironmentProvider } from "@incmix-ui/react-env"
 
 // in your App
 const App = ({ children }) => {
@@ -61,10 +61,10 @@ const EmbeddedIFrame = () => {
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/chakra-ui/chakra-ui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/incmix-ui/incmix-ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## Licence
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/chakra-ui/chakra-ui/blob/master/LICENSE).
+[MIT license](https://github.com/incmix-ui/incmix-ui/blob/master/LICENSE).

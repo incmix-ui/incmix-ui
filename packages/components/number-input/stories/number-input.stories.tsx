@@ -1,16 +1,16 @@
-import { chakra } from "@chakra-ui/system"
+import { incmix } from "@incmix-ui/system"
 import * as React from "react"
 import Lorem from "react-lorem-component"
-import { Button } from "@chakra-ui/button"
-import { Input } from "@chakra-ui/input"
-import { Stack } from "@chakra-ui/layout"
+import { Button } from "@incmix-ui/button"
+import { Input } from "@incmix-ui/input"
+import { Stack } from "@incmix-ui/layout"
 import { useForm } from "react-hook-form"
 import {
   FormControl,
   FormErrorMessage,
   FormHelperText,
   FormLabel,
-} from "@chakra-ui/form-control"
+} from "@incmix-ui/form-control"
 import {
   NumberDecrementStepper,
   NumberIncrementStepper,
@@ -24,9 +24,9 @@ export default {
   title: "Components / Forms / NumberInput",
   decorators: [
     (story: Function) => (
-      <chakra.div maxW="400px" mt="40px" mx="auto">
+      <incmix.div maxW="400px" mt="40px" mx="auto">
         {story()}
-      </chakra.div>
+      </incmix.div>
     ),
   ],
 }
@@ -46,7 +46,7 @@ const sizes = ["xs", "sm", "md", "lg"] as const
 export const Sizes = () => (
   <Stack spacing="6">
     {sizes.map((size) => (
-      <chakra.div key={size}>
+      <incmix.div key={size}>
         <pre>size = {size}</pre>
         <NumberInput mt="2" size={size} defaultValue={15} min={10}>
           <NumberInputField />
@@ -55,7 +55,7 @@ export const Sizes = () => (
             <NumberDecrementStepper />
           </NumberInputStepper>
         </NumberInput>
-      </chakra.div>
+      </incmix.div>
     ))}
   </Stack>
 )
@@ -79,11 +79,11 @@ export const UseNumberInput = () => {
     <>
       <div>current: {valueAsNumber}</div>
       <Lorem />
-      <chakra.div display="flex">
+      <incmix.div display="flex">
         <Button {...getIncrementButtonProps()}>+</Button>
         <Input {...(getInputProps() as any)} />
         <Button {...getDecrementButtonProps()}>-</Button>
-      </chakra.div>
+      </incmix.div>
       <Lorem />
     </>
   )
@@ -112,11 +112,11 @@ export const FormatAndParse = () => {
   return (
     <>
       <div>current: {valueAsNumber}</div>
-      <chakra.div display="flex">
+      <incmix.div display="flex">
         <Button {...getIncrementButtonProps()}>+</Button>
         <Input {...getInputProps()} />
         <Button {...getDecrementButtonProps()}>-</Button>
-      </chakra.div>
+      </incmix.div>
     </>
   )
 }

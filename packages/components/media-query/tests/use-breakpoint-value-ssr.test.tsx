@@ -1,4 +1,4 @@
-import { ThemeProvider } from "@chakra-ui/system"
+import { ThemeProvider } from "@incmix-ui/system"
 import React from "react"
 import { renderToStaticMarkup } from "react-dom/server"
 import { useBreakpointValue } from "../src"

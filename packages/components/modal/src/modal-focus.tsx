@@ -1,4 +1,4 @@
-import { FocusLock } from "@chakra-ui/focus-lock"
+import { FocusLock } from "@incmix-ui/focus-lock"
 import { usePresence } from "framer-motion"
 import { useEffect } from "react"
 import { RemoveScroll } from "react-remove-scroll"

@@ -1,6 +1,6 @@
-import { createContext } from "@chakra-ui/react-context"
-import { ThemingProps, useTheme } from "@chakra-ui/system"
-import { SlideOptions } from "@chakra-ui/transition"
+import { createContext } from "@incmix-ui/react-context"
+import { ThemingProps, useTheme } from "@incmix-ui/system"
+import { SlideOptions } from "@incmix-ui/transition"
 import { Modal, ModalProps } from "./modal"
 
 const [DrawerContextProvider, useDrawerContext] = createContext<DrawerOptions>()
@@ -51,7 +51,7 @@ export interface DrawerProps
  * The Drawer component is a panel that slides out from the edge of the screen.
  * It can be useful when you need users to complete a task or view some details without leaving the current page.
  *
- * @see Docs https://chakra-ui.com/docs/components/drawer
+ * @see Docs https://incmix-ui.com/docs/components/drawer
  */
 export function Drawer(props: DrawerProps) {
   const {

@@ -1,20 +1,20 @@
-import { cx } from "@chakra-ui/shared-utils"
+import { cx } from "@incmix-ui/shared-utils"
 import {
-  chakra,
-  ChakraProps,
+  incmix,
+  incmixProps,
   SystemStyleObject,
   forwardRef,
-} from "@chakra-ui/system"
-import { fadeConfig } from "@chakra-ui/transition"
+} from "@incmix-ui/system"
+import { fadeConfig } from "@incmix-ui/transition"
 import { motion, HTMLMotionProps } from "framer-motion"
 
 import { useModalStyles, useModalContext } from "./modal"
 
-const MotionDiv = chakra(motion.div)
+const MotionDiv = incmix(motion.div)
 
 export interface ModalOverlayProps
   extends Omit<HTMLMotionProps<"div">, "color" | "transition">,
-    ChakraProps {
+    incmixProps {
   children?: React.ReactNode
   motionProps?: HTMLMotionProps<"div">
 }
@@ -23,12 +23,12 @@ export interface ModalOverlayProps
  * ModalOverlay renders a backdrop behind the modal. It is
  * also used as a wrapper for the modal content for better positioning.
  *
- * @see Docs https://chakra-ui.com/modal
+ * @see Docs https://incmix-ui.com/modal
  */
 export const ModalOverlay = forwardRef<ModalOverlayProps, "div">(
   (props, ref) => {
     const { className, transition, motionProps: _motionProps, ...rest } = props
-    const _className = cx("chakra-modal__overlay", className)
+    const _className = cx("incmix-modal__overlay", className)
 
     const styles = useModalStyles()
     const overlayStyle: SystemStyleObject = {

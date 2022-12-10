@@ -1,15 +1,15 @@
-import { useFormControlProps } from "@chakra-ui/form-control"
-import { createContext } from "@chakra-ui/react-context"
+import { useFormControlProps } from "@incmix-ui/form-control"
+import { createContext } from "@incmix-ui/react-context"
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { useMemo } from "react"
 import { TriangleDownIcon, TriangleUpIcon } from "./icons"
 import {
@@ -58,7 +58,7 @@ export interface NumberInputProps
   extends UseNumberInputProps,
     ThemingProps<"NumberInput">,
     InputOptions,
-    Omit<HTMLChakraProps<"div">, keyof UseNumberInputProps> {}
+    Omit<HTMLincmixProps<"div">, keyof UseNumberInputProps> {}
 
 /**
  * NumberInput
@@ -68,7 +68,7 @@ export interface NumberInputProps
  *
  * It renders a `div` by default.
  *
- * @see Docs http://chakra-ui.com/numberinput
+ * @see Docs http://incmix-ui.com/numberinput
  */
 export const NumberInput = forwardRef<NumberInputProps, "div">(
   function NumberInput(props, ref) {
@@ -83,10 +83,10 @@ export const NumberInput = forwardRef<NumberInputProps, "div">(
     return (
       <NumberInputProvider value={ctx}>
         <NumberInputStylesProvider value={styles}>
-          <chakra.div
+          <incmix.div
             {...htmlProps}
             ref={ref}
-            className={cx("chakra-numberinput", props.className)}
+            className={cx("incmix-numberinput", props.className)}
             __css={{
               position: "relative",
               zIndex: 0,
@@ -101,7 +101,7 @@ export const NumberInput = forwardRef<NumberInputProps, "div">(
 
 NumberInput.displayName = "NumberInput"
 
-export interface NumberInputStepperProps extends HTMLChakraProps<"div"> {}
+export interface NumberInputStepperProps extends HTMLincmixProps<"div"> {}
 
 /**
  * NumberInputStepper
@@ -111,13 +111,13 @@ export interface NumberInputStepperProps extends HTMLChakraProps<"div"> {}
  *
  * It renders a `div` by default.
  *
- * @see Docs http://chakra-ui.com/components/number-input
+ * @see Docs http://incmix-ui.com/components/number-input
  */
 export const NumberInputStepper = forwardRef<NumberInputStepperProps, "div">(
   function NumberInputStepper(props, ref) {
     const styles = useNumberInputStyles()
     return (
-      <chakra.div
+      <incmix.div
         aria-hidden
         ref={ref}
         {...props}
@@ -139,7 +139,7 @@ export const NumberInputStepper = forwardRef<NumberInputStepperProps, "div">(
 
 NumberInputStepper.displayName = "NumberInputStepper"
 
-export interface NumberInputFieldProps extends HTMLChakraProps<"input"> {}
+export interface NumberInputFieldProps extends HTMLincmixProps<"input"> {}
 
 /**
  * NumberInputField
@@ -150,7 +150,7 @@ export interface NumberInputFieldProps extends HTMLChakraProps<"input"> {}
  * It renders an `input` by default and ensures only numeric
  * values can be typed.
  *
- * @see Docs http://chakra-ui.com/numberinput
+ * @see Docs http://incmix-ui.com/numberinput
  */
 export const NumberInputField = forwardRef<NumberInputFieldProps, "input">(
   function NumberInputField(props, ref) {
@@ -160,9 +160,9 @@ export const NumberInputField = forwardRef<NumberInputFieldProps, "input">(
     const styles = useNumberInputStyles()
 
     return (
-      <chakra.input
+      <incmix.input
         {...input}
-        className={cx("chakra-numberinput__field", props.className)}
+        className={cx("incmix-numberinput__field", props.className)}
         __css={{
           width: "100%",
           ...styles.field,
@@ -174,7 +174,7 @@ export const NumberInputField = forwardRef<NumberInputFieldProps, "input">(
 
 NumberInputField.displayName = "NumberInputField"
 
-export const StyledStepper = chakra("div", {
+export const StyledStepper = incmix("div", {
   baseStyle: {
     display: "flex",
     justifyContent: "center",
@@ -188,7 +188,7 @@ export const StyledStepper = chakra("div", {
   },
 })
 
-export interface NumberDecrementStepperProps extends HTMLChakraProps<"div"> {}
+export interface NumberDecrementStepperProps extends HTMLincmixProps<"div"> {}
 
 /**
  * NumberDecrementStepper
@@ -214,7 +214,7 @@ export const NumberDecrementStepper = forwardRef<
 
 NumberDecrementStepper.displayName = "NumberDecrementStepper"
 
-export interface NumberIncrementStepperProps extends HTMLChakraProps<"div"> {}
+export interface NumberIncrementStepperProps extends HTMLincmixProps<"div"> {}
 
 /**
  * NumberIncrementStepper

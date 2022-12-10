@@ -1,11 +1,11 @@
 import { HTMLAttributes, ReactElement } from "react"
-import { forwardRef, PropsOf, SystemProps } from "@chakra-ui/system"
+import { forwardRef, PropsOf, SystemProps } from "@incmix-ui/system"
 
 import { MenuItemProps } from "./menu-item"
 import { useMenuOption, UseMenuOptionOptions } from "./use-menu"
 import { StyledMenuItem } from "./styled-menu-item"
 import { MenuIcon } from "./menu-icon"
-import { cx } from "@chakra-ui/shared-utils"
+import { cx } from "@incmix-ui/shared-utils"
 
 const CheckIcon: React.FC<PropsOf<"svg">> = (props) => (
   <svg viewBox="0 0 14 14" width="1em" height="1em" {...props}>
@@ -39,7 +39,7 @@ export const MenuItemOption = forwardRef<MenuItemOptionProps, "button">(
     return (
       <StyledMenuItem
         {...optionProps}
-        className={cx("chakra-menu__menuitem-option", rest.className)}
+        className={cx("incmix-menu__menuitem-option", rest.className)}
       >
         {icon !== null && (
           <MenuIcon

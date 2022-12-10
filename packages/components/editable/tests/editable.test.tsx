@@ -4,7 +4,7 @@ import {
   screen,
   testA11y,
   waitFor,
-} from "@chakra-ui/test-utils"
+} from "@incmix-ui/test-utils"
 import * as React from "react"
 import { Editable, EditableInput, EditablePreview } from "../src"
 
@@ -216,7 +216,7 @@ test("can submit on blur", async () => {
 
 test("startWithEditView when true focuses on the input ", () => {
   render(
-    <Editable startWithEditView defaultValue="Chakra testing">
+    <Editable startWithEditView defaultValue="incmix testing">
       <EditablePreview />
       <EditableInput data-testid="input" />
     </Editable>,

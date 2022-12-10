@@ -1,17 +1,17 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   SystemStyleObject,
   ThemingProps,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { useMemo } from "react"
 import { ButtonGroupContext, ButtonGroupProvider } from "./button-context"
 import { ButtonGroupOptions } from "./button-types"
 
 export interface ButtonGroupProps
-  extends HTMLChakraProps<"div">,
+  extends HTMLincmixProps<"div">,
     ThemingProps<"Button">,
     ButtonGroupOptions {}
 
@@ -51,7 +51,7 @@ export const ButtonGroup = forwardRef<ButtonGroupProps, "div">(
       ...rest
     } = props
 
-    const _className = cx("chakra-button__group", className)
+    const _className = cx("incmix-button__group", className)
 
     const context: ButtonGroupContext = useMemo(
       () => ({ size, colorScheme, variant, isDisabled }),
@@ -69,7 +69,7 @@ export const ButtonGroup = forwardRef<ButtonGroupProps, "div">(
 
     return (
       <ButtonGroupProvider value={context}>
-        <chakra.div
+        <incmix.div
           ref={ref}
           role="group"
           __css={groupStyles}

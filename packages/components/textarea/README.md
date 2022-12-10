@@ -5,13 +5,13 @@ The Textarea component allows you to easily create multi-line text inputs.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/textarea
+yarn add @incmix-ui/textarea
 ```
 
 ## Import component
 
 ```jsx
-import { Textarea } from "@chakra-ui/textarea"
+import { Textarea } from "@incmix-ui/textarea"
 ```
 
 ## Basic Usage

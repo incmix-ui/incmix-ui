@@ -1,4 +1,4 @@
-import { forwardRef } from "@chakra-ui/system"
+import { forwardRef } from "@incmix-ui/system"
 import { Children } from "react"
 import { Icon, IconProps } from "./icon"
 

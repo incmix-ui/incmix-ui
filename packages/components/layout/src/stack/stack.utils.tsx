@@ -1,5 +1,5 @@
-import { ResponsiveValue, SystemProps } from "@chakra-ui/system"
-import { mapResponsive } from "@chakra-ui/breakpoint-utils"
+import { ResponsiveValue, SystemProps } from "@incmix-ui/system"
+import { mapResponsive } from "@incmix-ui/breakpoint-utils"
 
 export type StackDirection = ResponsiveValue<
   "row" | "column" | "row-reverse" | "column-reverse"

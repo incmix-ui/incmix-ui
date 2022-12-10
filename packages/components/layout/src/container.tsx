@@ -1,15 +1,15 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 
 export interface ContainerProps
-  extends HTMLChakraProps<"div">,
+  extends HTMLincmixProps<"div">,
     ThemingProps<"Container"> {
   /**
    * If `true`, container will center its children
@@ -26,7 +26,7 @@ export interface ContainerProps
  *
  * It also sets a default max-width of `60ch` (60 characters).
  *
- * @see Docs https://chakra-ui.com/docs/components/container
+ * @see Docs https://incmix-ui.com/docs/components/container
  */
 export const Container = forwardRef<ContainerProps, "div">(function Container(
   props,
@@ -37,9 +37,9 @@ export const Container = forwardRef<ContainerProps, "div">(function Container(
   const styles = useStyleConfig("Container", props)
 
   return (
-    <chakra.div
+    <incmix.div
       ref={ref}
-      className={cx("chakra-container", className)}
+      className={cx("incmix-container", className)}
       {...rest}
       __css={{
         ...styles,

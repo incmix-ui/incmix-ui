@@ -7,8 +7,8 @@ import {
   type ColumnDef,
   type RowData,
 } from "@tanstack/react-table"
-import { Button, ButtonGroup, IconButton } from "@chakra-ui/button"
-import { StarIcon } from "@chakra-ui/icons"
+import { Button, ButtonGroup, IconButton } from "@incmix-ui/button"
+import { StarIcon } from "@incmix-ui/icons"
 import { Table, Tbody, Td, Th, Thead, Tr } from "../src"
 
 declare module "@tanstack/react-table" {

@@ -1,5 +1,5 @@
 import ReactFocusLock from "react-focus-lock"
-import { getAllFocusable } from "@chakra-ui/dom-utils"
+import { getAllFocusable } from "@incmix-ui/dom-utils"
 import { useCallback } from "react"
 
 interface FocusableElement {

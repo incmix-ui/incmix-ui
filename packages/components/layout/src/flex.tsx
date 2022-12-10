@@ -1,9 +1,9 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
   SystemProps,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
 
 export interface FlexOptions {
   /**
@@ -49,7 +49,7 @@ export interface FlexOptions {
   shrink?: SystemProps["flexShrink"]
 }
 
-export interface FlexProps extends HTMLChakraProps<"div">, FlexOptions {}
+export interface FlexProps extends HTMLincmixProps<"div">, FlexOptions {}
 
 /**
  * React component used to create flexbox layouts.
@@ -57,7 +57,7 @@ export interface FlexProps extends HTMLChakraProps<"div">, FlexOptions {}
  * It renders a `div` with `display: flex` and
  * comes with helpful style shorthand.
  *
- * @see Docs https://chakra-ui.com/flex
+ * @see Docs https://incmix-ui.com/flex
  */
 export const Flex = forwardRef<FlexProps, "div">(function Flex(props, ref) {
   const { direction, align, justify, wrap, basis, grow, shrink, ...rest } =
@@ -74,7 +74,7 @@ export const Flex = forwardRef<FlexProps, "div">(function Flex(props, ref) {
     flexShrink: shrink,
   }
 
-  return <chakra.div ref={ref} __css={styles} {...rest} />
+  return <incmix.div ref={ref} __css={styles} {...rest} />
 })
 
 Flex.displayName = "Flex"

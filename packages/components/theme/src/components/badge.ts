@@ -2,8 +2,8 @@ import {
   cssVar,
   defineStyle,
   defineStyleConfig,
-} from "@chakra-ui/styled-system"
-import { transparentize } from "@chakra-ui/theme-tools"
+} from "@incmix-ui/styled-system"
+import { transparentize } from "@incmix-ui/theme-tools"
 
 const baseStyle = defineStyle({
   px: 1,

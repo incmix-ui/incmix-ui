@@ -1,10 +1,10 @@
-import { cx } from "@chakra-ui/shared-utils"
-import { HTMLChakraProps, chakra, forwardRef } from "@chakra-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { HTMLincmixProps, incmix, forwardRef } from "@incmix-ui/system"
 
 type Omitted = "disabled" | "required" | "readOnly" | "size"
 
 export interface SelectFieldProps
-  extends Omit<HTMLChakraProps<"select">, Omitted> {
+  extends Omit<HTMLincmixProps<"select">, Omitted> {
   isDisabled?: boolean
 }
 
@@ -13,14 +13,14 @@ export const SelectField = forwardRef<SelectFieldProps, "select">(
     const { children, placeholder, className, ...rest } = props
 
     return (
-      <chakra.select
+      <incmix.select
         {...rest}
         ref={ref}
-        className={cx("chakra-select", className)}
+        className={cx("incmix-select", className)}
       >
         {placeholder && <option value="">{placeholder}</option>}
         {children}
-      </chakra.select>
+      </incmix.select>
     )
   },
 )

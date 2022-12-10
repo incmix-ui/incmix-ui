@@ -1,4 +1,4 @@
-import { chakra, SystemStyleObject, HTMLChakraProps } from "@chakra-ui/system"
+import { incmix, SystemStyleObject, HTMLincmixProps } from "@incmix-ui/system"
 
 export interface ControlBoxOptions {
   type?: "checkbox" | "radio"
@@ -17,7 +17,7 @@ export interface ControlBoxOptions {
 export type IControlBox = ControlBoxOptions
 
 interface BaseControlProps
-  extends Omit<HTMLChakraProps<"div">, keyof ControlBoxOptions> {}
+  extends Omit<HTMLincmixProps<"div">, keyof ControlBoxOptions> {}
 
 export interface ControlBoxProps extends BaseControlProps, ControlBoxOptions {}
 
@@ -49,7 +49,7 @@ export const ControlBox: React.FC<ControlBoxProps> = (props) => {
   const child = `& > *`
 
   return (
-    <chakra.div
+    <incmix.div
       {...rest}
       aria-hidden
       __css={{
@@ -74,7 +74,7 @@ export const ControlBox: React.FC<ControlBoxProps> = (props) => {
       }}
     >
       {children}
-    </chakra.div>
+    </incmix.div>
   )
 }
 

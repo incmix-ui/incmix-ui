@@ -2,10 +2,10 @@ import {
   ResponsiveValue,
   SystemProps,
   forwardRef,
-  chakra,
-} from "@chakra-ui/system"
-import { compact } from "@chakra-ui/object-utils"
-import { mapResponsive } from "@chakra-ui/breakpoint-utils"
+  incmix,
+} from "@incmix-ui/system"
+import { compact } from "@incmix-ui/object-utils"
+import { mapResponsive } from "@incmix-ui/breakpoint-utils"
 
 import { BoxProps } from "./box"
 
@@ -74,7 +74,7 @@ export const GridItem = forwardRef<GridItemProps, "div">(function GridItem(
     gridRowEnd: rowEnd,
   })
 
-  return <chakra.div ref={ref} __css={styles} {...rest} />
+  return <incmix.div ref={ref} __css={styles} {...rest} />
 })
 
 GridItem.displayName = "GridItem"

@@ -1,15 +1,15 @@
-import { chakra, HTMLChakraProps } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { incmix, HTMLincmixProps } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { usePopoverStyles } from "./popover-context"
 
-export interface PopoverFooterProps extends HTMLChakraProps<"footer"> {}
+export interface PopoverFooterProps extends HTMLincmixProps<"footer"> {}
 
 export function PopoverFooter(props: PopoverFooterProps) {
   const styles = usePopoverStyles()
   return (
-    <chakra.footer
+    <incmix.footer
       {...props}
-      className={cx("chakra-popover__footer", props.className)}
+      className={cx("incmix-popover__footer", props.className)}
       __css={styles.footer}
     />
   )

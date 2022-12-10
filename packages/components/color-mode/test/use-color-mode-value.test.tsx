@@ -1,5 +1,5 @@
 import * as React from "react"
-import { render, screen } from "@chakra-ui/test-utils"
+import { render, screen } from "@incmix-ui/test-utils"
 import { ColorModeProvider, useColorModeValue, useColorMode } from "../src"
 import { defaultThemeOptions, mockMatchMedia } from "./utils"
 

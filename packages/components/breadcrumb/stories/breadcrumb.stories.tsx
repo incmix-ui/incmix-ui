@@ -1,4 +1,4 @@
-import { ChevronRightIcon } from "@chakra-ui/icons"
+import { ChevronRightIcon } from "@incmix-ui/icons"
 import * as React from "react"
 import { BrowserRouter, Link } from "react-router-dom"
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from "../src"

@@ -1,8 +1,8 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { usePopoverContext, usePopoverStyles } from "./popover-context"
 
-export interface PopoverBodyProps extends HTMLChakraProps<"div"> {}
+export interface PopoverBodyProps extends HTMLincmixProps<"div"> {}
 /**
  * PopoverBody is the main content area for the popover. Should contain
  * at least one interactive element.
@@ -15,9 +15,9 @@ export const PopoverBody = forwardRef<PopoverBodyProps, "div">(
     const styles = usePopoverStyles()
 
     return (
-      <chakra.div
+      <incmix.div
         {...getBodyProps(props, ref)}
-        className={cx("chakra-popover__body", props.className)}
+        className={cx("incmix-popover__body", props.className)}
         __css={styles.body}
       />
     )

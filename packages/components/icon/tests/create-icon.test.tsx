@@ -1,9 +1,9 @@
 import * as React from "react"
-import { render } from "@chakra-ui/test-utils"
+import { render } from "@incmix-ui/test-utils"
 import { createIcon } from "../src"
 
-const chakraIconPath = [
-  <title key="1">Chakra Logo</title>,
+const incmixIconPath = [
+  <title key="1">incmix Logo</title>,
   <rect
     width="257"
     height="257"
@@ -32,7 +32,7 @@ const chakraIconPath = [
 
 it("sets default viewBox", () => {
   const Icon = createIcon({
-    path: chakraIconPath,
+    path: incmixIconPath,
   })
 
   const { container } = render(<Icon />)
@@ -71,13 +71,13 @@ it("accepts a single path", () => {
 
 it("accepts multiple paths", () => {
   const Icon = createIcon({
-    path: chakraIconPath,
+    path: incmixIconPath,
   })
 
   const { container } = render(<Icon />)
 
   expect(container.querySelector("svg")!.children).toHaveLength(
-    chakraIconPath.length,
+    incmixIconPath.length,
   )
 })
 
@@ -85,7 +85,7 @@ it("forwards displayName", () => {
   const displayName = "dummy-display-name"
 
   const Icon = createIcon({
-    path: chakraIconPath,
+    path: incmixIconPath,
     displayName,
   })
 

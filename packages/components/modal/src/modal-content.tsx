@@ -1,21 +1,21 @@
-import { cx } from "@chakra-ui/shared-utils"
+import { cx } from "@incmix-ui/shared-utils"
 import {
-  HTMLChakraProps,
-  chakra,
+  HTMLincmixProps,
+  incmix,
   SystemStyleObject,
   forwardRef,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 import { HTMLMotionProps } from "framer-motion"
 
 import { useModalContext, useModalStyles } from "./modal"
 import { ModalFocusScope } from "./modal-focus"
 import { ModalTransition } from "./modal-transition"
 
-export interface ModalContentProps extends HTMLChakraProps<"section"> {
+export interface ModalContentProps extends HTMLincmixProps<"section"> {
   /**
    * The props to forward to the modal's content wrapper
    */
-  containerProps?: HTMLChakraProps<"div">
+  containerProps?: HTMLincmixProps<"div">
   /**
    * The custom framer-motion transition to use for the modal
    */
@@ -41,7 +41,7 @@ export const ModalContent = forwardRef<ModalContentProps, "section">(
     const dialogProps = getDialogProps(rest, ref) as any
     const containerProps = getDialogContainerProps(rootProps)
 
-    const _className = cx("chakra-modal__content", className)
+    const _className = cx("incmix-modal__content", className)
 
     const styles = useModalStyles()
 
@@ -68,9 +68,9 @@ export const ModalContent = forwardRef<ModalContentProps, "section">(
 
     return (
       <ModalFocusScope>
-        <chakra.div
+        <incmix.div
           {...containerProps}
-          className="chakra-modal__content-container"
+          className="incmix-modal__content-container"
           tabIndex={-1}
           __css={dialogContainerStyles}
         >
@@ -83,7 +83,7 @@ export const ModalContent = forwardRef<ModalContentProps, "section">(
           >
             {children}
           </ModalTransition>
-        </chakra.div>
+        </incmix.div>
       </ModalFocusScope>
     )
   },

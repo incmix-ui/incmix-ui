@@ -1,16 +1,16 @@
-import { createContext } from "@chakra-ui/react-context"
-import { PropGetter } from "@chakra-ui/react-types"
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
+import { createContext } from "@incmix-ui/react-context"
+import { PropGetter } from "@incmix-ui/react-types"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
-} from "@chakra-ui/system"
-import { cx, dataAttr } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx, dataAttr } from "@incmix-ui/shared-utils"
 import { useCallback, useId, useState } from "react"
 
 const [FormControlStylesProvider, useFormControlStyles] = createContext<
@@ -201,7 +201,7 @@ function useFormControlProvider(props: FormControlContext) {
 }
 
 export interface FormControlProps
-  extends HTMLChakraProps<"div">,
+  extends HTMLincmixProps<"div">,
     ThemingProps<"FormControl">,
     FormControlContext {}
 
@@ -212,7 +212,7 @@ export interface FormControlProps
  * This is commonly used in form elements such as `input`,
  * `select`, `textarea`, etc.
  *
- * @see Docs https://chakra-ui.com/docs/components/form-control
+ * @see Docs https://incmix-ui.com/docs/components/form-control
  */
 export const FormControl = forwardRef<FormControlProps, "div">(
   function FormControl(props, ref) {
@@ -224,12 +224,12 @@ export const FormControl = forwardRef<FormControlProps, "div">(
       ...context
     } = useFormControlProvider(ownProps)
 
-    const className = cx("chakra-form-control", props.className)
+    const className = cx("incmix-form-control", props.className)
 
     return (
       <FormControlProvider value={context}>
         <FormControlStylesProvider value={styles}>
-          <chakra.div
+          <incmix.div
             {...getRootProps({}, ref)}
             className={className}
             __css={styles["container"]}
@@ -242,7 +242,7 @@ export const FormControl = forwardRef<FormControlProps, "div">(
 
 FormControl.displayName = "FormControl"
 
-export interface HelpTextProps extends HTMLChakraProps<"div"> {}
+export interface HelpTextProps extends HTMLincmixProps<"div"> {}
 
 /**
  * FormHelperText
@@ -255,9 +255,9 @@ export const FormHelperText = forwardRef<HelpTextProps, "div">(
   function FormHelperText(props, ref) {
     const field = useFormControlContext()
     const styles = useFormControlStyles()
-    const className = cx("chakra-form__helper-text", props.className)
+    const className = cx("incmix-form__helper-text", props.className)
     return (
-      <chakra.div
+      <incmix.div
         {...field?.getHelpTextProps(props, ref)}
         __css={styles.helperText}
         className={className}

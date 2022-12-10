@@ -1,13 +1,13 @@
-# @chakra-ui/table
+# @incmix-ui/table
 
 An accessible table component.
 
 ## Installation
 
 ```sh
-yarn add @chakra-ui/table
+yarn add @incmix-ui/table
 
 # or
 
-npm i @chakra-ui/table
+npm i @incmix-ui/table
 ```

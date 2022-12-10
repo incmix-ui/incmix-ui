@@ -1,8 +1,8 @@
-import { Button } from "@chakra-ui/button"
-import { Image } from "@chakra-ui/image"
-import { Portal } from "@chakra-ui/portal"
-import { chakra } from "@chakra-ui/system"
-import { Modal, ModalBody, ModalContent, ModalOverlay } from "@chakra-ui/modal"
+import { Button } from "@incmix-ui/button"
+import { Image } from "@incmix-ui/image"
+import { Portal } from "@incmix-ui/portal"
+import { incmix } from "@incmix-ui/system"
+import { Modal, ModalBody, ModalContent, ModalOverlay } from "@incmix-ui/modal"
 import * as React from "react"
 import {
   FaChevronDown,
@@ -367,7 +367,7 @@ export const WithLink = () => (
 )
 
 export const SplitButton = () => (
-  <chakra.div display="flex">
+  <incmix.div display="flex">
     <Button variant="outline" size="sm" borderRightRadius="0" mr="-1px">
       Welcome
     </Button>
@@ -387,7 +387,7 @@ export const SplitButton = () => (
         <MenuItem fontSize="14px">Menu 3</MenuItem>
       </MenuList>
     </Menu>
-  </chakra.div>
+  </incmix.div>
 )
 
 export const WithinForm = () => {

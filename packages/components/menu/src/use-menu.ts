@@ -1,20 +1,20 @@
-import { useClickable } from "@chakra-ui/clickable"
-import { createDescendantContext } from "@chakra-ui/descendant"
-import { useFocusOnHide } from "@chakra-ui/react-use-focus-effect"
-import { usePopper, UsePopperProps } from "@chakra-ui/popper"
+import { useClickable } from "@incmix-ui/clickable"
+import { createDescendantContext } from "@incmix-ui/descendant"
+import { useFocusOnHide } from "@incmix-ui/react-use-focus-effect"
+import { usePopper, UsePopperProps } from "@incmix-ui/popper"
 import {
   useDisclosure,
   UseDisclosureProps,
-} from "@chakra-ui/react-use-disclosure"
-import { useOutsideClick } from "@chakra-ui/react-use-outside-click"
-import { useAnimationState } from "@chakra-ui/react-use-animation-state"
-import { createContext } from "@chakra-ui/react-context"
-import { getValidChildren } from "@chakra-ui/react-children-utils"
-import { useControllableState } from "@chakra-ui/react-use-controllable-state"
-import { useUpdateEffect } from "@chakra-ui/react-use-update-effect"
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
-import { dataAttr, callAllHandlers } from "@chakra-ui/shared-utils"
-import { lazyDisclosure, LazyMode } from "@chakra-ui/lazy-utils"
+} from "@incmix-ui/react-use-disclosure"
+import { useOutsideClick } from "@incmix-ui/react-use-outside-click"
+import { useAnimationState } from "@incmix-ui/react-use-animation-state"
+import { createContext } from "@incmix-ui/react-context"
+import { getValidChildren } from "@incmix-ui/react-children-utils"
+import { useControllableState } from "@incmix-ui/react-use-controllable-state"
+import { useUpdateEffect } from "@incmix-ui/react-use-update-effect"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
+import { dataAttr, callAllHandlers } from "@incmix-ui/shared-utils"
+import { lazyDisclosure, LazyMode } from "@incmix-ui/lazy-utils"
 
 import React, {
   cloneElement,

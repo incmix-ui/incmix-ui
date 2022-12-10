@@ -1,15 +1,15 @@
-import { callAll, cx } from "@chakra-ui/shared-utils"
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
+import { callAll, cx } from "@incmix-ui/shared-utils"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
 
 import { HTMLMotionProps, motion, Variants } from "framer-motion"
 import { useMenuStyles } from "./menu"
 import { useMenuContext, useMenuList, useMenuPositioner } from "./use-menu"
 
-export interface MenuListProps extends HTMLChakraProps<"div"> {
+export interface MenuListProps extends HTMLincmixProps<"div"> {
   /**
    * Props for the root element that positions the menu.
    */
-  rootProps?: HTMLChakraProps<"div">
+  rootProps?: HTMLincmixProps<"div">
   /**
    * The framer-motion props to animate the menu list
    */
@@ -39,7 +39,7 @@ const motionVariants: Variants = {
   },
 }
 
-const MenuTransition = chakra(motion.div)
+const MenuTransition = incmix(motion.div)
 
 export const MenuList = forwardRef<MenuListProps, "div">(function MenuList(
   props,
@@ -58,7 +58,7 @@ export const MenuList = forwardRef<MenuListProps, "div">(function MenuList(
   const styles = useMenuStyles()
 
   return (
-    <chakra.div
+    <incmix.div
       {...positionerProps}
       __css={{ zIndex: props.zIndex ?? styles.list?.zIndex }}
     >
@@ -68,7 +68,7 @@ export const MenuList = forwardRef<MenuListProps, "div">(function MenuList(
         animate={isOpen ? "enter" : "exit"}
         __css={{ outline: 0, ...styles.list }}
         {...motionProps}
-        className={cx("chakra-menu__menu-list", listProps.className)}
+        className={cx("incmix-menu__menu-list", listProps.className)}
         {...listProps}
         onUpdate={onTransitionEnd}
         onAnimationComplete={callAll(
@@ -76,7 +76,7 @@ export const MenuList = forwardRef<MenuListProps, "div">(function MenuList(
           listProps.onAnimationComplete,
         )}
       />
-    </chakra.div>
+    </incmix.div>
   )
 })
 

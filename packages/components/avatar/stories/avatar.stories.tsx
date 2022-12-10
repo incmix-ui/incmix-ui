@@ -1,5 +1,5 @@
-import { Box, Stack } from "@chakra-ui/layout"
-import { PropsOf } from "@chakra-ui/system"
+import { Box, Stack } from "@incmix-ui/layout"
+import { PropsOf } from "@incmix-ui/system"
 import * as React from "react"
 import { Avatar, AvatarBadge, AvatarGroup } from "../src"
 
@@ -24,7 +24,7 @@ export const Basic = () => (
 
 /**
  * You can use a custom generic avatar instead of
- * what we have in Chakra.
+ * what we have in incmix.
  */
 const GenericAvatar = (props: PropsOf<"svg">) => (
   <svg

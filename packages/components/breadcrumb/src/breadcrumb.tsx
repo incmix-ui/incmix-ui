@@ -1,29 +1,29 @@
-import { cx } from "@chakra-ui/shared-utils"
-import { getValidChildren } from "@chakra-ui/react-children-utils"
+import { cx } from "@incmix-ui/shared-utils"
+import { getValidChildren } from "@incmix-ui/react-children-utils"
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   ThemingProps,
   useMultiStyleConfig,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 import { cloneElement } from "react"
 import { BreadcrumbStylesProvider } from "./breadcrumb-context"
 import { BreadcrumbOptions } from "./breadcrumb-types"
 
 export interface BreadcrumbProps
-  extends HTMLChakraProps<"nav">,
+  extends HTMLincmixProps<"nav">,
     BreadcrumbOptions,
     ThemingProps<"Breadcrumb"> {
-  listProps?: HTMLChakraProps<"ol">
+  listProps?: HTMLincmixProps<"ol">
 }
 
 /**
  * Breadcrumb is used to render a breadcrumb navigation landmark.
  * It renders a `nav` element with `aria-label` set to `Breadcrumb`
  *
- * @see Docs https://chakra-ui.com/breadcrumb
+ * @see Docs https://incmix-ui.com/breadcrumb
  * @see WAI-ARIA https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/
  */
 export const Breadcrumb = forwardRef<BreadcrumbProps, "nav">(
@@ -51,10 +51,10 @@ export const Breadcrumb = forwardRef<BreadcrumbProps, "nav">(
       }),
     )
 
-    const _className = cx("chakra-breadcrumb", className)
+    const _className = cx("incmix-breadcrumb", className)
 
     return (
-      <chakra.nav
+      <incmix.nav
         ref={ref}
         aria-label="breadcrumb"
         className={_className}
@@ -62,8 +62,8 @@ export const Breadcrumb = forwardRef<BreadcrumbProps, "nav">(
         {...rest}
       >
         <BreadcrumbStylesProvider value={styles}>
-          <chakra.ol
-            className="chakra-breadcrumb__list"
+          <incmix.ol
+            className="incmix-breadcrumb__list"
             {...listProps}
             __css={{
               display: "flex",
@@ -72,9 +72,9 @@ export const Breadcrumb = forwardRef<BreadcrumbProps, "nav">(
             }}
           >
             {clones}
-          </chakra.ol>
+          </incmix.ol>
         </BreadcrumbStylesProvider>
-      </chakra.nav>
+      </incmix.nav>
     )
   },
 )

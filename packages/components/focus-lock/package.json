@@ -1,17 +1,17 @@
 {
-  "name": "@chakra-ui/focus-lock",
+  "name": "@incmix-ui/focus-lock",
   "version": "2.0.13",
-  "description": "React focus lock for all Chakra components",
+  "description": "React focus lock for all incmix components",
   "keywords": [
     "react focus lock",
     "focus trap",
     "focus",
-    "chakra ui",
+    "incmix ui",
     "react"
   ],
   "sideEffects": false,
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/components/focus-lock"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/dom-utils": "workspace:*",
+    "@incmix-ui/dom-utils": "workspace:*",
     "react-focus-lock": "^2.9.1"
   },
   "peerDependencies": {

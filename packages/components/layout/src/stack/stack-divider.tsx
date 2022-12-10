@@ -1,10 +1,10 @@
-import { HTMLChakraProps, ChakraComponent, chakra } from "@chakra-ui/system"
+import { HTMLincmixProps, incmixComponent, incmix } from "@incmix-ui/system"
 
-export interface StackDividerProps extends HTMLChakraProps<"div"> {}
+export interface StackDividerProps extends HTMLincmixProps<"div"> {}
 
-export const StackDivider: ChakraComponent<"div"> = (props) => (
-  <chakra.div
-    className="chakra-stack__divider"
+export const StackDivider: incmixComponent<"div"> = (props) => (
+  <incmix.div
+    className="incmix-stack__divider"
     {...props}
     __css={{
       ...props["__css"],

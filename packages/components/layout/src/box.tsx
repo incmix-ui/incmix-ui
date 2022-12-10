@@ -1,19 +1,19 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
   SystemStyleObject,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
 
-export interface BoxProps extends HTMLChakraProps<"div"> {}
+export interface BoxProps extends HTMLincmixProps<"div"> {}
 
 /**
- * Box is the most abstract component on top of which other chakra
+ * Box is the most abstract component on top of which other incmix
  * components are built. It renders a `div` element by default.
  *
- * @see Docs https://chakra-ui.com/box
+ * @see Docs https://incmix-ui.com/box
  */
-export const Box = chakra("div")
+export const Box = incmix("div")
 
 Box.displayName = "Box"
 

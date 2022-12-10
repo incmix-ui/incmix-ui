@@ -1,8 +1,8 @@
-import { tagAnatomy as parts } from "@chakra-ui/anatomy"
+import { tagAnatomy as parts } from "@incmix-ui/anatomy"
 import {
   createMultiStyleConfigHelpers,
   defineStyle,
-} from "@chakra-ui/styled-system"
+} from "@incmix-ui/styled-system"
 import { badgeTheme } from "./badge"
 
 const { defineMultiStyleConfig, definePartsStyle } =

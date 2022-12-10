@@ -1,6 +1,6 @@
-import { callAllHandlers } from "@chakra-ui/shared-utils"
-import { PropGetter } from "@chakra-ui/react-types"
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
+import { callAllHandlers } from "@incmix-ui/shared-utils"
+import { PropGetter } from "@incmix-ui/react-types"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
 import { hideOthers } from "aria-hidden"
 
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from "react"
@@ -71,9 +71,9 @@ export function useModal(props: UseModalProps) {
 
   const [dialogId, headerId, bodyId] = useIds(
     id,
-    `chakra-modal`,
-    `chakra-modal--header`,
-    `chakra-modal--body`,
+    `incmix-modal`,
+    `incmix-modal--header`,
+    `incmix-modal--body`,
   )
 
   /**

@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/tag",
+  "name": "@incmix-ui/tag",
   "version": "2.0.13",
   "description": "This component displays as a tag with an optional link and/or button to remove the given tag.",
   "keywords": [
@@ -8,11 +8,11 @@
     "react",
     "component",
     "removable tag",
-    "chakra ui"
+    "incmix ui"
   ],
   "sideEffects": false,
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -23,26 +23,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/components/tag"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/icon": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*"
+    "@incmix-ui/icon": "workspace:*",
+    "@incmix-ui/react-context": "workspace:*"
   },
   "devDependencies": {
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/icons": "workspace:*",
-    "@chakra-ui/avatar": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/icons": "workspace:*",
+    "@incmix-ui/avatar": "workspace:*",
     "react-icons": "^4.2.0",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   },
   "scripts": {

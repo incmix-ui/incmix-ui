@@ -1,18 +1,18 @@
-import { cx } from "@chakra-ui/shared-utils"
-import { HTMLChakraProps, chakra, forwardRef } from "@chakra-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { HTMLincmixProps, incmix, forwardRef } from "@incmix-ui/system"
 
-export interface StatGroupProps extends HTMLChakraProps<"div"> {}
+export interface StatGroupProps extends HTMLincmixProps<"div"> {}
 
 export const StatGroup = forwardRef<StatGroupProps, "div">(function StatGroup(
   props,
   ref,
 ) {
   return (
-    <chakra.div
+    <incmix.div
       {...props}
       ref={ref}
       role="group"
-      className={cx("chakra-stat__group", props.className)}
+      className={cx("incmix-stat__group", props.className)}
       __css={{
         display: "flex",
         flexWrap: "wrap",

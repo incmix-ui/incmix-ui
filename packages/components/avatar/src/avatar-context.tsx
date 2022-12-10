@@ -1,5 +1,5 @@
-import { createContext } from "@chakra-ui/react-context"
-import { SystemStyleObject } from "@chakra-ui/system"
+import { createContext } from "@incmix-ui/react-context"
+import { SystemStyleObject } from "@incmix-ui/system"
 
 export const [AvatarStylesProvider, useAvatarStyles] = createContext<
   Record<string, SystemStyleObject>

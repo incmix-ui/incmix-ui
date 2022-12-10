@@ -1,31 +1,31 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 
 export interface BadgeProps
-  extends HTMLChakraProps<"span">,
+  extends HTMLincmixProps<"span">,
     ThemingProps<"Badge"> {}
 
 /**
  * React component used to display notifications, messages, or
  * statuses in different shapes and sizes.
  *
- * @see Docs https://chakra-ui.com/badge
+ * @see Docs https://incmix-ui.com/badge
  */
 export const Badge = forwardRef<BadgeProps, "span">(function Badge(props, ref) {
   const styles = useStyleConfig("Badge", props)
   const { className, ...rest } = omitThemingProps(props)
 
   return (
-    <chakra.span
+    <incmix.span
       ref={ref}
-      className={cx("chakra-badge", props.className)}
+      className={cx("incmix-badge", props.className)}
       {...rest}
       __css={{
         display: "inline-block",

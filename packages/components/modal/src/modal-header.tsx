@@ -1,22 +1,22 @@
-import { cx } from "@chakra-ui/shared-utils"
+import { cx } from "@incmix-ui/shared-utils"
 import {
-  HTMLChakraProps,
+  HTMLincmixProps,
   SystemStyleObject,
-  chakra,
+  incmix,
   forwardRef,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 import { useEffect } from "react"
 
 import { useModalContext, useModalStyles } from "./modal"
 
-export interface ModalHeaderProps extends HTMLChakraProps<"header"> {}
+export interface ModalHeaderProps extends HTMLincmixProps<"header"> {}
 
 /**
  * ModalHeader
  *
  * React component that houses the title of the modal.
  *
- * @see Docs https://chakra-ui.com/modal
+ * @see Docs https://incmix-ui.com/modal
  */
 export const ModalHeader = forwardRef<ModalHeaderProps, "header">(
   (props, ref) => {
@@ -33,7 +33,7 @@ export const ModalHeader = forwardRef<ModalHeaderProps, "header">(
       return () => setHeaderMounted(false)
     }, [setHeaderMounted])
 
-    const _className = cx("chakra-modal__header", className)
+    const _className = cx("incmix-modal__header", className)
 
     const styles = useModalStyles()
     const headerStyles: SystemStyleObject = {
@@ -42,7 +42,7 @@ export const ModalHeader = forwardRef<ModalHeaderProps, "header">(
     }
 
     return (
-      <chakra.header
+      <incmix.header
         ref={ref}
         className={_className}
         id={headerId}

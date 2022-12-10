@@ -1,9 +1,9 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
   SystemProps,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
 
 export interface GridOptions {
   /**
@@ -64,7 +64,7 @@ export interface GridOptions {
 }
 
 export interface GridProps
-  extends Omit<HTMLChakraProps<"div">, keyof GridOptions>,
+  extends Omit<HTMLincmixProps<"div">, keyof GridOptions>,
     GridOptions {}
 
 /**
@@ -73,7 +73,7 @@ export interface GridProps
  * It renders a `div` with `display: grid` and
  * comes with helpful style shorthand.
  *
- * @see Docs https://chakra-ui.com/grid
+ * @see Docs https://incmix-ui.com/grid
  */
 export const Grid = forwardRef<GridProps, "div">(function Grid(props, ref) {
   const {
@@ -106,7 +106,7 @@ export const Grid = forwardRef<GridProps, "div">(function Grid(props, ref) {
     gridTemplateColumns: templateColumns,
   }
 
-  return <chakra.div ref={ref} __css={styles} {...rest} />
+  return <incmix.div ref={ref} __css={styles} {...rest} />
 })
 
 Grid.displayName = "Grid"

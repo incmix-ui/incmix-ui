@@ -1,14 +1,14 @@
-import { createContext } from "@chakra-ui/react-context"
+import { createContext } from "@incmix-ui/react-context"
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 
 const [StatStylesProvider, useStatStyles] = createContext<
   Record<string, SystemStyleObject>
@@ -20,13 +20,13 @@ const [StatStylesProvider, useStatStyles] = createContext<
 export { useStatStyles }
 
 export interface StatProps
-  extends HTMLChakraProps<"div">,
+  extends HTMLincmixProps<"div">,
     ThemingProps<"Stat"> {}
 
 /**
  * The `Stat` component is used to display some statistics.
  *
- * @see Docs https://chakra-ui.com/docs/components/stat
+ * @see Docs https://incmix-ui.com/docs/components/stat
  */
 export const Stat = forwardRef<StatProps, "div">(function Stat(props, ref) {
   const styles = useMultiStyleConfig("Stat", props)
@@ -40,14 +40,14 @@ export const Stat = forwardRef<StatProps, "div">(function Stat(props, ref) {
 
   return (
     <StatStylesProvider value={styles}>
-      <chakra.div
+      <incmix.div
         ref={ref}
         {...rest}
-        className={cx("chakra-stat", className)}
+        className={cx("incmix-stat", className)}
         __css={statStyles}
       >
         <dl>{children}</dl>
-      </chakra.div>
+      </incmix.div>
     </StatStylesProvider>
   )
 })

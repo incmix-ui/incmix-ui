@@ -1,9 +1,9 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { useEditableContext, useEditableStyles } from "./editable-context"
 import { commonStyles } from "./shared"
 
-export interface EditableInputProps extends HTMLChakraProps<"input"> {}
+export interface EditableInputProps extends HTMLincmixProps<"input"> {}
 /**
  * EditableInput
  *
@@ -16,10 +16,10 @@ export const EditableInput = forwardRef<EditableInputProps, "input">(
     const styles = useEditableStyles()
 
     const inputProps = getInputProps(props, ref)
-    const _className = cx("chakra-editable__input", props.className)
+    const _className = cx("incmix-editable__input", props.className)
 
     return (
-      <chakra.input
+      <incmix.input
         {...inputProps}
         __css={{
           outline: 0,

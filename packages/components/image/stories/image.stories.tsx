@@ -14,7 +14,7 @@ export const Basic = () => (
 )
 
 /**
- * Chakra has support for fallback images
+ * incmix has support for fallback images
  * so in event the image falls to load, or while
  * the image is loading, you can show a fallback.
  *

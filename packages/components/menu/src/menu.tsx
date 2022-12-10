@@ -1,12 +1,12 @@
-import { createContext } from "@chakra-ui/react-context"
+import { createContext } from "@incmix-ui/react-context"
 import {
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
   useTheme,
-} from "@chakra-ui/system"
-import { runIfFn } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { runIfFn } from "@incmix-ui/shared-utils"
 import { useMemo } from "react"
 import {
   MenuDescendantsProvider,
@@ -38,7 +38,7 @@ export interface MenuProps extends UseMenuProps, ThemingProps<"Menu"> {
  * Menu provides context, state, and focus management
  * to its sub-components. It doesn't render any DOM node.
  *
- * @see Docs https://chakra-ui.com/docs/components/menu
+ * @see Docs https://incmix-ui.com/docs/components/menu
  */
 export const Menu: React.FC<MenuProps> = (props) => {
   const { children } = props

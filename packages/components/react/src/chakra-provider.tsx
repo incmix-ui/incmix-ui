@@ -1,35 +1,35 @@
 import {
-  ChakraProvider as BaseChakraProvider,
-  ChakraProviderProps as BaseChakraProviderProps,
-} from "@chakra-ui/provider"
-import { theme as defaultTheme, baseTheme, Theme } from "@chakra-ui/theme"
-import { ToastProvider, ToastProviderProps } from "@chakra-ui/toast"
-import { Dict } from "@chakra-ui/utils"
+  incmixProvider as BaseincmixProvider,
+  incmixProviderProps as BaseincmixProviderProps,
+} from "@incmix-ui/provider"
+import { theme as defaultTheme, baseTheme, Theme } from "@incmix-ui/theme"
+import { ToastProvider, ToastProviderProps } from "@incmix-ui/toast"
+import { Dict } from "@incmix-ui/utils"
 
-export interface ChakraProviderProps extends BaseChakraProviderProps {
+export interface incmixProviderProps extends BaseincmixProviderProps {
   /**
-   * Provide defaults for `useToast()` usages for `ChakraProvider`s children
+   * Provide defaults for `useToast()` usages for `incmixProvider`s children
    */
   toastOptions?: ToastProviderProps
 }
 
-const createChakraProvider = (
+const createincmixProvider = (
   providerTheme: Theme | (Omit<Theme, "components"> & { components: Dict }),
 ) => {
-  return function ChakraProvider({
+  return function incmixProvider({
     children,
     theme = providerTheme,
     toastOptions,
     ...restProps
-  }: ChakraProviderProps) {
+  }: incmixProviderProps) {
     return (
-      <BaseChakraProvider theme={theme} {...restProps}>
+      <BaseincmixProvider theme={theme} {...restProps}>
         {children}
         <ToastProvider {...toastOptions} />
-      </BaseChakraProvider>
+      </BaseincmixProvider>
     )
   }
 }
 
-export const ChakraProvider = createChakraProvider(defaultTheme)
-export const ChakraBaseProvider = createChakraProvider(baseTheme)
+export const incmixProvider = createincmixProvider(defaultTheme)
+export const incmixBaseProvider = createincmixProvider(baseTheme)

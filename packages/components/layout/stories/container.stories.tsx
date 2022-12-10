@@ -1,5 +1,5 @@
 import React from "react"
-// import { ChakraProvider, extendTheme } from "@chakra-ui/react"
+// import { incmixProvider, extendTheme } from "@incmix-ui/react"
 import { Container } from "../src"
 
 export default {
@@ -35,7 +35,7 @@ export const basic = () => (
 // })
 
 // export const withVariant = () => (
-//   <ChakraProvider theme={theme}>
+//   <incmixProvider theme={theme}>
 //     <Container maxWidth="md" variant="customBackground">
 //       <p>
 //         Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -49,5 +49,5 @@ export const basic = () => (
 //         of Lorem Ipsum.
 //       </p>
 //     </Container>
-//   </ChakraProvider>
+//   </incmixProvider>
 // )

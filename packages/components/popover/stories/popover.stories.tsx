@@ -1,8 +1,8 @@
-import { Button, ButtonGroup } from "@chakra-ui/button"
-import { Radio, RadioGroup } from "@chakra-ui/radio"
-import { Input } from "@chakra-ui/input"
-import { useBoolean, useInterval } from "@chakra-ui/hooks"
-import { chakra } from "@chakra-ui/system"
+import { Button, ButtonGroup } from "@incmix-ui/button"
+import { Radio, RadioGroup } from "@incmix-ui/radio"
+import { Input } from "@incmix-ui/input"
+import { useBoolean, useInterval } from "@incmix-ui/hooks"
+import { incmix } from "@incmix-ui/system"
 import * as React from "react"
 import {
   Popover,
@@ -46,7 +46,7 @@ export function PopoverExample() {
 export const simple = () => (
   <Popover placement="right-start">
     <PopoverTrigger>
-      <chakra.button mt="180px">Trigger</chakra.button>
+      <incmix.button mt="180px">Trigger</incmix.button>
     </PopoverTrigger>
     <PopoverContent>
       <PopoverArrow />
@@ -66,7 +66,7 @@ export const basic = () => (
   <>
     <Popover placement="top">
       <PopoverTrigger>
-        <chakra.button>Welcome home</chakra.button>
+        <incmix.button>Welcome home</incmix.button>
       </PopoverTrigger>
       <PopoverContent>
         <PopoverArrow />
@@ -80,7 +80,7 @@ export const basic = () => (
 
     <Popover placement="bottom">
       <PopoverTrigger>
-        <chakra.button>Welcome home</chakra.button>
+        <incmix.button>Welcome home</incmix.button>
       </PopoverTrigger>
       <PopoverContent>
         <PopoverArrow />
@@ -93,7 +93,7 @@ export const basic = () => (
       </PopoverContent>
     </Popover>
 
-    <chakra.input />
+    <incmix.input />
   </>
 )
 
@@ -101,7 +101,7 @@ export const Arrow = () => (
   <>
     <Popover placement="top" arrowShadowColor="red" arrowSize={40}>
       <PopoverTrigger>
-        <chakra.button>Welcome home</chakra.button>
+        <incmix.button>Welcome home</incmix.button>
       </PopoverTrigger>
       <PopoverContent>
         <PopoverArrow />

@@ -1,22 +1,22 @@
-import { CSSReset, CSSPolyfill } from "@chakra-ui/css-reset"
-import { PortalManager } from "@chakra-ui/portal"
+import { CSSReset, CSSPolyfill } from "@incmix-ui/css-reset"
+import { PortalManager } from "@incmix-ui/portal"
 import {
   ColorModeProvider,
   ColorModeProviderProps,
   GlobalStyle,
   ThemeProvider,
   ThemeProviderProps,
-} from "@chakra-ui/system"
-import { Dict } from "@chakra-ui/utils"
+} from "@incmix-ui/system"
+import { Dict } from "@incmix-ui/utils"
 import {
   EnvironmentProvider,
   EnvironmentProviderProps,
-} from "@chakra-ui/react-env"
+} from "@incmix-ui/react-env"
 
-export interface ChakraProviderProps
+export interface incmixProviderProps
   extends Pick<ThemeProviderProps, "cssVarsRoot"> {
   /**
-   * a theme. if omitted, uses the default theme provided by chakra
+   * a theme. if omitted, uses the default theme provided by incmix
    */
   theme?: Dict
   /**
@@ -50,16 +50,16 @@ export interface ChakraProviderProps
    * all components and hooks.
    *
    * By default, we smartly determine the ownerDocument and defaultView
-   * based on where `ChakraProvider` is rendered.
+   * based on where `incmixProvider` is rendered.
    */
   environment?: EnvironmentProviderProps["environment"]
 }
 
 /**
- * The global provider that must be added to make all Chakra components
+ * The global provider that must be added to make all incmix components
  * work correctly
  */
-export const ChakraProvider: React.FC<ChakraProviderProps> = (props) => {
+export const incmixProvider: React.FC<incmixProviderProps> = (props) => {
   const {
     children,
     colorModeManager,

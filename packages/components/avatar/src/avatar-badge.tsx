@@ -1,10 +1,10 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   SystemStyleObject,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { useAvatarStyles } from "./avatar-context"
 
 type BadgePlacement = "top-start" | "top-end" | "bottom-start" | "bottom-end"
@@ -32,7 +32,7 @@ const placementMap: Record<BadgePlacement, SystemStyleObject> = {
   },
 }
 
-export interface AvatarBadgeProps extends HTMLChakraProps<"div"> {
+export interface AvatarBadgeProps extends HTMLincmixProps<"div"> {
   placement?: BadgePlacement
 }
 
@@ -57,10 +57,10 @@ export const AvatarBadge = forwardRef<AvatarBadgeProps, "div">(
     }
 
     return (
-      <chakra.div
+      <incmix.div
         ref={ref}
         {...rest}
-        className={cx("chakra-avatar__badge", className)}
+        className={cx("incmix-avatar__badge", className)}
         __css={badgeStyles}
       />
     )

@@ -1,11 +1,11 @@
-import { chakra, forwardRef } from "@chakra-ui/system"
-import { fireEvent, render, screen } from "@chakra-ui/test-utils"
+import { incmix, forwardRef } from "@incmix-ui/system"
+import { fireEvent, render, screen } from "@incmix-ui/test-utils"
 import * as React from "react"
 import { useClickable } from "../src"
 
 const Clickable = forwardRef((props: any, ref) => {
   const clickable = useClickable({ ...props, ref }) as any
-  return <chakra.button display="inline-flex" {...clickable} />
+  return <incmix.button display="inline-flex" {...clickable} />
 })
 
 test("should render when disabled and focusable", () => {

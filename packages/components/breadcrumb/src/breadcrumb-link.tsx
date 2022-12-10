@@ -1,8 +1,8 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { useBreadcrumbStyles } from "./breadcrumb-context"
 
-export interface BreadcrumbLinkProps extends HTMLChakraProps<"a"> {
+export interface BreadcrumbLinkProps extends HTMLincmixProps<"a"> {
   isCurrentPage?: boolean
 }
 /**
@@ -20,17 +20,17 @@ export const BreadcrumbLink = forwardRef<BreadcrumbLinkProps, "a">(
     const sharedProps = {
       ref,
       as,
-      className: cx("chakra-breadcrumb__link", className),
+      className: cx("incmix-breadcrumb__link", className),
       ...rest,
     }
 
     if (isCurrentPage) {
       return (
-        <chakra.span aria-current="page" __css={styles.link} {...sharedProps} />
+        <incmix.span aria-current="page" __css={styles.link} {...sharedProps} />
       )
     }
 
-    return <chakra.a __css={styles.link} href={href} {...sharedProps} />
+    return <incmix.a __css={styles.link} href={href} {...sharedProps} />
   },
 )
 BreadcrumbLink.displayName = "BreadcrumbLink"

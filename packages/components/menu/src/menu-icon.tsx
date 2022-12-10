@@ -1,9 +1,9 @@
-import { HTMLChakraProps, chakra } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { HTMLincmixProps, incmix } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 
 import { Children, cloneElement, isValidElement } from "react"
 
-export const MenuIcon: React.FC<HTMLChakraProps<"span">> = (props) => {
+export const MenuIcon: React.FC<HTMLincmixProps<"span">> = (props) => {
   const { className, children, ...rest } = props
 
   const child = Children.only(children)
@@ -12,14 +12,14 @@ export const MenuIcon: React.FC<HTMLChakraProps<"span">> = (props) => {
     ? cloneElement(child, {
         focusable: "false",
         "aria-hidden": true,
-        className: cx("chakra-menu__icon", child.props.className),
+        className: cx("incmix-menu__icon", child.props.className),
       })
     : null
 
-  const _className = cx("chakra-menu__icon-wrapper", className)
+  const _className = cx("incmix-menu__icon-wrapper", className)
 
   return (
-    <chakra.span
+    <incmix.span
       className={_className}
       {...rest}
       __css={{
@@ -27,7 +27,7 @@ export const MenuIcon: React.FC<HTMLChakraProps<"span">> = (props) => {
       }}
     >
       {clone}
-    </chakra.span>
+    </incmix.span>
   )
 }
 

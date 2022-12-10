@@ -1,20 +1,20 @@
-import { useCheckbox, UseCheckboxProps } from "@chakra-ui/checkbox"
+import { useCheckbox, UseCheckboxProps } from "@incmix-ui/checkbox"
 import {
-  chakra,
+  incmix,
   forwardRef,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
-  HTMLChakraProps,
+  HTMLincmixProps,
   SystemProps,
-} from "@chakra-ui/system"
-import { cx, dataAttr } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx, dataAttr } from "@incmix-ui/shared-utils"
 import { useMemo } from "react"
 
 export interface SwitchProps
   extends Omit<UseCheckboxProps, "isIndeterminate">,
-    Omit<HTMLChakraProps<"label">, keyof UseCheckboxProps>,
+    Omit<HTMLincmixProps<"label">, keyof UseCheckboxProps>,
     ThemingProps<"Switch"> {
   /**
    * The spacing between the switch and its label text
@@ -27,7 +27,7 @@ export interface SwitchProps
 /**
  * The `Switch` component is used as an alternative for the checkbox component for switching between "enabled" and "disabled" states.
  *
- * @see Docs https://chakra-ui.com/docs/components/switch
+ * @see Docs https://incmix-ui.com/docs/components/switch
  * @see WAI-ARIA https://www.w3.org/WAI/ARIA/apg/patterns/switch/
  */
 export const Switch = forwardRef<SwitchProps, "input">(function Switch(
@@ -79,34 +79,34 @@ export const Switch = forwardRef<SwitchProps, "input">(function Switch(
   )
 
   return (
-    <chakra.label
+    <incmix.label
       {...getRootProps()}
-      className={cx("chakra-switch", props.className)}
+      className={cx("incmix-switch", props.className)}
       __css={containerStyles}
     >
-      <input className="chakra-switch__input" {...getInputProps({}, ref)} />
-      <chakra.span
+      <input className="incmix-switch__input" {...getInputProps({}, ref)} />
+      <incmix.span
         {...getCheckboxProps()}
-        className="chakra-switch__track"
+        className="incmix-switch__track"
         __css={trackStyles}
       >
-        <chakra.span
+        <incmix.span
           __css={styles.thumb}
-          className="chakra-switch__thumb"
+          className="incmix-switch__thumb"
           data-checked={dataAttr(state.isChecked)}
           data-hover={dataAttr(state.isHovered)}
         />
-      </chakra.span>
+      </incmix.span>
       {children && (
-        <chakra.span
-          className="chakra-switch__label"
+        <incmix.span
+          className="incmix-switch__label"
           {...getLabelProps()}
           __css={labelStyles}
         >
           {children}
-        </chakra.span>
+        </incmix.span>
       )}
-    </chakra.label>
+    </incmix.label>
   )
 })
 

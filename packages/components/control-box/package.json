@@ -1,16 +1,16 @@
 {
-  "name": "@chakra-ui/control-box",
+  "name": "@incmix-ui/control-box",
   "version": "2.0.11",
-  "description": "Chakra UI ControlBox component",
+  "description": "incmix UI ControlBox component",
   "keywords": [
     "checkbox",
     "custom",
     "input",
     "react",
-    "chakra-ui"
+    "incmix-ui"
   ],
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -21,21 +21,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/components/control-box"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "devDependencies": {
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/visually-hidden": "workspace:*",
-    "@chakra-ui/icons": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/visually-hidden": "workspace:*",
+    "@incmix-ui/icons": "workspace:*",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   },
   "sideEffects": false,

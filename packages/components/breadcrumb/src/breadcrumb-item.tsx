@@ -1,11 +1,11 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
   SystemStyleObject,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
-import { getValidChildren } from "@chakra-ui/react-children-utils"
-import { cx } from "@chakra-ui/shared-utils"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
+import { getValidChildren } from "@incmix-ui/react-children-utils"
+import { cx } from "@incmix-ui/shared-utils"
 import { useBreadcrumbStyles } from "./breadcrumb-context"
 import { BreadcrumbSeparator } from "./breadcrumb-separator"
 import { BreadcrumbLink } from "./breadcrumb-link"
@@ -14,13 +14,13 @@ import { BreadcrumbItemOptions } from "./breadcrumb-types"
 
 export interface BreadcrumbItemProps
   extends BreadcrumbItemOptions,
-    HTMLChakraProps<"li"> {}
+    HTMLincmixProps<"li"> {}
 
 /**
  * BreadcrumbItem is used to group a breadcrumb link.
  * It renders a `li` element to denote it belongs to an order list of links.
  *
- * @see Docs https://chakra-ui.com/breadcrumb
+ * @see Docs https://incmix-ui.com/breadcrumb
  */
 
 export const BreadcrumbItem = forwardRef<BreadcrumbItemProps, "li">(
@@ -61,17 +61,17 @@ export const BreadcrumbItem = forwardRef<BreadcrumbItemProps, "li">(
       ...styles.item,
     }
 
-    const _className = cx("chakra-breadcrumb__list-item", className)
+    const _className = cx("incmix-breadcrumb__list-item", className)
 
     return (
-      <chakra.li ref={ref} className={_className} {...rest} __css={itemStyles}>
+      <incmix.li ref={ref} className={_className} {...rest} __css={itemStyles}>
         {clones}
         {!isLastChild && (
           <BreadcrumbSeparator spacing={spacing}>
             {separator}
           </BreadcrumbSeparator>
         )}
-      </chakra.li>
+      </incmix.li>
     )
   },
 )

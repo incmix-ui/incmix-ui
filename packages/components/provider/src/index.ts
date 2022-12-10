@@ -1,1 +1,1 @@
-export * from "./chakra-provider"
+export * from "./incmix-provider"

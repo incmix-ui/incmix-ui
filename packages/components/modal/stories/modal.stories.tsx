@@ -1,5 +1,5 @@
-import { useDisclosure } from "@chakra-ui/hooks"
-import { chakra } from "@chakra-ui/system"
+import { useDisclosure } from "@incmix-ui/hooks"
+import { incmix } from "@incmix-ui/system"
 import * as React from "react"
 import Lorem from "react-lorem-component"
 import {
@@ -12,7 +12,7 @@ import {
   ModalOverlay,
 } from "../src"
 
-const Button = chakra("button", {
+const Button = incmix("button", {
   baseStyle: {
     outline: 0,
     transitionProperty: "color, box-shadow",
@@ -51,13 +51,13 @@ export function ReturnFocus() {
 
   return (
     <>
-      <chakra.div
+      <incmix.div
         ref={finalRef}
         tabIndex={-1}
         aria-label="Focus moved to this box"
       >
         Some other content that'll receive focus on close.
-      </chakra.div>
+      </incmix.div>
 
       <Button mt={4} onClick={onOpen}>
         Open Modal
@@ -103,7 +103,7 @@ export function NestedModal() {
             officia tempor esse quis.
           </ModalBody>
           <ModalFooter>
-            <chakra.div flex="1" />
+            <incmix.div flex="1" />
             <Button>Button 2</Button>
             <Button onClick={second.onOpen}>Open Nested</Button>
           </ModalFooter>
@@ -113,7 +113,7 @@ export function NestedModal() {
             <ModalContent>
               <ModalHeader>Modal 2 Title</ModalHeader>
               <ModalFooter>
-                <chakra.div flex="1" />
+                <incmix.div flex="1" />
                 <Button onClick={third.onOpen}>Open Nested 2</Button>
               </ModalFooter>
 

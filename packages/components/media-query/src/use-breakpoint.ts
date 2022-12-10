@@ -1,5 +1,5 @@
-import { useTheme } from "@chakra-ui/system"
-import { isObject } from "@chakra-ui/shared-utils"
+import { useTheme } from "@incmix-ui/system"
+import { isObject } from "@incmix-ui/shared-utils"
 import { useMediaQuery } from "./use-media-query"
 
 export type UseBreakpointOptions = {

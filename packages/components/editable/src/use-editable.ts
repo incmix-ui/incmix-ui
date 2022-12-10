@@ -1,11 +1,11 @@
-import { useFocusOnPointerDown } from "@chakra-ui/react-use-focus-on-pointer-down"
-import { useSafeLayoutEffect } from "@chakra-ui/react-use-safe-layout-effect"
-import { useUpdateEffect } from "@chakra-ui/react-use-update-effect"
-import { useControllableState } from "@chakra-ui/react-use-controllable-state"
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
-import { useCallbackRef } from "@chakra-ui/react-use-callback-ref"
-import { ariaAttr, callAllHandlers } from "@chakra-ui/shared-utils"
-import { PropGetter } from "@chakra-ui/react-types"
+import { useFocusOnPointerDown } from "@incmix-ui/react-use-focus-on-pointer-down"
+import { useSafeLayoutEffect } from "@incmix-ui/react-use-safe-layout-effect"
+import { useUpdateEffect } from "@incmix-ui/react-use-update-effect"
+import { useControllableState } from "@incmix-ui/react-use-controllable-state"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
+import { useCallbackRef } from "@incmix-ui/react-use-callback-ref"
+import { ariaAttr, callAllHandlers } from "@incmix-ui/shared-utils"
+import { PropGetter } from "@incmix-ui/react-types"
 import { useCallback, useEffect, useRef, useState } from "react"
 
 export interface UseEditableProps {
@@ -72,7 +72,7 @@ function contains(parent: HTMLElement | null, child: HTMLElement) {
 /**
  * React hook for managing the inline renaming of some text.
  *
- * @see Docs https://chakra-ui.com/editable
+ * @see Docs https://incmix-ui.com/editable
  */
 export function useEditable(props: UseEditableProps = {}) {
   const {

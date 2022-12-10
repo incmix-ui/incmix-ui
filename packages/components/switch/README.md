@@ -6,17 +6,17 @@ switch between enabled or disabled states.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/switch
+yarn add @incmix-ui/switch
 
 # or
 
-npm i @chakra-ui/switch
+npm i @incmix-ui/switch
 ```
 
 ## Import component
 
 ```jsx
-import { Switch } from "@chakra-ui/switch"
+import { Switch } from "@incmix-ui/switch"
 ```
 
 ## Usage

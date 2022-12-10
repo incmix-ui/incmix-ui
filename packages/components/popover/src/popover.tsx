@@ -1,11 +1,11 @@
-import { MaybeRenderProp } from "@chakra-ui/react-types"
+import { MaybeRenderProp } from "@incmix-ui/react-types"
 import {
   omitThemingProps,
   ThemingProps,
   useMultiStyleConfig,
   useTheme,
-} from "@chakra-ui/system"
-import { runIfFn } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { runIfFn } from "@incmix-ui/shared-utils"
 import { PopoverProvider, PopoverStylesProvider } from "./popover-context"
 import { usePopover, UsePopoverProps } from "./use-popover"
 
@@ -25,7 +25,7 @@ export interface PopoverProps extends UsePopoverProps, ThemingProps<"Popover"> {
  * Popover is used to bring attention to specific user interface elements,
  * typically to suggest an action or to guide users through a new experience.
  *
- * @see Docs https://chakra-ui.com/docs/components/popover
+ * @see Docs https://incmix-ui.com/docs/components/popover
  */
 export function Popover(props: PopoverProps) {
   const styles = useMultiStyleConfig("Popover", props)

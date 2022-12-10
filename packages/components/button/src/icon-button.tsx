@@ -1,4 +1,4 @@
-import { forwardRef } from "@chakra-ui/system"
+import { forwardRef } from "@incmix-ui/system"
 import { cloneElement, isValidElement } from "react"
 import { Button, ButtonProps } from "./button"
 
@@ -30,7 +30,7 @@ export interface IconButtonProps extends BaseButtonProps {
 /**
  * Icon button renders an icon within a button.
  *
- * @see Docs https://chakra-ui.com/docs/components/icon-button
+ * @see Docs https://incmix-ui.com/docs/components/icon-button
  */
 export const IconButton = forwardRef<IconButtonProps, "button">(
   (props, ref) => {

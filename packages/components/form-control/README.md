@@ -1,4 +1,4 @@
-# @chakra-ui/form-control
+# @incmix-ui/form-control
 
 Form Control component is used to manage form controls such input fields,
 checkbox and radio buttons. It provides components and context that make your
@@ -17,11 +17,11 @@ form fields accessible by default.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/form-control
+yarn add @incmix-ui/form-control
 
 # or
 
-npm install @chakra-ui/form-control
+npm install @incmix-ui/form-control
 ```
 
 ## Import component
@@ -33,7 +33,7 @@ import {
   FormErrorMessage,
   FormHelperText,
   FormErrorIcon,
-} from "@chakra-ui/form-control"
+} from "@incmix-ui/form-control"
 ```
 
 ## Basic Usage

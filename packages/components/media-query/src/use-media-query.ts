@@ -1,4 +1,4 @@
-import { useEnvironment } from "@chakra-ui/react-env"
+import { useEnvironment } from "@incmix-ui/react-env"
 import { useEffect, useState } from "react"
 
 export type UseMediaQueryOptions = {
@@ -12,7 +12,7 @@ export type UseMediaQueryOptions = {
  * @param query the media query to match
  * @param options the media query options { fallback, ssr }
  *
- * @see Docs https://chakra-ui.com/docs/hooks/use-media-query
+ * @see Docs https://incmix-ui.com/docs/hooks/use-media-query
  */
 export function useMediaQuery(
   query: string | string[],

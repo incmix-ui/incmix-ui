@@ -1,5 +1,5 @@
 // import * as React from "react"
-// import { ChakraProvider, extendTheme } from "@chakra-ui/react"
+// import { incmixProvider, extendTheme } from "@incmix-ui/react"
 // import { Text } from "../src"
 
 // export default {
@@ -18,22 +18,22 @@
 //   },
 // })
 
-// // see https://github.com/chakra-ui/chakra-ui/issues/2464
+// // see https://github.com/incmix-ui/incmix-ui/issues/2464
 // export const withVariant = () => (
-//   <ChakraProvider theme={theme}>
+//   <incmixProvider theme={theme}>
 //     <Text variant="customCaps">
 //       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, sapiente.
 //     </Text>
-//   </ChakraProvider>
+//   </incmixProvider>
 // )
 
-// // see https://github.com/chakra-ui/chakra-ui/issues/2464
+// // see https://github.com/incmix-ui/incmix-ui/issues/2464
 // export const overrideVariant = () => (
-//   <ChakraProvider theme={theme}>
+//   <incmixProvider theme={theme}>
 //     <Text variant="customCaps" casing="lowercase">
 //       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, sapiente.
 //     </Text>
-//   </ChakraProvider>
+//   </incmixProvider>
 // )
 
 export {}

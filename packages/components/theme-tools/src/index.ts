@@ -1,4 +1,4 @@
-export { anatomy } from "@chakra-ui/anatomy"
+export { anatomy } from "@incmix-ui/anatomy"
 export * from "./color"
 export * from "./component"
 export * from "./create-breakpoints"

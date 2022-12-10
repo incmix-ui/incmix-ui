@@ -1,4 +1,4 @@
-import { chakra, forwardRef, SystemStyleObject } from "@chakra-ui/system"
+import { incmix, forwardRef, SystemStyleObject } from "@incmix-ui/system"
 import { useMemo } from "react"
 import { useMenuStyles } from "./menu"
 import { StyledMenuItemProps } from "./menu-item"
@@ -32,7 +32,7 @@ export const StyledMenuItem = forwardRef<StyledMenuItemProps, "button">(
     )
 
     return (
-      <chakra.button ref={ref} type={btnType} {...rest} __css={buttonStyles} />
+      <incmix.button ref={ref} type={btnType} {...rest} __css={buttonStyles} />
     )
   },
 )

@@ -1,13 +1,13 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
-} from "@chakra-ui/system"
-import { callAllHandlers, cx, dataAttr } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { callAllHandlers, cx, dataAttr } from "@incmix-ui/shared-utils"
 import { AvatarStylesProvider } from "./avatar-context"
 import { AvatarImage } from "./avatar-image"
 import { GenericAvatarIcon } from "./generic-avatar-icon"
@@ -27,7 +27,7 @@ export const baseStyle: SystemStyleObject = {
 }
 
 export interface AvatarProps
-  extends Omit<HTMLChakraProps<"span">, "onError">,
+  extends Omit<HTMLincmixProps<"span">, "onError">,
     AvatarOptions,
     ThemingProps<"Avatar"> {
   iconLabel?: string
@@ -76,10 +76,10 @@ export const Avatar = forwardRef<AvatarProps, "span">((props, ref) => {
   }
 
   return (
-    <chakra.span
+    <incmix.span
       ref={ref}
       {...rest}
-      className={cx("chakra-avatar", props.className)}
+      className={cx("incmix-avatar", props.className)}
       data-loaded={dataAttr(isLoaded)}
       __css={avatarStyles}
     >
@@ -101,7 +101,7 @@ export const Avatar = forwardRef<AvatarProps, "span">((props, ref) => {
         />
         {children}
       </AvatarStylesProvider>
-    </chakra.span>
+    </incmix.span>
   )
 })
 

@@ -1,8 +1,8 @@
-import { cx } from "@chakra-ui/shared-utils"
-import { HTMLChakraProps, chakra, forwardRef } from "@chakra-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { HTMLincmixProps, incmix, forwardRef } from "@incmix-ui/system"
 import { useStatStyles } from "./stat"
 
-export interface StatLabelProps extends HTMLChakraProps<"dt"> {}
+export interface StatLabelProps extends HTMLincmixProps<"dt"> {}
 
 export const StatLabel = forwardRef<StatLabelProps, "dt">(function StatLabel(
   props,
@@ -10,10 +10,10 @@ export const StatLabel = forwardRef<StatLabelProps, "dt">(function StatLabel(
 ) {
   const styles = useStatStyles()
   return (
-    <chakra.dt
+    <incmix.dt
       ref={ref}
       {...props}
-      className={cx("chakra-stat__label", props.className)}
+      className={cx("incmix-stat__label", props.className)}
       __css={styles.label}
     />
   )

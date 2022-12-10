@@ -1,11 +1,11 @@
-import { useCounter, UseCounterProps } from "@chakra-ui/counter"
-import { useEventListener } from "@chakra-ui/react-use-event-listener"
-import { useUpdateEffect } from "@chakra-ui/react-use-update-effect"
-import { useSafeLayoutEffect } from "@chakra-ui/react-use-safe-layout-effect"
-import { useCallbackRef } from "@chakra-ui/react-use-callback-ref"
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
-import { ariaAttr, callAllHandlers } from "@chakra-ui/shared-utils"
-import { InputDOMAttributes, PropGetter } from "@chakra-ui/react-types"
+import { useCounter, UseCounterProps } from "@incmix-ui/counter"
+import { useEventListener } from "@incmix-ui/react-use-event-listener"
+import { useUpdateEffect } from "@incmix-ui/react-use-update-effect"
+import { useSafeLayoutEffect } from "@incmix-ui/react-use-safe-layout-effect"
+import { useCallbackRef } from "@incmix-ui/react-use-callback-ref"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
+import { ariaAttr, callAllHandlers } from "@incmix-ui/shared-utils"
+import { InputDOMAttributes, PropGetter } from "@incmix-ui/react-types"
 import { useCallback, useMemo, useRef, useState } from "react"
 import { useAttributeObserver } from "./use-attr-observer"
 import { useSpinner } from "./use-spinner"
@@ -133,7 +133,7 @@ type InputSelection = { start: number | null; end: number | null }
  * custom number inputs.
  *
  * @see WAI-ARIA https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/
- * @see Docs     https://www.chakra-ui.com/useNumberInput
+ * @see Docs     https://www.incmix-ui.com/useNumberInput
  * @see WHATWG   https://html.spec.whatwg.org/multipage/input.html#number-state-(type=number)
  */
 export function useNumberInput(props: UseNumberInputProps = {}) {

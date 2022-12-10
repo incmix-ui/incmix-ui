@@ -1,5 +1,5 @@
-import { defineStyle, defineStyleConfig } from "@chakra-ui/styled-system"
-import { mode, transparentize } from "@chakra-ui/theme-tools"
+import { defineStyle, defineStyleConfig } from "@incmix-ui/styled-system"
+import { mode, transparentize } from "@incmix-ui/theme-tools"
 import { runIfFn } from "../utils/run-if-fn"
 
 const baseStyle = defineStyle({
@@ -57,9 +57,9 @@ const variantOutline = defineStyle((props) => {
   return {
     border: "1px solid",
     borderColor: c === "gray" ? borderColor : "currentColor",
-    ".chakra-button__group[data-attached][data-orientation=horizontal] > &:not(:last-of-type)":
+    ".incmix-button__group[data-attached][data-orientation=horizontal] > &:not(:last-of-type)":
       { marginEnd: "-1px" },
-    ".chakra-button__group[data-attached][data-orientation=vertical] > &:not(:last-of-type)":
+    ".incmix-button__group[data-attached][data-orientation=vertical] > &:not(:last-of-type)":
       { marginBottom: "-1px" },
     ...runIfFn(variantGhost, props),
   }

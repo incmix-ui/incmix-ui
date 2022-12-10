@@ -1,6 +1,6 @@
-import { FormControlOptions, useFormControl } from "@chakra-ui/form-control"
+import { FormControlOptions, useFormControl } from "@incmix-ui/form-control"
 import {
-  chakra,
+  incmix,
   forwardRef,
   layoutPropNames,
   omitThemingProps,
@@ -8,15 +8,15 @@ import {
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
-import { dataAttr } from "@chakra-ui/shared-utils"
-import { split } from "@chakra-ui/object-utils"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
+import { dataAttr } from "@incmix-ui/shared-utils"
+import { split } from "@incmix-ui/object-utils"
 import { cloneElement, isValidElement } from "react"
 
 import { SelectField, SelectFieldProps } from "./select-field"
 
-interface RootProps extends Omit<HTMLChakraProps<"div">, "color"> {}
+interface RootProps extends Omit<HTMLincmixProps<"div">, "color"> {}
 
 interface SelectOptions extends FormControlOptions {
   /**
@@ -68,7 +68,7 @@ export interface SelectProps
 /**
  * React component used to select one item from a list of options.
  *
- * @see Docs https://chakra-ui.com/docs/components/select
+ * @see Docs https://incmix-ui.com/docs/components/select
  */
 export const Select = forwardRef<SelectProps, "select">((props, ref) => {
   const styles = useMultiStyleConfig("Select", props)
@@ -108,8 +108,8 @@ export const Select = forwardRef<SelectProps, "select">((props, ref) => {
   }
 
   return (
-    <chakra.div
-      className="chakra-select__wrapper"
+    <incmix.div
+      className="incmix-select__wrapper"
       __css={rootStyles}
       {...layoutProps}
       {...rootProps}
@@ -133,7 +133,7 @@ export const Select = forwardRef<SelectProps, "select">((props, ref) => {
       >
         {icon}
       </SelectIcon>
-    </chakra.div>
+    </incmix.div>
   )
 })
 
@@ -148,7 +148,7 @@ export const DefaultIcon: React.FC<PropsOf<"svg">> = (props) => (
   </svg>
 )
 
-const IconWrapper = chakra("div", {
+const IconWrapper = incmix("div", {
   baseStyle: {
     position: "absolute",
     display: "inline-flex",
@@ -160,14 +160,14 @@ const IconWrapper = chakra("div", {
   },
 })
 
-interface SelectIconProps extends HTMLChakraProps<"div"> {}
+interface SelectIconProps extends HTMLincmixProps<"div"> {}
 
 const SelectIcon: React.FC<SelectIconProps> = (props) => {
   const { children = <DefaultIcon />, ...rest } = props
 
   const clone = cloneElement(children as any, {
     role: "presentation",
-    className: "chakra-select__icon",
+    className: "incmix-select__icon",
     focusable: false,
     "aria-hidden": true,
     // force icon to adhere to `IconWrapper` styles
@@ -179,7 +179,7 @@ const SelectIcon: React.FC<SelectIconProps> = (props) => {
   })
 
   return (
-    <IconWrapper {...rest} className="chakra-select__icon-wrapper">
+    <IconWrapper {...rest} className="incmix-select__icon-wrapper">
       {isValidElement(children) ? clone : null}
     </IconWrapper>
   )

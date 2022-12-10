@@ -1,5 +1,5 @@
 import * as React from "react"
-import { fireEvent, render, screen, waitFor } from "@chakra-ui/test-utils"
+import { fireEvent, render, screen, waitFor } from "@incmix-ui/test-utils"
 import { usePopover, UsePopoverProps } from "../src"
 
 const Component = (props: UsePopoverProps) => {

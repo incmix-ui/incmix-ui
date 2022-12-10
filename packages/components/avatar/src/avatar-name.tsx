@@ -1,4 +1,4 @@
-import { chakra, HTMLChakraProps } from "@chakra-ui/system"
+import { incmix, HTMLincmixProps } from "@incmix-ui/system"
 import { useAvatarStyles } from "./avatar-context"
 import { AvatarOptions } from "./avatar-types"
 
@@ -10,7 +10,7 @@ export function initials(name: string) {
 }
 
 interface AvatarNameProps
-  extends HTMLChakraProps<"div">,
+  extends HTMLincmixProps<"div">,
     Pick<AvatarOptions, "name" | "getInitials"> {}
 /**
  * The avatar name container
@@ -21,9 +21,9 @@ export function AvatarName(props: AvatarNameProps) {
   const styles = useAvatarStyles()
 
   return (
-    <chakra.div role="img" aria-label={name} {...rest} __css={styles.label}>
+    <incmix.div role="img" aria-label={name} {...rest} __css={styles.label}>
       {name ? getInitials?.(name) : null}
-    </chakra.div>
+    </incmix.div>
   )
 }
 

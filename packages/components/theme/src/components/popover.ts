@@ -1,9 +1,9 @@
-import { popoverAnatomy as parts } from "@chakra-ui/anatomy"
+import { popoverAnatomy as parts } from "@incmix-ui/anatomy"
 import {
   createMultiStyleConfigHelpers,
   defineStyle,
-} from "@chakra-ui/styled-system"
-import { cssVar } from "@chakra-ui/theme-tools"
+} from "@incmix-ui/styled-system"
+import { cssVar } from "@incmix-ui/theme-tools"
 
 const { defineMultiStyleConfig, definePartsStyle } =
   createMultiStyleConfigHelpers(parts.keys)

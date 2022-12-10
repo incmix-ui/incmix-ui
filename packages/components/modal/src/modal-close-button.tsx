@@ -1,6 +1,6 @@
-import { CloseButtonProps, CloseButton } from "@chakra-ui/close-button"
-import { cx, callAllHandlers } from "@chakra-ui/shared-utils"
-import { forwardRef } from "@chakra-ui/system"
+import { CloseButtonProps, CloseButton } from "@incmix-ui/close-button"
+import { cx, callAllHandlers } from "@incmix-ui/shared-utils"
+import { forwardRef } from "@incmix-ui/system"
 
 import { useModalContext, useModalStyles } from "./modal"
 
@@ -15,7 +15,7 @@ export const ModalCloseButton = forwardRef<CloseButtonProps, "button">(
     const { onClick, className, ...rest } = props
     const { onClose } = useModalContext()
 
-    const _className = cx("chakra-modal__close-btn", className)
+    const _className = cx("incmix-modal__close-btn", className)
 
     const styles = useModalStyles()
 

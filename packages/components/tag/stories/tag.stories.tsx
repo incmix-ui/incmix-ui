@@ -1,6 +1,6 @@
-import { Avatar } from "@chakra-ui/avatar"
-import { AddIcon } from "@chakra-ui/icons"
-import { chakra } from "@chakra-ui/system"
+import { Avatar } from "@incmix-ui/avatar"
+import { AddIcon } from "@incmix-ui/icons"
+import { incmix } from "@incmix-ui/system"
 import * as React from "react"
 import { MdSettings } from "react-icons/md"
 import {
@@ -15,9 +15,9 @@ export default {
   title: "Components / Data Display / Tag",
   decorators: [
     (story: Function) => (
-      <chakra.div maxW="600px" mx="auto" mt="40px">
+      <incmix.div maxW="600px" mx="auto" mt="40px">
         {story()}
-      </chakra.div>
+      </incmix.div>
     ),
   ],
 }

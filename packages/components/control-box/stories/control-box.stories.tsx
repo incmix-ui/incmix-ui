@@ -1,14 +1,14 @@
 import * as React from "react"
-import VisuallyHidden from "@chakra-ui/visually-hidden"
-import { chakra } from "@chakra-ui/system"
-import { CheckIcon } from "@chakra-ui/icons"
+import VisuallyHidden from "@incmix-ui/visually-hidden"
+import { incmix } from "@incmix-ui/system"
+import { CheckIcon } from "@incmix-ui/icons"
 import { ControlBox } from "../src"
 
 export default {
   title: "Components / Forms / Control Box",
 }
 
-const Box = chakra.div
+const Box = incmix.div
 
 export const Checkbox = (props: any) => {
   return (

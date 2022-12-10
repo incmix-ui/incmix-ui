@@ -1,11 +1,11 @@
-import { Spinner } from "@chakra-ui/spinner"
-import { chakra, HTMLChakraProps, SystemStyleObject } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { Spinner } from "@incmix-ui/spinner"
+import { incmix, HTMLincmixProps, SystemStyleObject } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { useMemo } from "react"
 import { ButtonSpinnerOptions } from "./button-types"
 
 interface ButtonSpinnerProps
-  extends HTMLChakraProps<"div">,
+  extends HTMLincmixProps<"div">,
     ButtonSpinnerOptions {}
 
 export function ButtonSpinner(props: ButtonSpinnerProps) {
@@ -19,7 +19,7 @@ export function ButtonSpinner(props: ButtonSpinnerProps) {
     ...rest
   } = props
 
-  const _className = cx("chakra-button__spinner", className)
+  const _className = cx("incmix-button__spinner", className)
 
   const marginProp = placement === "start" ? "marginEnd" : "marginStart"
 
@@ -37,9 +37,9 @@ export function ButtonSpinner(props: ButtonSpinnerProps) {
   )
 
   return (
-    <chakra.div className={_className} {...rest} __css={spinnerStyles}>
+    <incmix.div className={_className} {...rest} __css={spinnerStyles}>
       {children}
-    </chakra.div>
+    </incmix.div>
   )
 }
 ButtonSpinner.displayName = "ButtonSpinner"

@@ -1,15 +1,15 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 
 export interface HeadingProps
-  extends HTMLChakraProps<"h2">,
+  extends HTMLincmixProps<"h2">,
     ThemingProps<"Heading"> {}
 
 /**
@@ -17,7 +17,7 @@ export interface HeadingProps
  *
  * By default, renders as `h2` with themantic size `xl`
  *
- * @see Docs https://chakra-ui.com/docs/components/heading
+ * @see Docs https://incmix-ui.com/docs/components/heading
  */
 export const Heading = forwardRef<HeadingProps, "h2">(function Heading(
   props,
@@ -27,9 +27,9 @@ export const Heading = forwardRef<HeadingProps, "h2">(function Heading(
   const { className, ...rest } = omitThemingProps(props)
 
   return (
-    <chakra.h2
+    <incmix.h2
       ref={ref}
-      className={cx("chakra-heading", props.className)}
+      className={cx("incmix-heading", props.className)}
       {...rest}
       __css={styles}
     />

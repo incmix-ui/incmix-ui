@@ -1,16 +1,16 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
-  HTMLChakraProps,
+  HTMLincmixProps,
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import { useFormControlContext, useFormControlStyles } from "./form-control"
 
 export interface FormLabelProps
-  extends HTMLChakraProps<"label">,
+  extends HTMLincmixProps<"label">,
     ThemingProps<"FormLabel"> {
   /**
    * @type React.ReactElement
@@ -49,9 +49,9 @@ export const FormLabel = forwardRef<FormLabelProps, "label">(function FormLabel(
   const ownProps = field?.getLabelProps(rest, ref) ?? { ref, ...rest }
 
   return (
-    <chakra.label
+    <incmix.label
       {...ownProps}
-      className={cx("chakra-form__label", props.className)}
+      className={cx("incmix-form__label", props.className)}
       __css={{
         display: "block",
         textAlign: "start",
@@ -60,13 +60,13 @@ export const FormLabel = forwardRef<FormLabelProps, "label">(function FormLabel(
     >
       {children}
       {field?.isRequired ? requiredIndicator : optionalIndicator}
-    </chakra.label>
+    </incmix.label>
   )
 })
 
 FormLabel.displayName = "FormLabel"
 
-export interface RequiredIndicatorProps extends HTMLChakraProps<"span"> {}
+export interface RequiredIndicatorProps extends HTMLincmixProps<"span"> {}
 
 /**
  * Used to show a "required" text or an asterisks (*) to indicate that
@@ -79,10 +79,10 @@ export const RequiredIndicator = forwardRef<RequiredIndicatorProps, "span">(
 
     if (!field?.isRequired) return null
 
-    const className = cx("chakra-form__required-indicator", props.className)
+    const className = cx("incmix-form__required-indicator", props.className)
 
     return (
-      <chakra.span
+      <incmix.span
         {...field?.getRequiredIndicatorProps(props, ref)}
         __css={styles.requiredIndicator}
         className={className}

@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/form-control",
+  "name": "@incmix-ui/form-control",
   "version": "2.0.13",
   "description": "React component to provide validation states to form fields",
   "keywords": [
@@ -11,11 +11,11 @@
     "validation",
     "error",
     "react",
-    "chakra-ui"
+    "incmix-ui"
   ],
   "sideEffects": false,
   "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -26,26 +26,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chakra-ui/chakra-ui.git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
     "directory": "packages/components/form-control"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/icon": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*",
-    "@chakra-ui/react-types": "workspace:*",
-    "@chakra-ui/react-use-merge-refs": "workspace:*"
+    "@incmix-ui/icon": "workspace:*",
+    "@incmix-ui/react-context": "workspace:*",
+    "@incmix-ui/react-types": "workspace:*",
+    "@incmix-ui/react-use-merge-refs": "workspace:*"
   },
   "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   },
   "scripts": {

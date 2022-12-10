@@ -1,9 +1,9 @@
-import { selectAnatomy as parts } from "@chakra-ui/anatomy"
+import { selectAnatomy as parts } from "@incmix-ui/anatomy"
 import {
   createMultiStyleConfigHelpers,
   cssVar,
   defineStyle,
-} from "@chakra-ui/styled-system"
+} from "@incmix-ui/styled-system"
 import { inputTheme } from "./input"
 
 const { defineMultiStyleConfig, definePartsStyle } =

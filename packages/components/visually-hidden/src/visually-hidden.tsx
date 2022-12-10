@@ -1,13 +1,13 @@
-import { chakra } from "@chakra-ui/system"
+import { incmix } from "@incmix-ui/system"
 import { visuallyHiddenStyle } from "./visually-hidden.style"
 
 /**
  * Visually hidden component used to hide
  * elements on screen
  *
- * @see Docs https://chakra-ui.com/docs/components/visually-hidden
+ * @see Docs https://incmix-ui.com/docs/components/visually-hidden
  */
-export const VisuallyHidden = chakra("span", {
+export const VisuallyHidden = incmix("span", {
   baseStyle: visuallyHiddenStyle,
 })
 
@@ -18,9 +18,9 @@ VisuallyHidden.displayName = "VisuallyHidden"
  * custom input components using the html `input`
  * as a proxy
  *
- * @see Docs https://chakra-ui.com/docs/components/visually-hidden#visually-hidden-input
+ * @see Docs https://incmix-ui.com/docs/components/visually-hidden#visually-hidden-input
  */
-export const VisuallyHiddenInput = chakra("input", {
+export const VisuallyHiddenInput = incmix("input", {
   baseStyle: visuallyHiddenStyle,
 })
 

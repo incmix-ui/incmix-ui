@@ -1,20 +1,20 @@
-import { Styles } from "@chakra-ui/theme-tools"
+import { Styles } from "@incmix-ui/theme-tools"
 
 export const styles: Styles = {
   global: {
     body: {
       fontFamily: "body",
-      color: "chakra-body-text",
-      bg: "chakra-body-bg",
+      color: "incmix-body-text",
+      bg: "incmix-body-bg",
       transitionProperty: "background-color",
       transitionDuration: "normal",
       lineHeight: "base",
     },
     "*::placeholder": {
-      color: "chakra-placeholder-color",
+      color: "incmix-placeholder-color",
     },
     "*, *::before, &::after": {
-      borderColor: "chakra-border-color",
+      borderColor: "incmix-border-color",
       wordWrap: "break-word",
     },
   },

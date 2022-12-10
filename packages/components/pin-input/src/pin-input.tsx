@@ -1,13 +1,13 @@
 import {
-  chakra,
+  incmix,
   forwardRef,
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-  HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
-import { getValidChildren } from "@chakra-ui/react-children-utils"
+  HTMLincmixProps,
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { getValidChildren } from "@incmix-ui/react-children-utils"
 import {
   PinInputDescendantsProvider,
   PinInputProvider,
@@ -45,7 +45,7 @@ export interface PinInputProps
 /**
  * The `PinInput` component is similar to the Input component, but is optimized for entering sequences of digits quickly.
  *
- * @see Docs https://chakra-ui.com/docs/components/pin-input
+ * @see Docs https://incmix-ui.com/docs/components/pin-input
  */
 export function PinInput(props: PinInputProps) {
   const styles = useStyleConfig("PinInput", props)
@@ -66,15 +66,15 @@ export function PinInput(props: PinInputProps) {
 
 PinInput.displayName = "PinInput"
 
-export interface PinInputFieldProps extends HTMLChakraProps<"input"> {}
+export interface PinInputFieldProps extends HTMLincmixProps<"input"> {}
 
 export const PinInputField = forwardRef<PinInputFieldProps, "input">(
   function PinInputField(props, ref) {
     const inputProps = usePinInputField(props, ref)
     return (
-      <chakra.input
+      <incmix.input
         {...inputProps}
-        className={cx("chakra-pin-input", props.className)}
+        className={cx("incmix-pin-input", props.className)}
       />
     )
   },

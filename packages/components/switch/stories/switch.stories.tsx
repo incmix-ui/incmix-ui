@@ -1,6 +1,6 @@
-import { FormControl, FormLabel } from "@chakra-ui/form-control"
-import { HStack, Stack } from "@chakra-ui/layout"
-import { chakra } from "@chakra-ui/system"
+import { FormControl, FormLabel } from "@incmix-ui/form-control"
+import { HStack, Stack } from "@incmix-ui/layout"
+import { incmix } from "@incmix-ui/system"
 import * as React from "react"
 import { SubmitHandler, useForm } from "react-hook-form"
 import { Switch } from "../src"
@@ -9,9 +9,9 @@ export default {
   title: "Components / Forms / Switch",
   decorators: [
     (story: Function) => (
-      <chakra.div maxWidth="lg" mx="auto" mt={6} p={6}>
+      <incmix.div maxWidth="lg" mx="auto" mt={6} p={6}>
         {story()}
-      </chakra.div>
+      </incmix.div>
     ),
   ],
 }
@@ -31,12 +31,12 @@ export const Invalid = () => (
 )
 
 export const Usage = () => (
-  <chakra.div display="flex" justifyContent="center" alignItems="center">
-    <chakra.label htmlFor="email-alerts" mr="16px">
+  <incmix.div display="flex" justifyContent="center" alignItems="center">
+    <incmix.label htmlFor="email-alerts" mr="16px">
       Enable email alerts?
-    </chakra.label>
+    </incmix.label>
     <Switch colorScheme="green" id="email-alerts" />
-  </chakra.div>
+  </incmix.div>
 )
 
 export const Sizes = () => {

@@ -5,11 +5,11 @@ As the name implies, the Stat component is used to display some statistics.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/stat
+yarn add @incmix-ui/stat
 
 # or
 
-npm i @chakra-ui/stat
+npm i @incmix-ui/stat
 ```
 
 ## Import components
@@ -24,7 +24,7 @@ import {
   StatUpArrow,
   StatHelpText,
   StatDownArrow,
-} from "@chakra-ui/stat"
+} from "@incmix-ui/stat"
 ```
 
 ## Usage
