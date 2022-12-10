@@ -1,8 +1,8 @@
 # @incmix-ui/storybook-addon
 
-Use Chakra UI in your Storybook stories.
+Use Incmix UI in your Storybook stories.
 
-This Plugin wraps each of your stories with [`ChakraProvider`][chakraprovider]
+This Plugin wraps each of your stories with [`IncmixProvider`][incmixprovider]
 which can be configured using Storybook parameters.
 
 ## Installation
@@ -31,30 +31,30 @@ module.exports = {
 }
 ```
 
-## Configuring `ChakraProvider`
+## Configuring `IncmixProvider`
 
-If you need to customize the props passed to `ChakraProvider` for your stories
+If you need to customize the props passed to `IncmixProvider` for your stories
 (to use a custom `theme`, for example), you'll need to create custom Storybook
 parameters.
 
-To set global parameters for this addon, add a `chakra` object to the
+To set global parameters for this addon, add a `Incmix` object to the
 `parameters` export in `.storybook/preview.js`:
 
 ```js
 import myTheme from "../theme"
 
 export const parameters = {
-  chakra: {
+  Incmix: {
     theme: myTheme,
   },
 }
 ```
 
-The `chakra` parameters take the same shape as the `props` for `ChakraProvider`.
-[See the `ChakraProvider` props table][chakraprovider] to see the list of
+The `Incmix` parameters take the same shape as the `props` for `IncmixProvider`.
+[See the `IncmixProvider` props table][incmixprovider] to see the list of
 possible parameters.
 
-### Overriding `ChakraProvider` configuration for individual components or stories
+### Overriding `IncmixProvider` configuration for individual components or stories
 
 Storybook allows you to define parameters at multiple levels: global, component,
 and story. We recommend setting default parameters at the global level, and
@@ -94,5 +94,5 @@ This will render input fields to choose the theming prop values:
 
 ![Storybook screenshot with controls tab](theming-arg-types.png)
 
-[chakraprovider]:
-  https://incmix-ui.com/docs/getting-started#chakraprovider-props
+[incmixprovider]:
+  https://incmix-ui.com/docs/getting-started#Incmixprovider-props

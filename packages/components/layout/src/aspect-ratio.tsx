@@ -2,7 +2,7 @@ import {
   incmix,
   forwardRef,
   ResponsiveValue,
-  HTMLincmixProps,
+  HTMLIncmixProps,
 } from "@incmix-ui/system"
 import { mapResponsive } from "@incmix-ui/breakpoint-utils"
 import { cx } from "@incmix-ui/shared-utils"
@@ -19,7 +19,7 @@ interface AspectRatioOptions {
 }
 
 export interface AspectRatioProps
-  extends HTMLincmixProps<"div">,
+  extends HTMLIncmixProps<"div">,
     AspectRatioOptions {}
 
 /**

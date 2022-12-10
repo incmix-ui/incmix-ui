@@ -5,7 +5,7 @@ import {
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-  HTMLincmixProps,
+  HTMLIncmixProps,
 } from "@incmix-ui/system"
 import { cx } from "@incmix-ui/shared-utils"
 
@@ -55,7 +55,7 @@ interface SpinnerOptions {
 }
 
 export interface SpinnerProps
-  extends Omit<HTMLincmixProps<"div">, keyof SpinnerOptions>,
+  extends Omit<HTMLIncmixProps<"div">, keyof SpinnerOptions>,
     SpinnerOptions,
     ThemingProps<"Spinner"> {}
 

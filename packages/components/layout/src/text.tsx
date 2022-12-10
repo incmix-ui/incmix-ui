@@ -5,12 +5,12 @@ import {
   SystemProps,
   ThemingProps,
   useStyleConfig,
-  HTMLincmixProps,
+  HTMLIncmixProps,
 } from "@incmix-ui/system"
 import { cx } from "@incmix-ui/shared-utils"
 import { compact } from "@incmix-ui/object-utils"
 
-export interface TextProps extends HTMLincmixProps<"p">, ThemingProps<"Text"> {
+export interface TextProps extends HTMLIncmixProps<"p">, ThemingProps<"Text"> {
   /**
    * The CSS `text-align` property
    * @type SystemProps["textAlign"]

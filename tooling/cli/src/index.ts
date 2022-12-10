@@ -37,7 +37,8 @@ export async function run() {
       "Generate strict types for theme tokens (e.g. color, spacing)",
     )
     .action(async (themeFile: string, options: OptionsType) => {
-      const { out, strictComponentTypes, format, strictTokenTypes, watch } = options
+      const { out, strictComponentTypes, format, strictTokenTypes, watch } =
+        options
 
       if (watch) {
         const watchPath =
@@ -73,7 +74,7 @@ export async function run() {
 
   program.on("--help", () => {
     console.info(`Example call:
-  $ chakra-cli tokens theme.ts
+  $ Incmix-cli tokens theme.ts
 `)
   })
 

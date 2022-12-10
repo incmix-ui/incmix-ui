@@ -2,7 +2,7 @@ import { useColorMode } from "@incmix-ui/color-mode"
 import { Dict, StringOrNumber } from "@incmix-ui/utils"
 import { useTheme } from "./use-theme"
 
-export function useChakra<T extends Dict = Dict>() {
+export function useIncmix<T extends Dict = Dict>() {
   const colorModeResult = useColorMode()
   const theme = useTheme() as T
   return { ...colorModeResult, theme }

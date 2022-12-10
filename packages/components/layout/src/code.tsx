@@ -4,12 +4,12 @@ import {
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-  HTMLincmixProps,
+  HTMLIncmixProps,
 } from "@incmix-ui/system"
 import { cx } from "@incmix-ui/shared-utils"
 
 export interface CodeProps
-  extends HTMLincmixProps<"code">,
+  extends HTMLIncmixProps<"code">,
     ThemingProps<"Code"> {}
 
 /**

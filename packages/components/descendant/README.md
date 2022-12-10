@@ -5,7 +5,7 @@ Keep track of descendant components and their relative indices.
 A descendant index solution for better accessibility support in compound
 components.
 
-> **Note 🚨:** This package is primarily intended for internal use by the Chakra
+> **Note 🚨:** This package is primarily intended for internal use by the Incmix
 > UI library. You should not use it directly in your production projects.
 
 ## Installation

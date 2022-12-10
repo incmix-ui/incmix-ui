@@ -1,7 +1,7 @@
-import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
+import { incmix, forwardRef, HTMLIncmixProps } from "@incmix-ui/system"
 import { cx } from "@incmix-ui/shared-utils"
 
-export interface LinkOverlayProps extends HTMLincmixProps<"a"> {
+export interface LinkOverlayProps extends HTMLIncmixProps<"a"> {
   /**
    *  If `true`, the link will open in new tab
    */
@@ -37,7 +37,7 @@ export const LinkOverlay = forwardRef<LinkOverlayProps, "a">(
   },
 )
 
-export interface LinkBoxProps extends HTMLincmixProps<"div"> {}
+export interface LinkBoxProps extends HTMLIncmixProps<"div"> {}
 
 /**
  * `LinkBox` is used to wrap content areas within a link while ensuring semantic html

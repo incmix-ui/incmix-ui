@@ -13,7 +13,7 @@ import {
 } from "@incmix-ui/utils"
 import { useRef } from "react"
 import isEqual from "react-fast-compare"
-import { useChakra } from "./hooks"
+import { useIncmix } from "./hooks"
 
 type StylesRef = SystemStyleObject | Record<string, SystemStyleObject>
 
@@ -23,7 +23,7 @@ function useStyleConfigImpl(
 ) {
   const { styleConfig: styleConfigProp, ...rest } = props
 
-  const { theme, colorMode } = useChakra()
+  const { theme, colorMode } = useIncmix()
 
   const themeStyleConfig = themeKey
     ? get(theme, `components.${themeKey}`)
@@ -80,7 +80,7 @@ export function useComponentStyles__unstable(
   props: ThemingProps & { baseConfig: any },
 ) {
   const { baseConfig, ...restProps } = props
-  const { theme } = useChakra()
+  const { theme } = useIncmix()
 
   const overrides = theme.components?.[themeKey]
 

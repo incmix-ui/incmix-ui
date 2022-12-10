@@ -1,6 +1,6 @@
 # Hall of Maintainers
 
-Here's a list previous maintainers who have helped grow Chakra UI but are no
+Here's a list previous maintainers who have helped grow Incmix UI but are no
 longer on the team.
 
 | Maintainer Name                 | Components         |

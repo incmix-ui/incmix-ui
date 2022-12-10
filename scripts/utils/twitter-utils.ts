@@ -99,7 +99,7 @@ type TweetOptions = {
 function getTweetTextImpl(options: TweetOptions) {
   const { version, features, patches, releaseUrl } = options
 
-  const text = [`Hi Guys 👋🏼, A Chakra UI release v${version} is out! 🎉`]
+  const text = [`Hi Guys 👋🏼, A Incmix UI release v${version} is out! 🎉`]
 
   if (features?.length) {
     text.push("\n 🚀 Features", ...features)

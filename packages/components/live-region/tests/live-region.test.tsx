@@ -7,7 +7,7 @@ test("LiveRegion creates a container and has the proper aria and role attributes
 
   // eslint-disable-next-line no-new
   new LiveRegion()
-  const region = document.getElementById("chakra-a11y-live-region")
+  const region = document.getElementById("Incmix-a11y-live-region")
 
   expect(region).toHaveAttribute("aria-atomic", "true")
   expect(region).toHaveAttribute("aria-live", "polite")
@@ -41,7 +41,7 @@ test('LiveRegion can "speak" by setting its text content', () => {
 
   const liveRegion = new LiveRegion()
   const region = document.getElementById(
-    "chakra-a11y-live-region",
+    "Incmix-a11y-live-region",
   ) as HTMLElement
 
   liveRegion.speak("Hello World")

@@ -4,7 +4,7 @@ import {
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-  HTMLincmixProps,
+  HTMLIncmixProps,
 } from "@incmix-ui/system"
 import { cx } from "@incmix-ui/shared-utils"
 
@@ -68,7 +68,7 @@ export const Divider = forwardRef<DividerProps, "hr">(function Divider(
 })
 
 export interface DividerProps
-  extends HTMLincmixProps<"div">,
+  extends HTMLIncmixProps<"div">,
     ThemingProps<"Divider"> {
   orientation?: "horizontal" | "vertical"
 }

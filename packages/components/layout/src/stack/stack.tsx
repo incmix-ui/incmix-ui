@@ -1,7 +1,7 @@
 import {
   incmix,
   forwardRef,
-  HTMLincmixProps,
+  HTMLIncmixProps,
   SystemProps,
 } from "@incmix-ui/system"
 import { cx } from "@incmix-ui/shared-utils"
@@ -55,7 +55,7 @@ interface StackOptions {
   isInline?: boolean
 }
 
-export interface StackProps extends HTMLincmixProps<"div">, StackOptions {}
+export interface StackProps extends HTMLIncmixProps<"div">, StackOptions {}
 
 /**
  * Stacks help you easily create flexible and automatically distributed layouts

@@ -83,7 +83,7 @@ function getOptions(options?: LiveRegionOptions) {
     "aria-atomic": "true",
     "aria-relevant": "all",
     role: "status",
-    id: "chakra-a11y-live-region",
+    id: "Incmix-a11y-live-region",
     parentNode: isBrowser ? document.body : undefined,
   }
   if (options) {
@@ -106,8 +106,8 @@ function getRegion(options: Required<LiveRegionOptions>) {
 }
 
 function setup(region: HTMLElement, options: Required<LiveRegionOptions>) {
-  region.id = options.id || "chakra-live-region"
-  region.className = "__chakra-live-region"
+  region.id = options.id || "Incmix-live-region"
+  region.className = "__Incmix-live-region"
   region.setAttribute("aria-live", options["aria-live"])
   region.setAttribute("role", options.role)
   region.setAttribute("aria-relevant", options["aria-relevant"])

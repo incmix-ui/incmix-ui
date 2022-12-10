@@ -2,10 +2,10 @@ import {
   incmix,
   forwardRef,
   SystemStyleObject,
-  HTMLincmixProps,
+  HTMLIncmixProps,
 } from "@incmix-ui/system"
 
-export interface BoxProps extends HTMLincmixProps<"div"> {}
+export interface BoxProps extends HTMLIncmixProps<"div"> {}
 
 /**
  * Box is the most abstract component on top of which other incmix

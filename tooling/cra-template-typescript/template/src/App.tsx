@@ -1,6 +1,6 @@
 import * as React from "react"
 import {
-  ChakraProvider,
+  IncmixProvider,
   Box,
   Text,
   Link,
@@ -13,7 +13,7 @@ import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
 
 export const App = () => (
-  <ChakraProvider theme={theme}>
+  <IncmixProvider theme={theme}>
     <Box textAlign="center" fontSize="xl">
       <Grid minH="100vh" p={3}>
         <ColorModeSwitcher justifySelf="flex-end" />
@@ -29,10 +29,10 @@ export const App = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn Chakra
+            Learn Incmix
           </Link>
         </VStack>
       </Grid>
     </Box>
-  </ChakraProvider>
+  </IncmixProvider>
 )

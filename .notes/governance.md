@@ -1,9 +1,9 @@
 # Project Governance
 
 This document describes how we manage the project, manage teams, and make
-decisions for the Chakra UI React and Vue team.
+decisions for the Incmix UI React and Vue team.
 
-For guidance on how to contribute to Chakra UI, please see our
+For guidance on how to contribute to Incmix UI, please see our
 [CONTRIBUTING.md](./CONTRIBUTING.md) guide.
 
 For our code conduct, please see our [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
@@ -14,16 +14,16 @@ For our code conduct, please see our [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
   the project's codebase, documentation or marketing.
 
 - **Collaborator**: A collaborator is a consistent contributor who has been
-  chosen by the Chakra UI team to help improve a specific feature/aspect of the
+  chosen by the Incmix UI team to help improve a specific feature/aspect of the
   project. This person is usually an "outside collaborator" who has triage/write
   access to the repo.
 
 - **Maintainer**: A maintainer is a consistent collaborator who is trusted by
-  the Chakra UI team and has shown ability to take ownership of a specific area
-  in Chakra.
+  the Incmix UI team and has shown ability to take ownership of a specific area
+  in Incmix.
 
 - **Lead Maintainer**: A lead maintainer is someone who leads and manages the
-  execution of ideas for a specific area in Chakra. They're responsible for
+  execution of ideas for a specific area in Incmix. They're responsible for
   defining the direction, implementation and even recruiting
   maintainers/collaborators to help achieve the set goal.
 
@@ -79,7 +79,7 @@ with a Pull Request describing:
 - The proposed solution and API
 - The proposed list of contributors who will manage the bug fixes,
   documentation, and support
-- Any other information that'll be useful for the Chakra UI maintainers to
+- Any other information that'll be useful for the Incmix UI maintainers to
   understand the scope and nature of the project.
 
 If a project is approved, a core maintainer will guide and work closely with the
@@ -90,7 +90,7 @@ the core team.
 
 ### On compensating maintainers
 
-Chakra UI is a growing open-source project and we try to ensure every maintainer
+Incmix UI is a growing open-source project and we try to ensure every maintainer
 is compensated. We give:
 
 - Quarterly compensation ($500-$2000) per maintainer, depending on the
@@ -99,7 +99,7 @@ is compensated. We give:
   to know each other.
 - Access to premium software or courses to grow your skills and knowledge.
 - Access to the internal projects.
-- Free access to Chakra UI Pro components for use in side projects.
+- Free access to Incmix UI Pro components for use in side projects.
 
 ## Teams
 
@@ -109,13 +109,13 @@ change into the project. Triage team members are part of the organization but do
 not have write access. We believe that becoming a reviewer is a core aspect in
 the journey to becoming a maintainer.
 
-**DevRel**: They're actively involved in promoting Chakra UI in the community,
+**DevRel**: They're actively involved in promoting Incmix UI in the community,
 monitoring Discord, creating educational content, improving the documentation,
-and finding opportunities to integrate Chakra UI with new technologies (Next.js,
+and finding opportunities to integrate Incmix UI with new technologies (Next.js,
 Gatsby, Redwood, etc)
 
 **Core**: They're responsible for the overall quality and stewardship of the
-project. They are people who understand a specific area of Chakra UI deeply
+project. They are people who understand a specific area of Incmix UI deeply
 enough to improve, make changes and improve performance of the project.
 
 **Funding**: They're actively involved in getting funding and sponsorship
@@ -124,7 +124,7 @@ you're working for free. While this is the reality, we strive hard to ensure
 that everyone is compensated for the work they do. No matter how little!
 
 **Design**: They're responsible for creating the design system components used
-in Chakra UI and documentation websites for the project. They also help create
+in Incmix UI and documentation websites for the project. They also help create
 marketing graphics, youtube thumbnails, etc. as needed.
 
 **Experiments**: They're always working on the "next big thing", trying out new

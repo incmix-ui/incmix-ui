@@ -1,7 +1,7 @@
 ---
 title: Version 1.8.4
 description:
-  Explore the changelog for Chakra UI version 1.8.4. Learn about the latest
+  Explore the changelog for Incmix UI version 1.8.4. Learn about the latest
   features, bug fixes, and improvements.
 releaseUrl: https://github.com/incmix-ui/incmix-ui/pull/5539
 releaseDate: February 20, 2022
@@ -16,19 +16,19 @@ version: 1.8.4
   [`b0da6e666`](https://github.com/incmix-ui/incmix-ui/commit/b0da6e6665234c1584403f7f7251390c3a9433c8)
   Thanks [@jrolfs](https://github.com/jrolfs)! - Modify theme types to make it
   possible to customize token types via TypeScript module augmentation and
-  declaration merging in addition to allowing customization via the Chakra CLI.
+  declaration merging in addition to allowing customization via the Incmix CLI.
 
   This makes it possible to do the following:
 
-  - Distribute custom types with a component library based on Chakra
+  - Distribute custom types with a component library based on Incmix
   - Customize theme types by hand
   - Version control your theme types
 
   To customize themes using the new mechanism, augment the `CustomThemeTypings`
-  type in a definitions file such as `types/chakra.d.ts`:
+  type in a definitions file such as `types/Incmix.d.ts`:
 
   > ⚠️ NOTE: your `CustomThemeTypings` _must_ implement/extend
-  > `BaseThemeTypings`, otherwise the types will fall back to the default Chakra
+  > `BaseThemeTypings`, otherwise the types will fall back to the default Incmix
   > types (or custom output from **@incmix-ui/cli**)
 
   ```ts
@@ -66,14 +66,14 @@ version: 1.8.4
 - [#5508](https://github.com/incmix-ui/incmix-ui/pull/5508)
   [`e5e0f255c`](https://github.com/incmix-ui/incmix-ui/commit/e5e0f255c95f5e41c3b17adbda28fd09f7251642)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Allow all
-  `JSX.IntrinsicElements` for the chakra factory. This allows to use
+  `JSX.IntrinsicElements` for the Incmix factory. This allows to use
   [every DOM element](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/30a2f70db2f9ac223fd923ff1f8bcc175c082fd0/types/react/index.d.ts#L3111-L3288)
   with the shorthand version:
 
   ```jsx live=false
-  <chakra.header>Header</chakra.header>
-  <chakra.main>Main</chakra.main>
-  <chakra.footer>Many more</chakra.footer>
+  <Incmix.header>Header</Incmix.header>
+  <Incmix.main>Main</Incmix.main>
+  <Incmix.footer>Many more</Incmix.footer>
   ```
 
 ### Patch Changes
@@ -546,13 +546,13 @@ version: 1.8.4
 
 - Updated dependencies
 
-## chakra-nextjs@1.1.11
+## Incmix-nextjs@1.1.11
 
 ### Patch Changes
 
 - Updated dependencies
 
-## chakra-nextjs-ts@1.1.11
+## Incmix-nextjs-ts@1.1.11
 
 ### Patch Changes
 

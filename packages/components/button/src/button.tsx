@@ -2,7 +2,7 @@ import { useMergeRefs } from "@incmix-ui/react-use-merge-refs"
 import {
   incmix,
   forwardRef,
-  HTMLincmixProps,
+  HTMLIncmixProps,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
@@ -18,7 +18,7 @@ import { ButtonOptions } from "./button-types"
 import { useButtonType } from "./use-button-type"
 
 export interface ButtonProps
-  extends HTMLincmixProps<"button">,
+  extends HTMLIncmixProps<"button">,
     ButtonOptions,
     ThemingProps<"Button"> {}
 

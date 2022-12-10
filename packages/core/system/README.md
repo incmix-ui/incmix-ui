@@ -23,39 +23,39 @@ required to create a fully customizable, theme-aware component.
 
 ## Solutions
 
-### Chakra Elements
+### Incmix Elements
 
-Chakra provides enhanced JSX elements that can be styled directly via props, or
+Incmix provides enhanced JSX elements that can be styled directly via props, or
 can accept the common `sx` prop for custom styles.
 
-We'll provide a chakra function, just like styled-components. Users can create
-any component using the `chakra.[element]`. The resulting component will be a
+We'll provide a Incmix function, just like styled-components. Users can create
+any component using the `Incmix.[element]`. The resulting component will be a
 styled component and have all system props.
 
 ```jsx
-<chakra.button bg="green.200" _hover={{ bg: "green.300" }}>
+<Incmix.button bg="green.200" _hover={{ bg: "green.300" }}>
   Click me
-</chakra.button>
+</Incmix.button>
 
-<chakra.h1 fontSize="lg"> Heading </chakra.h1>
+<Incmix.h1 fontSize="lg"> Heading </Incmix.h1>
 
 // create your own box
-const Box = chakra.div
+const Box = incmix.div
 
 // you can still use the `as` prop
 <Box as="h1">This is my box</Box>
 
 // for custom components
-const ChakraPowered = chakra(YourComponent)
+const IncmixPowered = Incmix(YourComponent)
 
-// TS: chakra will infer the types of Link and
+// TS: Incmix will infer the types of Link and
 // make it available in props
-<chakra.a as={Link} to="/home"> Click me</chakra.a>
+<Incmix.a as={Link} to="/home"> Click me</Incmix.a>
 ```
 
-### Chakra Component API
+### Incmix Component API
 
-A way to define themeable components in chakra. We believe most re-usable,
+A way to define themeable components in Incmix. We believe most re-usable,
 atomic components have the following modifiers:
 
 - Size: It has different size variations (small, medium, large)
@@ -116,7 +116,7 @@ const theme = {
 import { Button } from "@incmix-ui/react"
 
 // or your own button
-const Button = chakra("button", { themeKey: "Button" })
+const Button = Incmix("button", { themeKey: "Button" })
 
 // 3. use the button. It'll have the visual props defined in defaultProps
 <Button>Click me</Button>

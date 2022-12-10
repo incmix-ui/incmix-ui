@@ -1,6 +1,6 @@
 import {
   incmix,
-  incmixProps,
+  IncmixProps,
   forwardRef,
   SystemStyleObject,
   useStyleConfig,
@@ -29,8 +29,8 @@ const fallbackIcon = {
 type Orientation = "vertical" | "horizontal"
 
 export interface IconProps
-  extends Omit<React.SVGAttributes<SVGElement>, keyof incmixProps>,
-    incmixProps {
+  extends Omit<React.SVGAttributes<SVGElement>, keyof IncmixProps>,
+    IncmixProps {
   orientation?: Orientation
 }
 

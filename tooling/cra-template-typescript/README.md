@@ -1,6 +1,6 @@
 # @incmix-ui/cra-template-typescript
 
-This is the official Chakra+TypeScript template for
+This is the official Incmix+TypeScript template for
 [Create React App](https://github.com/facebook/create-react-app).
 
 ## Usage

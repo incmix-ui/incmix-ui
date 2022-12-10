@@ -1,29 +1,29 @@
 import { DOMElements } from "./system.utils"
-import { ChakraStyledOptions, HTMLChakraComponents, styled } from "./system"
-import { As, ChakraComponent } from "./system.types"
+import { IncmixStyledOptions, HTMLIncmixComponents, styled } from "./system"
+import { As, IncmixComponent } from "./system.types"
 
-type ChakraFactory = {
+type IncmixFactory = {
   <T extends As, P = {}>(
     component: T,
-    options?: ChakraStyledOptions,
-  ): ChakraComponent<T, P>
+    options?: IncmixStyledOptions,
+  ): IncmixComponent<T, P>
 }
 
 function factory() {
-  const cache = new Map<DOMElements, ChakraComponent<DOMElements>>()
+  const cache = new Map<DOMElements, IncmixComponent<DOMElements>>()
 
   return new Proxy(styled, {
     /**
      * @example
-     * const Div = chakra("div")
-     * const WithChakra = chakra(AnotherComponent)
+     * const Div = Incmix("div")
+     * const WithIncmix = Incmix(AnotherComponent)
      */
-    apply(target, thisArg, argArray: [DOMElements, ChakraStyledOptions]) {
+    apply(target, thisArg, argArray: [DOMElements, IncmixStyledOptions]) {
       return styled(...argArray)
     },
     /**
      * @example
-     * <chakra.div />
+     * <incmix.div />
      */
     get(_, element: DOMElements) {
       if (!cache.has(element)) {
@@ -31,12 +31,12 @@ function factory() {
       }
       return cache.get(element)
     },
-  }) as ChakraFactory & HTMLChakraComponents
+  }) as IncmixFactory & HTMLIncmixComponents
 }
 /**
- * The Chakra factory serves as an object of chakra enabled JSX elements,
- * and also a function that can be used to enable custom component receive chakra's style props.
+ * The Incmix factory serves as an object of Incmix enabled JSX elements,
+ * and also a function that can be used to enable custom component receive Incmix's style props.
  *
- * @see Docs https://incmix-ui.com/docs/styled-system/chakra-factory
+ * @see Docs https://incmix-ui.com/docs/styled-system/Incmix-factory
  */
-export const chakra = factory()
+export const incmix = factory()

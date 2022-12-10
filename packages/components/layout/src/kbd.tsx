@@ -4,11 +4,11 @@ import {
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-  HTMLincmixProps,
+  HTMLIncmixProps,
 } from "@incmix-ui/system"
 import { cx } from "@incmix-ui/shared-utils"
 
-export interface KbdProps extends HTMLincmixProps<"kbd">, ThemingProps<"Kbd"> {}
+export interface KbdProps extends HTMLIncmixProps<"kbd">, ThemingProps<"Kbd"> {}
 
 /**
  * Semantic component to render a keyboard shortcut

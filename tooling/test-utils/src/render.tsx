@@ -1,4 +1,4 @@
-import { ChakraProvider } from "@incmix-ui/provider"
+import { IncmixProvider } from "@incmix-ui/provider"
 import theme from "@incmix-ui/theme"
 import "@testing-library/jest-dom/extend-expect"
 import { render as rtlRender, RenderOptions } from "@testing-library/react"
@@ -8,24 +8,24 @@ import userEvent from "@testing-library/user-event"
 
 expect.extend(toHaveNoViolations)
 
-const ChakraProviderWrapper = (props: any) => (
-  <ChakraProvider {...props} theme={theme} />
+const IncmixProviderWrapper = (props: any) => (
+  <IncmixProvider {...props} theme={theme} />
 )
 
-export interface ChakraRenderOptions extends RenderOptions {
-  withChakraProvider?: boolean
+export interface IncmixRenderOptions extends RenderOptions {
+  withIncmixProvider?: boolean
 }
 
 export function render(
   ui: React.ReactElement,
-  { withChakraProvider, ...options }: ChakraRenderOptions = {
-    withChakraProvider: true,
+  { withIncmixProvider, ...options }: IncmixRenderOptions = {
+    withIncmixProvider: true,
   },
 ): ReturnType<typeof rtlRender> & { user: ReturnType<typeof userEvent.setup> } {
   const user = userEvent.setup()
 
-  if (withChakraProvider) {
-    options.wrapper = ChakraProviderWrapper
+  if (withIncmixProvider) {
+    options.wrapper = IncmixProviderWrapper
   }
 
   const result = rtlRender(ui, options)

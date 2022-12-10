@@ -1,4 +1,4 @@
-import { incmix, SystemStyleObject, HTMLincmixProps } from "@incmix-ui/system"
+import { incmix, SystemStyleObject, HTMLIncmixProps } from "@incmix-ui/system"
 
 export interface ControlBoxOptions {
   type?: "checkbox" | "radio"
@@ -17,7 +17,7 @@ export interface ControlBoxOptions {
 export type IControlBox = ControlBoxOptions
 
 interface BaseControlProps
-  extends Omit<HTMLincmixProps<"div">, keyof ControlBoxOptions> {}
+  extends Omit<HTMLIncmixProps<"div">, keyof ControlBoxOptions> {}
 
 export interface ControlBoxProps extends BaseControlProps, ControlBoxOptions {}
 

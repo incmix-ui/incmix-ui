@@ -119,7 +119,7 @@
 - [#6046](https://github.com/incmix-ui/incmix-ui/pull/6046)
   [`3319eca8b`](https://github.com/incmix-ui/incmix-ui/commit/3319eca8bf02b892ea345a68294110919e2963cb)
   Thanks [@Averethel](https://github.com/Averethel)! - Ensure types used by
-  other chakra packages are properly exported and imported so that `src`
+  other Incmix packages are properly exported and imported so that `src`
   directory is not referenced in the emitted type declarations.
 
 ## 3.0.0
@@ -129,7 +129,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 * [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
@@ -186,7 +186,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 ### Patch Changes
 

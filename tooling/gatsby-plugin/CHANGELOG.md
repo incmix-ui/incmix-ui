@@ -69,7 +69,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 * [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
@@ -106,7 +106,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 ## 3.0.0-next.0
 
@@ -152,7 +152,7 @@
 - [`dee5a15c8`](https://github.com/incmix-ui/incmix-ui/commit/dee5a15c8964607f889a83ebda9bb0e063e034cc)
   [#4017](https://github.com/incmix-ui/incmix-ui/pull/4017) Thanks
   [@LekoArts](https://github.com/LekoArts)! - Pass `pluginOptions` correctly to
-  the `ChakraProvider`. Fixes https://github.com/incmix-ui/incmix-ui/issues/4014
+  the `IncmixProvider`. Fixes https://github.com/incmix-ui/incmix-ui/issues/4014
 
 ## 2.0.0
 
@@ -167,16 +167,16 @@
 
   ## Breaking Changes
 
-  - The `isUsingColorMode` option was removed. The `ChakraProvider` will always
+  - The `isUsingColorMode` option was removed. The `IncmixProvider` will always
     use the `ColorModeProvider`
   - The `isResettingCSS` option was renamed to `resetCSS`
 
-  Those changes were made to use the current `ChakraProvider` and align the prop
+  Those changes were made to use the current `IncmixProvider` and align the prop
   names.
 
   ## Improvements
 
-  - Use `ChakraProvider` instead of the outdated `ThemeProvider` pattern
+  - Use `IncmixProvider` instead of the outdated `ThemeProvider` pattern
   - Add `initialColorMode` to the `ColorModeScript`
   - Allow Fast Refresh reloading of all theme files
   - Set stricter `peerDependency` on `gatsby` (to `^2.29.3 || ^3.0.0`)

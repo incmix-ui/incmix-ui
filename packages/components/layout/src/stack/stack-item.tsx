@@ -1,6 +1,6 @@
-import { incmixComponent, incmix } from "@incmix-ui/system"
+import { IncmixComponent, incmix } from "@incmix-ui/system"
 
-export const StackItem: incmixComponent<"div"> = (props) => (
+export const StackItem: IncmixComponent<"div"> = (props) => (
   <incmix.div
     className="incmix-stack__item"
     {...props}

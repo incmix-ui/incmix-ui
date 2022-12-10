@@ -4,12 +4,12 @@ import {
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-  HTMLincmixProps,
+  HTMLIncmixProps,
 } from "@incmix-ui/system"
 import { cx } from "@incmix-ui/shared-utils"
 
 export interface ContainerProps
-  extends HTMLincmixProps<"div">,
+  extends HTMLIncmixProps<"div">,
     ThemingProps<"Container"> {
   /**
    * If `true`, container will center its children

@@ -32,7 +32,7 @@ function validateColorScheme(value: object) {
 }
 
 /**
- * Create Storybook controls based on a Chakra UI theme component.
+ * Create Storybook controls based on a Incmix UI theme component.
  *
  * @example
  * export default {
@@ -60,7 +60,7 @@ function validateColorScheme(value: object) {
  *
  * export const Basic: StoryFn<StoryProps> = (props) => <Button {...props} />
  *
- * @param theme same Chakra UI theme used in .storybook/preview.tsx
+ * @param theme same Incmix UI theme used in .storybook/preview.tsx
  * @param componentName component name to create the ArgTypes for
  */
 export function getThemingArgTypes<

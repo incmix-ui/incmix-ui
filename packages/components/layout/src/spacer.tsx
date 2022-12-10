@@ -1,6 +1,6 @@
-import { incmix, HTMLincmixProps } from "@incmix-ui/system"
+import { incmix, HTMLIncmixProps } from "@incmix-ui/system"
 
-export interface SpacerProps extends HTMLincmixProps<"div"> {}
+export interface SpacerProps extends HTMLIncmixProps<"div"> {}
 
 /**
  * A flexible flex spacer that expands along the major axis of its containing flex layout.

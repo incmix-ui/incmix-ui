@@ -1,6 +1,6 @@
 import {
   forwardRef,
-  HTMLincmixProps,
+  HTMLIncmixProps,
   omitThemingProps,
   SystemStyleObject,
   ThemingProps,
@@ -53,7 +53,7 @@ export type HighlightProps = {
   styles?: SystemStyleObject
 }
 
-export type MarkProps = ThemingProps<"Mark"> & HTMLincmixProps<"mark">
+export type MarkProps = ThemingProps<"Mark"> & HTMLIncmixProps<"mark">
 
 export const Mark = forwardRef<MarkProps, "mark">(function Mark(props, ref) {
   const styles = useStyleConfig("Mark", props)

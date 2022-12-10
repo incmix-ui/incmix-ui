@@ -1,7 +1,7 @@
 import {
   incmix,
   forwardRef,
-  HTMLincmixProps,
+  HTMLIncmixProps,
   SystemStyleObject,
   ThemingProps,
 } from "@incmix-ui/system"
@@ -11,7 +11,7 @@ import { ButtonGroupContext, ButtonGroupProvider } from "./button-context"
 import { ButtonGroupOptions } from "./button-types"
 
 export interface ButtonGroupProps
-  extends HTMLincmixProps<"div">,
+  extends HTMLIncmixProps<"div">,
     ThemingProps<"Button">,
     ButtonGroupOptions {}
 

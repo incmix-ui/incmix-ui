@@ -11,13 +11,13 @@ npx @incmix-ui/cli tokens <path/to/your/theme.(js|ts)>
 or
 
 ```sh
-npx @incmix-ui/cli tokens <@your-org/chakra-theme-package>
+npx @incmix-ui/cli tokens <@your-org/Incmix-theme-package>
 ```
 
 ```sh
 $ npx @incmix-ui/cli tokens --help
 
-Usage: chakra-cli tokens [options] <source>
+Usage: Incmix-cli tokens [options] <source>
 
 Options:
   --out <path>              output file e.g. node_modules/@incmix-ui/styled-system/dist/declarations/src/theming.types.d.ts
@@ -28,7 +28,7 @@ Options:
   -h, --help                display help for command
 
 Example call:
-  $ chakra-cli tokens theme.ts
+  $ Incmix-cli tokens theme.ts
 ```
 
 > Note 🚨: If you delete the `node_modules` directory, you'll need to re-run the
@@ -39,7 +39,7 @@ you don't have to think about this every time you re-install your dependencies.
 
 ```json title="package.json"
 "scripts": {
-  "gen:theme-typings": "chakra-cli tokens <path/to/your/theme.(js|ts)>",
+  "gen:theme-typings": "Incmix-cli tokens <path/to/your/theme.(js|ts)>",
   "postinstall": "npm run gen:theme-typings"
 }
 ```

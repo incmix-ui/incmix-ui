@@ -14,7 +14,7 @@ export function useTheme<T extends object = Dict>() {
   )
   if (!theme) {
     throw Error(
-      "useTheme: `theme` is undefined. Seems you forgot to wrap your app in `<ChakraProvider />` or `<ThemeProvider />`",
+      "useTheme: `theme` is undefined. Seems you forgot to wrap your app in `<IncmixProvider />` or `<ThemeProvider />`",
     )
   }
 

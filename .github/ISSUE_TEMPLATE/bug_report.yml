@@ -43,10 +43,10 @@ body:
         3. Scroll down to '...'
         4. See error
   - type: "input"
-    id: "chakra-version"
+    id: "Incmix-version"
     attributes:
-      label: "Chakra UI Version"
-      description: "The version of Chakra UI you use."
+      label: "Incmix UI Version"
+      description: "The version of Incmix UI you use."
       placeholder: "1.6.4"
     validations:
       required: true

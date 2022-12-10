@@ -2,7 +2,7 @@ import {
   incmix,
   forwardRef,
   SystemProps,
-  HTMLincmixProps,
+  HTMLIncmixProps,
 } from "@incmix-ui/system"
 
 export interface GridOptions {
@@ -64,7 +64,7 @@ export interface GridOptions {
 }
 
 export interface GridProps
-  extends Omit<HTMLincmixProps<"div">, keyof GridOptions>,
+  extends Omit<HTMLIncmixProps<"div">, keyof GridOptions>,
     GridOptions {}
 
 /**

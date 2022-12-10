@@ -4,11 +4,11 @@ import {
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-  HTMLincmixProps,
+  HTMLIncmixProps,
 } from "@incmix-ui/system"
 import { cx } from "@incmix-ui/shared-utils"
 
-export interface LinkProps extends HTMLincmixProps<"a">, ThemingProps<"Link"> {
+export interface LinkProps extends HTMLIncmixProps<"a">, ThemingProps<"Link"> {
   /**
    *  If `true`, the link will open in new tab
    */

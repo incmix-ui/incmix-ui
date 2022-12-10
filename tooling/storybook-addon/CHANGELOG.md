@@ -27,7 +27,7 @@
 
 - [#6726](https://github.com/incmix-ui/incmix-ui/pull/6726)
   [`22968783f`](https://github.com/incmix-ui/incmix-ui/commit/22968783f509bca1b4196d7d1772a872a131e845)
-  Thanks [@kibs](https://github.com/kibs)! - Allow setting the storybook chakra
+  Thanks [@kibs](https://github.com/kibs)! - Allow setting the storybook Incmix
   theme via a callback function, with access to the context
 
 * [#6725](https://github.com/incmix-ui/incmix-ui/pull/6725)
@@ -207,7 +207,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 * [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
@@ -234,9 +234,9 @@
   The ColorMode Toggle moved to the Storybook toolbar together with a new layout
   direction toggle (ltr/rtl).
 
-  A new helper function extracts the ArgTypes for a given Chakra UI component.
+  A new helper function extracts the ArgTypes for a given Incmix UI component.
   You can quickly preview all variants, sizes and colorSchemes of your
-  components which are present in your Chakra UI Theme.
+  components which are present in your Incmix UI Theme.
 
   ```tsx
   // button.stories.tsx
@@ -325,9 +325,9 @@
   The ColorMode Toggle moved to the Storybook toolbar together with a new layout
   direction toggle (ltr/rtl).
 
-  A new helper function extracts the ArgTypes for a given Chakra UI component.
+  A new helper function extracts the ArgTypes for a given Incmix UI component.
   You can quickly preview all variants, sizes and colorSchemes of your
-  components which are present in your Chakra UI Theme.
+  components which are present in your Incmix UI Theme.
 
   ```tsx
   // button.stories.tsx
@@ -388,7 +388,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 ### Patch Changes
 
@@ -446,7 +446,7 @@
 - [#5126](https://github.com/incmix-ui/incmix-ui/pull/5126)
   [`712cc3d1e`](https://github.com/incmix-ui/incmix-ui/commit/712cc3d1e6193ec7d98d195abdb124809f9b9b06)
   Thanks [@ngxCoder](https://github.com/ngxCoder)! - The official Storybook
-  Addon for Chakra UI.
+  Addon for Incmix UI.
 
   ```sh
   yarn add -D @incmix-ui/storybook-addon

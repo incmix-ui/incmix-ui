@@ -33,7 +33,7 @@ test("should resolve styles in theme", async () => {
       <Component />
     </ThemeProvider>,
     {
-      withChakraProvider: false,
+      withIncmixProvider: false,
     },
   )
 
@@ -101,7 +101,7 @@ test("should resolve multipart styles in theme", async () => {
       <Component />
     </ThemeProvider>,
     {
-      withChakraProvider: false,
+      withIncmixProvider: false,
     },
   )
 

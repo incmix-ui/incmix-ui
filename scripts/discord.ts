@@ -33,11 +33,11 @@ function start() {
     spinner.start("Setting up client...")
 
     const guild = client.guilds.cache.find(
-      (guild) => guild.name === "Chakra UI",
+      (guild) => guild.name === "Incmix UI",
     )
 
     if (guild) {
-      spinner.succeed("Found guild: Chakra")
+      spinner.succeed("Found guild: Incmix")
 
       const channel = client?.channels.cache.find(
         (channel) => channel.isText() && channel.id === CHANNELS.ANNOUNCEMENT,
@@ -69,7 +69,7 @@ function start() {
       spinner.succeed("Changelog posted to Discord: #announcement")
       exit(0)
     } else {
-      spinner.fail("Cannot find guild: Chakra")
+      spinner.fail("Cannot find guild: Incmix")
       exit(1)
     }
   })

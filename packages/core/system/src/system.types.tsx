@@ -5,7 +5,7 @@ import type {
 } from "@incmix-ui/styled-system"
 import type { Interpolation } from "@emotion/react"
 
-export interface ChakraProps extends SystemProps {
+export interface IncmixProps extends SystemProps {
   /**
    * Used to truncate text at a specific number of lines
    */
@@ -72,5 +72,5 @@ export type ComponentWithAs<Component extends As, Props extends object = {}> = {
   id?: string
 }
 
-export interface ChakraComponent<T extends As, P = {}>
-  extends ComponentWithAs<T, ChakraProps & P> {}
+export interface IncmixComponent<T extends As, P = {}>
+  extends ComponentWithAs<T, IncmixProps & P> {}

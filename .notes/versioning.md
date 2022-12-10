@@ -4,7 +4,7 @@ author: Mark Chandler
 
 # Versioning Strategy
 
-Since `@incmix-ui/react` acts as a combined gateway to (nearly) all Chakra UI
+Since `@incmix-ui/react` acts as a combined gateway to (nearly) all Incmix UI
 functionality, its version should reflect that by having all `minor` version
 bumps to its internal dependencies applied to itself as well. This allows the
 `@incmix-ui/react` package to reflect all backwards-compatible functionality

@@ -2,7 +2,7 @@ import { Icon, IconProps } from "@incmix-ui/icon"
 import { createContext } from "@incmix-ui/react-context"
 import { getValidChildren } from "@incmix-ui/react-children-utils"
 import type {
-  HTMLincmixProps,
+  HTMLIncmixProps,
   SystemProps,
   ThemingProps,
 } from "@incmix-ui/system"
@@ -42,7 +42,7 @@ interface ListOptions {
 }
 
 export interface ListProps
-  extends HTMLincmixProps<"ul">,
+  extends HTMLIncmixProps<"ul">,
     ThemingProps<"List">,
     ListOptions {}
 
@@ -110,7 +110,7 @@ export const UnorderedList = forwardRef<ListProps, "ul">(function UnorderedList(
 
 UnorderedList.displayName = "UnorderedList"
 
-export interface ListItemProps extends HTMLincmixProps<"li"> {}
+export interface ListItemProps extends HTMLIncmixProps<"li"> {}
 
 /**
  * ListItem

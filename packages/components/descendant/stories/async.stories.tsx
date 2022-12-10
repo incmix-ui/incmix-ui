@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useInterval } from "@incmix-ui/hooks"
-import { chakra } from "@incmix-ui/system"
+import { Incmix } from "@incmix-ui/system"
 import * as React from "react"
 import createDescendantContext from "../src"
 
@@ -34,7 +34,7 @@ function Option({ value, disabled }: { value?: string; disabled?: boolean }) {
   })
 
   return (
-    <chakra.div
+    <incmix.div
       ref={register}
       role="button"
       tabIndex={0}
@@ -46,7 +46,7 @@ function Option({ value, disabled }: { value?: string; disabled?: boolean }) {
       }}
     >
       Option {index + 1}
-    </chakra.div>
+    </incmix.div>
   )
 }
 

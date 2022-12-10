@@ -1,6 +1,6 @@
-# Chakra UI Maintainers
+# Incmix UI Maintainers
 
-Chakra UI is developed and supported by many individuals. The following table
+Incmix UI is developed and supported by many individuals. The following table
 list the names of maintainers per components.
 
 | Maintainer Name             | Components                |

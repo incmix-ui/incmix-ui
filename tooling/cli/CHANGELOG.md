@@ -11,7 +11,7 @@
   for theme tokens (e.g. color, spacing)
 
   ```bash
-  chakra-cli tokens --strict-token-types
+  Incmix-cli tokens --strict-token-types
   ```
 
   ```tsx live=false
@@ -62,7 +62,7 @@
 - [#6465](https://github.com/incmix-ui/incmix-ui/pull/6465)
   [`67edac24a`](https://github.com/incmix-ui/incmix-ui/commit/67edac24ace3c621ecb8cc32ee545acbedaadd79)
   Thanks [@itkrt2y](https://github.com/itkrt2y)! - Fix regression where
-  `ThemeTypings` created by chakra-cli could not be used
+  `ThemeTypings` created by Incmix-cli could not be used
 
 - Updated dependencies
   [[`dffc18b17`](https://github.com/incmix-ui/incmix-ui/commit/dffc18b1739ad148922fe98e4335457b298c8862),
@@ -134,10 +134,10 @@
   `src/theme`.
 
   ```shell
-  > chakra-cli tokens src/theme/theme.ts --watch
+  > Incmix-cli tokens src/theme/theme.ts --watch
 
-  > chakra-cli tokens --help
-  Usage: chakra-cli tokens [options] <source>
+  > Incmix-cli tokens --help
+  Usage: Incmix-cli tokens [options] <source>
 
   Options:
     --out <path>              output file e.g. node_modules/@incmix-ui/styled-system/dist/declarations/src/theming.types.d.ts
@@ -274,7 +274,7 @@
 * [#5527](https://github.com/incmix-ui/incmix-ui/pull/5527)
   [`b6ccf0dd2`](https://github.com/incmix-ui/incmix-ui/commit/b6ccf0dd2e3b72a5b50c9e1c00f1e6e3f3b68690)
   Thanks [@with-heart](https://github.com/with-heart)! - When the
-  [Chakra CLI](https://incmix-ui.com/docs/theming/advanced#theme-typings) fails
+  [Incmix CLI](https://incmix-ui.com/docs/theming/advanced#theme-typings) fails
   to generate theme typings, it now exits with a status code of `1`. This
   resolves an issue where failures exited with a success status code.
 * Updated dependencies
@@ -306,7 +306,7 @@
   component type for the theming props `variant` and `size`.
 
   ```bash
-  chakra-cli tokens --strict-component-types
+  Incmix-cli tokens --strict-component-types
   ```
 
   ```tsx live=false
@@ -428,7 +428,7 @@
 - [`211d94de3`](https://github.com/incmix-ui/incmix-ui/commit/211d94de397e4e7c91cfe70a3bafa905c7506cbf)
   [#4258](https://github.com/incmix-ui/incmix-ui/pull/4258) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Enable esModuleInterop for
-  `chakra-cli tokens`
+  `Incmix-cli tokens`
 
 ### Patch Changes
 
@@ -448,18 +448,18 @@
 - [`fe2557584`](https://github.com/incmix-ui/incmix-ui/commit/fe255758437b04740e1a0d8c8549afefe7dc71ce)
   [#4067](https://github.com/incmix-ui/incmix-ui/pull/4067) Thanks
   [@jrolfs](https://github.com/jrolfs)! - The `tokens` command now supports
-  generating theme token type definitions from a Chakra UI theme published as a
+  generating theme token type definitions from a Incmix UI theme published as a
   package:
 
   ```sh
-  npx @incmix-ui/cli tokens <@your-org/chakra-theme-package>
+  npx @incmix-ui/cli tokens <@your-org/Incmix-theme-package>
   ```
 
   A published theme package should export a theme object as either the `default`
   export or an export named `theme`.
 
   ```jsx
-  // chakra-theme-package/src/index.js
+  // Incmix-theme-package/src/index.js
   import { extendTheme } from "@incmix-ui/react"
 
   const theme = extendTheme({})

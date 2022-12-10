@@ -7,7 +7,7 @@ export const parameters = {
         ? 0
         : a[1].id.localeCompare(b[1].id, undefined, { numeric: true }),
   },
-  chakra: {
+  Incmix: {
     theme: extendTheme({
       semanticTokens: {
         colors: {

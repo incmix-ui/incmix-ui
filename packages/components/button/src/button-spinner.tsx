@@ -1,11 +1,11 @@
 import { Spinner } from "@incmix-ui/spinner"
-import { incmix, HTMLincmixProps, SystemStyleObject } from "@incmix-ui/system"
+import { incmix, HTMLIncmixProps, SystemStyleObject } from "@incmix-ui/system"
 import { cx } from "@incmix-ui/shared-utils"
 import { useMemo } from "react"
 import { ButtonSpinnerOptions } from "./button-types"
 
 interface ButtonSpinnerProps
-  extends HTMLincmixProps<"div">,
+  extends HTMLIncmixProps<"div">,
     ButtonSpinnerOptions {}
 
 export function ButtonSpinner(props: ButtonSpinnerProps) {

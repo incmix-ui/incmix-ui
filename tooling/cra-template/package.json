@@ -3,14 +3,14 @@
   "version": "2.0.7",
   "main": "template.json",
   "keywords": [
-    "chakra",
+    "Incmix",
     "incmix-ui",
-    "Chakra UI",
+    "Incmix UI",
     "react",
     "create-react-app",
     "template"
   ],
-  "description": "The official Chakra+JavaScript template for Create React App",
+  "description": "The official Incmix+JavaScript template for Create React App",
   "repository": {
     "type": "git",
     "url": "https://github.com/incmix-ui/incmix-ui.git",

@@ -29,10 +29,6 @@ module.exports = {
         __dirname,
         "../packages/components/react/src",
       ),
-      "@incmix-ui/theme": path.resolve(
-        __dirname,
-        "../packages/components/theme/src",
-      ),
     }
     config.resolve.extensions.push(".ts", ".tsx")
     return config

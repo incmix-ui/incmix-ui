@@ -1,7 +1,7 @@
 ---
 title: Version 2.4.2
 description:
-  Explore the changelog for Chakra UI version 2.4.2. Learn about the latest
+  Explore the changelog for Incmix UI version 2.4.2. Learn about the latest
   features, bug fixes, and improvements.
 releaseUrl: https://github.com/incmix-ui/incmix-ui/pull/6989
 releaseDate: November 29, 2022
@@ -19,7 +19,7 @@ version: 2.4.2
   for theme tokens (e.g. color, spacing)
 
   ```bash
-  chakra-cli tokens --strict-token-types
+  Incmix-cli tokens --strict-token-types
   ```
 
   ```tsx live=false
@@ -47,7 +47,7 @@ version: 2.4.2
   for theme tokens (e.g. color, spacing)
 
   ```bash
-  chakra-cli tokens --strict-token-types
+  Incmix-cli tokens --strict-token-types
   ```
 
   ```tsx live=false
@@ -236,8 +236,8 @@ version: 2.4.2
 
 - [#6997](https://github.com/incmix-ui/incmix-ui/pull/6997)
   [`4d5501b82`](https://github.com/incmix-ui/incmix-ui/commit/4d5501b82b6fe215f1a7d205250325c0a2221337)
-  Thanks [@anubra266](https://github.com/anubra266)! - Add `ChakraBaseProvider`,
-  a minimal version of `ChakraProvider` that supplies just the theme tokens, and
+  Thanks [@anubra266](https://github.com/anubra266)! - Add `IncmixBaseProvider`,
+  a minimal version of `IncmixProvider` that supplies just the theme tokens, and
   ignores components.
 
   Historically, one of the biggest causes of the large initial JS payload is the
@@ -247,7 +247,7 @@ version: 2.4.2
   > Base theme refers to the minimal theme for just the design tokens
 
   ```jsx live=false
-  import { ChakraBaseProvider, extendBaseTheme } from "@incmix-ui/react"
+  import { IncmixBaseProvider, extendBaseTheme } from "@incmix-ui/react"
   import { Button } from "@incmix-ui/theme/components"
 
   const theme = extendBaseTheme({
@@ -258,9 +258,9 @@ version: 2.4.2
 
   function App() {
     return (
-      <ChakraBaseProvider theme={theme}>
+      <IncmixBaseProvider theme={theme}>
         <Component {...pageProps} />
-      </ChakraBaseProvider>
+      </IncmixBaseProvider>
     )
   }
   ```
@@ -327,8 +327,8 @@ version: 2.4.2
 
 - [#6997](https://github.com/incmix-ui/incmix-ui/pull/6997)
   [`4d5501b82`](https://github.com/incmix-ui/incmix-ui/commit/4d5501b82b6fe215f1a7d205250325c0a2221337)
-  Thanks [@anubra266](https://github.com/anubra266)! - Add `ChakraBaseProvider`,
-  a minimal version of `ChakraProvider` that supplies just the theme tokens, and
+  Thanks [@anubra266](https://github.com/anubra266)! - Add `IncmixBaseProvider`,
+  a minimal version of `IncmixProvider` that supplies just the theme tokens, and
   ignores components.
 
   Historically, one of the biggest causes of the large initial JS payload is the
@@ -338,7 +338,7 @@ version: 2.4.2
   > Base theme refers to the minimal theme for just the design tokens
 
   ```jsx live=false
-  import { ChakraBaseProvider, extendBaseTheme } from "@incmix-ui/react"
+  import { IncmixBaseProvider, extendBaseTheme } from "@incmix-ui/react"
   import { Button } from "@incmix-ui/theme/components"
 
   const theme = extendBaseTheme({
@@ -349,9 +349,9 @@ version: 2.4.2
 
   function App() {
     return (
-      <ChakraBaseProvider theme={theme}>
+      <IncmixBaseProvider theme={theme}>
         <Component {...pageProps} />
-      </ChakraBaseProvider>
+      </IncmixBaseProvider>
     )
   }
   ```
@@ -437,8 +437,8 @@ version: 2.4.2
 
 - [#6997](https://github.com/incmix-ui/incmix-ui/pull/6997)
   [`4d5501b82`](https://github.com/incmix-ui/incmix-ui/commit/4d5501b82b6fe215f1a7d205250325c0a2221337)
-  Thanks [@anubra266](https://github.com/anubra266)! - Add `ChakraBaseProvider`,
-  a minimal version of `ChakraProvider` that supplies just the theme tokens, and
+  Thanks [@anubra266](https://github.com/anubra266)! - Add `IncmixBaseProvider`,
+  a minimal version of `IncmixProvider` that supplies just the theme tokens, and
   ignores components.
 
   Historically, one of the biggest causes of the large initial JS payload is the
@@ -448,7 +448,7 @@ version: 2.4.2
   > Base theme refers to the minimal theme for just the design tokens
 
   ```jsx live=false
-  import { ChakraBaseProvider, extendBaseTheme } from "@incmix-ui/react"
+  import { IncmixBaseProvider, extendBaseTheme } from "@incmix-ui/react"
   import { Button } from "@incmix-ui/theme/components"
 
   const theme = extendBaseTheme({
@@ -459,9 +459,9 @@ version: 2.4.2
 
   function App() {
     return (
-      <ChakraBaseProvider theme={theme}>
+      <IncmixBaseProvider theme={theme}>
         <Component {...pageProps} />
-      </ChakraBaseProvider>
+      </IncmixBaseProvider>
     )
   }
   ```

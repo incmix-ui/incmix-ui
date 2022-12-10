@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ChakraProvider, theme } from '@incmix-ui/react';
+import { IncmixProvider, theme } from '@incmix-ui/react';
 
 const AllProviders = ({ children }) => (
-  <ChakraProvider theme={theme}>{children}</ChakraProvider>
+  <IncmixProvider theme={theme}>{children}</IncmixProvider>
 );
 
 const customRender = (ui, options) =>

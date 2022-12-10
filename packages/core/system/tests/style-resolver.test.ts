@@ -67,27 +67,27 @@ test("should resolve styles correctly", () => {
           "@media screen and (min-width: 30em)": Object {
             "fontSize": "26px",
           },
-          "background": "var(--chakra-colors-green-300)",
+          "background": "var(--Incmix-colors-green-300)",
           "fontSize": "12px",
         },
-        "--chakra-line-clamp": 3,
+        "--Incmix-line-clamp": 3,
         "@media screen and (min-width: 30em)": Object {
-          "--chakra-line-clamp": 4,
+          "--Incmix-line-clamp": 4,
           "fontSize": "23px",
           "letterSpacing": "0.2px",
           "textTransform": "lowercase",
         },
         "WebkitBoxOrient": "vertical",
-        "WebkitLineClamp": "var(--chakra-line-clamp)",
+        "WebkitLineClamp": "var(--Incmix-line-clamp)",
         "background": "tomato",
         "backgroundPosition": "top left",
-        "color": "var(--chakra-colors-pink-300)",
+        "color": "var(--Incmix-colors-pink-300)",
         "display": "-webkit-box",
         "fontSize": "10px",
         "letterSpacing": "2px",
         "overflow": "hidden",
-        "paddingInlineEnd": "var(--chakra-space-5)",
-        "paddingInlineStart": "var(--chakra-space-5)",
+        "paddingInlineEnd": "var(--Incmix-space-5)",
+        "paddingInlineStart": "var(--Incmix-space-5)",
         "textOverflow": "ellipsis",
         "textTransform": "capitalize",
       },
@@ -105,8 +105,8 @@ test("should resolve styles correctly", () => {
 
   expect(result).toMatchInlineSnapshot(`
     Object {
-      "background": "var(--chakra-colors-pink-300)",
-      "color": "var(--chakra-colors-pink-300)",
+      "background": "var(--Incmix-colors-pink-300)",
+      "color": "var(--Incmix-colors-pink-300)",
     }
   `)
 })
@@ -126,11 +126,11 @@ test("should override padding correctly", () => {
   expect(result).toMatchInlineSnapshot(`
     Object {
       "background": "pinkish",
-      "color": "var(--chakra-colors-green-300)",
-      "marginRight": "var(--chakra-space-5)",
-      "paddingInlineEnd": "var(--chakra-space-4)",
-      "paddingInlineStart": "var(--chakra-space-4)",
-      "paddingRight": "var(--chakra-space-3)",
+      "color": "var(--Incmix-colors-green-300)",
+      "marginRight": "var(--Incmix-space-5)",
+      "paddingInlineEnd": "var(--Incmix-space-4)",
+      "paddingInlineStart": "var(--Incmix-space-4)",
+      "paddingRight": "var(--Incmix-space-3)",
     }
   `)
 })

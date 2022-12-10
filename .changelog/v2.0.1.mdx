@@ -1,7 +1,7 @@
 ---
 title: Version 2.0.1
 description:
-  Explore the changelog for Chakra UI version 2.0.1. Learn about the latest
+  Explore the changelog for Incmix UI version 2.0.1. Learn about the latest
   features, bug fixes, and improvements.
 releaseUrl: https://github.com/incmix-ui/incmix-ui/pull/6034
 releaseDate: May 17, 2022
@@ -44,9 +44,9 @@ version: 2.0.1
     // Note: the implementation is up to you
     const manager = cookieStorageManagerSSR(pageProps.cookie)
     return (
-      <ChakraProvider manager={manager}>
+      <IncmixProvider manager={manager}>
         <Component />
-      </ChakraProvider>
+      </IncmixProvider>
     )
   }
   ```
@@ -63,7 +63,7 @@ version: 2.0.1
 
   // in root
   function App() {
-    return <ChakraProvider colorModeManager={manager} />
+    return <IncmixProvider colorModeManager={manager} />
   }
 
   // in script
@@ -159,13 +159,13 @@ version: 2.0.1
 
 - Updated dependencies
 
-## chakra-nextjs@2.0.1
+## Incmix-nextjs@2.0.1
 
 ### Patch Changes
 
 - Updated dependencies
 
-## chakra-nextjs-ts@2.0.1
+## Incmix-nextjs-ts@2.0.1
 
 ### Patch Changes
 

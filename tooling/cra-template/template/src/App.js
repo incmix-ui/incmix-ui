@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  ChakraProvider,
+  IncmixProvider,
   Box,
   Text,
   Link,
@@ -14,7 +14,7 @@ import { Logo } from './Logo';
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
+    <IncmixProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
           <ColorModeSwitcher justifySelf="flex-end" />
@@ -30,12 +30,12 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Learn Chakra
+              Learn Incmix
             </Link>
           </VStack>
         </Grid>
       </Box>
-    </ChakraProvider>
+    </IncmixProvider>
   );
 }
 

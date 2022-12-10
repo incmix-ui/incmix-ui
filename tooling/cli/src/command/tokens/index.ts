@@ -64,7 +64,7 @@ export async function generateThemeTypings({
   strictTokenTypes?: boolean
   onError?: () => void
 }) {
-  const spinner = ora("Generating chakra theme typings").start()
+  const spinner = ora("Generating Incmix theme typings").start()
   try {
     const template = await runTemplateWorker({
       themeFile,

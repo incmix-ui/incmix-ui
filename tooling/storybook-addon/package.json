@@ -1,7 +1,7 @@
 {
   "name": "@incmix-ui/storybook-addon",
   "version": "4.0.14",
-  "description": "The official Storybook Addon for Chakra UI",
+  "description": "The official Storybook Addon for Incmix UI",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -96,7 +96,7 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "Chakra UI",
+    "displayName": "Incmix UI",
     "supportedFrameworks": [
       "react"
     ],

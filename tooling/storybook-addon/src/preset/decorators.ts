@@ -1,3 +1,3 @@
-import { ChakraProviderDecorator } from "../feature/decorator/ChakraProviderDecorator"
+import { IncmixProviderDecorator } from "../feature/decorator/IncmixProviderDecorator"
 
-export const decorators: any[] = [ChakraProviderDecorator]
+export const decorators: any[] = [IncmixProviderDecorator]

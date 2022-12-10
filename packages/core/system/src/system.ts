@@ -12,7 +12,7 @@ import emotionStyled, {
 } from "@emotion/styled"
 import React from "react"
 import { shouldForwardProp } from "./should-forward-prop"
-import { As, ChakraComponent, ChakraProps, PropsOf } from "./system.types"
+import { As, IncmixComponent, IncmixProps, PropsOf } from "./system.types"
 import { DOMElements } from "./system.utils"
 
 type StyleResolverProps = SystemStyleObject & {
@@ -60,7 +60,7 @@ export const toCSSObject: GetStyleObject =
     return cssProp ? [computedCSS, cssProp] : computedCSS
   }
 
-export interface ChakraStyledOptions extends Dict {
+export interface IncmixStyledOptions extends Dict {
   shouldForwardProp?(prop: string): boolean
   label?: string
   baseStyle?:
@@ -70,7 +70,7 @@ export interface ChakraStyledOptions extends Dict {
 
 export function styled<T extends As, P = {}>(
   component: T,
-  options?: ChakraStyledOptions,
+  options?: IncmixStyledOptions,
 ) {
   const { baseStyle, ...styledOptions } = options ?? {}
 
@@ -84,7 +84,7 @@ export function styled<T extends As, P = {}>(
     styledOptions,
   )(styleObject)
 
-  const chakraComponent = React.forwardRef(function ChakraComponent(
+  const IncmixComponent = React.forwardRef(function IncmixComponent(
     props,
     ref,
   ) {
@@ -96,15 +96,15 @@ export function styled<T extends As, P = {}>(
     })
   })
 
-  return chakraComponent as ChakraComponent<T, P>
+  return IncmixComponent as IncmixComponent<T, P>
 }
 
-export type HTMLChakraComponents = {
-  [Tag in DOMElements]: ChakraComponent<Tag, {}>
+export type HTMLIncmixComponents = {
+  [Tag in DOMElements]: IncmixComponent<Tag, {}>
 }
 
-export type HTMLChakraProps<T extends As> = Omit<
+export type HTMLIncmixProps<T extends As> = Omit<
   PropsOf<T>,
   "ref" | keyof StyleProps
 > &
-  ChakraProps & { as?: As }
+  IncmixProps & { as?: As }

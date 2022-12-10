@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/incmix-ui/incmix-ui">
-    <img src="https://raw.githubusercontent.com/incmix-ui/incmix-ui/main/media/logo-colored@2x.png?raw=true" alt="Chakra logo" width="300" />
+    <img src="https://raw.githubusercontent.com/incmix-ui/incmix-ui/main/media/logo-colored@2x.png?raw=true" alt="Incmix logo" width="300" />
   </a>
 </p>
 
@@ -20,12 +20,12 @@
 
 <br />
 
-Chakra UI provides a set of accessible, reusable, and composable React
+Incmix UI provides a set of accessible, reusable, and composable React
 components that make it super easy to create websites and apps.
 
 ## Looking for the documentation? 📝
 
-It's the https://incmix-ui.com website for the latest version of Chakra UI. For
+It's the https://incmix-ui.com website for the latest version of Incmix UI. For
 older versions head over here
 
 - v1: https://v1.incmix-ui.com
@@ -33,16 +33,16 @@ older versions head over here
 
 ## Features 🚀
 
-- Ease of Styling: Chakra UI contains a set of layout components like `Box` and
+- Ease of Styling: Incmix UI contains a set of layout components like `Box` and
   `Stack` that make it easy to style your components by passing props.
   [Learn more](https://incmix-ui.com/style-props)
-- Flexible & composable: Chakra UI components are built on top of a React UI
+- Flexible & composable: Incmix UI components are built on top of a React UI
   Primitive for endless composability.
-- Accessible. Chakra UI components follow the WAI-ARIA guidelines specifications
+- Accessible. Incmix UI components follow the WAI-ARIA guidelines specifications
   and have the right `aria-*` attributes.
-- Dark Mode 😍: Most components in Chakra UI are dark mode compatible.
+- Dark Mode 😍: Most components in Incmix UI are dark mode compatible.
 
-## Support Chakra UI 💖
+## Support Incmix UI 💖
 
 By donating \$5 or more you can support the ongoing development of this project.
 We'll appreciate some support. Thank you to all our supporters! 🙏
@@ -85,14 +85,14 @@ link to your website.
 > This is incredible work. Amazing job Segun! –
 > [Lee Robinson](https://twitter.com/leeerob/status/1169330130361159682)
 
-> Chakra UI is glorious! I love the consistent use of focus styling and the
+> Incmix UI is glorious! I love the consistent use of focus styling and the
 > subtle animation –
 > [Guillermo ▲](https://twitter.com/rauchg/status/1169632334389248000)
 
 ## Awards and Mentions
 
 We've been extremely humbled to receive awards and mentions from the community
-for all the innovation and reach Chakra UI brings to the JavaScript ecosystem.
+for all the innovation and reach Incmix UI brings to the JavaScript ecosystem.
 
 <table>
   <tr valign="middle">
@@ -115,9 +115,9 @@ for all the innovation and reach Chakra UI brings to the JavaScript ecosystem.
   </tr>
 </table>
 
-## Installing Chakra UI
+## Installing Incmix UI
 
-To use Chakra UI components, all you need to do is install the
+To use Incmix UI components, all you need to do is install the
 `@incmix-ui/react` package and its peer dependencies:
 
 ```sh
@@ -132,15 +132,15 @@ $ npm i @incmix-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^6
 
 To start using the components, please follow these steps:
 
-1. Wrap your application with the `ChakraProvider` provided by
+1. Wrap your application with the `IncmixProvider` provided by
    **@incmix-ui/react**.
 
 ```jsx
-import { ChakraProvider } from "@incmix-ui/react"
+import { IncmixProvider } from "@incmix-ui/react"
 
 // Do this at the root of your application
 function App({ children }) {
-  return <ChakraProvider>{children}</ChakraProvider>
+  return <IncmixProvider>{children}</IncmixProvider>
 }
 ```
 
@@ -153,7 +153,7 @@ can toggle between light and dark mode within your app.
 import { Button } from "@incmix-ui/react"
 
 function Example() {
-  return <Button>I just consumed some ⚡️Chakra!</Button>
+  return <Button>I just consumed some ⚡️Incmix!</Button>
 }
 ```
 

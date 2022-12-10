@@ -1,6 +1,6 @@
-import { incmix, forwardRef, HTMLincmixProps } from "@incmix-ui/system"
+import { incmix, forwardRef, HTMLIncmixProps } from "@incmix-ui/system"
 
-export interface CenterProps extends HTMLincmixProps<"div"> {}
+export interface CenterProps extends HTMLIncmixProps<"div"> {}
 
 /**
  * React component used to horizontally and vertically center its child.
@@ -18,7 +18,7 @@ export const Center = incmix("div", {
 
 Center.displayName = "Center"
 
-export interface AbsoluteCenterProps extends HTMLincmixProps<"div"> {
+export interface AbsoluteCenterProps extends HTMLIncmixProps<"div"> {
   axis?: "horizontal" | "vertical" | "both"
 }
 

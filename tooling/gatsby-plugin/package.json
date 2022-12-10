@@ -1,7 +1,7 @@
 {
   "name": "@incmix-ui/gatsby-plugin",
   "version": "3.0.7",
-  "description": "Drop-in Chakra UI support for Gatsby sites",
+  "description": "Drop-in Incmix UI support for Gatsby sites",
   "author": "Alex Luong <alex@alexluong.com>",
   "license": "MIT",
   "homepage": "https://incmix-ui.com/",

@@ -97,15 +97,15 @@
   resolution when components are wrapped within forced color mode elements
   (`DarkMode`, `LightMode`).
 
-  We now dynamically attach the `data-theme` attribute to chakra elements when
+  We now dynamically attach the `data-theme` attribute to Incmix elements when
   in forced color mode.
 
   ```jsx live=false
   <DarkMode>
-    <chakra.div bg="gray.800" padding="40px">
+    <incmix.div bg="gray.800" padding="40px">
       {/* Forced: Badge will now have `data-theme='dark' attached` */}
       <Badge>Total</Badge>
-    </chakra.div>
+    </incmix.div>
   </DarkMode>
   ```
 
@@ -115,7 +115,7 @@
   component/function docs and relative docsite links.
 
   Ensures that all Components, functions, and hooks that have detailed pages on
-  the Chakra site have corresponding JSDocs and links back to the docsite via
+  the Incmix site have corresponding JSDocs and links back to the docsite via
   IDE intellisense.
 
   Includes adding or fixing links within these docs to related WAI-ARIA
@@ -381,7 +381,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 * [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
@@ -467,7 +467,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 ### Patch Changes
 
@@ -535,14 +535,14 @@
 - [#5508](https://github.com/incmix-ui/incmix-ui/pull/5508)
   [`e5e0f255c`](https://github.com/incmix-ui/incmix-ui/commit/e5e0f255c95f5e41c3b17adbda28fd09f7251642)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Allow all
-  `JSX.IntrinsicElements` for the chakra factory. This allows to use
+  `JSX.IntrinsicElements` for the Incmix factory. This allows to use
   [every DOM element](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/30a2f70db2f9ac223fd923ff1f8bcc175c082fd0/types/react/index.d.ts#L3111-L3288)
   with the shorthand version:
 
   ```jsx live=false
-  <chakra.header>Header</chakra.header>
-  <chakra.main>Main</chakra.main>
-  <chakra.footer>Many more</chakra.footer>
+  <Incmix.header>Header</Incmix.header>
+  <Incmix.main>Main</Incmix.main>
+  <Incmix.footer>Many more</Incmix.footer>
   ```
 
 ### Patch Changes
@@ -638,7 +638,7 @@
   component type for the theming props `variant` and `size`.
 
   ```bash
-  chakra-cli tokens --strict-component-types
+  Incmix-cli tokens --strict-component-types
   ```
 
   ```tsx live=false
@@ -1019,14 +1019,14 @@
 - [`53408372e`](https://github.com/incmix-ui/incmix-ui/commit/53408372ef6926840815a03f2ac5269e3a4757f2)
   [#3463](https://github.com/incmix-ui/incmix-ui/pull/3463) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - - Add support for CSS
-  Variables to the core of Chakra
+  Variables to the core of Incmix
   - Improve style computation performance by 2.5x
 
 * [`1f4d0aa4e`](https://github.com/incmix-ui/incmix-ui/commit/1f4d0aa4eff7ba3caffb0599eb81edfb223a36cc)
   [#3462](https://github.com/incmix-ui/incmix-ui/pull/3462) Thanks
-  [@joe-bell](https://github.com/joe-bell)! - ### `chakra`
+  [@joe-bell](https://github.com/joe-bell)! - ### `Incmix`
 
-  Adds support for `main` in chakra factory
+  Adds support for `main` in Incmix factory
 
 ### Patch Changes
 
@@ -1145,7 +1145,7 @@
 - [`a9807b33`](https://github.com/incmix-ui/incmix-ui/commit/a9807b334477ac9ecd7f3637c0ff7d5fb5c46639)
   [#2753](https://github.com/incmix-ui/incmix-ui/pull/2753) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Restored TypeScript
-  autocomplete for chakra component props in Jetbrains IDEs.
+  autocomplete for Incmix component props in Jetbrains IDEs.
 
 ## 1.1.2
 
@@ -1190,7 +1190,7 @@
 
   ### 🚀 Feature
 
-  Add support for custom `shouldForwardProp` function in the `chakra` factory
+  Add support for custom `shouldForwardProp` function in the `Incmix` factory
   function.
 
 ### Patch Changes

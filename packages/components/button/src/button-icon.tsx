@@ -1,8 +1,8 @@
-import { incmix, HTMLincmixProps } from "@incmix-ui/system"
+import { incmix, HTMLIncmixProps } from "@incmix-ui/system"
 import { cx } from "@incmix-ui/shared-utils"
 import { cloneElement, isValidElement } from "react"
 
-export function ButtonIcon(props: HTMLincmixProps<"span">) {
+export function ButtonIcon(props: HTMLIncmixProps<"span">) {
   const { children, className, ...rest } = props
 
   const _children = isValidElement(children)

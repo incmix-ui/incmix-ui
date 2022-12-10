@@ -1,7 +1,7 @@
 import {
   incmix,
   forwardRef,
-  HTMLincmixProps,
+  HTMLIncmixProps,
   SystemProps,
   tokenToCSSVar,
 } from "@incmix-ui/system"
@@ -9,7 +9,7 @@ import { cx } from "@incmix-ui/shared-utils"
 import { mapResponsive } from "@incmix-ui/breakpoint-utils"
 import { Children, useMemo } from "react"
 
-export interface WrapProps extends HTMLincmixProps<"div"> {
+export interface WrapProps extends HTMLIncmixProps<"div"> {
   /**
    * The space between each child (even if it wraps)
    * @type SystemProps["margin"]
@@ -127,7 +127,7 @@ export const Wrap = forwardRef<WrapProps, "div">(function Wrap(props, ref) {
 
 Wrap.displayName = "Wrap"
 
-export interface WrapItemProps extends HTMLincmixProps<"li"> {}
+export interface WrapItemProps extends HTMLIncmixProps<"li"> {}
 
 export const WrapItem = forwardRef<WrapItemProps, "li">(function WrapItem(
   props,

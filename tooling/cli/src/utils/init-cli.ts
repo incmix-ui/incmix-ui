@@ -8,8 +8,8 @@ export async function initCLI() {
   checkNode(`12`)
   await unhandledError()
   welcome({
-    title: "Chakra UI CLI",
-    tagLine: `by Chakra UI\n${pkgJSON.description}`,
+    title: "Incmix UI CLI",
+    tagLine: `by Incmix UI\n${pkgJSON.description}`,
     bgColor: `#319795`,
     color: `#FFFFFF`,
     bold: true,

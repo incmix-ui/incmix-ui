@@ -4,7 +4,7 @@ import { addons } from "@storybook/addons"
 import { EVENTS } from "../../constants"
 
 /**
- * Render <ColorModeSync /> to sync the storybook color mode with Chakra UI
+ * Render <ColorModeSync /> to sync the storybook color mode with Incmix UI
  */
 export function ColorModeSync() {
   const { setColorMode } = useColorMode()

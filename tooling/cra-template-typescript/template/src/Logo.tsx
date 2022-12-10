@@ -1,6 +1,6 @@
 import * as React from "react"
 import {
-  chakra,
+  Incmix,
   keyframes,
   ImageProps,
   forwardRef,
@@ -20,5 +20,5 @@ export const Logo = forwardRef<ImageProps, "img">((props, ref) => {
     ? undefined
     : `${spin} infinite 20s linear`
 
-  return <chakra.img animation={animation} src={logo} ref={ref} {...props} />
+  return <Incmix.img animation={animation} src={logo} ref={ref} {...props} />
 })

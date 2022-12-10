@@ -2,7 +2,7 @@ import {
   incmix,
   forwardRef,
   SystemProps,
-  HTMLincmixProps,
+  HTMLIncmixProps,
 } from "@incmix-ui/system"
 
 export interface FlexOptions {
@@ -49,7 +49,7 @@ export interface FlexOptions {
   shrink?: SystemProps["flexShrink"]
 }
 
-export interface FlexProps extends HTMLincmixProps<"div">, FlexOptions {}
+export interface FlexProps extends HTMLIncmixProps<"div">, FlexOptions {}
 
 /**
  * React component used to create flexbox layouts.

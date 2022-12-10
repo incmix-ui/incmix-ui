@@ -1,4 +1,4 @@
-Thanks for showing interest to contribute to Chakra UI 💖, you rock!
+Thanks for showing interest to contribute to Incmix UI 💖, you rock!
 
 When it comes to open source, there are different ways you can contribute, all
 of which are valuable. Here's a few guidelines that should help you as you
@@ -6,7 +6,7 @@ prepare your contribution.
 
 ## Setup the Project
 
-The following steps will get you up and running to contribute to Chakra UI:
+The following steps will get you up and running to contribute to Incmix UI:
 
 1. Fork the repo (click the <kbd>Fork</kbd> button at the top right of
    [this page](https://github.com/incmix-ui/incmix-ui))
@@ -21,12 +21,12 @@ cd incmix-ui
 3. Setup all the dependencies and packages by running `pnpm install`. This
    command will install dependencies.
 
-> If you run into any issues during this step, kindly reach out to the Chakra UI
+> If you run into any issues during this step, kindly reach out to the Incmix UI
 > React team here: https://discord.gg/incmix-ui
 
 ## Development
 
-To improve our development process, we've set up tooling and systems. Chakra UI
+To improve our development process, we've set up tooling and systems. Incmix UI
 uses a monorepo structure and we treat each component as an independent package
 that can be consumed in isolation.
 
@@ -139,7 +139,7 @@ https://www.conventionalcommits.org/ or check out the
 
 All commits that fix bugs or add features need a test.
 
-> **Dear Chakra team:** Please do not merge code without tests
+> **Dear Incmix team:** Please do not merge code without tests
 
 ## Want to write a blog post or tutorial
 

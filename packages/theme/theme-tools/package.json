@@ -1,0 +1,53 @@
+{
+  "name": "@incmix-ui/theme-tools",
+  "version": "2.0.14",
+  "description": "Set of helpers that makes theming and styling easier",
+  "keywords": [
+    "theme",
+    "theming",
+    "color",
+    "utilities"
+  ],
+  "sideEffects": false,
+  "author": "Segun Adebayo <sage@adebayosegun.com>",
+  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
+    "directory": "packages/theme/theme-tools"
+  },
+  "bugs": {
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
+  },
+  "dependencies": {
+    "@incmix-ui/anatomy": "workspace:*",
+    "color2k": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@incmix-ui/styled-system": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@incmix-ui/shared-utils": "workspace:*",
+    "@incmix-ui/styled-system": "workspace:*",
+    "@types/dlv": "^1.1.2",
+    "clean-package": "2.1.1",
+    "dlv": "^1.1.3"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "tsup src/index.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  }
+}

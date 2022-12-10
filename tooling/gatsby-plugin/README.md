@@ -1,10 +1,10 @@
 # @incmix-ui/gatsby-plugin
 
-Gatsby plugin for adding Chakra UI
+Gatsby plugin for adding Incmix UI
 
 ## Installation
 
-⚡ To use Chakra UI in your Gatsby site, you need to install the plugin and its
+⚡ To use Incmix UI in your Gatsby site, you need to install the plugin and its
 peer dependencies.
 
 ```sh
@@ -26,7 +26,7 @@ module.exports = {
 }
 ```
 
-2. Use Chakra ⚡
+2. Use Incmix ⚡
 
 ```jsx
 // src/pages/index.js
@@ -49,14 +49,14 @@ export default IndexPage
 By default, this plugin adds the main context provider to make all components
 work correctly.
 
-- **ChakraProvider:** Your custom theme and all
-  [ChakraProvider Props](https://incmix-ui.com/docs/getting-started#chakraprovider-props)
+- **IncmixProvider:** Your custom theme and all
+  [IncmixProvider Props](https://incmix-ui.com/docs/getting-started#Incmixprovider-props)
   are passed to this instance
 
 ```jsx
-<ChakraProvider theme={theme} resetCSS={resetCSS} portalZIndex={portalZIndex}>
+<IncmixProvider theme={theme} resetCSS={resetCSS} portalZIndex={portalZIndex}>
   {element}
-</ChakraProvider>
+</IncmixProvider>
 ```
 
 You can disable either of these with Gatsby options:
@@ -103,8 +103,8 @@ export default extendTheme(theme)
 ```
 
 You can learn more about custom theme at
-[Chakra UI's documentation](https://incmix-ui.com/theme).
+[Incmix UI's documentation](https://incmix-ui.com/theme).
 
-By default, Chakra provides a sensible
+By default, Incmix provides a sensible
 [default theme](https://github.com/incmix-ui/incmix-ui/tree/main/packages/theme)
 inspired by Tailwind CSS.
