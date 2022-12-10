@@ -49,7 +49,7 @@ export interface RangeSliderProps
  * The Slider is used to allow users to make selections from a range of values.
  * It provides context and functionality for all slider components
  *
- * @see Docs     https://chakra-ui.com/docs/form/slider
+ * @see Docs     https://incmix-ui.com/docs/form/slider
  * @see WAI-ARIA https://www.w3.org/WAI/ARIA/apg/patterns/slidertwothumb/
  */
 export const RangeSlider = forwardRef<RangeSliderProps, "div">(
@@ -168,7 +168,7 @@ export interface RangeSliderMarkProps extends HTMLChakraProps<"div"> {
  * SliderMark is used to provide names for specific Slider
  * values by defining labels or markers along the track.
  *
- * @see Docs https://chakra-ui.com/slider
+ * @see Docs https://incmix-ui.com/slider
  */
 export const RangeSliderMark = forwardRef<RangeSliderMarkProps, "div">(
   function RangeSliderMark(props, ref) {

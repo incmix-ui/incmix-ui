@@ -35,7 +35,7 @@ export interface ProgressFilledTrackProps
  * The progress component that visually indicates the current level of the progress bar.
  * It applies `background-color` and changes its width.
  *
- * @see Docs https://chakra-ui.com/progress
+ * @see Docs https://incmix-ui.com/progress
  */
 const ProgressFilledTrack = forwardRef<ProgressFilledTrackProps, "div">(
   (props, ref) => {
@@ -113,7 +113,7 @@ export interface ProgressProps
  * It includes accessible attributes to help assistive technologies understand
  * and speak the progress values.
  *
- * @see Docs https://chakra-ui.com/progress
+ * @see Docs https://incmix-ui.com/progress
  */
 export const Progress = forwardRef<ProgressProps, "div">((props, ref) => {
   const {

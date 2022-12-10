@@ -114,7 +114,7 @@
 
 - Updated dependencies
   [[`c7a1a53ac`](https://github.com/chakra-ui/chakra-ui/commit/c7a1a53ace53020e23c1b92d48ff16d8d8e95709)]:
-  - @chakra-ui/react@2.0.0-next.0
+  - @incmix-ui/react@2.0.0-next.0
 
 ## 2.0.4
 
@@ -188,8 +188,8 @@
 - [`efd32c982`](https://github.com/chakra-ui/chakra-ui/commit/efd32c982cd58c1e53468743346a3b8f482b1ae3)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - - Update
   peer-dependency for gatsby
-  - Remove `@chakra-ui/theme` from peer-dependency. The theme already exists in
-    `@chakra-ui/react`
+  - Remove `@incmix-ui/theme` from peer-dependency. The theme already exists in
+    `@incmix-ui/react`
 
 ## 1.0.1
 
@@ -205,7 +205,7 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0 (2020-11-13)
 
-**Note:** Version bump only for package @chakra-ui/gatsby-plugin
+**Note:** Version bump only for package @incmix-ui/gatsby-plugin
 
 # Change Log
 

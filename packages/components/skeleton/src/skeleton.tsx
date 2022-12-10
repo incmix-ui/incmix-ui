@@ -84,7 +84,7 @@ const bgFade = keyframes({
 /**
  * `Skeleton` is used to display the loading state of some component.
  *
- * @see Docs https://chakra-ui.com/docs/components/skeleton
+ * @see Docs https://incmix-ui.com/docs/components/skeleton
  */
 export const Skeleton = forwardRef<SkeletonProps, "div">((props, ref) => {
   const skeletonProps: SkeletonProps = {

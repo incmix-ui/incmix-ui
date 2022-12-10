@@ -73,7 +73,7 @@ export interface CircularProgressProps
  * It is built using `svg` and `circle` components with support for
  * theming and `indeterminate` state
  *
- * @see Docs https://chakra-ui.com/circularprogress
+ * @see Docs https://incmix-ui.com/circularprogress
  * @todo add theming support for circular progress
  */
 export const CircularProgress = forwardRef<CircularProgressProps, "div">(
@@ -150,7 +150,7 @@ export const CircularProgress = forwardRef<CircularProgressProps, "div">(
             strokeLinecap={capIsRound ? "round" : undefined}
             /**
              * fix issue in Safari where indicator still shows when value is 0
-             * @see Issue https://github.com/chakra-ui/chakra-ui/issues/3754
+             * @see Issue https://github.com/incmix-ui/incmix-ui/issues/3754
              */
             opacity={progress.value === 0 && !isIndeterminate ? 0 : undefined}
             {...indicatorProps}

@@ -27,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chakra-ui/chakra-ui.git",
+    "url": "https://github.com/incmix-ui/incmix-ui.git",
     "directory": "examples/nextjs-typescript"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "license": "MIT"
 }

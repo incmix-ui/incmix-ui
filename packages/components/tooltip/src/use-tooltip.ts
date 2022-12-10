@@ -313,7 +313,7 @@ export function useTooltip(props: UseTooltipProps = {}) {
 
 export type UseTooltipReturn = ReturnType<typeof useTooltip>
 
-const closeEventName = "chakra-ui:close-tooltip"
+const closeEventName = "incmix-ui:close-tooltip"
 
 function useCloseEvent(ref: RefObject<Element>, close: () => void) {
   useEffect(() => {

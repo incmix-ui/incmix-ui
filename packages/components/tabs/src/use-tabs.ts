@@ -94,7 +94,7 @@ export interface UseTabsProps {
  * Its returned object will be passed unto a Context Provider
  * so all child components can read from it.
  * There is no document link yet
- * @see Docs https://chakra-ui.com/docs/components/useTabs
+ * @see Docs https://incmix-ui.com/docs/components/useTabs
  * @see WAI-ARIA https://www.w3.org/WAI/ARIA/apg/patterns/tabpanel/
  */
 export function useTabs(props: UseTabsProps) {

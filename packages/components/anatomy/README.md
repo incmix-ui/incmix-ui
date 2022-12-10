@@ -19,10 +19,10 @@ npm i @incmix-ui/anatomy
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/chakra-ui/core/blob/main/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/incmix-ui/core/blob/main/CONTRIBUTING.md)
 for details.
 
 ## Licence
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/chakra-ui/core/blob/main/LICENSE).
+[MIT license](https://github.com/incmix-ui/core/blob/main/LICENSE).

@@ -9,20 +9,20 @@ prepare your contribution.
 The following steps will get you up and running to contribute to Chakra UI:
 
 1. Fork the repo (click the <kbd>Fork</kbd> button at the top right of
-   [this page](https://github.com/chakra-ui/chakra-ui))
+   [this page](https://github.com/incmix-ui/incmix-ui))
 
 2. Clone your fork locally
 
 ```sh
-git clone https://github.com/<your_github_username>/chakra-ui.git
-cd chakra-ui
+git clone https://github.com/<your_github_username>/incmix-ui.git
+cd incmix-ui
 ```
 
 3. Setup all the dependencies and packages by running `pnpm install`. This
    command will install dependencies.
 
 > If you run into any issues during this step, kindly reach out to the Chakra UI
-> React team here: https://discord.gg/chakra-ui
+> React team here: https://discord.gg/incmix-ui
 
 ## Development
 
@@ -63,8 +63,8 @@ link.
 
 You may wish to use our starters to help you get going:
 
-- JavaScript Starter: https://codesandbox.io/s/chakra-ui-javascript-lzzg9
-- TypeScript Starter: https://codesandbox.io/s/chakra-ui-typescript-pomi8
+- JavaScript Starter: https://codesandbox.io/s/incmix-ui-javascript-lzzg9
+- TypeScript Starter: https://codesandbox.io/s/incmix-ui-typescript-pomi8
 
 ## Proposing new or changed API?
 
@@ -108,7 +108,7 @@ https://www.conventionalcommits.org/ or check out the
 
 ### Steps to PR
 
-1. Fork of the chakra-ui repository and clone your fork
+1. Fork of the incmix-ui repository and clone your fork
 
 2. Create a new branch out of the `main` branch. We follow the convention
    `[type/scope]`. For example `fix/accordion-hook` or `docs/menu-typo`. `type`
@@ -116,7 +116,7 @@ https://www.conventionalcommits.org/ or check out the
    commit type. `scope` is just a short id that describes the scope of work.
 
 3. Make and commit your changes following the
-   [commit convention](https://github.com/chakra-ui/chakra-ui/blob/main/CONTRIBUTING.md#commit-convention).
+   [commit convention](https://github.com/incmix-ui/incmix-ui/blob/main/CONTRIBUTING.md#commit-convention).
    As you develop, you can run `pnpm pkg <module> build` and
    `pnpm pkg <module> test` to make sure everything works as expected. Please
    note that you might have to run `pnpm boot` first in order to build all
@@ -144,16 +144,16 @@ All commits that fix bugs or add features need a test.
 ## Want to write a blog post or tutorial
 
 That would be amazing! Reach out to the core team here:
-https://discord.gg/chakra-ui. We would love to support you any way we can.
+https://discord.gg/incmix-ui. We would love to support you any way we can.
 
 ## Want to help improve the docs?
 
 Our docsite lives in a
-[separate repo](https://github.com/chakra-ui/chakra-ui-docs). If you're
+[separate repo](https://github.com/incmix-ui/incmix-ui-docs). If you're
 interested in contributing to the documentation, check out the
-[docsite contribution guide](https://github.com/chakra-ui/chakra-ui-docs/blob/main/CONTRIBUTING.md).
+[docsite contribution guide](https://github.com/incmix-ui/incmix-ui-docs/blob/main/CONTRIBUTING.md).
 
 ## License
 
-By contributing your code to the chakra-ui GitHub repository, you agree to
+By contributing your code to the incmix-ui GitHub repository, you agree to
 license your contribution under the MIT license.

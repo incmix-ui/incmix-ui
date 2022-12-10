@@ -5,21 +5,21 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`67ef76e32`](https://github.com/chakra-ui/chakra-ui/commit/67ef76e32369f7376ccd9242865f758157544b48)]:
+  [[`67ef76e32`](https://github.com/incmix-ui/incmix-ui/commit/67ef76e32369f7376ccd9242865f758157544b48)]:
   - @incmix-ui/react-types@2.0.5
 
 ## 3.0.9
 
 ### Patch Changes
 
-- [#6945](https://github.com/chakra-ui/chakra-ui/pull/6945)
-  [`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
+- [#6945](https://github.com/incmix-ui/incmix-ui/pull/6945)
+  [`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
   `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 - Updated dependencies
-  [[`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)]:
+  [[`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)]:
   - @incmix-ui/react-use-merge-refs@2.0.5
   - @incmix-ui/react-types@2.0.4
 
@@ -27,27 +27,27 @@
 
 ### Patch Changes
 
-- [#6648](https://github.com/chakra-ui/chakra-ui/pull/6648)
-  [`9de39921b`](https://github.com/chakra-ui/chakra-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290)
+- [#6648](https://github.com/incmix-ui/incmix-ui/pull/6648)
+  [`9de39921b`](https://github.com/incmix-ui/incmix-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290)
   Thanks [@cschroeter](https://github.com/cschroeter)! - Declare package exports
   @see https://webpack.js.org/guides/package-exports/
 
 - Updated dependencies
-  [[`9de39921b`](https://github.com/chakra-ui/chakra-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290)]:
+  [[`9de39921b`](https://github.com/incmix-ui/incmix-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290)]:
   - @incmix-ui/react-use-merge-refs@2.0.4
 
 ## 3.0.7
 
 ### Patch Changes
 
-- [#6508](https://github.com/chakra-ui/chakra-ui/pull/6508)
-  [`445661955`](https://github.com/chakra-ui/chakra-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)
+- [#6508](https://github.com/incmix-ui/incmix-ui/pull/6508)
+  [`445661955`](https://github.com/incmix-ui/incmix-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)
   Thanks [@anubra266](https://github.com/anubra266)! - - Initial release of
   react hooks
   - Refactor all packages to reduce bundle size
   - Refactor code for proper prop doc generatation
 - Updated dependencies
-  [[`445661955`](https://github.com/chakra-ui/chakra-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)]:
+  [[`445661955`](https://github.com/incmix-ui/incmix-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)]:
   - @incmix-ui/react-use-merge-refs@2.0.3
   - @incmix-ui/react-types@2.0.3
 
@@ -80,33 +80,33 @@
 
 ### Patch Changes
 
-- [#6356](https://github.com/chakra-ui/chakra-ui/pull/6356)
-  [`1839e22eb`](https://github.com/chakra-ui/chakra-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)
+- [#6356](https://github.com/incmix-ui/incmix-ui/pull/6356)
+  [`1839e22eb`](https://github.com/incmix-ui/incmix-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - - Force release due
   to change in build configuration
   - Update package `main` and `module` entries
 - Updated dependencies
-  [[`1839e22eb`](https://github.com/chakra-ui/chakra-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)]:
+  [[`1839e22eb`](https://github.com/incmix-ui/incmix-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)]:
   - @incmix-ui/react-utils@2.0.2
 
 ## 3.0.2
 
 ### Patch Changes
 
-- [`06f29f8cd`](https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1)
+- [`06f29f8cd`](https://github.com/incmix-ui/incmix-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Bump all packages
   to resolve deps issues
 
 - Updated dependencies
-  [[`06f29f8cd`](https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1)]:
+  [[`06f29f8cd`](https://github.com/incmix-ui/incmix-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1)]:
   - @incmix-ui/react-utils@2.0.1
 
 ## 3.0.1
 
 ### Patch Changes
 
-- [#6079](https://github.com/chakra-ui/chakra-ui/pull/6079)
-  [`703ff594f`](https://github.com/chakra-ui/chakra-ui/commit/703ff594f826207a7b3d37663caaad365212b23e)
+- [#6079](https://github.com/incmix-ui/incmix-ui/pull/6079)
+  [`703ff594f`](https://github.com/incmix-ui/incmix-ui/commit/703ff594f826207a7b3d37663caaad365212b23e)
   Thanks [@chr-ge](https://github.com/chr-ge)! - Improve TS doc comments to
   include the `@default`value for prop types
 
@@ -114,55 +114,55 @@
 
 ### Major Changes
 
-- [#5879](https://github.com/chakra-ui/chakra-ui/pull/5879)
-  [`c390af485`](https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
+- [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
+  [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
   to next major for Chakra UI version 2.
 
-* [#5989](https://github.com/chakra-ui/chakra-ui/pull/5989)
-  [`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
+* [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
+  [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Omit `src`
   directory from being published to npm
 
-- [#5882](https://github.com/chakra-ui/chakra-ui/pull/5882)
-  [`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)
+- [#5882](https://github.com/incmix-ui/incmix-ui/pull/5882)
+  [`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump peer
   dependency to React and ReactDOM to >=18
 
 ### Patch Changes
 
-- [#5969](https://github.com/chakra-ui/chakra-ui/pull/5969)
-  [`6b969b41d`](https://github.com/chakra-ui/chakra-ui/commit/6b969b41dad850fa061613b3d50f50b8a15265a7)
+- [#5969](https://github.com/incmix-ui/incmix-ui/pull/5969)
+  [`6b969b41d`](https://github.com/incmix-ui/incmix-ui/commit/6b969b41dad850fa061613b3d50f50b8a15265a7)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Fix issue where
   matchWidth doesn't work as expected due to the fixed `min-width: max-content`
   style attached to the element
 - Updated dependencies
-  [[`c390af485`](https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f),
-  [`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7),
-  [`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
+  [[`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f),
+  [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7),
+  [`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
   - @incmix-ui/react-utils@2.0.0
 
 ## 3.0.0-next.3
 
 ### Major Changes
 
-- [#5989](https://github.com/chakra-ui/chakra-ui/pull/5989)
-  [`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
+- [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
+  [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Omit `src`
   directory from being published to npm
 
 ### Patch Changes
 
 - Updated dependencies
-  [[`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)]:
+  [[`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)]:
   - @incmix-ui/react-utils@2.0.0-next.2
 
 ## 3.0.0-next.2
 
 ### Patch Changes
 
-- [#5969](https://github.com/chakra-ui/chakra-ui/pull/5969)
-  [`6b969b41d`](https://github.com/chakra-ui/chakra-ui/commit/6b969b41dad850fa061613b3d50f50b8a15265a7)
+- [#5969](https://github.com/incmix-ui/incmix-ui/pull/5969)
+  [`6b969b41d`](https://github.com/incmix-ui/incmix-ui/commit/6b969b41dad850fa061613b3d50f50b8a15265a7)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Fix issue where
   matchWidth doesn't work as expected due to the fixed `min-width: max-content`
   style attached to the element
@@ -171,76 +171,76 @@
 
 ### Major Changes
 
-- [#5882](https://github.com/chakra-ui/chakra-ui/pull/5882)
-  [`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)
+- [#5882](https://github.com/incmix-ui/incmix-ui/pull/5882)
+  [`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump peer
   depencency to React and ReactDOM to >=18
 
 ### Patch Changes
 
 - Updated dependencies
-  [[`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
+  [[`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
   - @incmix-ui/react-utils@2.0.0-next.1
 
 ## 3.0.0-next.0
 
 ### Major Changes
 
-- [#5879](https://github.com/chakra-ui/chakra-ui/pull/5879)
-  [`c390af485`](https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
+- [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
+  [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
   to next major for Chakra UI version 2.
 
 ### Patch Changes
 
 - Updated dependencies
-  [[`c390af485`](https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)]:
+  [[`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)]:
   - @incmix-ui/react-utils@2.0.0-next.0
 
 ## 2.4.3
 
 ### Patch Changes
 
-- [`e1fe48cbe`](https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)
+- [`e1fe48cbe`](https://github.com/incmix-ui/incmix-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
   version for every package to fix release process. Root cause was a bug in our
   CI configuration.
 - Updated dependencies
-  [[`e1fe48cbe`](https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)]:
+  [[`e1fe48cbe`](https://github.com/incmix-ui/incmix-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)]:
   - @incmix-ui/react-utils@1.2.3
 
 ## 2.4.2
 
 ### Patch Changes
 
-- [#5536](https://github.com/chakra-ui/chakra-ui/pull/5536)
-  [`a503acabe`](https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)
+- [#5536](https://github.com/incmix-ui/incmix-ui/pull/5536)
+  [`a503acabe`](https://github.com/incmix-ui/incmix-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
   version for every package to fix release process.
 
 - Updated dependencies
-  [[`a503acabe`](https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)]:
+  [[`a503acabe`](https://github.com/incmix-ui/incmix-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)]:
   - @incmix-ui/react-utils@1.2.2
 
 ## 2.4.1
 
 ### Patch Changes
 
-- [#5075](https://github.com/chakra-ui/chakra-ui/pull/5075)
-  [`b28142946`](https://github.com/chakra-ui/chakra-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)
+- [#5075](https://github.com/incmix-ui/incmix-ui/pull/5075)
+  [`b28142946`](https://github.com/incmix-ui/incmix-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)
   Thanks [@cschroeter](https://github.com/cschroeter)! - Update babel config to
   transpile soruces for older browsers. This fixes issues with CRA and
   Storybook.
 - Updated dependencies
-  [[`b28142946`](https://github.com/chakra-ui/chakra-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)]:
+  [[`b28142946`](https://github.com/incmix-ui/incmix-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)]:
   - @incmix-ui/react-utils@1.2.1
 
 ## 2.4.0
 
 ### Minor Changes
 
-- [#4991](https://github.com/chakra-ui/chakra-ui/pull/4991)
-  [`6095eaf9a`](https://github.com/chakra-ui/chakra-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)
+- [#4991](https://github.com/incmix-ui/incmix-ui/pull/4991)
+  [`6095eaf9a`](https://github.com/incmix-ui/incmix-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Update build system
   we use from a custom babel cli setup to
   [preconstruct](https://preconstruct.tools/).
@@ -272,14 +272,14 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`6095eaf9a`](https://github.com/chakra-ui/chakra-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)]:
+  [[`6095eaf9a`](https://github.com/incmix-ui/incmix-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)]:
   - @incmix-ui/react-utils@1.2.0
 
 ## 2.3.1
 
 ### Patch Changes
 
-- [`c3f016149`](https://github.com/chakra-ui/chakra-ui/commit/c3f01614929d2f68a39cf78111d17f4f4c684706)
+- [`c3f016149`](https://github.com/incmix-ui/incmix-ui/commit/c3f01614929d2f68a39cf78111d17f4f4c684706)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Remove default `[]`
   value for modifiers and moved it into `createPopper` definition. This allows
   memoized modifiers to work correctly in user-land when used with
@@ -289,8 +289,8 @@
 
 ### Minor Changes
 
-- [`4146a9051`](https://github.com/chakra-ui/chakra-ui/commit/4146a9051a5151532503e31c464193e9d118dd26)
-  [#3837](https://github.com/chakra-ui/chakra-ui/pull/3837) Thanks
+- [`4146a9051`](https://github.com/incmix-ui/incmix-ui/commit/4146a9051a5151532503e31c464193e9d118dd26)
+  [#3837](https://github.com/incmix-ui/incmix-ui/pull/3837) Thanks
   [@mcha-dev](https://github.com/mcha-dev)! - `usePopper` now accepts a
   `direction` prop so it can handle placement for RTL languages. Values such as
   `top-start`, `top-end`, `bottom-start` and `bottom-end` will be flipped
@@ -304,8 +304,8 @@
 
 ### Patch Changes
 
-- [`5afa7ef49`](https://github.com/chakra-ui/chakra-ui/commit/5afa7ef49c7e3b01bce932e252865226b9511b39)
-  [#4180](https://github.com/chakra-ui/chakra-ui/pull/4180) Thanks
+- [`5afa7ef49`](https://github.com/incmix-ui/incmix-ui/commit/5afa7ef49c7e3b01bce932e252865226b9511b39)
+  [#4180](https://github.com/incmix-ui/incmix-ui/pull/4180) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - - Wrap force update within
   a function to prevent null scenarios
   - Add default `inset` value to prevent overflow in scenarios where `enabled`
@@ -315,8 +315,8 @@
 
 ### Minor Changes
 
-- [`5e24481fc`](https://github.com/chakra-ui/chakra-ui/commit/5e24481fc73b0097d0bac900479d7cc145a92670)
-  [#4026](https://github.com/chakra-ui/chakra-ui/pull/4026) Thanks
+- [`5e24481fc`](https://github.com/incmix-ui/incmix-ui/commit/5e24481fc73b0097d0bac900479d7cc145a92670)
+  [#4026](https://github.com/incmix-ui/incmix-ui/pull/4026) Thanks
   [@dodas](https://github.com/dodas)! - Add `enabled` option to `usePopper`
   hook.
 
@@ -331,15 +331,15 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`82f08867f`](https://github.com/chakra-ui/chakra-ui/commit/82f08867fa4825d647a3b9cc805220d9364f2f3f)]:
+  [[`82f08867f`](https://github.com/incmix-ui/incmix-ui/commit/82f08867fa4825d647a3b9cc805220d9364f2f3f)]:
   - @incmix-ui/react-utils@1.1.2
 
 ## 2.1.1
 
 ### Patch Changes
 
-- [`1615af488`](https://github.com/chakra-ui/chakra-ui/commit/1615af4881a6f37cffb7ea15078cf7ab6a4e4c79)
-  [#3786](https://github.com/chakra-ui/chakra-ui/pull/3786) Thanks
+- [`1615af488`](https://github.com/incmix-ui/incmix-ui/commit/1615af4881a6f37cffb7ea15078cf7ab6a4e4c79)
+  [#3786](https://github.com/incmix-ui/incmix-ui/pull/3786) Thanks
   [@navarroaxel](https://github.com/navarroaxel)! - Update README for the
   `popper.js` wrapper.
 
@@ -347,8 +347,8 @@
 
 ### Minor Changes
 
-- [`75817ec42`](https://github.com/chakra-ui/chakra-ui/commit/75817ec428ca3c078660a7c7f2a1c1b578c474df)
-  [#3733](https://github.com/chakra-ui/chakra-ui/pull/3733) Thanks
+- [`75817ec42`](https://github.com/incmix-ui/incmix-ui/commit/75817ec428ca3c078660a7c7f2a1c1b578c474df)
+  [#3733](https://github.com/incmix-ui/incmix-ui/pull/3733) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - Add prop getters for
   popper and arrow for better ssr support
 
@@ -357,9 +357,9 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`87a03b320`](https://github.com/chakra-ui/chakra-ui/commit/87a03b320b62e639ca4a891186f202cb839a8402),
-  [`1a04a41bd`](https://github.com/chakra-ui/chakra-ui/commit/1a04a41bd2285069011a738fff422ba1a6fcce94),
-  [`e481ba491`](https://github.com/chakra-ui/chakra-ui/commit/e481ba4914a7f163d93d4c22e2e457f1afb08721)]:
+  [[`87a03b320`](https://github.com/incmix-ui/incmix-ui/commit/87a03b320b62e639ca4a891186f202cb839a8402),
+  [`1a04a41bd`](https://github.com/incmix-ui/incmix-ui/commit/1a04a41bd2285069011a738fff422ba1a6fcce94),
+  [`e481ba491`](https://github.com/incmix-ui/incmix-ui/commit/e481ba4914a7f163d93d4c22e2e457f1afb08721)]:
   - @incmix-ui/react-utils@1.1.1
 
 ## 2.0.1
@@ -367,38 +367,38 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`a58b724e9`](https://github.com/chakra-ui/chakra-ui/commit/a58b724e9c8656044f866b658f378662f2a44b46),
-  [`b724a9dd9`](https://github.com/chakra-ui/chakra-ui/commit/b724a9dd9429d02c0b2c7f7deac66d3553100bdc)]:
+  [[`a58b724e9`](https://github.com/incmix-ui/incmix-ui/commit/a58b724e9c8656044f866b658f378662f2a44b46),
+  [`b724a9dd9`](https://github.com/incmix-ui/incmix-ui/commit/b724a9dd9429d02c0b2c7f7deac66d3553100bdc)]:
   - @incmix-ui/utils@1.5.0
 
 ## 2.0.0
 
 ### Major Changes
 
-- [`91ef14839`](https://github.com/chakra-ui/chakra-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b)
-  [#3583](https://github.com/chakra-ui/chakra-ui/pull/3583) Thanks
+- [`91ef14839`](https://github.com/incmix-ui/incmix-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b)
+  [#3583](https://github.com/incmix-ui/incmix-ui/pull/3583) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - Refactor the positioning
   logic to improve stability and leverage CSS custom properties
 
 ### Patch Changes
 
 - Updated dependencies
-  [[`e748219f3`](https://github.com/chakra-ui/chakra-ui/commit/e748219f300f0c51b0eb304fce38b014d7bcbc86),
-  [`91ef14839`](https://github.com/chakra-ui/chakra-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b)]:
+  [[`e748219f3`](https://github.com/incmix-ui/incmix-ui/commit/e748219f300f0c51b0eb304fce38b014d7bcbc86),
+  [`91ef14839`](https://github.com/incmix-ui/incmix-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b)]:
   - @incmix-ui/utils@1.4.0
 
 ## 1.1.5
 
 ### Patch Changes
 
-- [`e1924c621`](https://github.com/chakra-ui/chakra-ui/commit/e1924c62182969a109b4900b05932caa1b73ed99)
-  [#3477](https://github.com/chakra-ui/chakra-ui/pull/3477) Thanks
+- [`e1924c621`](https://github.com/incmix-ui/incmix-ui/commit/e1924c62182969a109b4900b05932caa1b73ed99)
+  [#3477](https://github.com/incmix-ui/incmix-ui/pull/3477) Thanks
   [@tomdohnal](https://github.com/tomdohnal)! - make the react-popper state in
   sync with the internal popper instance state
 
 - Updated dependencies
-  [[`83ae62905`](https://github.com/chakra-ui/chakra-ui/commit/83ae62905935fdb3104380d6fd845159b00095fa),
-  [`87cc23e14`](https://github.com/chakra-ui/chakra-ui/commit/87cc23e14814e02cbbfc9737c2356cef682ddd5d)]:
+  [[`83ae62905`](https://github.com/incmix-ui/incmix-ui/commit/83ae62905935fdb3104380d6fd845159b00095fa),
+  [`87cc23e14`](https://github.com/incmix-ui/incmix-ui/commit/87cc23e14814e02cbbfc9737c2356cef682ddd5d)]:
   - @incmix-ui/hooks@1.1.5
   - @incmix-ui/utils@1.3.0
 
@@ -406,8 +406,8 @@
 
 ### Patch Changes
 
-- [`51ad518e2`](https://github.com/chakra-ui/chakra-ui/commit/51ad518e22642076485bee3dd1f99acbf025161b)
-  [#3343](https://github.com/chakra-ui/chakra-ui/pull/3343) Thanks
+- [`51ad518e2`](https://github.com/incmix-ui/incmix-ui/commit/51ad518e22642076485bee3dd1f99acbf025161b)
+  [#3343](https://github.com/incmix-ui/incmix-ui/pull/3343) Thanks
   [@dodas](https://github.com/dodas)! - The Popper.js instance is now created
   only once it is actually needed for positioning.
 
@@ -416,9 +416,9 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`ff4a36bca`](https://github.com/chakra-ui/chakra-ui/commit/ff4a36bca11cc177830f6f1da13700acd1e3a087),
-  [`483687237`](https://github.com/chakra-ui/chakra-ui/commit/483687237f2c4fed05dc6a79693f307c601c1285),
-  [`61962345c`](https://github.com/chakra-ui/chakra-ui/commit/61962345c5b1c862445c16c586e304b28c376c9a)]:
+  [[`ff4a36bca`](https://github.com/incmix-ui/incmix-ui/commit/ff4a36bca11cc177830f6f1da13700acd1e3a087),
+  [`483687237`](https://github.com/incmix-ui/incmix-ui/commit/483687237f2c4fed05dc6a79693f307c601c1285),
+  [`61962345c`](https://github.com/incmix-ui/incmix-ui/commit/61962345c5b1c862445c16c586e304b28c376c9a)]:
   - @incmix-ui/utils@1.2.0
   - @incmix-ui/hooks@1.1.4
 
@@ -427,7 +427,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`b572bceed`](https://github.com/chakra-ui/chakra-ui/commit/b572bceedd9fb0c41c65118f0d9ba672791932ca)]:
+  [[`b572bceed`](https://github.com/incmix-ui/incmix-ui/commit/b572bceedd9fb0c41c65118f0d9ba672791932ca)]:
   - @incmix-ui/hooks@1.1.3
 
 ## 1.1.1
@@ -435,15 +435,15 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`002a4361`](https://github.com/chakra-ui/chakra-ui/commit/002a4361bd738bef49e021a2fff2b9b6a9af5815)]:
+  [[`002a4361`](https://github.com/incmix-ui/incmix-ui/commit/002a4361bd738bef49e021a2fff2b9b6a9af5815)]:
   - @incmix-ui/hooks@1.1.2
 
 ## 1.1.0
 
 ### Minor Changes
 
-- [`032f1678`](https://github.com/chakra-ui/chakra-ui/commit/032f16788553b84685de61af5f021c395e09648f)
-  [#3022](https://github.com/chakra-ui/chakra-ui/pull/3022) Thanks
+- [`032f1678`](https://github.com/incmix-ui/incmix-ui/commit/032f16788553b84685de61af5f021c395e09648f)
+  [#3022](https://github.com/incmix-ui/incmix-ui/pull/3022) Thanks
   [@dodas](https://github.com/dodas)! - Added `enabled` property to `usePopper`.
   Popper won't be updated while it is set to `false`.
 
@@ -452,7 +452,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`02855588`](https://github.com/chakra-ui/chakra-ui/commit/02855588a4ffbc6573768052e53cc538361e91ee)]:
+  [[`02855588`](https://github.com/incmix-ui/incmix-ui/commit/02855588a4ffbc6573768052e53cc538361e91ee)]:
   - @incmix-ui/hooks@1.1.1
 
 ## 1.0.3
@@ -460,9 +460,9 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`8b87406c`](https://github.com/chakra-ui/chakra-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54),
-  [`8b87406c`](https://github.com/chakra-ui/chakra-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54),
-  [`8b87406c`](https://github.com/chakra-ui/chakra-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54)]:
+  [[`8b87406c`](https://github.com/incmix-ui/incmix-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54),
+  [`8b87406c`](https://github.com/incmix-ui/incmix-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54),
+  [`8b87406c`](https://github.com/incmix-ui/incmix-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54)]:
   - @incmix-ui/hooks@1.1.0
   - @incmix-ui/utils@1.1.0
 
@@ -471,7 +471,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`e73878ee`](https://github.com/chakra-ui/chakra-ui/commit/e73878ee686c11d3f94ad6ac61b19ae9508d75a5)]:
+  [[`e73878ee`](https://github.com/incmix-ui/incmix-ui/commit/e73878ee686c11d3f94ad6ac61b19ae9508d75a5)]:
   - @incmix-ui/utils@1.0.2
   - @incmix-ui/hooks@1.0.2
 
@@ -480,8 +480,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`5c482483`](https://github.com/chakra-ui/chakra-ui/commit/5c482483ce24fc798540c9792a15e06772eae213),
-  [`204ff7e3`](https://github.com/chakra-ui/chakra-ui/commit/204ff7e39dd37003786194704b36069ef94d56a6)]:
+  [[`5c482483`](https://github.com/incmix-ui/incmix-ui/commit/5c482483ce24fc798540c9792a15e06772eae213),
+  [`204ff7e3`](https://github.com/incmix-ui/incmix-ui/commit/204ff7e39dd37003786194704b36069ef94d56a6)]:
   - @incmix-ui/utils@1.0.1
   - @incmix-ui/hooks@1.0.1
 
@@ -502,8 +502,8 @@ All notable changes to this project will be documented in this file. See
 ### Bug Fixes
 
 - **toast:** allow custom render in update
-  ([eb8bff9](https://github.com/chakra-ui/chakra-ui/commit/eb8bff911e6ec9de0165ab1e8f5ca10d5e022459)),
-  closes [#2362](https://github.com/chakra-ui/chakra-ui/issues/2362)
+  ([eb8bff9](https://github.com/incmix-ui/incmix-ui/commit/eb8bff911e6ec9de0165ab1e8f5ca10d5e022459)),
+  closes [#2362](https://github.com/incmix-ui/incmix-ui/issues/2362)
 
 # Change Log
 
@@ -544,29 +544,29 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.1](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/popper@1.0.0-rc.0...@incmix-ui/popper@1.0.0-rc.1) (2020-08-06)
+# [1.0.0-rc.1](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/popper@1.0.0-rc.0...@incmix-ui/popper@1.0.0-rc.1) (2020-08-06)
 
 ### Bug Fixes
 
 - **variables:** drop unused imports
-  ([552b2e9](https://github.com/chakra-ui/chakra-ui/commit/552b2e9b7510963db509a5724af5361ef07c8ecb))
+  ([552b2e9](https://github.com/incmix-ui/incmix-ui/commit/552b2e9b7510963db509a5724af5361ef07c8ecb))
 
 ### Features
 
 - update popper hook and use-clipboard
-  ([2659f60](https://github.com/chakra-ui/chakra-ui/commit/2659f60b7d44815c7638d2bc03eb6a97ad7bc581))
+  ([2659f60](https://github.com/incmix-ui/incmix-ui/commit/2659f60b7d44815c7638d2bc03eb6a97ad7bc581))
 
 ### Performance Improvements
 
 - improve popper hook
-  ([d7ecb04](https://github.com/chakra-ui/chakra-ui/commit/d7ecb04baed8b6e6488321f7f2b28bed10a3a0d3))
+  ([d7ecb04](https://github.com/incmix-ui/incmix-ui/commit/d7ecb04baed8b6e6488321f7f2b28bed10a3a0d3))
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.0](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/popper@1.0.0-next.7...@incmix-ui/popper@1.0.0-rc.0) (2020-07-26)
+# [1.0.0-rc.0](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/popper@1.0.0-next.7...@incmix-ui/popper@1.0.0-rc.0) (2020-07-26)
 
 **Note:** Version bump only for package @incmix-ui/popper
 
@@ -575,7 +575,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.7](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/popper@1.0.0-next.6...@incmix-ui/popper@1.0.0-next.7) (2020-07-26)
+# [1.0.0-next.7](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/popper@1.0.0-next.6...@incmix-ui/popper@1.0.0-next.7) (2020-07-26)
 
 **Note:** Version bump only for package @incmix-ui/popper
 
@@ -584,7 +584,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.6](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/popper@1.0.0-next.5...@incmix-ui/popper@1.0.0-next.6) (2020-07-15)
+# [1.0.0-next.6](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/popper@1.0.0-next.5...@incmix-ui/popper@1.0.0-next.6) (2020-07-15)
 
 **Note:** Version bump only for package @incmix-ui/popper
 
@@ -593,12 +593,12 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.5](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/popper@1.0.0-next.4...@incmix-ui/popper@1.0.0-next.5) (2020-07-15)
+# [1.0.0-next.5](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/popper@1.0.0-next.4...@incmix-ui/popper@1.0.0-next.5) (2020-07-15)
 
 ### Features
 
 - add support for css transition
-  ([a41614c](https://github.com/chakra-ui/chakra-ui/commit/a41614c8e9757e5d38ddef6a356d2d8c718f406f))
+  ([a41614c](https://github.com/incmix-ui/incmix-ui/commit/a41614c8e9757e5d38ddef6a356d2d8c718f406f))
 
 # Change Log
 
@@ -609,14 +609,14 @@ All notable changes to this project will be documented in this file. See
 
 ### Bug Fixes
 
-- [#891](https://github.com/chakra-ui/chakra-ui/issues/891)
-  ([e107acc](https://github.com/chakra-ui/chakra-ui/commit/e107acc8487898a965b0d695c1da71f46fc56d5e))
+- [#891](https://github.com/incmix-ui/incmix-ui/issues/891)
+  ([e107acc](https://github.com/incmix-ui/incmix-ui/commit/e107acc8487898a965b0d695c1da71f46fc56d5e))
 - case sensitivity issue in popper package
-  ([be247e0](https://github.com/chakra-ui/chakra-ui/commit/be247e0f50c5dd374ac156f96ab99a3d645f251d))
+  ([be247e0](https://github.com/incmix-ui/incmix-ui/commit/be247e0f50c5dd374ac156f96ab99a3d645f251d))
 - focus management for popover
-  ([c3259cc](https://github.com/chakra-ui/chakra-ui/commit/c3259ccac7ebf9102888506d510f3f52cf343906))
+  ([c3259cc](https://github.com/incmix-ui/incmix-ui/commit/c3259ccac7ebf9102888506d510f3f52cf343906))
 - ts issue with sx prop
-  ([d3b1340](https://github.com/chakra-ui/chakra-ui/commit/d3b1340cb255937927b4d4c56ce218141570b951))
+  ([d3b1340](https://github.com/incmix-ui/incmix-ui/commit/d3b1340cb255937927b4d4c56ce218141570b951))
 
 # Change Log
 
@@ -627,14 +627,14 @@ All notable changes to this project will be documented in this file. See
 
 ### Bug Fixes
 
-- [#891](https://github.com/chakra-ui/chakra-ui/issues/891)
-  ([e107acc](https://github.com/chakra-ui/chakra-ui/commit/e107acc8487898a965b0d695c1da71f46fc56d5e))
+- [#891](https://github.com/incmix-ui/incmix-ui/issues/891)
+  ([e107acc](https://github.com/incmix-ui/incmix-ui/commit/e107acc8487898a965b0d695c1da71f46fc56d5e))
 - case sensitivity issue in popper package
-  ([be247e0](https://github.com/chakra-ui/chakra-ui/commit/be247e0f50c5dd374ac156f96ab99a3d645f251d))
+  ([be247e0](https://github.com/incmix-ui/incmix-ui/commit/be247e0f50c5dd374ac156f96ab99a3d645f251d))
 - focus management for popover
-  ([c3259cc](https://github.com/chakra-ui/chakra-ui/commit/c3259ccac7ebf9102888506d510f3f52cf343906))
+  ([c3259cc](https://github.com/incmix-ui/incmix-ui/commit/c3259ccac7ebf9102888506d510f3f52cf343906))
 - ts issue with sx prop
-  ([d3b1340](https://github.com/chakra-ui/chakra-ui/commit/d3b1340cb255937927b4d4c56ce218141570b951))
+  ([d3b1340](https://github.com/incmix-ui/incmix-ui/commit/d3b1340cb255937927b4d4c56ce218141570b951))
 
 # Change Log
 
@@ -645,9 +645,9 @@ All notable changes to this project will be documented in this file. See
 
 ### Bug Fixes
 
-- [#891](https://github.com/chakra-ui/chakra-ui/issues/891)
-  ([e107acc](https://github.com/chakra-ui/chakra-ui/commit/e107acc8487898a965b0d695c1da71f46fc56d5e))
+- [#891](https://github.com/incmix-ui/incmix-ui/issues/891)
+  ([e107acc](https://github.com/incmix-ui/incmix-ui/commit/e107acc8487898a965b0d695c1da71f46fc56d5e))
 - case sensitivity issue in popper package
-  ([be247e0](https://github.com/chakra-ui/chakra-ui/commit/be247e0f50c5dd374ac156f96ab99a3d645f251d))
+  ([be247e0](https://github.com/incmix-ui/incmix-ui/commit/be247e0f50c5dd374ac156f96ab99a3d645f251d))
 - focus management for popover
-  ([c3259cc](https://github.com/chakra-ui/chakra-ui/commit/c3259ccac7ebf9102888506d510f3f52cf343906))
+  ([c3259cc](https://github.com/incmix-ui/incmix-ui/commit/c3259ccac7ebf9102888506d510f3f52cf343906))

@@ -112,7 +112,7 @@ const theme = {
   }
 };
 
-// 2. create or import Button from chakra-ui
+// 2. create or import Button from incmix-ui
 import { Button } from "@incmix-ui/react"
 
 // or your own button

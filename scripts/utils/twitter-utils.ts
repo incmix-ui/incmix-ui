@@ -33,7 +33,7 @@ export async function generateTweetArtifact() {
   return {
     version,
     get releaseUrl() {
-      return `https://github.com/chakra-ui/chakra-ui/releases/tag/@incmix-ui/react@${version}`
+      return `https://github.com/incmix-ui/incmix-ui/releases/tag/@incmix-ui/react@${version}`
     },
     patches: uniq(
       changesets

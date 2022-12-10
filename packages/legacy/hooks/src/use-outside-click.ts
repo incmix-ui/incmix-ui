@@ -21,7 +21,7 @@ export interface UseOutsideClickProps {
  * Example, used in components like Dialogs and Popovers, so they can close
  * when a user clicks outside them.
  *
- * @see Docs https://chakra-ui.com/docs/hooks/use-outside-click
+ * @see Docs https://incmix-ui.com/docs/hooks/use-outside-click
  */
 export function useOutsideClick(props: UseOutsideClickProps) {
   const { ref, handler, enabled = true } = props

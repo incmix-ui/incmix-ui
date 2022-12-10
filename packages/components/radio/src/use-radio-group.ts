@@ -51,7 +51,7 @@ export interface UseRadioGroupProps {
 /**
  * `useRadioGroup` is a custom hook that provides all the state management logic for a group of radios.
  *
- * @see Docs https://chakra-ui.com/docs/hooks/use-radio-group
+ * @see Docs https://incmix-ui.com/docs/hooks/use-radio-group
  */
 export function useRadioGroup(props: UseRadioGroupProps = {}) {
   const {

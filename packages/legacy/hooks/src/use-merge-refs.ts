@@ -32,7 +32,7 @@ export function assignRef<T = any>(ref: ReactRef<T> | undefined, value: T) {
  *   return <div {...props} ref={useMergeRefs(internalRef, ref)} />;
  * });
  *
- * @see Docs https://chakra-ui.com/docs/hooks/use-merge-refs
+ * @see Docs https://incmix-ui.com/docs/hooks/use-merge-refs
  */
 export function useMergeRefs<T>(...refs: (ReactRef<T> | undefined)[]) {
   return useMemo(() => {

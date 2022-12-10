@@ -24,7 +24,7 @@ const Container = (props: React.PropsWithChildren<{ zIndex: number }>) => (
       left: 0,
       right: 0,
       // NB: Don't add `bottom: 0`, it makes the entire app unusable
-      // @see https://github.com/chakra-ui/chakra-ui/issues/3201
+      // @see https://github.com/incmix-ui/incmix-ui/issues/3201
     }}
   >
     {props.children}
@@ -163,7 +163,7 @@ export interface PortalProps {
  * Declarative component used to render children into a DOM node
  * that exists outside the DOM hierarchy of the parent component.
  *
- * @see Docs https://chakra-ui.com/portal
+ * @see Docs https://incmix-ui.com/portal
  */
 
 export function Portal(props: PortalProps) {

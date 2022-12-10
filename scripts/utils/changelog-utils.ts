@@ -83,8 +83,8 @@ export function getPrData(pr: PullRequest): PrData | undefined {
 
 export async function getPrByNumber(num: number): Promise<PullRequest> {
   const { data } = await octokit.pulls.get({
-    owner: "chakra-ui",
-    repo: "chakra-ui",
+    owner: "incmix-ui",
+    repo: "incmix-ui",
     pull_number: num,
   })
 
@@ -94,10 +94,10 @@ export async function getPrByNumber(num: number): Promise<PullRequest> {
 export async function getLatestPr(): Promise<PullRequest> {
   const { data } = await octokit.pulls.list({
     state: "closed",
-    owner: "chakra-ui",
-    repo: "chakra-ui",
+    owner: "incmix-ui",
+    repo: "incmix-ui",
     base: "main",
-    head: "chakra-ui:changeset-release/main",
+    head: "incmix-ui:changeset-release/main",
     per_page: 1,
   })
 
@@ -107,10 +107,10 @@ export async function getLatestPr(): Promise<PullRequest> {
 export async function getMergedPrs(): Promise<PullRequests> {
   const { data } = await octokit.pulls.list({
     state: "all",
-    owner: "chakra-ui",
-    repo: "chakra-ui",
+    owner: "incmix-ui",
+    repo: "incmix-ui",
     base: "main",
-    head: "chakra-ui:changeset-release/main",
+    head: "incmix-ui:changeset-release/main",
     per_page: 100,
   })
 

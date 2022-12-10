@@ -55,7 +55,7 @@ function start() {
       **New Release Update :tada: v${content.version}**
       
       Read the changelog here:
-      https://github.com/chakra-ui/chakra-ui/blob/main/.changelog/v${content.version}.mdx
+      https://github.com/incmix-ui/incmix-ui/blob/main/.changelog/v${content.version}.mdx
       `
 
       spinner.succeed().start("Posting Changelog content to #annoucement")

@@ -3,7 +3,7 @@
 A React hooks wrapper for popper.js to dynamic positioning of containers around
 a reference.
 
-> This is an internal hook of Chakra-UI, and it's not covered by semver, and may
+> This is an internal hook of incmix-ui, and it's not covered by semver, and may
 > cause unexpected or broken application behavior. Use them at your own risk.
 
 ## Installation

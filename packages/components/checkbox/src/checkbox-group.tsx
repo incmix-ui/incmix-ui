@@ -14,7 +14,7 @@ export interface CheckboxGroupProps
  * Used for multiple checkboxes which are bound in one group,
  * and it indicates whether one or more options are selected.
  *
- * @see Docs https://chakra-ui.com/checkbox
+ * @see Docs https://incmix-ui.com/checkbox
  */
 export function CheckboxGroup(props: CheckboxGroupProps) {
   const { colorScheme, size, variant, children, isDisabled } = props

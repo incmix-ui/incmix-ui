@@ -300,7 +300,7 @@ export const pseudoSelectors = {
    * this component or element.
    */
   _dark:
-    ".chakra-ui-dark &:not([data-theme])," +
+    ".incmix-ui-dark &:not([data-theme])," +
     "[data-theme=dark] &:not([data-theme])," +
     "&[data-theme=dark]",
   /**
@@ -308,7 +308,7 @@ export const pseudoSelectors = {
    * this component or element.
    */
   _light:
-    ".chakra-ui-light &:not([data-theme])," +
+    ".incmix-ui-light &:not([data-theme])," +
     "[data-theme=light] &:not([data-theme])," +
     "&[data-theme=light]",
 }

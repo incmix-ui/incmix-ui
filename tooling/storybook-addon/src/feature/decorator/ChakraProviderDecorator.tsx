@@ -1,6 +1,6 @@
 import { useMemo } from "react"
 import { StoryContext, StoryFn } from "@storybook/addons"
-import { ChakraProvider, extendTheme, theme } from "@chakra-ui/react"
+import { ChakraProvider, extendTheme, theme } from "@incmix-ui/react"
 import { ColorModeSync } from "../color-mode/ColorModeSync"
 import { useDirection } from "../direction/useDirection"
 import { DIRECTION_TOOL_ID } from "../../constants"

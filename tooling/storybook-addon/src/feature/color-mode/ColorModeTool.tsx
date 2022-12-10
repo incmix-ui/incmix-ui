@@ -1,7 +1,7 @@
 import { useAddonState } from "@storybook/api"
 import { IconButton } from "@storybook/components"
 import { addons } from "@storybook/addons"
-import { MoonIcon, SunIcon } from "@chakra-ui/icons"
+import { MoonIcon, SunIcon } from "@incmix-ui/icons"
 import { ADDON_ID, EVENTS } from "../../constants"
 
 /**

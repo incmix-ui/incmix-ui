@@ -33,7 +33,7 @@ export interface AccordionProps
  * for all accordion items.
  *
  * It wraps all accordion items in a `div` for better grouping.
- * @see Docs https://chakra-ui.com/accordion
+ * @see Docs https://incmix-ui.com/accordion
  * @see WAI-ARIA https://www.w3.org/WAI/ARIA/apg/patterns/accordion/
  */
 export const Accordion = forwardRef<AccordionProps, "div">(function Accordion(

@@ -67,7 +67,7 @@ jobs:
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
 
-      - name: Send a dispatch event to chakra-ui-docs
+      - name: Send a dispatch event to incmix-ui-docs
         if: steps.changesets.outputs.published == 'true'
         run: |
-          curl -X POST -u "segunadebayo:${{ secrets.SAGE_PAT }}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/chakra-ui/chakra-ui-docs/dispatches --data '{"event_type": "build_application"}'
+          curl -X POST -u "segunadebayo:${{ secrets.SAGE_PAT }}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/incmix-ui/incmix-ui-docs/dispatches --data '{"event_type": "build_application"}'

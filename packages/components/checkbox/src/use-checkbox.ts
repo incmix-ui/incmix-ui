@@ -15,7 +15,7 @@ import { CheckboxState, UseCheckboxProps } from "./checkbox-types"
  * useCheckbox that provides all the state and focus management logic
  * for a checkbox. It is consumed by the `Checkbox` component
  *
- * @see Docs https://chakra-ui.com/checkbox#hooks
+ * @see Docs https://incmix-ui.com/checkbox#hooks
  * @see WAI-ARIA https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/
  */
 export function useCheckbox(props: UseCheckboxProps = {}) {
@@ -231,7 +231,7 @@ export function useCheckbox(props: UseCheckboxProps = {}) {
          * If the element was changed using the `as` prop or changing
          * the dom node `getRootProps` is spread unto (to a `div` or `span`), we'll trigger
          * click on the input when the element is clicked.
-         * @see Issue https://github.com/chakra-ui/chakra-ui/issues/3480
+         * @see Issue https://github.com/incmix-ui/incmix-ui/issues/3480
          */
         if (!rootIsLabelElement) {
           inputRef.current?.click()

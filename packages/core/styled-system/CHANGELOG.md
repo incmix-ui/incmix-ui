@@ -4,8 +4,8 @@
 
 ### Minor Changes
 
-- [#5701](https://github.com/chakra-ui/chakra-ui/pull/5701)
-  [`eb3bfe66d`](https://github.com/chakra-ui/chakra-ui/commit/eb3bfe66d3aecc8cf46f29ef08dc748afb83f781)
+- [#5701](https://github.com/incmix-ui/incmix-ui/pull/5701)
+  [`eb3bfe66d`](https://github.com/incmix-ui/incmix-ui/commit/eb3bfe66d3aecc8cf46f29ef08dc748afb83f781)
   Thanks [@lexanth](https://github.com/lexanth)! - Add the flag
   `--strict-token-types` for `@incmix-ui/cli tokens` to generate strict types
   for theme tokens (e.g. color, spacing)
@@ -24,7 +24,7 @@
   // Type '"abc"' is not assignable to type '"1" | "2" | ... | undefined'.
   ```
 
-* [`1a4dad7a4`](https://github.com/chakra-ui/chakra-ui/commit/1a4dad7a4f15e24e0f529b8f8277346d0399c3fc)
+* [`1a4dad7a4`](https://github.com/incmix-ui/incmix-ui/commit/1a4dad7a4f15e24e0f529b8f8277346d0399c3fc)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Add support for
   `textIndent` style prop
 
@@ -32,8 +32,8 @@
 
 ### Patch Changes
 
-- [#6945](https://github.com/chakra-ui/chakra-ui/pull/6945)
-  [`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
+- [#6945](https://github.com/incmix-ui/incmix-ui/pull/6945)
+  [`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
   `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
@@ -43,13 +43,13 @@
 
 ### Patch Changes
 
-- [#6648](https://github.com/chakra-ui/chakra-ui/pull/6648)
-  [`9de39921b`](https://github.com/chakra-ui/chakra-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290)
+- [#6648](https://github.com/incmix-ui/incmix-ui/pull/6648)
+  [`9de39921b`](https://github.com/incmix-ui/incmix-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290)
   Thanks [@cschroeter](https://github.com/cschroeter)! - Declare package exports
   @see https://webpack.js.org/guides/package-exports/
 
-* [#6737](https://github.com/chakra-ui/chakra-ui/pull/6737)
-  [`d945b9a7d`](https://github.com/chakra-ui/chakra-ui/commit/d945b9a7da3056017cda0cdd552af40fa1426070)
+* [#6737](https://github.com/incmix-ui/incmix-ui/pull/6737)
+  [`d945b9a7d`](https://github.com/incmix-ui/incmix-ui/commit/d945b9a7da3056017cda0cdd552af40fa1426070)
   Thanks [@noobinthisgame](https://github.com/noobinthisgame)! - Added
   `[disabled]` selector on top of `:disabled`
 
@@ -57,7 +57,7 @@
 
 ### Patch Changes
 
-- [`ab1c42f50`](https://github.com/chakra-ui/chakra-ui/commit/ab1c42f501a95bdb44ceca796f24a83aa0661868)
+- [`ab1c42f50`](https://github.com/incmix-ui/incmix-ui/commit/ab1c42f501a95bdb44ceca796f24a83aa0661868)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Remove unintended
   `console.log`
 
@@ -65,21 +65,21 @@
 
 ### Patch Changes
 
-- [#6704](https://github.com/chakra-ui/chakra-ui/pull/6704)
-  [`c570b2415`](https://github.com/chakra-ui/chakra-ui/commit/c570b241522d54e203d6bd151640b34f4ef80faf)
+- [#6704](https://github.com/incmix-ui/incmix-ui/pull/6704)
+  [`c570b2415`](https://github.com/incmix-ui/incmix-ui/commit/c570b241522d54e203d6bd151640b34f4ef80faf)
   Thanks [@anubra266](https://github.com/anubra266)! - Revert
-  [#6335](https://github.com/chakra-ui/chakra-ui/pull/6335/files) to fix issue
+  [#6335](https://github.com/incmix-ui/incmix-ui/pull/6335/files) to fix issue
   where lots of responsive styles makes app slower
 
-* [#6700](https://github.com/chakra-ui/chakra-ui/pull/6700)
-  [`99329e44a`](https://github.com/chakra-ui/chakra-ui/commit/99329e44a0429a225cd1dffa4b7d76b68a828f44)
+* [#6700](https://github.com/incmix-ui/incmix-ui/pull/6700)
+  [`99329e44a`](https://github.com/incmix-ui/incmix-ui/commit/99329e44a0429a225cd1dffa4b7d76b68a828f44)
   Thanks [@sei0603](https://github.com/sei0603)! - Update disabled selector to
   use state selector `:disabled`, instead of `[disabled]` attribute selector.
   This is useful when an editable element is wrapped within
   `<fieldset disabled>`
 
-- [#6595](https://github.com/chakra-ui/chakra-ui/pull/6595)
-  [`c2d1c362f`](https://github.com/chakra-ui/chakra-ui/commit/c2d1c362f5bf2dfc3fa27fa8a987c1d037e12479)
+- [#6595](https://github.com/incmix-ui/incmix-ui/pull/6595)
+  [`c2d1c362f`](https://github.com/incmix-ui/incmix-ui/commit/c2d1c362f5bf2dfc3fa27fa8a987c1d037e12479)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Improve style
   resolution when components are wrapped within forced color mode elements
   (`DarkMode`, `LightMode`).
@@ -100,7 +100,7 @@
 
 ### Patch Changes
 
-- [`ec23eb020`](https://github.com/chakra-ui/chakra-ui/commit/ec23eb02066628d28f85c2c515fba4d0c0120601)
+- [`ec23eb020`](https://github.com/incmix-ui/incmix-ui/commit/ec23eb02066628d28f85c2c515fba4d0c0120601)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Allow user optin to
   the 100vh polyfill because it's only useful in absolute or fixed layout modes.
 
@@ -124,8 +124,8 @@
 
 ### Minor Changes
 
-- [#6221](https://github.com/chakra-ui/chakra-ui/pull/6221)
-  [`872c0ccf5`](https://github.com/chakra-ui/chakra-ui/commit/872c0ccf56d927d49af02a8a4d6bb6811774eff7)
+- [#6221](https://github.com/incmix-ui/incmix-ui/pull/6221)
+  [`872c0ccf5`](https://github.com/incmix-ui/incmix-ui/commit/872c0ccf56d927d49af02a8a4d6bb6811774eff7)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Add `defineStyle`
   and `defineStyleConfig` to improve the TypeScript authoring experience of
   style objects and single part component themes.
@@ -176,8 +176,8 @@
 
 ### Patch Changes
 
-- [#6559](https://github.com/chakra-ui/chakra-ui/pull/6559)
-  [`0cae42007`](https://github.com/chakra-ui/chakra-ui/commit/0cae42007308e94ef9a9fdbae3de259871ca33be)
+- [#6559](https://github.com/incmix-ui/incmix-ui/pull/6559)
+  [`0cae42007`](https://github.com/incmix-ui/incmix-ui/commit/0cae42007308e94ef9a9fdbae3de259871ca33be)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Refactors the theme
   to use design tokens and css variables as much as possible.
 
@@ -188,8 +188,8 @@
 
 ### Patch Changes
 
-- [#6508](https://github.com/chakra-ui/chakra-ui/pull/6508)
-  [`445661955`](https://github.com/chakra-ui/chakra-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)
+- [#6508](https://github.com/incmix-ui/incmix-ui/pull/6508)
+  [`445661955`](https://github.com/incmix-ui/incmix-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)
   Thanks [@anubra266](https://github.com/anubra266)! - - Initial release of
   react hooks
   - Refactor all packages to reduce bundle size
@@ -208,8 +208,8 @@
 
 ### Patch Changes
 
-- [#6335](https://github.com/chakra-ui/chakra-ui/pull/6335)
-  [`e0913e56f`](https://github.com/chakra-ui/chakra-ui/commit/e0913e56f889a5d6ef666b0e8b1e0986955fdba3)
+- [#6335](https://github.com/incmix-ui/incmix-ui/pull/6335)
+  [`e0913e56f`](https://github.com/incmix-ui/incmix-ui/commit/e0913e56f889a5d6ef666b0e8b1e0986955fdba3)
   Thanks [@itkrt2y](https://github.com/itkrt2y)! - Improve style computation
   performance by looping over styles once.
 
@@ -219,19 +219,19 @@
 
   We now process both steps in a single pass.
 
-* [#6465](https://github.com/chakra-ui/chakra-ui/pull/6465)
-  [`67edac24a`](https://github.com/chakra-ui/chakra-ui/commit/67edac24ace3c621ecb8cc32ee545acbedaadd79)
+* [#6465](https://github.com/incmix-ui/incmix-ui/pull/6465)
+  [`67edac24a`](https://github.com/incmix-ui/incmix-ui/commit/67edac24ace3c621ecb8cc32ee545acbedaadd79)
   Thanks [@itkrt2y](https://github.com/itkrt2y)! - Fix regression where
   `ThemeTypings` created by chakra-cli could not be used
 
-- [#6396](https://github.com/chakra-ui/chakra-ui/pull/6396)
-  [`2c9e085ea`](https://github.com/chakra-ui/chakra-ui/commit/2c9e085eaa0dfd65843951fb8240d595901c87dd)
+- [#6396](https://github.com/incmix-ui/incmix-ui/pull/6396)
+  [`2c9e085ea`](https://github.com/incmix-ui/incmix-ui/commit/2c9e085eaa0dfd65843951fb8240d595901c87dd)
   Thanks [@yukukotani](https://github.com/yukukotani)! - Escape symbols in css
   variable to make it works
 
 - Updated dependencies
-  [[`dffc18b17`](https://github.com/chakra-ui/chakra-ui/commit/dffc18b1739ad148922fe98e4335457b298c8862),
-  [`99af1e29f`](https://github.com/chakra-ui/chakra-ui/commit/99af1e29fa7b8c8b0bee217227d05f695a0acb47)]:
+  [[`dffc18b17`](https://github.com/incmix-ui/incmix-ui/commit/dffc18b1739ad148922fe98e4335457b298c8862),
+  [`99af1e29f`](https://github.com/incmix-ui/incmix-ui/commit/99af1e29fa7b8c8b0bee217227d05f695a0acb47)]:
   - @incmix-ui/utils@2.0.7
 
 ## 2.2.5
@@ -247,26 +247,26 @@
 
 ### Patch Changes
 
-- [#6356](https://github.com/chakra-ui/chakra-ui/pull/6356)
-  [`1839e22eb`](https://github.com/chakra-ui/chakra-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)
+- [#6356](https://github.com/incmix-ui/incmix-ui/pull/6356)
+  [`1839e22eb`](https://github.com/incmix-ui/incmix-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - - Force release due
   to change in build configuration
   - Update package `main` and `module` entries
 - Updated dependencies
-  [[`1839e22eb`](https://github.com/chakra-ui/chakra-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)]:
+  [[`1839e22eb`](https://github.com/incmix-ui/incmix-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)]:
   - @incmix-ui/utils@2.0.5
 
 ## 2.2.3
 
 ### Patch Changes
 
-- [#6301](https://github.com/chakra-ui/chakra-ui/pull/6301)
-  [`c11743b47`](https://github.com/chakra-ui/chakra-ui/commit/c11743b47f38f8f38a21b120add3a9cf765b81ee)
+- [#6301](https://github.com/incmix-ui/incmix-ui/pull/6301)
+  [`c11743b47`](https://github.com/incmix-ui/incmix-ui/commit/c11743b47f38f8f38a21b120add3a9cf765b81ee)
   Thanks [@effectivetom](https://github.com/effectivetom)! - Fix incorrect
   breakpoint calculation which excluded some viewport widths from media query
   coverage
 - Updated dependencies
-  [[`c11743b47`](https://github.com/chakra-ui/chakra-ui/commit/c11743b47f38f8f38a21b120add3a9cf765b81ee)]:
+  [[`c11743b47`](https://github.com/incmix-ui/incmix-ui/commit/c11743b47f38f8f38a21b120add3a9cf765b81ee)]:
   - @incmix-ui/utils@2.0.4
 
 ## 2.2.2
@@ -274,16 +274,16 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`36ef37d58`](https://github.com/chakra-ui/chakra-ui/commit/36ef37d58220dffc4b8e35c31fdcc57042e9a859),
-  [`6c15ec2c2`](https://github.com/chakra-ui/chakra-ui/commit/6c15ec2c2a32a36ecc2d169308379a6825619543)]:
+  [[`36ef37d58`](https://github.com/incmix-ui/incmix-ui/commit/36ef37d58220dffc4b8e35c31fdcc57042e9a859),
+  [`6c15ec2c2`](https://github.com/incmix-ui/incmix-ui/commit/6c15ec2c2a32a36ecc2d169308379a6825619543)]:
   - @incmix-ui/utils@2.0.3
 
 ## 2.2.1
 
 ### Patch Changes
 
-- [#5764](https://github.com/chakra-ui/chakra-ui/pull/5764)
-  [`612529653`](https://github.com/chakra-ui/chakra-ui/commit/61252965371f1abc5bc6680c14bbd08f97667ea9)
+- [#5764](https://github.com/incmix-ui/incmix-ui/pull/5764)
+  [`612529653`](https://github.com/incmix-ui/incmix-ui/commit/61252965371f1abc5bc6680c14bbd08f97667ea9)
   Thanks [@m4x3d](https://github.com/m4x3d)! - Remove internal usage of
   createBreakpoints function
 
@@ -291,46 +291,46 @@
 
 ### Minor Changes
 
-- [#6153](https://github.com/chakra-ui/chakra-ui/pull/6153)
-  [`bcbfcbcce`](https://github.com/chakra-ui/chakra-ui/commit/bcbfcbcceebe6749d0e8fe6ebddb566121fdff25)
+- [#6153](https://github.com/incmix-ui/incmix-ui/pull/6153)
+  [`bcbfcbcce`](https://github.com/incmix-ui/incmix-ui/commit/bcbfcbcceebe6749d0e8fe6ebddb566121fdff25)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Remove annoying
   focus outline by leveraging focus visible
 
-* [#6153](https://github.com/chakra-ui/chakra-ui/pull/6153)
-  [`bcbfcbcce`](https://github.com/chakra-ui/chakra-ui/commit/bcbfcbcceebe6749d0e8fe6ebddb566121fdff25)
+* [#6153](https://github.com/incmix-ui/incmix-ui/pull/6153)
+  [`bcbfcbcce`](https://github.com/incmix-ui/incmix-ui/commit/bcbfcbcceebe6749d0e8fe6ebddb566121fdff25)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Add support for
   styling `data-focus-visible` using the `_focusVisible` pseudo prop
 
 ### Patch Changes
 
-- [`06f29f8cd`](https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1)
+- [`06f29f8cd`](https://github.com/incmix-ui/incmix-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Bump all packages
   to resolve deps issues
 
 - Updated dependencies
-  [[`06f29f8cd`](https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1)]:
+  [[`06f29f8cd`](https://github.com/incmix-ui/incmix-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1)]:
   - @incmix-ui/utils@2.0.2
 
 ## 2.1.1
 
 ### Patch Changes
 
-- [#6089](https://github.com/chakra-ui/chakra-ui/pull/6089)
-  [`f77e3c98f`](https://github.com/chakra-ui/chakra-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c)
+- [#6089](https://github.com/incmix-ui/incmix-ui/pull/6089)
+  [`f77e3c98f`](https://github.com/incmix-ui/incmix-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - - Fix media query
   calculations for responsive variants and sizes
   - Fix issue where values with `!important` can resolve to a double
     `!important` being added
 - Updated dependencies
-  [[`f77e3c98f`](https://github.com/chakra-ui/chakra-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c)]:
+  [[`f77e3c98f`](https://github.com/incmix-ui/incmix-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c)]:
   - @incmix-ui/utils@2.0.1
 
 ## 2.1.0
 
 ### Minor Changes
 
-- [#6050](https://github.com/chakra-ui/chakra-ui/pull/6050)
-  [`ddea8d143`](https://github.com/chakra-ui/chakra-ui/commit/ddea8d143e76c0e4758e6ea4b4d881f88b34452d)
+- [#6050](https://github.com/incmix-ui/incmix-ui/pull/6050)
+  [`ddea8d143`](https://github.com/incmix-ui/incmix-ui/commit/ddea8d143e76c0e4758e6ea4b4d881f88b34452d)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Add support for
   responsive variants and sizes.
 
@@ -360,18 +360,18 @@
 
 ### Major Changes
 
-- [#5879](https://github.com/chakra-ui/chakra-ui/pull/5879)
-  [`c390af485`](https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
+- [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
+  [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
   to next major for Chakra UI version 2.
 
-* [#5989](https://github.com/chakra-ui/chakra-ui/pull/5989)
-  [`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
+* [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
+  [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Omit `src`
   directory from being published to npm
 
-- [#5828](https://github.com/chakra-ui/chakra-ui/pull/5828)
-  [`1a47fd27e`](https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)
+- [#5828](https://github.com/incmix-ui/incmix-ui/pull/5828)
+  [`1a47fd27e`](https://github.com/incmix-ui/incmix-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - ### Remove
   deprecations
 
@@ -387,7 +387,7 @@
 
   **Color mode**
 
-  - Removed references to `--chakra-ui-color-mode`. Use `data-theme` property
+  - Removed references to `--incmix-ui-color-mode`. Use `data-theme` property
     instead
 
   **Hooks**
@@ -412,45 +412,45 @@
 
   - Removed deprecated types.
 
-* [#5882](https://github.com/chakra-ui/chakra-ui/pull/5882)
-  [`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)
+* [#5882](https://github.com/incmix-ui/incmix-ui/pull/5882)
+  [`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump peer
   dependency to React and ReactDOM to >=18
 
 ### Patch Changes
 
-- [#5935](https://github.com/chakra-ui/chakra-ui/pull/5935)
-  [`5193a00c8`](https://github.com/chakra-ui/chakra-ui/commit/5193a00c8838eeb2715ce825f89f9f4dfab9a0c8)
+- [#5935](https://github.com/incmix-ui/incmix-ui/pull/5935)
+  [`5193a00c8`](https://github.com/incmix-ui/incmix-ui/commit/5193a00c8838eeb2715ce825f89f9f4dfab9a0c8)
   Thanks [@itkrt2y](https://github.com/itkrt2y)! - Update `csstype` package to
   fix typings error for `colorAdjust` property
 
 - Updated dependencies
-  [[`c390af485`](https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f),
-  [`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7),
-  [`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
+  [[`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f),
+  [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7),
+  [`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
   - @incmix-ui/utils@2.0.0
 
 ## 2.0.0-next.3
 
 ### Major Changes
 
-- [#5989](https://github.com/chakra-ui/chakra-ui/pull/5989)
-  [`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
+- [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
+  [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Omit `src`
   directory from being published to npm
 
 ### Patch Changes
 
 - Updated dependencies
-  [[`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)]:
+  [[`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)]:
   - @incmix-ui/utils@2.0.0-next.2
 
 ## 2.0.0-next.2
 
 ### Patch Changes
 
-- [#5935](https://github.com/chakra-ui/chakra-ui/pull/5935)
-  [`5193a00c8`](https://github.com/chakra-ui/chakra-ui/commit/5193a00c8838eeb2715ce825f89f9f4dfab9a0c8)
+- [#5935](https://github.com/incmix-ui/incmix-ui/pull/5935)
+  [`5193a00c8`](https://github.com/incmix-ui/incmix-ui/commit/5193a00c8838eeb2715ce825f89f9f4dfab9a0c8)
   Thanks [@itkrt2y](https://github.com/itkrt2y)! - Update `csstype` package to
   fix typings error for `colorAdjust` property
 
@@ -458,28 +458,28 @@
 
 ### Major Changes
 
-- [#5882](https://github.com/chakra-ui/chakra-ui/pull/5882)
-  [`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)
+- [#5882](https://github.com/incmix-ui/incmix-ui/pull/5882)
+  [`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump peer
   depencency to React and ReactDOM to >=18
 
 ### Patch Changes
 
 - Updated dependencies
-  [[`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
+  [[`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
   - @incmix-ui/utils@2.0.0-next.1
 
 ## 2.0.0-next.0
 
 ### Major Changes
 
-- [#5879](https://github.com/chakra-ui/chakra-ui/pull/5879)
-  [`c390af485`](https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
+- [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
+  [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
   to next major for Chakra UI version 2.
 
-* [#5828](https://github.com/chakra-ui/chakra-ui/pull/5828)
-  [`1a47fd27e`](https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)
+* [#5828](https://github.com/incmix-ui/incmix-ui/pull/5828)
+  [`1a47fd27e`](https://github.com/incmix-ui/incmix-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - ### Remove
   deprecations
 
@@ -495,7 +495,7 @@
 
   **Color mode**
 
-  - Removed references to `--chakra-ui-color-mode`. Use `data-theme` property
+  - Removed references to `--incmix-ui-color-mode`. Use `data-theme` property
     instead
 
   **Hooks**
@@ -523,23 +523,23 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`c390af485`](https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)]:
+  [[`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)]:
   - @incmix-ui/utils@2.0.0-next.0
 
 ## 1.19.0
 
 ### Minor Changes
 
-- [#5532](https://github.com/chakra-ui/chakra-ui/pull/5532)
-  [`00d5d1516`](https://github.com/chakra-ui/chakra-ui/commit/00d5d151631436777a8dc71a0b46c2be52e71631)
+- [#5532](https://github.com/incmix-ui/incmix-ui/pull/5532)
+  [`00d5d1516`](https://github.com/incmix-ui/incmix-ui/commit/00d5d151631436777a8dc71a0b46c2be52e71631)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Updated `_dark` and
   `_light` pseudo selectors to allow semantic tokens to change with the
   `data-theme` attributes.
 
 ### Patch Changes
 
-- [#5702](https://github.com/chakra-ui/chakra-ui/pull/5702)
-  [`dc2c578f6`](https://github.com/chakra-ui/chakra-ui/commit/dc2c578f6b9686499911fa77d6b61dd0ced077ea)
+- [#5702](https://github.com/incmix-ui/incmix-ui/pull/5702)
+  [`dc2c578f6`](https://github.com/incmix-ui/incmix-ui/commit/dc2c578f6b9686499911fa77d6b61dd0ced077ea)
   Thanks [@ardnahcivar](https://github.com/ardnahcivar)! - Added `number` type
   for text underline offset of text decoration props
 
@@ -547,20 +547,20 @@
 
 ### Patch Changes
 
-- [`e1fe48cbe`](https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)
+- [`e1fe48cbe`](https://github.com/incmix-ui/incmix-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
   version for every package to fix release process. Root cause was a bug in our
   CI configuration.
 - Updated dependencies
-  [[`e1fe48cbe`](https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)]:
+  [[`e1fe48cbe`](https://github.com/incmix-ui/incmix-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)]:
   - @incmix-ui/utils@1.10.4
 
 ## 1.18.0
 
 ### Minor Changes
 
-- [#5579](https://github.com/chakra-ui/chakra-ui/pull/5579)
-  [`b0da6e666`](https://github.com/chakra-ui/chakra-ui/commit/b0da6e6665234c1584403f7f7251390c3a9433c8)
+- [#5579](https://github.com/incmix-ui/incmix-ui/pull/5579)
+  [`b0da6e666`](https://github.com/incmix-ui/incmix-ui/commit/b0da6e6665234c1584403f7f7251390c3a9433c8)
   Thanks [@jrolfs](https://github.com/jrolfs)! - Modify theme types to make it
   possible to customize token types via TypeScript module augmentation and
   declaration merging in addition to allowing customization via the Chakra CLI.
@@ -604,20 +604,20 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`a870e6b94`](https://github.com/chakra-ui/chakra-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a)]:
+  [[`a870e6b94`](https://github.com/incmix-ui/incmix-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a)]:
   - @incmix-ui/utils@1.10.3
 
 ## 1.17.2
 
 ### Patch Changes
 
-- [#5536](https://github.com/chakra-ui/chakra-ui/pull/5536)
-  [`a503acabe`](https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)
+- [#5536](https://github.com/incmix-ui/incmix-ui/pull/5536)
+  [`a503acabe`](https://github.com/incmix-ui/incmix-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
   version for every package to fix release process.
 
 - Updated dependencies
-  [[`a503acabe`](https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)]:
+  [[`a503acabe`](https://github.com/incmix-ui/incmix-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)]:
   - @incmix-ui/utils@1.10.2
 
 ## 1.17.1
@@ -625,15 +625,15 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`24b4333d0`](https://github.com/chakra-ui/chakra-ui/commit/24b4333d008d149380785f87f4891e28584ff89b)]:
+  [[`24b4333d0`](https://github.com/incmix-ui/incmix-ui/commit/24b4333d008d149380785f87f4891e28584ff89b)]:
   - @incmix-ui/utils@1.10.1
 
 ## 1.17.0
 
 ### Minor Changes
 
-- [#5316](https://github.com/chakra-ui/chakra-ui/pull/5316)
-  [`1537a725f`](https://github.com/chakra-ui/chakra-ui/commit/1537a725fbc7f84979e374f546bda625fc685ac3)
+- [#5316](https://github.com/incmix-ui/incmix-ui/pull/5316)
+  [`1537a725f`](https://github.com/incmix-ui/incmix-ui/commit/1537a725fbc7f84979e374f546bda625fc685ac3)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Introducing
   **semantic tokens**
 
@@ -715,28 +715,28 @@
   })
   ```
 
-* [#5355](https://github.com/chakra-ui/chakra-ui/pull/5355)
-  [`bb7eb18da`](https://github.com/chakra-ui/chakra-ui/commit/bb7eb18daa015efee56d55519c2ce727d5bb776a)
+* [#5355](https://github.com/incmix-ui/incmix-ui/pull/5355)
+  [`bb7eb18da`](https://github.com/incmix-ui/incmix-ui/commit/bb7eb18daa015efee56d55519c2ce727d5bb776a)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Export TypeScript
   types ResponsiveObject and ResponsiveArray
 
 ### Patch Changes
 
-- [#5359](https://github.com/chakra-ui/chakra-ui/pull/5359)
-  [`3b4117781`](https://github.com/chakra-ui/chakra-ui/commit/3b41177812c927c0ee37c7c0006a09f9ca031108)
+- [#5359](https://github.com/incmix-ui/incmix-ui/pull/5359)
+  [`3b4117781`](https://github.com/incmix-ui/incmix-ui/commit/3b41177812c927c0ee37c7c0006a09f9ca031108)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Updated the
   `_placeholderShown` selector
 
 - Updated dependencies
-  [[`1537a725f`](https://github.com/chakra-ui/chakra-ui/commit/1537a725fbc7f84979e374f546bda625fc685ac3)]:
+  [[`1537a725f`](https://github.com/incmix-ui/incmix-ui/commit/1537a725fbc7f84979e374f546bda625fc685ac3)]:
   - @incmix-ui/utils@1.10.0
 
 ## 1.16.0
 
 ### Minor Changes
 
-- [#4979](https://github.com/chakra-ui/chakra-ui/pull/4979)
-  [`d5461a452`](https://github.com/chakra-ui/chakra-ui/commit/d5461a4522aaee47b91a1a432601556e334a71c3)
+- [#4979](https://github.com/incmix-ui/incmix-ui/pull/4979)
+  [`d5461a452`](https://github.com/incmix-ui/incmix-ui/commit/d5461a4522aaee47b91a1a432601556e334a71c3)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - ### Add support
   peer pseudo style props
 
@@ -765,8 +765,8 @@
   Added `_mediaReduceMotion` pseudo props to apply reduce motion styles to
   elements. This is useful when you need to remove CSS animations/transitions.
 
-* [#5307](https://github.com/chakra-ui/chakra-ui/pull/5307)
-  [`213f61026`](https://github.com/chakra-ui/chakra-ui/commit/213f61026766d32f78b78dc2ccb2b2fdc472aab1)
+* [#5307](https://github.com/incmix-ui/incmix-ui/pull/5307)
+  [`213f61026`](https://github.com/incmix-ui/incmix-ui/commit/213f61026766d32f78b78dc2ccb2b2fdc472aab1)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Adds style props
   for CSS scroll behavior properties: `scrollPadding`, `scrollMargin`,
   `scrollSnapAlign`, etc...
@@ -787,8 +787,8 @@
 
 ### Minor Changes
 
-- [#5123](https://github.com/chakra-ui/chakra-ui/pull/5123)
-  [`26d2a547b`](https://github.com/chakra-ui/chakra-ui/commit/26d2a547bca20e197f352c7492e3cad197b513e6)
+- [#5123](https://github.com/incmix-ui/incmix-ui/pull/5123)
+  [`26d2a547b`](https://github.com/incmix-ui/incmix-ui/commit/26d2a547bca20e197f352c7492e3cad197b513e6)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Add support for
   style props `gap`, `columnGap` and `rowGap`. Those CSS properties are valid in
   a grid or flex context
@@ -798,17 +798,17 @@
 
 ### Patch Changes
 
-- [#4970](https://github.com/chakra-ui/chakra-ui/pull/4970)
-  [`73235af10`](https://github.com/chakra-ui/chakra-ui/commit/73235af10d8868786ec58778dda9a42b8d275599)
+- [#4970](https://github.com/incmix-ui/incmix-ui/pull/4970)
+  [`73235af10`](https://github.com/incmix-ui/incmix-ui/commit/73235af10d8868786ec58778dda9a42b8d275599)
   Thanks [@giuseppelt](https://github.com/giuseppelt)! - Fix issue where
   `bgGradient` parser doesn't work when a position is specified
 
-* [`f15099adc`](https://github.com/chakra-ui/chakra-ui/commit/f15099adc60150781607288dbe12133c2fb84e38)
+* [`f15099adc`](https://github.com/incmix-ui/incmix-ui/commit/f15099adc60150781607288dbe12133c2fb84e38)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Fix issue where
   tokens autocomplete don't show up anymore except user runs the cli command.
 
-- [#5192](https://github.com/chakra-ui/chakra-ui/pull/5192)
-  [`a1d5e7bfa`](https://github.com/chakra-ui/chakra-ui/commit/a1d5e7bfae1b4cc749e14eed4977ae423b8bce2c)
+- [#5192](https://github.com/incmix-ui/incmix-ui/pull/5192)
+  [`a1d5e7bfa`](https://github.com/incmix-ui/incmix-ui/commit/a1d5e7bfae1b4cc749e14eed4977ae423b8bce2c)
   Thanks [@selrond](https://github.com/selrond)! - Fixed issue where multi-value
   `inset` property doesn't work.
 
@@ -816,21 +816,21 @@
 
 ### Patch Changes
 
-- [#5075](https://github.com/chakra-ui/chakra-ui/pull/5075)
-  [`b28142946`](https://github.com/chakra-ui/chakra-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)
+- [#5075](https://github.com/incmix-ui/incmix-ui/pull/5075)
+  [`b28142946`](https://github.com/incmix-ui/incmix-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)
   Thanks [@cschroeter](https://github.com/cschroeter)! - Update babel config to
   transpile soruces for older browsers. This fixes issues with CRA and
   Storybook.
 - Updated dependencies
-  [[`b28142946`](https://github.com/chakra-ui/chakra-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)]:
+  [[`b28142946`](https://github.com/incmix-ui/incmix-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)]:
   - @incmix-ui/utils@1.9.1
 
 ## 1.14.0
 
 ### Minor Changes
 
-- [#4991](https://github.com/chakra-ui/chakra-ui/pull/4991)
-  [`6095eaf9a`](https://github.com/chakra-ui/chakra-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)
+- [#4991](https://github.com/incmix-ui/incmix-ui/pull/4991)
+  [`6095eaf9a`](https://github.com/incmix-ui/incmix-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Update build system
   we use from a custom babel cli setup to
   [preconstruct](https://preconstruct.tools/).
@@ -862,22 +862,22 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`6095eaf9a`](https://github.com/chakra-ui/chakra-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)]:
+  [[`6095eaf9a`](https://github.com/incmix-ui/incmix-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)]:
   - @incmix-ui/utils@1.9.0
 
 ## 1.13.0
 
 ### Minor Changes
 
-- [`38b5bc627`](https://github.com/chakra-ui/chakra-ui/commit/38b5bc627c98fed4b7a55c45820785a4905c081e)
-  [#4939](https://github.com/chakra-ui/chakra-ui/pull/4939) Thanks
+- [`38b5bc627`](https://github.com/incmix-ui/incmix-ui/commit/38b5bc627c98fed4b7a55c45820785a4905c081e)
+  [#4939](https://github.com/incmix-ui/incmix-ui/pull/4939) Thanks
   [@bohdan-sviripa](https://github.com/bohdan-sviripa)! - Added
   \_groupFocusVisible style prop
 
 ### Patch Changes
 
 - Updated dependencies
-  [[`cd0893c56`](https://github.com/chakra-ui/chakra-ui/commit/cd0893c561d8c72b69db7c03d10adae752468a4f)]:
+  [[`cd0893c56`](https://github.com/incmix-ui/incmix-ui/commit/cd0893c561d8c72b69db7c03d10adae752468a4f)]:
   - @incmix-ui/utils@1.8.4
 
 ## 1.12.3
@@ -885,16 +885,16 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`c06d242c6`](https://github.com/chakra-ui/chakra-ui/commit/c06d242c672a10f93fab4dc2321143beae2db669),
-  [`5b4d8ef24`](https://github.com/chakra-ui/chakra-ui/commit/5b4d8ef24017dab1d69aeb5016b53366bdb3bcfd)]:
+  [[`c06d242c6`](https://github.com/incmix-ui/incmix-ui/commit/c06d242c672a10f93fab4dc2321143beae2db669),
+  [`5b4d8ef24`](https://github.com/incmix-ui/incmix-ui/commit/5b4d8ef24017dab1d69aeb5016b53366bdb3bcfd)]:
   - @incmix-ui/utils@1.8.3
 
 ## 1.12.2
 
 ### Patch Changes
 
-- [`1d4b1f874`](https://github.com/chakra-ui/chakra-ui/commit/1d4b1f87498c2d843cd21c24e86085d812a1de07)
-  [#4460](https://github.com/chakra-ui/chakra-ui/pull/4460) Thanks
+- [`1d4b1f874`](https://github.com/incmix-ui/incmix-ui/commit/1d4b1f87498c2d843cd21c24e86085d812a1de07)
+  [#4460](https://github.com/incmix-ui/incmix-ui/pull/4460) Thanks
   [@primos63](https://github.com/primos63)! - Corrected parseGradient function
   so that it checks for CSS functions.
 
@@ -905,7 +905,7 @@
 
   ```jsx
   <Heading bgGradient="linear(to-r, green.200, pink.500 calc(20px + 20px))">
-    Chakra-UI: Create accessible React apps with speed
+    incmix-ui: Create accessible React apps with speed
   </Heading>
   ```
 
@@ -918,17 +918,17 @@
       var(--chakra-colors-green-200)),
       var(--chakra-colors-pink-500 calc(20px + 20px))"
   >
-    Chakra-UI: Create accessible React apps with speed
+    incmix-ui: Create accessible React apps with speed
   </Heading>
   ```
 
-* [`270b71ebb`](https://github.com/chakra-ui/chakra-ui/commit/270b71ebbb2bd9007d2e138e432675991d94f18d)
-  [#4368](https://github.com/chakra-ui/chakra-ui/pull/4368) Thanks
+* [`270b71ebb`](https://github.com/incmix-ui/incmix-ui/commit/270b71ebbb2bd9007d2e138e432675991d94f18d)
+  [#4368](https://github.com/incmix-ui/incmix-ui/pull/4368) Thanks
   [@avendiart](https://github.com/avendiart)! - Grid props type definitions now
   correclty reflect the implemented behavior in regard to tokens.
 * Updated dependencies
-  [[`4c1071969`](https://github.com/chakra-ui/chakra-ui/commit/4c1071969a9b41a952b374f9990ac0bb89d24fa0),
-  [`43f66097b`](https://github.com/chakra-ui/chakra-ui/commit/43f66097b39f1c37a4627dd6ca8a85555f35b95c)]:
+  [[`4c1071969`](https://github.com/incmix-ui/incmix-ui/commit/4c1071969a9b41a952b374f9990ac0bb89d24fa0),
+  [`43f66097b`](https://github.com/incmix-ui/incmix-ui/commit/43f66097b39f1c37a4627dd6ca8a85555f35b95c)]:
   - @incmix-ui/utils@1.8.2
 
 ## 1.12.1
@@ -936,14 +936,14 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`4a1e4d93b`](https://github.com/chakra-ui/chakra-ui/commit/4a1e4d93b0a07df7266d40bb66039385b158d3d1)]:
+  [[`4a1e4d93b`](https://github.com/incmix-ui/incmix-ui/commit/4a1e4d93b0a07df7266d40bb66039385b158d3d1)]:
   - @incmix-ui/utils@1.8.1
 
 ## 1.12.0
 
 ### Minor Changes
 
-- [`ebda07095`](https://github.com/chakra-ui/chakra-ui/commit/ebda07095bffd9b3135c5d19803a3a08397b78ef)
+- [`ebda07095`](https://github.com/incmix-ui/incmix-ui/commit/ebda07095bffd9b3135c5d19803a3a08397b78ef)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Added the
   `_activeStep` pseudoselector which is applied when `aria-current="step"`.
   [See the `wai-aria` documentation](https://www.w3.org/TR/wai-aria-1.2/#aria-current)
@@ -953,8 +953,8 @@
 
 ### Patch Changes
 
-- [`d9d66a9e8`](https://github.com/chakra-ui/chakra-ui/commit/d9d66a9e876f076ffd1c8bb531fd03e9074d325f)
-  [#4048](https://github.com/chakra-ui/chakra-ui/pull/4048) Thanks
+- [`d9d66a9e8`](https://github.com/incmix-ui/incmix-ui/commit/d9d66a9e876f076ffd1c8bb531fd03e9074d325f)
+  [#4048](https://github.com/incmix-ui/incmix-ui/pull/4048) Thanks
   [@mcha-dev](https://github.com/mcha-dev)! - fixed boolean condition affecting
   bgImage url
 
@@ -962,8 +962,8 @@
 
 ### Minor Changes
 
-- [`773497896`](https://github.com/chakra-ui/chakra-ui/commit/773497896e65ffbbda10e75b6e0a7bb5b68c853a)
-  [#3997](https://github.com/chakra-ui/chakra-ui/pull/3997) Thanks
+- [`773497896`](https://github.com/incmix-ui/incmix-ui/commit/773497896e65ffbbda10e75b6e0a7bb5b68c853a)
+  [#3997](https://github.com/incmix-ui/incmix-ui/pull/3997) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - **Ring styles**
 
   Added ring style props to make it easier to style an element's focus ring
@@ -1044,10 +1044,10 @@
   [Learn more](https://sarahmhigley.com/writing/whcm-quick-tips/)
 
   - Fix the `_dark` pseudo props to map to
-    `.chakra-ui-dark &, [data-theme=dark] &, &[data-theme=dark]`.
+    `.incmix-ui-dark &, [data-theme=dark] &, &[data-theme=dark]`.
 
   - Added `_light` pseudo props to map to
-    `.chakra-ui-light &, [data-theme=light] &, &[data-theme=light]` for users
+    `.incmix-ui-light &, [data-theme=light] &, &[data-theme=light]` for users
     that prefer to start with dark mode.
 
   - Added `overscroll`, `overscrollX`, and `overscrollY` style prop to manage
@@ -1057,15 +1057,15 @@
 
 ### Patch Changes
 
-- [`07d15eab4`](https://github.com/chakra-ui/chakra-ui/commit/07d15eab480724f8fee1a09b7cecdf1e968d9ddd)
-  [#3850](https://github.com/chakra-ui/chakra-ui/pull/3850) Thanks
+- [`07d15eab4`](https://github.com/incmix-ui/incmix-ui/commit/07d15eab480724f8fee1a09b7cecdf1e968d9ddd)
+  [#3850](https://github.com/incmix-ui/incmix-ui/pull/3850) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Refactored the creation of
   the theme css vars
 
 - Updated dependencies
-  [[`d0f50a46e`](https://github.com/chakra-ui/chakra-ui/commit/d0f50a46ea6c2bcf06d8cad8b9b3994fd934be01),
-  [`b479ff22e`](https://github.com/chakra-ui/chakra-ui/commit/b479ff22ea10c1a1393224c37c36aa6ceabc4aab),
-  [`07d15eab4`](https://github.com/chakra-ui/chakra-ui/commit/07d15eab480724f8fee1a09b7cecdf1e968d9ddd)]:
+  [[`d0f50a46e`](https://github.com/incmix-ui/incmix-ui/commit/d0f50a46ea6c2bcf06d8cad8b9b3994fd934be01),
+  [`b479ff22e`](https://github.com/incmix-ui/incmix-ui/commit/b479ff22ea10c1a1393224c37c36aa6ceabc4aab),
+  [`07d15eab4`](https://github.com/incmix-ui/incmix-ui/commit/07d15eab480724f8fee1a09b7cecdf1e968d9ddd)]:
   - @incmix-ui/utils@1.8.0
 
 ## 1.10.4
@@ -1073,21 +1073,21 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`e9ac4cc76`](https://github.com/chakra-ui/chakra-ui/commit/e9ac4cc7629cd79efc753b4e3353bacdad46cd7d)]:
+  [[`e9ac4cc76`](https://github.com/incmix-ui/incmix-ui/commit/e9ac4cc7629cd79efc753b4e3353bacdad46cd7d)]:
   - @incmix-ui/utils@1.7.0
 
 ## 1.10.3
 
 ### Patch Changes
 
-- [`a11810f70`](https://github.com/chakra-ui/chakra-ui/commit/a11810f705f0731f5ddc967a59b6899dfe8d5050)
-  [#3851](https://github.com/chakra-ui/chakra-ui/pull/3851) Thanks
+- [`a11810f70`](https://github.com/incmix-ui/incmix-ui/commit/a11810f705f0731f5ddc967a59b6899dfe8d5050)
+  [#3851](https://github.com/incmix-ui/incmix-ui/pull/3851) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Fixed an issue where the
   transition props are not resolved correctly
 
 - Updated dependencies
-  [[`0974e547c`](https://github.com/chakra-ui/chakra-ui/commit/0974e547c29e4efc1ba4d1eb1507d0dad7d7a77a),
-  [`59ea894a7`](https://github.com/chakra-ui/chakra-ui/commit/59ea894a7e03d16cd7a1b89d00816eafa9fab65d)]:
+  [[`0974e547c`](https://github.com/incmix-ui/incmix-ui/commit/0974e547c29e4efc1ba4d1eb1507d0dad7d7a77a),
+  [`59ea894a7`](https://github.com/incmix-ui/incmix-ui/commit/59ea894a7e03d16cd7a1b89d00816eafa9fab65d)]:
   - @incmix-ui/utils@1.6.0
 
 ## 1.10.2
@@ -1095,7 +1095,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`8b5eb9654`](https://github.com/chakra-ui/chakra-ui/commit/8b5eb9654affe562795d38a19f732f84732a949d)]:
+  [[`8b5eb9654`](https://github.com/incmix-ui/incmix-ui/commit/8b5eb9654affe562795d38a19f732f84732a949d)]:
   - @incmix-ui/utils@1.5.2
 
 ## 1.10.1
@@ -1103,16 +1103,16 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`1a04a41bd`](https://github.com/chakra-ui/chakra-ui/commit/1a04a41bd2285069011a738fff422ba1a6fcce94),
-  [`e481ba491`](https://github.com/chakra-ui/chakra-ui/commit/e481ba4914a7f163d93d4c22e2e457f1afb08721)]:
+  [[`1a04a41bd`](https://github.com/incmix-ui/incmix-ui/commit/1a04a41bd2285069011a738fff422ba1a6fcce94),
+  [`e481ba491`](https://github.com/incmix-ui/incmix-ui/commit/e481ba4914a7f163d93d4c22e2e457f1afb08721)]:
   - @incmix-ui/utils@1.5.1
 
 ## 1.10.0
 
 ### Minor Changes
 
-- [`32e79f835`](https://github.com/chakra-ui/chakra-ui/commit/32e79f83545740e1df73e7ce689e4101646bb57d)
-  [#3648](https://github.com/chakra-ui/chakra-ui/pull/3648) Thanks
+- [`32e79f835`](https://github.com/incmix-ui/incmix-ui/commit/32e79f83545740e1df73e7ce689e4101646bb57d)
+  [#3648](https://github.com/incmix-ui/incmix-ui/pull/3648) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - Add support for css
   variable tokens. This means you can create a css variable and reference value
   in the tokens.
@@ -1162,15 +1162,15 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`a58b724e9`](https://github.com/chakra-ui/chakra-ui/commit/a58b724e9c8656044f866b658f378662f2a44b46),
-  [`b724a9dd9`](https://github.com/chakra-ui/chakra-ui/commit/b724a9dd9429d02c0b2c7f7deac66d3553100bdc)]:
+  [[`a58b724e9`](https://github.com/incmix-ui/incmix-ui/commit/a58b724e9c8656044f866b658f378662f2a44b46),
+  [`b724a9dd9`](https://github.com/incmix-ui/incmix-ui/commit/b724a9dd9429d02c0b2c7f7deac66d3553100bdc)]:
   - @incmix-ui/utils@1.5.0
 
 ## 1.9.1
 
 ### Patch Changes
 
-- [`a576f4de8`](https://github.com/chakra-ui/chakra-ui/commit/a576f4de850706ea7088c8a6ea687269cad05e69)
+- [`a576f4de8`](https://github.com/incmix-ui/incmix-ui/commit/a576f4de850706ea7088c8a6ea687269cad05e69)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Fix: avoid mutation
   for `getWithPriority` to get `textStyle` and `layerStyle` working
   consistently.
@@ -1179,39 +1179,39 @@
 
 ### Minor Changes
 
-- [`035d5726e`](https://github.com/chakra-ui/chakra-ui/commit/035d5726e28396ef487b9801d7e2fa57677c703c)
-  [#3529](https://github.com/chakra-ui/chakra-ui/pull/3529) Thanks
+- [`035d5726e`](https://github.com/incmix-ui/incmix-ui/commit/035d5726e28396ef487b9801d7e2fa57677c703c)
+  [#3529](https://github.com/incmix-ui/incmix-ui/pull/3529) Thanks
   [@callum-mellorreed-privitar](https://github.com/callum-mellorreed-privitar)! -
   Add support for `textStyle` and `layerStyle` theme type generation to
   `@incmix-ui/cli`
 
 ### Patch Changes
 
-- [`c3dcaabbc`](https://github.com/chakra-ui/chakra-ui/commit/c3dcaabbcf52ab9805a622f4e9833ad26cad9318)
-  [#3615](https://github.com/chakra-ui/chakra-ui/pull/3615) Thanks
+- [`c3dcaabbc`](https://github.com/incmix-ui/incmix-ui/commit/c3dcaabbcf52ab9805a622f4e9833ad26cad9318)
+  [#3615](https://github.com/incmix-ui/incmix-ui/pull/3615) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - Fix: issue where
   responsive styles defined in textstyles not overriden wiht props.
 
   Fix: issue where `toCSSVars` omitted the transition tokens
 
-* [`96139067d`](https://github.com/chakra-ui/chakra-ui/commit/96139067daa4b9a606b60c73f28a88ccd99d983b)
-  [#3551](https://github.com/chakra-ui/chakra-ui/pull/3551) Thanks
+* [`96139067d`](https://github.com/incmix-ui/incmix-ui/commit/96139067daa4b9a606b60c73f28a88ccd99d983b)
+  [#3551](https://github.com/incmix-ui/incmix-ui/pull/3551) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - - Fix: issue where RTL
   property keys are incorrect due to `config.property` mutation.
   - Fix: change `mx` and `px` to use logical properties. Instead of mapping to
     `marginLeft` and `marginRight`, it maps to `marginInlineStart` and
     `marginInlineEnd`. Same for `px`
 * Updated dependencies
-  [[`e748219f3`](https://github.com/chakra-ui/chakra-ui/commit/e748219f300f0c51b0eb304fce38b014d7bcbc86),
-  [`91ef14839`](https://github.com/chakra-ui/chakra-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b)]:
+  [[`e748219f3`](https://github.com/incmix-ui/incmix-ui/commit/e748219f300f0c51b0eb304fce38b014d7bcbc86),
+  [`91ef14839`](https://github.com/incmix-ui/incmix-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b)]:
   - @incmix-ui/utils@1.4.0
 
 ## 1.8.0
 
 ### Minor Changes
 
-- [`53408372e`](https://github.com/chakra-ui/chakra-ui/commit/53408372ef6926840815a03f2ac5269e3a4757f2)
-  [#3463](https://github.com/chakra-ui/chakra-ui/pull/3463) Thanks
+- [`53408372e`](https://github.com/incmix-ui/incmix-ui/commit/53408372ef6926840815a03f2ac5269e3a4757f2)
+  [#3463](https://github.com/incmix-ui/incmix-ui/pull/3463) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - - Add support for CSS
   Variables to the core of Chakra
   - Improve style computation performance by 2.5x
@@ -1219,20 +1219,20 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`87cc23e14`](https://github.com/chakra-ui/chakra-ui/commit/87cc23e14814e02cbbfc9737c2356cef682ddd5d)]:
+  [[`87cc23e14`](https://github.com/incmix-ui/incmix-ui/commit/87cc23e14814e02cbbfc9737c2356cef682ddd5d)]:
   - @incmix-ui/utils@1.3.0
 
 ## 1.7.1
 
 ### Patch Changes
 
-- [`e8113d3ca`](https://github.com/chakra-ui/chakra-ui/commit/e8113d3ca66e9d45ac2dbb7109ff8904cbfd1134)
-  [#3340](https://github.com/chakra-ui/chakra-ui/pull/3340) Thanks
+- [`e8113d3ca`](https://github.com/incmix-ui/incmix-ui/commit/e8113d3ca66e9d45ac2dbb7109ff8904cbfd1134)
+  [#3340](https://github.com/incmix-ui/incmix-ui/pull/3340) Thanks
   [@MohamedSayed008](https://github.com/MohamedSayed008)! - Export `Recursive*`
   types from theme, styled-system
 
-* [`4943a15c0`](https://github.com/chakra-ui/chakra-ui/commit/4943a15c084fd2e66ab0dbf273233630d006dc5a)
-  [#3306](https://github.com/chakra-ui/chakra-ui/pull/3306) Thanks
+* [`4943a15c0`](https://github.com/incmix-ui/incmix-ui/commit/4943a15c084fd2e66ab0dbf273233630d006dc5a)
+  [#3306](https://github.com/incmix-ui/incmix-ui/pull/3306) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Fixed an issue where
   TypeScript did not allow custom breakpoint names in ResponsiveObject
 
@@ -1240,13 +1240,13 @@
 
 ### Minor Changes
 
-- [`a97e42568`](https://github.com/chakra-ui/chakra-ui/commit/a97e42568c4470d6cd1e16b48429af93c52def49)
-  [#3290](https://github.com/chakra-ui/chakra-ui/pull/3290) Thanks
+- [`a97e42568`](https://github.com/incmix-ui/incmix-ui/commit/a97e42568c4470d6cd1e16b48429af93c52def49)
+  [#3290](https://github.com/incmix-ui/incmix-ui/pull/3290) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Theme Typings: Add
   autocomplete for negative space values
 
-* [`ff4a36bca`](https://github.com/chakra-ui/chakra-ui/commit/ff4a36bca11cc177830f6f1da13700acd1e3a087)
-  [#3245](https://github.com/chakra-ui/chakra-ui/pull/3245) Thanks
+* [`ff4a36bca`](https://github.com/incmix-ui/incmix-ui/commit/ff4a36bca11cc177830f6f1da13700acd1e3a087)
+  [#3245](https://github.com/incmix-ui/incmix-ui/pull/3245) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - - Add support for
   `textStyle` and `layerStyle` in styled-system package. This makes it possible
   to use them in the component theme, `css` function, and `sx` prop as well.
@@ -1274,13 +1274,13 @@
 
 ### Patch Changes
 
-- [`ef34c10a0`](https://github.com/chakra-ui/chakra-ui/commit/ef34c10a0c3cfda6bafcca4aa287dfb82f130aeb)
-  [#3253](https://github.com/chakra-ui/chakra-ui/pull/3253) Thanks
+- [`ef34c10a0`](https://github.com/incmix-ui/incmix-ui/commit/ef34c10a0c3cfda6bafcca4aa287dfb82f130aeb)
+  [#3253](https://github.com/incmix-ui/incmix-ui/pull/3253) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Allow numbers for
   `borderTop` and provide autocomplete for `fontWeight` prop
 
-* [`408aaaace`](https://github.com/chakra-ui/chakra-ui/commit/408aaaace0dd413b61354958a4c30b9f2f8aa376)
-  [#3227](https://github.com/chakra-ui/chakra-ui/pull/3227) Thanks
+* [`408aaaace`](https://github.com/incmix-ui/incmix-ui/commit/408aaaace0dd413b61354958a4c30b9f2f8aa376)
+  [#3227](https://github.com/incmix-ui/incmix-ui/pull/3227) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Introducing a generic
   TypeScript type `ChakraTheme` to improve the `extendTheme` function even
   further.
@@ -1312,23 +1312,23 @@
   }
   ```
 
-- [`61962345c`](https://github.com/chakra-ui/chakra-ui/commit/61962345c5b1c862445c16c586e304b28c376c9a)
-  [#3291](https://github.com/chakra-ui/chakra-ui/pull/3291) Thanks
+- [`61962345c`](https://github.com/incmix-ui/incmix-ui/commit/61962345c5b1c862445c16c586e304b28c376c9a)
+  [#3291](https://github.com/incmix-ui/incmix-ui/pull/3291) Thanks
   [@dominictwlee](https://github.com/dominictwlee)! - Support negative scale
   values for css variables.
 
 - Updated dependencies
-  [[`ff4a36bca`](https://github.com/chakra-ui/chakra-ui/commit/ff4a36bca11cc177830f6f1da13700acd1e3a087),
-  [`483687237`](https://github.com/chakra-ui/chakra-ui/commit/483687237f2c4fed05dc6a79693f307c601c1285),
-  [`61962345c`](https://github.com/chakra-ui/chakra-ui/commit/61962345c5b1c862445c16c586e304b28c376c9a)]:
+  [[`ff4a36bca`](https://github.com/incmix-ui/incmix-ui/commit/ff4a36bca11cc177830f6f1da13700acd1e3a087),
+  [`483687237`](https://github.com/incmix-ui/incmix-ui/commit/483687237f2c4fed05dc6a79693f307c601c1285),
+  [`61962345c`](https://github.com/incmix-ui/incmix-ui/commit/61962345c5b1c862445c16c586e304b28c376c9a)]:
   - @incmix-ui/utils@1.2.0
 
 ## 1.6.0
 
 ### Minor Changes
 
-- [`90c7a4fbf`](https://github.com/chakra-ui/chakra-ui/commit/90c7a4fbfde69c01395ffe2876d7348dd72ea65a)
-  [#3092](https://github.com/chakra-ui/chakra-ui/pull/3092) Thanks
+- [`90c7a4fbf`](https://github.com/incmix-ui/incmix-ui/commit/90c7a4fbfde69c01395ffe2876d7348dd72ea65a)
+  [#3092](https://github.com/incmix-ui/incmix-ui/pull/3092) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - - Improved theme typing in
   order to provide a better autocomplete experience
   - Fixed a type issue where pseudo style props like `_hover` and `_active`
@@ -1336,8 +1336,8 @@
 
 ### Patch Changes
 
-- [`e434aed4a`](https://github.com/chakra-ui/chakra-ui/commit/e434aed4a7d769d0c6e98e048b2100f0efed277a)
-  [#3214](https://github.com/chakra-ui/chakra-ui/pull/3214) Thanks
+- [`e434aed4a`](https://github.com/incmix-ui/incmix-ui/commit/e434aed4a7d769d0c6e98e048b2100f0efed277a)
+  [#3214](https://github.com/incmix-ui/incmix-ui/pull/3214) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Fix issue where CSS color
   names are not passed correctly.
 
@@ -1349,8 +1349,8 @@
 
 ### Minor Changes
 
-- [`d9ec9f49`](https://github.com/chakra-ui/chakra-ui/commit/d9ec9f496bfe2f81ffb84adbed099581d5f6843e)
-  [#3049](https://github.com/chakra-ui/chakra-ui/pull/3049) Thanks
+- [`d9ec9f49`](https://github.com/incmix-ui/incmix-ui/commit/d9ec9f496bfe2f81ffb84adbed099581d5f6843e)
+  [#3049](https://github.com/incmix-ui/incmix-ui/pull/3049) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - Move `srOnly` prop to
   styled system props. This will deprecate the need for the visually hidden
   package. Less is more!
@@ -1363,7 +1363,7 @@
   <Box srOnly _active={{ srOnly: "focusable" }}>Visually hidden but shown on focus</Box>
   ```
 
-* [`26ca4cc5`](https://github.com/chakra-ui/chakra-ui/commit/26ca4cc53b8cc0ca696f2130f832965f7dc0ee53)
+* [`26ca4cc5`](https://github.com/incmix-ui/incmix-ui/commit/26ca4cc53b8cc0ca696f2130f832965f7dc0ee53)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - - Add polyfill for
   `inset` style prop as the CSS `inset` doesn't work in Safari
   - Add missing style props for grid and flex layouts: `gridTemplate`,
@@ -1374,14 +1374,14 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`8b87406c`](https://github.com/chakra-ui/chakra-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54)]:
+  [[`8b87406c`](https://github.com/incmix-ui/incmix-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54)]:
   - @incmix-ui/utils@1.1.0
 
 ## 1.4.0
 
 ### Minor Changes
 
-- [`ff7c3676`](https://github.com/chakra-ui/chakra-ui/commit/ff7c36764650dc7f01957c417eae1ec8ce356495)
+- [`ff7c3676`](https://github.com/incmix-ui/incmix-ui/commit/ff7c36764650dc7f01957c417eae1ec8ce356495)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Add support for css
   media query and dark class selectors.
 
@@ -1413,7 +1413,7 @@
 
 ### Patch Changes
 
-- [`6830c0e3`](https://github.com/chakra-ui/chakra-ui/commit/6830c0e36959ebd76ce1991dd89d7303ce33b0d0)
+- [`6830c0e3`](https://github.com/incmix-ui/incmix-ui/commit/6830c0e36959ebd76ce1991dd89d7303ce33b0d0)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - - Due to Safari not
   support css logical properties for `right`, and `left`, I added polyfill for
   this css logical properties.
@@ -1423,8 +1423,8 @@
   - Added a `directionality` helper function to encapsulate all logic for
     ltr-rtl value or style flipping.
 
-* [`09f028e4`](https://github.com/chakra-ui/chakra-ui/commit/09f028e4f2539d51b1c9ac7f3aec422ee6848fa3)
-  [#2985](https://github.com/chakra-ui/chakra-ui/pull/2985) Thanks
+* [`09f028e4`](https://github.com/incmix-ui/incmix-ui/commit/09f028e4f2539d51b1c9ac7f3aec422ee6848fa3)
+  [#2985](https://github.com/incmix-ui/incmix-ui/pull/2985) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Fixed a bug where rgb
   values in bgGradient did not work correctly
 
@@ -1432,8 +1432,8 @@
 
 ### Patch Changes
 
-- [`5cef5de4`](https://github.com/chakra-ui/chakra-ui/commit/5cef5de4f45cd58f7a29436335543cb5b40c0d70)
-  [#2918](https://github.com/chakra-ui/chakra-ui/pull/2918) Thanks
+- [`5cef5de4`](https://github.com/incmix-ui/incmix-ui/commit/5cef5de4f45cd58f7a29436335543cb5b40c0d70)
+  [#2918](https://github.com/incmix-ui/incmix-ui/pull/2918) Thanks
   [@MohamedSayed008](https://github.com/MohamedSayed008)! - ## Button
 
   - Update the style props applied for `leftIcon` and `rightIcon` to support
@@ -1469,8 +1469,8 @@
 
 ### Minor Changes
 
-- [`a0e0bd9a`](https://github.com/chakra-ui/chakra-ui/commit/a0e0bd9a5d45fe08887f8df8d3eccc84951578df)
-  [#2816](https://github.com/chakra-ui/chakra-ui/pull/2816) Thanks
+- [`a0e0bd9a`](https://github.com/incmix-ui/incmix-ui/commit/a0e0bd9a5d45fe08887f8df8d3eccc84951578df)
+  [#2816](https://github.com/incmix-ui/incmix-ui/pull/2816) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - Add gradient support to
   chakra style props. This PR adds to props:
 
@@ -1537,7 +1537,7 @@
   </Text>
   ```
 
-* [`4fa07745`](https://github.com/chakra-ui/chakra-ui/commit/4fa077453a5c2165b695198c57366f3cc6506c37)
+* [`4fa07745`](https://github.com/incmix-ui/incmix-ui/commit/4fa077453a5c2165b695198c57366f3cc6506c37)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - ## Improve
   performance
 
@@ -1586,7 +1586,7 @@
 
 ### Minor Changes
 
-- [`609ac595`](https://github.com/chakra-ui/chakra-ui/commit/609ac595568799c9f2c38ccbc9ef44fdc7393baa)
+- [`609ac595`](https://github.com/incmix-ui/incmix-ui/commit/609ac595568799c9f2c38ccbc9ef44fdc7393baa)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - ## 📝 Description
 
   Adds support for CSS logical properties and `direction` in the theme for
@@ -1638,15 +1638,15 @@
 ### Patch Changes
 
 - Updated dependencies
-  [[`e73878ee`](https://github.com/chakra-ui/chakra-ui/commit/e73878ee686c11d3f94ad6ac61b19ae9508d75a5)]:
+  [[`e73878ee`](https://github.com/incmix-ui/incmix-ui/commit/e73878ee686c11d3f94ad6ac61b19ae9508d75a5)]:
   - @incmix-ui/utils@1.0.2
 
 ## 1.1.1
 
 ### Patch Changes
 
-- [`127baa0f`](https://github.com/chakra-ui/chakra-ui/commit/127baa0f1926bf1f8ace6f46cfdc08606fe9d347)
-  [#2702](https://github.com/chakra-ui/chakra-ui/pull/2702) Thanks
+- [`127baa0f`](https://github.com/incmix-ui/incmix-ui/commit/127baa0f1926bf1f8ace6f46cfdc08606fe9d347)
+  [#2702](https://github.com/incmix-ui/incmix-ui/pull/2702) Thanks
   [@terryyu](https://github.com/terryyu)! - fix style prop of shortcut
   definition, closes #2700
 
@@ -1654,15 +1654,15 @@
 
 ### Minor Changes
 
-- [`586ce3c1`](https://github.com/chakra-ui/chakra-ui/commit/586ce3c12bb3508027c36811233c539eeeb55256)
-  [#2504](https://github.com/chakra-ui/chakra-ui/pull/2504) Thanks
+- [`586ce3c1`](https://github.com/incmix-ui/incmix-ui/commit/586ce3c12bb3508027c36811233c539eeeb55256)
+  [#2504](https://github.com/incmix-ui/incmix-ui/pull/2504) Thanks
   [@Zaynex](https://github.com/Zaynex)! - - Add `filter` to styled props
   - This makes `filter` prop available to `_groupHover` utility as well
 
 ### Patch Changes
 
 - Updated dependencies
-  [[`5c482483`](https://github.com/chakra-ui/chakra-ui/commit/5c482483ce24fc798540c9792a15e06772eae213)]:
+  [[`5c482483`](https://github.com/incmix-ui/incmix-ui/commit/5c482483ce24fc798540c9792a15e06772eae213)]:
   - @incmix-ui/utils@1.0.1
 
 All notable changes to this project will be documented in this file. See
@@ -1682,8 +1682,8 @@ All notable changes to this project will be documented in this file. See
 ### Bug Fixes
 
 - **toast:** allow custom render in update
-  ([eb8bff9](https://github.com/chakra-ui/chakra-ui/commit/eb8bff911e6ec9de0165ab1e8f5ca10d5e022459)),
-  closes [#2362](https://github.com/chakra-ui/chakra-ui/issues/2362)
+  ([eb8bff9](https://github.com/incmix-ui/incmix-ui/commit/eb8bff911e6ec9de0165ab1e8f5ca10d5e022459)),
+  closes [#2362](https://github.com/incmix-ui/incmix-ui/issues/2362)
 
 # Change Log
 
@@ -1724,21 +1724,21 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.1](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/styled-system@1.0.0-rc.0...@incmix-ui/styled-system@1.0.0-rc.1) (2020-08-06)
+# [1.0.0-rc.1](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/styled-system@1.0.0-rc.0...@incmix-ui/styled-system@1.0.0-rc.1) (2020-08-06)
 
 ### Bug Fixes
 
 - types issue with styled system
-  ([470e14c](https://github.com/chakra-ui/chakra-ui/commit/470e14c3159898b43a54237091cf8ee707ed65a5))
+  ([470e14c](https://github.com/incmix-ui/incmix-ui/commit/470e14c3159898b43a54237091cf8ee707ed65a5))
 - **types:** resolve type export from styled-system pkg
-  ([0d3bd36](https://github.com/chakra-ui/chakra-ui/commit/0d3bd36d9c0dc6d94010625b49c501847ca2e165))
+  ([0d3bd36](https://github.com/incmix-ui/incmix-ui/commit/0d3bd36d9c0dc6d94010625b49c501847ca2e165))
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.0](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/styled-system@1.0.0-next.7...@incmix-ui/styled-system@1.0.0-rc.0) (2020-07-26)
+# [1.0.0-rc.0](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/styled-system@1.0.0-next.7...@incmix-ui/styled-system@1.0.0-rc.0) (2020-07-26)
 
 **Note:** Version bump only for package @incmix-ui/styled-system
 
@@ -1747,26 +1747,26 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.7](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/styled-system@1.0.0-next.6...@incmix-ui/styled-system@1.0.0-next.7) (2020-07-26)
+# [1.0.0-next.7](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/styled-system@1.0.0-next.6...@incmix-ui/styled-system@1.0.0-next.7) (2020-07-26)
 
 ### Bug Fixes
 
 - types issue with styled system core
-  ([fc8b8d8](https://github.com/chakra-ui/chakra-ui/commit/fc8b8d8c0daba140da959303df59230304d34f8a))
+  ([fc8b8d8](https://github.com/incmix-ui/incmix-ui/commit/fc8b8d8c0daba140da959303df59230304d34f8a))
 - undefined issue in styled utilies
-  ([42502d1](https://github.com/chakra-ui/chakra-ui/commit/42502d1f689f34fe672893104dc85d378e08a55a))
+  ([42502d1](https://github.com/incmix-ui/incmix-ui/commit/42502d1f689f34fe672893104dc85d378e08a55a))
 
 ### Reverts
 
 - breakpoint handling
-  ([f3ee5f1](https://github.com/chakra-ui/chakra-ui/commit/f3ee5f15c48da242c4d4d43de0dc67ff7664c81e))
+  ([f3ee5f1](https://github.com/incmix-ui/incmix-ui/commit/f3ee5f15c48da242c4d4d43de0dc67ff7664c81e))
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.6](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/styled-system@1.0.0-next.5...@incmix-ui/styled-system@1.0.0-next.6) (2020-07-15)
+# [1.0.0-next.6](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/styled-system@1.0.0-next.5...@incmix-ui/styled-system@1.0.0-next.6) (2020-07-15)
 
 **Note:** Version bump only for package @incmix-ui/styled-system
 
@@ -1780,8 +1780,8 @@ All notable changes to this project will be documented in this file. See
 ### Features
 
 - add support for css transition
-  ([a41614c](https://github.com/chakra-ui/chakra-ui/commit/a41614c8e9757e5d38ddef6a356d2d8c718f406f))
+  ([a41614c](https://github.com/incmix-ui/incmix-ui/commit/a41614c8e9757e5d38ddef6a356d2d8c718f406f))
 - add transition tokens
-  ([40c8b30](https://github.com/chakra-ui/chakra-ui/commit/40c8b30f0f0219a1ed673db97c4032e721f38e53))
+  ([40c8b30](https://github.com/incmix-ui/incmix-ui/commit/40c8b30f0f0219a1ed673db97c4032e721f38e53))
 - add transition tokens
-  ([5e190fa](https://github.com/chakra-ui/chakra-ui/commit/5e190fa70b41f6e0e063d3d68f0dd32adff754eb))
+  ([5e190fa](https://github.com/incmix-ui/incmix-ui/commit/5e190fa70b41f6e0e063d3d68f0dd32adff754eb))

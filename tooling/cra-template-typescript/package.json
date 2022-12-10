@@ -4,7 +4,7 @@
   "main": "template.json",
   "keywords": [
     "chakra",
-    "chakra-ui",
+    "incmix-ui",
     "Chakra UI",
     "react",
     "create-react-app",
@@ -17,7 +17,7 @@
   "description": "The official Chakra+TypeScript template for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chakra-ui/chakra-ui.git",
+    "url": "https://github.com/incmix-ui/incmix-ui.git",
     "directory": "tooling/cra-template-typescript"
   },
   "license": "MIT",
@@ -25,7 +25,7 @@
     "node": ">=10"
   },
   "bugs": {
-    "url": "https://github.com/chakra-ui/chakra-ui/issues"
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "files": [
     "template",

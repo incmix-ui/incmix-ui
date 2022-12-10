@@ -31,7 +31,7 @@ const IndexPage = ({ cookies }: IndexProps) => (
               <Link
                 color="teal.500"
                 fontSize="2xl"
-                href="https://chakra-ui.com"
+                href="https://incmix-ui.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

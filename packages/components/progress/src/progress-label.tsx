@@ -6,7 +6,7 @@ export interface ProgressLabelProps extends HTMLChakraProps<"div"> {}
 
 /**
  * ProgressLabel is used to show the numeric value of the progress.
- * @see Docs https://chakra-ui.com/progress
+ * @see Docs https://incmix-ui.com/progress
  */
 export const ProgressLabel: React.FC<ProgressLabelProps> = (props) => {
   const styles = useProgressStyles()

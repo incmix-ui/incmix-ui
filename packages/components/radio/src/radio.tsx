@@ -37,7 +37,7 @@ export interface RadioProps
  * Radio component is used in forms when a user needs to select a single value from
  * several options.
  *
- * @see Docs https://chakra-ui.com/radio
+ * @see Docs https://incmix-ui.com/radio
  */
 export const Radio = forwardRef<RadioProps, "input">((props, ref) => {
   const group = useRadioGroupContext()

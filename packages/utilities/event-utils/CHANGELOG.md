@@ -4,8 +4,8 @@
 
 ### Patch Changes
 
-- [#6945](https://github.com/chakra-ui/chakra-ui/pull/6945)
-  [`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
+- [#6945](https://github.com/incmix-ui/incmix-ui/pull/6945)
+  [`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
   `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
@@ -15,8 +15,8 @@
 
 ### Patch Changes
 
-- [#6648](https://github.com/chakra-ui/chakra-ui/pull/6648)
-  [`9de39921b`](https://github.com/chakra-ui/chakra-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290)
+- [#6648](https://github.com/incmix-ui/incmix-ui/pull/6648)
+  [`9de39921b`](https://github.com/incmix-ui/incmix-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290)
   Thanks [@cschroeter](https://github.com/cschroeter)! - Declare package exports
   @see https://webpack.js.org/guides/package-exports/
 
@@ -24,7 +24,7 @@
 
 ### Patch Changes
 
-- [`7000bb5fe`](https://github.com/chakra-ui/chakra-ui/commit/7000bb5fe432db85ed41aeb0c5d488bbc7da4785)
+- [`7000bb5fe`](https://github.com/incmix-ui/incmix-ui/commit/7000bb5fe432db85ed41aeb0c5d488bbc7da4785)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Fix regression in
   `addPointerEvent` utility
 
@@ -32,8 +32,8 @@
 
 ### Patch Changes
 
-- [#6508](https://github.com/chakra-ui/chakra-ui/pull/6508)
-  [`445661955`](https://github.com/chakra-ui/chakra-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)
+- [#6508](https://github.com/incmix-ui/incmix-ui/pull/6508)
+  [`445661955`](https://github.com/incmix-ui/incmix-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)
   Thanks [@anubra266](https://github.com/anubra266)! - - Initial release of
   react hooks
   - Refactor all packages to reduce bundle size
@@ -49,6 +49,6 @@
 
 ### Patch Changes
 
-- [#6472](https://github.com/chakra-ui/chakra-ui/pull/6472)
-  [`597966e46`](https://github.com/chakra-ui/chakra-ui/commit/597966e46f6d0a8cd3f82eafa3f54d5ca9c97127)
+- [#6472](https://github.com/incmix-ui/incmix-ui/pull/6472)
+  [`597966e46`](https://github.com/incmix-ui/incmix-ui/commit/597966e46f6d0a8cd3f82eafa3f54d5ca9c97127)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Initial release

@@ -1,4 +1,4 @@
-# @chakra-ui/storybook-addon
+# @incmix-ui/storybook-addon
 
 Use Chakra UI in your Storybook stories.
 
@@ -10,13 +10,13 @@ which can be configured using Storybook parameters.
 ### yarn
 
 ```sh
-yarn add -D @chakra-ui/storybook-addon
+yarn add -D @incmix-ui/storybook-addon
 ```
 
 ### npm
 
 ```sh
-npm i -D @chakra-ui/storybook-addon
+npm i -D @incmix-ui/storybook-addon
 ```
 
 Add the addon to your configuration in `.storybook/main.js` and disable the
@@ -24,7 +24,7 @@ emotion alias (available with Storybook >6.4).
 
 ```js
 module.exports = {
-  addons: ["@chakra-ui/storybook-addon"],
+  addons: ["@incmix-ui/storybook-addon"],
   features: {
     emotionAlias: false,
   },
@@ -74,7 +74,7 @@ stories with `getThemingArgTypes(theme, componentName)`.
 
 ```tsx
 import { Meta, StoryFn } from "@storybook/react"
-import { getThemingArgTypes } from "@chakra-ui/storybook-addon"
+import { getThemingArgTypes } from "@incmix-ui/storybook-addon"
 import { theme } from "<your-theme>"
 
 export default {

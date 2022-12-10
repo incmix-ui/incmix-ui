@@ -85,7 +85,7 @@ export function createThemeVars(
             return acc
           }
 
-          /** @example { _dark: "#fff" } => { '.chakra-ui-dark': "#fff" } */
+          /** @example { _dark: "#fff" } => { '.incmix-ui-dark': "#fff" } */
           const conditionSelector =
             (pseudoSelectors as any)?.[conditionAlias] ?? conditionAlias
           acc[conditionSelector] = { [variable]: maybeReference }

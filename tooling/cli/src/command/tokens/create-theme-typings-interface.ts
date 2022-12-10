@@ -90,7 +90,7 @@ export async function createThemeTypingsInterface(
   const template =
     // language=ts
     `// regenerate by running
-// npx @chakra-ui/cli tokens path/to/your/theme.(js|ts)
+// npx @incmix-ui/cli tokens path/to/your/theme.(js|ts)
 import { BaseThemeTypings } from "./shared.types.js"
 export interface ThemeTypings extends BaseThemeTypings {
   ${printUnionMap(
