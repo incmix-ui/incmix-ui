@@ -1,4 +1,4 @@
-import { ChakraProvider, extendTheme } from "@chakra-ui/react"
+import { ChakraProvider, extendTheme } from "@incmix-ui/react"
 import { colorModeConfig } from "../lib/color-mode-utils"
 
 const theme = extendTheme({

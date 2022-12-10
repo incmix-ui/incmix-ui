@@ -1,4 +1,4 @@
-import { FormControlOptions, useFormControl } from "@chakra-ui/form-control"
+import { FormControlOptions, useFormControl } from "@incmix-ui/form-control"
 import {
   chakra,
   forwardRef,
@@ -6,8 +6,8 @@ import {
   ThemingProps,
   useMultiStyleConfig,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 
 interface InputOptions {
   /**

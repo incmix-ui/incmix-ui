@@ -1,4 +1,4 @@
-import { cx } from "@chakra-ui/shared-utils"
+import { cx } from "@incmix-ui/shared-utils"
 import {
   AnimatePresence,
   HTMLMotionProps,

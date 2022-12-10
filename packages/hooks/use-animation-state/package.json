@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/react-use-animation-state",
+  "name": "@incmix-ui/react-use-animation-state",
   "version": "2.0.6",
   "description": "",
   "keywords": [
@@ -41,7 +41,7 @@
     "clean-package": "2.1.1"
   },
   "dependencies": {
-    "@chakra-ui/react-use-event-listener": "workspace:*",
-    "@chakra-ui/dom-utils": "workspace:*"
+    "@incmix-ui/react-use-event-listener": "workspace:*",
+    "@incmix-ui/dom-utils": "workspace:*"
   }
 }

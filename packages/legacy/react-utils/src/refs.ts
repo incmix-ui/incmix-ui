@@ -1,4 +1,4 @@
-import { isFunction } from "@chakra-ui/utils"
+import { isFunction } from "@incmix-ui/utils"
 
 export type ReactRef<T> =
   | React.Ref<T>

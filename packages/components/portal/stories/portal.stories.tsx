@@ -1,12 +1,12 @@
-// import { Button } from "@chakra-ui/button"
-// import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/menu"
+// import { Button } from "@incmix-ui/button"
+// import { Menu, MenuButton, MenuItem, MenuList } from "@incmix-ui/menu"
 // import {
 //   Popover,
 //   PopoverBody,
 //   PopoverContent,
 //   PopoverTrigger,
-// } from "@chakra-ui/popover"
-// import { Tooltip } from "@chakra-ui/tooltip"
+// } from "@incmix-ui/popover"
+// import { Tooltip } from "@incmix-ui/tooltip"
 import * as React from "react"
 import Frame from "react-frame-component"
 import { Portal, PortalManager } from "../src"

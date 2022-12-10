@@ -1,4 +1,4 @@
-import { analyzeBreakpoints } from "@chakra-ui/breakpoint-utils"
+import { analyzeBreakpoints } from "@incmix-ui/breakpoint-utils"
 import type { WithCSSVar } from "../utils"
 import { createThemeVars } from "./create-theme-vars"
 import { extractSemanticTokens, extractTokens, omitVars } from "./theme-tokens"

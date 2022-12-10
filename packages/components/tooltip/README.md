@@ -6,17 +6,17 @@ floating description.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/tooltip
+yarn add @incmix-ui/tooltip
 
 # or
 
-npm i @chakra-ui/tooltip
+npm i @incmix-ui/tooltip
 ```
 
 ## Import components
 
 ```js
-import { Tooltip } from "@chakra-ui/react"
+import { Tooltip } from "@incmix-ui/react"
 ```
 
 ## Usage

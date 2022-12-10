@@ -2,7 +2,7 @@ import type {
   ResponsiveValue,
   SystemProps,
   SystemStyleObject,
-} from "@chakra-ui/styled-system"
+} from "@incmix-ui/styled-system"
 import type { Interpolation } from "@emotion/react"
 
 export interface ChakraProps extends SystemProps {

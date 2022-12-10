@@ -6,7 +6,7 @@ const exists = promisify(fs.exists)
 
 export const themeInterfaceDestination = [
   "node_modules",
-  "@chakra-ui",
+  "@incmix-ui",
   "styled-system",
   "dist",
   "theming.types.d.ts",
@@ -14,7 +14,7 @@ export const themeInterfaceDestination = [
 
 /**
  * Finds the target file to override
- * In our case it is located in the @chakra-ui/styled-system package
+ * In our case it is located in the @incmix-ui/styled-system package
  */
 async function resolveThemingDefinitionPath(): Promise<string | undefined> {
   const baseDir = path.join("..", "..", "..")
@@ -53,7 +53,7 @@ export async function resolveOutputPath(
   const themingDefinitionFilePath = await resolveThemingDefinitionPath()
   if (!themingDefinitionFilePath) {
     throw new Error(
-      "Could not find @chakra-ui/styled-system in node_modules. Please provide `--out` parameter.",
+      "Could not find @incmix-ui/styled-system in node_modules. Please provide `--out` parameter.",
     )
   }
 

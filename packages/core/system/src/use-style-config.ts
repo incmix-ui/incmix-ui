@@ -2,15 +2,15 @@ import {
   resolveStyleConfig,
   SystemStyleObject,
   ThemingProps,
-} from "@chakra-ui/styled-system"
-import { mergeThemeOverride } from "@chakra-ui/theme-utils"
+} from "@incmix-ui/styled-system"
+import { mergeThemeOverride } from "@incmix-ui/theme-utils"
 import {
   Dict,
   filterUndefined,
   memoizedGet as get,
   mergeWith,
   omit,
-} from "@chakra-ui/utils"
+} from "@incmix-ui/utils"
 import { useRef } from "react"
 import isEqual from "react-fast-compare"
 import { useChakra } from "./hooks"

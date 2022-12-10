@@ -1,4 +1,4 @@
-# @chakra-ui/anatomy
+# @incmix-ui/anatomy
 
 This package declares the anatomy for the Chakra UI components.
 
@@ -11,9 +11,9 @@ data-attributes.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/anatomy
+yarn add @incmix-ui/anatomy
 # or
-npm i @chakra-ui/anatomy
+npm i @incmix-ui/anatomy
 ```
 
 ## Contribution

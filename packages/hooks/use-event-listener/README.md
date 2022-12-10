@@ -1,4 +1,4 @@
-# @chakra-ui/use-event-listener
+# @incmix-ui/use-event-listener
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @chakra-ui/react-use-event-listener
+yarn add @incmix-ui/react-use-event-listener
 # or
-npm i @chakra-ui/react-use-event-listener
+npm i @incmix-ui/react-use-event-listener
 ```
 
 ## Contribution

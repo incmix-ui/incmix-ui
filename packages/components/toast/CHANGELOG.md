@@ -6,7 +6,7 @@
 
 - Updated dependencies
   [[`4dbfc1a11`](https://github.com/chakra-ui/chakra-ui/commit/4dbfc1a115a2fce51b29f3fd3baa3a823b3e359d)]:
-  - @chakra-ui/portal@2.0.12
+  - @incmix-ui/portal@2.0.12
 
 ## 4.0.4
 
@@ -19,12 +19,12 @@
   [`eb82598c2`](https://github.com/chakra-ui/chakra-ui/commit/eb82598c27e97d0e7a77412d3ecc95918a2b73fa),
   [`9e3d91fd7`](https://github.com/chakra-ui/chakra-ui/commit/9e3d91fd73b1cadc14f98b6c834c0e6faf134bd2),
   [`bf7704112`](https://github.com/chakra-ui/chakra-ui/commit/bf7704112ebb2aba675084706c8364a755ad10e3)]:
-  - @chakra-ui/styled-system@2.4.0
-  - @chakra-ui/theme@2.2.2
-  - @chakra-ui/system@2.3.4
-  - @chakra-ui/portal@2.0.11
-  - @chakra-ui/alert@2.0.13
-  - @chakra-ui/close-button@2.0.13
+  - @incmix-ui/styled-system@2.4.0
+  - @incmix-ui/theme@2.2.2
+  - @incmix-ui/system@2.3.4
+  - @incmix-ui/portal@2.0.11
+  - @incmix-ui/alert@2.0.13
+  - @incmix-ui/close-button@2.0.13
 
 ## 4.0.3
 
@@ -32,10 +32,10 @@
 
 - Updated dependencies
   [[`cbd09c31f`](https://github.com/chakra-ui/chakra-ui/commit/cbd09c31ff7134157906dbaeaaea5a920185e36a)]:
-  - @chakra-ui/theme@2.2.1
-  - @chakra-ui/system@2.3.3
-  - @chakra-ui/alert@2.0.12
-  - @chakra-ui/close-button@2.0.12
+  - @incmix-ui/theme@2.2.1
+  - @incmix-ui/system@2.3.3
+  - @incmix-ui/alert@2.0.12
+  - @incmix-ui/close-button@2.0.12
 
 ## 4.0.2
 
@@ -44,7 +44,7 @@
 - [#6945](https://github.com/chakra-ui/chakra-ui/pull/6945)
   [`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
+  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 - Updated dependencies
@@ -52,14 +52,14 @@
   [`2a86d6c35`](https://github.com/chakra-ui/chakra-ui/commit/2a86d6c353e88d86b46030a53130a062433f30b2),
   [`2a86d6c35`](https://github.com/chakra-ui/chakra-ui/commit/2a86d6c353e88d86b46030a53130a062433f30b2),
   [`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)]:
-  - @chakra-ui/theme@2.2.0
-  - @chakra-ui/system@2.3.2
-  - @chakra-ui/alert@2.0.12
-  - @chakra-ui/close-button@2.0.12
-  - @chakra-ui/portal@2.0.11
-  - @chakra-ui/styled-system@2.3.5
-  - @chakra-ui/react-use-timeout@2.0.3
-  - @chakra-ui/react-use-update-effect@2.0.5
+  - @incmix-ui/theme@2.2.0
+  - @incmix-ui/system@2.3.2
+  - @incmix-ui/alert@2.0.12
+  - @incmix-ui/close-button@2.0.12
+  - @incmix-ui/portal@2.0.11
+  - @incmix-ui/styled-system@2.3.5
+  - @incmix-ui/react-use-timeout@2.0.3
+  - @incmix-ui/react-use-update-effect@2.0.5
 
 ## 4.0.1
 
@@ -67,10 +67,10 @@
 
 - Updated dependencies
   [[`f3b66694f`](https://github.com/chakra-ui/chakra-ui/commit/f3b66694f054491dcf8830ec48cd0e4ee77490e0)]:
-  - @chakra-ui/theme@2.1.15
-  - @chakra-ui/system@2.3.1
-  - @chakra-ui/alert@2.0.11
-  - @chakra-ui/close-button@2.0.11
+  - @incmix-ui/theme@2.1.15
+  - @incmix-ui/system@2.3.1
+  - @incmix-ui/alert@2.0.11
+  - @incmix-ui/close-button@2.0.11
 
 ## 4.0.0
 
@@ -88,10 +88,10 @@
 * Updated dependencies
   [[`58856c739`](https://github.com/chakra-ui/chakra-ui/commit/58856c739c536474cc23a94809082a9d549c71a3),
   [`87f5c275e`](https://github.com/chakra-ui/chakra-ui/commit/87f5c275e42c36ff806f553f80ae559fad4182ef)]:
-  - @chakra-ui/theme@2.1.14
-  - @chakra-ui/system@2.3.0
-  - @chakra-ui/alert@2.0.11
-  - @chakra-ui/close-button@2.0.11
+  - @incmix-ui/theme@2.1.14
+  - @incmix-ui/system@2.3.0
+  - @incmix-ui/alert@2.0.11
+  - @incmix-ui/close-button@2.0.11
 
 ## 3.0.13
 
@@ -105,7 +105,7 @@
 * [#6765](https://github.com/chakra-ui/chakra-ui/pull/6765)
   [`014d1d224`](https://github.com/chakra-ui/chakra-ui/commit/014d1d224b0e4ac140f92eabade542040177c277)
   Thanks [@anubra266](https://github.com/anubra266)! - Fixed unmet
-  `@chakra-ui/styled-system` dependency issue
+  `@incmix-ui/styled-system` dependency issue
 
 * Updated dependencies
   [[`9de39921b`](https://github.com/chakra-ui/chakra-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290),
@@ -113,24 +113,24 @@
   [`d945b9a7d`](https://github.com/chakra-ui/chakra-ui/commit/d945b9a7da3056017cda0cdd552af40fa1426070),
   [`2283faae3`](https://github.com/chakra-ui/chakra-ui/commit/2283faae3e361a8978a93b0ef7fd43b637153555),
   [`16c56953b`](https://github.com/chakra-ui/chakra-ui/commit/16c56953b51d34688d06d6599b70bb895f5ac86d)]:
-  - @chakra-ui/alert@2.0.11
-  - @chakra-ui/close-button@2.0.11
-  - @chakra-ui/portal@2.0.10
-  - @chakra-ui/styled-system@2.3.4
-  - @chakra-ui/system@2.2.12
-  - @chakra-ui/theme@2.1.13
-  - @chakra-ui/react-use-timeout@2.0.2
-  - @chakra-ui/react-use-update-effect@2.0.4
+  - @incmix-ui/alert@2.0.11
+  - @incmix-ui/close-button@2.0.11
+  - @incmix-ui/portal@2.0.10
+  - @incmix-ui/styled-system@2.3.4
+  - @incmix-ui/system@2.2.12
+  - @incmix-ui/theme@2.1.13
+  - @incmix-ui/react-use-timeout@2.0.2
+  - @incmix-ui/react-use-update-effect@2.0.4
 
 ## 3.0.12
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/system@2.2.11
-  - @chakra-ui/theme@2.1.12
-  - @chakra-ui/alert@2.0.10
-  - @chakra-ui/close-button@2.0.10
+  - @incmix-ui/system@2.2.11
+  - @incmix-ui/theme@2.1.12
+  - @incmix-ui/alert@2.0.10
+  - @incmix-ui/close-button@2.0.10
 
 ## 3.0.11
 
@@ -152,11 +152,11 @@
   [[`e62697467`](https://github.com/chakra-ui/chakra-ui/commit/e62697467fea03c9a6035ed67a635f9dc72bc471),
   [`c2d1c362f`](https://github.com/chakra-ui/chakra-ui/commit/c2d1c362f5bf2dfc3fa27fa8a987c1d037e12479),
   [`3e1b3f6b6`](https://github.com/chakra-ui/chakra-ui/commit/3e1b3f6b6a7398b71ac08339110f075695fbae94)]:
-  - @chakra-ui/theme@2.1.12
-  - @chakra-ui/system@2.2.10
-  - @chakra-ui/alert@2.0.10
-  - @chakra-ui/close-button@2.0.10
-  - @chakra-ui/portal@2.0.9
+  - @incmix-ui/theme@2.1.12
+  - @incmix-ui/system@2.2.10
+  - @incmix-ui/alert@2.0.10
+  - @incmix-ui/close-button@2.0.10
+  - @incmix-ui/portal@2.0.9
 
 ## 3.0.10
 
@@ -164,7 +164,7 @@
 
 - Updated dependencies
   [[`7d7e04d53`](https://github.com/chakra-ui/chakra-ui/commit/7d7e04d53d871e324debe0a2cb3ff44d7dbf3bca)]:
-  - @chakra-ui/theme@2.1.11
+  - @incmix-ui/theme@2.1.11
 
 ## 3.0.9
 
@@ -172,10 +172,10 @@
 
 - Updated dependencies
   [[`ec23eb020`](https://github.com/chakra-ui/chakra-ui/commit/ec23eb02066628d28f85c2c515fba4d0c0120601)]:
-  - @chakra-ui/theme@2.1.10
-  - @chakra-ui/system@2.2.9
-  - @chakra-ui/alert@2.0.9
-  - @chakra-ui/close-button@2.0.9
+  - @incmix-ui/theme@2.1.10
+  - @incmix-ui/system@2.2.9
+  - @incmix-ui/alert@2.0.9
+  - @incmix-ui/close-button@2.0.9
 
 ## 3.0.8
 
@@ -190,10 +190,10 @@
   [`5bacbdc2c`](https://github.com/chakra-ui/chakra-ui/commit/5bacbdc2c6f34fd6b8548e1a31c783084d2f775c),
   [`0cae42007`](https://github.com/chakra-ui/chakra-ui/commit/0cae42007308e94ef9a9fdbae3de259871ca33be),
   [`872c0ccf5`](https://github.com/chakra-ui/chakra-ui/commit/872c0ccf56d927d49af02a8a4d6bb6811774eff7)]:
-  - @chakra-ui/theme@2.1.9
-  - @chakra-ui/system@2.2.8
-  - @chakra-ui/alert@2.0.9
-  - @chakra-ui/close-button@2.0.9
+  - @incmix-ui/theme@2.1.9
+  - @incmix-ui/system@2.2.8
+  - @incmix-ui/alert@2.0.9
+  - @incmix-ui/close-button@2.0.9
 
 ## 3.0.7
 
@@ -207,13 +207,13 @@
   - Refactor code for proper prop doc generatation
 - Updated dependencies
   [[`445661955`](https://github.com/chakra-ui/chakra-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)]:
-  - @chakra-ui/react-use-timeout@2.0.1
-  - @chakra-ui/react-use-update-effect@2.0.3
-  - @chakra-ui/alert@2.0.9
-  - @chakra-ui/close-button@2.0.9
-  - @chakra-ui/portal@2.0.9
-  - @chakra-ui/system@2.2.7
-  - @chakra-ui/theme@2.1.8
+  - @incmix-ui/react-use-timeout@2.0.1
+  - @incmix-ui/react-use-update-effect@2.0.3
+  - @incmix-ui/alert@2.0.9
+  - @incmix-ui/close-button@2.0.9
+  - @incmix-ui/portal@2.0.9
+  - @incmix-ui/system@2.2.7
+  - @incmix-ui/theme@2.1.8
 
 ## 3.0.6
 
@@ -222,15 +222,15 @@
 - Force release
 
 - Updated dependencies []:
-  - @chakra-ui/alert@2.0.8
-  - @chakra-ui/close-button@2.0.8
-  - @chakra-ui/hooks@2.0.8
-  - @chakra-ui/portal@2.0.8
-  - @chakra-ui/react-utils@2.0.5
-  - @chakra-ui/system@2.2.6
-  - @chakra-ui/theme@2.1.7
-  - @chakra-ui/transition@2.0.8
-  - @chakra-ui/utils@2.0.8
+  - @incmix-ui/alert@2.0.8
+  - @incmix-ui/close-button@2.0.8
+  - @incmix-ui/hooks@2.0.8
+  - @incmix-ui/portal@2.0.8
+  - @incmix-ui/react-utils@2.0.5
+  - @incmix-ui/system@2.2.6
+  - @incmix-ui/theme@2.1.7
+  - @incmix-ui/transition@2.0.8
+  - @incmix-ui/utils@2.0.8
 
 ## 3.0.5
 
@@ -243,15 +243,15 @@
   [`99af1e29f`](https://github.com/chakra-ui/chakra-ui/commit/99af1e29fa7b8c8b0bee217227d05f695a0acb47),
   [`04ff824ac`](https://github.com/chakra-ui/chakra-ui/commit/04ff824ac2f69aaa82d08bf2905ad4667327db12),
   [`99af1e29f`](https://github.com/chakra-ui/chakra-ui/commit/99af1e29fa7b8c8b0bee217227d05f695a0acb47)]:
-  - @chakra-ui/theme@2.1.6
-  - @chakra-ui/utils@2.0.7
-  - @chakra-ui/alert@2.0.7
-  - @chakra-ui/hooks@2.0.7
-  - @chakra-ui/system@2.2.5
-  - @chakra-ui/close-button@2.0.7
-  - @chakra-ui/portal@2.0.7
-  - @chakra-ui/react-utils@2.0.4
-  - @chakra-ui/transition@2.0.7
+  - @incmix-ui/theme@2.1.6
+  - @incmix-ui/utils@2.0.7
+  - @incmix-ui/alert@2.0.7
+  - @incmix-ui/hooks@2.0.7
+  - @incmix-ui/system@2.2.5
+  - @incmix-ui/close-button@2.0.7
+  - @incmix-ui/portal@2.0.7
+  - @incmix-ui/react-utils@2.0.4
+  - @incmix-ui/transition@2.0.7
 
 ## 3.0.4
 
@@ -260,15 +260,15 @@
 - Force new release
 
 - Updated dependencies []:
-  - @chakra-ui/alert@2.0.6
-  - @chakra-ui/close-button@2.0.6
-  - @chakra-ui/hooks@2.0.6
-  - @chakra-ui/portal@2.0.6
-  - @chakra-ui/react-utils@2.0.3
-  - @chakra-ui/system@2.2.4
-  - @chakra-ui/theme@2.1.5
-  - @chakra-ui/transition@2.0.6
-  - @chakra-ui/utils@2.0.6
+  - @incmix-ui/alert@2.0.6
+  - @incmix-ui/close-button@2.0.6
+  - @incmix-ui/hooks@2.0.6
+  - @incmix-ui/portal@2.0.6
+  - @incmix-ui/react-utils@2.0.3
+  - @incmix-ui/system@2.2.4
+  - @incmix-ui/theme@2.1.5
+  - @incmix-ui/transition@2.0.6
+  - @incmix-ui/utils@2.0.6
 
 ## 3.0.3
 
@@ -282,15 +282,15 @@
 - Updated dependencies
   [[`b67d24d0c`](https://github.com/chakra-ui/chakra-ui/commit/b67d24d0c6d166dfebd74c5a7fd832ddd91a9c69),
   [`1839e22eb`](https://github.com/chakra-ui/chakra-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)]:
-  - @chakra-ui/theme@2.1.4
-  - @chakra-ui/alert@2.0.5
-  - @chakra-ui/close-button@2.0.5
-  - @chakra-ui/hooks@2.0.5
-  - @chakra-ui/portal@2.0.5
-  - @chakra-ui/react-utils@2.0.2
-  - @chakra-ui/system@2.2.3
-  - @chakra-ui/transition@2.0.5
-  - @chakra-ui/utils@2.0.5
+  - @incmix-ui/theme@2.1.4
+  - @incmix-ui/alert@2.0.5
+  - @incmix-ui/close-button@2.0.5
+  - @incmix-ui/hooks@2.0.5
+  - @incmix-ui/portal@2.0.5
+  - @incmix-ui/react-utils@2.0.2
+  - @incmix-ui/system@2.2.3
+  - @incmix-ui/transition@2.0.5
+  - @incmix-ui/utils@2.0.5
 
 ## 3.0.2
 
@@ -299,14 +299,14 @@
 - Updated dependencies
   [[`46b495455`](https://github.com/chakra-ui/chakra-ui/commit/46b495455fc416b166db18f5098ede7752b2e3ba),
   [`c11743b47`](https://github.com/chakra-ui/chakra-ui/commit/c11743b47f38f8f38a21b120add3a9cf765b81ee)]:
-  - @chakra-ui/portal@2.0.4
-  - @chakra-ui/utils@2.0.4
-  - @chakra-ui/system@2.2.2
-  - @chakra-ui/alert@2.0.4
-  - @chakra-ui/close-button@2.0.4
-  - @chakra-ui/hooks@2.0.4
-  - @chakra-ui/theme@2.1.3
-  - @chakra-ui/transition@2.0.4
+  - @incmix-ui/portal@2.0.4
+  - @incmix-ui/utils@2.0.4
+  - @incmix-ui/system@2.2.2
+  - @incmix-ui/alert@2.0.4
+  - @incmix-ui/close-button@2.0.4
+  - @incmix-ui/hooks@2.0.4
+  - @incmix-ui/theme@2.1.3
+  - @incmix-ui/transition@2.0.4
 
 ## 3.0.1
 
@@ -319,14 +319,14 @@
   [`be7a20f15`](https://github.com/chakra-ui/chakra-ui/commit/be7a20f155e571a24cb99f28a5b9a60fa3b80a61),
   [`3d8e095df`](https://github.com/chakra-ui/chakra-ui/commit/3d8e095dfc696b3d903455319231e77d1c21d875),
   [`6c15ec2c2`](https://github.com/chakra-ui/chakra-ui/commit/6c15ec2c2a32a36ecc2d169308379a6825619543)]:
-  - @chakra-ui/alert@2.0.3
-  - @chakra-ui/utils@2.0.3
-  - @chakra-ui/transition@2.0.3
-  - @chakra-ui/theme@2.1.2
-  - @chakra-ui/portal@2.0.3
-  - @chakra-ui/close-button@2.0.3
-  - @chakra-ui/hooks@2.0.3
-  - @chakra-ui/system@2.2.1
+  - @incmix-ui/alert@2.0.3
+  - @incmix-ui/utils@2.0.3
+  - @incmix-ui/transition@2.0.3
+  - @incmix-ui/theme@2.1.2
+  - @incmix-ui/portal@2.0.3
+  - @incmix-ui/close-button@2.0.3
+  - @incmix-ui/hooks@2.0.3
+  - @incmix-ui/system@2.2.1
 
 ## 3.0.0
 
@@ -334,14 +334,14 @@
 
 - [#6196](https://github.com/chakra-ui/chakra-ui/pull/6196)
   [`370f2db01`](https://github.com/chakra-ui/chakra-ui/commit/370f2db0116206373f02756ac4b4b1f3b9cf0151)
-  Thanks [@gausie](https://github.com/gausie)! - Move `@chakra-ui/system` to
+  Thanks [@gausie](https://github.com/gausie)! - Move `@incmix-ui/system` to
   peer dependency
 
 - Updated dependencies
   [[`104eead49`](https://github.com/chakra-ui/chakra-ui/commit/104eead495b2d5997beeb2bb797f4bc1d562f59e),
   [`612529653`](https://github.com/chakra-ui/chakra-ui/commit/61252965371f1abc5bc6680c14bbd08f97667ea9)]:
-  - @chakra-ui/system@2.2.0
-  - @chakra-ui/theme@2.1.1
+  - @incmix-ui/system@2.2.0
+  - @incmix-ui/theme@2.1.1
 
 ## 2.1.0
 
@@ -357,7 +357,7 @@
 
 - Updated dependencies
   [[`f9a84d637`](https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580)]:
-  - @chakra-ui/system@2.1.3
+  - @incmix-ui/system@2.1.3
 
 ## 2.0.6
 
@@ -371,15 +371,15 @@
   [[`bcbfcbcce`](https://github.com/chakra-ui/chakra-ui/commit/bcbfcbcceebe6749d0e8fe6ebddb566121fdff25),
   [`06f29f8cd`](https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1),
   [`7de782f04`](https://github.com/chakra-ui/chakra-ui/commit/7de782f0485656a6d10099339da509084cb3ee88)]:
-  - @chakra-ui/theme@2.1.0
-  - @chakra-ui/alert@2.0.2
-  - @chakra-ui/close-button@2.0.2
-  - @chakra-ui/hooks@2.0.2
-  - @chakra-ui/portal@2.0.2
-  - @chakra-ui/react-utils@2.0.1
-  - @chakra-ui/system@2.1.2
-  - @chakra-ui/transition@2.0.2
-  - @chakra-ui/utils@2.0.2
+  - @incmix-ui/theme@2.1.0
+  - @incmix-ui/alert@2.0.2
+  - @incmix-ui/close-button@2.0.2
+  - @incmix-ui/hooks@2.0.2
+  - @incmix-ui/portal@2.0.2
+  - @incmix-ui/react-utils@2.0.1
+  - @incmix-ui/system@2.1.2
+  - @incmix-ui/transition@2.0.2
+  - @incmix-ui/utils@2.0.2
 
 ## 2.0.5
 
@@ -405,14 +405,14 @@
   [`695c528c9`](https://github.com/chakra-ui/chakra-ui/commit/695c528c91d403667055e4fb7aeeb2f05cbb4d1f),
   [`7e05d36cf`](https://github.com/chakra-ui/chakra-ui/commit/7e05d36cf1c65142e035d43142488792911f8a7f),
   [`f77e3c98f`](https://github.com/chakra-ui/chakra-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c)]:
-  - @chakra-ui/utils@2.0.1
-  - @chakra-ui/alert@2.0.1
-  - @chakra-ui/portal@2.0.1
-  - @chakra-ui/transition@2.0.1
-  - @chakra-ui/theme@2.0.3
-  - @chakra-ui/system@2.1.1
-  - @chakra-ui/close-button@2.0.1
-  - @chakra-ui/hooks@2.0.1
+  - @incmix-ui/utils@2.0.1
+  - @incmix-ui/alert@2.0.1
+  - @incmix-ui/portal@2.0.1
+  - @incmix-ui/transition@2.0.1
+  - @incmix-ui/theme@2.0.3
+  - @incmix-ui/system@2.1.1
+  - @incmix-ui/close-button@2.0.1
+  - @incmix-ui/hooks@2.0.1
 
 ## 2.0.3
 
@@ -427,15 +427,15 @@
   [[`3319eca8b`](https://github.com/chakra-ui/chakra-ui/commit/3319eca8bf02b892ea345a68294110919e2963cb),
   [`ddea8d143`](https://github.com/chakra-ui/chakra-ui/commit/ddea8d143e76c0e4758e6ea4b4d881f88b34452d),
   [`c93f5c90b`](https://github.com/chakra-ui/chakra-ui/commit/c93f5c90b0784584a8aef54fd912afa52f549016)]:
-  - @chakra-ui/theme@2.0.2
-  - @chakra-ui/system@2.1.0
+  - @incmix-ui/theme@2.0.2
+  - @incmix-ui/system@2.1.0
 
 ## 2.0.2
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/system@2.0.2
+  - @incmix-ui/system@2.0.2
 
 ## 2.0.1
 
@@ -448,8 +448,8 @@
 
 - Updated dependencies
   [[`a9099c106`](https://github.com/chakra-ui/chakra-ui/commit/a9099c106edf0364d36feedfc066c5523cb7c7c8)]:
-  - @chakra-ui/theme@2.0.1
-  - @chakra-ui/system@2.0.1
+  - @incmix-ui/theme@2.0.1
+  - @incmix-ui/system@2.0.1
 
 ## 2.0.0
 
@@ -478,20 +478,20 @@
   to render the `ToastContainer` in your application code. This allows you have
   only one React root in your application.
 
-  #### @chakra-ui/react v1
+  #### @incmix-ui/react v1
 
   ```ts
-  import { createStandaloneToast } from "@chakra-ui/toast"
+  import { createStandaloneToast } from "@incmix-ui/toast"
 
   const toast = createStandaloneToast()
   toast({ title: "Chakra UI" })
   ```
 
-  #### @chakra-ui/react v2
+  #### @incmix-ui/react v2
 
   ```tsx
   import * as ReactDOM from "react-dom/client"
-  import { createStandaloneToast } from "@chakra-ui/toast"
+  import { createStandaloneToast } from "@incmix-ui/toast"
 
   const { ToastContainer, toast } = createStandaloneToast()
 
@@ -557,15 +557,15 @@
   [`ef6a22549`](https://github.com/chakra-ui/chakra-ui/commit/ef6a22549ef93093602ca2913fa6defe6f617df0),
   [`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196),
   [`d32aea176`](https://github.com/chakra-ui/chakra-ui/commit/d32aea176b66b4d5206df10530c011f8eaa2e42d)]:
-  - @chakra-ui/alert@2.0.0
-  - @chakra-ui/close-button@2.0.0
-  - @chakra-ui/hooks@2.0.0
-  - @chakra-ui/portal@2.0.0
-  - @chakra-ui/react-utils@2.0.0
-  - @chakra-ui/system@2.0.0
-  - @chakra-ui/theme@2.0.0
-  - @chakra-ui/transition@2.0.0
-  - @chakra-ui/utils@2.0.0
+  - @incmix-ui/alert@2.0.0
+  - @incmix-ui/close-button@2.0.0
+  - @incmix-ui/hooks@2.0.0
+  - @incmix-ui/portal@2.0.0
+  - @incmix-ui/react-utils@2.0.0
+  - @incmix-ui/system@2.0.0
+  - @incmix-ui/theme@2.0.0
+  - @incmix-ui/transition@2.0.0
+  - @incmix-ui/utils@2.0.0
 
 ## 2.0.0-next.5
 
@@ -580,22 +580,22 @@
 
 - Updated dependencies
   [[`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)]:
-  - @chakra-ui/alert@2.0.0-next.3
-  - @chakra-ui/close-button@2.0.0-next.2
-  - @chakra-ui/hooks@2.0.0-next.3
-  - @chakra-ui/portal@2.0.0-next.3
-  - @chakra-ui/react-utils@2.0.0-next.2
-  - @chakra-ui/system@2.0.0-next.4
-  - @chakra-ui/theme@2.0.0-next.2
-  - @chakra-ui/transition@2.0.0-next.2
-  - @chakra-ui/utils@2.0.0-next.2
+  - @incmix-ui/alert@2.0.0-next.3
+  - @incmix-ui/close-button@2.0.0-next.2
+  - @incmix-ui/hooks@2.0.0-next.3
+  - @incmix-ui/portal@2.0.0-next.3
+  - @incmix-ui/react-utils@2.0.0-next.2
+  - @incmix-ui/system@2.0.0-next.4
+  - @incmix-ui/theme@2.0.0-next.2
+  - @incmix-ui/transition@2.0.0-next.2
+  - @incmix-ui/utils@2.0.0-next.2
 
 ## 2.0.0-next.4
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/system@2.0.0-next.3
+  - @incmix-ui/system@2.0.0-next.3
 
 ## 2.0.0-next.3
 
@@ -628,10 +628,10 @@
   [[`c81db13ce`](https://github.com/chakra-ui/chakra-ui/commit/c81db13cef3db40b54822169faeb2568f1c2aa73),
   [`8991ac13e`](https://github.com/chakra-ui/chakra-ui/commit/8991ac13e5ec71cc1fbd09610981913b7efe9798),
   [`d32aea176`](https://github.com/chakra-ui/chakra-ui/commit/d32aea176b66b4d5206df10530c011f8eaa2e42d)]:
-  - @chakra-ui/alert@2.0.0-next.2
-  - @chakra-ui/hooks@2.0.0-next.2
-  - @chakra-ui/portal@2.0.0-next.2
-  - @chakra-ui/system@2.0.0-next.2
+  - @incmix-ui/alert@2.0.0-next.2
+  - @incmix-ui/hooks@2.0.0-next.2
+  - @incmix-ui/portal@2.0.0-next.2
+  - @incmix-ui/system@2.0.0-next.2
 
 ## 2.0.0-next.2
 
@@ -648,15 +648,15 @@
   [[`3e6ac56be`](https://github.com/chakra-ui/chakra-ui/commit/3e6ac56be82a6117e4dee484be0956e35fc58ed1),
   [`ef6a22549`](https://github.com/chakra-ui/chakra-ui/commit/ef6a22549ef93093602ca2913fa6defe6f617df0),
   [`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
-  - @chakra-ui/theme@2.0.0-next.1
-  - @chakra-ui/alert@2.0.0-next.1
-  - @chakra-ui/close-button@2.0.0-next.1
-  - @chakra-ui/hooks@2.0.0-next.1
-  - @chakra-ui/portal@2.0.0-next.1
-  - @chakra-ui/react-utils@2.0.0-next.1
-  - @chakra-ui/system@2.0.0-next.1
-  - @chakra-ui/transition@2.0.0-next.1
-  - @chakra-ui/utils@2.0.0-next.1
+  - @incmix-ui/theme@2.0.0-next.1
+  - @incmix-ui/alert@2.0.0-next.1
+  - @incmix-ui/close-button@2.0.0-next.1
+  - @incmix-ui/hooks@2.0.0-next.1
+  - @incmix-ui/portal@2.0.0-next.1
+  - @incmix-ui/react-utils@2.0.0-next.1
+  - @incmix-ui/system@2.0.0-next.1
+  - @incmix-ui/transition@2.0.0-next.1
+  - @incmix-ui/utils@2.0.0-next.1
 
 ## 2.0.0-next.1
 
@@ -682,15 +682,15 @@
 * Updated dependencies
   [[`c390af485`](https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f),
   [`1a47fd27e`](https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)]:
-  - @chakra-ui/alert@2.0.0-next.0
-  - @chakra-ui/close-button@2.0.0-next.0
-  - @chakra-ui/hooks@2.0.0-next.0
-  - @chakra-ui/portal@2.0.0-next.0
-  - @chakra-ui/react-utils@2.0.0-next.0
-  - @chakra-ui/system@2.0.0-next.0
-  - @chakra-ui/theme@2.0.0-next.0
-  - @chakra-ui/transition@2.0.0-next.0
-  - @chakra-ui/utils@2.0.0-next.0
+  - @incmix-ui/alert@2.0.0-next.0
+  - @incmix-ui/close-button@2.0.0-next.0
+  - @incmix-ui/hooks@2.0.0-next.0
+  - @incmix-ui/portal@2.0.0-next.0
+  - @incmix-ui/react-utils@2.0.0-next.0
+  - @incmix-ui/system@2.0.0-next.0
+  - @incmix-ui/theme@2.0.0-next.0
+  - @incmix-ui/transition@2.0.0-next.0
+  - @incmix-ui/utils@2.0.0-next.0
 
 ## 2.0.0-next.0
 
@@ -713,7 +713,7 @@
   #### before
 
   ```ts
-  import { createStandaloneToast } from "@chakra-ui/toast"
+  import { createStandaloneToast } from "@incmix-ui/toast"
 
   const toast = createStandaloneToast()
   toast({ title: "Chakra UI" })
@@ -722,7 +722,7 @@
   #### with React 17
 
   ```tsx
-  import { createStandaloneToast } from "@chakra-ui/toast"
+  import { createStandaloneToast } from "@incmix-ui/toast"
   import * as ReactDOM from "react-dom"
 
   const toastContainerElement = document.createElement("div")
@@ -737,7 +737,7 @@
   #### with React 18
 
   ```tsx
-  import { createStandaloneToast } from "@chakra-ui/toast"
+  import { createStandaloneToast } from "@incmix-ui/toast"
   import * as ReactDOM from "react-dom/client"
 
   const toastContainerElement = document.createElement("div")
@@ -758,9 +758,9 @@
   [[`a3b04dc1a`](https://github.com/chakra-ui/chakra-ui/commit/a3b04dc1ae49ad0d804bddc17fdca3afa218665c),
   [`b19c89270`](https://github.com/chakra-ui/chakra-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90),
   [`aaadcd0ed`](https://github.com/chakra-ui/chakra-ui/commit/aaadcd0ed9388417b0b647d75055ede0613d3495)]:
-  - @chakra-ui/hooks@1.9.1
-  - @chakra-ui/theme@1.14.1
-  - @chakra-ui/transition@1.4.8
+  - @incmix-ui/hooks@1.9.1
+  - @incmix-ui/theme@1.14.1
+  - @incmix-ui/transition@1.4.8
 
 ## 1.5.8
 
@@ -773,7 +773,7 @@
 
 - Updated dependencies
   [[`73a06ae8c`](https://github.com/chakra-ui/chakra-ui/commit/73a06ae8ce1bee644e10f245edcf2f9f2b773964)]:
-  - @chakra-ui/hooks@1.9.0
+  - @incmix-ui/hooks@1.9.0
 
 ## 1.5.7
 
@@ -782,8 +782,8 @@
 - Updated dependencies
   [[`fbe946223`](https://github.com/chakra-ui/chakra-ui/commit/fbe94622357e22acaf8bab0eae33ceae663d7a5b),
   [`5cd5cff35`](https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac)]:
-  - @chakra-ui/theme@1.14.0
-  - @chakra-ui/hooks@1.8.5
+  - @incmix-ui/theme@1.14.0
+  - @incmix-ui/hooks@1.8.5
 
 ## 1.5.6
 
@@ -795,12 +795,12 @@
   CI configuration.
 - Updated dependencies
   [[`e1fe48cbe`](https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)]:
-  - @chakra-ui/alert@1.3.7
-  - @chakra-ui/close-button@1.2.7
-  - @chakra-ui/hooks@1.8.4
-  - @chakra-ui/theme@1.13.4
-  - @chakra-ui/transition@1.4.7
-  - @chakra-ui/utils@1.10.4
+  - @incmix-ui/alert@1.3.7
+  - @incmix-ui/close-button@1.2.7
+  - @incmix-ui/hooks@1.8.4
+  - @incmix-ui/theme@1.13.4
+  - @incmix-ui/transition@1.4.7
+  - @incmix-ui/utils@1.10.4
 
 ## 1.5.5
 
@@ -809,12 +809,12 @@
 - Updated dependencies
   [[`a870e6b94`](https://github.com/chakra-ui/chakra-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a),
   [`0542b8a53`](https://github.com/chakra-ui/chakra-ui/commit/0542b8a53425093f18fd86d2b55220d3fa20253a)]:
-  - @chakra-ui/utils@1.10.3
-  - @chakra-ui/theme@1.13.3
-  - @chakra-ui/alert@1.3.6
-  - @chakra-ui/close-button@1.2.6
-  - @chakra-ui/hooks@1.8.3
-  - @chakra-ui/transition@1.4.6
+  - @incmix-ui/utils@1.10.3
+  - @incmix-ui/theme@1.13.3
+  - @incmix-ui/alert@1.3.6
+  - @incmix-ui/close-button@1.2.6
+  - @incmix-ui/hooks@1.8.3
+  - @incmix-ui/transition@1.4.6
 
 ## 1.5.4
 
@@ -827,12 +827,12 @@
 
 - Updated dependencies
   [[`a503acabe`](https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)]:
-  - @chakra-ui/alert@1.3.5
-  - @chakra-ui/close-button@1.2.5
-  - @chakra-ui/hooks@1.8.2
-  - @chakra-ui/theme@1.13.2
-  - @chakra-ui/transition@1.4.5
-  - @chakra-ui/utils@1.10.2
+  - @incmix-ui/alert@1.3.5
+  - @incmix-ui/close-button@1.2.5
+  - @incmix-ui/hooks@1.8.2
+  - @incmix-ui/theme@1.13.2
+  - @incmix-ui/transition@1.4.5
+  - @incmix-ui/utils@1.10.2
 
 ## 1.5.3
 
@@ -850,12 +850,12 @@
 * Updated dependencies
   [[`f1d024749`](https://github.com/chakra-ui/chakra-ui/commit/f1d02474983dc8277e767dc729abc3cbb02cfe10),
   [`24b4333d0`](https://github.com/chakra-ui/chakra-ui/commit/24b4333d008d149380785f87f4891e28584ff89b)]:
-  - @chakra-ui/transition@1.4.4
-  - @chakra-ui/utils@1.10.1
-  - @chakra-ui/theme@1.13.1
-  - @chakra-ui/alert@1.3.4
-  - @chakra-ui/close-button@1.2.4
-  - @chakra-ui/hooks@1.8.1
+  - @incmix-ui/transition@1.4.4
+  - @incmix-ui/utils@1.10.1
+  - @incmix-ui/theme@1.13.1
+  - @incmix-ui/alert@1.3.4
+  - @incmix-ui/close-button@1.2.4
+  - @incmix-ui/hooks@1.8.1
 
 ## 1.5.2
 
@@ -868,12 +868,12 @@
   [`c393dd268`](https://github.com/chakra-ui/chakra-ui/commit/c393dd26808a06a8a6bd19839f4b2f1995157315),
   [`1537a725f`](https://github.com/chakra-ui/chakra-ui/commit/1537a725fbc7f84979e374f546bda625fc685ac3),
   [`a5f3bfce8`](https://github.com/chakra-ui/chakra-ui/commit/a5f3bfce846b44c9a4bdcd0bb80c17eb38da75a7)]:
-  - @chakra-ui/theme@1.13.0
-  - @chakra-ui/hooks@1.8.0
-  - @chakra-ui/utils@1.10.0
-  - @chakra-ui/alert@1.3.3
-  - @chakra-ui/close-button@1.2.3
-  - @chakra-ui/transition@1.4.3
+  - @incmix-ui/theme@1.13.0
+  - @incmix-ui/hooks@1.8.0
+  - @incmix-ui/utils@1.10.0
+  - @incmix-ui/alert@1.3.3
+  - @incmix-ui/close-button@1.2.3
+  - @incmix-ui/transition@1.4.3
 
 ## 1.5.1
 
@@ -884,8 +884,8 @@
   [`3199b7242`](https://github.com/chakra-ui/chakra-ui/commit/3199b724237c56dc3a9c25811a88b2bea1b36ce9),
   [`8a0e5bdbc`](https://github.com/chakra-ui/chakra-ui/commit/8a0e5bdbccb7fa10dd4cd7b909ca60991fce81a0),
   [`eb5850687`](https://github.com/chakra-ui/chakra-ui/commit/eb5850687e0984d95c3dd06e57716188c69cae42)]:
-  - @chakra-ui/hooks@1.7.2
-  - @chakra-ui/theme@1.12.3
+  - @incmix-ui/hooks@1.7.2
+  - @incmix-ui/theme@1.12.3
 
 ## 1.5.0
 
@@ -934,10 +934,10 @@
 - Updated dependencies
   [[`f15099adc`](https://github.com/chakra-ui/chakra-ui/commit/f15099adc60150781607288dbe12133c2fb84e38),
   [`39846457e`](https://github.com/chakra-ui/chakra-ui/commit/39846457e241e6af3d18c77cdc0ba02857fe7462)]:
-  - @chakra-ui/theme@1.12.2
-  - @chakra-ui/transition@1.4.2
-  - @chakra-ui/alert@1.3.2
-  - @chakra-ui/close-button@1.2.2
+  - @incmix-ui/theme@1.12.2
+  - @incmix-ui/transition@1.4.2
+  - @incmix-ui/alert@1.3.2
+  - @incmix-ui/close-button@1.2.2
 
 ## 1.4.1
 
@@ -950,12 +950,12 @@
   Storybook.
 - Updated dependencies
   [[`b28142946`](https://github.com/chakra-ui/chakra-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)]:
-  - @chakra-ui/alert@1.3.1
-  - @chakra-ui/close-button@1.2.1
-  - @chakra-ui/hooks@1.7.1
-  - @chakra-ui/theme@1.12.1
-  - @chakra-ui/transition@1.4.1
-  - @chakra-ui/utils@1.9.1
+  - @incmix-ui/alert@1.3.1
+  - @incmix-ui/close-button@1.2.1
+  - @incmix-ui/hooks@1.7.1
+  - @incmix-ui/theme@1.12.1
+  - @incmix-ui/transition@1.4.1
+  - @incmix-ui/utils@1.9.1
 
 ## 1.4.0
 
@@ -974,17 +974,17 @@
   **Potential Breaking Change:** The side effect of this is that, if you
   imported any function, component or hook using the **undocumented** approach
   like
-  `import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"`,
+  `import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"`,
   you'll notice that the this doesn't work anymore.
 
   Here's how to resolve it:
 
   ```jsx live=false
   // Won't work 🎇
-  import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"
+  import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"
 
   // Works ✅
-  import { useOutsideClick } from "@chakra-ui/hooks"
+  import { useOutsideClick } from "@incmix-ui/hooks"
   ```
 
   If this affected your project, we recommend that you import hooks, functions
@@ -996,12 +996,12 @@
 - Updated dependencies
   [[`0dd56ab1b`](https://github.com/chakra-ui/chakra-ui/commit/0dd56ab1b1ec3abab20ac6d8449757ad40138f29),
   [`6095eaf9a`](https://github.com/chakra-ui/chakra-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)]:
-  - @chakra-ui/theme@1.12.0
-  - @chakra-ui/alert@1.3.0
-  - @chakra-ui/close-button@1.2.0
-  - @chakra-ui/hooks@1.7.0
-  - @chakra-ui/transition@1.4.0
-  - @chakra-ui/utils@1.9.0
+  - @incmix-ui/theme@1.12.0
+  - @incmix-ui/alert@1.3.0
+  - @incmix-ui/close-button@1.2.0
+  - @incmix-ui/hooks@1.7.0
+  - @incmix-ui/transition@1.4.0
+  - @incmix-ui/utils@1.9.0
 
 ## 1.3.4
 
@@ -1014,8 +1014,8 @@
 
 - Updated dependencies
   [[`04774e219`](https://github.com/chakra-ui/chakra-ui/commit/04774e2196b9f3e8edd77f779e8c15981e8d8135)]:
-  - @chakra-ui/theme@1.11.1
-  - @chakra-ui/transition@1.3.8
+  - @incmix-ui/theme@1.11.1
+  - @incmix-ui/transition@1.3.8
 
 ## 1.3.3
 
@@ -1025,12 +1025,12 @@
   [[`e31439c98`](https://github.com/chakra-ui/chakra-ui/commit/e31439c985d71ba0b37197b18a393b0fe5cf79a4),
   [`5fe9b552b`](https://github.com/chakra-ui/chakra-ui/commit/5fe9b552bcae55935d1ab8ffde86b701075e6e6a),
   [`cd0893c56`](https://github.com/chakra-ui/chakra-ui/commit/cd0893c561d8c72b69db7c03d10adae752468a4f)]:
-  - @chakra-ui/theme@1.11.0
-  - @chakra-ui/hooks@1.6.2
-  - @chakra-ui/utils@1.8.4
-  - @chakra-ui/alert@1.2.9
-  - @chakra-ui/close-button@1.1.13
-  - @chakra-ui/transition@1.3.7
+  - @incmix-ui/theme@1.11.0
+  - @incmix-ui/hooks@1.6.2
+  - @incmix-ui/utils@1.8.4
+  - @incmix-ui/alert@1.2.9
+  - @incmix-ui/close-button@1.1.13
+  - @incmix-ui/transition@1.3.7
 
 ## 1.3.2
 
@@ -1040,12 +1040,12 @@
   [[`c06d242c6`](https://github.com/chakra-ui/chakra-ui/commit/c06d242c672a10f93fab4dc2321143beae2db669),
   [`a9d1dc4ac`](https://github.com/chakra-ui/chakra-ui/commit/a9d1dc4ac874825f292d874ad4eadaf060fed436),
   [`5b4d8ef24`](https://github.com/chakra-ui/chakra-ui/commit/5b4d8ef24017dab1d69aeb5016b53366bdb3bcfd)]:
-  - @chakra-ui/utils@1.8.3
-  - @chakra-ui/hooks@1.6.1
-  - @chakra-ui/alert@1.2.8
-  - @chakra-ui/close-button@1.1.12
-  - @chakra-ui/theme@1.10.4
-  - @chakra-ui/transition@1.3.6
+  - @incmix-ui/utils@1.8.3
+  - @incmix-ui/hooks@1.6.1
+  - @incmix-ui/alert@1.2.8
+  - @incmix-ui/close-button@1.1.12
+  - @incmix-ui/theme@1.10.4
+  - @incmix-ui/transition@1.3.6
 
 ## 1.3.1
 
@@ -1059,8 +1059,8 @@
 - Updated dependencies
   [[`eafb21e18`](https://github.com/chakra-ui/chakra-ui/commit/eafb21e1883cf40bfe44e143714d9a480a0cc7da),
   [`b769e88f9`](https://github.com/chakra-ui/chakra-ui/commit/b769e88f977a4e2a8641de57beefd8220bc5dffa)]:
-  - @chakra-ui/transition@1.3.5
-  - @chakra-ui/theme@1.10.3
+  - @incmix-ui/transition@1.3.5
+  - @incmix-ui/theme@1.10.3
 
 ## 1.3.0
 
@@ -1077,7 +1077,7 @@
 
 - Updated dependencies
   [[`09577b088`](https://github.com/chakra-ui/chakra-ui/commit/09577b088272075f6f183bbb34d5639ac5e68cc0)]:
-  - @chakra-ui/theme@1.10.2
+  - @incmix-ui/theme@1.10.2
 
 ## 1.2.11
 
@@ -1091,8 +1091,8 @@
 - Updated dependencies
   [[`28af4c030`](https://github.com/chakra-ui/chakra-ui/commit/28af4c0308e234871548c0857e946e33ff18a130),
   [`633df562f`](https://github.com/chakra-ui/chakra-ui/commit/633df562f4ab22ae5406d5a5cda7661171fc8a65)]:
-  - @chakra-ui/hooks@1.6.0
-  - @chakra-ui/theme@1.10.1
+  - @incmix-ui/hooks@1.6.0
+  - @incmix-ui/theme@1.10.1
 
 ## 1.2.10
 
@@ -1104,12 +1104,12 @@
   [`46d0fb099`](https://github.com/chakra-ui/chakra-ui/commit/46d0fb099f415f7f3556c657ecd05e35ec68a9de),
   [`ff4dc7c38`](https://github.com/chakra-ui/chakra-ui/commit/ff4dc7c38310367c0e89522db9e88ae069cb6c2b),
   [`43f66097b`](https://github.com/chakra-ui/chakra-ui/commit/43f66097b39f1c37a4627dd6ca8a85555f35b95c)]:
-  - @chakra-ui/utils@1.8.2
-  - @chakra-ui/theme@1.10.0
-  - @chakra-ui/alert@1.2.7
-  - @chakra-ui/close-button@1.1.11
-  - @chakra-ui/hooks@1.5.5
-  - @chakra-ui/transition@1.3.4
+  - @incmix-ui/utils@1.8.2
+  - @incmix-ui/theme@1.10.0
+  - @incmix-ui/alert@1.2.7
+  - @incmix-ui/close-button@1.1.11
+  - @incmix-ui/hooks@1.5.5
+  - @incmix-ui/transition@1.3.4
 
 ## 1.2.9
 
@@ -1117,12 +1117,12 @@
 
 - Updated dependencies
   [[`4a1e4d93b`](https://github.com/chakra-ui/chakra-ui/commit/4a1e4d93b0a07df7266d40bb66039385b158d3d1)]:
-  - @chakra-ui/utils@1.8.1
-  - @chakra-ui/theme@1.9.2
-  - @chakra-ui/alert@1.2.6
-  - @chakra-ui/close-button@1.1.10
-  - @chakra-ui/hooks@1.5.4
-  - @chakra-ui/transition@1.3.3
+  - @incmix-ui/utils@1.8.1
+  - @incmix-ui/theme@1.9.2
+  - @incmix-ui/alert@1.2.6
+  - @incmix-ui/close-button@1.1.10
+  - @incmix-ui/hooks@1.5.4
+  - @incmix-ui/transition@1.3.3
 
 ## 1.2.8
 
@@ -1139,9 +1139,9 @@
   [`e8da4c65f`](https://github.com/chakra-ui/chakra-ui/commit/e8da4c65f026f636ea26d11b7aaed63f2babf00d),
   [`aa374ffcb`](https://github.com/chakra-ui/chakra-ui/commit/aa374ffcb4003efd88eb6a62e10723ea9fbfa3d0),
   [`afb9b3cfa`](https://github.com/chakra-ui/chakra-ui/commit/afb9b3cfa87076ed8897b7edd4a9d9f1e1701721)]:
-  - @chakra-ui/theme@1.9.1
-  - @chakra-ui/transition@1.3.2
-  - @chakra-ui/hooks@1.5.3
+  - @incmix-ui/theme@1.9.1
+  - @incmix-ui/transition@1.3.2
+  - @incmix-ui/hooks@1.5.3
 
 ## 1.2.7
 
@@ -1150,8 +1150,8 @@
 - Updated dependencies
   [[`4f1cf6d6b`](https://github.com/chakra-ui/chakra-ui/commit/4f1cf6d6b9de134806c5f24d6b1c49f5aadae9a8),
   [`c1f8d90ad`](https://github.com/chakra-ui/chakra-ui/commit/c1f8d90ad7ebd9594e9888010170cda7969f0ded)]:
-  - @chakra-ui/theme@1.9.0
-  - @chakra-ui/transition@1.3.1
+  - @incmix-ui/theme@1.9.0
+  - @incmix-ui/transition@1.3.1
 
 ## 1.2.6
 
@@ -1163,12 +1163,12 @@
   [`b479ff22e`](https://github.com/chakra-ui/chakra-ui/commit/b479ff22ea10c1a1393224c37c36aa6ceabc4aab),
   [`07d15eab4`](https://github.com/chakra-ui/chakra-ui/commit/07d15eab480724f8fee1a09b7cecdf1e968d9ddd),
   [`d0f50a46e`](https://github.com/chakra-ui/chakra-ui/commit/d0f50a46ea6c2bcf06d8cad8b9b3994fd934be01)]:
-  - @chakra-ui/utils@1.8.0
-  - @chakra-ui/transition@1.3.0
-  - @chakra-ui/hooks@1.5.2
-  - @chakra-ui/alert@1.2.5
-  - @chakra-ui/close-button@1.1.9
-  - @chakra-ui/theme@1.8.5
+  - @incmix-ui/utils@1.8.0
+  - @incmix-ui/transition@1.3.0
+  - @incmix-ui/hooks@1.5.2
+  - @incmix-ui/alert@1.2.5
+  - @incmix-ui/close-button@1.1.9
+  - @incmix-ui/theme@1.8.5
 
 ## 1.2.5
 
@@ -1177,12 +1177,12 @@
 - Updated dependencies
   [[`1d5e55272`](https://github.com/chakra-ui/chakra-ui/commit/1d5e55272fe1475ce6fa0ed5bdccef4218885f77),
   [`e9ac4cc76`](https://github.com/chakra-ui/chakra-ui/commit/e9ac4cc7629cd79efc753b4e3353bacdad46cd7d)]:
-  - @chakra-ui/theme@1.8.4
-  - @chakra-ui/utils@1.7.0
-  - @chakra-ui/alert@1.2.4
-  - @chakra-ui/hooks@1.5.1
-  - @chakra-ui/close-button@1.1.8
-  - @chakra-ui/transition@1.2.2
+  - @incmix-ui/theme@1.8.4
+  - @incmix-ui/utils@1.7.0
+  - @incmix-ui/alert@1.2.4
+  - @incmix-ui/hooks@1.5.1
+  - @incmix-ui/close-button@1.1.8
+  - @incmix-ui/transition@1.2.2
 
 ## 1.2.4
 
@@ -1193,12 +1193,12 @@
   [`59ea894a7`](https://github.com/chakra-ui/chakra-ui/commit/59ea894a7e03d16cd7a1b89d00816eafa9fab65d),
   [`384902e35`](https://github.com/chakra-ui/chakra-ui/commit/384902e35b186c8c8154b9569455c27f72ee0f6f),
   [`9c6be11b1`](https://github.com/chakra-ui/chakra-ui/commit/9c6be11b1d95f8add314dbe214bc7ce3c67b76cd)]:
-  - @chakra-ui/utils@1.6.0
-  - @chakra-ui/hooks@1.5.0
-  - @chakra-ui/theme@1.8.3
-  - @chakra-ui/alert@1.2.3
-  - @chakra-ui/close-button@1.1.7
-  - @chakra-ui/transition@1.2.1
+  - @incmix-ui/utils@1.6.0
+  - @incmix-ui/hooks@1.5.0
+  - @incmix-ui/theme@1.8.3
+  - @incmix-ui/alert@1.2.3
+  - @incmix-ui/close-button@1.1.7
+  - @incmix-ui/transition@1.2.1
 
 ## 1.2.3
 
@@ -1215,12 +1215,12 @@
   [`753b56d63`](https://github.com/chakra-ui/chakra-ui/commit/753b56d6366276f217d28131c17c41427ae7761c),
   [`d1532f0b7`](https://github.com/chakra-ui/chakra-ui/commit/d1532f0b72c36d0609ee4510613d7c76f4f9c113),
   [`890839d9f`](https://github.com/chakra-ui/chakra-ui/commit/890839d9fe32d5ec90954c8f4c5b6c463ff0b57d)]:
-  - @chakra-ui/utils@1.5.2
-  - @chakra-ui/transition@1.2.0
-  - @chakra-ui/theme@1.8.2
-  - @chakra-ui/hooks@1.4.0
-  - @chakra-ui/alert@1.2.2
-  - @chakra-ui/close-button@1.1.6
+  - @incmix-ui/utils@1.5.2
+  - @incmix-ui/transition@1.2.0
+  - @incmix-ui/theme@1.8.2
+  - @incmix-ui/hooks@1.4.0
+  - @incmix-ui/alert@1.2.2
+  - @incmix-ui/close-button@1.1.6
 
 ## 1.2.2
 
@@ -1236,12 +1236,12 @@
   [`c69d2b983`](https://github.com/chakra-ui/chakra-ui/commit/c69d2b98350b57f133d6a8ea47b631cd25693aee),
   [`75817ec42`](https://github.com/chakra-ui/chakra-ui/commit/75817ec428ca3c078660a7c7f2a1c1b578c474df),
   [`e481ba491`](https://github.com/chakra-ui/chakra-ui/commit/e481ba4914a7f163d93d4c22e2e457f1afb08721)]:
-  - @chakra-ui/utils@1.5.1
-  - @chakra-ui/transition@1.1.2
-  - @chakra-ui/theme@1.8.1
-  - @chakra-ui/alert@1.2.1
-  - @chakra-ui/hooks@1.3.1
-  - @chakra-ui/close-button@1.1.5
+  - @incmix-ui/utils@1.5.1
+  - @incmix-ui/transition@1.1.2
+  - @incmix-ui/theme@1.8.1
+  - @incmix-ui/alert@1.2.1
+  - @incmix-ui/hooks@1.3.1
+  - @incmix-ui/close-button@1.1.5
 
 ## 1.2.1
 
@@ -1257,12 +1257,12 @@
   [`aba02eab1`](https://github.com/chakra-ui/chakra-ui/commit/aba02eab1b38ab6c4ea6ae170740a10f8f9f16b7),
   [`a58b724e9`](https://github.com/chakra-ui/chakra-ui/commit/a58b724e9c8656044f866b658f378662f2a44b46),
   [`b724a9dd9`](https://github.com/chakra-ui/chakra-ui/commit/b724a9dd9429d02c0b2c7f7deac66d3553100bdc)]:
-  - @chakra-ui/hooks@1.3.0
-  - @chakra-ui/theme@1.8.0
-  - @chakra-ui/utils@1.5.0
-  - @chakra-ui/alert@1.2.0
-  - @chakra-ui/transition@1.1.1
-  - @chakra-ui/close-button@1.1.4
+  - @incmix-ui/hooks@1.3.0
+  - @incmix-ui/theme@1.8.0
+  - @incmix-ui/utils@1.5.0
+  - @incmix-ui/alert@1.2.0
+  - @incmix-ui/transition@1.1.1
+  - @incmix-ui/close-button@1.1.4
 
 ## 1.2.0
 
@@ -1283,12 +1283,12 @@
   [`9c143bfe5`](https://github.com/chakra-ui/chakra-ui/commit/9c143bfe5bbf180929fabb0a1b4c18d40f7fd3fc),
   [`91ef14839`](https://github.com/chakra-ui/chakra-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b),
   [`eece70293`](https://github.com/chakra-ui/chakra-ui/commit/eece70293fb095d016a1ef8f2e367422b3e02ef5)]:
-  - @chakra-ui/transition@1.1.0
-  - @chakra-ui/hooks@1.2.0
-  - @chakra-ui/utils@1.4.0
-  - @chakra-ui/theme@1.7.1
-  - @chakra-ui/alert@1.1.3
-  - @chakra-ui/close-button@1.1.3
+  - @incmix-ui/transition@1.1.0
+  - @incmix-ui/hooks@1.2.0
+  - @incmix-ui/utils@1.4.0
+  - @incmix-ui/theme@1.7.1
+  - @incmix-ui/alert@1.1.3
+  - @incmix-ui/close-button@1.1.3
 
 ## 1.1.12
 
@@ -1302,12 +1302,12 @@
   [`87cc23e14`](https://github.com/chakra-ui/chakra-ui/commit/87cc23e14814e02cbbfc9737c2356cef682ddd5d),
   [`f032942c8`](https://github.com/chakra-ui/chakra-ui/commit/f032942c8a2568a3a23baee0d5972834345e5fa6),
   [`39375c15b`](https://github.com/chakra-ui/chakra-ui/commit/39375c15b64635ea3f59d9f5ad1f31851f9f018b)]:
-  - @chakra-ui/theme@1.7.0
-  - @chakra-ui/hooks@1.1.5
-  - @chakra-ui/utils@1.3.0
-  - @chakra-ui/alert@1.1.2
-  - @chakra-ui/close-button@1.1.2
-  - @chakra-ui/transition@1.0.9
+  - @incmix-ui/theme@1.7.0
+  - @incmix-ui/hooks@1.1.5
+  - @incmix-ui/utils@1.3.0
+  - @incmix-ui/alert@1.1.2
+  - @incmix-ui/close-button@1.1.2
+  - @incmix-ui/transition@1.0.9
 
 ## 1.1.11
 
@@ -1317,7 +1317,7 @@
   [[`e8113d3ca`](https://github.com/chakra-ui/chakra-ui/commit/e8113d3ca66e9d45ac2dbb7109ff8904cbfd1134),
   [`d6808f0a4`](https://github.com/chakra-ui/chakra-ui/commit/d6808f0a4ae6ad426b498e9556c76071f7aa9848),
   [`8597f58b7`](https://github.com/chakra-ui/chakra-ui/commit/8597f58b7d5c1fe401086d28a379bc1727756c5b)]:
-  - @chakra-ui/theme@1.6.2
+  - @incmix-ui/theme@1.6.2
 
 ## 1.1.10
 
@@ -1325,7 +1325,7 @@
 
 - Updated dependencies
   [[`f3ba8dd53`](https://github.com/chakra-ui/chakra-ui/commit/f3ba8dd53abc697c096165185764235012ada90f)]:
-  - @chakra-ui/theme@1.6.1
+  - @incmix-ui/theme@1.6.1
 
 ## 1.1.9
 
@@ -1334,7 +1334,7 @@
 - [`f50934bdd`](https://github.com/chakra-ui/chakra-ui/commit/f50934bdd5ec47396464a0f4cb02af732f835ee5)
   [#3228](https://github.com/chakra-ui/chakra-ui/pull/3228) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Updated peer dependency
-  version of @reach/alert to fix installation of @chakra-ui with npm v7
+  version of @reach/alert to fix installation of @incmix-ui with npm v7
 - Updated dependencies
   [[`a023a269f`](https://github.com/chakra-ui/chakra-ui/commit/a023a269ffe0efdae74be3de28e41790c9a5ca8a),
   [`2861b613b`](https://github.com/chakra-ui/chakra-ui/commit/2861b613bf354e6d00de01bf12bb543b2f2c2532),
@@ -1342,12 +1342,12 @@
   [`408aaaace`](https://github.com/chakra-ui/chakra-ui/commit/408aaaace0dd413b61354958a4c30b9f2f8aa376),
   [`483687237`](https://github.com/chakra-ui/chakra-ui/commit/483687237f2c4fed05dc6a79693f307c601c1285),
   [`61962345c`](https://github.com/chakra-ui/chakra-ui/commit/61962345c5b1c862445c16c586e304b28c376c9a)]:
-  - @chakra-ui/theme@1.6.0
-  - @chakra-ui/utils@1.2.0
-  - @chakra-ui/alert@1.1.1
-  - @chakra-ui/close-button@1.1.1
-  - @chakra-ui/hooks@1.1.4
-  - @chakra-ui/transition@1.0.8
+  - @incmix-ui/theme@1.6.0
+  - @incmix-ui/utils@1.2.0
+  - @incmix-ui/alert@1.1.1
+  - @incmix-ui/close-button@1.1.1
+  - @incmix-ui/hooks@1.1.4
+  - @incmix-ui/transition@1.0.8
 
 ## 1.1.8
 
@@ -1358,11 +1358,11 @@
   [`90c7a4fbf`](https://github.com/chakra-ui/chakra-ui/commit/90c7a4fbfde69c01395ffe2876d7348dd72ea65a),
   [`709ca0398`](https://github.com/chakra-ui/chakra-ui/commit/709ca0398a8c82c55b85c1364d80b90c5e075257),
   [`b572bceed`](https://github.com/chakra-ui/chakra-ui/commit/b572bceedd9fb0c41c65118f0d9ba672791932ca)]:
-  - @chakra-ui/theme@1.5.0
-  - @chakra-ui/alert@1.1.0
-  - @chakra-ui/close-button@1.1.0
-  - @chakra-ui/hooks@1.1.3
-  - @chakra-ui/transition@1.0.7
+  - @incmix-ui/theme@1.5.0
+  - @incmix-ui/alert@1.1.0
+  - @incmix-ui/close-button@1.1.0
+  - @incmix-ui/hooks@1.1.3
+  - @incmix-ui/transition@1.0.7
 
 ## 1.1.7
 
@@ -1370,8 +1370,8 @@
 
 - Updated dependencies
   [[`002a4361`](https://github.com/chakra-ui/chakra-ui/commit/002a4361bd738bef49e021a2fff2b9b6a9af5815)]:
-  - @chakra-ui/hooks@1.1.2
-  - @chakra-ui/transition@1.0.6
+  - @incmix-ui/hooks@1.1.2
+  - @incmix-ui/transition@1.0.6
 
 ## 1.1.6
 
@@ -1379,8 +1379,8 @@
 
 - Updated dependencies
   [[`02855588`](https://github.com/chakra-ui/chakra-ui/commit/02855588a4ffbc6573768052e53cc538361e91ee)]:
-  - @chakra-ui/hooks@1.1.1
-  - @chakra-ui/transition@1.0.5
+  - @incmix-ui/hooks@1.1.1
+  - @incmix-ui/transition@1.0.5
 
 ## 1.1.5
 
@@ -1391,12 +1391,12 @@
   [`8b87406c`](https://github.com/chakra-ui/chakra-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54),
   [`8b87406c`](https://github.com/chakra-ui/chakra-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54),
   [`8b87406c`](https://github.com/chakra-ui/chakra-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54)]:
-  - @chakra-ui/theme@1.4.1
-  - @chakra-ui/hooks@1.1.0
-  - @chakra-ui/utils@1.1.0
-  - @chakra-ui/transition@1.0.4
-  - @chakra-ui/alert@1.0.4
-  - @chakra-ui/close-button@1.0.4
+  - @incmix-ui/theme@1.4.1
+  - @incmix-ui/hooks@1.1.0
+  - @incmix-ui/utils@1.1.0
+  - @incmix-ui/transition@1.0.4
+  - @incmix-ui/alert@1.0.4
+  - @incmix-ui/close-button@1.0.4
 
 ## 1.1.4
 
@@ -1404,7 +1404,7 @@
 
 - Updated dependencies
   [[`ff7c3676`](https://github.com/chakra-ui/chakra-ui/commit/ff7c36764650dc7f01957c417eae1ec8ce356495)]:
-  - @chakra-ui/theme@1.4.0
+  - @incmix-ui/theme@1.4.0
 
 ## 1.1.3
 
@@ -1413,7 +1413,7 @@
 - Updated dependencies
   [[`f192cfd6`](https://github.com/chakra-ui/chakra-ui/commit/f192cfd640302e75762bb351cec21fdf670ab898),
   [`de3d059b`](https://github.com/chakra-ui/chakra-ui/commit/de3d059bf2ee7ca2a8ba5f10051b4cd76f86847a)]:
-  - @chakra-ui/theme@1.3.0
+  - @incmix-ui/theme@1.3.0
 
 ## 1.1.2
 
@@ -1428,12 +1428,12 @@
   [`e73878ee`](https://github.com/chakra-ui/chakra-ui/commit/e73878ee686c11d3f94ad6ac61b19ae9508d75a5),
   [`85eb4090`](https://github.com/chakra-ui/chakra-ui/commit/85eb409039640949e01f3aa7353519b19a42a53f),
   [`080a7acc`](https://github.com/chakra-ui/chakra-ui/commit/080a7accdd321123e44df082911c6250154fdbd5)]:
-  - @chakra-ui/transition@1.0.3
-  - @chakra-ui/utils@1.0.2
-  - @chakra-ui/theme@1.2.2
-  - @chakra-ui/alert@1.0.3
-  - @chakra-ui/close-button@1.0.3
-  - @chakra-ui/hooks@1.0.2
+  - @incmix-ui/transition@1.0.3
+  - @incmix-ui/utils@1.0.2
+  - @incmix-ui/theme@1.2.2
+  - @incmix-ui/alert@1.0.3
+  - @incmix-ui/close-button@1.0.3
+  - @incmix-ui/hooks@1.0.2
 
 ## 1.1.1
 
@@ -1442,9 +1442,9 @@
 - Updated dependencies
   [[`72bbd0db`](https://github.com/chakra-ui/chakra-ui/commit/72bbd0dbb913ba38ee2b9191d12bf73713ae4398),
   [`c73cce25`](https://github.com/chakra-ui/chakra-ui/commit/c73cce25bf986fd5b1261575ca395f731f827f53)]:
-  - @chakra-ui/theme@1.2.1
-  - @chakra-ui/close-button@1.0.2
-  - @chakra-ui/alert@1.0.2
+  - @incmix-ui/theme@1.2.1
+  - @incmix-ui/close-button@1.0.2
+  - @incmix-ui/alert@1.0.2
 
 ## 1.1.0
 
@@ -1464,8 +1464,8 @@
   [`c696345a`](https://github.com/chakra-ui/chakra-ui/commit/c696345a711338a23542a7b1911a33927a9ba5f1),
   [`9fdc61d8`](https://github.com/chakra-ui/chakra-ui/commit/9fdc61d8801f6d76783b5c9f068525d4dfc28b20),
   [`2416cf9a`](https://github.com/chakra-ui/chakra-ui/commit/2416cf9abe183a3a38adbccff794088d86a46341)]:
-  - @chakra-ui/theme@1.2.0
-  - @chakra-ui/transition@1.0.2
+  - @incmix-ui/theme@1.2.0
+  - @incmix-ui/transition@1.0.2
 
 ## 1.0.1
 
@@ -1476,19 +1476,19 @@
   [`892ea2ca`](https://github.com/chakra-ui/chakra-ui/commit/892ea2ca1c02b4127f4f044df33de58cc7641f5c),
   [`5c482483`](https://github.com/chakra-ui/chakra-ui/commit/5c482483ce24fc798540c9792a15e06772eae213),
   [`204ff7e3`](https://github.com/chakra-ui/chakra-ui/commit/204ff7e39dd37003786194704b36069ef94d56a6)]:
-  - @chakra-ui/theme@1.1.0
-  - @chakra-ui/utils@1.0.1
-  - @chakra-ui/hooks@1.0.1
-  - @chakra-ui/alert@1.0.1
-  - @chakra-ui/close-button@1.0.1
-  - @chakra-ui/transition@1.0.1
+  - @incmix-ui/theme@1.1.0
+  - @incmix-ui/utils@1.0.1
+  - @incmix-ui/hooks@1.0.1
+  - @incmix-ui/alert@1.0.1
+  - @incmix-ui/close-button@1.0.1
+  - @incmix-ui/transition@1.0.1
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # 1.0.0 (2020-11-13)
 
-**Note:** Version bump only for package @chakra-ui/toast
+**Note:** Version bump only for package @incmix-ui/toast
 
 # Change Log
 
@@ -1510,23 +1510,23 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.7 (2020-10-25)
 
-**Note:** Version bump only for package @chakra-ui/toast
+**Note:** Version bump only for package @incmix-ui/toast
 
 # 1.0.0-rc.6 (2020-10-25)
 
-**Note:** Version bump only for package @chakra-ui/toast
+**Note:** Version bump only for package @incmix-ui/toast
 
 # 1.0.0-rc.5 (2020-09-27)
 
-**Note:** Version bump only for package @chakra-ui/toast
+**Note:** Version bump only for package @incmix-ui/toast
 
 # 1.0.0-rc.4 (2020-09-25)
 
-**Note:** Version bump only for package @chakra-ui/toast
+**Note:** Version bump only for package @incmix-ui/toast
 
 # 1.0.0-rc.3 (2020-08-30)
 
-**Note:** Version bump only for package @chakra-ui/toast
+**Note:** Version bump only for package @incmix-ui/toast
 
 # Change Log
 
@@ -1535,50 +1535,50 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.2 (2020-08-09)
 
-**Note:** Version bump only for package @chakra-ui/toast
+**Note:** Version bump only for package @incmix-ui/toast
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.1](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/toast@1.0.0-rc.0...@chakra-ui/toast@1.0.0-rc.1) (2020-08-06)
+# [1.0.0-rc.1](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/toast@1.0.0-rc.0...@incmix-ui/toast@1.0.0-rc.1) (2020-08-06)
 
-**Note:** Version bump only for package @chakra-ui/toast
-
-# Change Log
-
-All notable changes to this project will be documented in this file. See
-[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
-# [1.0.0-rc.0](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/toast@1.0.0-next.7...@chakra-ui/toast@1.0.0-rc.0) (2020-07-26)
-
-**Note:** Version bump only for package @chakra-ui/toast
+**Note:** Version bump only for package @incmix-ui/toast
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.7](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/toast@1.0.0-next.6...@chakra-ui/toast@1.0.0-next.7) (2020-07-26)
+# [1.0.0-rc.0](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/toast@1.0.0-next.7...@incmix-ui/toast@1.0.0-rc.0) (2020-07-26)
 
-**Note:** Version bump only for package @chakra-ui/toast
-
-# Change Log
-
-All notable changes to this project will be documented in this file. See
-[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
-# [1.0.0-next.6](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/toast@1.0.0-next.5...@chakra-ui/toast@1.0.0-next.6) (2020-07-15)
-
-**Note:** Version bump only for package @chakra-ui/toast
+**Note:** Version bump only for package @incmix-ui/toast
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.5](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/toast@1.0.0-next.4...@chakra-ui/toast@1.0.0-next.5) (2020-07-15)
+# [1.0.0-next.7](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/toast@1.0.0-next.6...@incmix-ui/toast@1.0.0-next.7) (2020-07-26)
+
+**Note:** Version bump only for package @incmix-ui/toast
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.0.0-next.6](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/toast@1.0.0-next.5...@incmix-ui/toast@1.0.0-next.6) (2020-07-15)
+
+**Note:** Version bump only for package @incmix-ui/toast
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.0.0-next.5](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/toast@1.0.0-next.4...@incmix-ui/toast@1.0.0-next.5) (2020-07-15)
 
 ### Reverts
 

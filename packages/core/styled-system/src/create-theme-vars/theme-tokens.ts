@@ -1,4 +1,4 @@
-import { pick } from "@chakra-ui/object-utils"
+import { pick } from "@incmix-ui/object-utils"
 
 const tokens = [
   "colors",

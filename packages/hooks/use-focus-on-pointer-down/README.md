@@ -1,4 +1,4 @@
-# @chakra-ui/use-focus-on-pointer-down
+# @incmix-ui/use-focus-on-pointer-down
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @chakra-ui/react-use-focus-on-pointer-down
+yarn add @incmix-ui/react-use-focus-on-pointer-down
 # or
-npm i @chakra-ui/react-use-focus-on-pointer-down
+npm i @incmix-ui/react-use-focus-on-pointer-down
 ```
 
 ## Contribution

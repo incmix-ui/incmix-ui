@@ -1,4 +1,4 @@
-import { Portal } from "@chakra-ui/react"
+import { Portal } from "@incmix-ui/react"
 
 const Page = () => {
   return (

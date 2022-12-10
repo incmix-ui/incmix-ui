@@ -1,6 +1,6 @@
-import { Button } from "@chakra-ui/button"
-import { useDisclosure } from "@chakra-ui/react-use-disclosure"
-import { Box, Container } from "@chakra-ui/layout"
+import { Button } from "@incmix-ui/button"
+import { useDisclosure } from "@incmix-ui/react-use-disclosure"
+import { Box, Container } from "@incmix-ui/layout"
 import {
   Drawer,
   DrawerBody,
@@ -9,8 +9,8 @@ import {
   DrawerFooter,
   DrawerHeader,
   DrawerOverlay,
-} from "@chakra-ui/modal"
-import { chakra } from "@chakra-ui/system"
+} from "@incmix-ui/modal"
+import { chakra } from "@incmix-ui/system"
 import * as React from "react"
 import { ChangeEvent } from "react"
 import {

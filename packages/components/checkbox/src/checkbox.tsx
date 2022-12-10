@@ -8,8 +8,8 @@ import {
   SystemStyleObject,
   ThemingProps,
   useMultiStyleConfig,
-} from "@chakra-ui/system"
-import { callAll, cx } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { callAll, cx } from "@incmix-ui/shared-utils"
 import { cloneElement, useMemo } from "react"
 import { useCheckboxGroupContext } from "./checkbox-context"
 import { CheckboxIcon } from "./checkbox-icon"

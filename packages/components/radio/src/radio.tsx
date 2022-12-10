@@ -8,9 +8,9 @@ import {
   ThemingProps,
   useMultiStyleConfig,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { callAll } from "@chakra-ui/shared-utils"
-import { split } from "@chakra-ui/object-utils"
+} from "@incmix-ui/system"
+import { callAll } from "@incmix-ui/shared-utils"
+import { split } from "@incmix-ui/object-utils"
 import { useRadioGroupContext } from "./radio-group"
 import { useRadio, UseRadioProps } from "./use-radio"
 

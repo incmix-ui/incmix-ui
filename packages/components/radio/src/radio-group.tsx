@@ -3,9 +3,9 @@ import {
   forwardRef,
   ThemingProps,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
-import { createContext } from "@chakra-ui/react-context"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { createContext } from "@incmix-ui/react-context"
 import {
   useRadioGroup,
   UseRadioGroupProps,

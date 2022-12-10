@@ -1,4 +1,4 @@
-import { render, screen } from "@chakra-ui/test-utils"
+import { render, screen } from "@incmix-ui/test-utils"
 import * as React from "react"
 import { Collapse } from "../src"
 

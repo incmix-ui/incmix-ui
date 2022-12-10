@@ -1,5 +1,5 @@
-import { FormControl } from "@chakra-ui/form-control"
-import { fireEvent, render, waitFor } from "@chakra-ui/test-utils"
+import { FormControl } from "@incmix-ui/form-control"
+import { fireEvent, render, waitFor } from "@incmix-ui/test-utils"
 import * as React from "react"
 import { Radio, useRadioGroup, UseRadioGroupProps, RadioGroup } from "../src"
 

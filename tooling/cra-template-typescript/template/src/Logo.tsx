@@ -5,7 +5,7 @@ import {
   ImageProps,
   forwardRef,
   usePrefersReducedMotion,
-} from "@chakra-ui/react"
+} from "@incmix-ui/react"
 import logo from "./logo.svg"
 
 const spin = keyframes`

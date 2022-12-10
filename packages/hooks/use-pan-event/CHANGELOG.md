@@ -1,4 +1,4 @@
-# @chakra-ui/react-use-pan-event
+# @incmix-ui/react-use-pan-event
 
 ## 2.0.6
 
@@ -7,13 +7,13 @@
 - [#6945](https://github.com/chakra-ui/chakra-ui/pull/6945)
   [`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
+  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 - Updated dependencies
   [[`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)]:
-  - @chakra-ui/react-use-latest-ref@2.0.3
-  - @chakra-ui/event-utils@2.0.6
+  - @incmix-ui/react-use-latest-ref@2.0.3
+  - @incmix-ui/event-utils@2.0.6
 
 ## 2.0.5
 
@@ -31,8 +31,8 @@
 * Updated dependencies
   [[`f48718aa8`](https://github.com/chakra-ui/chakra-ui/commit/f48718aa81fa406dbcc8aaea5a94007d85d54349),
   [`9de39921b`](https://github.com/chakra-ui/chakra-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290)]:
-  - @chakra-ui/react-use-latest-ref@2.0.2
-  - @chakra-ui/event-utils@2.0.5
+  - @incmix-ui/react-use-latest-ref@2.0.2
+  - @incmix-ui/event-utils@2.0.5
 
 ## 2.0.4
 
@@ -40,7 +40,7 @@
 
 - Updated dependencies
   [[`7000bb5fe`](https://github.com/chakra-ui/chakra-ui/commit/7000bb5fe432db85ed41aeb0c5d488bbc7da4785)]:
-  - @chakra-ui/event-utils@2.0.4
+  - @incmix-ui/event-utils@2.0.4
 
 ## 2.0.3
 
@@ -54,7 +54,7 @@
   - Refactor code for proper prop doc generatation
 - Updated dependencies
   [[`445661955`](https://github.com/chakra-ui/chakra-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)]:
-  - @chakra-ui/event-utils@2.0.3
+  - @incmix-ui/event-utils@2.0.3
 
 ## 2.0.2
 
@@ -63,7 +63,7 @@
 - Force release
 
 - Updated dependencies []:
-  - @chakra-ui/event-utils@2.0.2
+  - @incmix-ui/event-utils@2.0.2
 
 ## 2.0.1
 
@@ -75,4 +75,4 @@
 
 - Updated dependencies
   [[`597966e46`](https://github.com/chakra-ui/chakra-ui/commit/597966e46f6d0a8cd3f82eafa3f54d5ca9c97127)]:
-  - @chakra-ui/event-utils@2.0.1
+  - @incmix-ui/event-utils@2.0.1

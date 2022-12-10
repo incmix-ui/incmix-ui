@@ -1,4 +1,4 @@
-import { useId, useOptionalPart, useBoolean } from "@chakra-ui/hooks"
+import { useId, useOptionalPart, useBoolean } from "@incmix-ui/hooks"
 
 export default function Page() {
   const [error, setError] = useBoolean()

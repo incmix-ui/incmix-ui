@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/toast",
+  "name": "@incmix-ui/toast",
   "version": "4.0.5",
   "description": "description",
   "keywords": [
@@ -28,27 +28,27 @@
     "url": "https://github.com/chakra-ui/chakra-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/alert": "workspace:*",
-    "@chakra-ui/close-button": "workspace:*",
-    "@chakra-ui/portal": "workspace:*",
-    "@chakra-ui/react-use-update-effect": "workspace:*",
-    "@chakra-ui/react-use-timeout": "workspace:*",
-    "@chakra-ui/styled-system": "workspace:*",
-    "@chakra-ui/theme": "workspace:*"
+    "@incmix-ui/alert": "workspace:*",
+    "@incmix-ui/close-button": "workspace:*",
+    "@incmix-ui/portal": "workspace:*",
+    "@incmix-ui/react-use-update-effect": "workspace:*",
+    "@incmix-ui/react-use-timeout": "workspace:*",
+    "@incmix-ui/styled-system": "workspace:*",
+    "@incmix-ui/theme": "workspace:*"
   },
   "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/hooks": "workspace:*",
-    "@chakra-ui/button": "workspace:*",
-    "@chakra-ui/layout": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/hooks": "workspace:*",
+    "@incmix-ui/button": "workspace:*",
+    "@incmix-ui/layout": "workspace:*",
     "framer-motion": "^6.2.9",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": "2.3.4",
+    "@incmix-ui/system": "2.3.4",
     "framer-motion": ">=4.0.0",
     "react": ">=18",
     "react-dom": ">=18"

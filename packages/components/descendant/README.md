@@ -11,11 +11,11 @@ components.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/descendant
+yarn add @incmix-ui/descendant
 
 # or
 
-npm i @chakra-ui/descendant
+npm i @incmix-ui/descendant
 ```
 
 ## Motivation
@@ -43,7 +43,7 @@ This enables component composition:
 ### Usage
 
 ```jsx
-import { createDescendantContext } from "@chakra-ui/descendant"
+import { createDescendantContext } from "@incmix-ui/descendant"
 import * as React from "react"
 
 const [

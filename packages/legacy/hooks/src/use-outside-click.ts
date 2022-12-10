@@ -1,4 +1,4 @@
-import { getOwnerDocument } from "@chakra-ui/utils"
+import { getOwnerDocument } from "@incmix-ui/utils"
 import { useEffect, useRef } from "react"
 import { useCallbackRef } from "./use-callback-ref"
 

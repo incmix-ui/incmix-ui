@@ -1,4 +1,4 @@
-import { isObject, runIfFn } from "@chakra-ui/shared-utils"
+import { isObject, runIfFn } from "@incmix-ui/shared-utils"
 import * as CSS from "csstype"
 import mergeWith from "lodash.mergewith"
 import { pseudoSelectors } from "./pseudos"

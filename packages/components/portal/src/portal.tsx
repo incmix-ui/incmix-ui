@@ -1,5 +1,5 @@
-import { useSafeLayoutEffect } from "@chakra-ui/react-use-safe-layout-effect"
-import { createContext } from "@chakra-ui/react-context"
+import { useSafeLayoutEffect } from "@incmix-ui/react-use-safe-layout-effect"
+import { createContext } from "@incmix-ui/react-context"
 import { createPortal } from "react-dom"
 import { usePortalManager } from "./portal-manager"
 import { useEffect, useMemo, useRef, useState } from "react"

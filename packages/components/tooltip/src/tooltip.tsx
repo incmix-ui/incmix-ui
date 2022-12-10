@@ -1,5 +1,5 @@
-import { popperCSSVars } from "@chakra-ui/popper"
-import { Portal, PortalProps } from "@chakra-ui/portal"
+import { popperCSSVars } from "@incmix-ui/popper"
+import { Portal, PortalProps } from "@incmix-ui/portal"
 import {
   chakra,
   forwardRef,
@@ -9,8 +9,8 @@ import {
   useStyleConfig,
   useTheme,
   getCSSVar,
-} from "@chakra-ui/system"
-import { omit, pick } from "@chakra-ui/object-utils"
+} from "@incmix-ui/system"
+import { omit, pick } from "@incmix-ui/object-utils"
 import { AnimatePresence, HTMLMotionProps, motion } from "framer-motion"
 import { Children, cloneElement } from "react"
 import { scale } from "./tooltip.transition"

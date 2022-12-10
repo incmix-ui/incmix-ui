@@ -1,4 +1,4 @@
-import { HTMLChakraProps, chakra } from "@chakra-ui/system"
+import { HTMLChakraProps, chakra } from "@incmix-ui/system"
 
 import { rotate } from "./progress.utils"
 

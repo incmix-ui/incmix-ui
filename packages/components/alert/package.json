@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/alert",
+  "name": "@incmix-ui/alert",
   "version": "2.0.13",
   "description": "A React component used to alert users of a particular screen area that needs user action",
   "keywords": [
@@ -30,19 +30,19 @@
     "url": "https://github.com/chakra-ui/chakra-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/icon": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*",
-    "@chakra-ui/spinner": "workspace:*"
+    "@incmix-ui/icon": "workspace:*",
+    "@incmix-ui/react-context": "workspace:*",
+    "@incmix-ui/spinner": "workspace:*"
   },
   "devDependencies": {
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/layout": "workspace:*",
-    "@chakra-ui/shared-utils": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/layout": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   },
   "scripts": {

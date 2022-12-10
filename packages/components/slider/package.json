@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/slider",
+  "name": "@incmix-ui/slider",
   "version": "2.0.15",
   "description": "Accessible slider component for React that implements <input type=range>",
   "keywords": [
@@ -39,28 +39,28 @@
     "url": "https://github.com/chakra-ui/chakra-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/react-use-pan-event": "workspace:*",
-    "@chakra-ui/react-use-size": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*",
-    "@chakra-ui/react-use-update-effect": "workspace:*",
-    "@chakra-ui/react-types": "workspace:*",
-    "@chakra-ui/react-use-controllable-state": "workspace:*",
-    "@chakra-ui/react-use-callback-ref": "workspace:*",
-    "@chakra-ui/react-use-latest-ref": "workspace:*",
-    "@chakra-ui/react-use-merge-refs": "workspace:*",
-    "@chakra-ui/number-utils": "workspace:*"
+    "@incmix-ui/react-use-pan-event": "workspace:*",
+    "@incmix-ui/react-use-size": "workspace:*",
+    "@incmix-ui/react-context": "workspace:*",
+    "@incmix-ui/react-use-update-effect": "workspace:*",
+    "@incmix-ui/react-types": "workspace:*",
+    "@incmix-ui/react-use-controllable-state": "workspace:*",
+    "@incmix-ui/react-use-callback-ref": "workspace:*",
+    "@incmix-ui/react-use-latest-ref": "workspace:*",
+    "@incmix-ui/react-use-merge-refs": "workspace:*",
+    "@incmix-ui/number-utils": "workspace:*"
   },
   "devDependencies": {
-    "@chakra-ui/utils": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/theme": "workspace:*",
-    "@chakra-ui/provider": "workspace:*",
+    "@incmix-ui/utils": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/theme": "workspace:*",
+    "@incmix-ui/provider": "workspace:*",
     "@emotion/styled": "^11.8.1",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   },
   "scripts": {

@@ -1,11 +1,11 @@
 import * as React from "react"
-import { theme as base } from "@chakra-ui/theme"
+import { theme as base } from "@incmix-ui/theme"
 import { useToast, createStandaloneToast, ToastId } from "../src"
-import { Button, ButtonGroup } from "@chakra-ui/button"
-import { chakra, useColorMode } from "@chakra-ui/system"
-import { Alert } from "@chakra-ui/alert"
-import { Text } from "@chakra-ui/layout"
-import { useLatestRef } from "@chakra-ui/hooks"
+import { Button, ButtonGroup } from "@incmix-ui/button"
+import { chakra, useColorMode } from "@incmix-ui/system"
+import { Alert } from "@incmix-ui/alert"
+import { Text } from "@incmix-ui/layout"
+import { useLatestRef } from "@incmix-ui/hooks"
 
 export default {
   title: "Components / Feedback / Toast",

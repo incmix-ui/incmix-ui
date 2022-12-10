@@ -1,4 +1,4 @@
-# @chakra-ui/portal
+# @incmix-ui/portal
 
 A wrapper for rendering components in React Portals, with support for nested
 portals and stacking.
@@ -6,17 +6,17 @@ portals and stacking.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/portal
+yarn add @incmix-ui/portal
 
 # or
 
-npm i @chakra-ui/portal
+npm i @incmix-ui/portal
 ```
 
 ## Import components
 
 ```jsx
-import { Portal, PortalManager } from "@chakra-ui/portal"
+import { Portal, PortalManager } from "@incmix-ui/portal"
 ```
 
 Render the `PortalManager` once at the root of your application

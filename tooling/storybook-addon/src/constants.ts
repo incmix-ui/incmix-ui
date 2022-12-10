@@ -1,4 +1,4 @@
-export const ADDON_ID = "@chakra-ui/storybook-addon"
+export const ADDON_ID = "@incmix-ui/storybook-addon"
 export const COLOR_MODE_TOOL_ID = `${ADDON_ID}/color-mode-tool`
 export const DIRECTION_TOOL_ID = `${ADDON_ID}/direction-tool`
 

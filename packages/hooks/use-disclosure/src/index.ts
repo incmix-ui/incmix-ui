@@ -1,4 +1,4 @@
-import { useCallbackRef } from "@chakra-ui/react-use-callback-ref"
+import { useCallbackRef } from "@incmix-ui/react-use-callback-ref"
 import React, { useCallback, useState, useId } from "react"
 
 export interface UseDisclosureProps {

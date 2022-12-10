@@ -1,4 +1,4 @@
-# @chakra-ui/react-types
+# @incmix-ui/react-types
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @chakra-ui/react-types
+yarn add @incmix-ui/react-types
 # or
-npm i @chakra-ui/react-types
+npm i @incmix-ui/react-types
 ```
 
 ## Contribution

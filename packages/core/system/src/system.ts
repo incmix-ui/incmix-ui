@@ -1,11 +1,11 @@
-import { useColorMode } from "@chakra-ui/color-mode"
+import { useColorMode } from "@incmix-ui/color-mode"
 import {
   css,
   isStyleProp,
   StyleProps,
   SystemStyleObject,
-} from "@chakra-ui/styled-system"
-import { Dict, filterUndefined, objectFilter, runIfFn } from "@chakra-ui/utils"
+} from "@incmix-ui/styled-system"
+import { Dict, filterUndefined, objectFilter, runIfFn } from "@incmix-ui/utils"
 import emotionStyled, {
   CSSObject,
   FunctionInterpolation,

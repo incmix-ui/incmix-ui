@@ -1,4 +1,4 @@
-import { runIfFn } from "@chakra-ui/utils"
+import { runIfFn } from "@incmix-ui/utils"
 import { useEffect } from "react"
 import { useCallbackRef } from "./use-callback-ref"
 

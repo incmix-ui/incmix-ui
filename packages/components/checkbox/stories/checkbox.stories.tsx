@@ -1,5 +1,5 @@
-import { FormControl, FormLabel } from "@chakra-ui/form-control"
-import { Icon } from "@chakra-ui/icon"
+import { FormControl, FormLabel } from "@incmix-ui/form-control"
+import { Icon } from "@incmix-ui/icon"
 import {
   Container,
   Divider,
@@ -9,8 +9,8 @@ import {
   Flex,
   Box,
   Text,
-} from "@chakra-ui/layout"
-import { chakra } from "@chakra-ui/system"
+} from "@incmix-ui/layout"
+import { chakra } from "@incmix-ui/system"
 import * as React from "react"
 import { Checkbox, CheckboxGroup, useCheckbox, useCheckboxGroup } from "../src"
 

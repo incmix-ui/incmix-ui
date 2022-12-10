@@ -1,13 +1,13 @@
-# @chakra-ui/css-reset
+# @incmix-ui/css-reset
 
 A CSS Reset component for Chakra UI components.
 
 ## Installation
 
 ```sh
-npm i @chakra-ui/css-reset
+npm i @incmix-ui/css-reset
 # or
-yarn add @chakra-ui/css-reset
+yarn add @incmix-ui/css-reset
 ```
 
 ## Disabling border for non-keyboard interactions

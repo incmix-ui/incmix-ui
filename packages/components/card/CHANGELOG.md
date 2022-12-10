@@ -1,4 +1,4 @@
-# @chakra-ui/card
+# @incmix-ui/card
 
 ## 2.1.2
 
@@ -6,7 +6,7 @@
 
 - [`43aba8ac8`](https://github.com/chakra-ui/chakra-ui/commit/43aba8ac88dc729b17ae7474b42f82642fe5a15f)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Refactor style
-  context to use `createStylesContext` from `@chakra-ui/system`
+  context to use `createStylesContext` from `@incmix-ui/system`
 
 ## 2.1.1
 
@@ -45,4 +45,4 @@
 
 - Updated dependencies
   [[`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)]:
-  - @chakra-ui/react-context@2.0.5
+  - @incmix-ui/react-context@2.0.5

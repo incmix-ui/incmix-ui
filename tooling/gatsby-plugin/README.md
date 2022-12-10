@@ -1,4 +1,4 @@
-# @chakra-ui/gatsby-plugin
+# @incmix-ui/gatsby-plugin
 
 Gatsby plugin for adding Chakra UI
 
@@ -8,21 +8,21 @@ Gatsby plugin for adding Chakra UI
 peer dependencies.
 
 ```sh
-npm i @chakra-ui/gatsby-plugin @chakra-ui/react @emotion/react @emotion/styled framer-motion
+npm i @incmix-ui/gatsby-plugin @incmix-ui/react @emotion/react @emotion/styled framer-motion
 
 # or
 
-yarn add @chakra-ui/gatsby-plugin @chakra-ui/react @emotion/react @emotion/styled framer-motion
+yarn add @incmix-ui/gatsby-plugin @incmix-ui/react @emotion/react @emotion/styled framer-motion
 ```
 
 ## Usage
 
-1. Add `@chakra-ui/gatsby-plugin` as a plugin in your Gatsby config.
+1. Add `@incmix-ui/gatsby-plugin` as a plugin in your Gatsby config.
 
 ```js
 // gatsby-config.js
 module.exports = {
-  plugins: ["@chakra-ui/gatsby-plugin"],
+  plugins: ["@incmix-ui/gatsby-plugin"],
 }
 ```
 
@@ -31,7 +31,7 @@ module.exports = {
 ```jsx
 // src/pages/index.js
 import React from "react"
-import { Box, Text } from "@chakra-ui/react"
+import { Box, Text } from "@incmix-ui/react"
 
 function IndexPage() {
   return (
@@ -66,7 +66,7 @@ You can disable either of these with Gatsby options:
 module.exports = {
   plugins: [
     {
-      resolve: "@chakra-ui/gatsby-plugin",
+      resolve: "@incmix-ui/gatsby-plugin",
       options: {
         /**
          * @property {boolean} [resetCSS=true]
@@ -88,11 +88,11 @@ module.exports = {
 ## Customizing the theme
 
 To use customize the theme in your Gatsby site, you can shadow the plugin's
-`src/@chakra-ui/gatsby-plugin/theme.js` file with your own theme:
+`src/@incmix-ui/gatsby-plugin/theme.js` file with your own theme:
 
 ```js
-// src/@chakra-ui/gatsby-plugin/theme.js
-import { extendTheme } from "@chakra-ui/react"
+// src/@incmix-ui/gatsby-plugin/theme.js
+import { extendTheme } from "@incmix-ui/react"
 const theme = {
   colors: {
     primary: "rebeccapurple",

@@ -1,4 +1,4 @@
-import { useBoolean } from "@chakra-ui/hooks"
+import { useBoolean } from "@incmix-ui/hooks"
 import * as React from "react"
 import { SlideFade, SlideFadeProps } from ".."
 

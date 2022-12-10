@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/accordion",
+  "name": "@incmix-ui/accordion",
   "version": "2.1.4",
   "description": "A simple and accessible accordion component for React & Chakra UI",
   "keywords": [
@@ -35,26 +35,26 @@
     "url": "https://github.com/chakra-ui/chakra-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/descendant": "workspace:*",
-    "@chakra-ui/react-use-controllable-state": "workspace:*",
-    "@chakra-ui/react-use-merge-refs": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*",
-    "@chakra-ui/icon": "workspace:*",
-    "@chakra-ui/transition": "workspace:*"
+    "@incmix-ui/descendant": "workspace:*",
+    "@incmix-ui/react-use-controllable-state": "workspace:*",
+    "@incmix-ui/react-use-merge-refs": "workspace:*",
+    "@incmix-ui/react-context": "workspace:*",
+    "@incmix-ui/icon": "workspace:*",
+    "@incmix-ui/transition": "workspace:*"
   },
   "devDependencies": {
-    "@chakra-ui/layout": "workspace:*",
-    "@chakra-ui/button": "workspace:*",
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/react-use-disclosure": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/modal": "workspace:*",
+    "@incmix-ui/layout": "workspace:*",
+    "@incmix-ui/button": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
+    "@incmix-ui/react-use-disclosure": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/modal": "workspace:*",
     "framer-motion": "^6.2.9",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "framer-motion": ">=4.0.0",
     "react": ">=18"
   },

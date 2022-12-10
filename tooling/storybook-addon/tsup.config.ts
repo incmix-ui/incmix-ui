@@ -3,7 +3,7 @@ import { defineConfig } from "tsup"
 export default defineConfig({
   entry: ["src/"],
   clean: true,
-  external: ["@chakra-ui/storybook-addon"],
+  external: ["@incmix-ui/storybook-addon"],
   format: ["esm", "cjs"],
   inject: ["../../react-shim.js"],
   outExtension(ctx) {

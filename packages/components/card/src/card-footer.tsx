@@ -1,10 +1,10 @@
-import { cx } from "@chakra-ui/shared-utils"
+import { cx } from "@incmix-ui/shared-utils"
 import {
   forwardRef,
   HTMLChakraProps,
   chakra,
   SystemProps,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 import { useCardStyles } from "./card-context"
 
 export interface CardFooterProps extends HTMLChakraProps<"div"> {

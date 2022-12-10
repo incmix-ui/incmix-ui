@@ -1,4 +1,4 @@
-import { hooks } from "@chakra-ui/test-utils"
+import { hooks } from "@incmix-ui/test-utils"
 import { toCSSVar, useToken } from "../src"
 
 const mockRed = {

@@ -1,6 +1,6 @@
-import { chakra } from "@chakra-ui/system"
+import { chakra } from "@incmix-ui/system"
 import * as React from "react"
-import { Container } from "@chakra-ui/layout"
+import { Container } from "@incmix-ui/layout"
 import { Alert, AlertDescription, AlertIcon, AlertTitle } from "../src"
 
 export default {

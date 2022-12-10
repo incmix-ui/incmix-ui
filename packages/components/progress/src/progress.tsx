@@ -7,8 +7,8 @@ import {
   useMultiStyleConfig,
   HTMLChakraProps,
   forwardRef,
-} from "@chakra-ui/system"
-import { createContext } from "@chakra-ui/react-context"
+} from "@incmix-ui/system"
+import { createContext } from "@incmix-ui/react-context"
 import {
   getProgressProps,
   GetProgressPropsOptions,

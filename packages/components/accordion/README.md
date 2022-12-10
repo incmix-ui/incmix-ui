@@ -1,4 +1,4 @@
-# @chakra-ui/accordion
+# @incmix-ui/accordion
 
 An accordion is a vertically stacked set of interactive headings that each
 contain a title or content snippet representing a section of content.
@@ -9,11 +9,11 @@ associated sections of content.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/accordion
+yarn add @incmix-ui/accordion
 
 # or
 
-npm i @chakra-ui/accordion
+npm i @incmix-ui/accordion
 ```
 
 ## Import Components
@@ -24,7 +24,7 @@ import {
   AccordionItem,
   AccordionButton,
   AccordionPanel,
-} from "@chakra-ui/accordion"
+} from "@incmix-ui/accordion"
 ```
 
 ## Component:

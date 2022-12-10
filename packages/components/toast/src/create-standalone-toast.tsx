@@ -3,8 +3,8 @@ import {
   ColorModeContext,
   ThemeProvider,
   useChakra,
-} from "@chakra-ui/system"
-import defaultTheme from "@chakra-ui/theme"
+} from "@incmix-ui/system"
+import defaultTheme from "@incmix-ui/theme"
 import { ToastProvider, ToastProviderProps } from "./toast.provider"
 import { UseToastOptions } from "./use-toast"
 import { createToastFn, CreateToastFnReturn } from "./toast"

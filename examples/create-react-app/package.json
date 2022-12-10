@@ -3,7 +3,7 @@
   "version": "2.0.14",
   "private": true,
   "dependencies": {
-    "@chakra-ui/react": "workspace:*",
+    "@incmix-ui/react": "workspace:*",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "framer-motion": "^6.2.9",

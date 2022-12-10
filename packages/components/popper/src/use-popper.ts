@@ -1,5 +1,5 @@
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
-import { PropGetter } from "@chakra-ui/react-types"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
+import { PropGetter } from "@incmix-ui/react-types"
 import {
   createPopper,
   Instance,

@@ -1,4 +1,4 @@
-# @chakra-ui/react-use-timeout
+# @incmix-ui/react-use-timeout
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @chakra-ui/react-use-timeout
+yarn add @incmix-ui/react-use-timeout
 # or
-npm i @chakra-ui/react-use-timeout
+npm i @incmix-ui/react-use-timeout
 ```
 
 ## Contribution

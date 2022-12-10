@@ -1,6 +1,6 @@
-import { ChakraProvider } from "@chakra-ui/provider"
-import { theme as baseTheme } from "@chakra-ui/theme"
-import { focus, screen, render, testA11y } from "@chakra-ui/test-utils"
+import { ChakraProvider } from "@incmix-ui/provider"
+import { theme as baseTheme } from "@incmix-ui/theme"
+import { focus, screen, render, testA11y } from "@incmix-ui/test-utils"
 import * as React from "react"
 import styled from "@emotion/styled"
 import {

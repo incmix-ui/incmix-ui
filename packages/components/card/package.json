@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/card",
+  "name": "@incmix-ui/card",
   "version": "2.1.2",
   "description": "React component used to group related content",
   "keywords": [
@@ -34,19 +34,19 @@
     "postpack": "clean-package restore"
   },
   "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/button": "workspace:*",
-    "@chakra-ui/menu": "workspace:*",
-    "@chakra-ui/image": "workspace:*",
-    "@chakra-ui/avatar": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/button": "workspace:*",
+    "@incmix-ui/menu": "workspace:*",
+    "@incmix-ui/image": "workspace:*",
+    "@incmix-ui/avatar": "workspace:*",
     "react-icons": "^4.2.0",
-    "@chakra-ui/layout": "workspace:*",
+    "@incmix-ui/layout": "workspace:*",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   }
 }

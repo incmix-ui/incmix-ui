@@ -1,4 +1,4 @@
-import { HTMLChakraProps, SystemStyleObject, chakra } from "@chakra-ui/system"
+import { HTMLChakraProps, SystemStyleObject, chakra } from "@incmix-ui/system"
 
 import { useProgressStyles } from "./progress"
 

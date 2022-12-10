@@ -1,4 +1,4 @@
-import { FormControl, FormHelperText, FormLabel } from "@chakra-ui/form-control"
+import { FormControl, FormHelperText, FormLabel } from "@incmix-ui/form-control"
 import {
   focus,
   testA11y,
@@ -7,7 +7,7 @@ import {
   hooks,
   screen,
   waitFor,
-} from "@chakra-ui/test-utils"
+} from "@incmix-ui/test-utils"
 import * as React from "react"
 import {
   NumberDecrementStepper,

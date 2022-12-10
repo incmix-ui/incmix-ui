@@ -1,3 +1,3 @@
-import { createStylesContext } from "@chakra-ui/system"
+import { createStylesContext } from "@incmix-ui/system"
 
 export const [CardStylesProvider, useCardStyles] = createStylesContext("Card")

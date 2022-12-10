@@ -1,4 +1,4 @@
-# @chakra-ui/anatomy
+# @incmix-ui/anatomy
 
 ## 2.1.0
 
@@ -30,7 +30,7 @@
 - [#6945](https://github.com/chakra-ui/chakra-ui/pull/6945)
   [`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
+  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 
@@ -99,7 +99,7 @@
 
 - Updated dependencies
   [[`06f29f8cd`](https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1)]:
-  - @chakra-ui/theme-tools@2.0.2
+  - @incmix-ui/theme-tools@2.0.2
 
 ## 2.0.0
 
@@ -125,7 +125,7 @@
 - Updated dependencies
   [[`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7),
   [`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
-  - @chakra-ui/theme-tools@2.0.0
+  - @incmix-ui/theme-tools@2.0.0
 
 ## 2.0.0-next.2
 
@@ -140,7 +140,7 @@
 
 - Updated dependencies
   [[`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)]:
-  - @chakra-ui/theme-tools@2.0.0-next.2
+  - @incmix-ui/theme-tools@2.0.0-next.2
 
 ## 2.0.0-next.1
 
@@ -155,7 +155,7 @@
 
 - Updated dependencies
   [[`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
-  - @chakra-ui/theme-tools@2.0.0-next.1
+  - @incmix-ui/theme-tools@2.0.0-next.1
 
 ## 2.0.0-next.0
 
@@ -170,8 +170,8 @@
 
 - Updated dependencies
   [[`c390af485`](https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)]:
-  - @chakra-ui/system@2.0.0-next.0
-  - @chakra-ui/theme-tools@2.0.0-next.0
+  - @incmix-ui/system@2.0.0-next.0
+  - @incmix-ui/theme-tools@2.0.0-next.0
 
 ## 1.3.0
 
@@ -192,7 +192,7 @@
   CI configuration.
 - Updated dependencies
   [[`e1fe48cbe`](https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)]:
-  - @chakra-ui/theme-tools@1.3.6
+  - @incmix-ui/theme-tools@1.3.6
 
 ## 1.2.4
 
@@ -204,7 +204,7 @@
   part `root` to the Accordion component. It is applied to the topmost DOM
   element.
 - Updated dependencies []:
-  - @chakra-ui/theme-tools@1.3.5
+  - @incmix-ui/theme-tools@1.3.5
 
 ## 1.2.3
 
@@ -217,7 +217,7 @@
 
 - Updated dependencies
   [[`a503acabe`](https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)]:
-  - @chakra-ui/theme-tools@1.3.4
+  - @incmix-ui/theme-tools@1.3.4
 
 ## 1.2.2
 
@@ -229,7 +229,7 @@
   dependencies
 
 - Updated dependencies []:
-  - @chakra-ui/theme-tools@1.3.3
+  - @incmix-ui/theme-tools@1.3.3
 
 ## 1.2.1
 
@@ -242,7 +242,7 @@
   Storybook.
 - Updated dependencies
   [[`b28142946`](https://github.com/chakra-ui/chakra-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)]:
-  - @chakra-ui/theme-tools@1.3.1
+  - @incmix-ui/theme-tools@1.3.1
 
 ## 1.2.0
 
@@ -261,17 +261,17 @@
   **Potential Breaking Change:** The side effect of this is that, if you
   imported any function, component or hook using the **undocumented** approach
   like
-  `import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"`,
+  `import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"`,
   you'll notice that the this doesn't work anymore.
 
   Here's how to resolve it:
 
   ```jsx live=false
   // Won't work 🎇
-  import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"
+  import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"
 
   // Works ✅
-  import { useOutsideClick } from "@chakra-ui/hooks"
+  import { useOutsideClick } from "@incmix-ui/hooks"
   ```
 
   If this affected your project, we recommend that you import hooks, functions
@@ -282,7 +282,7 @@
 
 - Updated dependencies
   [[`6095eaf9a`](https://github.com/chakra-ui/chakra-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)]:
-  - @chakra-ui/theme-tools@1.3.0
+  - @incmix-ui/theme-tools@1.3.0
 
 ## 1.1.0
 
@@ -297,7 +297,7 @@
 
 - Updated dependencies
   [[`cd0893c56`](https://github.com/chakra-ui/chakra-ui/commit/cd0893c561d8c72b69db7c03d10adae752468a4f)]:
-  - @chakra-ui/theme-tools@1.2.3
+  - @incmix-ui/theme-tools@1.2.3
 
 ## 1.0.1
 
@@ -313,4 +313,4 @@
 
 * Updated dependencies
   [[`09577b088`](https://github.com/chakra-ui/chakra-ui/commit/09577b088272075f6f183bbb34d5639ac5e68cc0)]:
-  - @chakra-ui/theme-tools@1.2.1
+  - @incmix-ui/theme-tools@1.2.1

@@ -1,4 +1,4 @@
-import { isObject } from "@chakra-ui/shared-utils"
+import { isObject } from "@incmix-ui/shared-utils"
 
 function getLastItem<T>(array: T[]): T | undefined {
   const length = array == null ? 0 : array.length

@@ -3,7 +3,7 @@ import {
   SystemStyleObject,
   HTMLChakraProps,
   forwardRef,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 
 import { getProgressProps, spin } from "./progress.utils"
 import { Shape } from "./shape"

@@ -1,4 +1,4 @@
-import { usePopper } from "@chakra-ui/popper"
+import { usePopper } from "@incmix-ui/popper"
 import * as React from "react"
 
 const Page = () => {

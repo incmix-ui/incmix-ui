@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/react-use-focus-on-pointer-down",
+  "name": "@incmix-ui/react-use-focus-on-pointer-down",
   "version": "2.0.4",
   "description": "",
   "keywords": [
@@ -37,7 +37,7 @@
     "react": ">=18"
   },
   "dependencies": {
-    "@chakra-ui/react-use-event-listener": "workspace:*"
+    "@incmix-ui/react-use-event-listener": "workspace:*"
   },
   "devDependencies": {
     "react": "^18.0.0",

@@ -5,7 +5,7 @@ import {
   AccordionIcon,
   AccordionPanel,
   Box,
-} from "@chakra-ui/react"
+} from "@incmix-ui/react"
 
 export default function Page() {
   return (

@@ -1,4 +1,4 @@
-import { isObject, runIfFn } from "@chakra-ui/shared-utils"
+import { isObject, runIfFn } from "@incmix-ui/shared-utils"
 
 /**
  * Expands an array or object syntax responsive style.

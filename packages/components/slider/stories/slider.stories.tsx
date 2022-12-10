@@ -1,4 +1,4 @@
-import { chakra } from "@chakra-ui/system"
+import { chakra } from "@incmix-ui/system"
 import * as React from "react"
 import {
   Slider,

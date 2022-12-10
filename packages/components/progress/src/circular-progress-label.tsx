@@ -1,4 +1,4 @@
-import { chakra, HTMLChakraProps } from "@chakra-ui/system"
+import { chakra, HTMLChakraProps } from "@incmix-ui/system"
 
 export interface CircularProgressLabelProps extends HTMLChakraProps<"div"> {}
 

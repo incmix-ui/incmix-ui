@@ -1,4 +1,4 @@
-# @chakra-ui/card
+# @incmix-ui/card
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @chakra-ui/card
+yarn add @incmix-ui/card
 # or
-npm i @chakra-ui/card
+npm i @incmix-ui/card
 ```
 
 ## Contribution

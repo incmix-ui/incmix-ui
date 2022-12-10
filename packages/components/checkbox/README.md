@@ -1,4 +1,4 @@
-# @chakra-ui/checkbox
+# @incmix-ui/checkbox
 
 Checkbox component is used in forms when a user needs to select multiple values
 from several options.
@@ -6,17 +6,17 @@ from several options.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/checkbox
+yarn add @incmix-ui/checkbox
 
 # or
 
-npm i @chakra-ui/checkbox
+npm i @incmix-ui/checkbox
 ```
 
 ## Import component
 
 ```jsx
-import { Checkbox } from "@chakra-ui/checkbox"
+import { Checkbox } from "@incmix-ui/checkbox"
 ```
 
 ## Usage

@@ -5,7 +5,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/storybook-addon@4.0.8
+  - @incmix-ui/storybook-addon@4.0.8
 
 ## 2.0.13
 
@@ -13,14 +13,14 @@
 
 - Updated dependencies
   [[`3dc27e05e`](https://github.com/chakra-ui/chakra-ui/commit/3dc27e05e97a1320c4400de6a03feb787160eafb)]:
-  - @chakra-ui/storybook-addon@4.0.7
+  - @incmix-ui/storybook-addon@4.0.7
 
 ## 2.0.12
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/storybook-addon@4.0.6
+  - @incmix-ui/storybook-addon@4.0.6
 
 ## 2.0.11
 
@@ -28,35 +28,35 @@
 
 - Updated dependencies
   [[`1839e22eb`](https://github.com/chakra-ui/chakra-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)]:
-  - @chakra-ui/storybook-addon@4.0.5
+  - @incmix-ui/storybook-addon@4.0.5
 
 ## 2.0.10
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/storybook-addon@4.0.4
+  - @incmix-ui/storybook-addon@4.0.4
 
 ## 2.0.9
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/storybook-addon@4.0.3
+  - @incmix-ui/storybook-addon@4.0.3
 
 ## 2.0.8
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/storybook-addon@4.0.2
+  - @incmix-ui/storybook-addon@4.0.2
 
 ## 2.0.7
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/storybook-addon@4.0.1
+  - @incmix-ui/storybook-addon@4.0.1
 
 ## 2.0.6
 
@@ -69,42 +69,42 @@
 - Updated dependencies
   [[`06f29f8cd`](https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1),
   [`06a09312a`](https://github.com/chakra-ui/chakra-ui/commit/06a09312a5c776350a81e099106be9afda5e8cdd)]:
-  - @chakra-ui/storybook-addon@4.0.0
+  - @incmix-ui/storybook-addon@4.0.0
 
 ## 2.0.5
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/storybook-addon@3.0.2
+  - @incmix-ui/storybook-addon@3.0.2
 
 ## 2.0.4
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/storybook-addon@3.0.1
+  - @incmix-ui/storybook-addon@3.0.1
 
 ## 2.0.3
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/storybook-addon@3.0.0
+  - @incmix-ui/storybook-addon@3.0.0
 
 ## 2.0.2
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/storybook-addon@2.0.2
+  - @incmix-ui/storybook-addon@2.0.2
 
 ## 2.0.1
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @chakra-ui/storybook-addon@2.0.1
+  - @incmix-ui/storybook-addon@2.0.1
 
 ## 2.0.0
 
@@ -134,7 +134,7 @@
   [`9b3f71ed3`](https://github.com/chakra-ui/chakra-ui/commit/9b3f71ed358f8e0f5a795a02a861a13fa966b341),
   [`41b3119f5`](https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196),
   [`9b3f71ed3`](https://github.com/chakra-ui/chakra-ui/commit/9b3f71ed358f8e0f5a795a02a861a13fa966b341)]:
-  - @chakra-ui/storybook-addon@2.0.0
+  - @incmix-ui/storybook-addon@2.0.0
 
 ## 2.0.0-next.2
 
@@ -150,7 +150,7 @@
 - Updated dependencies
   [[`dfc759a5e`](https://github.com/chakra-ui/chakra-ui/commit/dfc759a5eae79b6147a0dfcbafb71ea398021861),
   [`ed692c0ae`](https://github.com/chakra-ui/chakra-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)]:
-  - @chakra-ui/storybook-addon@2.0.0-next.5
+  - @incmix-ui/storybook-addon@2.0.0-next.5
 
 ## 2.0.0-next.1
 

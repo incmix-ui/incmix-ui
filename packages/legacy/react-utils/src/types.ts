@@ -1,4 +1,4 @@
-import { EventKeys, Merge } from "@chakra-ui/utils"
+import { EventKeys, Merge } from "@incmix-ui/utils"
 
 export type MaybeRenderProp<P> =
   | React.ReactNode

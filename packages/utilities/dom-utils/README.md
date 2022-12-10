@@ -1,4 +1,4 @@
-# @chakra-ui/dom-utils
+# @incmix-ui/dom-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @chakra-ui/dom-utils
+yarn add @incmix-ui/dom-utils
 # or
-npm i @chakra-ui/dom-utils
+npm i @incmix-ui/dom-utils
 ```
 
 ## Contribution

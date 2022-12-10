@@ -1,5 +1,5 @@
 import * as React from "react"
-import { render, screen, act } from "@chakra-ui/test-utils"
+import { render, screen, act } from "@incmix-ui/test-utils"
 import { createStandaloneToast } from "../src"
 
 describe("Standalone Toast", () => {

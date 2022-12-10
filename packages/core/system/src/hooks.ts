@@ -1,5 +1,5 @@
-import { useColorMode } from "@chakra-ui/color-mode"
-import { Dict, StringOrNumber } from "@chakra-ui/utils"
+import { useColorMode } from "@incmix-ui/color-mode"
+import { Dict, StringOrNumber } from "@incmix-ui/utils"
 import { useTheme } from "./use-theme"
 
 export function useChakra<T extends Dict = Dict>() {

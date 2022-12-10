@@ -1,4 +1,4 @@
-import { useEventListener } from "@chakra-ui/react-use-event-listener"
+import { useEventListener } from "@incmix-ui/react-use-event-listener"
 
 export interface UseFocusOnMouseDownProps {
   enabled?: boolean

@@ -1,4 +1,4 @@
-import { isString, __DEV__ } from "@chakra-ui/utils"
+import { isString, __DEV__ } from "@incmix-ui/utils"
 
 /**
  * All html and svg elements for chakra components.

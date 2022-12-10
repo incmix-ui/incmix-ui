@@ -3,7 +3,7 @@ import {
   getPointerEventName,
   wrapPointerEventHandler,
   EventListenerWithPointInfo,
-} from "@chakra-ui/utils"
+} from "@incmix-ui/utils"
 import { useCallback, useEffect, useRef } from "react"
 
 interface EventListeners {

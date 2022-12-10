@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react"
-import { useCallbackRef } from "@chakra-ui/react-use-callback-ref"
+import { useCallbackRef } from "@incmix-ui/react-use-callback-ref"
 
 /**
  * Given a prop value and state value, the useControllableProp hook is used to determine whether a component is controlled or uncontrolled, and also returns the computed value.

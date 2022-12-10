@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/progress",
+  "name": "@incmix-ui/progress",
   "version": "2.1.2",
   "description": "Progress bar component for Chakra UI",
   "keywords": [
@@ -29,15 +29,15 @@
     "url": "https://github.com/chakra-ui/chakra-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/react-context": "workspace:*"
+    "@incmix-ui/react-context": "workspace:*"
   },
   "devDependencies": {
-    "@chakra-ui/system": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   },
   "scripts": {

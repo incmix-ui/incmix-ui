@@ -1,9 +1,9 @@
-import { useEventListener } from "@chakra-ui/react-use-event-listener"
-import { useDisclosure } from "@chakra-ui/react-use-disclosure"
-import { popperCSSVars, usePopper, UsePopperProps } from "@chakra-ui/popper"
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
-import { PropGetter } from "@chakra-ui/react-types"
-import { callAllHandlers } from "@chakra-ui/shared-utils"
+import { useEventListener } from "@incmix-ui/react-use-event-listener"
+import { useDisclosure } from "@incmix-ui/react-use-disclosure"
+import { popperCSSVars, usePopper, UsePopperProps } from "@incmix-ui/popper"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
+import { PropGetter } from "@incmix-ui/react-types"
+import { callAllHandlers } from "@incmix-ui/shared-utils"
 import React, {
   useCallback,
   useEffect,

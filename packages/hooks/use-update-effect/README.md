@@ -1,4 +1,4 @@
-# @chakra-ui/use-update-effect
+# @incmix-ui/use-update-effect
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @chakra-ui/react-use-update-effect
+yarn add @incmix-ui/react-use-update-effect
 # or
-npm i @chakra-ui/react-use-update-effect
+npm i @incmix-ui/react-use-update-effect
 ```
 
 ## Contribution

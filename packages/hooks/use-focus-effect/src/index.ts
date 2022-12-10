@@ -3,10 +3,10 @@ import {
   getActiveElement,
   getAllFocusable,
   isTabbable,
-} from "@chakra-ui/dom-utils"
-import { useEventListener } from "@chakra-ui/react-use-event-listener"
-import { useSafeLayoutEffect } from "@chakra-ui/react-use-safe-layout-effect"
-import { useUpdateEffect } from "@chakra-ui/react-use-update-effect"
+} from "@incmix-ui/dom-utils"
+import { useEventListener } from "@incmix-ui/react-use-event-listener"
+import { useSafeLayoutEffect } from "@incmix-ui/react-use-safe-layout-effect"
+import { useUpdateEffect } from "@incmix-ui/react-use-update-effect"
 import type { RefObject } from "react"
 import { useCallback, useRef } from "react"
 

@@ -4,10 +4,10 @@ import {
   AlertIcon,
   AlertProps,
   AlertTitle,
-} from "@chakra-ui/alert"
-import { chakra } from "@chakra-ui/system"
-import { CloseButton } from "@chakra-ui/close-button"
-import { runIfFn } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/alert"
+import { chakra } from "@incmix-ui/system"
+import { CloseButton } from "@incmix-ui/close-button"
+import { runIfFn } from "@incmix-ui/shared-utils"
 import type { UseToastOptions } from "./use-toast"
 import type { RenderProps, ToastId } from "./toast.types"
 import { getToastPlacement } from "./toast.placement"

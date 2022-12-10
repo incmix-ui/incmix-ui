@@ -1,6 +1,6 @@
-import { Icon, IconProps } from "@chakra-ui/icon"
-import { SystemStyleObject } from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+import { Icon, IconProps } from "@incmix-ui/icon"
+import { SystemStyleObject } from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import {
   useAccordionItemContext,
   useAccordionStyles,

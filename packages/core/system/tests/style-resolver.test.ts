@@ -1,5 +1,5 @@
-import { toCSSVar } from "@chakra-ui/styled-system"
-import defaultTheme from "@chakra-ui/theme"
+import { toCSSVar } from "@incmix-ui/styled-system"
+import defaultTheme from "@incmix-ui/theme"
 import { toCSSObject } from "../src/system"
 
 const theme = toCSSVar({

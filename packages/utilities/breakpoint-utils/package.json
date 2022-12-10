@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/breakpoint-utils",
+  "name": "@incmix-ui/breakpoint-utils",
   "version": "2.0.5",
   "description": "",
   "keywords": [
@@ -36,7 +36,7 @@
     "postpack": "clean-package restore"
   },
   "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
     "clean-package": "2.1.1"
   }
 }

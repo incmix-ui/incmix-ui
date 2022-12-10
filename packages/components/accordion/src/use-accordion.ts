@@ -1,7 +1,7 @@
-import { createContext } from "@chakra-ui/react-context"
-import { useControllableState } from "@chakra-ui/react-use-controllable-state"
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
-import { callAllHandlers, warn } from "@chakra-ui/shared-utils"
+import { createContext } from "@incmix-ui/react-context"
+import { useControllableState } from "@incmix-ui/react-use-controllable-state"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
+import { callAllHandlers, warn } from "@incmix-ui/shared-utils"
 
 import { useCallback, useEffect, useId, useRef, useState } from "react"
 import {

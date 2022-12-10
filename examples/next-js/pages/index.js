@@ -10,7 +10,7 @@ import {
   Stack,
   useColorMode,
   useColorModeValue,
-} from "@chakra-ui/react"
+} from "@incmix-ui/react"
 import Head from "next/head"
 import { useState } from "react"
 

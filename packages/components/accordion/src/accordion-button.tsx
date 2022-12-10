@@ -3,8 +3,8 @@ import {
   forwardRef,
   HTMLChakraProps,
   SystemStyleObject,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/shared-utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
 import {
   useAccordionItemContext,
   useAccordionStyles,

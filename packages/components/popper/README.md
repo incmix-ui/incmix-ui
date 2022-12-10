@@ -9,7 +9,7 @@ a reference.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/popper
+yarn add @incmix-ui/popper
 ```
 
 ## Basic usage
@@ -18,10 +18,10 @@ By default, the `usePopper` hook returns props for the popper, reference and
 arrow.
 
 ```jsx
-import { Box } from "@chakra-ui/layout"
-import { Button } from "@chakra-ui/button"
-import { useDisclosure } from "@chakra-ui/hooks"
-import { usePopper } from "@chakra-ui/popper"
+import { Box } from "@incmix-ui/layout"
+import { Button } from "@incmix-ui/button"
+import { useDisclosure } from "@incmix-ui/hooks"
+import { usePopper } from "@incmix-ui/popper"
 
 function Example() {
   const { isOpen, onToggle } = useDisclosure()
@@ -103,8 +103,8 @@ popper and transition to different elements.
 
 ```tsx
 // 1. Import components
-import { useDisclosure } from "@chakra-ui/hooks"
-import { usePopper } from "@chakra-ui/popper"
+import { useDisclosure } from "@incmix-ui/hooks"
+import { usePopper } from "@incmix-ui/popper"
 import { motion, AnimatePresence, Variants } from "framer-motion"
 
 export function Example() {

@@ -1,5 +1,5 @@
-import { cx } from "@chakra-ui/shared-utils"
-import { HTMLChakraProps, chakra, forwardRef } from "@chakra-ui/system"
+import { cx } from "@incmix-ui/shared-utils"
+import { HTMLChakraProps, chakra, forwardRef } from "@incmix-ui/system"
 
 import { useTabsStyles } from "./tabs"
 import { useTabPanels } from "./use-tabs"

@@ -1,4 +1,4 @@
-import { testA11y, render, screen, fireEvent } from "@chakra-ui/test-utils"
+import { testA11y, render, screen, fireEvent } from "@incmix-ui/test-utils"
 import * as React from "react"
 import { Tab, TabList, TabPanel, TabPanels, Tabs } from "../src"
 

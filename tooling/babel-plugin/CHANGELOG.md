@@ -73,7 +73,7 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0 (2020-11-13)
 
-**Note:** Version bump only for package @chakra-ui/babel-plugin
+**Note:** Version bump only for package @incmix-ui/babel-plugin
 
 # Change Log
 

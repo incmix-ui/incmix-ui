@@ -1,5 +1,5 @@
-import { chakra } from "@chakra-ui/system"
-// import { extendTheme, useTheme, ThemeProvider } from "@chakra-ui/react"
+import { chakra } from "@incmix-ui/system"
+// import { extendTheme, useTheme, ThemeProvider } from "@incmix-ui/react"
 import * as React from "react"
 import { Progress, ProgressLabel } from "../src"
 

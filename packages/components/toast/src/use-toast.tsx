@@ -1,5 +1,5 @@
-import type { AlertStatus } from "@chakra-ui/alert"
-import { StyleProps, ThemingProps, useChakra } from "@chakra-ui/system"
+import type { AlertStatus } from "@incmix-ui/alert"
+import { StyleProps, ThemingProps, useChakra } from "@incmix-ui/system"
 import type { RenderProps, ToastId, ToastOptions } from "./toast.types"
 import { createToastFn, CreateToastFnReturn } from "./toast"
 import { ToastPosition } from "./toast.placement"

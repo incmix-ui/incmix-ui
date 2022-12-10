@@ -1,12 +1,12 @@
-import { useClickable, UseClickableProps } from "@chakra-ui/clickable"
-import { createDescendantContext } from "@chakra-ui/descendant"
-import { createContext } from "@chakra-ui/react-context"
-import { useSafeLayoutEffect } from "@chakra-ui/react-use-safe-layout-effect"
-import { useControllableState } from "@chakra-ui/react-use-controllable-state"
-import { getValidChildren } from "@chakra-ui/react-children-utils"
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
-import { lazyDisclosure, LazyMode } from "@chakra-ui/lazy-utils"
-import { callAllHandlers } from "@chakra-ui/shared-utils"
+import { useClickable, UseClickableProps } from "@incmix-ui/clickable"
+import { createDescendantContext } from "@incmix-ui/descendant"
+import { createContext } from "@incmix-ui/react-context"
+import { useSafeLayoutEffect } from "@incmix-ui/react-use-safe-layout-effect"
+import { useControllableState } from "@incmix-ui/react-use-controllable-state"
+import { getValidChildren } from "@incmix-ui/react-children-utils"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
+import { lazyDisclosure, LazyMode } from "@incmix-ui/lazy-utils"
+import { callAllHandlers } from "@incmix-ui/shared-utils"
 import {
   useCallback,
   useEffect,

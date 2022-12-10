@@ -1,4 +1,4 @@
-# @chakra-ui/react-use-interval
+# @incmix-ui/react-use-interval
 
 ## 2.0.3
 
@@ -7,12 +7,12 @@
 - [#6945](https://github.com/chakra-ui/chakra-ui/pull/6945)
   [`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
+  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 - Updated dependencies
   [[`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)]:
-  - @chakra-ui/react-use-callback-ref@2.0.5
+  - @incmix-ui/react-use-callback-ref@2.0.5
 
 ## 2.0.2
 
@@ -25,7 +25,7 @@
 
 - Updated dependencies
   [[`9de39921b`](https://github.com/chakra-ui/chakra-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290)]:
-  - @chakra-ui/react-use-callback-ref@2.0.4
+  - @incmix-ui/react-use-callback-ref@2.0.4
 
 ## 2.0.1
 
@@ -39,4 +39,4 @@
   - Refactor code for proper prop doc generatation
 - Updated dependencies
   [[`445661955`](https://github.com/chakra-ui/chakra-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)]:
-  - @chakra-ui/react-use-callback-ref@2.0.3
+  - @incmix-ui/react-use-callback-ref@2.0.3

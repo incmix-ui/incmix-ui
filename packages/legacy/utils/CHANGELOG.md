@@ -7,7 +7,7 @@
 - [#6945](https://github.com/chakra-ui/chakra-ui/pull/6945)
   [`75eaba929`](https://github.com/chakra-ui/chakra-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
+  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 
@@ -217,7 +217,7 @@
   `flatten`
 
   ```ts
-  import { flatten } from "@chakra-ui/utils"
+  import { flatten } from "@incmix-ui/utils"
 
   flatten({ space: [0, 1, 2, 4, 8, 16, 32] })
   /** =>
@@ -260,17 +260,17 @@
   **Potential Breaking Change:** The side effect of this is that, if you
   imported any function, component or hook using the **undocumented** approach
   like
-  `import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"`,
+  `import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"`,
   you'll notice that the this doesn't work anymore.
 
   Here's how to resolve it:
 
   ```jsx live=false
   // Won't work 🎇
-  import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"
+  import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"
 
   // Works ✅
-  import { useOutsideClick } from "@chakra-ui/hooks"
+  import { useOutsideClick } from "@incmix-ui/hooks"
   ```
 
   If this affected your project, we recommend that you import hooks, functions
@@ -284,7 +284,7 @@
 - [`cd0893c56`](https://github.com/chakra-ui/chakra-ui/commit/cd0893c561d8c72b69db7c03d10adae752468a4f)
   [#4873](https://github.com/chakra-ui/chakra-ui/pull/4873) Thanks
   [@Nfinished](https://github.com/Nfinished)! - fix: always use fromEntries
-  polyfill from @chakra-ui/utils #4872
+  polyfill from @incmix-ui/utils #4872
 
 ## 1.8.3
 
@@ -409,7 +409,7 @@
 * [`b724a9dd9`](https://github.com/chakra-ui/chakra-ui/commit/b724a9dd9429d02c0b2c7f7deac66d3553100bdc)
   [#3674](https://github.com/chakra-ui/chakra-ui/pull/3674) Thanks
   [@codebender828](https://github.com/codebender828)! - Extract all React based
-  utilities and types into `@chakra-ui/react-utils`
+  utilities and types into `@incmix-ui/react-utils`
 
 ## 1.4.0
 
@@ -521,7 +521,7 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0 (2020-11-13)
 
-**Note:** Version bump only for package @chakra-ui/utils
+**Note:** Version bump only for package @incmix-ui/utils
 
 # Change Log
 
@@ -543,23 +543,23 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.7 (2020-10-25)
 
-**Note:** Version bump only for package @chakra-ui/utils
+**Note:** Version bump only for package @incmix-ui/utils
 
 # 1.0.0-rc.6 (2020-10-25)
 
-**Note:** Version bump only for package @chakra-ui/utils
+**Note:** Version bump only for package @incmix-ui/utils
 
 # 1.0.0-rc.5 (2020-09-27)
 
-**Note:** Version bump only for package @chakra-ui/utils
+**Note:** Version bump only for package @incmix-ui/utils
 
 # 1.0.0-rc.4 (2020-09-25)
 
-**Note:** Version bump only for package @chakra-ui/utils
+**Note:** Version bump only for package @incmix-ui/utils
 
 # 1.0.0-rc.3 (2020-08-30)
 
-**Note:** Version bump only for package @chakra-ui/utils
+**Note:** Version bump only for package @incmix-ui/utils
 
 # Change Log
 
@@ -568,32 +568,32 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.2 (2020-08-09)
 
-**Note:** Version bump only for package @chakra-ui/utils
+**Note:** Version bump only for package @incmix-ui/utils
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.1](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/utils@1.0.0-rc.0...@chakra-ui/utils@1.0.0-rc.1) (2020-08-06)
+# [1.0.0-rc.1](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/utils@1.0.0-rc.0...@incmix-ui/utils@1.0.0-rc.1) (2020-08-06)
 
-**Note:** Version bump only for package @chakra-ui/utils
-
-# Change Log
-
-All notable changes to this project will be documented in this file. See
-[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
-# [1.0.0-rc.0](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/utils@1.0.0-next.7...@chakra-ui/utils@1.0.0-rc.0) (2020-07-26)
-
-**Note:** Version bump only for package @chakra-ui/utils
+**Note:** Version bump only for package @incmix-ui/utils
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.7](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/utils@1.0.0-next.6...@chakra-ui/utils@1.0.0-next.7) (2020-07-26)
+# [1.0.0-rc.0](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/utils@1.0.0-next.7...@incmix-ui/utils@1.0.0-rc.0) (2020-07-26)
+
+**Note:** Version bump only for package @incmix-ui/utils
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.0.0-next.7](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/utils@1.0.0-next.6...@incmix-ui/utils@1.0.0-next.7) (2020-07-26)
 
 ### Bug Fixes
 
@@ -610,16 +610,16 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.6](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/utils@1.0.0-next.5...@chakra-ui/utils@1.0.0-next.6) (2020-07-15)
+# [1.0.0-next.6](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/utils@1.0.0-next.5...@incmix-ui/utils@1.0.0-next.6) (2020-07-15)
 
-**Note:** Version bump only for package @chakra-ui/utils
+**Note:** Version bump only for package @incmix-ui/utils
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.5](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/utils@1.0.0-next.4...@chakra-ui/utils@1.0.0-next.5) (2020-07-15)
+# [1.0.0-next.5](https://github.com/chakra-ui/chakra-ui/compare/@incmix-ui/utils@1.0.0-next.4...@incmix-ui/utils@1.0.0-next.5) (2020-07-15)
 
 ### Bug Fixes
 

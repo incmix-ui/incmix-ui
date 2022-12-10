@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/cli",
+  "name": "@incmix-ui/cli",
   "version": "2.2.0",
   "description": "Generate theme typings for autocomplete",
   "keywords": [

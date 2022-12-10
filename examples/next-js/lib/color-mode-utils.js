@@ -1,5 +1,5 @@
 import { setCookies, getCookie } from "cookies-next"
-import { STORAGE_KEY } from "@chakra-ui/react"
+import { STORAGE_KEY } from "@incmix-ui/react"
 
 export const colorModeConfig = {
   initialColorMode: "light",

@@ -6,11 +6,11 @@ task that takes a long time or consists of several steps.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/progress
+yarn add @incmix-ui/progress
 
 # or
 
-npm i @chakra-ui/progress
+npm i @incmix-ui/progress
 ```
 
 ## Import Components
@@ -21,7 +21,7 @@ import {
   ProgressLabel,
   CircularProgress,
   CircularProgressLabel,
-} from "@chakra-ui/progress"
+} from "@incmix-ui/progress"
 ```
 
 ## Usage

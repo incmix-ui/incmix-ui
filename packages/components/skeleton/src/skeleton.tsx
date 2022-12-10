@@ -1,5 +1,5 @@
-import { usePrevious } from "@chakra-ui/react-use-previous"
-import { cx } from "@chakra-ui/shared-utils"
+import { usePrevious } from "@incmix-ui/react-use-previous"
+import { cx } from "@incmix-ui/shared-utils"
 import {
   chakra,
   cssVar,
@@ -10,7 +10,7 @@ import {
   ThemingProps,
   useStyleConfig,
   useToken,
-} from "@chakra-ui/system"
+} from "@incmix-ui/system"
 import { useIsFirstRender } from "./use-is-first-render"
 
 export interface SkeletonOptions {

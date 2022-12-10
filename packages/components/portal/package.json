@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/portal",
+  "name": "@incmix-ui/portal",
   "version": "2.0.12",
   "description": "React component used to render children outside the DOM hierarchy of the parent component",
   "keywords": [
@@ -30,15 +30,15 @@
     "url": "https://github.com/chakra-ui/chakra-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/react-use-safe-layout-effect": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*"
+    "@incmix-ui/react-use-safe-layout-effect": "workspace:*",
+    "@incmix-ui/react-context": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18"
   },
   "devDependencies": {
-    "@chakra-ui/button": "workspace:*",
+    "@incmix-ui/button": "workspace:*",
     "@testing-library/react": "13.3.0",
     "@types/react-frame-component": "^4.1.1",
     "react": "^18.0.0",

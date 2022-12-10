@@ -1,3 +1,3 @@
-import { theme } from "@chakra-ui/react"
+import { theme } from "@incmix-ui/react"
 
 export default theme

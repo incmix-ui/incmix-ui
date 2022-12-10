@@ -1,4 +1,4 @@
-# @chakra-ui/use-outside-click
+# @incmix-ui/use-outside-click
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @chakra-ui/react-use-outside-click
+yarn add @incmix-ui/react-use-outside-click
 # or
-npm i @chakra-ui/react-use-outside-click
+npm i @incmix-ui/react-use-outside-click
 ```
 
 ## Contribution

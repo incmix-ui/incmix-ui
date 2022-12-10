@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/react-use-interval",
+  "name": "@incmix-ui/react-use-interval",
   "version": "2.0.3",
   "description": "",
   "keywords": [
@@ -34,7 +34,7 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@chakra-ui/react-use-callback-ref": "workspace:*"
+    "@incmix-ui/react-use-callback-ref": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=18"

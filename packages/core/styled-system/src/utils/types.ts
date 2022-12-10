@@ -1,4 +1,4 @@
-import { AnalyzeBreakpointsReturn } from "@chakra-ui/breakpoint-utils"
+import { AnalyzeBreakpointsReturn } from "@incmix-ui/breakpoint-utils"
 import { ThemeTypings } from "../theme.types"
 
 export type ResponsiveArray<T> = Array<T | null>

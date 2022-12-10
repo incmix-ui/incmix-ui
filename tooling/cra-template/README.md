@@ -1,4 +1,4 @@
-# @chakra-ui/cra-template
+# @incmix-ui/cra-template
 
 This is the official Chakra+JavaScript template for
 [Create React App](https://github.com/facebook/create-react-app).
@@ -6,5 +6,5 @@ This is the official Chakra+JavaScript template for
 ## Usage
 
 ```sh
-npx create-react-app my-app --template @chakra-ui
+npx create-react-app my-app --template @incmix-ui
 ```

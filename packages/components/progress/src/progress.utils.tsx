@@ -1,4 +1,4 @@
-import { keyframes } from "@chakra-ui/system"
+import { keyframes } from "@incmix-ui/system"
 
 function valueToPercent(value: number, min: number, max: number) {
   return ((value - min) * 100) / (max - min)

@@ -20,16 +20,16 @@ module.exports = {
     "@storybook/addon-a11y",
     "@storybook/addon-essentials",
     "@storybook/addon-storysource",
-    "@chakra-ui/storybook-addon",
+    "@incmix-ui/storybook-addon",
   ],
   webpackFinal: async (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
-      "@chakra-ui/react": path.resolve(
+      "@incmix-ui/react": path.resolve(
         __dirname,
         "../packages/components/react/src",
       ),
-      "@chakra-ui/theme": path.resolve(
+      "@incmix-ui/theme": path.resolve(
         __dirname,
         "../packages/components/theme/src",
       ),

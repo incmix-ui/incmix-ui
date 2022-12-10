@@ -7,5 +7,5 @@ Shared Vanilla TS/JS utilities for various Chakra UI components and packages.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/utils
+yarn add @incmix-ui/utils
 ```

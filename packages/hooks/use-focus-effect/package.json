@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/react-use-focus-effect",
+  "name": "@incmix-ui/react-use-focus-effect",
   "version": "2.0.7",
   "description": "",
   "keywords": [
@@ -41,9 +41,9 @@
     "clean-package": "2.1.1"
   },
   "dependencies": {
-    "@chakra-ui/react-use-event-listener": "workspace:*",
-    "@chakra-ui/react-use-update-effect": "workspace:*",
-    "@chakra-ui/react-use-safe-layout-effect": "workspace:*",
-    "@chakra-ui/dom-utils": "workspace:*"
+    "@incmix-ui/react-use-event-listener": "workspace:*",
+    "@incmix-ui/react-use-update-effect": "workspace:*",
+    "@incmix-ui/react-use-safe-layout-effect": "workspace:*",
+    "@incmix-ui/dom-utils": "workspace:*"
   }
 }

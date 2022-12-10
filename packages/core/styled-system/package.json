@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/styled-system",
+  "name": "@incmix-ui/styled-system",
   "version": "2.4.0",
   "description": "Style function for css-in-js building component libraries",
   "keywords": [
@@ -37,10 +37,10 @@
     "lodash.mergewith": "4.6.2"
   },
   "devDependencies": {
-    "@chakra-ui/breakpoint-utils": "workspace:*",
-    "@chakra-ui/merge-utils": "workspace:*",
-    "@chakra-ui/object-utils": "workspace:*",
-    "@chakra-ui/shared-utils": "workspace:*",
+    "@incmix-ui/breakpoint-utils": "workspace:*",
+    "@incmix-ui/merge-utils": "workspace:*",
+    "@incmix-ui/object-utils": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@types/lodash.mergewith": "4.6.6",

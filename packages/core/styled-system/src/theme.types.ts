@@ -3,16 +3,16 @@ import type { ThemeTypings as GeneratedThemeTypings } from "./theming.types"
 
 /**
  * This is a placeholder meant to be implemented via TypeScript's Module
- * Augmentation feature and is an alternative to running `npx @chakra-ui/cli
+ * Augmentation feature and is an alternative to running `npx @incmix-ui/cli
  * tokens`
  *
  * @example
  * ```ts
- * import { BaseThemeTypings } from "@chakra-ui/styled-system";
+ * import { BaseThemeTypings } from "@incmix-ui/styled-system";
  *
  * type DefaultSizes = 'small' | 'medium' | 'large';
  *
- * declare module "@chakra-ui/styled-system" {
+ * declare module "@incmix-ui/styled-system" {
  *   export interface CustomThemeTypings extends BaseThemeTypings {
  *     // Example custom `borders` tokens
  *     borders: 'none' | 'thin' | 'thick';

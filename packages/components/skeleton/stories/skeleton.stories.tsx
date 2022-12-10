@@ -1,5 +1,5 @@
-import { Stack } from "@chakra-ui/layout"
-import { chakra, DarkMode } from "@chakra-ui/system"
+import { Stack } from "@incmix-ui/layout"
+import { chakra, DarkMode } from "@incmix-ui/system"
 import * as React from "react"
 import { Skeleton, SkeletonCircle, SkeletonText } from "../src"
 

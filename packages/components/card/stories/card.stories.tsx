@@ -1,6 +1,6 @@
-import { Avatar } from "@chakra-ui/avatar"
-import { Button, ButtonGroup, IconButton } from "@chakra-ui/button"
-import { Image } from "@chakra-ui/image"
+import { Avatar } from "@incmix-ui/avatar"
+import { Button, ButtonGroup, IconButton } from "@incmix-ui/button"
+import { Image } from "@incmix-ui/image"
 import {
   Box,
   Divider,
@@ -9,8 +9,8 @@ import {
   Stack,
   StackDivider,
   Text,
-} from "@chakra-ui/layout"
-import { chakra } from "@chakra-ui/system"
+} from "@incmix-ui/layout"
+import { chakra } from "@incmix-ui/system"
 import { BiChat, BiLike, BiShare } from "react-icons/bi"
 import { BsThreeDotsVertical } from "react-icons/bs"
 import { Card, CardBody, CardFooter, CardHeader } from "../src"

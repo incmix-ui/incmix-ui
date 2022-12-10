@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useBoolean } from "@chakra-ui/hooks"
+import { useBoolean } from "@incmix-ui/hooks"
 
 import { Collapse, CollapseProps } from "../src"
 

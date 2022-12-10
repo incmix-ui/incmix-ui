@@ -1,4 +1,4 @@
-import { createContext } from "@chakra-ui/react-context"
+import { createContext } from "@incmix-ui/react-context"
 import {
   chakra,
   forwardRef,
@@ -8,8 +8,8 @@ import {
   ThemingProps,
   useMultiStyleConfig,
   useTheme,
-} from "@chakra-ui/system"
-import { cx } from "@chakra-ui/utils"
+} from "@incmix-ui/system"
+import { cx } from "@incmix-ui/utils"
 import { useSlider, UseSliderProps, UseSliderReturn } from "./use-slider"
 
 interface SliderContext

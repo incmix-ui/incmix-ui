@@ -1,7 +1,7 @@
 import * as React from "react"
-import { render } from "@chakra-ui/test-utils"
+import { render } from "@incmix-ui/test-utils"
 import MatchMediaMock from "jest-matchmedia-mock"
-import { ChakraProvider } from "@chakra-ui/provider"
+import { ChakraProvider } from "@incmix-ui/provider"
 import { Skeleton, SkeletonText } from "../src"
 import { queries, theme } from "./test-data"
 

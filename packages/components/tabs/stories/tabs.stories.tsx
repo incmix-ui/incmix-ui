@@ -1,11 +1,11 @@
-import { useInterval } from "@chakra-ui/react-use-interval"
+import { useInterval } from "@incmix-ui/react-use-interval"
 import {
   Drawer,
   DrawerBody,
   DrawerContent,
   DrawerOverlay,
-} from "@chakra-ui/modal"
-import { chakra } from "@chakra-ui/system"
+} from "@incmix-ui/modal"
+import { chakra } from "@incmix-ui/system"
 import * as React from "react"
 import { Tab, TabIndicator, TabList, TabPanel, TabPanels, Tabs } from "../src"
 

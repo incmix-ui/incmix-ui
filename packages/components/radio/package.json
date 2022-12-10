@@ -1,5 +1,5 @@
 {
-  "name": "@chakra-ui/radio",
+  "name": "@incmix-ui/radio",
   "version": "2.0.14",
   "description": "A React component to render custom Radio input types",
   "keywords": [
@@ -30,23 +30,23 @@
     "url": "https://github.com/chakra-ui/chakra-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/form-control": "workspace:*",
-    "@chakra-ui/react-types": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*",
-    "@chakra-ui/react-use-merge-refs": "workspace:*",
+    "@incmix-ui/form-control": "workspace:*",
+    "@incmix-ui/react-types": "workspace:*",
+    "@incmix-ui/react-context": "workspace:*",
+    "@incmix-ui/react-use-merge-refs": "workspace:*",
     "@zag-js/focus-visible": "0.1.0"
   },
   "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/object-utils": "workspace:*",
-    "@chakra-ui/visually-hidden": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/layout": "workspace:*",
+    "@incmix-ui/shared-utils": "workspace:*",
+    "@incmix-ui/object-utils": "workspace:*",
+    "@incmix-ui/visually-hidden": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/layout": "workspace:*",
     "react": "^18.0.0",
     "clean-package": "2.1.1"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
+    "@incmix-ui/system": ">=2.0.0",
     "react": ">=18"
   },
   "scripts": {

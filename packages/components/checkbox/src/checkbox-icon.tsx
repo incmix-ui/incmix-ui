@@ -1,4 +1,4 @@
-import { chakra, PropsOf } from "@chakra-ui/system"
+import { chakra, PropsOf } from "@incmix-ui/system"
 
 function CheckIcon(props: PropsOf<typeof chakra.svg>) {
   return (

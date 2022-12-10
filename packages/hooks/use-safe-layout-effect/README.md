@@ -1,4 +1,4 @@
-# @chakra-ui/use-safe-layout-effect
+# @incmix-ui/use-safe-layout-effect
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @chakra-ui/react-use-safe-layout-effect
+yarn add @incmix-ui/react-use-safe-layout-effect
 # or
-npm i @chakra-ui/react-use-safe-layout-effect
+npm i @incmix-ui/react-use-safe-layout-effect
 ```
 
 ## Contribution

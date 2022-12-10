@@ -1,19 +1,19 @@
-import { usePanEvent } from "@chakra-ui/react-use-pan-event"
-import { useControllableState } from "@chakra-ui/react-use-controllable-state"
-import { useCallbackRef } from "@chakra-ui/react-use-callback-ref"
-import { useUpdateEffect } from "@chakra-ui/react-use-update-effect"
-import { mergeRefs } from "@chakra-ui/react-use-merge-refs"
-import type { PropGetter, RequiredPropGetter } from "@chakra-ui/react-types"
-import { ariaAttr, callAllHandlers, dataAttr } from "@chakra-ui/utils"
+import { usePanEvent } from "@incmix-ui/react-use-pan-event"
+import { useControllableState } from "@incmix-ui/react-use-controllable-state"
+import { useCallbackRef } from "@incmix-ui/react-use-callback-ref"
+import { useUpdateEffect } from "@incmix-ui/react-use-update-effect"
+import { mergeRefs } from "@incmix-ui/react-use-merge-refs"
+import type { PropGetter, RequiredPropGetter } from "@incmix-ui/react-types"
+import { ariaAttr, callAllHandlers, dataAttr } from "@incmix-ui/utils"
 import {
   percentToValue,
   roundValueToStep,
   valueToPercent,
   clampValue,
-} from "@chakra-ui/number-utils"
+} from "@incmix-ui/number-utils"
 import { useCallback, useMemo, useRef, useState, useId } from "react"
 import { getIds, getIsReversed, getStyles, orient } from "./slider-utils"
-import { useSizes } from "@chakra-ui/react-use-size"
+import { useSizes } from "@incmix-ui/react-use-size"
 
 export interface UseRangeSliderProps {
   /**

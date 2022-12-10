@@ -1,5 +1,5 @@
 import { AnimatePresence, Variants } from "framer-motion"
-import { Portal, PortalProps } from "@chakra-ui/portal"
+import { Portal, PortalProps } from "@incmix-ui/portal"
 import { ToastComponent, ToastComponentProps } from "./toast.component"
 import type {
   CloseAllToastsOptions,

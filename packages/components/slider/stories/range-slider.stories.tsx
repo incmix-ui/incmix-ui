@@ -1,4 +1,4 @@
-import { chakra, useTheme } from "@chakra-ui/system"
+import { chakra, useTheme } from "@incmix-ui/system"
 import * as React from "react"
 import {
   useRangeSlider,

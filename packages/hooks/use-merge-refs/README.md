@@ -1,4 +1,4 @@
-# @chakra-ui/use-merge-refs
+# @incmix-ui/use-merge-refs
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @chakra-ui/use-merge-refs
+yarn add @incmix-ui/use-merge-refs
 # or
-npm i @chakra-ui/use-merge-refs
+npm i @incmix-ui/use-merge-refs
 ```
 
 ## Contribution

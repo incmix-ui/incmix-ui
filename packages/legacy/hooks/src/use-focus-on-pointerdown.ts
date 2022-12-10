@@ -5,7 +5,7 @@ import {
   getOwnerDocument,
   isActiveElement,
   isRefObject,
-} from "@chakra-ui/utils"
+} from "@incmix-ui/utils"
 import { usePointerEvent } from "./use-pointer-event"
 
 export interface UseFocusOnMouseDownProps {
