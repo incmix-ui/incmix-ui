@@ -1,0 +1,23 @@
+{
+  "id": "icon-button",
+  "scope": "theming",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var x=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),p=(t,n)=>{for(var e in n)a(t,e,{get:n[e],enumerable:!0})},s=(t,n,e,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of _(n))!g.call(t,r)&&r!==e&&a(t,r,{get:()=>n[r],enumerable:!(c=f(n,r))||c.enumerable});return t};var M=(t,n,e)=>(e=t!=null?x(d(t)):{},s(n||!t||!t.__esModule?a(e,\"default\",{value:t,enumerable:!0}):e,t)),b=t=>s(a({},\"__esModule\",{value:!0}),t);var m=j((X,i)=>{i.exports=_jsx_runtime});var D={};p(D,{default:()=>C,frontmatter:()=>h});var o=M(m()),h={id:\"icon-button\",scope:\"theming\"};function u(t){return(0,o.jsx)(o.Fragment,{})}function l(t={}){let{wrapper:n}=t.components||{};return n?(0,o.jsx)(n,Object.assign({},t,{children:(0,o.jsx)(u,t)})):u(t)}var C=l;return b(D);})();\n;return Component;"
+  },
+  "_id": "docs/components/icon-button/theming.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/icon-button/theming.mdx",
+    "sourceFileName": "theming.mdx",
+    "sourceFileDir": "docs/components/icon-button",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/icon-button/theming"
+  },
+  "type": "Doc",
+  "slug": "/docs/components/icon-button/theming",
+  "frontMatter": {
+    "slug": "/docs/components/icon-button/theming",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/components/icon-button/theming.mdx",
+    "headings": []
+  }
+}

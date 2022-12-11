@@ -1,0 +1,53 @@
+{
+  "title": "Portals and z-index",
+  "description": "Fighting the z-index war with Incmix Portal",
+  "author": "mrmckeb",
+  "body": {
+    "raw": "\nEvery UI has stackable layers and it is important to have control over how these\nlayers play together. Some examples of stackable layers are tooltips, modals,\npopovers, selects, dropdowns, and menus.\n\nThe issues that come up across the usage of these layers are related to z-index\nand visibility handling, in other words, \"what layer goes on top?\"\n\n## What's wrong with z-index?\n\nYou might have encountered this if you've worked in codebases with\n`z-index: 9999`. This technique is an attempt to ensure than an element is\nalways on top of all other elements.\n\nBut this method isn't as safe as you might think:\n\n- It introduces scaling issues, which you can manage with global values (such as\n  a [theme](/docs/styled-system/theme#z-index-values)).\n- Components are still constrained and impacted by stacking contexts.\n\n### Stacking contexts\n\nA stacking context can be created in many ways, and here are just a few\nexamples:\n\n- Element with a `position: absolute` or `position: relative` and `z-index`\n  value other than `auto`.\n- An element with an `opacity` value less than `1`.\n- An element with a `transform` or `filter` applied.\n- A child of a flexbox or grid container with a `z-index` other than `auto`.\n\nOnce a stacking context is created, the `z-index` rules of the any child\nstacking context(s) now only have meaning in this parent.\n\n> We have some links at the end of this page to help you learn more about\n> stacking contexts.\n\n## Incmix Portal to the rescue\n\nAn alternative to `z-index` is to use the DOM's natural stacking order to our\nadvantage. [React's Portals](https://reactjs.org/docs/portals.html) allow us to\ninsert a child into a different location in the document, whilst not affecting\nother behaviours in React such as event bubbling.\n\nIncmix Portal implementation allows for nesting, and defaults to inserting\nchildren at the end of `document.body`.\n\nWith this approach, you can create a stacking context for your application, and\nbe certain that any children you render with Portal will always appear on top of\neverything else in your application, regardless of child stacking contexts.\n\nThis is particularly useful for components like modals and toast notifications.\n\n### Can I still use z-index alongside Portals?\n\nYes, there are many cases where this will make sense.\n\nAs a general rule, we recommend not exceeding `z-index` values of more than `1`\nor `2`, and to use stacking contexts to combat more complex stacking issues.\n\n## Further reading\n\nIf you're interested in learning more about `z-index` and stacking contexts,\ncheck out these great resources:\n\n- [Understanding z-index (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index)\n- [The stacking context (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)\n",
+    "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var i in e)a(t,i,{get:e[i],enumerable:!0})},c=(t,e,i,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!g.call(t,o)&&o!==i&&a(t,o,{get:()=>e[o],enumerable:!(r=u(e,o))||r.enumerable});return t};var w=(t,e,i)=>(i=t!=null?h(m(t)):{},c(e||!t||!t.__esModule?a(i,\"default\",{value:t,enumerable:!0}):i,t)),y=t=>c(a({},\"__esModule\",{value:!0}),t);var l=x((S,s)=>{s.exports=_jsx_runtime});var z={};f(z,{default:()=>v,frontmatter:()=>k});var n=w(l()),k={title:\"Portals and z-index\",description:\"Fighting the z-index war with Incmix Portal\",author:\"mrmckeb\"};function d(t){let e=Object.assign({p:\"p\",h2:\"h2\",code:\"code\",ul:\"ul\",li:\"li\",a:\"a\",h3:\"h3\",blockquote:\"blockquote\"},t.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:`Every UI has stackable layers and it is important to have control over how these\nlayers play together. Some examples of stackable layers are tooltips, modals,\npopovers, selects, dropdowns, and menus.`}),`\n`,(0,n.jsx)(e.p,{children:`The issues that come up across the usage of these layers are related to z-index\nand visibility handling, in other words, \"what layer goes on top?\"`}),`\n`,(0,n.jsx)(e.h2,{id:\"whats-wrong-with-z-index\",children:\"What's wrong with z-index?\"}),`\n`,(0,n.jsxs)(e.p,{children:[`You might have encountered this if you've worked in codebases with\n`,(0,n.jsx)(e.code,{children:\"z-index: 9999\"}),`. This technique is an attempt to ensure than an element is\nalways on top of all other elements.`]}),`\n`,(0,n.jsx)(e.p,{children:\"But this method isn't as safe as you might think:\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`It introduces scaling issues, which you can manage with global values (such as\na `,(0,n.jsx)(e.a,{href:\"/docs/styled-system/theme#z-index-values\",children:\"theme\"}),\").\"]}),`\n`,(0,n.jsx)(e.li,{children:\"Components are still constrained and impacted by stacking contexts.\"}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{id:\"stacking-contexts\",children:\"Stacking contexts\"}),`\n`,(0,n.jsx)(e.p,{children:`A stacking context can be created in many ways, and here are just a few\nexamples:`}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[\"Element with a \",(0,n.jsx)(e.code,{children:\"position: absolute\"}),\" or \",(0,n.jsx)(e.code,{children:\"position: relative\"}),\" and \",(0,n.jsx)(e.code,{children:\"z-index\"}),`\nvalue other than `,(0,n.jsx)(e.code,{children:\"auto\"}),\".\"]}),`\n`,(0,n.jsxs)(e.li,{children:[\"An element with an \",(0,n.jsx)(e.code,{children:\"opacity\"}),\" value less than \",(0,n.jsx)(e.code,{children:\"1\"}),\".\"]}),`\n`,(0,n.jsxs)(e.li,{children:[\"An element with a \",(0,n.jsx)(e.code,{children:\"transform\"}),\" or \",(0,n.jsx)(e.code,{children:\"filter\"}),\" applied.\"]}),`\n`,(0,n.jsxs)(e.li,{children:[\"A child of a flexbox or grid container with a \",(0,n.jsx)(e.code,{children:\"z-index\"}),\" other than \",(0,n.jsx)(e.code,{children:\"auto\"}),\".\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.p,{children:[\"Once a stacking context is created, the \",(0,n.jsx)(e.code,{children:\"z-index\"}),` rules of the any child\nstacking context(s) now only have meaning in this parent.`]}),`\n`,(0,n.jsxs)(e.blockquote,{children:[`\n`,(0,n.jsx)(e.p,{children:`We have some links at the end of this page to help you learn more about\nstacking contexts.`}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{id:\"incmix-portal-to-the-rescue\",children:\"Incmix Portal to the rescue\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"An alternative to \",(0,n.jsx)(e.code,{children:\"z-index\"}),` is to use the DOM's natural stacking order to our\nadvantage. `,(0,n.jsx)(e.a,{href:\"https://reactjs.org/docs/portals.html\",children:\"React's Portals\"}),` allow us to\ninsert a child into a different location in the document, whilst not affecting\nother behaviours in React such as event bubbling.`]}),`\n`,(0,n.jsxs)(e.p,{children:[`Incmix Portal implementation allows for nesting, and defaults to inserting\nchildren at the end of `,(0,n.jsx)(e.code,{children:\"document.body\"}),\".\"]}),`\n`,(0,n.jsx)(e.p,{children:`With this approach, you can create a stacking context for your application, and\nbe certain that any children you render with Portal will always appear on top of\neverything else in your application, regardless of child stacking contexts.`}),`\n`,(0,n.jsx)(e.p,{children:\"This is particularly useful for components like modals and toast notifications.\"}),`\n`,(0,n.jsx)(e.h3,{id:\"can-i-still-use-z-index-alongside-portals\",children:\"Can I still use z-index alongside Portals?\"}),`\n`,(0,n.jsx)(e.p,{children:\"Yes, there are many cases where this will make sense.\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"As a general rule, we recommend not exceeding \",(0,n.jsx)(e.code,{children:\"z-index\"}),\" values of more than \",(0,n.jsx)(e.code,{children:\"1\"}),`\nor `,(0,n.jsx)(e.code,{children:\"2\"}),\", and to use stacking contexts to combat more complex stacking issues.\"]}),`\n`,(0,n.jsx)(e.h2,{id:\"further-reading\",children:\"Further reading\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"If you're interested in learning more about \",(0,n.jsx)(e.code,{children:\"z-index\"}),` and stacking contexts,\ncheck out these great resources:`]}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:(0,n.jsx)(e.a,{href:\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index\",children:\"Understanding z-index (MDN)\"})}),`\n`,(0,n.jsx)(e.li,{children:(0,n.jsx)(e.a,{href:\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\",children:\"The stacking context (MDN)\"})}),`\n`]})]})}function b(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,Object.assign({},t,{children:(0,n.jsx)(d,t)})):d(t)}var v=b;return y(z);})();\n;return Component;"
+  },
+  "_id": "community/recipes/z-index.mdx",
+  "_raw": {
+    "sourceFilePath": "community/recipes/z-index.mdx",
+    "sourceFileName": "z-index.mdx",
+    "sourceFileDir": "community/recipes",
+    "contentType": "mdx",
+    "flattenedPath": "community/recipes/z-"
+  },
+  "type": "Recipe",
+  "slug": "/community/recipes/z-",
+  "frontMatter": {
+    "title": "Portals and z-index",
+    "description": "Fighting the z-index war with Incmix Portal",
+    "author": "mrmckeb",
+    "slug": "/community/community/recipes/z-",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/community/recipes/z-index.mdx",
+    "headings": [
+      {
+        "text": "What's wrong with z-index?",
+        "id": "whats-wrong-with-z-index",
+        "level": "h2"
+      },
+      {
+        "text": "Stacking contexts",
+        "id": "stacking-contexts",
+        "level": "h3"
+      },
+      {
+        "text": "Incmix Portal to the rescue",
+        "id": "incmix-portal-to-the-rescue",
+        "level": "h2"
+      },
+      {
+        "text": "Can I still use z-index alongside Portals?",
+        "id": "can-i-still-use-z-index-alongside-portals",
+        "level": "h3"
+      },
+      {
+        "text": "Further reading",
+        "id": "further-reading",
+        "level": "h2"
+      }
+    ]
+  }
+}

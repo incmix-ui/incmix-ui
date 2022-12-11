@@ -1,0 +1,143 @@
+---
+title: 'Incmix Factory'
+package: '@incmix-ui/system'
+description: Using the incmix factory and elements
+category: 'features'
+---
+
+Incmix factory serves as an **object of incmix enabled JSX elements**, and also
+**a function that can be used to enable custom component** receive incmix's
+style props.
+
+```bash
+import { incmix } from "@incmix-ui/react"
+```
+
+## Incmix JSX Elements
+
+Create base html elements with theme-aware style props using `incmix.<element>`
+notation. For example, if you want a plain html button with ability to pass
+incmix styles, you can write `<incmix.button />`.
+
+```jsx
+<incmix.button px="3" py="2" bg="green.200" rounded="md" _hover={{ bg: 'green.300' }}>
+  Click me
+</incmix.button>
+```
+
+This reduces the need to create custom component wrappers and name them. This
+syntax is available for common html elements. See the reference for the full
+[list of elements](https://github.com/incmix-ui/incmix-ui/blob/main/packages/system/src/system.utils.ts#L9)
+supported.
+
+```jsx live=false
+<incmix.h1 fontSize="lg"> Heading </incmix.h1>
+```
+
+## Incmix factory function
+
+This is a function that converts **non-incmix components** or **jsx element** to
+incmix-enabled components so you can pass style props to them.
+
+Consider a package called `react-input-autoresize`, let's use the incmix factory
+function to make possible to pass style props.
+
+The function will infer the prop types from the wrapped component and also add
+incmix style props.
+
+```jsx live=false
+import { incmix } from '@incmix-ui/react'
+import Textarea from 'react-input-autoresize'
+
+const AutoResizeInput = incmix(Textarea)
+
+function Example() {
+  return <AutoResizeInput bg="red.200" fontSize="12px" />
+}
+```
+
+> Considering that Incmix uses `emotion` under the hood, ensure the non-incmix
+> component accepts `className` as props for this to work correctly
+
+### Attaching styles
+
+In some instances, you might need to attach specific styles to the component
+wrapped in the incmix factory
+
+```jsx live=false
+const AutoResizeInput = incmix(AutoResizeInput, {
+  baseStyle: {
+    bg: 'papayawhip',
+    color: 'red.500',
+  },
+})
+```
+
+You can also use the incmix factory on jsx elements as well.
+
+```jsx live=false
+const Card = incmix('div', {
+  baseStyle: {
+    shadow: 'lg',
+    rounded: 'lg',
+    bg: 'white',
+  },
+})
+```
+
+### Allowing custom props to be forwarded
+
+By default, the `incmix` factory only filters incmix related style props from
+getting to the DOM. For more fine-grained control of how and what prop should be
+forwarded, pass the `shouldForwardProp` option.
+
+Here's a simple example that allows all props (including incmix's style props)
+to pass through except the `sample` prop.
+
+```jsx live=false
+const Div = incmix('div', {
+  shouldForwardProp: prop => !['sample'].includes(prop),
+})
+```
+
+Another example that combines the default `shouldForwardProp` from Incmix UI
+with custom logic.
+
+```jsx live=false
+import { incmix, shouldForwardProp } from '@incmix-ui/react'
+
+const Div = incmix('div', {
+  shouldForwardProp: prop => {
+    // don't forward Incmix's props
+    const isIncmixProp = !shouldForwardProp(prop)
+    if (isIncmixProp) return false
+
+    // else, only forward `sample` prop
+    return ['sample'].includes(prop)
+  },
+})
+```
+
+To filter non-HTML attributes, you can leverage
+[@emotion/is-prop-valid](https://github.com/emotion-js/emotion/tree/master/packages/is-prop-valid)
+package.
+
+```jsx live=false
+import isValidHTMLProp from '@emotion/is-prop-valid'
+import { incmix, shouldForwardProp } from '@incmix-ui/react'
+
+const Div = incmix('div', {
+  shouldForwardProp: prop => {
+    // don't forward Incmix's props
+    const isIncmixProp = !shouldForwardProp(prop)
+    if (isIncmixProp) return false
+
+    // forward valid HTML props
+    const isValidProp = isValidHTMLProp(prop)
+    if (isValidProp) return true
+
+    // else, only forward `sample` prop
+    return ['sample'].includes(prop)
+  },
+})
+```

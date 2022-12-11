@@ -1,0 +1,44 @@
+{
+  "title": "useToken",
+  "package": "@incmix-ui/system",
+  "description": "Hook to resolve design tokens from the theme",
+  "scope": "usage",
+  "body": {
+    "raw": "\n`useToken` is a custom hook used to resolve design tokens from the theme.\n\n## Import\n\n```js\nimport { useToken } from '@incmix-ui/react'\n```\n\n## Return value\n\nThe `useToken` hook retrieves whatever is in the theme at the given path(s).\n\n## Usage\n\n```jsx\nfunction Example() {\n  const [red100, blue200] = useToken(\n    // the key within the theme, in this case `theme.colors`\n    'colors',\n    // the subkey(s), resolving to `theme.colors.red.100`\n    ['red.100', 'blue.200'],\n    // a single fallback or fallback array matching the length of the previous arg\n  )\n\n  return (\n    <Box p={4} boxShadow={`inset 0 4px 0 ${red100}, 0 0 8px ${blue200}`}>\n      You can utilize <Code>useToken</Code> to create a <Code>boxShadow</Code> with colors from your theme.\n    </Box>\n  )\n}\n```\n\n> Note that you can also use the `sx` prop to write styles freely using themes\n> tokens.\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var k=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var t in e)s(n,t,{get:e[t],enumerable:!0})},i=(n,e,t,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!g.call(n,r)&&r!==t&&s(n,r,{get:()=>e[r],enumerable:!(c=u(e,r))||c.enumerable});return n};var f=(n,e,t)=>(t=n!=null?d(p(n)):{},i(e||!n||!n.__esModule?s(t,\"default\",{value:n,enumerable:!0}):t,n)),b=n=>i(s({},\"__esModule\",{value:!0}),n);var a=k((_,h)=>{h.exports=_jsx_runtime});var w={};x(w,{default:()=>y,frontmatter:()=>j});var o=f(a()),j={title:\"useToken\",package:\"@incmix-ui/system\",description:\"Hook to resolve design tokens from the theme\"};function l(n){let e=Object.assign({p:\"p\",code:\"code\",h2:\"h2\",pre:\"pre\",blockquote:\"blockquote\"},n.components);return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.code,{children:\"useToken\"}),\" is a custom hook used to resolve design tokens from the theme.\"]}),`\n`,(0,o.jsx)(e.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,o.jsx)(e.pre,{children:(0,o.jsx)(e.code,{className:\"language-js\",children:`import { useToken } from '@incmix-ui/react'\n`})}),`\n`,(0,o.jsx)(e.h2,{id:\"return-value\",children:\"Return value\"}),`\n`,(0,o.jsxs)(e.p,{children:[\"The \",(0,o.jsx)(e.code,{children:\"useToken\"}),\" hook retrieves whatever is in the theme at the given path(s).\"]}),`\n`,(0,o.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,o.jsx)(e.pre,{children:(0,o.jsx)(e.code,{className:\"language-jsx\",children:`function Example() {\n  const [red100, blue200] = useToken(\n    // the key within the theme, in this case \\`theme.colors\\`\n    'colors',\n    // the subkey(s), resolving to \\`theme.colors.red.100\\`\n    ['red.100', 'blue.200'],\n    // a single fallback or fallback array matching the length of the previous arg\n  )\n\n  return (\n    <Box p={4} boxShadow={\\`inset 0 4px 0 \\${red100}, 0 0 8px \\${blue200}\\`}>\n      You can utilize <Code>useToken</Code> to create a <Code>boxShadow</Code> with colors from your theme.\n    </Box>\n  )\n}\n`})}),`\n`,(0,o.jsxs)(e.blockquote,{children:[`\n`,(0,o.jsxs)(e.p,{children:[\"Note that you can also use the \",(0,o.jsx)(e.code,{children:\"sx\"}),` prop to write styles freely using themes\ntokens.`]}),`\n`]})]})}function v(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,Object.assign({},n,{children:(0,o.jsx)(l,n)})):l(n)}var y=v;return b(w);})();\n;return Component;"
+  },
+  "_id": "docs/hooks/use-token.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/hooks/use-token.mdx",
+    "sourceFileName": "use-token.mdx",
+    "sourceFileDir": "docs/hooks",
+    "contentType": "mdx",
+    "flattenedPath": "docs/hooks/use-token"
+  },
+  "type": "Doc",
+  "slug": "/docs/hooks/use-token",
+  "frontMatter": {
+    "title": "useToken",
+    "package": "@incmix-ui/system",
+    "description": "Hook to resolve design tokens from the theme",
+    "slug": "/docs/hooks/use-token",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/hooks/use-token.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "Return value",
+        "id": "return-value",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      }
+    ]
+  }
+}

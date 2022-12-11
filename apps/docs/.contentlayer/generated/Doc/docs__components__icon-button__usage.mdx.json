@@ -1,0 +1,61 @@
+{
+  "title": "Icon Button",
+  "package": "@incmix-ui/button",
+  "description": "Icon button renders an icon within in a button.",
+  "id": "icon-button",
+  "scope": "usage",
+  "category": "form",
+  "body": {
+    "raw": "\n## Import\n\n```js\nimport { IconButton } from '@incmix-ui/react'\n```\n\n## Usage\n\nIconButton composes the `Button` component except that it renders only an icon.\nSince `IconButton` only renders an icon, you must pass the `aria-label` prop, so\nscreen readers can give meaning to the button.\n\n```jsx\n<IconButton aria-label=\"Search database\" icon={<SearchIcon />} />\n```\n\n### Button Colors\n\nThe `IconButton` component accepts most of the props from the `Button`\ncomponent, so we can use `colorScheme` prop to change the color of the button.\n\n```jsx\n<IconButton colorScheme=\"blue\" aria-label=\"Search database\" icon={<SearchIcon />} />\n```\n\n### Button Sizes\n\nLike the `Button component`, pass the `size` prop to change the size of the\nbutton.\n\n```jsx\n<IconButton colorScheme=\"teal\" aria-label=\"Call Segun\" size=\"lg\" icon={<PhoneIcon />} />\n```\n\n### Button Variants\n\nLike the `Button` component, pass the `variant` prop to change the style of the\nbutton.\n\n```jsx\n<IconButton variant=\"outline\" colorScheme=\"teal\" aria-label=\"Send email\" icon={<EmailIcon />} />\n```\n\n### With custom icon\n\nYou can also use icons from popular libraries like\n[react-icons](https://react-icons.github.io/react-icons/) and just pass it into\nthe button.\n\n```jsx\n<IconButton variant=\"outline\" colorScheme=\"teal\" aria-label=\"Call Sage\" fontSize=\"20px\" icon={<MdPhone />} />\n```\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(o,n)=>()=>(n||o((n={exports:{}}).exports,n),n.exports),x=(o,n)=>{for(var t in n)a(o,t,{get:n[t],enumerable:!0})},r=(o,n,t,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let c of p(n))!g.call(o,c)&&c!==t&&a(o,c,{get:()=>n[c],enumerable:!(i=u(n,c))||i.enumerable});return o};var B=(o,n,t)=>(t=o!=null?d(m(o)):{},r(n||!o||!o.__esModule?a(t,\"default\",{value:o,enumerable:!0}):t,o)),I=o=>r(a({},\"__esModule\",{value:!0}),o);var s=b((z,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>j,frontmatter:()=>f});var e=B(s()),f={id:\"icon-button\",category:\"form\",title:\"Icon Button\",package:\"@incmix-ui/button\",description:\"Icon button renders an icon within in a button.\"};function h(o){let n=Object.assign({h2:\"h2\",pre:\"pre\",code:\"code\",p:\"p\",h3:\"h3\",a:\"a\"},o.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,e.jsx)(n.pre,{children:(0,e.jsx)(n.code,{className:\"language-js\",children:`import { IconButton } from '@incmix-ui/react'\n`})}),`\n`,(0,e.jsx)(n.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,e.jsxs)(n.p,{children:[\"IconButton composes the \",(0,e.jsx)(n.code,{children:\"Button\"}),` component except that it renders only an icon.\nSince `,(0,e.jsx)(n.code,{children:\"IconButton\"}),\" only renders an icon, you must pass the \",(0,e.jsx)(n.code,{children:\"aria-label\"}),` prop, so\nscreen readers can give meaning to the button.`]}),`\n`,(0,e.jsx)(n.pre,{children:(0,e.jsx)(n.code,{className:\"language-jsx\",children:`<IconButton aria-label=\"Search database\" icon={<SearchIcon />} />\n`})}),`\n`,(0,e.jsx)(n.h3,{id:\"button-colors\",children:\"Button Colors\"}),`\n`,(0,e.jsxs)(n.p,{children:[\"The \",(0,e.jsx)(n.code,{children:\"IconButton\"}),\" component accepts most of the props from the \",(0,e.jsx)(n.code,{children:\"Button\"}),`\ncomponent, so we can use `,(0,e.jsx)(n.code,{children:\"colorScheme\"}),\" prop to change the color of the button.\"]}),`\n`,(0,e.jsx)(n.pre,{children:(0,e.jsx)(n.code,{className:\"language-jsx\",children:`<IconButton colorScheme=\"blue\" aria-label=\"Search database\" icon={<SearchIcon />} />\n`})}),`\n`,(0,e.jsx)(n.h3,{id:\"button-sizes\",children:\"Button Sizes\"}),`\n`,(0,e.jsxs)(n.p,{children:[\"Like the \",(0,e.jsx)(n.code,{children:\"Button component\"}),\", pass the \",(0,e.jsx)(n.code,{children:\"size\"}),` prop to change the size of the\nbutton.`]}),`\n`,(0,e.jsx)(n.pre,{children:(0,e.jsx)(n.code,{className:\"language-jsx\",children:`<IconButton colorScheme=\"teal\" aria-label=\"Call Segun\" size=\"lg\" icon={<PhoneIcon />} />\n`})}),`\n`,(0,e.jsx)(n.h3,{id:\"button-variants\",children:\"Button Variants\"}),`\n`,(0,e.jsxs)(n.p,{children:[\"Like the \",(0,e.jsx)(n.code,{children:\"Button\"}),\" component, pass the \",(0,e.jsx)(n.code,{children:\"variant\"}),` prop to change the style of the\nbutton.`]}),`\n`,(0,e.jsx)(n.pre,{children:(0,e.jsx)(n.code,{className:\"language-jsx\",children:`<IconButton variant=\"outline\" colorScheme=\"teal\" aria-label=\"Send email\" icon={<EmailIcon />} />\n`})}),`\n`,(0,e.jsx)(n.h3,{id:\"with-custom-icon\",children:\"With custom icon\"}),`\n`,(0,e.jsxs)(n.p,{children:[`You can also use icons from popular libraries like\n`,(0,e.jsx)(n.a,{href:\"https://react-icons.github.io/react-icons/\",children:\"react-icons\"}),` and just pass it into\nthe button.`]}),`\n`,(0,e.jsx)(n.pre,{children:(0,e.jsx)(n.code,{className:\"language-jsx\",children:`<IconButton variant=\"outline\" colorScheme=\"teal\" aria-label=\"Call Sage\" fontSize=\"20px\" icon={<MdPhone />} />\n`})})]})}function S(o={}){let{wrapper:n}=o.components||{};return n?(0,e.jsx)(n,Object.assign({},o,{children:(0,e.jsx)(h,o)})):h(o)}var j=S;return I(_);})();\n;return Component;"
+  },
+  "_id": "docs/components/icon-button/usage.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/icon-button/usage.mdx",
+    "sourceFileName": "usage.mdx",
+    "sourceFileDir": "docs/components/icon-button",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/icon-button/usage"
+  },
+  "type": "Doc",
+  "slug": "/docs/components/icon-button/usage",
+  "frontMatter": {
+    "title": "Icon Button",
+    "package": "@incmix-ui/button",
+    "description": "Icon button renders an icon within in a button.",
+    "slug": "/docs/components/icon-button/usage",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/components/icon-button/usage.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      },
+      {
+        "text": "Button Colors",
+        "id": "button-colors",
+        "level": "h3"
+      },
+      {
+        "text": "Button Sizes",
+        "id": "button-sizes",
+        "level": "h3"
+      },
+      {
+        "text": "Button Variants",
+        "id": "button-variants",
+        "level": "h3"
+      },
+      {
+        "text": "With custom icon",
+        "id": "with-custom-icon",
+        "level": "h3"
+      }
+    ]
+  }
+}

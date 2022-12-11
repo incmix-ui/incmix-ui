@@ -1,6 +1,6 @@
 # Utilities
 
-Shared Vanilla TS/JS utilities for various Chakra UI components and packages.
+Shared Vanilla TS/JS utilities for various Incmix UI components and packages.
 
 > This is an internal utility, not intended for public usage.
 

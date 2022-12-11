@@ -1,0 +1,29 @@
+{
+  "id": "skip-nav",
+  "scope": "props",
+  "body": {
+    "raw": "\n## Props\n\nThe `SkipNavLink` component composes the `Box` component and renders an `a`.\n\nThe `SkipNavContent` component composes the `Box` component and renders a `div`.\n",
+    "code": "var Component=(()=>{var h=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var u=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),_=(n,e)=>{for(var c in e)r(n,c,{get:e[c],enumerable:!0})},d=(n,e,c,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of l(e))!j.call(n,t)&&t!==c&&r(n,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return n};var f=(n,e,c)=>(c=n!=null?h(x(n)):{},d(e||!n||!n.__esModule?r(c,\"default\",{value:n,enumerable:!0}):c,n)),g=n=>d(r({},\"__esModule\",{value:!0}),n);var p=u((B,i)=>{i.exports=_jsx_runtime});var M={};_(M,{default:()=>C,frontmatter:()=>k});var o=f(p()),k={id:\"skip-nav\",scope:\"props\"};function a(n){let e=Object.assign({h2:\"h2\",p:\"p\",code:\"code\"},n.components);return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.h2,{id:\"props\",children:\"Props\"}),`\n`,(0,o.jsxs)(e.p,{children:[\"The \",(0,o.jsx)(e.code,{children:\"SkipNavLink\"}),\" component composes the \",(0,o.jsx)(e.code,{children:\"Box\"}),\" component and renders an \",(0,o.jsx)(e.code,{children:\"a\"}),\".\"]}),`\n`,(0,o.jsxs)(e.p,{children:[\"The \",(0,o.jsx)(e.code,{children:\"SkipNavContent\"}),\" component composes the \",(0,o.jsx)(e.code,{children:\"Box\"}),\" component and renders a \",(0,o.jsx)(e.code,{children:\"div\"}),\".\"]})]})}function v(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,Object.assign({},n,{children:(0,o.jsx)(a,n)})):a(n)}var C=v;return g(M);})();\n;return Component;"
+  },
+  "_id": "docs/components/skip-nav/props.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/skip-nav/props.mdx",
+    "sourceFileName": "props.mdx",
+    "sourceFileDir": "docs/components/skip-nav",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/skip-nav/props"
+  },
+  "type": "Doc",
+  "slug": "/docs/components/skip-nav/props",
+  "frontMatter": {
+    "slug": "/docs/components/skip-nav/props",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/components/skip-nav/props.mdx",
+    "headings": [
+      {
+        "text": "Props",
+        "id": "props",
+        "level": "h2"
+      }
+    ]
+  }
+}

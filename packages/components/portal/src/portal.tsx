@@ -11,12 +11,12 @@ const [PortalContextProvider, usePortalContext] = createContext<PortalContext>({
   name: "PortalContext",
 })
 
-const PORTAL_CLASSNAME = "chakra-portal"
-const PORTAL_SELECTOR = `.chakra-portal`
+const PORTAL_CLASSNAME = "incmix-portal"
+const PORTAL_SELECTOR = `.incmix-portal`
 
 const Container = (props: React.PropsWithChildren<{ zIndex: number }>) => (
   <div
-    className="chakra-portal-zIndex"
+    className="incmix-portal-zIndex"
     style={{
       position: "absolute",
       zIndex: props.zIndex,

@@ -1,0 +1,64 @@
+{
+  "title": "useControllableState",
+  "package": "@incmix-ui/hooks",
+  "description": "React hook to handle controlled vs uncontrolled component scenarios",
+  "scope": "usage",
+  "body": {
+    "raw": "\nReact hook that allows any component handle\n[controlled](https://reactjs.org/docs/forms.html#controlled-components) and\n[uncontrolled](https://reactjs.org/docs/uncontrolled-components.html) modes, and\nprovide control over its internal state.\n\nMost Incmix components use the `useControllableState` for seamlessly managing\nboth controlled or uncontrolled state scenarios.\n\n## Import\n\n```js\nimport { useControllableProp, useControllableState } from '@incmix-ui/react'\n```\n\n## useControllableProp\n\nGiven a prop value and state value, the `useControllableProp` hook is used to\ndetermine whether a component is controlled or uncontrolled, and also returns\nthe computed value.\n\n- It returns the prop value if the component is controlled\n- It returns the state value if the component is uncontrolled\n\n### Usage\n\n```jsx live=false\nconst [isControlled, value] = useControllableProp(propValue, stateValue)\n```\n\n## useControllableState\n\nThe `useControllableState` hook returns the state and function that updates the\nstate, just like `React.useState` does.\n\n```js live=false\nconst [value, setValue] = useControllableState(options)\n```\n\n### Usage\n\nWith `useControllableState`, you can pass an initial state (using\n`defaultValue`) implying the component is uncontrolled, or you can pass a\ncontrolled value (using `value`) implying the component is controlled.\n\nHere's an example of an uncontrolled state.\n\n```jsx\nfunction Example() {\n  const [value, setValue] = useControllableState({ defaultValue: 40 })\n  return (\n    <div>\n      <Button onClick={() => setValue(value + 1)}>+</Button>\n      <Box as=\"span\" w=\"200px\" mx=\"24px\">\n        {value}\n      </Box>\n      <Button onClick={() => setValue(value - 1)}>-</Button>\n    </div>\n  )\n}\n```\n\nHere's an example of a controlled state.\n\n```jsx\nfunction Example() {\n  // you need a state and updater to change the value\n  const [value, setValue] = React.useState(40)\n\n  const [internalValue, setInternalValue] = useControllableState({\n    value,\n    onChange: setValue,\n  })\n\n  return (\n    <div>\n      <Button onClick={() => setInternalValue(value + 1)}>+</Button>\n      <Box as=\"span\" w=\"200px\" mx=\"24px\">\n        {internalValue}\n      </Box>\n      <Button onClick={() => setInternalValue(value - 1)}>-</Button>\n    </div>\n  )\n}\n```\n\n### Contextual feedback and State updates\n\nThis hook provides helpful error or warning messages **when you switch between\ncontrolled or uncontrolled modes** or **when you attempt to update the\n`defaultValue` passed.**\n\n## Props\n\n<PropsTable of=\"useControllableState\" />\n",
+    "code": "var Component=(()=>{var u=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var o in e)a(t,o,{get:e[o],enumerable:!0})},s=(t,e,o,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of p(e))!g.call(t,l)&&l!==o&&a(t,l,{get:()=>e[l],enumerable:!(r=h(e,l))||r.enumerable});return t};var b=(t,e,o)=>(o=t!=null?u(m(t)):{},s(e||!t||!t.__esModule?a(o,\"default\",{value:t,enumerable:!0}):o,t)),v=t=>s(a({},\"__esModule\",{value:!0}),t);var d=x((w,c)=>{c.exports=_jsx_runtime});var y={};f(y,{default:()=>k,frontmatter:()=>C});var n=b(d()),C={title:\"useControllableState\",package:\"@incmix-ui/hooks\",description:\"React hook to handle controlled vs uncontrolled component scenarios\"};function i(t){let e=Object.assign({p:\"p\",a:\"a\",code:\"code\",h2:\"h2\",pre:\"pre\",ul:\"ul\",li:\"li\",h3:\"h3\",strong:\"strong\"},t.components),{PropsTable:o}=e;return o||V(\"PropsTable\",!0,\"100:1-100:41\"),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[`React hook that allows any component handle\n`,(0,n.jsx)(e.a,{href:\"https://reactjs.org/docs/forms.html#controlled-components\",children:\"controlled\"}),` and\n`,(0,n.jsx)(e.a,{href:\"https://reactjs.org/docs/uncontrolled-components.html\",children:\"uncontrolled\"}),` modes, and\nprovide control over its internal state.`]}),`\n`,(0,n.jsxs)(e.p,{children:[\"Most Incmix components use the \",(0,n.jsx)(e.code,{children:\"useControllableState\"}),` for seamlessly managing\nboth controlled or uncontrolled state scenarios.`]}),`\n`,(0,n.jsx)(e.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-js\",children:`import { useControllableProp, useControllableState } from '@incmix-ui/react'\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"usecontrollableprop\",children:\"useControllableProp\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Given a prop value and state value, the \",(0,n.jsx)(e.code,{children:\"useControllableProp\"}),` hook is used to\ndetermine whether a component is controlled or uncontrolled, and also returns\nthe computed value.`]}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"It returns the prop value if the component is controlled\"}),`\n`,(0,n.jsx)(e.li,{children:\"It returns the state value if the component is uncontrolled\"}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{id:\"usage\",children:\"Usage\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",live:\"false\",children:`const [isControlled, value] = useControllableProp(propValue, stateValue)\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"usecontrollablestate\",children:\"useControllableState\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"The \",(0,n.jsx)(e.code,{children:\"useControllableState\"}),` hook returns the state and function that updates the\nstate, just like `,(0,n.jsx)(e.code,{children:\"React.useState\"}),\" does.\"]}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-js\",live:\"false\",children:`const [value, setValue] = useControllableState(options)\n`})}),`\n`,(0,n.jsx)(e.h3,{id:\"usage-1\",children:\"Usage\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"With \",(0,n.jsx)(e.code,{children:\"useControllableState\"}),`, you can pass an initial state (using\n`,(0,n.jsx)(e.code,{children:\"defaultValue\"}),`) implying the component is uncontrolled, or you can pass a\ncontrolled value (using `,(0,n.jsx)(e.code,{children:\"value\"}),\") implying the component is controlled.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Here's an example of an uncontrolled state.\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`function Example() {\n  const [value, setValue] = useControllableState({ defaultValue: 40 })\n  return (\n    <div>\n      <Button onClick={() => setValue(value + 1)}>+</Button>\n      <Box as=\"span\" w=\"200px\" mx=\"24px\">\n        {value}\n      </Box>\n      <Button onClick={() => setValue(value - 1)}>-</Button>\n    </div>\n  )\n}\n`})}),`\n`,(0,n.jsx)(e.p,{children:\"Here's an example of a controlled state.\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`function Example() {\n  // you need a state and updater to change the value\n  const [value, setValue] = React.useState(40)\n\n  const [internalValue, setInternalValue] = useControllableState({\n    value,\n    onChange: setValue,\n  })\n\n  return (\n    <div>\n      <Button onClick={() => setInternalValue(value + 1)}>+</Button>\n      <Box as=\"span\" w=\"200px\" mx=\"24px\">\n        {internalValue}\n      </Box>\n      <Button onClick={() => setInternalValue(value - 1)}>-</Button>\n    </div>\n  )\n}\n`})}),`\n`,(0,n.jsx)(e.h3,{id:\"contextual-feedback-and-state-updates\",children:\"Contextual feedback and State updates\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"This hook provides helpful error or warning messages \",(0,n.jsx)(e.strong,{children:`when you switch between\ncontrolled or uncontrolled modes`}),\" or \",(0,n.jsxs)(e.strong,{children:[`when you attempt to update the\n`,(0,n.jsx)(e.code,{children:\"defaultValue\"}),\" passed.\"]})]}),`\n`,(0,n.jsx)(e.h2,{id:\"props\",children:\"Props\"}),`\n`,(0,n.jsx)(o,{of:\"useControllableState\"})]})}function j(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,Object.assign({},t,{children:(0,n.jsx)(i,t)})):i(t)}var k=j;function V(t,e,o){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+t+\"` to be defined: you likely forgot to import, pass, or provide it.\"+(o?\"\\nIt\\u2019s referenced in your code at `\"+o+\"` in `/Users/uma.krishnan/projects/incmixlabs/incmix-ui/apps/docs/content/_mdx_bundler_entry_point-a9b6ed7d-6421-441a-8d7e-fe154bd80400.mdx`\":\"\"))}return v(y);})();\n;return Component;"
+  },
+  "_id": "docs/hooks/use-controllable.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/hooks/use-controllable.mdx",
+    "sourceFileName": "use-controllable.mdx",
+    "sourceFileDir": "docs/hooks",
+    "contentType": "mdx",
+    "flattenedPath": "docs/hooks/use-controllable"
+  },
+  "type": "Doc",
+  "slug": "/docs/hooks/use-controllable",
+  "frontMatter": {
+    "title": "useControllableState",
+    "package": "@incmix-ui/hooks",
+    "description": "React hook to handle controlled vs uncontrolled component scenarios",
+    "slug": "/docs/hooks/use-controllable",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/hooks/use-controllable.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "useControllableProp",
+        "id": "usecontrollableprop",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h3"
+      },
+      {
+        "text": "useControllableState",
+        "id": "usecontrollablestate",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h3"
+      },
+      {
+        "text": "Contextual feedback and State updates",
+        "id": "contextual-feedback-and-state-updates",
+        "level": "h3"
+      },
+      {
+        "text": "Props",
+        "id": "props",
+        "level": "h2"
+      }
+    ]
+  }
+}

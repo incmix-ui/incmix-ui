@@ -165,7 +165,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 * [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
@@ -240,7 +240,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 ### Patch Changes
 
@@ -618,7 +618,7 @@
 - [`0d620f1d`](https://github.com/incmix-ui/incmix-ui/commit/0d620f1d46b9c72c9aef3bb15a691a249ace2eb4)
   [#3079](https://github.com/incmix-ui/incmix-ui/pull/3079) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - Fixed issue where adding
-  `portalZIndex` to `ChakraProvider` makes app unusable
+  `portalZIndex` to `IncmixProvider` makes app unusable
 
 - Updated dependencies
   [[`02855588`](https://github.com/incmix-ui/incmix-ui/commit/02855588a4ffbc6573768052e53cc538361e91ee)]:

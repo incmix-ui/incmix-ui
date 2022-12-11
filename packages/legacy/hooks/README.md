@@ -1,6 +1,6 @@
 # @incmix-ui/hooks
 
-A collection of React Hooks for Chakra UI components.
+A collection of React Hooks for Incmix UI components.
 
 ## Installation
 

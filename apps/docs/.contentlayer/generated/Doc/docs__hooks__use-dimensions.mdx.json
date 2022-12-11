@@ -1,0 +1,54 @@
+{
+  "title": "useDimensions",
+  "package": "@incmix-ui/hooks",
+  "description": "React hook to measure dimensions of the referenced element",
+  "scope": "usage",
+  "body": {
+    "raw": "\n`useDimensions` is a custom hook that measures dimensions of the referenced\nelement based on its box-model.\n\n## Import\n\n```js\nimport { useDimensions } from '@incmix-ui/react'\n```\n\n## Return value\n\nThis hook returns an object with the properties `marginBox`, `paddingBox`,\n`borderBox`, `contentBox`, `border`, `padding`, and `margin`.\n\nEach of these properties contains a nested object which provides values\nrespective to that property:\n\n| Value:     | Contents:                                                    |\n| ---------- | ------------------------------------------------------------ |\n| marginBox  | top, right, bottom, left, width, height, x, y, center (x, y) |\n| borderBox  | top, right, bottom, left, width, height, x, y, center (x, y) |\n| paddingBox | top, right, bottom, left, width, height, x, y, center (x, y) |\n| contentBox | top, right, bottom, left, width, height, x, y, center (x, y) |\n| border     | top, right, bottom, left                                     |\n| padding    | top, right, bottom, left                                     |\n| margin     | top, right, bottom, left                                     |\n\n## Usage\n\n```jsx\nfunction example() {\n  const elementRef = useRef()\n  const dimensions = useDimensions(elementRef)\n\n  return (\n    <Box ref={elementRef} color=\"white\" width=\"fit-content\" bg=\"blue.700\" p={4}>\n      <Heading>\n        <code>borderBox</code> dimensions\n      </Heading>\n      <List>\n        <ListItem>The Width: {dimensions && dimensions.borderBox.width}</ListItem>\n        <ListItem>The x coordinate: {dimensions && dimensions.borderBox.x}</ListItem>\n      </List>\n    </Box>\n  )\n}\n```\n\n### With `observe` Parameter\n\nWith the second parameter set to `true`, the hook will attach the `resize` and\n`scroll` events to the window object. This will recalculate the reference\nelement's dimensions on scroll or resize of the page.\n\n```jsx\nfunction example() {\n  const elementRef = useRef()\n  const dimensions = useDimensions(elementRef, true)\n\n  return (\n    <>\n      <Textarea ref={elementRef} value=\"Resize this field's height, then either scroll or resize the page.\" />\n      <Box>Changing height: {dimensions && dimensions.borderBox.height}</Box>\n    </>\n  )\n}\n```\n\n## Parameters\n\n| Parameter            | Type                     | Description                                                                                                             |\n| -------------------- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------- |\n| `ref`                | `RefObject<HTMLElement>` | Reference to the element you want to measure                                                                            |\n| `observe (optional)` | `boolean`                | If set to true, the `resize` and `scroll` events will be attached to the window and update the dimensions on each event |\n",
+    "code": "var Component=(()=>{var a=Object.create;var d=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var r in e)d(t,r,{get:e[r],enumerable:!0})},h=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of p(e))!x.call(t,i)&&i!==r&&d(t,i,{get:()=>e[i],enumerable:!(o=m(e,i))||o.enumerable});return t};var f=(t,e,r)=>(r=t!=null?a(u(t)):{},h(e||!t||!t.__esModule?d(r,\"default\",{value:t,enumerable:!0}):r,t)),w=t=>h(d({},\"__esModule\",{value:!0}),t);var l=g((D,c)=>{c.exports=_jsx_runtime});var R={};b(R,{default:()=>j,frontmatter:()=>y});var n=f(l()),y={title:\"useDimensions\",package:\"@incmix-ui/hooks\",description:\"React hook to measure dimensions of the referenced element\"};function s(t){let e=Object.assign({p:\"p\",code:\"code\",h2:\"h2\",pre:\"pre\",table:\"table\",thead:\"thead\",tr:\"tr\",th:\"th\",tbody:\"tbody\",td:\"td\",h3:\"h3\"},t.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.code,{children:\"useDimensions\"}),` is a custom hook that measures dimensions of the referenced\nelement based on its box-model.`]}),`\n`,(0,n.jsx)(e.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-js\",children:`import { useDimensions } from '@incmix-ui/react'\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"return-value\",children:\"Return value\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"This hook returns an object with the properties \",(0,n.jsx)(e.code,{children:\"marginBox\"}),\", \",(0,n.jsx)(e.code,{children:\"paddingBox\"}),`,\n`,(0,n.jsx)(e.code,{children:\"borderBox\"}),\", \",(0,n.jsx)(e.code,{children:\"contentBox\"}),\", \",(0,n.jsx)(e.code,{children:\"border\"}),\", \",(0,n.jsx)(e.code,{children:\"padding\"}),\", and \",(0,n.jsx)(e.code,{children:\"margin\"}),\".\"]}),`\n`,(0,n.jsx)(e.p,{children:`Each of these properties contains a nested object which provides values\nrespective to that property:`}),`\n`,(0,n.jsxs)(e.table,{children:[(0,n.jsx)(e.thead,{children:(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.th,{children:\"Value:\"}),(0,n.jsx)(e.th,{children:\"Contents:\"})]})}),(0,n.jsxs)(e.tbody,{children:[(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:\"marginBox\"}),(0,n.jsx)(e.td,{children:\"top, right, bottom, left, width, height, x, y, center (x, y)\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:\"borderBox\"}),(0,n.jsx)(e.td,{children:\"top, right, bottom, left, width, height, x, y, center (x, y)\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:\"paddingBox\"}),(0,n.jsx)(e.td,{children:\"top, right, bottom, left, width, height, x, y, center (x, y)\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:\"contentBox\"}),(0,n.jsx)(e.td,{children:\"top, right, bottom, left, width, height, x, y, center (x, y)\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:\"border\"}),(0,n.jsx)(e.td,{children:\"top, right, bottom, left\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:\"padding\"}),(0,n.jsx)(e.td,{children:\"top, right, bottom, left\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:\"margin\"}),(0,n.jsx)(e.td,{children:\"top, right, bottom, left\"})]})]})]}),`\n`,(0,n.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`function example() {\n  const elementRef = useRef()\n  const dimensions = useDimensions(elementRef)\n\n  return (\n    <Box ref={elementRef} color=\"white\" width=\"fit-content\" bg=\"blue.700\" p={4}>\n      <Heading>\n        <code>borderBox</code> dimensions\n      </Heading>\n      <List>\n        <ListItem>The Width: {dimensions && dimensions.borderBox.width}</ListItem>\n        <ListItem>The x coordinate: {dimensions && dimensions.borderBox.x}</ListItem>\n      </List>\n    </Box>\n  )\n}\n`})}),`\n`,(0,n.jsxs)(e.h3,{id:\"with-observe-parameter\",children:[\"With \",(0,n.jsx)(e.code,{children:\"observe\"}),\" Parameter\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"With the second parameter set to \",(0,n.jsx)(e.code,{children:\"true\"}),\", the hook will attach the \",(0,n.jsx)(e.code,{children:\"resize\"}),` and\n`,(0,n.jsx)(e.code,{children:\"scroll\"}),` events to the window object. This will recalculate the reference\nelement's dimensions on scroll or resize of the page.`]}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`function example() {\n  const elementRef = useRef()\n  const dimensions = useDimensions(elementRef, true)\n\n  return (\n    <>\n      <Textarea ref={elementRef} value=\"Resize this field's height, then either scroll or resize the page.\" />\n      <Box>Changing height: {dimensions && dimensions.borderBox.height}</Box>\n    </>\n  )\n}\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"parameters\",children:\"Parameters\"}),`\n`,(0,n.jsxs)(e.table,{children:[(0,n.jsx)(e.thead,{children:(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.th,{children:\"Parameter\"}),(0,n.jsx)(e.th,{children:\"Type\"}),(0,n.jsx)(e.th,{children:\"Description\"})]})}),(0,n.jsxs)(e.tbody,{children:[(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"ref\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"RefObject<HTMLElement>\"})}),(0,n.jsx)(e.td,{children:\"Reference to the element you want to measure\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"observe (optional)\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"boolean\"})}),(0,n.jsxs)(e.td,{children:[\"If set to true, the \",(0,n.jsx)(e.code,{children:\"resize\"}),\" and \",(0,n.jsx)(e.code,{children:\"scroll\"}),\" events will be attached to the window and update the dimensions on each event\"]})]})]})]})]})}function B(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,Object.assign({},t,{children:(0,n.jsx)(s,t)})):s(t)}var j=B;return w(R);})();\n;return Component;"
+  },
+  "_id": "docs/hooks/use-dimensions.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/hooks/use-dimensions.mdx",
+    "sourceFileName": "use-dimensions.mdx",
+    "sourceFileDir": "docs/hooks",
+    "contentType": "mdx",
+    "flattenedPath": "docs/hooks/use-dimensions"
+  },
+  "type": "Doc",
+  "slug": "/docs/hooks/use-dimensions",
+  "frontMatter": {
+    "title": "useDimensions",
+    "package": "@incmix-ui/hooks",
+    "description": "React hook to measure dimensions of the referenced element",
+    "slug": "/docs/hooks/use-dimensions",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/hooks/use-dimensions.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "Return value",
+        "id": "return-value",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      },
+      {
+        "text": "With `observe` Parameter",
+        "id": "with-observe-parameter",
+        "level": "h3"
+      },
+      {
+        "text": "Parameters",
+        "id": "parameters",
+        "level": "h2"
+      }
+    ]
+  }
+}

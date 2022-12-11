@@ -1,0 +1,29 @@
+{
+  "id": "icon-button",
+  "scope": "props",
+  "body": {
+    "raw": "\n## Props\n\n<PropsTable of=\"IconButton\" />\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var t in e)s(n,t,{get:e[t],enumerable:!0})},i=(n,e,t,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of x(e))!_.call(n,r)&&r!==t&&s(n,r,{get:()=>e[r],enumerable:!(c=u(e,r))||c.enumerable});return n};var l=(n,e,t)=>(t=n!=null?m(f(n)):{},i(e||!n||!n.__esModule?s(t,\"default\",{value:n,enumerable:!0}):t,n)),h=n=>i(s({},\"__esModule\",{value:!0}),n);var d=b((C,a)=>{a.exports=_jsx_runtime});var P={};j(P,{default:()=>M,frontmatter:()=>g});var o=l(d()),g={id:\"icon-button\",scope:\"props\"};function p(n){let e=Object.assign({h2:\"h2\"},n.components),{PropsTable:t}=e;return t||w(\"PropsTable\",!0,\"8:1-8:31\"),(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.h2,{id:\"props\",children:\"Props\"}),`\n`,(0,o.jsx)(t,{of:\"IconButton\"})]})}function y(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,Object.assign({},n,{children:(0,o.jsx)(p,n)})):p(n)}var M=y;function w(n,e,t){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\"+(t?\"\\nIt\\u2019s referenced in your code at `\"+t+\"` in `/Users/uma.krishnan/projects/incmixlabs/incmix-ui/apps/docs/content/_mdx_bundler_entry_point-64da93a9-c513-4553-8ce7-4580b039320c.mdx`\":\"\"))}return h(P);})();\n;return Component;"
+  },
+  "_id": "docs/components/icon-button/props.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/icon-button/props.mdx",
+    "sourceFileName": "props.mdx",
+    "sourceFileDir": "docs/components/icon-button",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/icon-button/props"
+  },
+  "type": "Doc",
+  "slug": "/docs/components/icon-button/props",
+  "frontMatter": {
+    "slug": "/docs/components/icon-button/props",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/components/icon-button/props.mdx",
+    "headings": [
+      {
+        "text": "Props",
+        "id": "props",
+        "level": "h2"
+      }
+    ]
+  }
+}

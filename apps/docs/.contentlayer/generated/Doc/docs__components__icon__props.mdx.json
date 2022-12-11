@@ -1,0 +1,39 @@
+{
+  "id": "icon",
+  "scope": "props",
+  "body": {
+    "raw": "\n## Props\n\n### `Icon` props\n\n| Name        | Type                  | Default        | Description                                                                          |\n| ----------- | --------------------- | -------------- | ------------------------------------------------------------------------------------ |\n| `viewBox`   | `string`              | `0 0 24 24`    | The viewBox of the icon.                                                             |\n| `boxSize`   | `string`              | `1em`          | The size (width and height) of the icon.                                             |\n| `color`     | `string`              | `currentColor` | The color of the icon.                                                               |\n| `focusable` | `boolean`             | `false`        | Denotes that the icon is not an interactive element, and only used for presentation. |\n| `role`      | `presentation`, `img` |                | The html role of the icon.                                                           |\n| `children`  | `React.ReactNode`     |                | The Path or Group of the icon                                                        |\n\n## `createIcon` options\n\n<PropsTable of=\"createIcon\" />\n",
+    "code": "var Component=(()=>{var a=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var b=(d,e)=>()=>(e||d((e={exports:{}}).exports,e),e.exports),x=(d,e)=>{for(var c in e)r(d,c,{get:e[c],enumerable:!0})},o=(d,e,c,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!u.call(d,t)&&t!==c&&r(d,t,{get:()=>e[t],enumerable:!(i=p(e,t))||i.enumerable});return d};var _=(d,e,c)=>(c=d!=null?a(m(d)):{},o(e||!d||!d.__esModule?r(c,\"default\",{value:d,enumerable:!0}):c,d)),g=d=>o(r({},\"__esModule\",{value:!0}),d);var l=b((I,h)=>{h.exports=_jsx_runtime});var D={};x(D,{default:()=>T,frontmatter:()=>y});var n=_(l()),y={id:\"icon\",scope:\"props\"};function s(d){let e=Object.assign({h2:\"h2\",h3:\"h3\",code:\"code\",table:\"table\",thead:\"thead\",tr:\"tr\",th:\"th\",tbody:\"tbody\",td:\"td\"},d.components),{PropsTable:c}=e;return c||w(\"PropsTable\",!0,\"21:1-21:31\"),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{id:\"props\",children:\"Props\"}),`\n`,(0,n.jsxs)(e.h3,{id:\"icon-props\",children:[(0,n.jsx)(e.code,{children:\"Icon\"}),\" props\"]}),`\n`,(0,n.jsxs)(e.table,{children:[(0,n.jsx)(e.thead,{children:(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.th,{children:\"Name\"}),(0,n.jsx)(e.th,{children:\"Type\"}),(0,n.jsx)(e.th,{children:\"Default\"}),(0,n.jsx)(e.th,{children:\"Description\"})]})}),(0,n.jsxs)(e.tbody,{children:[(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"viewBox\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"string\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"0 0 24 24\"})}),(0,n.jsx)(e.td,{children:\"The viewBox of the icon.\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"boxSize\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"string\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"1em\"})}),(0,n.jsx)(e.td,{children:\"The size (width and height) of the icon.\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"color\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"string\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"currentColor\"})}),(0,n.jsx)(e.td,{children:\"The color of the icon.\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"focusable\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"boolean\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"false\"})}),(0,n.jsx)(e.td,{children:\"Denotes that the icon is not an interactive element, and only used for presentation.\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"role\"})}),(0,n.jsxs)(e.td,{children:[(0,n.jsx)(e.code,{children:\"presentation\"}),\", \",(0,n.jsx)(e.code,{children:\"img\"})]}),(0,n.jsx)(e.td,{}),(0,n.jsx)(e.td,{children:\"The html role of the icon.\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"children\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"React.ReactNode\"})}),(0,n.jsx)(e.td,{}),(0,n.jsx)(e.td,{children:\"The Path or Group of the icon\"})]})]})]}),`\n`,(0,n.jsxs)(e.h2,{id:\"createicon-options\",children:[(0,n.jsx)(e.code,{children:\"createIcon\"}),\" options\"]}),`\n`,(0,n.jsx)(c,{of:\"createIcon\"})]})}function j(d={}){let{wrapper:e}=d.components||{};return e?(0,n.jsx)(e,Object.assign({},d,{children:(0,n.jsx)(s,d)})):s(d)}var T=j;function w(d,e,c){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+d+\"` to be defined: you likely forgot to import, pass, or provide it.\"+(c?\"\\nIt\\u2019s referenced in your code at `\"+c+\"` in `/Users/uma.krishnan/projects/incmixlabs/incmix-ui/apps/docs/content/_mdx_bundler_entry_point-81dd76a2-eab2-4c32-95e7-1fcc0f9663e2.mdx`\":\"\"))}return g(D);})();\n;return Component;"
+  },
+  "_id": "docs/components/icon/props.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/icon/props.mdx",
+    "sourceFileName": "props.mdx",
+    "sourceFileDir": "docs/components/icon",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/icon/props"
+  },
+  "type": "Doc",
+  "slug": "/docs/components/icon/props",
+  "frontMatter": {
+    "slug": "/docs/components/icon/props",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/components/icon/props.mdx",
+    "headings": [
+      {
+        "text": "Props",
+        "id": "props",
+        "level": "h2"
+      },
+      {
+        "text": "`Icon` props",
+        "id": "icon-props",
+        "level": "h3"
+      },
+      {
+        "text": "`createIcon` options",
+        "id": "createicon-options",
+        "level": "h2"
+      }
+    ]
+  }
+}

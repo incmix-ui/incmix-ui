@@ -1,0 +1,44 @@
+{
+  "title": "usePrefersReducedMotion",
+  "package": "@incmix-ui/hooks",
+  "description": "React hook to detect animation preference",
+  "scope": "usage",
+  "body": {
+    "raw": "\n`usePrefersReducedMotion` is a custom hook used to help detect the users motion\npreference.\n\n[Learn more about the API and its backgrounds.](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)\n\n## Import\n\n```js\nimport { usePrefersReducedMotion } from '@incmix-ui/react'\n```\n\n## Return value\n\nThe `usePrefersReducedMotion` hook returns a boolean, indicating whether the\nuser prefers reduced motion.\n\n> Keep in mind this API relies on the users browser support of\n> `window.matchMedia` and will always return `false` if it is not supported or\n> does not exist (e.g. during serverside rendering).\n\n## Usage\n\n```jsx live=false\nimport { Image, keyframes, usePrefersReducedMotion } from '@incmix-ui/react'\nimport logo from './logo.svg'\n\nconst spin = keyframes`\n  from { transform: rotate(0deg); }\n  to { transform: rotate(360deg); }\n`\n\nfunction Example() {\n  const prefersReducedMotion = usePrefersReducedMotion()\n\n  const animation = prefersReducedMotion ? undefined : `${spin} infinite 20s linear`\n\n  return <Image animation={animation} src={logo} {...props} />\n}\n```\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var o in e)i(r,o,{get:e[o],enumerable:!0})},c=(r,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!f.call(r,t)&&t!==o&&i(r,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return r};var M=(r,e,o)=>(o=r!=null?l(p(r)):{},c(e||!r||!r.__esModule?i(o,\"default\",{value:r,enumerable:!0}):o,r)),k=r=>c(i({},\"__esModule\",{value:!0}),r);var a=g((_,d)=>{d.exports=_jsx_runtime});var P={};x(P,{default:()=>j,frontmatter:()=>b});var n=M(a()),b={title:\"usePrefersReducedMotion\",package:\"@incmix-ui/hooks\",description:\"React hook to detect animation preference\"};function u(r){let e=Object.assign({p:\"p\",code:\"code\",a:\"a\",h2:\"h2\",pre:\"pre\",blockquote:\"blockquote\"},r.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.code,{children:\"usePrefersReducedMotion\"}),` is a custom hook used to help detect the users motion\npreference.`]}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.a,{href:\"https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion\",children:\"Learn more about the API and its backgrounds.\"})}),`\n`,(0,n.jsx)(e.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-js\",children:`import { usePrefersReducedMotion } from '@incmix-ui/react'\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"return-value\",children:\"Return value\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"The \",(0,n.jsx)(e.code,{children:\"usePrefersReducedMotion\"}),` hook returns a boolean, indicating whether the\nuser prefers reduced motion.`]}),`\n`,(0,n.jsxs)(e.blockquote,{children:[`\n`,(0,n.jsxs)(e.p,{children:[`Keep in mind this API relies on the users browser support of\n`,(0,n.jsx)(e.code,{children:\"window.matchMedia\"}),\" and will always return \",(0,n.jsx)(e.code,{children:\"false\"}),` if it is not supported or\ndoes not exist (e.g. during serverside rendering).`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",live:\"false\",children:`import { Image, keyframes, usePrefersReducedMotion } from '@incmix-ui/react'\nimport logo from './logo.svg'\n\nconst spin = keyframes\\`\n  from { transform: rotate(0deg); }\n  to { transform: rotate(360deg); }\n\\`\n\nfunction Example() {\n  const prefersReducedMotion = usePrefersReducedMotion()\n\n  const animation = prefersReducedMotion ? undefined : \\`\\${spin} infinite 20s linear\\`\n\n  return <Image animation={animation} src={logo} {...props} />\n}\n`})})]})}function R(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,Object.assign({},r,{children:(0,n.jsx)(u,r)})):u(r)}var j=R;return k(P);})();\n;return Component;"
+  },
+  "_id": "docs/hooks/use-prefers-reduced-motion.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/hooks/use-prefers-reduced-motion.mdx",
+    "sourceFileName": "use-prefers-reduced-motion.mdx",
+    "sourceFileDir": "docs/hooks",
+    "contentType": "mdx",
+    "flattenedPath": "docs/hooks/use-prefers-reduced-motion"
+  },
+  "type": "Doc",
+  "slug": "/docs/hooks/use-prefers-reduced-motion",
+  "frontMatter": {
+    "title": "usePrefersReducedMotion",
+    "package": "@incmix-ui/hooks",
+    "description": "React hook to detect animation preference",
+    "slug": "/docs/hooks/use-prefers-reduced-motion",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/hooks/use-prefers-reduced-motion.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "Return value",
+        "id": "return-value",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      }
+    ]
+  }
+}

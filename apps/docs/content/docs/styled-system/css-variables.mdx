@@ -1,0 +1,146 @@
+---
+title: 'CSS Variables'
+description: Working with color mode (light and dark mode) in Incmix UI
+category: 'features'
+---
+
+Incmix UI now converts theme tokens (colors, font sizes, etc) to CSS Custom
+Properties (also known as "CSS variables").
+
+CSS variables are now supported in all modern browsers, and we think they are
+useful to:
+
+- avoid prop interpolations;
+- avoid classname regeneration from
+  [emotion](https://emotion.sh/docs/introduction);
+- reduce runtime evaluation of token values in Theme context;
+- use theme token outside Incmix's component (embedded forms, markdown content,
+  etc.)
+
+## Overview
+
+There are three main components you should know about when using CSS variables:
+
+- How Incmix converts tokens to custom properties
+- How to consume them in and outside Incmix's component
+- Where we attach the custom properties to
+
+## Converting theme tokens to CSS variables
+
+By default, Incmix UI converts theme tokens defined in your theme (or our
+default theme) to CSS variables internally so you don't have to.
+
+Given a theme object that looks like this:
+
+```jsx live=false
+const theme = {
+  fontSizes: {
+    lg: '18px',
+  },
+  colors: {
+    gray: {
+      100: '#fafafa',
+      200: '#f7f7f7',
+    },
+  },
+}
+```
+
+When you pass this theme to the `IncmixProvider`, we'll automatically generate
+CSS variables that look like:
+
+```css
+:root {
+  --incmix-fontSizes-lg: '18px';
+  --incmix-colors-gray-100: '#fafafa';
+  --incmix-colors-gray-200: '#f7f7f7';
+}
+```
+
+> Note: **The generated custom properties are prefixed with `incmix-*`** to
+> avoid conflicts with third party CSS.
+
+## Consuming CSS Variables
+
+When using Incmix's components, we manage the conversion of theme tokens to
+their respective css variable.
+
+```jsx live=false
+// You type this
+<Box color="gray.100" />
+
+// Incmix generates something like
+.css-box {
+   color: "var(--incmix-colors-gray-100)"
+}
+```
+
+> Note: We do this automatically when you pass style props or use the `sx` prop.
+
+### Styling non-incmix components
+
+In certain scenarios, you might need to style components that are not managed by
+Incmix. In this case, you can use the raw CSS variable values.
+
+```jsx live=false
+// let's say you have an embedded form
+<FormiumForm />
+```
+
+You can write custom CSS to style the components
+
+```css
+.formium-form {
+  color: var(--incmix-colors-gray-700);
+  background-color: var(--incmix-colors-gray-50);
+}
+```
+
+or wrap the component in `<Box/>` and style it with convenience.
+
+```jsx live=false
+<Box sx={{ '.formium': { bg: 'gray.50', color: 'gray.700' } }}>
+  <FormiumForm />
+</Box>
+```
+
+## Attaching the CSS variables
+
+By default, Incmix attaches the generated CSS variables to the `:root` element.
+
+> The :root pseudo-class represents the top level of the HTML document.
+
+To change the root element that Incmix attaches the CSS variables to, pass the
+`cssVarsRoot` prop to `IncmixProvider` and set its value to the css selector of
+the element you want.
+
+```jsx live=false
+<IncmixProvider cssVarsRoot="#app">
+  <App />
+</IncmixProvider>
+```
+
+## Creating scoped, theme-aware CSS variables
+
+> This is experimental and might be removed in future versions
+
+When using the `sx` prop or the `incmix(...)` factory, you can create variables
+that reference theme tokens. This makes it possible to change property values
+based on breakpoint, or light/dark mode with ease.
+
+```jsx live=false
+<Box
+  sx={{
+    // "colors.gray.100" is shorthand for `var(--incmix-colors-gray.100)`
+    '--banner-color': 'colors.gray.100',
+    '.external-banner': {
+      bg: 'var(--banner-color)',
+      '.button': {
+        borderColor: 'var(--banner-color)',
+      },
+    },
+  }}
+>
+  <ExternalBanner />
+</Box>
+```

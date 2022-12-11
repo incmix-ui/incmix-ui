@@ -1,0 +1,49 @@
+{
+  "title": "useCheckbox",
+  "package": "@incmix-ui/checkbox",
+  "description": "React hook to manage checkboxes.",
+  "scope": "usage",
+  "body": {
+    "raw": "\n`useCheckbox` is a custom hook used to provide checkbox functionality, as well\nas state and focus management to custom checkbox components when using it.\n\n## Import\n\n```js\nimport { useCheckbox } from '@incmix-ui/react'\n```\n\n## Return value\n\nThe `useCheckbox` hook returns following props\n\n| Name               | Type            | Description                                                                 |\n| ------------------ | --------------- | --------------------------------------------------------------------------- |\n| `state`            | `CheckboxState` | An object that contains all props defining the current state of a checkbox. |\n| `getCheckboxProps` | `PropGetter`    | A function to get the props of the checkbox.                                |\n| `getInputProps`    | `PropGetter`    | A function to get the props of the input field.                             |\n| `getLabelProps`    | `PropGetter`    | A function to get the props of the checkbox label.                          |\n| `htmlProps`        | `{}`            | An object with all htmlProps.                                               |\n\n## Usage\n\n```jsx\nfunction Example() {\n  const CustomCheckbox = props => {\n    const { state, getCheckboxProps, getInputProps, getLabelProps, htmlProps } = useCheckbox(props)\n\n    return (\n      <incmix.label\n        display=\"flex\"\n        flexDirection=\"row\"\n        alignItems=\"center\"\n        gridColumnGap={2}\n        maxW=\"36\"\n        bg=\"green.50\"\n        border=\"1px solid\"\n        borderColor=\"green.500\"\n        rounded=\"lg\"\n        px={3}\n        py={1}\n        cursor=\"pointer\"\n        {...htmlProps}\n      >\n        <input {...getInputProps()} hidden />\n        <Flex\n          alignItems=\"center\"\n          justifyContent=\"center\"\n          border=\"2px solid\"\n          borderColor=\"green.500\"\n          w={4}\n          h={4}\n          {...getCheckboxProps()}\n        >\n          {state.isChecked && <Box w={2} h={2} bg=\"green.500\" />}\n        </Flex>\n        <Text color=\"gray.700\" {...getLabelProps()}>\n          Click me\n        </Text>\n      </incmix.label>\n    )\n  }\n\n  return (\n    <div>\n      <CustomCheckbox />\n    </div>\n  )\n}\n```\n\n## Parameters\n\nThe `useCheckbox` hook accepts an object with the following properties:\n\n<PropsTable of=\"useCheckbox\" />\n",
+    "code": "var Component=(()=>{var a=Object.create;var c=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var m=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var r in e)c(t,r,{get:e[r],enumerable:!0})},d=(t,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!b.call(t,o)&&o!==r&&c(t,o,{get:()=>e[o],enumerable:!(i=p(e,o))||i.enumerable});return t};var f=(t,e,r)=>(r=t!=null?a(x(t)):{},d(e||!t||!t.__esModule?c(r,\"default\",{value:t,enumerable:!0}):r,t)),k=t=>d(c({},\"__esModule\",{value:!0}),t);var l=m((I,h)=>{h.exports=_jsx_runtime});var w={};g(w,{default:()=>j,frontmatter:()=>C});var n=f(l()),C={title:\"useCheckbox\",package:\"@incmix-ui/checkbox\",description:\"React hook to manage checkboxes.\"};function s(t){let e=Object.assign({p:\"p\",code:\"code\",h2:\"h2\",pre:\"pre\",table:\"table\",thead:\"thead\",tr:\"tr\",th:\"th\",tbody:\"tbody\",td:\"td\"},t.components),{PropsTable:r}=e;return r||y(\"PropsTable\",!0,\"82:1-82:32\"),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.code,{children:\"useCheckbox\"}),` is a custom hook used to provide checkbox functionality, as well\nas state and focus management to custom checkbox components when using it.`]}),`\n`,(0,n.jsx)(e.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-js\",children:`import { useCheckbox } from '@incmix-ui/react'\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"return-value\",children:\"Return value\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"The \",(0,n.jsx)(e.code,{children:\"useCheckbox\"}),\" hook returns following props\"]}),`\n`,(0,n.jsxs)(e.table,{children:[(0,n.jsx)(e.thead,{children:(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.th,{children:\"Name\"}),(0,n.jsx)(e.th,{children:\"Type\"}),(0,n.jsx)(e.th,{children:\"Description\"})]})}),(0,n.jsxs)(e.tbody,{children:[(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"state\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"CheckboxState\"})}),(0,n.jsx)(e.td,{children:\"An object that contains all props defining the current state of a checkbox.\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"getCheckboxProps\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"PropGetter\"})}),(0,n.jsx)(e.td,{children:\"A function to get the props of the checkbox.\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"getInputProps\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"PropGetter\"})}),(0,n.jsx)(e.td,{children:\"A function to get the props of the input field.\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"getLabelProps\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"PropGetter\"})}),(0,n.jsx)(e.td,{children:\"A function to get the props of the checkbox label.\"})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"htmlProps\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"{}\"})}),(0,n.jsx)(e.td,{children:\"An object with all htmlProps.\"})]})]})]}),`\n`,(0,n.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`function Example() {\n  const CustomCheckbox = props => {\n    const { state, getCheckboxProps, getInputProps, getLabelProps, htmlProps } = useCheckbox(props)\n\n    return (\n      <incmix.label\n        display=\"flex\"\n        flexDirection=\"row\"\n        alignItems=\"center\"\n        gridColumnGap={2}\n        maxW=\"36\"\n        bg=\"green.50\"\n        border=\"1px solid\"\n        borderColor=\"green.500\"\n        rounded=\"lg\"\n        px={3}\n        py={1}\n        cursor=\"pointer\"\n        {...htmlProps}\n      >\n        <input {...getInputProps()} hidden />\n        <Flex\n          alignItems=\"center\"\n          justifyContent=\"center\"\n          border=\"2px solid\"\n          borderColor=\"green.500\"\n          w={4}\n          h={4}\n          {...getCheckboxProps()}\n        >\n          {state.isChecked && <Box w={2} h={2} bg=\"green.500\" />}\n        </Flex>\n        <Text color=\"gray.700\" {...getLabelProps()}>\n          Click me\n        </Text>\n      </incmix.label>\n    )\n  }\n\n  return (\n    <div>\n      <CustomCheckbox />\n    </div>\n  )\n}\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"parameters\",children:\"Parameters\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"The \",(0,n.jsx)(e.code,{children:\"useCheckbox\"}),\" hook accepts an object with the following properties:\"]}),`\n`,(0,n.jsx)(r,{of:\"useCheckbox\"})]})}function P(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,Object.assign({},t,{children:(0,n.jsx)(s,t)})):s(t)}var j=P;function y(t,e,r){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+t+\"` to be defined: you likely forgot to import, pass, or provide it.\"+(r?\"\\nIt\\u2019s referenced in your code at `\"+r+\"` in `/Users/uma.krishnan/projects/incmixlabs/incmix-ui/apps/docs/content/_mdx_bundler_entry_point-2b3a8184-378f-4821-a7e8-90009cb7dcf0.mdx`\":\"\"))}return k(w);})();\n;return Component;"
+  },
+  "_id": "docs/hooks/use-checkbox.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/hooks/use-checkbox.mdx",
+    "sourceFileName": "use-checkbox.mdx",
+    "sourceFileDir": "docs/hooks",
+    "contentType": "mdx",
+    "flattenedPath": "docs/hooks/use-checkbox"
+  },
+  "type": "Doc",
+  "slug": "/docs/hooks/use-checkbox",
+  "frontMatter": {
+    "title": "useCheckbox",
+    "package": "@incmix-ui/checkbox",
+    "description": "React hook to manage checkboxes.",
+    "slug": "/docs/hooks/use-checkbox",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/hooks/use-checkbox.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "Return value",
+        "id": "return-value",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      },
+      {
+        "text": "Parameters",
+        "id": "parameters",
+        "level": "h2"
+      }
+    ]
+  }
+}

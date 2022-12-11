@@ -1,0 +1,41 @@
+{
+  "title": "JsonEditor",
+  "package": "@incmix/ui",
+  "description": "The JsonEditor Component Provides a JSON Editor.",
+  "id": "json-editor",
+  "scope": "usage",
+  "category": "form",
+  "body": {
+    "raw": "\n## Import\n\n```js\nimport { JsonEditor } from '@incmix/ui'\n```\n\n## Usage\n\nHere's a basic usage example of the `JsonEditor` component:\n\n```tsx\nconst usedJsonString = useJsonString({})\n<JsonEditor placeholder=\"Basic usage\" usedJsonString={usedJsonString} />\n```\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),J=(n,e)=>{for(var t in e)s(n,t,{get:e[t],enumerable:!0})},c=(n,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!h.call(n,r)&&r!==t&&s(n,r,{get:()=>e[r],enumerable:!(i=p(e,r))||i.enumerable});return n};var j=(n,e,t)=>(t=n!=null?l(u(n)):{},c(e||!n||!n.__esModule?s(t,\"default\",{value:n,enumerable:!0}):t,n)),f=n=>c(s({},\"__esModule\",{value:!0}),n);var d=x((M,a)=>{a.exports=_jsx_runtime});var b={};J(b,{default:()=>S,frontmatter:()=>_});var o=j(d()),_={id:\"json-editor\",category:\"form\",title:\"JsonEditor\",package:\"@incmix/ui\",description:\"The JsonEditor Component Provides a JSON Editor.\"};function m(n){let e=Object.assign({h2:\"h2\",pre:\"pre\",code:\"code\",p:\"p\"},n.components);return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,o.jsx)(e.pre,{children:(0,o.jsx)(e.code,{className:\"language-js\",children:`import { JsonEditor } from '@incmix/ui'\n`})}),`\n`,(0,o.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,o.jsxs)(e.p,{children:[\"Here's a basic usage example of the \",(0,o.jsx)(e.code,{children:\"JsonEditor\"}),\" component:\"]}),`\n`,(0,o.jsx)(e.pre,{children:(0,o.jsx)(e.code,{className:\"language-tsx\",children:`const usedJsonString = useJsonString({})\n<JsonEditor placeholder=\"Basic usage\" usedJsonString={usedJsonString} />\n`})})]})}function E(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,Object.assign({},n,{children:(0,o.jsx)(m,n)})):m(n)}var S=E;return f(b);})();\n;return Component;"
+  },
+  "_id": "docs/components/json-editor/usage.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/json-editor/usage.mdx",
+    "sourceFileName": "usage.mdx",
+    "sourceFileDir": "docs/components/json-editor",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/json-editor/usage"
+  },
+  "type": "Doc",
+  "slug": "/docs/components/json-editor/usage",
+  "frontMatter": {
+    "title": "JsonEditor",
+    "package": "@incmix/ui",
+    "description": "The JsonEditor Component Provides a JSON Editor.",
+    "slug": "/docs/components/json-editor/usage",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/components/json-editor/usage.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      }
+    ]
+  }
+}

@@ -131,7 +131,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 * [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
@@ -168,7 +168,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 ## 1.10.4
 
@@ -312,7 +312,7 @@
 * [`43f66097b`](https://github.com/incmix-ui/incmix-ui/commit/43f66097b39f1c37a4627dd6ca8a85555f35b95c)
   [#4458](https://github.com/incmix-ui/incmix-ui/pull/4458) Thanks
   [@agundermann](https://github.com/agundermann)! - Fix issues when rendering
-  chakra components in different window
+  incmix components in different window
 
 ## 1.8.1
 
@@ -321,7 +321,7 @@
 - [`4a1e4d93b`](https://github.com/incmix-ui/incmix-ui/commit/4a1e4d93b0a07df7266d40bb66039385b158d3d1)
   [#4305](https://github.com/incmix-ui/incmix-ui/pull/4305) Thanks
   [@MasterGordon](https://github.com/MasterGordon)! - Fixed a circular
-  dependency which was causing warnings when bundling Chakra with `rollup`.
+  dependency which was causing warnings when bundling Incmix with `rollup`.
 
 ## 1.8.0
 
@@ -449,7 +449,7 @@
 
   ```jsx
   const value = getCSSVar(theme, "colors", "blue.500")
-  // => "var(--chakra-colors-blue.500)"
+  // => "var(--incmix-colors-blue.500)"
 
   const value = getCSSVar(theme, "colors", "tomato")
   // => "tomato" // since tomato doesn't exist in theme colors

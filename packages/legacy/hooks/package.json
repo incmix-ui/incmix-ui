@@ -1,11 +1,11 @@
 {
   "name": "@incmix-ui/hooks",
   "version": "2.1.2",
-  "description": "React hooks for Chakra components",
+  "description": "React hooks for Incmix components",
   "keywords": [
     "hooks",
     "react",
-    "chakra ui",
+    "incmix ui",
     "utilities"
   ],
   "sideEffects": false,

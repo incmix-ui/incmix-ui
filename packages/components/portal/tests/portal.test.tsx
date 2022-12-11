@@ -14,11 +14,11 @@ test("should render portal", async () => {
     <body>
       <div />
       <div
-        class="chakra-portal"
+        class="incmix-portal"
       >
         This is a portal 1
         <div
-          class="chakra-portal"
+          class="incmix-portal"
         >
           This is a portal 2
         </div>

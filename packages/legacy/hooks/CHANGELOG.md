@@ -60,7 +60,7 @@
   component/function docs and relative docsite links.
 
   Ensures that all Components, functions, and hooks that have detailed pages on
-  the Chakra site have corresponding JSDocs and links back to the docsite via
+  the Incmix site have corresponding JSDocs and links back to the docsite via
   IDE intellisense.
 
   Includes adding or fixing links within these docs to related WAI-ARIA
@@ -180,7 +180,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 * [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
@@ -306,7 +306,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Chakra UI version 2.
+  to next major for Incmix UI version 2.
 
 * [#5828](https://github.com/incmix-ui/incmix-ui/pull/5828)
   [`1a47fd27e`](https://github.com/incmix-ui/incmix-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)
