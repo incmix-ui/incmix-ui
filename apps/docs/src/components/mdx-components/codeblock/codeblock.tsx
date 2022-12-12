@@ -7,7 +7,7 @@ import CodeContainer from './code-container'
 import CopyButton from './copy-button'
 import Highlight from './highlight'
 
-const ReactLiveBlock = dynamic(() => import('./react-live-block'))
+const ReactLiveBlock = dynamic(async () => await import('./react-live-block'))
 
 function CodeBlock(props) {
   const [isMounted, { on }] = useBoolean()
@@ -33,7 +33,7 @@ function CodeBlock(props) {
     mountStylesheet,
   }
 
-  if (isMounted && language === 'jsx' && _live === true) {
+  if (isMounted && language === 'jsx' && _live) {
     return <ReactLiveBlock editable {...reactLiveBlockProps} />
   }
 

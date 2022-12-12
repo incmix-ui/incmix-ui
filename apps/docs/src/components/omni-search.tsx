@@ -1,18 +1,7 @@
 /* eslint-disable */
+// @ts-nocheck
 import { SearchIcon } from '@incmix-ui/icons'
-import {
-  Box,
-  Center,
-  incmix,
-  Flex,
-  Modal,
-  ModalBody,
-  ModalContent,
-  ModalOverlay,
-  useDisclosure,
-  useEventListener,
-  useUpdateEffect,
-} from '@incmix-ui/react'
+import { Box, Center, incmix, Flex, useDisclosure, useEventListener, useUpdateEffect } from '@incmix-ui/react'
 import searchData from 'configs/search-meta.json'
 import { findAll } from 'highlight-words-core'
 import { matchSorter } from 'match-sorter'
@@ -209,126 +198,6 @@ function OmniSearch() {
   return (
     <>
       <SearchButton onClick={modal.onOpen} />
-      <Modal scrollBehavior="inside" isOpen={modal.isOpen} onClose={modal.onClose}>
-        <ModalOverlay />
-        <ModalContent
-          role="combobox"
-          aria-expanded="true"
-          aria-haspopup="listbox"
-          rounded="lg"
-          overflow="hidden"
-          top="4vh"
-          bg="transparent"
-          shadow="lg"
-          maxW="600px"
-        >
-          <Flex pos="relative" align="stretch">
-            <incmix.input
-              aria-autocomplete="list"
-              autoComplete="off"
-              autoCorrect="off"
-              spellCheck="false"
-              maxLength={64}
-              sx={{
-                w: '100%',
-                h: '68px',
-                pl: '68px',
-                fontWeight: 'medium',
-                outline: 0,
-                bg: 'white',
-                '.incmix-ui-dark &': { bg: 'gray.700' },
-              }}
-              placeholder="Search the docs"
-              value={query}
-              onChange={e => {
-                setQuery(e.target.value)
-                menu.onOpen()
-              }}
-              onKeyDown={onKeyDown}
-              onKeyUp={onKeyUp}
-            />
-            <Center pos="absolute" left={7} h="68px">
-              <SearchIcon color="teal.500" boxSize="20px" />
-            </Center>
-          </Flex>
-          <ModalBody maxH="66vh" p="0" ref={menuRef}>
-            {open && (
-              <Box
-                sx={{
-                  px: 4,
-                  bg: 'white',
-                  '.incmix-ui-dark &': { bg: 'gray.700' },
-                }}
-              >
-                <Box as="ul" role="listbox" borderTopWidth="1px" pt={2} pb={4}>
-                  {results.map((item, index) => {
-                    const selected = index === active
-                    const isLvl1 = item.type === 'lvl1'
-
-                    return (
-                      <Link key={item.id} href={item.url} passHref>
-                        <a>
-                          <Box
-                            id={`search-item-${index}`}
-                            as="li"
-                            aria-selected={selected ? true : undefined}
-                            onMouseEnter={() => {
-                              setActive(index)
-                              eventRef.current = 'mouse'
-                            }}
-                            onClick={() => {
-                              if (shouldCloseModal) {
-                                modal.onClose()
-                              }
-                            }}
-                            ref={menuNodes.ref(index)}
-                            role="option"
-                            key={item.id}
-                            sx={{
-                              display: 'flex',
-                              alignItems: 'center',
-                              minH: 16,
-                              mt: 2,
-                              px: 4,
-                              py: 2,
-                              rounded: 'lg',
-                              bg: 'gray.100',
-                              '.incmix-ui-dark &': { bg: 'gray.600' },
-                              _selected: {
-                                bg: 'teal.500',
-                                color: 'white',
-                                mark: {
-                                  color: 'white',
-                                  textDecoration: 'underline',
-                                },
-                              },
-                            }}
-                          >
-                            {isLvl1 ? <DocIcon opacity={0.4} /> : <HashIcon opacity={0.4} />}
-
-                            <Box flex="1" ml="4">
-                              {!isLvl1 && (
-                                <Box fontWeight="medium" fontSize="xs" opacity={0.7}>
-                                  {item.hierarchy.lvl1}
-                                </Box>
-                              )}
-                              <Box fontWeight="semibold">
-                                <OptionText searchWords={[query]} textToHighlight={item.content} />
-                              </Box>
-                            </Box>
-
-                            <EnterIcon opacity={0.5} />
-                          </Box>
-                        </a>
-                      </Link>
-                    )
-                  })}
-                </Box>
-              </Box>
-            )}
-          </ModalBody>
-        </ModalContent>
-      </Modal>
     </>
   )
 }

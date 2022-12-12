@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SearchIcon } from '@incmix-ui/icons'
 import { incmix, HStack, HTMLIncmixProps, Kbd, Portal, Text, VisuallyHidden } from '@incmix-ui/react'
 import { DocSearchModal, useDocSearchKeyboardEvents } from '@docsearch/react'

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Box, Flex, FlexProps, Grid, GridProps, useTheme } from '@incmix-ui/react'
 import React from 'react'
 

@@ -1,2 +1,2 @@
-export * from 'configs/sandpack-contents/tutorial/package'
-export * from 'configs/sandpack-contents/tutorial/TutorialApp'
+export * from './package'
+export * from './TutorialApp'

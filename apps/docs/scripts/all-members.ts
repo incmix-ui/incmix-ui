@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Octokit } from '@octokit/rest'
 import { config } from 'dotenv'
 import fs from 'fs'
@@ -27,7 +28,7 @@ async function getMembers() {
         username: member.login,
       })
 
-      if ((data.blog as string).length > 0 && !(data.blog as string).startsWith('http')) {
+      if (data.blog.length > 0 && !data.blog.startsWith('http')) {
         data.blog = `http://${data.blog}`
       }
 

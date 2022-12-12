@@ -98,3 +98,6 @@ yarn-error.log
 
 report.*
 *.backup
+
+# Contentlayer
+.contentlayer

@@ -45,7 +45,7 @@ export const getAllRoutes = (routes: any) => {
   const allRoutes = []
 
   routes[0].routes.forEach((route: RouteItem) => {
-    if (route.routes) {
+    if (route.routes != null) {
       route.routes.forEach(item => {
         allRoutes.push(item)
       })

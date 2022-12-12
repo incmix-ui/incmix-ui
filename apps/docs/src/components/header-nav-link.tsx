@@ -1,10 +1,11 @@
+// @ts-nocheck
 import { incmix, HTMLIncmixProps, useColorModeValue } from '@incmix-ui/react'
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
 
 function NavLink(props: HTMLIncmixProps<'a'>) {
-  const { href, ...rest } = props
+  const { href = '', ...rest } = props
   const { pathname } = useRouter()
 
   const [, group] = href.split('/')

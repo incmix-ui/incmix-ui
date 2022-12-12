@@ -13,6 +13,7 @@
   "dependencies": {
     "@incmix-ui/button": "workspace:*",
     "@incmix-ui/css-reset": "workspace:*",
+    "@incmix-ui/close-button": "workspace:*",
     "@incmix-ui/color-mode": "workspace:*",
     "@incmix-ui/hooks": "workspace:*",
     "@incmix-ui/icon": "workspace:*",

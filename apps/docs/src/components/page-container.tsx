@@ -56,7 +56,7 @@ function PageContainer(props: PageContainerProps) {
       <Header />
       <Box as="main" className="main-content" w="full" maxW="8xl" mx="auto">
         <Box display={{ md: 'flex' }}>
-          {leftSidebar || null}
+          {leftSidebar != null || null}
           <Box flex="1" minW="0">
             <SkipNavContent />
             <Box id="content" px={5} mx="auto" minH="76vh">
@@ -74,7 +74,7 @@ function PageContainer(props: PageContainerProps) {
                     {children}
                     <Box mt="40px">
                       <Box>{editUrl && <EditPageLink href={editUrl} />}</Box>
-                      {pagination || null}
+                      {pagination != null || null}
                     </Box>
                   </Box>
                 </Box>

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { type FlexProps, incmix, Flex } from '@incmix-ui/react'
 import NextImage, { ImageLoaderProps, ImageProps } from 'next/image'
 

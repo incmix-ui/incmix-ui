@@ -2,7 +2,7 @@ import { Flex, LinkBox, LinkOverlay, Text } from '@incmix-ui/react'
 import NextImage from 'next/image'
 import NextLink from 'next/link'
 
-type Props = {
+interface Props {
   url: string
   title: string
   slug: string

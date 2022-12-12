@@ -1,5 +1,5 @@
 export function splitByComma(value: string) {
-  const chunks = []
+  const chunks: string[] = []
   let chunk = ""
   let inParens = false
   for (let i = 0; i < value.length; i++) {

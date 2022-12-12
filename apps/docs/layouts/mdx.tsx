@@ -1,3 +1,4 @@
+// @ts-nocheck
 import PageContainer from 'components/page-container'
 import Pagination from 'components/pagination'
 import Sidebar from 'components/sidebar/sidebar'

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { incmix, HTMLIncmixProps, useDimensions } from '@incmix-ui/react'
 import React, { useRef } from 'react'
 

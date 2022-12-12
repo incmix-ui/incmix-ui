@@ -17,7 +17,7 @@ const themeComponentKeyAliases = {
   IconButton: 'Button',
 }
 
-export type PropsTableProps = {
+export interface PropsTableProps {
   /**
    * displayName of the target component
    */
@@ -40,7 +40,7 @@ const PropsTable = ({
 }: PropsTableProps) => {
   const propList = React.useMemo(() => makePropsTable({ of, omit, only }), [of, omit, only])
 
-  if (!propList.length) {
+  if (propList.length === 0) {
     // this error breaks the build to notify you when there would be an empty table
     throw new Error(
       `No props left to render for component ${of}.

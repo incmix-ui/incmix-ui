@@ -1,4 +1,5 @@
 /* eslint-disable */
+// @ts-nocheck
 import { Box, HStack, Stack } from '@incmix-ui/react'
 import { MDXComponents } from 'components/mdx-components'
 import { Doc } from 'contentlayer/generated'
@@ -18,7 +19,7 @@ function MDXContent({ doc }: { doc: Doc | undefined }) {
 export default function ComponentDocsLayout({
   children,
   frontmatter,
-  tabsData,
+  tabsData = [],
 }: {
   children: ReactNode
   frontmatter: any

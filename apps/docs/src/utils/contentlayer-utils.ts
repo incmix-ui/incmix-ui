@@ -14,13 +14,13 @@ function toCapitalized(str: string) {
 }
 
 export function getGroupedComponents() {
-  return getDocByType('components').reduce((acc, doc) => {
+  return getDocByType('components').reduce<{ [key: string]: any[] }>((acc, doc) => {
     const { category } = doc
     if (!category) return acc
     acc[toCapitalized(category)] ??= []
     acc[toCapitalized(category)].push(doc)
     return acc
-  }, {} as { [key: string]: any[] })
+  }, {})
 }
 
 const getUsageDoc = (id: string) => {
@@ -30,9 +30,9 @@ const getUsageDoc = (id: string) => {
 export const getDocDoc = (slug: MixedArray): Doc | undefined => {
   const params = toArray(slug)
   const _slug = params.join('/')
-  const doc = allDocs.find(doc => doc.slug.endsWith(_slug) || doc.slug.endsWith(`${_slug}/usage`)) as Doc | undefined
+  const doc = allDocs.find(doc => doc.slug.endsWith(_slug) || doc.slug.endsWith(`${_slug}/usage`))
 
-  if (!doc) return
+  if (doc == null) return
 
   // the presence of scope, means its a component documentation
   if (doc.scope && doc.scope !== 'usage') {

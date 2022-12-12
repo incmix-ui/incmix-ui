@@ -1,5 +1,5 @@
 /* eslint-disable */
-
+// @ts-nocheck
 import { incmix } from '@incmix-ui/react'
 import BaseHighlight, { defaultProps, Language, PrismTheme } from 'prism-react-renderer'
 import React from 'react'

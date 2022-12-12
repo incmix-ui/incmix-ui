@@ -3,8 +3,8 @@ import NextDocument, { DocumentContext, Head, Html, Main, NextScript } from 'nex
 import React from 'react'
 
 class Document extends NextDocument {
-  static getInitialProps(ctx: DocumentContext) {
-    return NextDocument.getInitialProps(ctx)
+  static async getInitialProps(ctx: DocumentContext) {
+    return await NextDocument.getInitialProps(ctx)
   }
 
   render() {

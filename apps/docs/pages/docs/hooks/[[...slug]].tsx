@@ -1,4 +1,5 @@
 /* eslint-disable */
+// @ts-nocheck
 import { MDXComponents } from 'components/mdx-components'
 import MDXLayout from 'layouts/mdx'
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next'

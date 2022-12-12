@@ -33,7 +33,7 @@ export class AvatarCache {
       }
 
       const body = await response.arrayBuffer()
-      return this.processImage(body, outputFileSlug)
+      return await this.processImage(body, outputFileSlug)
     } catch (error) {
       console.error(`Error processing ${url}\nError: ${error}`)
     }

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { MDXComponents } from 'components/mdx-components'
 import { allRecipes } from 'contentlayer/generated'
 import MDXLayout from 'layouts/mdx'

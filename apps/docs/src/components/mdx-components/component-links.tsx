@@ -45,7 +45,7 @@ function ComponentLink(props: ComponentLinkProps) {
   )
 }
 
-export type ComponentLinksProps = {
+export interface ComponentLinksProps {
   theme?: { componentName: string }
   github?: { url?: string; package?: string }
   npm?: { package: string }
@@ -58,7 +58,7 @@ function ComponentLinks(props: ComponentLinksProps) {
 
   const githubRepoUrl = 'https://github.com/incmix-ui/incmix-ui'
 
-  const themeComponentLink = theme && (
+  const themeComponentLink = theme != null && (
     <ComponentLink
       url={`${githubRepoUrl}/tree/main/packages/components/theme/src/components/${theme.componentName}.ts`}
       icon={FaGithub}

@@ -7,6 +7,7 @@ export function ButtonIcon(props: HTMLIncmixProps<"span">) {
 
   const _children = isValidElement(children)
     ? cloneElement(children, {
+        // @ts-ignore
         "aria-hidden": true,
         focusable: false,
       })

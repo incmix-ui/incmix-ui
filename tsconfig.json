@@ -10,19 +10,31 @@
     "strict": true,
     "isolatedModules": true,
     "noFallthroughCasesInSwitch": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "noImplicitAny": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "declarationMap": true
   },
-  "include": [
-    "@types",
-    "packages",
-    "scripts",
-    "tooling",
-    "plopfile.ts",
-    "react-shim.js"
+  "include": ["packages", "apps", "scripts"],
+  "exclude": [
+    "**/node_modules",
+    "**/dist",
+    "**/build",
+    "**/coverage",
+    "packages/ui/src/keen-slider/**/*"
   ],
-  "exclude": ["**/node_modules", "**/template*"]
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "resolveJsonModule": true,
+      "noImplicitAny": false
+    }
+  }
 }

@@ -23,6 +23,7 @@
     "@incmix-ui/props-docs": "workspace:*",
     "@incmix-ui/react": "workspace:*",
     "@incmix-ui/skip-nav": "workspace*",
+    "@incmix-ui/system": "workspace:*",
     "@incmix-ui/theme": "workspace:*",
     "@incmix-ui/utils": "workspace:*",
     "@mdx-js/loader": "^2.1.5",

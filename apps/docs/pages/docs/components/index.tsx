@@ -5,19 +5,19 @@ import type { GetStaticProps } from 'next'
 import type { FrontmatterHeading } from 'src/types/frontmatter'
 import { getGroupedComponents } from 'utils/contentlayer-utils'
 
-type Component = {
+interface Component {
   title: string
   url: string
   id: string
 }
 
-type Category = {
+interface Category {
   id: string
   title: string
   components: Component[]
 }
 
-type Props = {
+interface Props {
   categories: Category[]
   headings: FrontmatterHeading[]
 }
@@ -58,7 +58,7 @@ export const ComponentsOverview = ({ categories, headings }: Props) => {
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const group = getGroupedComponents()
 
-  const categories = Object.entries(group).reduce((acc, item) => {
+  const categories = Object.entries(group).reduce<Category[]>((acc, item) => {
     const [title, items] = item
     if (title === 'Layout') return acc
     const category: Category = {
@@ -71,9 +71,9 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
       })),
     }
     return acc.concat(category)
-  }, [] as Category[])
+  }, [])
 
-  const headings = Object.entries(group).reduce((acc, item) => {
+  const headings = Object.entries(group).reduce<FrontmatterHeading[]>((acc, item) => {
     const [title] = item
     if (title === 'Layout') return acc
     const heading: FrontmatterHeading = {
@@ -82,7 +82,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
       level: 2,
     }
     return acc.concat(heading)
-  }, [] as FrontmatterHeading[])
+  }, [])
 
   return {
     props: {

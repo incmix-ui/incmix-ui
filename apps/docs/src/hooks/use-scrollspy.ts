@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as React from 'react'
 
 export function useScrollSpy(selectors: string[], options?: IntersectionObserverInit) {
@@ -14,7 +15,7 @@ export function useScrollSpy(selectors: string[], options?: IntersectionObserver
       })
     }, options)
     elements.forEach(el => {
-      if (el) observer.current?.observe(el)
+      if (el != null) observer.current?.observe(el)
     })
     return () => observer.current?.disconnect()
   }, [selectors, options])

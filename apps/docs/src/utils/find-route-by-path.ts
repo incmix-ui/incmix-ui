@@ -13,9 +13,9 @@ export function findRouteByPath(path: string, routes: RouteItem[]): RouteItem {
       return route
     }
 
-    const childPath = route.routes && findRouteByPath(path, route.routes)
+    const childPath = route.routes != null && findRouteByPath(path, route.routes)
 
-    if (childPath) {
+    if (childPath != null) {
       return childPath
     }
   }

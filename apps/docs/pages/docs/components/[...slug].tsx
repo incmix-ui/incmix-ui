@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { MDXComponents } from 'components/mdx-components'
 import ComponentDocsLayout from 'layouts/component'
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next'
@@ -21,7 +22,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async ctx => {
   const tabsData = getComponentTabsData(['components', ctx.params.slug])
-  if (!tabsData || !getDocDoc(['components', ctx.params.slug])) {
+  if (!tabsData || getDocDoc(['components', ctx.params.slug]) == null) {
     console.log(ctx.params.slug)
     return { notFound: true }
   }

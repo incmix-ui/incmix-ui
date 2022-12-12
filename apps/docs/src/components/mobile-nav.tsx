@@ -1,4 +1,5 @@
 /* eslint-disable */
+// @ts-nocheck
 import {
   Box,
   BoxProps,
@@ -13,7 +14,7 @@ import {
   useColorModeValue,
   useUpdateEffect,
 } from '@incmix-ui/react'
-// import { CloseButton } from '@incmix-ui/close-button'
+import { CloseButton } from '@incmix-ui/close-button'
 
 import { AnimatePresence, motion, useElementScroll } from 'framer-motion'
 import useRouteChanged from 'hooks/use-route-changed'
@@ -71,7 +72,7 @@ export function MobileNavContent(props: MobileNavContentProps) {
   const { pathname, asPath } = useRouter()
   const bgColor = useColorModeValue('white', 'gray.800')
 
-  useRouteChanged(onClose)
+  onClose && useRouteChanged(onClose)
 
   /**
    * Scenario: Menu is open on mobile, and user resizes to desktop/tablet viewport.
@@ -80,7 +81,7 @@ export function MobileNavContent(props: MobileNavContentProps) {
   const showOnBreakpoint = useBreakpointValue({ base: true, lg: false })
 
   useEffect(() => {
-    if (showOnBreakpoint == false) {
+    if (showOnBreakpoint == false && onClose) {
       onClose()
     }
   }, [showOnBreakpoint, onClose])
@@ -120,7 +121,9 @@ export function MobileNavContent(props: MobileNavContentProps) {
               <Box>
                 <Flex justify="space-between" px="6" pt="5" pb="4">
                   <Logo sx={{ rect: { fill: 'teal.300' } }} />
-                  <HStack spacing="5"></HStack>
+                  <HStack spacing="5">
+                    <CloseButton ref={closeBtnRef} onClick={onClose} />
+                  </HStack>
                 </Flex>
                 <Grid px="6" pb="6" pt="2" shadow={shadow} templateColumns="repeat(2, 1fr)" gap="2">
                   {mainNavLinks.map(item => (
