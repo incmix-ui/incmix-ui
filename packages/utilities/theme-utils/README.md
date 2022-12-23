@@ -1,4 +1,4 @@
-# @incmix-ui/theme-utils
+# @chakra-ui/theme-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/theme-utils
+yarn add @chakra-ui/theme-utils
 # or
-npm i @incmix-ui/theme-utils
+npm i @chakra-ui/theme-utils
 ```
 
 ## Contribution

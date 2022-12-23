@@ -5,17 +5,17 @@ Keep track of descendant components and their relative indices.
 A descendant index solution for better accessibility support in compound
 components.
 
-> **Note 🚨:** This package is primarily intended for internal use by the Incmix
+> **Note 🚨:** This package is primarily intended for internal use by the Chakra
 > UI library. You should not use it directly in your production projects.
 
 ## Installation
 
 ```sh
-yarn add @incmix-ui/descendant
+yarn add @chakra-ui/descendant
 
 # or
 
-npm i @incmix-ui/descendant
+npm i @chakra-ui/descendant
 ```
 
 ## Motivation
@@ -43,7 +43,7 @@ This enables component composition:
 ### Usage
 
 ```jsx
-import { createDescendantContext } from "@incmix-ui/descendant"
+import { createDescendantContext } from "@chakra-ui/descendant"
 import * as React from "react"
 
 const [

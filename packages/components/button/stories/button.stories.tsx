@@ -4,18 +4,18 @@ import {
   EmailIcon,
   PhoneIcon,
   SearchIcon,
-} from "@incmix-ui/icons"
-import { Container, HStack, Stack } from "@incmix-ui/layout"
+} from "@chakra-ui/icons"
+import { Container, HStack, Stack } from "@chakra-ui/layout"
 import * as React from "react"
 import { FaFacebook, FaTwitter } from "react-icons/fa"
 import { MdBuild, MdCall } from "react-icons/md"
 import { BeatLoader } from "react-spinners"
 import { motion } from "framer-motion"
 import { Meta, StoryFn } from "@storybook/react"
-import { ThemingProps } from "@incmix-ui/system"
-import { theme } from "@incmix-ui/theme"
-import { getThemingArgTypes } from "@incmix-ui/storybook-addon"
-import { pick } from "@incmix-ui/utils"
+import { ThemingProps } from "@chakra-ui/system"
+import { theme } from "@chakra-ui/theme"
+import { getThemingArgTypes } from "@chakra-ui/storybook-addon"
+import { pick } from "@chakra-ui/utils"
 import { Button, ButtonGroup, IconButton } from "../src"
 
 export default {

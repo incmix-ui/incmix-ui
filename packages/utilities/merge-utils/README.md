@@ -1,4 +1,4 @@
-# @incmix-ui/extend-theme
+# @chakra-ui/extend-theme
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/merge-utils
+yarn add @chakra-ui/merge-utils
 # or
-npm i @incmix-ui/merge-utils
+npm i @chakra-ui/merge-utils
 ```
 
 ## Contribution

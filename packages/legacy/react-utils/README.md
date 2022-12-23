@@ -1,4 +1,4 @@
-# @incmix-ui/react-utils
+# @chakra-ui/react-utils
 
 This package contains all React-related utilities and types that may be consumed
 by other packages.
@@ -8,7 +8,7 @@ by other packages.
 ## Installation
 
 ```sh
-yarn add @incmix-ui/react-utils
+yarn add @chakra-ui/react-utils
 # or
-npm i @incmix-ui/react-utils
+npm i @chakra-ui/react-utils
 ```

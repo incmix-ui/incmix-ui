@@ -1,4 +1,4 @@
-# @incmix-ui/react-use-interval
+# @chakra-ui/react-use-interval
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/react-use-interval
+yarn add @chakra-ui/react-use-interval
 # or
-npm i @incmix-ui/react-use-interval
+npm i @chakra-ui/react-use-interval
 ```
 
 ## Contribution

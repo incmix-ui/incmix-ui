@@ -1,4 +1,4 @@
-# @incmix-ui/react-use-pan-gesture
+# @chakra-ui/react-use-pan-gesture
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/react-use-pan-gesture
+yarn add @chakra-ui/react-use-pan-gesture
 # or
-npm i @incmix-ui/react-use-pan-gesture
+npm i @chakra-ui/react-use-pan-gesture
 ```
 
 ## Contribution

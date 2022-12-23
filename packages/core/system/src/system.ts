@@ -1,18 +1,18 @@
-import { useColorMode } from "@incmix-ui/color-mode"
+import { useColorMode } from "@chakra-ui/color-mode"
 import {
   css,
   isStyleProp,
   StyleProps,
   SystemStyleObject,
-} from "@incmix-ui/styled-system"
-import { Dict, filterUndefined, objectFilter, runIfFn } from "@incmix-ui/utils"
+} from "@chakra-ui/styled-system"
+import { Dict, filterUndefined, objectFilter, runIfFn } from "@chakra-ui/utils"
 import emotionStyled, {
   CSSObject,
   FunctionInterpolation,
 } from "@emotion/styled"
 import React from "react"
 import { shouldForwardProp } from "./should-forward-prop"
-import { As, IncmixComponent, IncmixProps, PropsOf } from "./system.types"
+import { As, ChakraComponent, ChakraProps, PropsOf } from "./system.types"
 import { DOMElements } from "./system.utils"
 
 type StyleResolverProps = SystemStyleObject & {
@@ -60,7 +60,7 @@ export const toCSSObject: GetStyleObject =
     return cssProp ? [computedCSS, cssProp] : computedCSS
   }
 
-export interface IncmixStyledOptions extends Dict {
+export interface ChakraStyledOptions extends Dict {
   shouldForwardProp?(prop: string): boolean
   label?: string
   baseStyle?:
@@ -70,7 +70,7 @@ export interface IncmixStyledOptions extends Dict {
 
 export function styled<T extends As, P = {}>(
   component: T,
-  options?: IncmixStyledOptions,
+  options?: ChakraStyledOptions,
 ) {
   const { baseStyle, ...styledOptions } = options ?? {}
 
@@ -84,7 +84,7 @@ export function styled<T extends As, P = {}>(
     styledOptions,
   )(styleObject)
 
-  const IncmixComponent = React.forwardRef(function IncmixComponent(
+  const chakraComponent = React.forwardRef(function ChakraComponent(
     props,
     ref,
   ) {
@@ -96,15 +96,15 @@ export function styled<T extends As, P = {}>(
     })
   })
 
-  return IncmixComponent as IncmixComponent<T, P>
+  return chakraComponent as ChakraComponent<T, P>
 }
 
-export type HTMLIncmixComponents = {
-  [Tag in DOMElements]: IncmixComponent<Tag, {}>
+export type HTMLChakraComponents = {
+  [Tag in DOMElements]: ChakraComponent<Tag, {}>
 }
 
-export type HTMLIncmixProps<T extends As> = Omit<
+export type HTMLChakraProps<T extends As> = Omit<
   PropsOf<T>,
   "ref" | keyof StyleProps
 > &
-  IncmixProps & { as?: As }
+  ChakraProps & { as?: As }

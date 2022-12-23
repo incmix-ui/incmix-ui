@@ -1,4 +1,4 @@
-import { getBox, BoxModel } from "@incmix-ui/utils"
+import { getBox, BoxModel } from "@chakra-ui/utils"
 import { useRef, useState } from "react"
 import { useSafeLayoutEffect } from "./use-safe-layout-effect"
 
@@ -11,7 +11,7 @@ import { useSafeLayoutEffect } from "./use-safe-layout-effect"
  * @deprecated use the `useSize` hook instead
  *
  * ```jsx
- * import { useSize } from "@incmix-ui/react-use-size"
+ * import { useSize } from "@chakra-ui/react-use-size"
  * ```
  */
 export function useDimensions(

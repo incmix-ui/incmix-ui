@@ -1,4 +1,4 @@
-# @incmix-ui/use-disclosure
+# @chakra-ui/use-disclosure
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/use-disclosure
+yarn add @chakra-ui/use-disclosure
 # or
-npm i @incmix-ui/use-disclosure
+npm i @chakra-ui/use-disclosure
 ```
 
 ## Contribution

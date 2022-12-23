@@ -9,8 +9,6 @@
     "utilities"
   ],
   "sideEffects": false,
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -28,8 +26,8 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@incmix-ui/react-utils": "workspace:*",
-    "@incmix-ui/utils": "workspace:*",
+    "@chakra-ui/react-utils": "workspace:*",
+    "@chakra-ui/utils": "workspace:*",
     "compute-scroll-into-view": "1.0.14",
     "copy-to-clipboard": "3.3.1"
   },

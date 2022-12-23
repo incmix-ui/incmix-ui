@@ -1,5 +1,5 @@
-import { toCSSVar } from "@incmix-ui/styled-system"
-import defaultTheme from "@incmix-ui/theme"
+import { toCSSVar } from "@chakra-ui/styled-system"
+import defaultTheme from "@chakra-ui/theme"
 import { toCSSObject } from "../src/system"
 
 const theme = toCSSVar({
@@ -67,27 +67,27 @@ test("should resolve styles correctly", () => {
           "@media screen and (min-width: 30em)": Object {
             "fontSize": "26px",
           },
-          "background": "var(--Incmix-colors-green-300)",
+          "background": "var(--chakra-colors-green-300)",
           "fontSize": "12px",
         },
-        "--Incmix-line-clamp": 3,
+        "--chakra-line-clamp": 3,
         "@media screen and (min-width: 30em)": Object {
-          "--Incmix-line-clamp": 4,
+          "--chakra-line-clamp": 4,
           "fontSize": "23px",
           "letterSpacing": "0.2px",
           "textTransform": "lowercase",
         },
         "WebkitBoxOrient": "vertical",
-        "WebkitLineClamp": "var(--Incmix-line-clamp)",
+        "WebkitLineClamp": "var(--chakra-line-clamp)",
         "background": "tomato",
         "backgroundPosition": "top left",
-        "color": "var(--Incmix-colors-pink-300)",
+        "color": "var(--chakra-colors-pink-300)",
         "display": "-webkit-box",
         "fontSize": "10px",
         "letterSpacing": "2px",
         "overflow": "hidden",
-        "paddingInlineEnd": "var(--Incmix-space-5)",
-        "paddingInlineStart": "var(--Incmix-space-5)",
+        "paddingInlineEnd": "var(--chakra-space-5)",
+        "paddingInlineStart": "var(--chakra-space-5)",
         "textOverflow": "ellipsis",
         "textTransform": "capitalize",
       },
@@ -105,8 +105,8 @@ test("should resolve styles correctly", () => {
 
   expect(result).toMatchInlineSnapshot(`
     Object {
-      "background": "var(--Incmix-colors-pink-300)",
-      "color": "var(--Incmix-colors-pink-300)",
+      "background": "var(--chakra-colors-pink-300)",
+      "color": "var(--chakra-colors-pink-300)",
     }
   `)
 })
@@ -126,11 +126,11 @@ test("should override padding correctly", () => {
   expect(result).toMatchInlineSnapshot(`
     Object {
       "background": "pinkish",
-      "color": "var(--Incmix-colors-green-300)",
-      "marginRight": "var(--Incmix-space-5)",
-      "paddingInlineEnd": "var(--Incmix-space-4)",
-      "paddingInlineStart": "var(--Incmix-space-4)",
-      "paddingRight": "var(--Incmix-space-3)",
+      "color": "var(--chakra-colors-green-300)",
+      "marginRight": "var(--chakra-space-5)",
+      "paddingInlineEnd": "var(--chakra-space-4)",
+      "paddingInlineStart": "var(--chakra-space-4)",
+      "paddingRight": "var(--chakra-space-3)",
     }
   `)
 })

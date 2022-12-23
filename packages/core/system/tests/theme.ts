@@ -1,5 +1,5 @@
-import __theme from "@incmix-ui/theme"
-import { toCSSVar } from "@incmix-ui/styled-system"
+import __theme from "@chakra-ui/theme"
+import { toCSSVar } from "@chakra-ui/styled-system"
 
 export function createTheme(theme: any) {
   return toCSSVar({

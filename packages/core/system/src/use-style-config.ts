@@ -2,18 +2,18 @@ import {
   resolveStyleConfig,
   SystemStyleObject,
   ThemingProps,
-} from "@incmix-ui/styled-system"
-import { mergeThemeOverride } from "@incmix-ui/theme-utils"
+} from "@chakra-ui/styled-system"
+import { mergeThemeOverride } from "@chakra-ui/theme-utils"
 import {
   Dict,
   filterUndefined,
   memoizedGet as get,
   mergeWith,
   omit,
-} from "@incmix-ui/utils"
+} from "@chakra-ui/utils"
 import { useRef } from "react"
 import isEqual from "react-fast-compare"
-import { useIncmix } from "./hooks"
+import { useChakra } from "./hooks"
 
 type StylesRef = SystemStyleObject | Record<string, SystemStyleObject>
 
@@ -23,7 +23,7 @@ function useStyleConfigImpl(
 ) {
   const { styleConfig: styleConfigProp, ...rest } = props
 
-  const { theme, colorMode } = useIncmix()
+  const { theme, colorMode } = useChakra()
 
   const themeStyleConfig = themeKey
     ? get(theme, `components.${themeKey}`)
@@ -80,7 +80,7 @@ export function useComponentStyles__unstable(
   props: ThemingProps & { baseConfig: any },
 ) {
   const { baseConfig, ...restProps } = props
-  const { theme } = useIncmix()
+  const { theme } = useChakra()
 
   const overrides = theme.components?.[themeKey]
 

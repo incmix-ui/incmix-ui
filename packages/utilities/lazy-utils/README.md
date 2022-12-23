@@ -1,4 +1,4 @@
-# @incmix-ui/lazy-utils
+# @chakra-ui/lazy-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/lazy-utils
+yarn add @chakra-ui/lazy-utils
 # or
-npm i @incmix-ui/lazy-utils
+npm i @chakra-ui/lazy-utils
 ```
 
 ## Contribution

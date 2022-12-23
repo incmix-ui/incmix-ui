@@ -1,13 +1,13 @@
-# @incmix-ui/control-box
+# @chakra-ui/control-box
 
-Control Box component for incmix UI.
+Control Box component for Chakra UI.
 
 ## Installation
 
 ```sh
-yarn add @incmix-ui/control-box
+yarn add @chakra-ui/control-box
 
 # or
 
-npm i @incmix-ui/control-box
+npm i @chakra-ui/control-box
 ```

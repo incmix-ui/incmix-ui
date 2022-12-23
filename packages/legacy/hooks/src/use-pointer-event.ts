@@ -7,7 +7,7 @@ import {
   EventListenerWithPointInfo,
   getPointerEventName,
   wrapPointerEventHandler,
-} from "@incmix-ui/utils"
+} from "@chakra-ui/utils"
 import { EventListenerEnv, useEventListener } from "./use-event-listener"
 
 /**

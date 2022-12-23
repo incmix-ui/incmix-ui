@@ -4,7 +4,7 @@ import {
   PanEventHandler,
   PanSession,
   PanSessionHandlers,
-} from "@incmix-ui/utils"
+} from "@chakra-ui/utils"
 import { useEffect, useRef } from "react"
 import { usePointerEvent } from "./use-pointer-event"
 import { useUnmountEffect } from "./use-unmount-effect"

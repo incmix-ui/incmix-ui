@@ -1,4 +1,4 @@
-# @incmix-ui/use-focus-effect
+# @chakra-ui/use-focus-effect
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/react-use-focus-effect
+yarn add @chakra-ui/react-use-focus-effect
 # or
-npm i @incmix-ui/react-use-focus-effect
+npm i @chakra-ui/react-use-focus-effect
 ```
 
 ## Contribution

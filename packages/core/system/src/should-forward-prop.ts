@@ -1,8 +1,8 @@
-import { propNames } from "@incmix-ui/styled-system"
+import { propNames } from "@chakra-ui/styled-system"
 
 /**
  * List of props for emotion to omit from DOM.
- * It mostly consists of Incmix props
+ * It mostly consists of Chakra props
  */
 const allPropNames = new Set([
   ...propNames,

@@ -1,4 +1,4 @@
-# @incmix-ui/react-use-focus-effect
+# @chakra-ui/react-use-focus-effect
 
 ## 2.0.7
 
@@ -7,15 +7,15 @@
 - [#6945](https://github.com/incmix-ui/incmix-ui/pull/6945)
   [`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
+  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 - Updated dependencies
   [[`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)]:
-  - @incmix-ui/react-use-event-listener@2.0.5
-  - @incmix-ui/react-use-safe-layout-effect@2.0.3
-  - @incmix-ui/react-use-update-effect@2.0.5
-  - @incmix-ui/dom-utils@2.0.4
+  - @chakra-ui/react-use-event-listener@2.0.5
+  - @chakra-ui/react-use-safe-layout-effect@2.0.3
+  - @chakra-ui/react-use-update-effect@2.0.5
+  - @chakra-ui/dom-utils@2.0.4
 
 ## 2.0.6
 
@@ -39,9 +39,9 @@
 - Updated dependencies
   [[`9de39921b`](https://github.com/incmix-ui/incmix-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290),
   [`d945b9a7d`](https://github.com/incmix-ui/incmix-ui/commit/d945b9a7da3056017cda0cdd552af40fa1426070)]:
-  - @incmix-ui/react-use-event-listener@2.0.4
-  - @incmix-ui/react-use-update-effect@2.0.4
-  - @incmix-ui/dom-utils@2.0.3
+  - @chakra-ui/react-use-event-listener@2.0.4
+  - @chakra-ui/react-use-update-effect@2.0.4
+  - @chakra-ui/dom-utils@2.0.3
 
 ## 2.0.4
 
@@ -49,7 +49,7 @@
 
 - Updated dependencies
   [[`99329e44a`](https://github.com/incmix-ui/incmix-ui/commit/99329e44a0429a225cd1dffa4b7d76b68a828f44)]:
-  - @incmix-ui/dom-utils@2.0.2
+  - @chakra-ui/dom-utils@2.0.2
 
 ## 2.0.3
 
@@ -63,6 +63,6 @@
   - Refactor code for proper prop doc generatation
 - Updated dependencies
   [[`445661955`](https://github.com/incmix-ui/incmix-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)]:
-  - @incmix-ui/react-use-event-listener@2.0.3
-  - @incmix-ui/react-use-update-effect@2.0.3
-  - @incmix-ui/dom-utils@2.0.1
+  - @chakra-ui/react-use-event-listener@2.0.3
+  - @chakra-ui/react-use-update-effect@2.0.3
+  - @chakra-ui/dom-utils@2.0.1

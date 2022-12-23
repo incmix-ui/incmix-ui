@@ -1,14 +1,12 @@
 {
   "name": "@incmix-ui/theme-utils",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "",
   "keywords": [
     "theme",
     "utilities",
-    "incmix"
+    "chakra"
   ],
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -36,13 +34,13 @@
     "postpack": "clean-package restore"
   },
   "devDependencies": {
-    "@incmix-ui/shared-utils": "workspace:*",
+    "@chakra-ui/shared-utils": "workspace:*",
     "@types/lodash.mergewith": "4.6.6",
     "clean-package": "2.1.1"
   },
   "dependencies": {
-    "@incmix-ui/styled-system": "workspace:*",
-    "@incmix-ui/theme": "workspace:*",
+    "@chakra-ui/styled-system": "workspace:*",
+    "@chakra-ui/theme": "workspace:*",
     "lodash.mergewith": "4.6.2"
   }
 }

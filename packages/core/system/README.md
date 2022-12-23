@@ -1,15 +1,15 @@
-# @incmix-ui/system
+# @chakra-ui/system
 
 Styled API for creating atomic, theme-aware component styling.
 
 ## Installation
 
 ```sh
-yarn add @incmix-ui/system
+yarn add @chakra-ui/system
 
 # or
 
-npm i @incmix-ui/system
+npm i @chakra-ui/system
 ```
 
 ## Problem
@@ -23,39 +23,39 @@ required to create a fully customizable, theme-aware component.
 
 ## Solutions
 
-### Incmix Elements
+### Chakra Elements
 
-Incmix provides enhanced JSX elements that can be styled directly via props, or
+Chakra provides enhanced JSX elements that can be styled directly via props, or
 can accept the common `sx` prop for custom styles.
 
-We'll provide a Incmix function, just like styled-components. Users can create
-any component using the `Incmix.[element]`. The resulting component will be a
+We'll provide a chakra function, just like styled-components. Users can create
+any component using the `chakra.[element]`. The resulting component will be a
 styled component and have all system props.
 
 ```jsx
-<Incmix.button bg="green.200" _hover={{ bg: "green.300" }}>
+<chakra.button bg="green.200" _hover={{ bg: "green.300" }}>
   Click me
-</Incmix.button>
+</chakra.button>
 
-<Incmix.h1 fontSize="lg"> Heading </Incmix.h1>
+<chakra.h1 fontSize="lg"> Heading </chakra.h1>
 
 // create your own box
-const Box = incmix.div
+const Box = chakra.div
 
 // you can still use the `as` prop
 <Box as="h1">This is my box</Box>
 
 // for custom components
-const IncmixPowered = Incmix(YourComponent)
+const ChakraPowered = chakra(YourComponent)
 
-// TS: Incmix will infer the types of Link and
+// TS: chakra will infer the types of Link and
 // make it available in props
-<Incmix.a as={Link} to="/home"> Click me</Incmix.a>
+<chakra.a as={Link} to="/home"> Click me</chakra.a>
 ```
 
-### Incmix Component API
+### Chakra Component API
 
-A way to define themeable components in Incmix. We believe most re-usable,
+A way to define themeable components in chakra. We believe most re-usable,
 atomic components have the following modifiers:
 
 - Size: It has different size variations (small, medium, large)
@@ -112,11 +112,11 @@ const theme = {
   }
 };
 
-// 2. create or import Button from incmix-ui
-import { Button } from "@incmix-ui/react"
+// 2. create or import Button from chakra-ui
+import { Button } from "@chakra-ui/react"
 
 // or your own button
-const Button = Incmix("button", { themeKey: "Button" })
+const Button = chakra("button", { themeKey: "Button" })
 
 // 3. use the button. It'll have the visual props defined in defaultProps
 <Button>Click me</Button>

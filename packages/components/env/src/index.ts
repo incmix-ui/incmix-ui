@@ -1,1 +1,1 @@
-export * from "./env"
+export * from "@chakra-ui/react-env"

@@ -6,19 +6,19 @@ software.
 ## Installation
 
 ```sh
-yarn add @incmix-ui/live-region
+yarn add @chakra-ui/live-region
 ```
 
 ## Import components
 
 ```jsx
-import { LiveRegion, useLiveRegion } from "@incmix-ui/live-region"
+import { LiveRegion, useLiveRegion } from "@chakra-ui/live-region"
 ```
 
 ## Usage
 
 ```jsx
-import { useLiveRegion } from "@incmix-ui/live-region"
+import { useLiveRegion } from "@chakra-ui/live-region"
 
 function Example() {
   const region = useLiveRegion()

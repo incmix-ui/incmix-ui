@@ -1,4 +1,4 @@
-import defaultTheme from "@incmix-ui/theme"
+import defaultTheme from "@chakra-ui/theme"
 import { extendTheme, mergeThemeOverride, withDefaultColorScheme } from "../src"
 
 describe("Theme extension: withDefaultColorScheme", () => {

@@ -4,7 +4,7 @@ import {
   FocusableElement,
   getActiveElement,
   isTabbable,
-} from "@incmix-ui/utils"
+} from "@chakra-ui/utils"
 import { RefObject } from "react"
 import { useUpdateEffect } from "./use-update-effect"
 

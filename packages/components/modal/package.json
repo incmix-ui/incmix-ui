@@ -1,0 +1,49 @@
+{
+  "name": "@incmix-ui/modal",
+  "version": "2.2.5",
+  "description": "An accessible dialog (modal) component for React & Chakra UI",
+  "keywords": [
+    "react",
+    "react component",
+    "modal",
+    "dialog",
+    "modal dialog",
+    "accessible modal",
+    "aria modal",
+    "a11y modal",
+    "accessible modal",
+    "modal component",
+    "react modal component",
+    "react modal",
+    "chakra"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
+    "directory": "packages/components/modal"
+  },
+  "bugs": {
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
+  },
+  "dependencies": {
+    "@chakra-ui/modal": "^2.2.5"
+  },
+  "scripts": {
+    "build": "JSX=1 tsup src/index.ts --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "JSX=1 tsup src/index.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  }
+}

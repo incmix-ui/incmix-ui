@@ -1,4 +1,4 @@
-# @incmix-ui/shared-utils
+# @chakra-ui/shared-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/shared-utils
+yarn add @chakra-ui/shared-utils
 # or
-npm i @incmix-ui/shared-utils
+npm i @chakra-ui/shared-utils
 ```
 
 ## Contribution

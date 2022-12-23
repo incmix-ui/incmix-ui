@@ -1,5 +1,14 @@
 # Change Log
 
+## 2.3.5
+
+### Patch Changes
+
+- Updated dependencies
+  [[`37b7a130a`](https://github.com/incmix-ui/incmix-ui/commit/37b7a130aaff0cbb97f206978315075eb06e5100)]:
+  - @chakra-ui/styled-system@2.5.0
+  - @chakra-ui/theme-utils@2.0.6
+
 ## 2.3.4
 
 ### Patch Changes
@@ -8,15 +17,15 @@
   [[`eb3bfe66d`](https://github.com/incmix-ui/incmix-ui/commit/eb3bfe66d3aecc8cf46f29ef08dc748afb83f781),
   [`4d5501b82`](https://github.com/incmix-ui/incmix-ui/commit/4d5501b82b6fe215f1a7d205250325c0a2221337),
   [`1a4dad7a4`](https://github.com/incmix-ui/incmix-ui/commit/1a4dad7a4f15e24e0f529b8f8277346d0399c3fc)]:
-  - @incmix-ui/styled-system@2.4.0
-  - @incmix-ui/theme-utils@2.0.5
+  - @chakra-ui/styled-system@2.4.0
+  - @chakra-ui/theme-utils@2.0.5
 
 ## 2.3.3
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @incmix-ui/theme-utils@2.0.4
+  - @chakra-ui/theme-utils@2.0.4
 
 ## 2.3.2
 
@@ -30,23 +39,23 @@
 * [#6945](https://github.com/incmix-ui/incmix-ui/pull/6945)
   [`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
+  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 * Updated dependencies
   [[`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)]:
-  - @incmix-ui/color-mode@2.1.10
-  - @incmix-ui/styled-system@2.3.5
-  - @incmix-ui/react-utils@2.0.9
-  - @incmix-ui/utils@2.0.12
-  - @incmix-ui/theme-utils@2.0.3
+  - @chakra-ui/color-mode@2.1.10
+  - @chakra-ui/styled-system@2.3.5
+  - @chakra-ui/react-utils@2.0.9
+  - @chakra-ui/utils@2.0.12
+  - @chakra-ui/theme-utils@2.0.3
 
 ## 2.3.1
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @incmix-ui/theme-utils@2.0.2
+  - @chakra-ui/theme-utils@2.0.2
 
 ## 2.3.0
 
@@ -60,7 +69,7 @@
 
 - Updated dependencies
   [[`5e44868ed`](https://github.com/incmix-ui/incmix-ui/commit/5e44868ed0b86b15ef7892a249a24865d900fe57)]:
-  - @incmix-ui/theme-utils@2.0.1
+  - @chakra-ui/theme-utils@2.0.1
 
 ## 2.2.12
 
@@ -74,10 +83,10 @@
 - Updated dependencies
   [[`9de39921b`](https://github.com/incmix-ui/incmix-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290),
   [`d945b9a7d`](https://github.com/incmix-ui/incmix-ui/commit/d945b9a7da3056017cda0cdd552af40fa1426070)]:
-  - @incmix-ui/color-mode@2.1.9
-  - @incmix-ui/styled-system@2.3.4
-  - @incmix-ui/react-utils@2.0.8
-  - @incmix-ui/utils@2.0.11
+  - @chakra-ui/color-mode@2.1.9
+  - @chakra-ui/styled-system@2.3.4
+  - @chakra-ui/react-utils@2.0.8
+  - @chakra-ui/utils@2.0.11
 
 ## 2.2.11
 
@@ -85,7 +94,7 @@
 
 - Updated dependencies
   [[`ab1c42f50`](https://github.com/incmix-ui/incmix-ui/commit/ab1c42f501a95bdb44ceca796f24a83aa0661868)]:
-  - @incmix-ui/styled-system@2.3.3
+  - @chakra-ui/styled-system@2.3.3
 
 ## 2.2.10
 
@@ -97,15 +106,15 @@
   resolution when components are wrapped within forced color mode elements
   (`DarkMode`, `LightMode`).
 
-  We now dynamically attach the `data-theme` attribute to Incmix elements when
+  We now dynamically attach the `data-theme` attribute to chakra elements when
   in forced color mode.
 
   ```jsx live=false
   <DarkMode>
-    <incmix.div bg="gray.800" padding="40px">
+    <chakra.div bg="gray.800" padding="40px">
       {/* Forced: Badge will now have `data-theme='dark' attached` */}
       <Badge>Total</Badge>
-    </incmix.div>
+    </chakra.div>
   </DarkMode>
   ```
 
@@ -115,7 +124,7 @@
   component/function docs and relative docsite links.
 
   Ensures that all Components, functions, and hooks that have detailed pages on
-  the Incmix site have corresponding JSDocs and links back to the docsite via
+  the Chakra site have corresponding JSDocs and links back to the docsite via
   IDE intellisense.
 
   Includes adding or fixing links within these docs to related WAI-ARIA
@@ -126,10 +135,10 @@
   [`c570b2415`](https://github.com/incmix-ui/incmix-ui/commit/c570b241522d54e203d6bd151640b34f4ef80faf),
   [`99329e44a`](https://github.com/incmix-ui/incmix-ui/commit/99329e44a0429a225cd1dffa4b7d76b68a828f44),
   [`c2d1c362f`](https://github.com/incmix-ui/incmix-ui/commit/c2d1c362f5bf2dfc3fa27fa8a987c1d037e12479)]:
-  - @incmix-ui/color-mode@2.1.8
-  - @incmix-ui/styled-system@2.3.2
-  - @incmix-ui/utils@2.0.10
-  - @incmix-ui/react-utils@2.0.7
+  - @chakra-ui/color-mode@2.1.8
+  - @chakra-ui/styled-system@2.3.2
+  - @chakra-ui/utils@2.0.10
+  - @chakra-ui/react-utils@2.0.7
 
 ## 2.2.9
 
@@ -137,7 +146,7 @@
 
 - Updated dependencies
   [[`ec23eb020`](https://github.com/incmix-ui/incmix-ui/commit/ec23eb02066628d28f85c2c515fba4d0c0120601)]:
-  - @incmix-ui/styled-system@2.3.1
+  - @chakra-ui/styled-system@2.3.1
 
 ## 2.2.8
 
@@ -146,7 +155,7 @@
 - Updated dependencies
   [[`0cae42007`](https://github.com/incmix-ui/incmix-ui/commit/0cae42007308e94ef9a9fdbae3de259871ca33be),
   [`872c0ccf5`](https://github.com/incmix-ui/incmix-ui/commit/872c0ccf56d927d49af02a8a4d6bb6811774eff7)]:
-  - @incmix-ui/styled-system@2.3.0
+  - @chakra-ui/styled-system@2.3.0
 
 ## 2.2.7
 
@@ -160,10 +169,10 @@
   - Refactor code for proper prop doc generatation
 - Updated dependencies
   [[`445661955`](https://github.com/incmix-ui/incmix-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)]:
-  - @incmix-ui/color-mode@2.1.7
-  - @incmix-ui/react-utils@2.0.6
-  - @incmix-ui/styled-system@2.2.8
-  - @incmix-ui/utils@2.0.9
+  - @chakra-ui/color-mode@2.1.7
+  - @chakra-ui/react-utils@2.0.6
+  - @chakra-ui/styled-system@2.2.8
+  - @chakra-ui/utils@2.0.9
 
 ## 2.2.6
 
@@ -172,10 +181,10 @@
 - Force release
 
 - Updated dependencies []:
-  - @incmix-ui/color-mode@2.1.6
-  - @incmix-ui/react-utils@2.0.5
-  - @incmix-ui/styled-system@2.2.7
-  - @incmix-ui/utils@2.0.8
+  - @chakra-ui/color-mode@2.1.6
+  - @chakra-ui/react-utils@2.0.5
+  - @chakra-ui/styled-system@2.2.7
+  - @chakra-ui/utils@2.0.8
 
 ## 2.2.5
 
@@ -188,10 +197,10 @@
   [`99af1e29f`](https://github.com/incmix-ui/incmix-ui/commit/99af1e29fa7b8c8b0bee217227d05f695a0acb47),
   [`67edac24a`](https://github.com/incmix-ui/incmix-ui/commit/67edac24ace3c621ecb8cc32ee545acbedaadd79),
   [`2c9e085ea`](https://github.com/incmix-ui/incmix-ui/commit/2c9e085eaa0dfd65843951fb8240d595901c87dd)]:
-  - @incmix-ui/utils@2.0.7
-  - @incmix-ui/color-mode@2.1.5
-  - @incmix-ui/styled-system@2.2.6
-  - @incmix-ui/react-utils@2.0.4
+  - @chakra-ui/utils@2.0.7
+  - @chakra-ui/color-mode@2.1.5
+  - @chakra-ui/styled-system@2.2.6
+  - @chakra-ui/react-utils@2.0.4
 
 ## 2.2.4
 
@@ -200,10 +209,10 @@
 - Force new release
 
 - Updated dependencies []:
-  - @incmix-ui/color-mode@2.1.4
-  - @incmix-ui/react-utils@2.0.3
-  - @incmix-ui/styled-system@2.2.5
-  - @incmix-ui/utils@2.0.6
+  - @chakra-ui/color-mode@2.1.4
+  - @chakra-ui/react-utils@2.0.3
+  - @chakra-ui/styled-system@2.2.5
+  - @chakra-ui/utils@2.0.6
 
 ## 2.2.3
 
@@ -216,10 +225,10 @@
   - Update package `main` and `module` entries
 - Updated dependencies
   [[`1839e22eb`](https://github.com/incmix-ui/incmix-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)]:
-  - @incmix-ui/color-mode@2.1.3
-  - @incmix-ui/react-utils@2.0.2
-  - @incmix-ui/styled-system@2.2.4
-  - @incmix-ui/utils@2.0.5
+  - @chakra-ui/color-mode@2.1.3
+  - @chakra-ui/react-utils@2.0.2
+  - @chakra-ui/styled-system@2.2.4
+  - @chakra-ui/utils@2.0.5
 
 ## 2.2.2
 
@@ -228,9 +237,9 @@
 - Updated dependencies
   [[`c11743b47`](https://github.com/incmix-ui/incmix-ui/commit/c11743b47f38f8f38a21b120add3a9cf765b81ee),
   [`fb3c09325`](https://github.com/incmix-ui/incmix-ui/commit/fb3c09325d7bf58aed13c6d0fb1f72b92ff0ef3a)]:
-  - @incmix-ui/styled-system@2.2.3
-  - @incmix-ui/utils@2.0.4
-  - @incmix-ui/color-mode@2.1.2
+  - @chakra-ui/styled-system@2.2.3
+  - @chakra-ui/utils@2.0.4
+  - @chakra-ui/color-mode@2.1.2
 
 ## 2.2.1
 
@@ -239,9 +248,9 @@
 - Updated dependencies
   [[`36ef37d58`](https://github.com/incmix-ui/incmix-ui/commit/36ef37d58220dffc4b8e35c31fdcc57042e9a859),
   [`6c15ec2c2`](https://github.com/incmix-ui/incmix-ui/commit/6c15ec2c2a32a36ecc2d169308379a6825619543)]:
-  - @incmix-ui/utils@2.0.3
-  - @incmix-ui/color-mode@2.1.1
-  - @incmix-ui/styled-system@2.2.2
+  - @chakra-ui/utils@2.0.3
+  - @chakra-ui/color-mode@2.1.1
+  - @chakra-ui/styled-system@2.2.2
 
 ## 2.2.0
 
@@ -263,8 +272,8 @@
 - Updated dependencies
   [[`bd2683306`](https://github.com/incmix-ui/incmix-ui/commit/bd2683306db6af272c43982ecd947182bde8b727),
   [`612529653`](https://github.com/incmix-ui/incmix-ui/commit/61252965371f1abc5bc6680c14bbd08f97667ea9)]:
-  - @incmix-ui/color-mode@2.1.0
-  - @incmix-ui/styled-system@2.2.1
+  - @chakra-ui/color-mode@2.1.0
+  - @chakra-ui/styled-system@2.2.1
 
 ## 2.1.3
 
@@ -273,7 +282,7 @@
 - [#6162](https://github.com/incmix-ui/incmix-ui/pull/6162)
   [`f9a84d637`](https://github.com/incmix-ui/incmix-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Fixed a regression
-  where useStyles and StylesProvider was removed from `@incmix-ui/system`
+  where useStyles and StylesProvider was removed from `@chakra-ui/system`
 
 ## 2.1.2
 
@@ -292,10 +301,10 @@
   [[`bcbfcbcce`](https://github.com/incmix-ui/incmix-ui/commit/bcbfcbcceebe6749d0e8fe6ebddb566121fdff25),
   [`06f29f8cd`](https://github.com/incmix-ui/incmix-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1),
   [`bcbfcbcce`](https://github.com/incmix-ui/incmix-ui/commit/bcbfcbcceebe6749d0e8fe6ebddb566121fdff25)]:
-  - @incmix-ui/styled-system@2.2.0
-  - @incmix-ui/color-mode@2.0.4
-  - @incmix-ui/react-utils@2.0.1
-  - @incmix-ui/utils@2.0.2
+  - @chakra-ui/styled-system@2.2.0
+  - @chakra-ui/color-mode@2.0.4
+  - @chakra-ui/react-utils@2.0.1
+  - @chakra-ui/utils@2.0.2
 
 ## 2.1.1
 
@@ -315,9 +324,9 @@
 * Updated dependencies
   [[`f77e3c98f`](https://github.com/incmix-ui/incmix-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c),
   [`f77e3c98f`](https://github.com/incmix-ui/incmix-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c)]:
-  - @incmix-ui/utils@2.0.1
-  - @incmix-ui/styled-system@2.1.1
-  - @incmix-ui/color-mode@2.0.3
+  - @chakra-ui/utils@2.0.1
+  - @chakra-ui/styled-system@2.1.1
+  - @chakra-ui/color-mode@2.0.3
 
 ## 2.1.0
 
@@ -354,7 +363,7 @@
 
 - Updated dependencies
   [[`ddea8d143`](https://github.com/incmix-ui/incmix-ui/commit/ddea8d143e76c0e4758e6ea4b4d881f88b34452d)]:
-  - @incmix-ui/styled-system@2.1.0
+  - @chakra-ui/styled-system@2.1.0
 
 ## 2.0.2
 
@@ -362,7 +371,7 @@
 
 - Updated dependencies
   [[`a9727167c`](https://github.com/incmix-ui/incmix-ui/commit/a9727167c9529f5512717ccf162fdeefe37c5d8f)]:
-  - @incmix-ui/color-mode@2.0.2
+  - @chakra-ui/color-mode@2.0.2
 
 ## 2.0.1
 
@@ -372,7 +381,7 @@
   [[`17aeb7185`](https://github.com/incmix-ui/incmix-ui/commit/17aeb7185b7439e04abec843df186fc2b1869d6f),
   [`b7bdbb482`](https://github.com/incmix-ui/incmix-ui/commit/b7bdbb482e8a1c5725596401a0c4bc29c009a0ad),
   [`fb99cd7a8`](https://github.com/incmix-ui/incmix-ui/commit/fb99cd7a87d00614a66e17a35c91dc0e02262ece)]:
-  - @incmix-ui/color-mode@2.0.1
+  - @chakra-ui/color-mode@2.0.1
 
 ## 2.0.0
 
@@ -381,7 +390,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Incmix UI version 2.
+  to next major for Chakra UI version 2.
 
 * [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
@@ -402,10 +411,10 @@
   [`7b5bdcc58`](https://github.com/incmix-ui/incmix-ui/commit/7b5bdcc588fb41aa3288ffaa293514b9d35ebaa4),
   [`5193a00c8`](https://github.com/incmix-ui/incmix-ui/commit/5193a00c8838eeb2715ce825f89f9f4dfab9a0c8),
   [`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
-  - @incmix-ui/color-mode@2.0.0
-  - @incmix-ui/react-utils@2.0.0
-  - @incmix-ui/styled-system@2.0.0
-  - @incmix-ui/utils@2.0.0
+  - @chakra-ui/color-mode@2.0.0
+  - @chakra-ui/react-utils@2.0.0
+  - @chakra-ui/styled-system@2.0.0
+  - @chakra-ui/utils@2.0.0
 
 ## 2.0.0-next.4
 
@@ -420,10 +429,10 @@
 
 - Updated dependencies
   [[`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)]:
-  - @incmix-ui/color-mode@2.0.0-next.4
-  - @incmix-ui/react-utils@2.0.0-next.2
-  - @incmix-ui/styled-system@2.0.0-next.3
-  - @incmix-ui/utils@2.0.0-next.2
+  - @chakra-ui/color-mode@2.0.0-next.4
+  - @chakra-ui/react-utils@2.0.0-next.2
+  - @chakra-ui/styled-system@2.0.0-next.3
+  - @chakra-ui/utils@2.0.0-next.2
 
 ## 2.0.0-next.3
 
@@ -431,7 +440,7 @@
 
 - Updated dependencies
   [[`7b5bdcc58`](https://github.com/incmix-ui/incmix-ui/commit/7b5bdcc588fb41aa3288ffaa293514b9d35ebaa4)]:
-  - @incmix-ui/color-mode@2.0.0-next.3
+  - @chakra-ui/color-mode@2.0.0-next.3
 
 ## 2.0.0-next.2
 
@@ -439,8 +448,8 @@
 
 - Updated dependencies
   [[`5193a00c8`](https://github.com/incmix-ui/incmix-ui/commit/5193a00c8838eeb2715ce825f89f9f4dfab9a0c8)]:
-  - @incmix-ui/styled-system@2.0.0-next.2
-  - @incmix-ui/color-mode@2.0.0-next.2
+  - @chakra-ui/styled-system@2.0.0-next.2
+  - @chakra-ui/color-mode@2.0.0-next.2
 
 ## 2.0.0-next.1
 
@@ -455,10 +464,10 @@
 
 - Updated dependencies
   [[`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
-  - @incmix-ui/color-mode@2.0.0-next.1
-  - @incmix-ui/react-utils@2.0.0-next.1
-  - @incmix-ui/styled-system@2.0.0-next.1
-  - @incmix-ui/utils@2.0.0-next.1
+  - @chakra-ui/color-mode@2.0.0-next.1
+  - @chakra-ui/react-utils@2.0.0-next.1
+  - @chakra-ui/styled-system@2.0.0-next.1
+  - @chakra-ui/utils@2.0.0-next.1
 
 ## 2.0.0-next.0
 
@@ -467,24 +476,24 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Incmix UI version 2.
+  to next major for Chakra UI version 2.
 
 ### Patch Changes
 
 - Updated dependencies
   [[`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f),
   [`1a47fd27e`](https://github.com/incmix-ui/incmix-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)]:
-  - @incmix-ui/color-mode@2.0.0-next.0
-  - @incmix-ui/react-utils@2.0.0-next.0
-  - @incmix-ui/styled-system@2.0.0-next.0
-  - @incmix-ui/utils@2.0.0-next.0
+  - @chakra-ui/color-mode@2.0.0-next.0
+  - @chakra-ui/react-utils@2.0.0-next.0
+  - @chakra-ui/styled-system@2.0.0-next.0
+  - @chakra-ui/utils@2.0.0-next.0
 
 ## 1.12.1
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @incmix-ui/color-mode@1.4.8
+  - @chakra-ui/color-mode@1.4.8
 
 ## 1.12.0
 
@@ -502,8 +511,8 @@
 - Updated dependencies
   [[`00d5d1516`](https://github.com/incmix-ui/incmix-ui/commit/00d5d151631436777a8dc71a0b46c2be52e71631),
   [`dc2c578f6`](https://github.com/incmix-ui/incmix-ui/commit/dc2c578f6b9686499911fa77d6b61dd0ced077ea)]:
-  - @incmix-ui/styled-system@1.19.0
-  - @incmix-ui/color-mode@1.4.7
+  - @chakra-ui/styled-system@1.19.0
+  - @chakra-ui/color-mode@1.4.7
 
 ## 1.11.2
 
@@ -511,7 +520,7 @@
 
 - Updated dependencies
   [[`001751162`](https://github.com/incmix-ui/incmix-ui/commit/001751162dd1922d8ab53820f405665f0785f196)]:
-  - @incmix-ui/color-mode@1.4.6
+  - @chakra-ui/color-mode@1.4.6
 
 ## 1.11.1
 
@@ -523,10 +532,10 @@
   CI configuration.
 - Updated dependencies
   [[`e1fe48cbe`](https://github.com/incmix-ui/incmix-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)]:
-  - @incmix-ui/color-mode@1.4.5
-  - @incmix-ui/react-utils@1.2.3
-  - @incmix-ui/styled-system@1.18.1
-  - @incmix-ui/utils@1.10.4
+  - @chakra-ui/color-mode@1.4.5
+  - @chakra-ui/react-utils@1.2.3
+  - @chakra-ui/styled-system@1.18.1
+  - @chakra-ui/utils@1.10.4
 
 ## 1.11.0
 
@@ -535,14 +544,14 @@
 - [#5508](https://github.com/incmix-ui/incmix-ui/pull/5508)
   [`e5e0f255c`](https://github.com/incmix-ui/incmix-ui/commit/e5e0f255c95f5e41c3b17adbda28fd09f7251642)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Allow all
-  `JSX.IntrinsicElements` for the Incmix factory. This allows to use
+  `JSX.IntrinsicElements` for the chakra factory. This allows to use
   [every DOM element](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/30a2f70db2f9ac223fd923ff1f8bcc175c082fd0/types/react/index.d.ts#L3111-L3288)
   with the shorthand version:
 
   ```jsx live=false
-  <Incmix.header>Header</Incmix.header>
-  <Incmix.main>Main</Incmix.main>
-  <Incmix.footer>Many more</Incmix.footer>
+  <chakra.header>Header</chakra.header>
+  <chakra.main>Main</chakra.main>
+  <chakra.footer>Many more</chakra.footer>
   ```
 
 ### Patch Changes
@@ -550,9 +559,9 @@
 - Updated dependencies
   [[`b0da6e666`](https://github.com/incmix-ui/incmix-ui/commit/b0da6e6665234c1584403f7f7251390c3a9433c8),
   [`a870e6b94`](https://github.com/incmix-ui/incmix-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a)]:
-  - @incmix-ui/styled-system@1.18.0
-  - @incmix-ui/utils@1.10.3
-  - @incmix-ui/color-mode@1.4.4
+  - @chakra-ui/styled-system@1.18.0
+  - @chakra-ui/utils@1.10.3
+  - @chakra-ui/color-mode@1.4.4
 
 ## 1.10.3
 
@@ -565,10 +574,10 @@
 
 - Updated dependencies
   [[`a503acabe`](https://github.com/incmix-ui/incmix-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)]:
-  - @incmix-ui/color-mode@1.4.3
-  - @incmix-ui/react-utils@1.2.2
-  - @incmix-ui/styled-system@1.17.2
-  - @incmix-ui/utils@1.10.2
+  - @chakra-ui/color-mode@1.4.3
+  - @chakra-ui/react-utils@1.2.2
+  - @chakra-ui/styled-system@1.17.2
+  - @chakra-ui/utils@1.10.2
 
 ## 1.10.2
 
@@ -581,9 +590,9 @@
 
 - Updated dependencies
   [[`24b4333d0`](https://github.com/incmix-ui/incmix-ui/commit/24b4333d008d149380785f87f4891e28584ff89b)]:
-  - @incmix-ui/utils@1.10.1
-  - @incmix-ui/color-mode@1.4.2
-  - @incmix-ui/styled-system@1.17.1
+  - @chakra-ui/utils@1.10.1
+  - @chakra-ui/color-mode@1.4.2
+  - @chakra-ui/styled-system@1.17.1
 
 ## 1.10.1
 
@@ -591,7 +600,7 @@
 
 - Updated dependencies
   [[`1bd1f2ffe`](https://github.com/incmix-ui/incmix-ui/commit/1bd1f2ffef44d810a099b001be98e3bfa229ddad)]:
-  - @incmix-ui/color-mode@1.4.1
+  - @chakra-ui/color-mode@1.4.1
 
 ## 1.10.0
 
@@ -614,9 +623,9 @@
   [`1537a725f`](https://github.com/incmix-ui/incmix-ui/commit/1537a725fbc7f84979e374f546bda625fc685ac3),
   [`3b4117781`](https://github.com/incmix-ui/incmix-ui/commit/3b41177812c927c0ee37c7c0006a09f9ca031108),
   [`bb7eb18da`](https://github.com/incmix-ui/incmix-ui/commit/bb7eb18daa015efee56d55519c2ce727d5bb776a)]:
-  - @incmix-ui/styled-system@1.17.0
-  - @incmix-ui/color-mode@1.4.0
-  - @incmix-ui/utils@1.10.0
+  - @chakra-ui/styled-system@1.17.0
+  - @chakra-ui/color-mode@1.4.0
+  - @chakra-ui/utils@1.10.0
 
 ## 1.9.1
 
@@ -634,11 +643,11 @@
 - [#5243](https://github.com/incmix-ui/incmix-ui/pull/5243)
   [`ae6fd7a25`](https://github.com/incmix-ui/incmix-ui/commit/ae6fd7a25c543d089d500e328596b399d85afe8e)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Use the feature
-  flag `--strict-component-types` for `@incmix-ui/cli tokens` to generate strict
+  flag `--strict-component-types` for `@chakra-ui/cli tokens` to generate strict
   component type for the theming props `variant` and `size`.
 
   ```bash
-  Incmix-cli tokens --strict-component-types
+  chakra-cli tokens --strict-component-types
   ```
 
   ```tsx live=false
@@ -656,8 +665,8 @@
 - Updated dependencies
   [[`d5461a452`](https://github.com/incmix-ui/incmix-ui/commit/d5461a4522aaee47b91a1a432601556e334a71c3),
   [`213f61026`](https://github.com/incmix-ui/incmix-ui/commit/213f61026766d32f78b78dc2ccb2b2fdc472aab1)]:
-  - @incmix-ui/styled-system@1.16.0
-  - @incmix-ui/color-mode@1.3.3
+  - @chakra-ui/styled-system@1.16.0
+  - @chakra-ui/color-mode@1.3.3
 
 ## 1.8.3
 
@@ -673,7 +682,7 @@
   [`73235af10`](https://github.com/incmix-ui/incmix-ui/commit/73235af10d8868786ec58778dda9a42b8d275599),
   [`f15099adc`](https://github.com/incmix-ui/incmix-ui/commit/f15099adc60150781607288dbe12133c2fb84e38),
   [`a1d5e7bfa`](https://github.com/incmix-ui/incmix-ui/commit/a1d5e7bfae1b4cc749e14eed4977ae423b8bce2c)]:
-  - @incmix-ui/styled-system@1.15.0
+  - @chakra-ui/styled-system@1.15.0
 
 ## 1.8.2
 
@@ -682,7 +691,7 @@
 - Updated dependencies
   [[`35d90e9fd`](https://github.com/incmix-ui/incmix-ui/commit/35d90e9fd7c1df59a8882b8c68283ff7a026541b),
   [`514cf24a6`](https://github.com/incmix-ui/incmix-ui/commit/514cf24a62b13a9c2a9ad64806f00b0a4cbe540e)]:
-  - @incmix-ui/color-mode@1.3.2
+  - @chakra-ui/color-mode@1.3.2
 
 ## 1.8.1
 
@@ -695,10 +704,10 @@
   Storybook.
 - Updated dependencies
   [[`b28142946`](https://github.com/incmix-ui/incmix-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)]:
-  - @incmix-ui/color-mode@1.3.1
-  - @incmix-ui/react-utils@1.2.1
-  - @incmix-ui/styled-system@1.14.1
-  - @incmix-ui/utils@1.9.1
+  - @chakra-ui/color-mode@1.3.1
+  - @chakra-ui/react-utils@1.2.1
+  - @chakra-ui/styled-system@1.14.1
+  - @chakra-ui/utils@1.9.1
 
 ## 1.8.0
 
@@ -717,17 +726,17 @@
   **Potential Breaking Change:** The side effect of this is that, if you
   imported any function, component or hook using the **undocumented** approach
   like
-  `import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"`,
+  `import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"`,
   you'll notice that the this doesn't work anymore.
 
   Here's how to resolve it:
 
   ```jsx live=false
   // Won't work 🎇
-  import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"
+  import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"
 
   // Works ✅
-  import { useOutsideClick } from "@incmix-ui/hooks"
+  import { useOutsideClick } from "@chakra-ui/hooks"
   ```
 
   If this affected your project, we recommend that you import hooks, functions
@@ -739,10 +748,10 @@
 - Updated dependencies
   [[`6095eaf9a`](https://github.com/incmix-ui/incmix-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6),
   [`013c90d89`](https://github.com/incmix-ui/incmix-ui/commit/013c90d8928698debc6112365fbd62b85a1d7e92)]:
-  - @incmix-ui/color-mode@1.3.0
-  - @incmix-ui/react-utils@1.2.0
-  - @incmix-ui/styled-system@1.14.0
-  - @incmix-ui/utils@1.9.0
+  - @chakra-ui/color-mode@1.3.0
+  - @chakra-ui/react-utils@1.2.0
+  - @chakra-ui/styled-system@1.14.0
+  - @chakra-ui/utils@1.9.0
 
 ## 1.7.6
 
@@ -750,7 +759,7 @@
 
 - Updated dependencies
   [[`71f80b67c`](https://github.com/incmix-ui/incmix-ui/commit/71f80b67c094d905c87bdc5c1766787c1543ebe7)]:
-  - @incmix-ui/color-mode@1.2.0
+  - @chakra-ui/color-mode@1.2.0
 
 ## 1.7.5
 
@@ -765,9 +774,9 @@
   [[`38b5bc627`](https://github.com/incmix-ui/incmix-ui/commit/38b5bc627c98fed4b7a55c45820785a4905c081e),
   [`cd0893c56`](https://github.com/incmix-ui/incmix-ui/commit/cd0893c561d8c72b69db7c03d10adae752468a4f),
   [`8f315ea5d`](https://github.com/incmix-ui/incmix-ui/commit/8f315ea5d694e0130dc2e3187ac53320cf1adcd1)]:
-  - @incmix-ui/styled-system@1.13.0
-  - @incmix-ui/utils@1.8.4
-  - @incmix-ui/color-mode@1.1.14
+  - @chakra-ui/styled-system@1.13.0
+  - @chakra-ui/utils@1.8.4
+  - @chakra-ui/color-mode@1.1.14
 
 ## 1.7.4
 
@@ -776,9 +785,9 @@
 - Updated dependencies
   [[`c06d242c6`](https://github.com/incmix-ui/incmix-ui/commit/c06d242c672a10f93fab4dc2321143beae2db669),
   [`5b4d8ef24`](https://github.com/incmix-ui/incmix-ui/commit/5b4d8ef24017dab1d69aeb5016b53366bdb3bcfd)]:
-  - @incmix-ui/utils@1.8.3
-  - @incmix-ui/color-mode@1.1.13
-  - @incmix-ui/styled-system@1.12.3
+  - @chakra-ui/utils@1.8.3
+  - @chakra-ui/color-mode@1.1.13
+  - @chakra-ui/styled-system@1.12.3
 
 ## 1.7.3
 
@@ -790,7 +799,7 @@
   read parts array from the new anatomy class
 
 - Updated dependencies []:
-  - @incmix-ui/color-mode@1.1.12
+  - @chakra-ui/color-mode@1.1.12
 
 ## 1.7.2
 
@@ -815,9 +824,9 @@
   [`1d4b1f874`](https://github.com/incmix-ui/incmix-ui/commit/1d4b1f87498c2d843cd21c24e86085d812a1de07),
   [`270b71ebb`](https://github.com/incmix-ui/incmix-ui/commit/270b71ebbb2bd9007d2e138e432675991d94f18d),
   [`43f66097b`](https://github.com/incmix-ui/incmix-ui/commit/43f66097b39f1c37a4627dd6ca8a85555f35b95c)]:
-  - @incmix-ui/utils@1.8.2
-  - @incmix-ui/styled-system@1.12.2
-  - @incmix-ui/color-mode@1.1.11
+  - @chakra-ui/utils@1.8.2
+  - @chakra-ui/styled-system@1.12.2
+  - @chakra-ui/color-mode@1.1.11
 
 ## 1.7.1
 
@@ -829,9 +838,9 @@
   (such as `borderRadius`) would not fallback to the default styles
 - Updated dependencies
   [[`4a1e4d93b`](https://github.com/incmix-ui/incmix-ui/commit/4a1e4d93b0a07df7266d40bb66039385b158d3d1)]:
-  - @incmix-ui/utils@1.8.1
-  - @incmix-ui/color-mode@1.1.10
-  - @incmix-ui/styled-system@1.12.1
+  - @chakra-ui/utils@1.8.1
+  - @chakra-ui/color-mode@1.1.10
+  - @chakra-ui/styled-system@1.12.1
 
 ## 1.7.0
 
@@ -843,7 +852,7 @@
   allows a functional `baseStyle` property:
 
   ```js
-  import { styled } from '@incmix-ui/react'
+  import { styled } from '@chakra-ui/react'
 
   const MyComponent = styled('div', {
     baseStyle: (props) => ({
@@ -860,8 +869,8 @@
 
 - Updated dependencies
   [[`ebda07095`](https://github.com/incmix-ui/incmix-ui/commit/ebda07095bffd9b3135c5d19803a3a08397b78ef)]:
-  - @incmix-ui/styled-system@1.12.0
-  - @incmix-ui/color-mode@1.1.9
+  - @chakra-ui/styled-system@1.12.0
+  - @chakra-ui/color-mode@1.1.9
 
 ## 1.6.7
 
@@ -869,7 +878,7 @@
 
 - Updated dependencies
   [[`d9d66a9e8`](https://github.com/incmix-ui/incmix-ui/commit/d9d66a9e876f076ffd1c8bb531fd03e9074d325f)]:
-  - @incmix-ui/styled-system@1.11.1
+  - @chakra-ui/styled-system@1.11.1
 
 ## 1.6.6
 
@@ -882,7 +891,7 @@
 
 - Updated dependencies
   [[`773497896`](https://github.com/incmix-ui/incmix-ui/commit/773497896e65ffbbda10e75b6e0a7bb5b68c853a)]:
-  - @incmix-ui/styled-system@1.11.0
+  - @chakra-ui/styled-system@1.11.0
 
 ## 1.6.5
 
@@ -893,9 +902,9 @@
   [`b479ff22e`](https://github.com/incmix-ui/incmix-ui/commit/b479ff22ea10c1a1393224c37c36aa6ceabc4aab),
   [`07d15eab4`](https://github.com/incmix-ui/incmix-ui/commit/07d15eab480724f8fee1a09b7cecdf1e968d9ddd),
   [`07d15eab4`](https://github.com/incmix-ui/incmix-ui/commit/07d15eab480724f8fee1a09b7cecdf1e968d9ddd)]:
-  - @incmix-ui/utils@1.8.0
-  - @incmix-ui/styled-system@1.10.5
-  - @incmix-ui/color-mode@1.1.8
+  - @chakra-ui/utils@1.8.0
+  - @chakra-ui/styled-system@1.10.5
+  - @chakra-ui/color-mode@1.1.8
 
 ## 1.6.4
 
@@ -904,10 +913,10 @@
 - Updated dependencies
   [[`82f08867f`](https://github.com/incmix-ui/incmix-ui/commit/82f08867fa4825d647a3b9cc805220d9364f2f3f),
   [`e9ac4cc76`](https://github.com/incmix-ui/incmix-ui/commit/e9ac4cc7629cd79efc753b4e3353bacdad46cd7d)]:
-  - @incmix-ui/react-utils@1.1.2
-  - @incmix-ui/utils@1.7.0
-  - @incmix-ui/color-mode@1.1.7
-  - @incmix-ui/styled-system@1.10.4
+  - @chakra-ui/react-utils@1.1.2
+  - @chakra-ui/utils@1.7.0
+  - @chakra-ui/color-mode@1.1.7
+  - @chakra-ui/styled-system@1.10.4
 
 ## 1.6.3
 
@@ -917,9 +926,9 @@
   [[`0974e547c`](https://github.com/incmix-ui/incmix-ui/commit/0974e547c29e4efc1ba4d1eb1507d0dad7d7a77a),
   [`59ea894a7`](https://github.com/incmix-ui/incmix-ui/commit/59ea894a7e03d16cd7a1b89d00816eafa9fab65d),
   [`a11810f70`](https://github.com/incmix-ui/incmix-ui/commit/a11810f705f0731f5ddc967a59b6899dfe8d5050)]:
-  - @incmix-ui/utils@1.6.0
-  - @incmix-ui/styled-system@1.10.3
-  - @incmix-ui/color-mode@1.1.6
+  - @chakra-ui/utils@1.6.0
+  - @chakra-ui/styled-system@1.10.3
+  - @chakra-ui/color-mode@1.1.6
 
 ## 1.6.2
 
@@ -933,13 +942,13 @@
 * [`a73198529`](https://github.com/incmix-ui/incmix-ui/commit/a7319852908f68596600da799ef08a0e7dbb468e)
   [#3775](https://github.com/incmix-ui/incmix-ui/pull/3775) Thanks
   [@tomchentw](https://github.com/tomchentw)! - Add missing dependency issue of
-  `@incmix-ui/react-utils`
+  `@chakra-ui/react-utils`
 
 * Updated dependencies
   [[`8b5eb9654`](https://github.com/incmix-ui/incmix-ui/commit/8b5eb9654affe562795d38a19f732f84732a949d)]:
-  - @incmix-ui/utils@1.5.2
-  - @incmix-ui/color-mode@1.1.5
-  - @incmix-ui/styled-system@1.10.2
+  - @chakra-ui/utils@1.5.2
+  - @chakra-ui/color-mode@1.1.5
+  - @chakra-ui/styled-system@1.10.2
 
 ## 1.6.1
 
@@ -948,9 +957,9 @@
 - Updated dependencies
   [[`1a04a41bd`](https://github.com/incmix-ui/incmix-ui/commit/1a04a41bd2285069011a738fff422ba1a6fcce94),
   [`e481ba491`](https://github.com/incmix-ui/incmix-ui/commit/e481ba4914a7f163d93d4c22e2e457f1afb08721)]:
-  - @incmix-ui/utils@1.5.1
-  - @incmix-ui/color-mode@1.1.4
-  - @incmix-ui/styled-system@1.10.1
+  - @chakra-ui/utils@1.5.1
+  - @chakra-ui/color-mode@1.1.4
+  - @chakra-ui/styled-system@1.10.1
 
 ## 1.6.0
 
@@ -959,7 +968,7 @@
 - [`b724a9dd9`](https://github.com/incmix-ui/incmix-ui/commit/b724a9dd9429d02c0b2c7f7deac66d3553100bdc)
   [#3674](https://github.com/incmix-ui/incmix-ui/pull/3674) Thanks
   [@codebender828](https://github.com/codebender828)! - Extract all React based
-  utilities and types into `@incmix-ui/react-utils`
+  utilities and types into `@chakra-ui/react-utils`
 
 ### Patch Changes
 
@@ -972,9 +981,9 @@
   [[`32e79f835`](https://github.com/incmix-ui/incmix-ui/commit/32e79f83545740e1df73e7ce689e4101646bb57d),
   [`a58b724e9`](https://github.com/incmix-ui/incmix-ui/commit/a58b724e9c8656044f866b658f378662f2a44b46),
   [`b724a9dd9`](https://github.com/incmix-ui/incmix-ui/commit/b724a9dd9429d02c0b2c7f7deac66d3553100bdc)]:
-  - @incmix-ui/styled-system@1.10.0
-  - @incmix-ui/utils@1.5.0
-  - @incmix-ui/color-mode@1.1.3
+  - @chakra-ui/styled-system@1.10.0
+  - @chakra-ui/utils@1.5.0
+  - @chakra-ui/color-mode@1.1.3
 
 ## 1.5.1
 
@@ -982,7 +991,7 @@
 
 - Updated dependencies
   [[`a576f4de8`](https://github.com/incmix-ui/incmix-ui/commit/a576f4de850706ea7088c8a6ea687269cad05e69)]:
-  - @incmix-ui/styled-system@1.9.1
+  - @chakra-ui/styled-system@1.9.1
 
 ## 1.5.0
 
@@ -992,7 +1001,7 @@
   [#3529](https://github.com/incmix-ui/incmix-ui/pull/3529) Thanks
   [@callum-mellorreed-privitar](https://github.com/callum-mellorreed-privitar)! -
   Add support for `textStyle` and `layerStyle` theme type generation to
-  `@incmix-ui/cli`
+  `@chakra-ui/cli`
 
 ### Patch Changes
 
@@ -1008,9 +1017,9 @@
   [`c3dcaabbc`](https://github.com/incmix-ui/incmix-ui/commit/c3dcaabbcf52ab9805a622f4e9833ad26cad9318),
   [`91ef14839`](https://github.com/incmix-ui/incmix-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b),
   [`96139067d`](https://github.com/incmix-ui/incmix-ui/commit/96139067daa4b9a606b60c73f28a88ccd99d983b)]:
-  - @incmix-ui/color-mode@1.1.2
-  - @incmix-ui/utils@1.4.0
-  - @incmix-ui/styled-system@1.9.0
+  - @chakra-ui/color-mode@1.1.2
+  - @chakra-ui/utils@1.4.0
+  - @chakra-ui/styled-system@1.9.0
 
 ## 1.4.0
 
@@ -1019,23 +1028,23 @@
 - [`53408372e`](https://github.com/incmix-ui/incmix-ui/commit/53408372ef6926840815a03f2ac5269e3a4757f2)
   [#3463](https://github.com/incmix-ui/incmix-ui/pull/3463) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - - Add support for CSS
-  Variables to the core of Incmix
+  Variables to the core of Chakra
   - Improve style computation performance by 2.5x
 
 * [`1f4d0aa4e`](https://github.com/incmix-ui/incmix-ui/commit/1f4d0aa4eff7ba3caffb0599eb81edfb223a36cc)
   [#3462](https://github.com/incmix-ui/incmix-ui/pull/3462) Thanks
-  [@joe-bell](https://github.com/joe-bell)! - ### `Incmix`
+  [@joe-bell](https://github.com/joe-bell)! - ### `chakra`
 
-  Adds support for `main` in Incmix factory
+  Adds support for `main` in chakra factory
 
 ### Patch Changes
 
 - Updated dependencies
   [[`53408372e`](https://github.com/incmix-ui/incmix-ui/commit/53408372ef6926840815a03f2ac5269e3a4757f2),
   [`87cc23e14`](https://github.com/incmix-ui/incmix-ui/commit/87cc23e14814e02cbbfc9737c2356cef682ddd5d)]:
-  - @incmix-ui/styled-system@1.8.0
-  - @incmix-ui/utils@1.3.0
-  - @incmix-ui/color-mode@1.1.1
+  - @chakra-ui/styled-system@1.8.0
+  - @chakra-ui/utils@1.3.0
+  - @chakra-ui/color-mode@1.1.1
 
 ## 1.3.1
 
@@ -1045,8 +1054,8 @@
   [[`e8113d3ca`](https://github.com/incmix-ui/incmix-ui/commit/e8113d3ca66e9d45ac2dbb7109ff8904cbfd1134),
   [`4943a15c0`](https://github.com/incmix-ui/incmix-ui/commit/4943a15c084fd2e66ab0dbf273233630d006dc5a),
   [`7f3bb3584`](https://github.com/incmix-ui/incmix-ui/commit/7f3bb35841f81e9e29a356b3070ac9fd28352731)]:
-  - @incmix-ui/styled-system@1.7.1
-  - @incmix-ui/color-mode@1.1.0
+  - @chakra-ui/styled-system@1.7.1
+  - @chakra-ui/color-mode@1.1.0
 
 ## 1.3.0
 
@@ -1068,9 +1077,9 @@
   [`483687237`](https://github.com/incmix-ui/incmix-ui/commit/483687237f2c4fed05dc6a79693f307c601c1285),
   [`9dc37ee37`](https://github.com/incmix-ui/incmix-ui/commit/9dc37ee37575650746e9b006e41428f1bf53e16c),
   [`61962345c`](https://github.com/incmix-ui/incmix-ui/commit/61962345c5b1c862445c16c586e304b28c376c9a)]:
-  - @incmix-ui/styled-system@1.7.0
-  - @incmix-ui/utils@1.2.0
-  - @incmix-ui/color-mode@1.0.7
+  - @chakra-ui/styled-system@1.7.0
+  - @chakra-ui/utils@1.2.0
+  - @chakra-ui/color-mode@1.0.7
 
 ## 1.2.1
 
@@ -1098,15 +1107,15 @@
   [[`e434aed4a`](https://github.com/incmix-ui/incmix-ui/commit/e434aed4a7d769d0c6e98e048b2100f0efed277a),
   [`90c7a4fbf`](https://github.com/incmix-ui/incmix-ui/commit/90c7a4fbfde69c01395ffe2876d7348dd72ea65a),
   [`e859a9fc1`](https://github.com/incmix-ui/incmix-ui/commit/e859a9fc1bd906801a490dceeb507cca0684a192)]:
-  - @incmix-ui/styled-system@1.6.0
-  - @incmix-ui/color-mode@1.0.6
+  - @chakra-ui/styled-system@1.6.0
+  - @chakra-ui/color-mode@1.0.6
 
 ## 1.1.7
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @incmix-ui/color-mode@1.0.5
+  - @chakra-ui/color-mode@1.0.5
 
 ## 1.1.6
 
@@ -1115,8 +1124,8 @@
 - Updated dependencies
   [[`d9ec9f49`](https://github.com/incmix-ui/incmix-ui/commit/d9ec9f496bfe2f81ffb84adbed099581d5f6843e),
   [`26ca4cc5`](https://github.com/incmix-ui/incmix-ui/commit/26ca4cc53b8cc0ca696f2130f832965f7dc0ee53)]:
-  - @incmix-ui/styled-system@1.5.0
-  - @incmix-ui/color-mode@1.0.4
+  - @chakra-ui/styled-system@1.5.0
+  - @chakra-ui/color-mode@1.0.4
 
 ## 1.1.5
 
@@ -1124,9 +1133,9 @@
 
 - Updated dependencies
   [[`8b87406c`](https://github.com/incmix-ui/incmix-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54)]:
-  - @incmix-ui/utils@1.1.0
-  - @incmix-ui/color-mode@1.0.3
-  - @incmix-ui/styled-system@1.4.1
+  - @chakra-ui/utils@1.1.0
+  - @chakra-ui/color-mode@1.0.3
+  - @chakra-ui/styled-system@1.4.1
 
 ## 1.1.4
 
@@ -1136,7 +1145,7 @@
   [[`ff7c3676`](https://github.com/incmix-ui/incmix-ui/commit/ff7c36764650dc7f01957c417eae1ec8ce356495),
   [`6830c0e3`](https://github.com/incmix-ui/incmix-ui/commit/6830c0e36959ebd76ce1991dd89d7303ce33b0d0),
   [`09f028e4`](https://github.com/incmix-ui/incmix-ui/commit/09f028e4f2539d51b1c9ac7f3aec422ee6848fa3)]:
-  - @incmix-ui/styled-system@1.4.0
+  - @chakra-ui/styled-system@1.4.0
 
 ## 1.1.3
 
@@ -1145,7 +1154,7 @@
 - [`a9807b33`](https://github.com/incmix-ui/incmix-ui/commit/a9807b334477ac9ecd7f3637c0ff7d5fb5c46639)
   [#2753](https://github.com/incmix-ui/incmix-ui/pull/2753) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Restored TypeScript
-  autocomplete for Incmix component props in Jetbrains IDEs.
+  autocomplete for chakra component props in Jetbrains IDEs.
 
 ## 1.1.2
 
@@ -1153,7 +1162,7 @@
 
 - Updated dependencies
   [[`5cef5de4`](https://github.com/incmix-ui/incmix-ui/commit/5cef5de4f45cd58f7a29436335543cb5b40c0d70)]:
-  - @incmix-ui/styled-system@1.3.1
+  - @chakra-ui/styled-system@1.3.1
 
 ## 1.1.1
 
@@ -1162,7 +1171,7 @@
 - Updated dependencies
   [[`a0e0bd9a`](https://github.com/incmix-ui/incmix-ui/commit/a0e0bd9a5d45fe08887f8df8d3eccc84951578df),
   [`4fa07745`](https://github.com/incmix-ui/incmix-ui/commit/4fa077453a5c2165b695198c57366f3cc6506c37)]:
-  - @incmix-ui/styled-system@1.3.0
+  - @chakra-ui/styled-system@1.3.0
 
 ## 1.1.0
 
@@ -1190,7 +1199,7 @@
 
   ### 🚀 Feature
 
-  Add support for custom `shouldForwardProp` function in the `Incmix` factory
+  Add support for custom `shouldForwardProp` function in the `chakra` factory
   function.
 
 ### Patch Changes
@@ -1198,9 +1207,9 @@
 - Updated dependencies
   [[`e73878ee`](https://github.com/incmix-ui/incmix-ui/commit/e73878ee686c11d3f94ad6ac61b19ae9508d75a5),
   [`609ac595`](https://github.com/incmix-ui/incmix-ui/commit/609ac595568799c9f2c38ccbc9ef44fdc7393baa)]:
-  - @incmix-ui/utils@1.0.2
-  - @incmix-ui/styled-system@1.2.0
-  - @incmix-ui/color-mode@1.0.2
+  - @chakra-ui/utils@1.0.2
+  - @chakra-ui/styled-system@1.2.0
+  - @chakra-ui/color-mode@1.0.2
 
 ## 1.0.2
 
@@ -1212,7 +1221,7 @@
   argument values for the `props` and `opts` arguments of `useStyleConfig`.
 - Updated dependencies
   [[`127baa0f`](https://github.com/incmix-ui/incmix-ui/commit/127baa0f1926bf1f8ace6f46cfdc08606fe9d347)]:
-  - @incmix-ui/styled-system@1.1.1
+  - @chakra-ui/styled-system@1.1.1
 
 ## 1.0.1
 
@@ -1221,16 +1230,16 @@
 - Updated dependencies
   [[`586ce3c1`](https://github.com/incmix-ui/incmix-ui/commit/586ce3c12bb3508027c36811233c539eeeb55256),
   [`5c482483`](https://github.com/incmix-ui/incmix-ui/commit/5c482483ce24fc798540c9792a15e06772eae213)]:
-  - @incmix-ui/styled-system@1.1.0
-  - @incmix-ui/utils@1.0.1
-  - @incmix-ui/color-mode@1.0.1
+  - @chakra-ui/styled-system@1.1.0
+  - @chakra-ui/utils@1.0.1
+  - @chakra-ui/color-mode@1.0.1
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # 1.0.0 (2020-11-13)
 
-**Note:** Version bump only for package @incmix-ui/system
+**Note:** Version bump only for package @chakra-ui/system
 
 # Change Log
 
@@ -1252,23 +1261,23 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.7 (2020-10-25)
 
-**Note:** Version bump only for package @incmix-ui/system
+**Note:** Version bump only for package @chakra-ui/system
 
 # 1.0.0-rc.6 (2020-10-25)
 
-**Note:** Version bump only for package @incmix-ui/system
+**Note:** Version bump only for package @chakra-ui/system
 
 # 1.0.0-rc.5 (2020-09-27)
 
-**Note:** Version bump only for package @incmix-ui/system
+**Note:** Version bump only for package @chakra-ui/system
 
 # 1.0.0-rc.4 (2020-09-25)
 
-**Note:** Version bump only for package @incmix-ui/system
+**Note:** Version bump only for package @chakra-ui/system
 
 # 1.0.0-rc.3 (2020-08-30)
 
-**Note:** Version bump only for package @incmix-ui/system
+**Note:** Version bump only for package @chakra-ui/system
 
 # Change Log
 
@@ -1277,14 +1286,14 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.2 (2020-08-09)
 
-**Note:** Version bump only for package @incmix-ui/system
+**Note:** Version bump only for package @chakra-ui/system
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.1](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/system@1.0.0-rc.0...@incmix-ui/system@1.0.0-rc.1) (2020-08-06)
+# [1.0.0-rc.1](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/system@1.0.0-rc.0...@chakra-ui/system@1.0.0-rc.1) (2020-08-06)
 
 ### Bug Fixes
 
@@ -1308,16 +1317,16 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.0](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/system@1.0.0-next.7...@incmix-ui/system@1.0.0-rc.0) (2020-07-26)
+# [1.0.0-rc.0](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/system@1.0.0-next.7...@chakra-ui/system@1.0.0-rc.0) (2020-07-26)
 
-**Note:** Version bump only for package @incmix-ui/system
+**Note:** Version bump only for package @chakra-ui/system
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.7](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/system@1.0.0-next.6...@incmix-ui/system@1.0.0-next.7) (2020-07-26)
+# [1.0.0-next.7](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/system@1.0.0-next.6...@chakra-ui/system@1.0.0-next.7) (2020-07-26)
 
 ### Bug Fixes
 
@@ -1341,16 +1350,16 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.6](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/system@1.0.0-next.5...@incmix-ui/system@1.0.0-next.6) (2020-07-15)
+# [1.0.0-next.6](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/system@1.0.0-next.5...@chakra-ui/system@1.0.0-next.6) (2020-07-15)
 
-**Note:** Version bump only for package @incmix-ui/system
+**Note:** Version bump only for package @chakra-ui/system
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.5](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/system@1.0.0-next.4...@incmix-ui/system@1.0.0-next.5) (2020-07-15)
+# [1.0.0-next.5](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/system@1.0.0-next.4...@chakra-ui/system@1.0.0-next.5) (2020-07-15)
 
 ### Performance Improvements
 

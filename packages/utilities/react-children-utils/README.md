@@ -1,4 +1,4 @@
-# @incmix-ui/react-children-utils
+# @chakra-ui/react-children-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/react-children-utils
+yarn add @chakra-ui/react-children-utils
 # or
-npm i @incmix-ui/react-children-utils
+npm i @chakra-ui/react-children-utils
 ```
 
 ## Contribution

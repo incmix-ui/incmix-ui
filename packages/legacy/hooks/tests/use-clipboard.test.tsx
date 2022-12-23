@@ -1,5 +1,5 @@
 import copy from "copy-to-clipboard"
-import { hooks } from "@incmix-ui/test-utils"
+import { hooks } from "@chakra-ui/test-utils"
 
 import { useClipboard } from "../src"
 

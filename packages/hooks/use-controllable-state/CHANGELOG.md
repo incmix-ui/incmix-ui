@@ -1,4 +1,4 @@
-# @incmix-ui/react-use-controllable-state
+# @chakra-ui/react-use-controllable-state
 
 ## 2.0.6
 
@@ -7,12 +7,12 @@
 - [#6945](https://github.com/incmix-ui/incmix-ui/pull/6945)
   [`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
+  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 - Updated dependencies
   [[`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)]:
-  - @incmix-ui/react-use-callback-ref@2.0.5
+  - @chakra-ui/react-use-callback-ref@2.0.5
 
 ## 2.0.5
 
@@ -25,7 +25,7 @@
 
 - Updated dependencies
   [[`9de39921b`](https://github.com/incmix-ui/incmix-ui/commit/9de39921b983ad0eb2df7195e3b683c2e2e9e290)]:
-  - @incmix-ui/react-use-callback-ref@2.0.4
+  - @chakra-ui/react-use-callback-ref@2.0.4
 
 ## 2.0.4
 
@@ -42,7 +42,7 @@
   component/function docs and relative docsite links.
 
   Ensures that all Components, functions, and hooks that have detailed pages on
-  the Incmix site have corresponding JSDocs and links back to the docsite via
+  the Chakra site have corresponding JSDocs and links back to the docsite via
   IDE intellisense.
 
   Includes adding or fixing links within these docs to related WAI-ARIA
@@ -60,7 +60,7 @@
   - Refactor code for proper prop doc generatation
 - Updated dependencies
   [[`445661955`](https://github.com/incmix-ui/incmix-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)]:
-  - @incmix-ui/react-use-callback-ref@2.0.3
+  - @chakra-ui/react-use-callback-ref@2.0.3
 
 ## 2.0.2
 
@@ -69,7 +69,7 @@
 - Force release
 
 - Updated dependencies []:
-  - @incmix-ui/react-use-callback-ref@2.0.2
+  - @chakra-ui/react-use-callback-ref@2.0.2
 
 ## 2.0.1
 
@@ -81,4 +81,4 @@
 
 - Updated dependencies
   [[`70872f2c2`](https://github.com/incmix-ui/incmix-ui/commit/70872f2c2254186bbcc1964897fe660eb1c1b010)]:
-  - @incmix-ui/react-use-callback-ref@2.0.1
+  - @chakra-ui/react-use-callback-ref@2.0.1

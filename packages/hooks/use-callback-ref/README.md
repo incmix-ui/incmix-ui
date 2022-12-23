@@ -1,4 +1,4 @@
-# @incmix-ui/react-use-callback-ref
+# @chakra-ui/react-use-callback-ref
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/react-use-callback-ref
+yarn add @chakra-ui/react-use-callback-ref
 # or
-npm i @incmix-ui/react-use-callback-ref
+npm i @chakra-ui/react-use-callback-ref
 ```
 
 ## Contribution

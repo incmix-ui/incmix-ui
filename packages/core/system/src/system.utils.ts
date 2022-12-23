@@ -1,8 +1,8 @@
-import { isString, __DEV__ } from "@incmix-ui/utils"
+import { isString, __DEV__ } from "@chakra-ui/utils"
 
 /**
- * All html and svg elements for Incmix components.
- * This is mostly for `Incmix.<element>` syntax.
+ * All html and svg elements for chakra components.
+ * This is mostly for `chakra.<element>` syntax.
  */
 export type DOMElements = keyof JSX.IntrinsicElements
 
@@ -14,7 +14,7 @@ export default function isTag(target: any) {
 }
 
 export function getDisplayName(primitive: any) {
-  return isTag(primitive) ? `Incmix.${primitive}` : getComponentName(primitive)
+  return isTag(primitive) ? `chakra.${primitive}` : getComponentName(primitive)
 }
 
 function getComponentName(primitive: React.ComponentType | string) {
@@ -22,6 +22,6 @@ function getComponentName(primitive: React.ComponentType | string) {
     (__DEV__ ? isString(primitive) && primitive : false) ||
     (!isString(primitive) && primitive.displayName) ||
     (!isString(primitive) && primitive.name) ||
-    "IncmixComponent"
+    "ChakraComponent"
   )
 }

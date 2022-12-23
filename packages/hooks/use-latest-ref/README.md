@@ -1,4 +1,4 @@
-# @incmix-ui/react-use-latest-ref
+# @chakra-ui/react-use-latest-ref
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/react-use-latest-ref
+yarn add @chakra-ui/react-use-latest-ref
 # or
-npm i @incmix-ui/react-use-latest-ref
+npm i @chakra-ui/react-use-latest-ref
 ```
 
 ## Contribution

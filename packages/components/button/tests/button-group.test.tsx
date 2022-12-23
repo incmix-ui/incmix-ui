@@ -1,4 +1,4 @@
-import { render, testA11y } from "@incmix-ui/test-utils"
+import { render, testA11y } from "@chakra-ui/test-utils"
 import { Button, ButtonGroup } from "../src"
 
 it("passes a11y test", async () => {

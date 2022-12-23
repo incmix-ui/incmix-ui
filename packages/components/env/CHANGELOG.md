@@ -1,4 +1,4 @@
-# @incmix-ui/react-env
+# @chakra-ui/react-env
 
 ## 2.0.11
 
@@ -7,7 +7,7 @@
 - [#6945](https://github.com/incmix-ui/incmix-ui/pull/6945)
   [`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
+  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 
@@ -53,7 +53,7 @@
 - Force new release
 
 - Updated dependencies []:
-  - @incmix-ui/utils@2.0.6
+  - @chakra-ui/utils@2.0.6
 
 ## 2.0.5
 
@@ -66,7 +66,7 @@
   - Update package `main` and `module` entries
 - Updated dependencies
   [[`1839e22eb`](https://github.com/incmix-ui/incmix-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)]:
-  - @incmix-ui/utils@2.0.5
+  - @chakra-ui/utils@2.0.5
 
 ## 2.0.4
 
@@ -78,7 +78,7 @@
 
 - Updated dependencies
   [[`c11743b47`](https://github.com/incmix-ui/incmix-ui/commit/c11743b47f38f8f38a21b120add3a9cf765b81ee)]:
-  - @incmix-ui/utils@2.0.4
+  - @chakra-ui/utils@2.0.4
 
 ## 2.0.3
 
@@ -92,7 +92,7 @@
 - Updated dependencies
   [[`36ef37d58`](https://github.com/incmix-ui/incmix-ui/commit/36ef37d58220dffc4b8e35c31fdcc57042e9a859),
   [`6c15ec2c2`](https://github.com/incmix-ui/incmix-ui/commit/6c15ec2c2a32a36ecc2d169308379a6825619543)]:
-  - @incmix-ui/utils@2.0.3
+  - @chakra-ui/utils@2.0.3
 
 ## 2.0.2
 
@@ -104,7 +104,7 @@
 
 - Updated dependencies
   [[`06f29f8cd`](https://github.com/incmix-ui/incmix-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1)]:
-  - @incmix-ui/utils@2.0.2
+  - @chakra-ui/utils@2.0.2
 
 ## 2.0.1
 
@@ -112,7 +112,7 @@
 
 - Updated dependencies
   [[`f77e3c98f`](https://github.com/incmix-ui/incmix-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c)]:
-  - @incmix-ui/utils@2.0.1
+  - @chakra-ui/utils@2.0.1
 
 ## 2.0.0
 
@@ -121,7 +121,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for incmix UI version 2.
+  to next major for Chakra UI version 2.
 
 * [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
@@ -147,7 +147,7 @@
   [[`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f),
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7),
   [`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
-  - @incmix-ui/utils@2.0.0
+  - @chakra-ui/utils@2.0.0
 
 ## 2.0.0-next.2
 
@@ -162,7 +162,7 @@
 
 - Updated dependencies
   [[`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)]:
-  - @incmix-ui/utils@2.0.0-next.2
+  - @chakra-ui/utils@2.0.0-next.2
 
 ## 2.0.0-next.1
 
@@ -185,7 +185,7 @@
 
 - Updated dependencies
   [[`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196)]:
-  - @incmix-ui/utils@2.0.0-next.1
+  - @chakra-ui/utils@2.0.0-next.1
 
 ## 2.0.0-next.0
 
@@ -194,13 +194,13 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for incmix UI version 2.
+  to next major for Chakra UI version 2.
 
 ### Patch Changes
 
 - Updated dependencies
   [[`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)]:
-  - @incmix-ui/utils@2.0.0-next.0
+  - @chakra-ui/utils@2.0.0-next.0
 
 ## 1.1.6
 
@@ -212,7 +212,7 @@
   CI configuration.
 - Updated dependencies
   [[`e1fe48cbe`](https://github.com/incmix-ui/incmix-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)]:
-  - @incmix-ui/utils@1.10.4
+  - @chakra-ui/utils@1.10.4
 
 ## 1.1.5
 
@@ -220,7 +220,7 @@
 
 - Updated dependencies
   [[`a870e6b94`](https://github.com/incmix-ui/incmix-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a)]:
-  - @incmix-ui/utils@1.10.3
+  - @chakra-ui/utils@1.10.3
 
 ## 1.1.4
 
@@ -233,7 +233,7 @@
 
 - Updated dependencies
   [[`a503acabe`](https://github.com/incmix-ui/incmix-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)]:
-  - @incmix-ui/utils@1.10.2
+  - @chakra-ui/utils@1.10.2
 
 ## 1.1.3
 
@@ -241,7 +241,7 @@
 
 - Updated dependencies
   [[`24b4333d0`](https://github.com/incmix-ui/incmix-ui/commit/24b4333d008d149380785f87f4891e28584ff89b)]:
-  - @incmix-ui/utils@1.10.1
+  - @chakra-ui/utils@1.10.1
 
 ## 1.1.2
 
@@ -249,7 +249,7 @@
 
 - Updated dependencies
   [[`1537a725f`](https://github.com/incmix-ui/incmix-ui/commit/1537a725fbc7f84979e374f546bda625fc685ac3)]:
-  - @incmix-ui/utils@1.10.0
+  - @chakra-ui/utils@1.10.0
 
 ## 1.1.1
 
@@ -262,7 +262,7 @@
   Storybook.
 - Updated dependencies
   [[`b28142946`](https://github.com/incmix-ui/incmix-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)]:
-  - @incmix-ui/utils@1.9.1
+  - @chakra-ui/utils@1.9.1
 
 ## 1.1.0
 
@@ -281,17 +281,17 @@
   **Potential Breaking Change:** The side effect of this is that, if you
   imported any function, component or hook using the **undocumented** approach
   like
-  `import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"`,
+  `import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"`,
   you'll notice that the this doesn't work anymore.
 
   Here's how to resolve it:
 
   ```jsx live=false
   // Won't work 🎇
-  import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"
+  import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"
 
   // Works ✅
-  import { useOutsideClick } from "@incmix-ui/hooks"
+  import { useOutsideClick } from "@chakra-ui/hooks"
   ```
 
   If this affected your project, we recommend that you import hooks, functions
@@ -302,7 +302,7 @@
 
 - Updated dependencies
   [[`6095eaf9a`](https://github.com/incmix-ui/incmix-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)]:
-  - @incmix-ui/utils@1.9.0
+  - @chakra-ui/utils@1.9.0
 
 ## 1.0.8
 
@@ -310,7 +310,7 @@
 
 - Updated dependencies
   [[`cd0893c56`](https://github.com/incmix-ui/incmix-ui/commit/cd0893c561d8c72b69db7c03d10adae752468a4f)]:
-  - @incmix-ui/utils@1.8.4
+  - @chakra-ui/utils@1.8.4
 
 ## 1.0.7
 
@@ -319,7 +319,7 @@
 - Updated dependencies
   [[`c06d242c6`](https://github.com/incmix-ui/incmix-ui/commit/c06d242c672a10f93fab4dc2321143beae2db669),
   [`5b4d8ef24`](https://github.com/incmix-ui/incmix-ui/commit/5b4d8ef24017dab1d69aeb5016b53366bdb3bcfd)]:
-  - @incmix-ui/utils@1.8.3
+  - @chakra-ui/utils@1.8.3
 
 ## 1.0.6
 
@@ -328,7 +328,7 @@
 - Updated dependencies
   [[`4c1071969`](https://github.com/incmix-ui/incmix-ui/commit/4c1071969a9b41a952b374f9990ac0bb89d24fa0),
   [`43f66097b`](https://github.com/incmix-ui/incmix-ui/commit/43f66097b39f1c37a4627dd6ca8a85555f35b95c)]:
-  - @incmix-ui/utils@1.8.2
+  - @chakra-ui/utils@1.8.2
 
 ## 1.0.5
 
@@ -336,7 +336,7 @@
 
 - Updated dependencies
   [[`4a1e4d93b`](https://github.com/incmix-ui/incmix-ui/commit/4a1e4d93b0a07df7266d40bb66039385b158d3d1)]:
-  - @incmix-ui/utils@1.8.1
+  - @chakra-ui/utils@1.8.1
 
 ## 1.0.4
 
@@ -349,7 +349,7 @@
   [[`d0f50a46e`](https://github.com/incmix-ui/incmix-ui/commit/d0f50a46ea6c2bcf06d8cad8b9b3994fd934be01),
   [`b479ff22e`](https://github.com/incmix-ui/incmix-ui/commit/b479ff22ea10c1a1393224c37c36aa6ceabc4aab),
   [`07d15eab4`](https://github.com/incmix-ui/incmix-ui/commit/07d15eab480724f8fee1a09b7cecdf1e968d9ddd)]:
-  - @incmix-ui/utils@1.8.0
+  - @chakra-ui/utils@1.8.0
 
 ## 1.0.3
 
@@ -357,7 +357,7 @@
 
 - Updated dependencies
   [[`e9ac4cc76`](https://github.com/incmix-ui/incmix-ui/commit/e9ac4cc7629cd79efc753b4e3353bacdad46cd7d)]:
-  - @incmix-ui/utils@1.7.0
+  - @chakra-ui/utils@1.7.0
 
 ## 1.0.2
 
@@ -370,7 +370,7 @@
 - Updated dependencies
   [[`0974e547c`](https://github.com/incmix-ui/incmix-ui/commit/0974e547c29e4efc1ba4d1eb1507d0dad7d7a77a),
   [`59ea894a7`](https://github.com/incmix-ui/incmix-ui/commit/59ea894a7e03d16cd7a1b89d00816eafa9fab65d)]:
-  - @incmix-ui/utils@1.6.0
+  - @chakra-ui/utils@1.6.0
 
 ## 1.0.1
 

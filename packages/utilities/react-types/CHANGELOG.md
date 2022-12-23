@@ -1,4 +1,4 @@
-# @incmix-ui/react-types
+# @chakra-ui/react-types
 
 ## 2.0.5
 
@@ -16,7 +16,7 @@
 - [#6945](https://github.com/incmix-ui/incmix-ui/pull/6945)
   [`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
+  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 

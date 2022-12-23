@@ -7,7 +7,7 @@
 - [#6945](https://github.com/incmix-ui/incmix-ui/pull/6945)
   [`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
+  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 
@@ -50,7 +50,7 @@
   to use design tokens and css variables as much as possible.
 
   Improve support for `100vh` values by using a polyfill css variable
-  `--Incmix-vh`.
+  `--chakra-vh`.
 
 ## 2.0.5
 
@@ -100,7 +100,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Incmix UI version 2.
+  to next major for Chakra UI version 2.
 
 * [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
@@ -155,7 +155,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for Incmix UI version 2.
+  to next major for Chakra UI version 2.
 
 ## 1.1.3
 
@@ -202,17 +202,17 @@
   **Potential Breaking Change:** The side effect of this is that, if you
   imported any function, component or hook using the **undocumented** approach
   like
-  `import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"`,
+  `import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"`,
   you'll notice that the this doesn't work anymore.
 
   Here's how to resolve it:
 
   ```jsx live=false
   // Won't work 🎇
-  import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"
+  import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"
 
   // Works ✅
-  import { useOutsideClick } from "@incmix-ui/hooks"
+  import { useOutsideClick } from "@chakra-ui/hooks"
   ```
 
   If this affected your project, we recommend that you import hooks, functions
@@ -224,7 +224,7 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0 (2020-11-13)
 
-**Note:** Version bump only for package @incmix-ui/css-reset
+**Note:** Version bump only for package @chakra-ui/css-reset
 
 # Change Log
 
@@ -246,23 +246,23 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.7 (2020-10-25)
 
-**Note:** Version bump only for package @incmix-ui/css-reset
+**Note:** Version bump only for package @chakra-ui/css-reset
 
 # 1.0.0-rc.6 (2020-10-25)
 
-**Note:** Version bump only for package @incmix-ui/css-reset
+**Note:** Version bump only for package @chakra-ui/css-reset
 
 # 1.0.0-rc.5 (2020-09-27)
 
-**Note:** Version bump only for package @incmix-ui/css-reset
+**Note:** Version bump only for package @chakra-ui/css-reset
 
 # 1.0.0-rc.4 (2020-09-25)
 
-**Note:** Version bump only for package @incmix-ui/css-reset
+**Note:** Version bump only for package @chakra-ui/css-reset
 
 # 1.0.0-rc.3 (2020-08-30)
 
-**Note:** Version bump only for package @incmix-ui/css-reset
+**Note:** Version bump only for package @chakra-ui/css-reset
 
 # Change Log
 
@@ -271,14 +271,14 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.2 (2020-08-09)
 
-**Note:** Version bump only for package @incmix-ui/css-reset
+**Note:** Version bump only for package @chakra-ui/css-reset
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.1](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/css-reset@1.0.0-rc.0...@incmix-ui/css-reset@1.0.0-rc.1) (2020-08-06)
+# [1.0.0-rc.1](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/css-reset@1.0.0-rc.0...@chakra-ui/css-reset@1.0.0-rc.1) (2020-08-06)
 
 ### Features
 
@@ -292,16 +292,16 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.0](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/css-reset@1.0.0-next.7...@incmix-ui/css-reset@1.0.0-rc.0) (2020-07-26)
+# [1.0.0-rc.0](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/css-reset@1.0.0-next.7...@chakra-ui/css-reset@1.0.0-rc.0) (2020-07-26)
 
-**Note:** Version bump only for package @incmix-ui/css-reset
+**Note:** Version bump only for package @chakra-ui/css-reset
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.7](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/css-reset@1.0.0-next.6...@incmix-ui/css-reset@1.0.0-next.7) (2020-07-26)
+# [1.0.0-next.7](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/css-reset@1.0.0-next.6...@chakra-ui/css-reset@1.0.0-next.7) (2020-07-26)
 
 ### Bug Fixes
 
@@ -313,18 +313,18 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.6](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/css-reset@1.0.0-next.5...@incmix-ui/css-reset@1.0.0-next.6) (2020-07-15)
+# [1.0.0-next.6](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/css-reset@1.0.0-next.5...@chakra-ui/css-reset@1.0.0-next.6) (2020-07-15)
 
-**Note:** Version bump only for package @incmix-ui/css-reset
+**Note:** Version bump only for package @chakra-ui/css-reset
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.5](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/css-reset@1.0.0-next.4...@incmix-ui/css-reset@1.0.0-next.5) (2020-07-15)
+# [1.0.0-next.5](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/css-reset@1.0.0-next.4...@chakra-ui/css-reset@1.0.0-next.5) (2020-07-15)
 
-**Note:** Version bump only for package @incmix-ui/css-reset
+**Note:** Version bump only for package @chakra-ui/css-reset
 
 # Change Log
 

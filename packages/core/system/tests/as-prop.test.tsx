@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import * as React from "react"
-import { Incmix, IncmixComponent } from ".."
+import { chakra, ChakraComponent } from ".."
 
 /**
  * These tests should fail while type checking
- * if the typings for `IncmixComponent` change
+ * if the typings for `ChakraComponent` change
  * and create a type regression
  */
 describe("`as` prop typings", () => {
@@ -13,24 +13,24 @@ describe("`as` prop typings", () => {
   type CompWithRequiredProps = { thisIsARequiredProp: boolean }
   const CompWithRequired = (props: CompWithRequiredProps) => null
 
-  it("should have correct types for the Incmix factory", () => {
-    const div = <incmix.div />
-    const divWithAsTag = <incmix.div as="img" src="/this-is-the-way.webp" />
-    const divWithAsComp = <incmix.div as={Comp} />
+  it("should have correct types for the chakra factory", () => {
+    const div = <chakra.div />
+    const divWithAsTag = <chakra.div as="img" src="/this-is-the-way.webp" />
+    const divWithAsComp = <chakra.div as={Comp} />
     const divWithAsCompRequired = (
-      <incmix.div as={CompWithRequired} thisIsARequiredProp />
+      <chakra.div as={CompWithRequired} thisIsARequiredProp />
     )
 
     // make jest happy
     expect(true).toBe(true)
   })
 
-  it("should have correct types for the IncmixComponent", () => {
-    const Div: IncmixComponent<"div"> = (props) => <incmix.div {...props} />
-    const CustomComp: IncmixComponent<typeof Comp> = (props) => (
-      <incmix.div as={Comp} {...props} />
+  it("should have correct types for the ChakraComponent", () => {
+    const Div: ChakraComponent<"div"> = (props) => <chakra.div {...props} />
+    const CustomComp: ChakraComponent<typeof Comp> = (props) => (
+      <chakra.div as={Comp} {...props} />
     )
-    const CustomCompWithRequired = Incmix(CompWithRequired)
+    const CustomCompWithRequired = chakra(CompWithRequired)
 
     const renderedCustomCompWithRequired = (
       <CustomCompWithRequired thisIsARequiredProp />
@@ -40,11 +40,11 @@ describe("`as` prop typings", () => {
     expect(true).toBe(true)
   })
 
-  it("should have correct types for the IncmixComponent with additional props", () => {
-    const AdditionalPropComp: IncmixComponent<
+  it("should have correct types for the ChakraComponent with additional props", () => {
+    const AdditionalPropComp: ChakraComponent<
       "div",
       { additionalProp: boolean }
-    > = ({ additionalProp, ...restProps }) => <incmix.div {...restProps} />
+    > = ({ additionalProp, ...restProps }) => <chakra.div {...restProps} />
 
     const renderedAdditionPropComp = <AdditionalPropComp additionalProp />
 
@@ -52,11 +52,11 @@ describe("`as` prop typings", () => {
     expect(true).toBe(true)
   })
 
-  it("should have correct types for the IncmixComponent with optional additional props", () => {
-    const OptionalAdditionalPropComp: IncmixComponent<
+  it("should have correct types for the ChakraComponent with optional additional props", () => {
+    const OptionalAdditionalPropComp: ChakraComponent<
       "div",
       { additionalProp?: boolean }
-    > = ({ additionalProp, ...restProps }) => <incmix.div {...restProps} />
+    > = ({ additionalProp, ...restProps }) => <chakra.div {...restProps} />
 
     const renderedAdditionPropComp = <OptionalAdditionalPropComp />
 

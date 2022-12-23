@@ -1,4 +1,4 @@
-# @incmix-ui/react-use-previous
+# @chakra-ui/react-use-previous
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/react-use-previous
+yarn add @chakra-ui/react-use-previous
 # or
-npm i @incmix-ui/react-use-previous
+npm i @chakra-ui/react-use-previous
 ```
 
 ## Contribution

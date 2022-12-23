@@ -4,7 +4,7 @@ import {
   FocusableElement,
   getAllFocusable,
   isRefObject,
-} from "@incmix-ui/utils"
+} from "@chakra-ui/utils"
 import { useCallback, useRef } from "react"
 import { useEventListener } from "./use-event-listener"
 import { useSafeLayoutEffect } from "./use-safe-layout-effect"

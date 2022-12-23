@@ -7,8 +7,6 @@
     "pan-event",
     "hook"
   ],
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -37,8 +35,8 @@
   },
   "dependencies": {
     "framesync": "5.3.0",
-    "@incmix-ui/event-utils": "workspace:*",
-    "@incmix-ui/react-use-latest-ref": "workspace:*"
+    "@chakra-ui/event-utils": "workspace:*",
+    "@chakra-ui/react-use-latest-ref": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=18"

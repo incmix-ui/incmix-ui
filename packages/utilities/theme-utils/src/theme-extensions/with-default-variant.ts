@@ -1,5 +1,5 @@
-import { ThemingProps } from "@incmix-ui/styled-system"
-import { isObject } from "@incmix-ui/shared-utils"
+import { ThemingProps } from "@chakra-ui/styled-system"
+import { isObject } from "@chakra-ui/shared-utils"
 import { mergeThemeOverride, ThemeExtension } from "../extend-theme"
 
 export function withDefaultVariant({

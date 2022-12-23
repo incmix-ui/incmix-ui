@@ -7,8 +7,6 @@
     "types",
     "shared"
   ],
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "types": "src/index.d.ts",
   "sideEffects": false,

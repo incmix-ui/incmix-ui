@@ -2,7 +2,7 @@ import {
   addPointerEvent,
   getEventPoint,
   isMultiTouchEvent,
-} from "@incmix-ui/event-utils"
+} from "@chakra-ui/event-utils"
 import sync, { cancelSync, getFrameData } from "framesync"
 import {
   AnyPointerEvent,

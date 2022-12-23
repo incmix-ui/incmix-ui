@@ -1,5 +1,58 @@
 # Change Log
 
+## 2.4.4
+
+### Patch Changes
+
+- Updated dependencies
+  [[`0b8c2cf65`](https://github.com/incmix-ui/incmix-ui/commit/0b8c2cf658d3ab5a9feecd8ceb891208ca0fe4ac),
+  [`40779c6b1`](https://github.com/incmix-ui/incmix-ui/commit/40779c6b1195bf208f7be20d838ea5f22716231b),
+  [`37b7a130a`](https://github.com/incmix-ui/incmix-ui/commit/37b7a130aaff0cbb97f206978315075eb06e5100),
+  [`4957cf6d5`](https://github.com/incmix-ui/incmix-ui/commit/4957cf6d51fb895fcacd3d30c9351b79261dd19c),
+  [`8992c86ad`](https://github.com/incmix-ui/incmix-ui/commit/8992c86ad799fff07e1b2cd51af2ba8e5efe1d4c),
+  [`c4b3e9647`](https://github.com/incmix-ui/incmix-ui/commit/c4b3e9647f794de00a7adb102298363641e33ede)]:
+  - @chakra-ui/card@2.1.3
+  - @chakra-ui/slider@2.0.16
+  - @chakra-ui/styled-system@2.5.0
+  - @chakra-ui/skeleton@2.0.20
+  - @chakra-ui/table@2.0.13
+  - @chakra-ui/theme@2.2.2
+  - @chakra-ui/toast@4.0.6
+  - @chakra-ui/system@2.3.5
+  - @chakra-ui/theme-utils@2.0.6
+  - @chakra-ui/breadcrumb@2.1.1
+  - @chakra-ui/button@2.0.13
+  - @chakra-ui/control-box@2.0.11
+  - @chakra-ui/input@2.0.14
+  - @chakra-ui/tag@2.0.13
+  - @chakra-ui/accordion@2.1.4
+  - @chakra-ui/alert@2.0.13
+  - @chakra-ui/avatar@2.2.1
+  - @chakra-ui/checkbox@2.2.5
+  - @chakra-ui/close-button@2.0.13
+  - @chakra-ui/editable@2.0.16
+  - @chakra-ui/form-control@2.0.13
+  - @chakra-ui/icon@3.0.13
+  - @chakra-ui/image@2.0.12
+  - @chakra-ui/layout@2.1.11
+  - @chakra-ui/media-query@3.2.8
+  - @chakra-ui/menu@2.1.5
+  - @chakra-ui/modal@2.2.5
+  - @chakra-ui/number-input@2.0.14
+  - @chakra-ui/pin-input@2.0.16
+  - @chakra-ui/popover@2.1.4
+  - @chakra-ui/progress@2.1.2
+  - @chakra-ui/provider@2.0.26
+  - @chakra-ui/radio@2.0.14
+  - @chakra-ui/select@2.0.14
+  - @chakra-ui/spinner@2.0.11
+  - @chakra-ui/stat@2.0.13
+  - @chakra-ui/switch@2.0.17
+  - @chakra-ui/tabs@2.1.5
+  - @chakra-ui/textarea@2.0.14
+  - @chakra-ui/tooltip@2.2.3
+  - @chakra-ui/visually-hidden@2.0.13
+
 ## 2.4.3
 
 ### Patch Changes
@@ -9,19 +62,19 @@
   [`43aba8ac8`](https://github.com/incmix-ui/incmix-ui/commit/43aba8ac88dc729b17ae7474b42f82642fe5a15f),
   [`1025a88eb`](https://github.com/incmix-ui/incmix-ui/commit/1025a88eb428adea2797c57a756ea513a6d50762),
   [`8cfdb799e`](https://github.com/incmix-ui/incmix-ui/commit/8cfdb799eb0d407a25dd10bbd850cadd340c79dd)]:
-  - @incmix-ui/modal@2.2.5
-  - @incmix-ui/portal@2.0.12
-  - @incmix-ui/skeleton@2.0.19
-  - @incmix-ui/slider@2.0.15
-  - @incmix-ui/card@2.1.2
-  - @incmix-ui/progress@2.1.2
-  - @incmix-ui/accordion@2.1.4
-  - @incmix-ui/menu@2.1.5
-  - @incmix-ui/tabs@2.1.5
-  - @incmix-ui/tooltip@2.2.3
-  - @incmix-ui/provider@2.0.25
-  - @incmix-ui/toast@4.0.5
-  - @incmix-ui/table@2.0.12
+  - @chakra-ui/modal@2.2.5
+  - @chakra-ui/portal@2.0.12
+  - @chakra-ui/skeleton@2.0.19
+  - @chakra-ui/slider@2.0.15
+  - @chakra-ui/card@2.1.2
+  - @chakra-ui/progress@2.1.2
+  - @chakra-ui/accordion@2.1.4
+  - @chakra-ui/menu@2.1.5
+  - @chakra-ui/tabs@2.1.5
+  - @chakra-ui/tooltip@2.2.3
+  - @chakra-ui/provider@2.0.25
+  - @chakra-ui/toast@4.0.5
+  - @chakra-ui/table@2.0.12
 
 ## 2.4.2
 
@@ -29,8 +82,8 @@
 
 - [#6997](https://github.com/incmix-ui/incmix-ui/pull/6997)
   [`4d5501b82`](https://github.com/incmix-ui/incmix-ui/commit/4d5501b82b6fe215f1a7d205250325c0a2221337)
-  Thanks [@anubra266](https://github.com/anubra266)! - Add `incmixBaseProvider`,
-  a minimal version of `incmixProvider` that supplies just the theme tokens, and
+  Thanks [@anubra266](https://github.com/anubra266)! - Add `ChakraBaseProvider`,
+  a minimal version of `ChakraProvider` that supplies just the theme tokens, and
   ignores components.
 
   Historically, one of the biggest causes of the large initial JS payload is the
@@ -40,8 +93,8 @@
   > Base theme refers to the minimal theme for just the design tokens
 
   ```jsx live=false
-  import { incmixBaseProvider, extendBaseTheme } from "@incmix-ui/react"
-  import { Button } from "@incmix-ui/theme/components"
+  import { ChakraBaseProvider, extendBaseTheme } from "@chakra-ui/react"
+  import { Button } from "@chakra-ui/theme/components"
 
   const theme = extendBaseTheme({
     components: {
@@ -51,9 +104,9 @@
 
   function App() {
     return (
-      <incmixBaseProvider theme={theme}>
+      <ChakraBaseProvider theme={theme}>
         <Component {...pageProps} />
-      </incmixBaseProvider>
+      </ChakraBaseProvider>
     )
   }
   ```
@@ -69,49 +122,49 @@
   [`8c2af79fa`](https://github.com/incmix-ui/incmix-ui/commit/8c2af79fa44e7d93e197000bb7e67d8ff11d9f95),
   [`36ac52021`](https://github.com/incmix-ui/incmix-ui/commit/36ac520213d42e379857aa421240fc85e3b71523),
   [`bf7704112`](https://github.com/incmix-ui/incmix-ui/commit/bf7704112ebb2aba675084706c8364a755ad10e3)]:
-  - @incmix-ui/styled-system@2.4.0
-  - @incmix-ui/theme@2.2.2
-  - @incmix-ui/theme-utils@2.0.5
-  - @incmix-ui/menu@2.1.5
-  - @incmix-ui/button@2.0.13
-  - @incmix-ui/radio@2.0.14
-  - @incmix-ui/icon@3.0.13
-  - @incmix-ui/slider@2.0.14
-  - @incmix-ui/toast@4.0.4
-  - @incmix-ui/system@2.3.4
-  - @incmix-ui/media-query@3.2.8
-  - @incmix-ui/skeleton@2.0.18
-  - @incmix-ui/card@2.1.1
-  - @incmix-ui/accordion@2.1.4
-  - @incmix-ui/number-input@2.0.14
-  - @incmix-ui/popover@2.1.4
-  - @incmix-ui/portal@2.0.11
-  - @incmix-ui/table@2.0.12
-  - @incmix-ui/tooltip@2.2.2
-  - @incmix-ui/alert@2.0.13
-  - @incmix-ui/checkbox@2.2.5
-  - @incmix-ui/close-button@2.0.13
-  - @incmix-ui/form-control@2.0.13
-  - @incmix-ui/layout@2.1.11
-  - @incmix-ui/stat@2.0.13
-  - @incmix-ui/tag@2.0.13
-  - @incmix-ui/editable@2.0.16
-  - @incmix-ui/modal@2.2.4
-  - @incmix-ui/popper@3.0.10
-  - @incmix-ui/avatar@2.2.1
-  - @incmix-ui/breadcrumb@2.1.1
-  - @incmix-ui/control-box@2.0.11
-  - @incmix-ui/image@2.0.12
-  - @incmix-ui/input@2.0.14
-  - @incmix-ui/pin-input@2.0.16
-  - @incmix-ui/progress@2.1.1
-  - @incmix-ui/provider@2.0.24
-  - @incmix-ui/select@2.0.14
-  - @incmix-ui/spinner@2.0.11
-  - @incmix-ui/switch@2.0.17
-  - @incmix-ui/tabs@2.1.5
-  - @incmix-ui/textarea@2.0.14
-  - @incmix-ui/visually-hidden@2.0.13
+  - @chakra-ui/styled-system@2.4.0
+  - @chakra-ui/theme@2.2.2
+  - @chakra-ui/theme-utils@2.0.5
+  - @chakra-ui/menu@2.1.5
+  - @chakra-ui/button@2.0.13
+  - @chakra-ui/radio@2.0.14
+  - @chakra-ui/icon@3.0.13
+  - @chakra-ui/slider@2.0.14
+  - @chakra-ui/toast@4.0.4
+  - @chakra-ui/system@2.3.4
+  - @chakra-ui/media-query@3.2.8
+  - @chakra-ui/skeleton@2.0.18
+  - @chakra-ui/card@2.1.1
+  - @chakra-ui/accordion@2.1.4
+  - @chakra-ui/number-input@2.0.14
+  - @chakra-ui/popover@2.1.4
+  - @chakra-ui/portal@2.0.11
+  - @chakra-ui/table@2.0.12
+  - @chakra-ui/tooltip@2.2.2
+  - @chakra-ui/alert@2.0.13
+  - @chakra-ui/checkbox@2.2.5
+  - @chakra-ui/close-button@2.0.13
+  - @chakra-ui/form-control@2.0.13
+  - @chakra-ui/layout@2.1.11
+  - @chakra-ui/stat@2.0.13
+  - @chakra-ui/tag@2.0.13
+  - @chakra-ui/editable@2.0.16
+  - @chakra-ui/modal@2.2.4
+  - @chakra-ui/popper@3.0.10
+  - @chakra-ui/avatar@2.2.1
+  - @chakra-ui/breadcrumb@2.1.1
+  - @chakra-ui/control-box@2.0.11
+  - @chakra-ui/image@2.0.12
+  - @chakra-ui/input@2.0.14
+  - @chakra-ui/pin-input@2.0.16
+  - @chakra-ui/progress@2.1.1
+  - @chakra-ui/provider@2.0.24
+  - @chakra-ui/select@2.0.14
+  - @chakra-ui/spinner@2.0.11
+  - @chakra-ui/switch@2.0.17
+  - @chakra-ui/tabs@2.1.5
+  - @chakra-ui/textarea@2.0.14
+  - @chakra-ui/visually-hidden@2.0.13
 
 ## 2.4.1
 
@@ -120,46 +173,46 @@
 - Updated dependencies
   [[`33e039e2e`](https://github.com/incmix-ui/incmix-ui/commit/33e039e2e0f52bfef20eddd13005534812ccb654),
   [`cbd09c31f`](https://github.com/incmix-ui/incmix-ui/commit/cbd09c31ff7134157906dbaeaaea5a920185e36a)]:
-  - @incmix-ui/card@2.1.1
-  - @incmix-ui/theme@2.2.1
-  - @incmix-ui/button@2.0.12
-  - @incmix-ui/media-query@3.2.8
-  - @incmix-ui/menu@2.1.4
-  - @incmix-ui/skeleton@2.0.18
-  - @incmix-ui/slider@2.0.13
-  - @incmix-ui/system@2.3.3
-  - @incmix-ui/toast@4.0.3
-  - @incmix-ui/theme-utils@2.0.4
-  - @incmix-ui/table@2.0.12
-  - @incmix-ui/accordion@2.1.3
-  - @incmix-ui/alert@2.0.12
-  - @incmix-ui/avatar@2.2.1
-  - @incmix-ui/breadcrumb@2.1.1
-  - @incmix-ui/checkbox@2.2.4
-  - @incmix-ui/close-button@2.0.12
-  - @incmix-ui/control-box@2.0.11
-  - @incmix-ui/editable@2.0.15
-  - @incmix-ui/form-control@2.0.12
-  - @incmix-ui/icon@3.0.12
-  - @incmix-ui/image@2.0.12
-  - @incmix-ui/input@2.0.13
-  - @incmix-ui/layout@2.1.10
-  - @incmix-ui/modal@2.2.3
-  - @incmix-ui/number-input@2.0.13
-  - @incmix-ui/pin-input@2.0.16
-  - @incmix-ui/popover@2.1.3
-  - @incmix-ui/progress@2.1.1
-  - @incmix-ui/provider@2.0.23
-  - @incmix-ui/radio@2.0.13
-  - @incmix-ui/select@2.0.13
-  - @incmix-ui/spinner@2.0.11
-  - @incmix-ui/stat@2.0.12
-  - @incmix-ui/switch@2.0.16
-  - @incmix-ui/tabs@2.1.5
-  - @incmix-ui/tag@2.0.12
-  - @incmix-ui/textarea@2.0.13
-  - @incmix-ui/tooltip@2.2.1
-  - @incmix-ui/visually-hidden@2.0.13
+  - @chakra-ui/card@2.1.1
+  - @chakra-ui/theme@2.2.1
+  - @chakra-ui/button@2.0.12
+  - @chakra-ui/media-query@3.2.8
+  - @chakra-ui/menu@2.1.4
+  - @chakra-ui/skeleton@2.0.18
+  - @chakra-ui/slider@2.0.13
+  - @chakra-ui/system@2.3.3
+  - @chakra-ui/toast@4.0.3
+  - @chakra-ui/theme-utils@2.0.4
+  - @chakra-ui/table@2.0.12
+  - @chakra-ui/accordion@2.1.3
+  - @chakra-ui/alert@2.0.12
+  - @chakra-ui/avatar@2.2.1
+  - @chakra-ui/breadcrumb@2.1.1
+  - @chakra-ui/checkbox@2.2.4
+  - @chakra-ui/close-button@2.0.12
+  - @chakra-ui/control-box@2.0.11
+  - @chakra-ui/editable@2.0.15
+  - @chakra-ui/form-control@2.0.12
+  - @chakra-ui/icon@3.0.12
+  - @chakra-ui/image@2.0.12
+  - @chakra-ui/input@2.0.13
+  - @chakra-ui/layout@2.1.10
+  - @chakra-ui/modal@2.2.3
+  - @chakra-ui/number-input@2.0.13
+  - @chakra-ui/pin-input@2.0.16
+  - @chakra-ui/popover@2.1.3
+  - @chakra-ui/progress@2.1.1
+  - @chakra-ui/provider@2.0.23
+  - @chakra-ui/radio@2.0.13
+  - @chakra-ui/select@2.0.13
+  - @chakra-ui/spinner@2.0.11
+  - @chakra-ui/stat@2.0.12
+  - @chakra-ui/switch@2.0.16
+  - @chakra-ui/tabs@2.1.5
+  - @chakra-ui/tag@2.0.12
+  - @chakra-ui/textarea@2.0.13
+  - @chakra-ui/tooltip@2.2.1
+  - @chakra-ui/visually-hidden@2.0.13
 
 ## 2.4.0
 
@@ -191,7 +244,7 @@
 - [#6945](https://github.com/incmix-ui/incmix-ui/pull/6945)
   [`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)
   Thanks [@anddoutoi](https://github.com/anddoutoi)! - Fix issue where using
-  `@incmix-ui/react` in a TypeScript project with `"type": "module"` in
+  `@chakra-ui/react` in a TypeScript project with `"type": "module"` in
   `package.json` and `"moduleResolution": "Node16"` in `tsconfig.json` cannot
   find the types.
 - Updated dependencies
@@ -200,56 +253,56 @@
   [`2a86d6c35`](https://github.com/incmix-ui/incmix-ui/commit/2a86d6c353e88d86b46030a53130a062433f30b2),
   [`2a86d6c35`](https://github.com/incmix-ui/incmix-ui/commit/2a86d6c353e88d86b46030a53130a062433f30b2),
   [`75eaba929`](https://github.com/incmix-ui/incmix-ui/commit/75eaba9293e2c7d5bd6aed2037df05128f335930)]:
-  - @incmix-ui/theme@2.2.0
-  - @incmix-ui/tooltip@2.2.1
-  - @incmix-ui/card@2.1.0
-  - @incmix-ui/system@2.3.2
-  - @incmix-ui/accordion@2.1.3
-  - @incmix-ui/alert@2.0.12
-  - @incmix-ui/avatar@2.2.1
-  - @incmix-ui/breadcrumb@2.1.1
-  - @incmix-ui/button@2.0.12
-  - @incmix-ui/checkbox@2.2.4
-  - @incmix-ui/close-button@2.0.12
-  - @incmix-ui/control-box@2.0.11
-  - @incmix-ui/counter@2.0.11
-  - @incmix-ui/css-reset@2.0.10
-  - @incmix-ui/editable@2.0.15
-  - @incmix-ui/react-env@2.0.11
-  - @incmix-ui/form-control@2.0.12
-  - @incmix-ui/icon@3.0.12
-  - @incmix-ui/image@2.0.12
-  - @incmix-ui/input@2.0.13
-  - @incmix-ui/layout@2.1.10
-  - @incmix-ui/live-region@2.0.11
-  - @incmix-ui/media-query@3.2.8
-  - @incmix-ui/menu@2.1.4
-  - @incmix-ui/modal@2.2.3
-  - @incmix-ui/number-input@2.0.13
-  - @incmix-ui/pin-input@2.0.16
-  - @incmix-ui/popover@2.1.3
-  - @incmix-ui/popper@3.0.9
-  - @incmix-ui/portal@2.0.11
-  - @incmix-ui/progress@2.1.1
-  - @incmix-ui/provider@2.0.22
-  - @incmix-ui/radio@2.0.13
-  - @incmix-ui/select@2.0.13
-  - @incmix-ui/skeleton@2.0.18
-  - @incmix-ui/slider@2.0.13
-  - @incmix-ui/spinner@2.0.11
-  - @incmix-ui/stat@2.0.12
-  - @incmix-ui/styled-system@2.3.5
-  - @incmix-ui/switch@2.0.16
-  - @incmix-ui/table@2.0.12
-  - @incmix-ui/tabs@2.1.5
-  - @incmix-ui/tag@2.0.12
-  - @incmix-ui/textarea@2.0.13
-  - @incmix-ui/toast@4.0.2
-  - @incmix-ui/transition@2.0.12
-  - @incmix-ui/visually-hidden@2.0.13
-  - @incmix-ui/hooks@2.1.2
-  - @incmix-ui/utils@2.0.12
-  - @incmix-ui/theme-utils@2.0.3
+  - @chakra-ui/theme@2.2.0
+  - @chakra-ui/tooltip@2.2.1
+  - @chakra-ui/card@2.1.0
+  - @chakra-ui/system@2.3.2
+  - @chakra-ui/accordion@2.1.3
+  - @chakra-ui/alert@2.0.12
+  - @chakra-ui/avatar@2.2.1
+  - @chakra-ui/breadcrumb@2.1.1
+  - @chakra-ui/button@2.0.12
+  - @chakra-ui/checkbox@2.2.4
+  - @chakra-ui/close-button@2.0.12
+  - @chakra-ui/control-box@2.0.11
+  - @chakra-ui/counter@2.0.11
+  - @chakra-ui/css-reset@2.0.10
+  - @chakra-ui/editable@2.0.15
+  - @chakra-ui/react-env@2.0.11
+  - @chakra-ui/form-control@2.0.12
+  - @chakra-ui/icon@3.0.12
+  - @chakra-ui/image@2.0.12
+  - @chakra-ui/input@2.0.13
+  - @chakra-ui/layout@2.1.10
+  - @chakra-ui/live-region@2.0.11
+  - @chakra-ui/media-query@3.2.8
+  - @chakra-ui/menu@2.1.4
+  - @chakra-ui/modal@2.2.3
+  - @chakra-ui/number-input@2.0.13
+  - @chakra-ui/pin-input@2.0.16
+  - @chakra-ui/popover@2.1.3
+  - @chakra-ui/popper@3.0.9
+  - @chakra-ui/portal@2.0.11
+  - @chakra-ui/progress@2.1.1
+  - @chakra-ui/provider@2.0.22
+  - @chakra-ui/radio@2.0.13
+  - @chakra-ui/select@2.0.13
+  - @chakra-ui/skeleton@2.0.18
+  - @chakra-ui/slider@2.0.13
+  - @chakra-ui/spinner@2.0.11
+  - @chakra-ui/stat@2.0.12
+  - @chakra-ui/styled-system@2.3.5
+  - @chakra-ui/switch@2.0.16
+  - @chakra-ui/table@2.0.12
+  - @chakra-ui/tabs@2.1.5
+  - @chakra-ui/tag@2.0.12
+  - @chakra-ui/textarea@2.0.13
+  - @chakra-ui/toast@4.0.2
+  - @chakra-ui/transition@2.0.12
+  - @chakra-ui/visually-hidden@2.0.13
+  - @chakra-ui/hooks@2.1.2
+  - @chakra-ui/utils@2.0.12
+  - @chakra-ui/theme-utils@2.0.3
 
 ## 2.3.7
 
@@ -264,49 +317,49 @@
   [`3ae5df659`](https://github.com/incmix-ui/incmix-ui/commit/3ae5df659a2c6061dbfb57bfce92b5bf3e0b5cd7),
   [`49dc149cc`](https://github.com/incmix-ui/incmix-ui/commit/49dc149cc600af83dcde4fa9b6a34a6b14dca837),
   [`8705372a0`](https://github.com/incmix-ui/incmix-ui/commit/8705372a014bfd7073fe8012a46d7aa22904370b)]:
-  - @incmix-ui/checkbox@2.2.3
-  - @incmix-ui/editable@2.0.14
-  - @incmix-ui/progress@2.1.0
-  - @incmix-ui/visually-hidden@2.0.12
-  - @incmix-ui/theme@2.1.15
-  - @incmix-ui/hooks@2.1.1
-  - @incmix-ui/css-reset@2.0.9
-  - @incmix-ui/switch@2.0.15
-  - @incmix-ui/control-box@2.0.10
-  - @incmix-ui/radio@2.0.12
-  - @incmix-ui/button@2.0.11
-  - @incmix-ui/media-query@3.2.7
-  - @incmix-ui/menu@2.1.3
-  - @incmix-ui/skeleton@2.0.17
-  - @incmix-ui/slider@2.0.12
-  - @incmix-ui/system@2.3.1
-  - @incmix-ui/toast@4.0.1
-  - @incmix-ui/theme-utils@2.0.2
-  - @incmix-ui/popover@2.1.2
-  - @incmix-ui/input@2.0.12
-  - @incmix-ui/modal@2.2.2
-  - @incmix-ui/popper@3.0.8
-  - @incmix-ui/tooltip@2.2.0
-  - @incmix-ui/transition@2.0.11
-  - @incmix-ui/provider@2.0.21
-  - @incmix-ui/table@2.0.11
-  - @incmix-ui/accordion@2.1.2
-  - @incmix-ui/alert@2.0.11
-  - @incmix-ui/avatar@2.2.0
-  - @incmix-ui/breadcrumb@2.1.0
-  - @incmix-ui/close-button@2.0.11
-  - @incmix-ui/form-control@2.0.11
-  - @incmix-ui/icon@3.0.11
-  - @incmix-ui/image@2.0.11
-  - @incmix-ui/layout@2.1.9
-  - @incmix-ui/number-input@2.0.12
-  - @incmix-ui/pin-input@2.0.15
-  - @incmix-ui/select@2.0.12
-  - @incmix-ui/spinner@2.0.10
-  - @incmix-ui/stat@2.0.11
-  - @incmix-ui/tabs@2.1.4
-  - @incmix-ui/tag@2.0.11
-  - @incmix-ui/textarea@2.0.12
+  - @chakra-ui/checkbox@2.2.3
+  - @chakra-ui/editable@2.0.14
+  - @chakra-ui/progress@2.1.0
+  - @chakra-ui/visually-hidden@2.0.12
+  - @chakra-ui/theme@2.1.15
+  - @chakra-ui/hooks@2.1.1
+  - @chakra-ui/css-reset@2.0.9
+  - @chakra-ui/switch@2.0.15
+  - @chakra-ui/control-box@2.0.10
+  - @chakra-ui/radio@2.0.12
+  - @chakra-ui/button@2.0.11
+  - @chakra-ui/media-query@3.2.7
+  - @chakra-ui/menu@2.1.3
+  - @chakra-ui/skeleton@2.0.17
+  - @chakra-ui/slider@2.0.12
+  - @chakra-ui/system@2.3.1
+  - @chakra-ui/toast@4.0.1
+  - @chakra-ui/theme-utils@2.0.2
+  - @chakra-ui/popover@2.1.2
+  - @chakra-ui/input@2.0.12
+  - @chakra-ui/modal@2.2.2
+  - @chakra-ui/popper@3.0.8
+  - @chakra-ui/tooltip@2.2.0
+  - @chakra-ui/transition@2.0.11
+  - @chakra-ui/provider@2.0.21
+  - @chakra-ui/table@2.0.11
+  - @chakra-ui/accordion@2.1.2
+  - @chakra-ui/alert@2.0.11
+  - @chakra-ui/avatar@2.2.0
+  - @chakra-ui/breadcrumb@2.1.0
+  - @chakra-ui/close-button@2.0.11
+  - @chakra-ui/form-control@2.0.11
+  - @chakra-ui/icon@3.0.11
+  - @chakra-ui/image@2.0.11
+  - @chakra-ui/layout@2.1.9
+  - @chakra-ui/number-input@2.0.12
+  - @chakra-ui/pin-input@2.0.15
+  - @chakra-ui/select@2.0.12
+  - @chakra-ui/spinner@2.0.10
+  - @chakra-ui/stat@2.0.11
+  - @chakra-ui/tabs@2.1.4
+  - @chakra-ui/tag@2.0.11
+  - @chakra-ui/textarea@2.0.12
 
 ## 2.3.6
 
@@ -326,48 +379,48 @@
   [`58856c739`](https://github.com/incmix-ui/incmix-ui/commit/58856c739c536474cc23a94809082a9d549c71a3),
   [`87f5c275e`](https://github.com/incmix-ui/incmix-ui/commit/87f5c275e42c36ff806f553f80ae559fad4182ef),
   [`5e44868ed`](https://github.com/incmix-ui/incmix-ui/commit/5e44868ed0b86b15ef7892a249a24865d900fe57)]:
-  - @incmix-ui/toast@4.0.0
-  - @incmix-ui/breadcrumb@2.1.0
-  - @incmix-ui/progress@2.0.12
-  - @incmix-ui/avatar@2.2.0
-  - @incmix-ui/hooks@2.1.0
-  - @incmix-ui/modal@2.2.2
-  - @incmix-ui/transition@2.0.11
-  - @incmix-ui/editable@2.0.13
-  - @incmix-ui/checkbox@2.2.2
-  - @incmix-ui/theme@2.1.14
-  - @incmix-ui/system@2.3.0
-  - @incmix-ui/theme-utils@2.0.1
-  - @incmix-ui/tag@2.0.11
-  - @incmix-ui/input@2.0.12
-  - @incmix-ui/popover@2.1.1
-  - @incmix-ui/popper@3.0.8
-  - @incmix-ui/tooltip@2.2.0
-  - @incmix-ui/accordion@2.1.2
-  - @incmix-ui/menu@2.1.2
-  - @incmix-ui/tabs@2.1.4
-  - @incmix-ui/layout@2.1.9
-  - @incmix-ui/pin-input@2.0.15
-  - @incmix-ui/switch@2.0.14
-  - @incmix-ui/button@2.0.11
-  - @incmix-ui/media-query@3.2.7
-  - @incmix-ui/skeleton@2.0.17
-  - @incmix-ui/slider@2.0.12
-  - @incmix-ui/alert@2.0.11
-  - @incmix-ui/close-button@2.0.11
-  - @incmix-ui/control-box@2.0.10
-  - @incmix-ui/form-control@2.0.11
-  - @incmix-ui/icon@3.0.11
-  - @incmix-ui/image@2.0.11
-  - @incmix-ui/number-input@2.0.12
-  - @incmix-ui/provider@2.0.20
-  - @incmix-ui/radio@2.0.12
-  - @incmix-ui/select@2.0.12
-  - @incmix-ui/spinner@2.0.10
-  - @incmix-ui/stat@2.0.11
-  - @incmix-ui/table@2.0.11
-  - @incmix-ui/textarea@2.0.12
-  - @incmix-ui/visually-hidden@2.0.11
+  - @chakra-ui/toast@4.0.0
+  - @chakra-ui/breadcrumb@2.1.0
+  - @chakra-ui/progress@2.0.12
+  - @chakra-ui/avatar@2.2.0
+  - @chakra-ui/hooks@2.1.0
+  - @chakra-ui/modal@2.2.2
+  - @chakra-ui/transition@2.0.11
+  - @chakra-ui/editable@2.0.13
+  - @chakra-ui/checkbox@2.2.2
+  - @chakra-ui/theme@2.1.14
+  - @chakra-ui/system@2.3.0
+  - @chakra-ui/theme-utils@2.0.1
+  - @chakra-ui/tag@2.0.11
+  - @chakra-ui/input@2.0.12
+  - @chakra-ui/popover@2.1.1
+  - @chakra-ui/popper@3.0.8
+  - @chakra-ui/tooltip@2.2.0
+  - @chakra-ui/accordion@2.1.2
+  - @chakra-ui/menu@2.1.2
+  - @chakra-ui/tabs@2.1.4
+  - @chakra-ui/layout@2.1.9
+  - @chakra-ui/pin-input@2.0.15
+  - @chakra-ui/switch@2.0.14
+  - @chakra-ui/button@2.0.11
+  - @chakra-ui/media-query@3.2.7
+  - @chakra-ui/skeleton@2.0.17
+  - @chakra-ui/slider@2.0.12
+  - @chakra-ui/alert@2.0.11
+  - @chakra-ui/close-button@2.0.11
+  - @chakra-ui/control-box@2.0.10
+  - @chakra-ui/form-control@2.0.11
+  - @chakra-ui/icon@3.0.11
+  - @chakra-ui/image@2.0.11
+  - @chakra-ui/number-input@2.0.12
+  - @chakra-ui/provider@2.0.20
+  - @chakra-ui/radio@2.0.12
+  - @chakra-ui/select@2.0.12
+  - @chakra-ui/spinner@2.0.10
+  - @chakra-ui/stat@2.0.11
+  - @chakra-ui/table@2.0.11
+  - @chakra-ui/textarea@2.0.12
+  - @chakra-ui/visually-hidden@2.0.11
 
 ## 2.3.5
 
@@ -381,7 +434,7 @@
 * [#6765](https://github.com/incmix-ui/incmix-ui/pull/6765)
   [`014d1d224`](https://github.com/incmix-ui/incmix-ui/commit/014d1d224b0e4ac140f92eabade542040177c277)
   Thanks [@anubra266](https://github.com/anubra266)! - Fixed unmet
-  `@incmix-ui/styled-system` dependency issue
+  `@chakra-ui/styled-system` dependency issue
 
 * Updated dependencies
   [[`ede395f9f`](https://github.com/incmix-ui/incmix-ui/commit/ede395f9f3e3a8b74e87fac1f350ead201a4d8cc),
@@ -395,54 +448,54 @@
   [`16c56953b`](https://github.com/incmix-ui/incmix-ui/commit/16c56953b51d34688d06d6599b70bb895f5ac86d),
   [`014d1d224`](https://github.com/incmix-ui/incmix-ui/commit/014d1d224b0e4ac140f92eabade542040177c277),
   [`28ffa10de`](https://github.com/incmix-ui/incmix-ui/commit/28ffa10ded221d7f65dcfead1411639909cc5c97)]:
-  - @incmix-ui/modal@2.2.1
-  - @incmix-ui/number-input@2.0.12
-  - @incmix-ui/accordion@2.1.1
-  - @incmix-ui/alert@2.0.11
-  - @incmix-ui/avatar@2.1.1
-  - @incmix-ui/breadcrumb@2.0.10
-  - @incmix-ui/button@2.0.11
-  - @incmix-ui/checkbox@2.2.1
-  - @incmix-ui/close-button@2.0.11
-  - @incmix-ui/control-box@2.0.10
-  - @incmix-ui/counter@2.0.10
-  - @incmix-ui/css-reset@2.0.8
-  - @incmix-ui/editable@2.0.12
-  - @incmix-ui/react-env@2.0.10
-  - @incmix-ui/form-control@2.0.11
-  - @incmix-ui/icon@3.0.11
-  - @incmix-ui/image@2.0.11
-  - @incmix-ui/input@2.0.11
-  - @incmix-ui/layout@2.1.8
-  - @incmix-ui/live-region@2.0.10
-  - @incmix-ui/media-query@3.2.7
-  - @incmix-ui/menu@2.1.1
-  - @incmix-ui/pin-input@2.0.14
-  - @incmix-ui/popover@2.1.1
-  - @incmix-ui/popper@3.0.8
-  - @incmix-ui/portal@2.0.10
-  - @incmix-ui/progress@2.0.11
-  - @incmix-ui/provider@2.0.19
-  - @incmix-ui/radio@2.0.12
-  - @incmix-ui/select@2.0.12
-  - @incmix-ui/skeleton@2.0.17
-  - @incmix-ui/slider@2.0.12
-  - @incmix-ui/spinner@2.0.10
-  - @incmix-ui/stat@2.0.11
-  - @incmix-ui/styled-system@2.3.4
-  - @incmix-ui/switch@2.0.13
-  - @incmix-ui/system@2.2.12
-  - @incmix-ui/table@2.0.11
-  - @incmix-ui/tabs@2.1.3
-  - @incmix-ui/tag@2.0.11
-  - @incmix-ui/textarea@2.0.12
-  - @incmix-ui/theme@2.1.13
-  - @incmix-ui/toast@3.0.13
-  - @incmix-ui/tooltip@2.2.0
-  - @incmix-ui/transition@2.0.10
-  - @incmix-ui/visually-hidden@2.0.11
-  - @incmix-ui/hooks@2.0.11
-  - @incmix-ui/utils@2.0.11
+  - @chakra-ui/modal@2.2.1
+  - @chakra-ui/number-input@2.0.12
+  - @chakra-ui/accordion@2.1.1
+  - @chakra-ui/alert@2.0.11
+  - @chakra-ui/avatar@2.1.1
+  - @chakra-ui/breadcrumb@2.0.10
+  - @chakra-ui/button@2.0.11
+  - @chakra-ui/checkbox@2.2.1
+  - @chakra-ui/close-button@2.0.11
+  - @chakra-ui/control-box@2.0.10
+  - @chakra-ui/counter@2.0.10
+  - @chakra-ui/css-reset@2.0.8
+  - @chakra-ui/editable@2.0.12
+  - @chakra-ui/react-env@2.0.10
+  - @chakra-ui/form-control@2.0.11
+  - @chakra-ui/icon@3.0.11
+  - @chakra-ui/image@2.0.11
+  - @chakra-ui/input@2.0.11
+  - @chakra-ui/layout@2.1.8
+  - @chakra-ui/live-region@2.0.10
+  - @chakra-ui/media-query@3.2.7
+  - @chakra-ui/menu@2.1.1
+  - @chakra-ui/pin-input@2.0.14
+  - @chakra-ui/popover@2.1.1
+  - @chakra-ui/popper@3.0.8
+  - @chakra-ui/portal@2.0.10
+  - @chakra-ui/progress@2.0.11
+  - @chakra-ui/provider@2.0.19
+  - @chakra-ui/radio@2.0.12
+  - @chakra-ui/select@2.0.12
+  - @chakra-ui/skeleton@2.0.17
+  - @chakra-ui/slider@2.0.12
+  - @chakra-ui/spinner@2.0.10
+  - @chakra-ui/stat@2.0.11
+  - @chakra-ui/styled-system@2.3.4
+  - @chakra-ui/switch@2.0.13
+  - @chakra-ui/system@2.2.12
+  - @chakra-ui/table@2.0.11
+  - @chakra-ui/tabs@2.1.3
+  - @chakra-ui/tag@2.0.11
+  - @chakra-ui/textarea@2.0.12
+  - @chakra-ui/theme@2.1.13
+  - @chakra-ui/toast@3.0.13
+  - @chakra-ui/tooltip@2.2.0
+  - @chakra-ui/transition@2.0.10
+  - @chakra-ui/visually-hidden@2.0.11
+  - @chakra-ui/hooks@2.0.11
+  - @chakra-ui/utils@2.0.11
 
 ## 2.3.4
 
@@ -451,44 +504,44 @@
 - Updated dependencies
   [[`d5003f916`](https://github.com/incmix-ui/incmix-ui/commit/d5003f91650ade8b4045df8c23be8e8c9ebe288a),
   [`ef722cac8`](https://github.com/incmix-ui/incmix-ui/commit/ef722cac8d1428bcca636c10ce5c2f95cb324b11)]:
-  - @incmix-ui/editable@2.0.11
-  - @incmix-ui/number-input@2.0.11
-  - @incmix-ui/system@2.2.11
-  - @incmix-ui/theme@2.1.12
-  - @incmix-ui/accordion@2.1.0
-  - @incmix-ui/alert@2.0.10
-  - @incmix-ui/avatar@2.1.0
-  - @incmix-ui/breadcrumb@2.0.9
-  - @incmix-ui/button@2.0.10
-  - @incmix-ui/checkbox@2.2.0
-  - @incmix-ui/close-button@2.0.10
-  - @incmix-ui/control-box@2.0.9
-  - @incmix-ui/form-control@2.0.10
-  - @incmix-ui/icon@3.0.10
-  - @incmix-ui/image@2.0.10
-  - @incmix-ui/input@2.0.10
-  - @incmix-ui/layout@2.1.7
-  - @incmix-ui/media-query@3.2.6
-  - @incmix-ui/menu@2.1.0
-  - @incmix-ui/modal@2.2.0
-  - @incmix-ui/pin-input@2.0.13
-  - @incmix-ui/popover@2.1.0
-  - @incmix-ui/progress@2.0.10
-  - @incmix-ui/provider@2.0.18
-  - @incmix-ui/radio@2.0.11
-  - @incmix-ui/select@2.0.11
-  - @incmix-ui/skeleton@2.0.16
-  - @incmix-ui/slider@2.0.11
-  - @incmix-ui/spinner@2.0.9
-  - @incmix-ui/stat@2.0.10
-  - @incmix-ui/switch@2.0.12
-  - @incmix-ui/table@2.0.10
-  - @incmix-ui/tabs@2.1.2
-  - @incmix-ui/tag@2.0.10
-  - @incmix-ui/textarea@2.0.11
-  - @incmix-ui/toast@3.0.12
-  - @incmix-ui/tooltip@2.1.0
-  - @incmix-ui/visually-hidden@2.0.10
+  - @chakra-ui/editable@2.0.11
+  - @chakra-ui/number-input@2.0.11
+  - @chakra-ui/system@2.2.11
+  - @chakra-ui/theme@2.1.12
+  - @chakra-ui/accordion@2.1.0
+  - @chakra-ui/alert@2.0.10
+  - @chakra-ui/avatar@2.1.0
+  - @chakra-ui/breadcrumb@2.0.9
+  - @chakra-ui/button@2.0.10
+  - @chakra-ui/checkbox@2.2.0
+  - @chakra-ui/close-button@2.0.10
+  - @chakra-ui/control-box@2.0.9
+  - @chakra-ui/form-control@2.0.10
+  - @chakra-ui/icon@3.0.10
+  - @chakra-ui/image@2.0.10
+  - @chakra-ui/input@2.0.10
+  - @chakra-ui/layout@2.1.7
+  - @chakra-ui/media-query@3.2.6
+  - @chakra-ui/menu@2.1.0
+  - @chakra-ui/modal@2.2.0
+  - @chakra-ui/pin-input@2.0.13
+  - @chakra-ui/popover@2.1.0
+  - @chakra-ui/progress@2.0.10
+  - @chakra-ui/provider@2.0.18
+  - @chakra-ui/radio@2.0.11
+  - @chakra-ui/select@2.0.11
+  - @chakra-ui/skeleton@2.0.16
+  - @chakra-ui/slider@2.0.11
+  - @chakra-ui/spinner@2.0.9
+  - @chakra-ui/stat@2.0.10
+  - @chakra-ui/switch@2.0.12
+  - @chakra-ui/table@2.0.10
+  - @chakra-ui/tabs@2.1.2
+  - @chakra-ui/tag@2.0.10
+  - @chakra-ui/textarea@2.0.11
+  - @chakra-ui/toast@3.0.12
+  - @chakra-ui/tooltip@2.1.0
+  - @chakra-ui/visually-hidden@2.0.10
 
 ## 2.3.3
 
@@ -507,49 +560,49 @@
   [`0ca7b097e`](https://github.com/incmix-ui/incmix-ui/commit/0ca7b097e7c7106cb3aa9daf9ab7462569b5d968),
   [`c2d1c362f`](https://github.com/incmix-ui/incmix-ui/commit/c2d1c362f5bf2dfc3fa27fa8a987c1d037e12479),
   [`3e1b3f6b6`](https://github.com/incmix-ui/incmix-ui/commit/3e1b3f6b6a7398b71ac08339110f075695fbae94)]:
-  - @incmix-ui/pin-input@2.0.13
-  - @incmix-ui/layout@2.1.7
-  - @incmix-ui/menu@2.1.0
-  - @incmix-ui/table@2.0.10
-  - @incmix-ui/accordion@2.1.0
-  - @incmix-ui/checkbox@2.2.0
-  - @incmix-ui/modal@2.2.0
-  - @incmix-ui/popover@2.1.0
-  - @incmix-ui/tooltip@2.1.0
-  - @incmix-ui/theme@2.1.12
-  - @incmix-ui/utils@2.0.10
-  - @incmix-ui/tag@2.0.10
-  - @incmix-ui/system@2.2.10
-  - @incmix-ui/alert@2.0.10
-  - @incmix-ui/button@2.0.10
-  - @incmix-ui/close-button@2.0.10
-  - @incmix-ui/editable@2.0.10
-  - @incmix-ui/form-control@2.0.10
-  - @incmix-ui/icon@3.0.10
-  - @incmix-ui/input@2.0.10
-  - @incmix-ui/media-query@3.2.6
-  - @incmix-ui/radio@2.0.11
-  - @incmix-ui/select@2.0.11
-  - @incmix-ui/skeleton@2.0.16
-  - @incmix-ui/stat@2.0.10
-  - @incmix-ui/switch@2.0.12
-  - @incmix-ui/tabs@2.1.2
-  - @incmix-ui/toast@3.0.11
-  - @incmix-ui/visually-hidden@2.0.10
-  - @incmix-ui/hooks@2.0.10
-  - @incmix-ui/avatar@2.1.0
-  - @incmix-ui/number-input@2.0.10
-  - @incmix-ui/slider@2.0.11
-  - @incmix-ui/provider@2.0.17
-  - @incmix-ui/spinner@2.0.9
-  - @incmix-ui/breadcrumb@2.0.9
-  - @incmix-ui/control-box@2.0.9
-  - @incmix-ui/image@2.0.10
-  - @incmix-ui/progress@2.0.10
-  - @incmix-ui/textarea@2.0.11
-  - @incmix-ui/portal@2.0.9
-  - @incmix-ui/popper@3.0.7
-  - @incmix-ui/transition@2.0.9
+  - @chakra-ui/pin-input@2.0.13
+  - @chakra-ui/layout@2.1.7
+  - @chakra-ui/menu@2.1.0
+  - @chakra-ui/table@2.0.10
+  - @chakra-ui/accordion@2.1.0
+  - @chakra-ui/checkbox@2.2.0
+  - @chakra-ui/modal@2.2.0
+  - @chakra-ui/popover@2.1.0
+  - @chakra-ui/tooltip@2.1.0
+  - @chakra-ui/theme@2.1.12
+  - @chakra-ui/utils@2.0.10
+  - @chakra-ui/tag@2.0.10
+  - @chakra-ui/system@2.2.10
+  - @chakra-ui/alert@2.0.10
+  - @chakra-ui/button@2.0.10
+  - @chakra-ui/close-button@2.0.10
+  - @chakra-ui/editable@2.0.10
+  - @chakra-ui/form-control@2.0.10
+  - @chakra-ui/icon@3.0.10
+  - @chakra-ui/input@2.0.10
+  - @chakra-ui/media-query@3.2.6
+  - @chakra-ui/radio@2.0.11
+  - @chakra-ui/select@2.0.11
+  - @chakra-ui/skeleton@2.0.16
+  - @chakra-ui/stat@2.0.10
+  - @chakra-ui/switch@2.0.12
+  - @chakra-ui/tabs@2.1.2
+  - @chakra-ui/toast@3.0.11
+  - @chakra-ui/visually-hidden@2.0.10
+  - @chakra-ui/hooks@2.0.10
+  - @chakra-ui/avatar@2.1.0
+  - @chakra-ui/number-input@2.0.10
+  - @chakra-ui/slider@2.0.11
+  - @chakra-ui/provider@2.0.17
+  - @chakra-ui/spinner@2.0.9
+  - @chakra-ui/breadcrumb@2.0.9
+  - @chakra-ui/control-box@2.0.9
+  - @chakra-ui/image@2.0.10
+  - @chakra-ui/progress@2.0.10
+  - @chakra-ui/textarea@2.0.11
+  - @chakra-ui/portal@2.0.9
+  - @chakra-ui/popper@3.0.7
+  - @chakra-ui/transition@2.0.9
 
 ## 2.3.2
 
@@ -557,15 +610,15 @@
 
 - Updated dependencies
   [[`7d7e04d53`](https://github.com/incmix-ui/incmix-ui/commit/7d7e04d53d871e324debe0a2cb3ff44d7dbf3bca)]:
-  - @incmix-ui/theme@2.1.11
-  - @incmix-ui/button@2.0.9
-  - @incmix-ui/media-query@3.2.5
-  - @incmix-ui/menu@2.0.13
-  - @incmix-ui/skeleton@2.0.15
-  - @incmix-ui/slider@2.0.10
-  - @incmix-ui/system@2.2.9
-  - @incmix-ui/toast@3.0.10
-  - @incmix-ui/table@2.0.9
+  - @chakra-ui/theme@2.1.11
+  - @chakra-ui/button@2.0.9
+  - @chakra-ui/media-query@3.2.5
+  - @chakra-ui/menu@2.0.13
+  - @chakra-ui/skeleton@2.0.15
+  - @chakra-ui/slider@2.0.10
+  - @chakra-ui/system@2.2.9
+  - @chakra-ui/toast@3.0.10
+  - @chakra-ui/table@2.0.9
 
 ## 2.3.1
 
@@ -575,45 +628,45 @@
   [[`732195d17`](https://github.com/incmix-ui/incmix-ui/commit/732195d17154e07bc6f4e29ac686b3d2c9140338),
   [`ec23eb020`](https://github.com/incmix-ui/incmix-ui/commit/ec23eb02066628d28f85c2c515fba4d0c0120601),
   [`cc0598ddc`](https://github.com/incmix-ui/incmix-ui/commit/cc0598ddcb2a4e7f84859099556c228c5ff354fe)]:
-  - @incmix-ui/menu@2.0.13
-  - @incmix-ui/theme@2.1.10
-  - @incmix-ui/css-reset@2.0.7
-  - @incmix-ui/system@2.2.9
-  - @incmix-ui/button@2.0.9
-  - @incmix-ui/media-query@3.2.5
-  - @incmix-ui/skeleton@2.0.15
-  - @incmix-ui/slider@2.0.10
-  - @incmix-ui/toast@3.0.9
-  - @incmix-ui/provider@2.0.16
-  - @incmix-ui/accordion@2.0.12
-  - @incmix-ui/alert@2.0.9
-  - @incmix-ui/avatar@2.1.0
-  - @incmix-ui/breadcrumb@2.0.9
-  - @incmix-ui/checkbox@2.1.8
-  - @incmix-ui/close-button@2.0.9
-  - @incmix-ui/control-box@2.0.9
-  - @incmix-ui/editable@2.0.9
-  - @incmix-ui/form-control@2.0.9
-  - @incmix-ui/icon@3.0.9
-  - @incmix-ui/image@2.0.10
-  - @incmix-ui/input@2.0.9
-  - @incmix-ui/layout@2.1.6
-  - @incmix-ui/modal@2.1.7
-  - @incmix-ui/number-input@2.0.9
-  - @incmix-ui/pin-input@2.0.12
-  - @incmix-ui/popover@2.0.9
-  - @incmix-ui/progress@2.0.10
-  - @incmix-ui/radio@2.0.10
-  - @incmix-ui/select@2.0.10
-  - @incmix-ui/spinner@2.0.9
-  - @incmix-ui/stat@2.0.9
-  - @incmix-ui/switch@2.0.11
-  - @incmix-ui/table@2.0.9
-  - @incmix-ui/tabs@2.1.1
-  - @incmix-ui/tag@2.0.9
-  - @incmix-ui/textarea@2.0.10
-  - @incmix-ui/tooltip@2.0.10
-  - @incmix-ui/visually-hidden@2.0.9
+  - @chakra-ui/menu@2.0.13
+  - @chakra-ui/theme@2.1.10
+  - @chakra-ui/css-reset@2.0.7
+  - @chakra-ui/system@2.2.9
+  - @chakra-ui/button@2.0.9
+  - @chakra-ui/media-query@3.2.5
+  - @chakra-ui/skeleton@2.0.15
+  - @chakra-ui/slider@2.0.10
+  - @chakra-ui/toast@3.0.9
+  - @chakra-ui/provider@2.0.16
+  - @chakra-ui/accordion@2.0.12
+  - @chakra-ui/alert@2.0.9
+  - @chakra-ui/avatar@2.1.0
+  - @chakra-ui/breadcrumb@2.0.9
+  - @chakra-ui/checkbox@2.1.8
+  - @chakra-ui/close-button@2.0.9
+  - @chakra-ui/control-box@2.0.9
+  - @chakra-ui/editable@2.0.9
+  - @chakra-ui/form-control@2.0.9
+  - @chakra-ui/icon@3.0.9
+  - @chakra-ui/image@2.0.10
+  - @chakra-ui/input@2.0.9
+  - @chakra-ui/layout@2.1.6
+  - @chakra-ui/modal@2.1.7
+  - @chakra-ui/number-input@2.0.9
+  - @chakra-ui/pin-input@2.0.12
+  - @chakra-ui/popover@2.0.9
+  - @chakra-ui/progress@2.0.10
+  - @chakra-ui/radio@2.0.10
+  - @chakra-ui/select@2.0.10
+  - @chakra-ui/spinner@2.0.9
+  - @chakra-ui/stat@2.0.9
+  - @chakra-ui/switch@2.0.11
+  - @chakra-ui/table@2.0.9
+  - @chakra-ui/tabs@2.1.1
+  - @chakra-ui/tag@2.0.9
+  - @chakra-ui/textarea@2.0.10
+  - @chakra-ui/tooltip@2.0.10
+  - @chakra-ui/visually-hidden@2.0.9
 
 ## 2.3.0
 
@@ -646,45 +699,45 @@
   [`0cae42007`](https://github.com/incmix-ui/incmix-ui/commit/0cae42007308e94ef9a9fdbae3de259871ca33be),
   [`872c0ccf5`](https://github.com/incmix-ui/incmix-ui/commit/872c0ccf56d927d49af02a8a4d6bb6811774eff7),
   [`ac6a00aea`](https://github.com/incmix-ui/incmix-ui/commit/ac6a00aea4113c4d77d6568125ddf38b339635b4)]:
-  - @incmix-ui/select@2.0.10
-  - @incmix-ui/slider@2.0.10
-  - @incmix-ui/avatar@2.1.0
-  - @incmix-ui/theme@2.1.9
-  - @incmix-ui/toast@3.0.8
-  - @incmix-ui/css-reset@2.0.6
-  - @incmix-ui/provider@2.0.15
-  - @incmix-ui/skeleton@2.0.15
-  - @incmix-ui/tabs@2.1.1
-  - @incmix-ui/tag@2.0.9
-  - @incmix-ui/button@2.0.9
-  - @incmix-ui/media-query@3.2.5
-  - @incmix-ui/menu@2.0.12
-  - @incmix-ui/system@2.2.8
-  - @incmix-ui/accordion@2.0.12
-  - @incmix-ui/pin-input@2.0.12
-  - @incmix-ui/table@2.0.9
-  - @incmix-ui/alert@2.0.9
-  - @incmix-ui/breadcrumb@2.0.9
-  - @incmix-ui/checkbox@2.1.8
-  - @incmix-ui/close-button@2.0.9
-  - @incmix-ui/control-box@2.0.9
-  - @incmix-ui/editable@2.0.9
-  - @incmix-ui/form-control@2.0.9
-  - @incmix-ui/icon@3.0.9
-  - @incmix-ui/image@2.0.10
-  - @incmix-ui/input@2.0.9
-  - @incmix-ui/layout@2.1.6
-  - @incmix-ui/modal@2.1.7
-  - @incmix-ui/number-input@2.0.9
-  - @incmix-ui/popover@2.0.9
-  - @incmix-ui/progress@2.0.10
-  - @incmix-ui/radio@2.0.10
-  - @incmix-ui/spinner@2.0.9
-  - @incmix-ui/stat@2.0.9
-  - @incmix-ui/switch@2.0.11
-  - @incmix-ui/textarea@2.0.10
-  - @incmix-ui/tooltip@2.0.10
-  - @incmix-ui/visually-hidden@2.0.9
+  - @chakra-ui/select@2.0.10
+  - @chakra-ui/slider@2.0.10
+  - @chakra-ui/avatar@2.1.0
+  - @chakra-ui/theme@2.1.9
+  - @chakra-ui/toast@3.0.8
+  - @chakra-ui/css-reset@2.0.6
+  - @chakra-ui/provider@2.0.15
+  - @chakra-ui/skeleton@2.0.15
+  - @chakra-ui/tabs@2.1.1
+  - @chakra-ui/tag@2.0.9
+  - @chakra-ui/button@2.0.9
+  - @chakra-ui/media-query@3.2.5
+  - @chakra-ui/menu@2.0.12
+  - @chakra-ui/system@2.2.8
+  - @chakra-ui/accordion@2.0.12
+  - @chakra-ui/pin-input@2.0.12
+  - @chakra-ui/table@2.0.9
+  - @chakra-ui/alert@2.0.9
+  - @chakra-ui/breadcrumb@2.0.9
+  - @chakra-ui/checkbox@2.1.8
+  - @chakra-ui/close-button@2.0.9
+  - @chakra-ui/control-box@2.0.9
+  - @chakra-ui/editable@2.0.9
+  - @chakra-ui/form-control@2.0.9
+  - @chakra-ui/icon@3.0.9
+  - @chakra-ui/image@2.0.10
+  - @chakra-ui/input@2.0.9
+  - @chakra-ui/layout@2.1.6
+  - @chakra-ui/modal@2.1.7
+  - @chakra-ui/number-input@2.0.9
+  - @chakra-ui/popover@2.0.9
+  - @chakra-ui/progress@2.0.10
+  - @chakra-ui/radio@2.0.10
+  - @chakra-ui/spinner@2.0.9
+  - @chakra-ui/stat@2.0.9
+  - @chakra-ui/switch@2.0.11
+  - @chakra-ui/textarea@2.0.10
+  - @chakra-ui/tooltip@2.0.10
+  - @chakra-ui/visually-hidden@2.0.9
 
 ## 2.2.9
 
@@ -701,53 +754,53 @@
   [`dcd9eab1f`](https://github.com/incmix-ui/incmix-ui/commit/dcd9eab1fd8f2cc206d2ff90ebdb60e1c6c96629),
   [`35b416761`](https://github.com/incmix-ui/incmix-ui/commit/35b416761841da30194b8967d72049a27d78d099),
   [`445661955`](https://github.com/incmix-ui/incmix-ui/commit/445661955dff1329156b535ef50c7cf27b8663a9)]:
-  - @incmix-ui/counter@2.0.9
-  - @incmix-ui/tooltip@2.0.10
-  - @incmix-ui/tabs@2.1.0
-  - @incmix-ui/accordion@2.0.11
-  - @incmix-ui/alert@2.0.9
-  - @incmix-ui/avatar@2.0.10
-  - @incmix-ui/breadcrumb@2.0.9
-  - @incmix-ui/button@2.0.9
-  - @incmix-ui/checkbox@2.1.8
-  - @incmix-ui/close-button@2.0.9
-  - @incmix-ui/control-box@2.0.9
-  - @incmix-ui/css-reset@2.0.5
-  - @incmix-ui/editable@2.0.9
-  - @incmix-ui/react-env@2.0.9
-  - @incmix-ui/form-control@2.0.9
-  - @incmix-ui/hooks@2.0.9
-  - @incmix-ui/icon@3.0.9
-  - @incmix-ui/image@2.0.10
-  - @incmix-ui/input@2.0.9
-  - @incmix-ui/layout@2.1.6
-  - @incmix-ui/live-region@2.0.9
-  - @incmix-ui/media-query@3.2.5
-  - @incmix-ui/menu@2.0.11
-  - @incmix-ui/modal@2.1.7
-  - @incmix-ui/number-input@2.0.9
-  - @incmix-ui/pin-input@2.0.11
-  - @incmix-ui/popover@2.0.9
-  - @incmix-ui/popper@3.0.7
-  - @incmix-ui/portal@2.0.9
-  - @incmix-ui/progress@2.0.10
-  - @incmix-ui/provider@2.0.14
-  - @incmix-ui/radio@2.0.10
-  - @incmix-ui/select@2.0.9
-  - @incmix-ui/skeleton@2.0.14
-  - @incmix-ui/slider@2.0.9
-  - @incmix-ui/spinner@2.0.9
-  - @incmix-ui/stat@2.0.9
-  - @incmix-ui/switch@2.0.11
-  - @incmix-ui/system@2.2.7
-  - @incmix-ui/table@2.0.9
-  - @incmix-ui/tag@2.0.9
-  - @incmix-ui/textarea@2.0.10
-  - @incmix-ui/theme@2.1.8
-  - @incmix-ui/toast@3.0.7
-  - @incmix-ui/transition@2.0.9
-  - @incmix-ui/utils@2.0.9
-  - @incmix-ui/visually-hidden@2.0.9
+  - @chakra-ui/counter@2.0.9
+  - @chakra-ui/tooltip@2.0.10
+  - @chakra-ui/tabs@2.1.0
+  - @chakra-ui/accordion@2.0.11
+  - @chakra-ui/alert@2.0.9
+  - @chakra-ui/avatar@2.0.10
+  - @chakra-ui/breadcrumb@2.0.9
+  - @chakra-ui/button@2.0.9
+  - @chakra-ui/checkbox@2.1.8
+  - @chakra-ui/close-button@2.0.9
+  - @chakra-ui/control-box@2.0.9
+  - @chakra-ui/css-reset@2.0.5
+  - @chakra-ui/editable@2.0.9
+  - @chakra-ui/react-env@2.0.9
+  - @chakra-ui/form-control@2.0.9
+  - @chakra-ui/hooks@2.0.9
+  - @chakra-ui/icon@3.0.9
+  - @chakra-ui/image@2.0.10
+  - @chakra-ui/input@2.0.9
+  - @chakra-ui/layout@2.1.6
+  - @chakra-ui/live-region@2.0.9
+  - @chakra-ui/media-query@3.2.5
+  - @chakra-ui/menu@2.0.11
+  - @chakra-ui/modal@2.1.7
+  - @chakra-ui/number-input@2.0.9
+  - @chakra-ui/pin-input@2.0.11
+  - @chakra-ui/popover@2.0.9
+  - @chakra-ui/popper@3.0.7
+  - @chakra-ui/portal@2.0.9
+  - @chakra-ui/progress@2.0.10
+  - @chakra-ui/provider@2.0.14
+  - @chakra-ui/radio@2.0.10
+  - @chakra-ui/select@2.0.9
+  - @chakra-ui/skeleton@2.0.14
+  - @chakra-ui/slider@2.0.9
+  - @chakra-ui/spinner@2.0.9
+  - @chakra-ui/stat@2.0.9
+  - @chakra-ui/switch@2.0.11
+  - @chakra-ui/system@2.2.7
+  - @chakra-ui/table@2.0.9
+  - @chakra-ui/tag@2.0.9
+  - @chakra-ui/textarea@2.0.10
+  - @chakra-ui/theme@2.1.8
+  - @chakra-ui/toast@3.0.7
+  - @chakra-ui/transition@2.0.9
+  - @chakra-ui/utils@2.0.9
+  - @chakra-ui/visually-hidden@2.0.9
 
 ## 2.2.8
 
@@ -756,53 +809,53 @@
 - Force release
 
 - Updated dependencies []:
-  - @incmix-ui/accordion@2.0.10
-  - @incmix-ui/alert@2.0.8
-  - @incmix-ui/avatar@2.0.9
-  - @incmix-ui/breadcrumb@2.0.8
-  - @incmix-ui/button@2.0.8
-  - @incmix-ui/checkbox@2.1.7
-  - @incmix-ui/close-button@2.0.8
-  - @incmix-ui/control-box@2.0.8
-  - @incmix-ui/counter@2.0.8
-  - @incmix-ui/css-reset@2.0.4
-  - @incmix-ui/editable@2.0.8
-  - @incmix-ui/react-env@2.0.8
-  - @incmix-ui/form-control@2.0.8
-  - @incmix-ui/hooks@2.0.8
-  - @incmix-ui/icon@3.0.8
-  - @incmix-ui/image@2.0.9
-  - @incmix-ui/input@2.0.8
-  - @incmix-ui/layout@2.1.5
-  - @incmix-ui/live-region@2.0.8
-  - @incmix-ui/media-query@3.2.4
-  - @incmix-ui/menu@2.0.10
-  - @incmix-ui/modal@2.1.6
-  - @incmix-ui/number-input@2.0.8
-  - @incmix-ui/pin-input@2.0.10
-  - @incmix-ui/popover@2.0.8
-  - @incmix-ui/popper@3.0.6
-  - @incmix-ui/portal@2.0.8
-  - @incmix-ui/progress@2.0.9
-  - @incmix-ui/provider@2.0.13
-  - @incmix-ui/radio@2.0.9
-  - @incmix-ui/select@2.0.8
-  - @incmix-ui/skeleton@2.0.13
-  - @incmix-ui/slider@2.0.8
-  - @incmix-ui/spinner@2.0.8
-  - @incmix-ui/stat@2.0.8
-  - @incmix-ui/switch@2.0.10
-  - @incmix-ui/system@2.2.6
-  - @incmix-ui/table@2.0.8
-  - @incmix-ui/tabs@2.0.10
-  - @incmix-ui/tag@2.0.8
-  - @incmix-ui/textarea@2.0.9
-  - @incmix-ui/theme@2.1.7
-  - @incmix-ui/toast@3.0.6
-  - @incmix-ui/tooltip@2.0.9
-  - @incmix-ui/transition@2.0.8
-  - @incmix-ui/utils@2.0.8
-  - @incmix-ui/visually-hidden@2.0.8
+  - @chakra-ui/accordion@2.0.10
+  - @chakra-ui/alert@2.0.8
+  - @chakra-ui/avatar@2.0.9
+  - @chakra-ui/breadcrumb@2.0.8
+  - @chakra-ui/button@2.0.8
+  - @chakra-ui/checkbox@2.1.7
+  - @chakra-ui/close-button@2.0.8
+  - @chakra-ui/control-box@2.0.8
+  - @chakra-ui/counter@2.0.8
+  - @chakra-ui/css-reset@2.0.4
+  - @chakra-ui/editable@2.0.8
+  - @chakra-ui/react-env@2.0.8
+  - @chakra-ui/form-control@2.0.8
+  - @chakra-ui/hooks@2.0.8
+  - @chakra-ui/icon@3.0.8
+  - @chakra-ui/image@2.0.9
+  - @chakra-ui/input@2.0.8
+  - @chakra-ui/layout@2.1.5
+  - @chakra-ui/live-region@2.0.8
+  - @chakra-ui/media-query@3.2.4
+  - @chakra-ui/menu@2.0.10
+  - @chakra-ui/modal@2.1.6
+  - @chakra-ui/number-input@2.0.8
+  - @chakra-ui/pin-input@2.0.10
+  - @chakra-ui/popover@2.0.8
+  - @chakra-ui/popper@3.0.6
+  - @chakra-ui/portal@2.0.8
+  - @chakra-ui/progress@2.0.9
+  - @chakra-ui/provider@2.0.13
+  - @chakra-ui/radio@2.0.9
+  - @chakra-ui/select@2.0.8
+  - @chakra-ui/skeleton@2.0.13
+  - @chakra-ui/slider@2.0.8
+  - @chakra-ui/spinner@2.0.8
+  - @chakra-ui/stat@2.0.8
+  - @chakra-ui/switch@2.0.10
+  - @chakra-ui/system@2.2.6
+  - @chakra-ui/table@2.0.8
+  - @chakra-ui/tabs@2.0.10
+  - @chakra-ui/tag@2.0.8
+  - @chakra-ui/textarea@2.0.9
+  - @chakra-ui/theme@2.1.7
+  - @chakra-ui/toast@3.0.6
+  - @chakra-ui/tooltip@2.0.9
+  - @chakra-ui/transition@2.0.8
+  - @chakra-ui/utils@2.0.8
+  - @chakra-ui/visually-hidden@2.0.8
 
 ## 2.2.7
 
@@ -811,7 +864,7 @@
 - [#6464](https://github.com/incmix-ui/incmix-ui/pull/6464)
   [`b735aae2e`](https://github.com/incmix-ui/incmix-ui/commit/b735aae2e0daa44bbd3719f06e3146b38512858a)
   Thanks [@rossng](https://github.com/rossng)! - Remove
-  `incmixProvider.defaultProps` and move logic inside the component.
+  `ChakraProvider.defaultProps` and move logic inside the component.
 
 - Updated dependencies
   [[`2fd5d07eb`](https://github.com/incmix-ui/incmix-ui/commit/2fd5d07eb95e37a8b46257beefc462c97941cb23),
@@ -823,52 +876,52 @@
   [`0822619ee`](https://github.com/incmix-ui/incmix-ui/commit/0822619ee31c52c90b71ace59771c295cd8306ae),
   [`04ff824ac`](https://github.com/incmix-ui/incmix-ui/commit/04ff824ac2f69aaa82d08bf2905ad4667327db12),
   [`99af1e29f`](https://github.com/incmix-ui/incmix-ui/commit/99af1e29fa7b8c8b0bee217227d05f695a0acb47)]:
-  - @incmix-ui/theme@2.1.6
-  - @incmix-ui/accordion@2.0.9
-  - @incmix-ui/utils@2.0.7
-  - @incmix-ui/react-env@2.0.7
-  - @incmix-ui/alert@2.0.7
-  - @incmix-ui/avatar@2.0.8
-  - @incmix-ui/hooks@2.0.7
-  - @incmix-ui/progress@2.0.8
-  - @incmix-ui/button@2.0.7
-  - @incmix-ui/media-query@3.2.3
-  - @incmix-ui/menu@2.0.9
-  - @incmix-ui/skeleton@2.0.12
-  - @incmix-ui/slider@2.0.7
-  - @incmix-ui/system@2.2.5
-  - @incmix-ui/toast@3.0.5
-  - @incmix-ui/breadcrumb@2.0.7
-  - @incmix-ui/checkbox@2.1.6
-  - @incmix-ui/close-button@2.0.7
-  - @incmix-ui/control-box@2.0.7
-  - @incmix-ui/counter@2.0.7
-  - @incmix-ui/editable@2.0.7
-  - @incmix-ui/form-control@2.0.7
-  - @incmix-ui/icon@3.0.7
-  - @incmix-ui/image@2.0.8
-  - @incmix-ui/input@2.0.7
-  - @incmix-ui/layout@2.1.4
-  - @incmix-ui/live-region@2.0.7
-  - @incmix-ui/modal@2.1.5
-  - @incmix-ui/number-input@2.0.7
-  - @incmix-ui/pin-input@2.0.9
-  - @incmix-ui/popover@2.0.7
-  - @incmix-ui/portal@2.0.7
-  - @incmix-ui/provider@2.0.12
-  - @incmix-ui/radio@2.0.8
-  - @incmix-ui/select@2.0.7
-  - @incmix-ui/spinner@2.0.7
-  - @incmix-ui/stat@2.0.7
-  - @incmix-ui/switch@2.0.9
-  - @incmix-ui/table@2.0.7
-  - @incmix-ui/tabs@2.0.9
-  - @incmix-ui/tag@2.0.7
-  - @incmix-ui/textarea@2.0.8
-  - @incmix-ui/tooltip@2.0.8
-  - @incmix-ui/transition@2.0.7
-  - @incmix-ui/visually-hidden@2.0.7
-  - @incmix-ui/popper@3.0.5
+  - @chakra-ui/theme@2.1.6
+  - @chakra-ui/accordion@2.0.9
+  - @chakra-ui/utils@2.0.7
+  - @chakra-ui/react-env@2.0.7
+  - @chakra-ui/alert@2.0.7
+  - @chakra-ui/avatar@2.0.8
+  - @chakra-ui/hooks@2.0.7
+  - @chakra-ui/progress@2.0.8
+  - @chakra-ui/button@2.0.7
+  - @chakra-ui/media-query@3.2.3
+  - @chakra-ui/menu@2.0.9
+  - @chakra-ui/skeleton@2.0.12
+  - @chakra-ui/slider@2.0.7
+  - @chakra-ui/system@2.2.5
+  - @chakra-ui/toast@3.0.5
+  - @chakra-ui/breadcrumb@2.0.7
+  - @chakra-ui/checkbox@2.1.6
+  - @chakra-ui/close-button@2.0.7
+  - @chakra-ui/control-box@2.0.7
+  - @chakra-ui/counter@2.0.7
+  - @chakra-ui/editable@2.0.7
+  - @chakra-ui/form-control@2.0.7
+  - @chakra-ui/icon@3.0.7
+  - @chakra-ui/image@2.0.8
+  - @chakra-ui/input@2.0.7
+  - @chakra-ui/layout@2.1.4
+  - @chakra-ui/live-region@2.0.7
+  - @chakra-ui/modal@2.1.5
+  - @chakra-ui/number-input@2.0.7
+  - @chakra-ui/pin-input@2.0.9
+  - @chakra-ui/popover@2.0.7
+  - @chakra-ui/portal@2.0.7
+  - @chakra-ui/provider@2.0.12
+  - @chakra-ui/radio@2.0.8
+  - @chakra-ui/select@2.0.7
+  - @chakra-ui/spinner@2.0.7
+  - @chakra-ui/stat@2.0.7
+  - @chakra-ui/switch@2.0.9
+  - @chakra-ui/table@2.0.7
+  - @chakra-ui/tabs@2.0.9
+  - @chakra-ui/tag@2.0.7
+  - @chakra-ui/textarea@2.0.8
+  - @chakra-ui/tooltip@2.0.8
+  - @chakra-ui/transition@2.0.7
+  - @chakra-ui/visually-hidden@2.0.7
+  - @chakra-ui/popper@3.0.5
 
 ## 2.2.6
 
@@ -877,53 +930,53 @@
 - Force new release
 
 - Updated dependencies []:
-  - @incmix-ui/accordion@2.0.8
-  - @incmix-ui/alert@2.0.6
-  - @incmix-ui/avatar@2.0.7
-  - @incmix-ui/breadcrumb@2.0.6
-  - @incmix-ui/button@2.0.6
-  - @incmix-ui/checkbox@2.1.5
-  - @incmix-ui/close-button@2.0.6
-  - @incmix-ui/control-box@2.0.6
-  - @incmix-ui/counter@2.0.6
-  - @incmix-ui/css-reset@2.0.3
-  - @incmix-ui/editable@2.0.6
-  - @incmix-ui/react-env@2.0.6
-  - @incmix-ui/form-control@2.0.6
-  - @incmix-ui/hooks@2.0.6
-  - @incmix-ui/icon@3.0.6
-  - @incmix-ui/image@2.0.7
-  - @incmix-ui/input@2.0.6
-  - @incmix-ui/layout@2.1.3
-  - @incmix-ui/live-region@2.0.6
-  - @incmix-ui/media-query@3.2.2
-  - @incmix-ui/menu@2.0.8
-  - @incmix-ui/modal@2.1.4
-  - @incmix-ui/number-input@2.0.6
-  - @incmix-ui/pin-input@2.0.8
-  - @incmix-ui/popover@2.0.6
-  - @incmix-ui/popper@3.0.4
-  - @incmix-ui/portal@2.0.6
-  - @incmix-ui/progress@2.0.7
-  - @incmix-ui/provider@2.0.11
-  - @incmix-ui/radio@2.0.7
-  - @incmix-ui/select@2.0.6
-  - @incmix-ui/skeleton@2.0.11
-  - @incmix-ui/slider@2.0.6
-  - @incmix-ui/spinner@2.0.6
-  - @incmix-ui/stat@2.0.6
-  - @incmix-ui/switch@2.0.8
-  - @incmix-ui/system@2.2.4
-  - @incmix-ui/table@2.0.6
-  - @incmix-ui/tabs@2.0.8
-  - @incmix-ui/tag@2.0.6
-  - @incmix-ui/textarea@2.0.7
-  - @incmix-ui/theme@2.1.5
-  - @incmix-ui/toast@3.0.4
-  - @incmix-ui/tooltip@2.0.7
-  - @incmix-ui/transition@2.0.6
-  - @incmix-ui/utils@2.0.6
-  - @incmix-ui/visually-hidden@2.0.6
+  - @chakra-ui/accordion@2.0.8
+  - @chakra-ui/alert@2.0.6
+  - @chakra-ui/avatar@2.0.7
+  - @chakra-ui/breadcrumb@2.0.6
+  - @chakra-ui/button@2.0.6
+  - @chakra-ui/checkbox@2.1.5
+  - @chakra-ui/close-button@2.0.6
+  - @chakra-ui/control-box@2.0.6
+  - @chakra-ui/counter@2.0.6
+  - @chakra-ui/css-reset@2.0.3
+  - @chakra-ui/editable@2.0.6
+  - @chakra-ui/react-env@2.0.6
+  - @chakra-ui/form-control@2.0.6
+  - @chakra-ui/hooks@2.0.6
+  - @chakra-ui/icon@3.0.6
+  - @chakra-ui/image@2.0.7
+  - @chakra-ui/input@2.0.6
+  - @chakra-ui/layout@2.1.3
+  - @chakra-ui/live-region@2.0.6
+  - @chakra-ui/media-query@3.2.2
+  - @chakra-ui/menu@2.0.8
+  - @chakra-ui/modal@2.1.4
+  - @chakra-ui/number-input@2.0.6
+  - @chakra-ui/pin-input@2.0.8
+  - @chakra-ui/popover@2.0.6
+  - @chakra-ui/popper@3.0.4
+  - @chakra-ui/portal@2.0.6
+  - @chakra-ui/progress@2.0.7
+  - @chakra-ui/provider@2.0.11
+  - @chakra-ui/radio@2.0.7
+  - @chakra-ui/select@2.0.6
+  - @chakra-ui/skeleton@2.0.11
+  - @chakra-ui/slider@2.0.6
+  - @chakra-ui/spinner@2.0.6
+  - @chakra-ui/stat@2.0.6
+  - @chakra-ui/switch@2.0.8
+  - @chakra-ui/system@2.2.4
+  - @chakra-ui/table@2.0.6
+  - @chakra-ui/tabs@2.0.8
+  - @chakra-ui/tag@2.0.6
+  - @chakra-ui/textarea@2.0.7
+  - @chakra-ui/theme@2.1.5
+  - @chakra-ui/toast@3.0.4
+  - @chakra-ui/tooltip@2.0.7
+  - @chakra-ui/transition@2.0.6
+  - @chakra-ui/utils@2.0.6
+  - @chakra-ui/visually-hidden@2.0.6
 
 ## 2.2.5
 
@@ -939,53 +992,53 @@
   [`cf5d21810`](https://github.com/incmix-ui/incmix-ui/commit/cf5d218104904d321b477858a4d9988506a582f5),
   [`fcbf5e7a0`](https://github.com/incmix-ui/incmix-ui/commit/fcbf5e7a0855a32add9843f572103aa849f7202a),
   [`1839e22eb`](https://github.com/incmix-ui/incmix-ui/commit/1839e22ebad1c2a52795eac5fd0b3eb38ae03f9c)]:
-  - @incmix-ui/theme@2.1.4
-  - @incmix-ui/layout@2.1.2
-  - @incmix-ui/accordion@2.0.7
-  - @incmix-ui/alert@2.0.5
-  - @incmix-ui/avatar@2.0.6
-  - @incmix-ui/breadcrumb@2.0.5
-  - @incmix-ui/button@2.0.5
-  - @incmix-ui/checkbox@2.1.4
-  - @incmix-ui/close-button@2.0.5
-  - @incmix-ui/control-box@2.0.5
-  - @incmix-ui/counter@2.0.5
-  - @incmix-ui/css-reset@2.0.2
-  - @incmix-ui/editable@2.0.5
-  - @incmix-ui/react-env@2.0.5
-  - @incmix-ui/form-control@2.0.5
-  - @incmix-ui/hooks@2.0.5
-  - @incmix-ui/icon@3.0.5
-  - @incmix-ui/image@2.0.6
-  - @incmix-ui/input@2.0.5
-  - @incmix-ui/live-region@2.0.5
-  - @incmix-ui/media-query@3.2.1
-  - @incmix-ui/menu@2.0.7
-  - @incmix-ui/modal@2.1.3
-  - @incmix-ui/number-input@2.0.5
-  - @incmix-ui/pin-input@2.0.7
-  - @incmix-ui/popover@2.0.5
-  - @incmix-ui/popper@3.0.3
-  - @incmix-ui/portal@2.0.5
-  - @incmix-ui/progress@2.0.6
-  - @incmix-ui/provider@2.0.10
-  - @incmix-ui/radio@2.0.6
-  - @incmix-ui/select@2.0.5
-  - @incmix-ui/skeleton@2.0.10
-  - @incmix-ui/slider@2.0.5
-  - @incmix-ui/spinner@2.0.5
-  - @incmix-ui/stat@2.0.5
-  - @incmix-ui/switch@2.0.7
-  - @incmix-ui/system@2.2.3
-  - @incmix-ui/table@2.0.5
-  - @incmix-ui/tabs@2.0.7
-  - @incmix-ui/tag@2.0.5
-  - @incmix-ui/textarea@2.0.6
-  - @incmix-ui/toast@3.0.3
-  - @incmix-ui/tooltip@2.0.6
-  - @incmix-ui/transition@2.0.5
-  - @incmix-ui/utils@2.0.5
-  - @incmix-ui/visually-hidden@2.0.5
+  - @chakra-ui/theme@2.1.4
+  - @chakra-ui/layout@2.1.2
+  - @chakra-ui/accordion@2.0.7
+  - @chakra-ui/alert@2.0.5
+  - @chakra-ui/avatar@2.0.6
+  - @chakra-ui/breadcrumb@2.0.5
+  - @chakra-ui/button@2.0.5
+  - @chakra-ui/checkbox@2.1.4
+  - @chakra-ui/close-button@2.0.5
+  - @chakra-ui/control-box@2.0.5
+  - @chakra-ui/counter@2.0.5
+  - @chakra-ui/css-reset@2.0.2
+  - @chakra-ui/editable@2.0.5
+  - @chakra-ui/react-env@2.0.5
+  - @chakra-ui/form-control@2.0.5
+  - @chakra-ui/hooks@2.0.5
+  - @chakra-ui/icon@3.0.5
+  - @chakra-ui/image@2.0.6
+  - @chakra-ui/input@2.0.5
+  - @chakra-ui/live-region@2.0.5
+  - @chakra-ui/media-query@3.2.1
+  - @chakra-ui/menu@2.0.7
+  - @chakra-ui/modal@2.1.3
+  - @chakra-ui/number-input@2.0.5
+  - @chakra-ui/pin-input@2.0.7
+  - @chakra-ui/popover@2.0.5
+  - @chakra-ui/popper@3.0.3
+  - @chakra-ui/portal@2.0.5
+  - @chakra-ui/progress@2.0.6
+  - @chakra-ui/provider@2.0.10
+  - @chakra-ui/radio@2.0.6
+  - @chakra-ui/select@2.0.5
+  - @chakra-ui/skeleton@2.0.10
+  - @chakra-ui/slider@2.0.5
+  - @chakra-ui/spinner@2.0.5
+  - @chakra-ui/stat@2.0.5
+  - @chakra-ui/switch@2.0.7
+  - @chakra-ui/system@2.2.3
+  - @chakra-ui/table@2.0.5
+  - @chakra-ui/tabs@2.0.7
+  - @chakra-ui/tag@2.0.5
+  - @chakra-ui/textarea@2.0.6
+  - @chakra-ui/toast@3.0.3
+  - @chakra-ui/tooltip@2.0.6
+  - @chakra-ui/transition@2.0.5
+  - @chakra-ui/utils@2.0.5
+  - @chakra-ui/visually-hidden@2.0.5
 
 ## 2.2.4
 
@@ -996,51 +1049,51 @@
   [`4beff94be`](https://github.com/incmix-ui/incmix-ui/commit/4beff94be65026ddb1d8c06c9e96f9eae195f352),
   [`c11743b47`](https://github.com/incmix-ui/incmix-ui/commit/c11743b47f38f8f38a21b120add3a9cf765b81ee),
   [`fb3c09325`](https://github.com/incmix-ui/incmix-ui/commit/fb3c09325d7bf58aed13c6d0fb1f72b92ff0ef3a)]:
-  - @incmix-ui/portal@2.0.4
-  - @incmix-ui/media-query@3.2.0
-  - @incmix-ui/utils@2.0.4
-  - @incmix-ui/react-env@2.0.4
-  - @incmix-ui/modal@2.1.2
-  - @incmix-ui/provider@2.0.9
-  - @incmix-ui/toast@3.0.2
-  - @incmix-ui/tooltip@2.0.5
-  - @incmix-ui/skeleton@2.0.9
-  - @incmix-ui/system@2.2.2
-  - @incmix-ui/accordion@2.0.6
-  - @incmix-ui/alert@2.0.4
-  - @incmix-ui/avatar@2.0.5
-  - @incmix-ui/breadcrumb@2.0.4
-  - @incmix-ui/button@2.0.4
-  - @incmix-ui/checkbox@2.1.3
-  - @incmix-ui/close-button@2.0.4
-  - @incmix-ui/control-box@2.0.4
-  - @incmix-ui/counter@2.0.4
-  - @incmix-ui/editable@2.0.4
-  - @incmix-ui/form-control@2.0.4
-  - @incmix-ui/hooks@2.0.4
-  - @incmix-ui/icon@3.0.4
-  - @incmix-ui/image@2.0.5
-  - @incmix-ui/input@2.0.4
-  - @incmix-ui/layout@2.1.1
-  - @incmix-ui/live-region@2.0.4
-  - @incmix-ui/menu@2.0.6
-  - @incmix-ui/number-input@2.0.4
-  - @incmix-ui/pin-input@2.0.6
-  - @incmix-ui/popover@2.0.4
-  - @incmix-ui/progress@2.0.5
-  - @incmix-ui/radio@2.0.5
-  - @incmix-ui/select@2.0.4
-  - @incmix-ui/slider@2.0.4
-  - @incmix-ui/spinner@2.0.4
-  - @incmix-ui/stat@2.0.4
-  - @incmix-ui/switch@2.0.6
-  - @incmix-ui/table@2.0.4
-  - @incmix-ui/tabs@2.0.6
-  - @incmix-ui/tag@2.0.4
-  - @incmix-ui/textarea@2.0.5
-  - @incmix-ui/theme@2.1.3
-  - @incmix-ui/transition@2.0.4
-  - @incmix-ui/visually-hidden@2.0.4
+  - @chakra-ui/portal@2.0.4
+  - @chakra-ui/media-query@3.2.0
+  - @chakra-ui/utils@2.0.4
+  - @chakra-ui/react-env@2.0.4
+  - @chakra-ui/modal@2.1.2
+  - @chakra-ui/provider@2.0.9
+  - @chakra-ui/toast@3.0.2
+  - @chakra-ui/tooltip@2.0.5
+  - @chakra-ui/skeleton@2.0.9
+  - @chakra-ui/system@2.2.2
+  - @chakra-ui/accordion@2.0.6
+  - @chakra-ui/alert@2.0.4
+  - @chakra-ui/avatar@2.0.5
+  - @chakra-ui/breadcrumb@2.0.4
+  - @chakra-ui/button@2.0.4
+  - @chakra-ui/checkbox@2.1.3
+  - @chakra-ui/close-button@2.0.4
+  - @chakra-ui/control-box@2.0.4
+  - @chakra-ui/counter@2.0.4
+  - @chakra-ui/editable@2.0.4
+  - @chakra-ui/form-control@2.0.4
+  - @chakra-ui/hooks@2.0.4
+  - @chakra-ui/icon@3.0.4
+  - @chakra-ui/image@2.0.5
+  - @chakra-ui/input@2.0.4
+  - @chakra-ui/layout@2.1.1
+  - @chakra-ui/live-region@2.0.4
+  - @chakra-ui/menu@2.0.6
+  - @chakra-ui/number-input@2.0.4
+  - @chakra-ui/pin-input@2.0.6
+  - @chakra-ui/popover@2.0.4
+  - @chakra-ui/progress@2.0.5
+  - @chakra-ui/radio@2.0.5
+  - @chakra-ui/select@2.0.4
+  - @chakra-ui/slider@2.0.4
+  - @chakra-ui/spinner@2.0.4
+  - @chakra-ui/stat@2.0.4
+  - @chakra-ui/switch@2.0.6
+  - @chakra-ui/table@2.0.4
+  - @chakra-ui/tabs@2.0.6
+  - @chakra-ui/tag@2.0.4
+  - @chakra-ui/textarea@2.0.5
+  - @chakra-ui/theme@2.1.3
+  - @chakra-ui/transition@2.0.4
+  - @chakra-ui/visually-hidden@2.0.4
 
 ## 2.2.3
 
@@ -1056,51 +1109,51 @@
   [`3d8e095df`](https://github.com/incmix-ui/incmix-ui/commit/3d8e095dfc696b3d903455319231e77d1c21d875),
   [`6c15ec2c2`](https://github.com/incmix-ui/incmix-ui/commit/6c15ec2c2a32a36ecc2d169308379a6825619543),
   [`778919455`](https://github.com/incmix-ui/incmix-ui/commit/7789194552404db8fe576c4d82ccfd0b940dd401)]:
-  - @incmix-ui/accordion@2.0.5
-  - @incmix-ui/alert@2.0.3
-  - @incmix-ui/avatar@2.0.4
-  - @incmix-ui/breadcrumb@2.0.3
-  - @incmix-ui/editable@2.0.3
-  - @incmix-ui/form-control@2.0.3
-  - @incmix-ui/menu@2.0.5
-  - @incmix-ui/number-input@2.0.3
-  - @incmix-ui/popover@2.0.3
-  - @incmix-ui/progress@2.0.4
-  - @incmix-ui/slider@2.0.3
-  - @incmix-ui/stat@2.0.3
-  - @incmix-ui/table@2.0.3
-  - @incmix-ui/tabs@2.0.5
-  - @incmix-ui/tag@2.0.3
-  - @incmix-ui/image@2.0.4
-  - @incmix-ui/modal@2.1.1
-  - @incmix-ui/utils@2.0.3
-  - @incmix-ui/transition@2.0.3
-  - @incmix-ui/theme@2.1.2
-  - @incmix-ui/react-env@2.0.3
-  - @incmix-ui/media-query@3.1.2
-  - @incmix-ui/portal@2.0.3
-  - @incmix-ui/layout@2.1.0
-  - @incmix-ui/toast@3.0.1
-  - @incmix-ui/checkbox@2.1.2
-  - @incmix-ui/input@2.0.3
-  - @incmix-ui/radio@2.0.4
-  - @incmix-ui/select@2.0.3
-  - @incmix-ui/textarea@2.0.4
-  - @incmix-ui/button@2.0.3
-  - @incmix-ui/close-button@2.0.3
-  - @incmix-ui/control-box@2.0.3
-  - @incmix-ui/counter@2.0.3
-  - @incmix-ui/hooks@2.0.3
-  - @incmix-ui/icon@3.0.3
-  - @incmix-ui/live-region@2.0.3
-  - @incmix-ui/pin-input@2.0.5
-  - @incmix-ui/provider@2.0.8
-  - @incmix-ui/skeleton@2.0.8
-  - @incmix-ui/spinner@2.0.3
-  - @incmix-ui/switch@2.0.5
-  - @incmix-ui/system@2.2.1
-  - @incmix-ui/tooltip@2.0.4
-  - @incmix-ui/visually-hidden@2.0.3
+  - @chakra-ui/accordion@2.0.5
+  - @chakra-ui/alert@2.0.3
+  - @chakra-ui/avatar@2.0.4
+  - @chakra-ui/breadcrumb@2.0.3
+  - @chakra-ui/editable@2.0.3
+  - @chakra-ui/form-control@2.0.3
+  - @chakra-ui/menu@2.0.5
+  - @chakra-ui/number-input@2.0.3
+  - @chakra-ui/popover@2.0.3
+  - @chakra-ui/progress@2.0.4
+  - @chakra-ui/slider@2.0.3
+  - @chakra-ui/stat@2.0.3
+  - @chakra-ui/table@2.0.3
+  - @chakra-ui/tabs@2.0.5
+  - @chakra-ui/tag@2.0.3
+  - @chakra-ui/image@2.0.4
+  - @chakra-ui/modal@2.1.1
+  - @chakra-ui/utils@2.0.3
+  - @chakra-ui/transition@2.0.3
+  - @chakra-ui/theme@2.1.2
+  - @chakra-ui/react-env@2.0.3
+  - @chakra-ui/media-query@3.1.2
+  - @chakra-ui/portal@2.0.3
+  - @chakra-ui/layout@2.1.0
+  - @chakra-ui/toast@3.0.1
+  - @chakra-ui/checkbox@2.1.2
+  - @chakra-ui/input@2.0.3
+  - @chakra-ui/radio@2.0.4
+  - @chakra-ui/select@2.0.3
+  - @chakra-ui/textarea@2.0.4
+  - @chakra-ui/button@2.0.3
+  - @chakra-ui/close-button@2.0.3
+  - @chakra-ui/control-box@2.0.3
+  - @chakra-ui/counter@2.0.3
+  - @chakra-ui/hooks@2.0.3
+  - @chakra-ui/icon@3.0.3
+  - @chakra-ui/live-region@2.0.3
+  - @chakra-ui/pin-input@2.0.5
+  - @chakra-ui/provider@2.0.8
+  - @chakra-ui/skeleton@2.0.8
+  - @chakra-ui/spinner@2.0.3
+  - @chakra-ui/switch@2.0.5
+  - @chakra-ui/system@2.2.1
+  - @chakra-ui/tooltip@2.0.4
+  - @chakra-ui/visually-hidden@2.0.3
 
 ## 2.2.2
 
@@ -1121,23 +1174,23 @@
   [`450e96a2b`](https://github.com/incmix-ui/incmix-ui/commit/450e96a2b7e275143cccbbab115b1ec8e0bb4e1d),
   [`733aa4b7f`](https://github.com/incmix-ui/incmix-ui/commit/733aa4b7fedbee2ff3aee3e75ac43dba33abea0f),
   [`1015ec2b1`](https://github.com/incmix-ui/incmix-ui/commit/1015ec2b1b2608e78b6b33434e8a641dd05efcbe)]:
-  - @incmix-ui/skeleton@2.0.7
-  - @incmix-ui/toast@3.0.0
-  - @incmix-ui/system@2.2.0
-  - @incmix-ui/media-query@3.1.1
-  - @incmix-ui/theme@2.1.1
-  - @incmix-ui/layout@2.0.3
-  - @incmix-ui/checkbox@2.1.1
-  - @incmix-ui/tooltip@2.0.3
-  - @incmix-ui/radio@2.0.3
-  - @incmix-ui/modal@2.1.0
-  - @incmix-ui/accordion@2.0.4
-  - @incmix-ui/menu@2.0.4
-  - @incmix-ui/pin-input@2.0.4
-  - @incmix-ui/progress@2.0.3
-  - @incmix-ui/provider@2.0.7
-  - @incmix-ui/switch@2.0.4
-  - @incmix-ui/tabs@2.0.4
+  - @chakra-ui/skeleton@2.0.7
+  - @chakra-ui/toast@3.0.0
+  - @chakra-ui/system@2.2.0
+  - @chakra-ui/media-query@3.1.1
+  - @chakra-ui/theme@2.1.1
+  - @chakra-ui/layout@2.0.3
+  - @chakra-ui/checkbox@2.1.1
+  - @chakra-ui/tooltip@2.0.3
+  - @chakra-ui/radio@2.0.3
+  - @chakra-ui/modal@2.1.0
+  - @chakra-ui/accordion@2.0.4
+  - @chakra-ui/menu@2.0.4
+  - @chakra-ui/pin-input@2.0.4
+  - @chakra-ui/progress@2.0.3
+  - @chakra-ui/provider@2.0.7
+  - @chakra-ui/switch@2.0.4
+  - @chakra-ui/tabs@2.0.4
 
 ## 2.2.1
 
@@ -1146,10 +1199,10 @@
 - Updated dependencies
   [[`54acea27b`](https://github.com/incmix-ui/incmix-ui/commit/54acea27baf8a8ac4a9f5346d95fe6aecda92f74),
   [`f9a84d637`](https://github.com/incmix-ui/incmix-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580)]:
-  - @incmix-ui/toast@2.1.0
-  - @incmix-ui/system@2.1.3
-  - @incmix-ui/provider@2.0.6
-  - @incmix-ui/skeleton@2.0.6
+  - @chakra-ui/toast@2.1.0
+  - @chakra-ui/system@2.1.3
+  - @chakra-ui/provider@2.0.6
+  - @chakra-ui/skeleton@2.0.6
 
 ## 2.2.0
 
@@ -1180,53 +1233,53 @@
   [`7de782f04`](https://github.com/incmix-ui/incmix-ui/commit/7de782f0485656a6d10099339da509084cb3ee88),
   [`424090429`](https://github.com/incmix-ui/incmix-ui/commit/424090429d856c3703231003790b90e4f96dae35),
   [`bcbfcbcce`](https://github.com/incmix-ui/incmix-ui/commit/bcbfcbcceebe6749d0e8fe6ebddb566121fdff25)]:
-  - @incmix-ui/checkbox@2.1.0
-  - @incmix-ui/theme@2.1.0
-  - @incmix-ui/modal@2.0.3
-  - @incmix-ui/media-query@3.1.0
-  - @incmix-ui/accordion@2.0.3
-  - @incmix-ui/alert@2.0.2
-  - @incmix-ui/avatar@2.0.3
-  - @incmix-ui/breadcrumb@2.0.2
-  - @incmix-ui/button@2.0.2
-  - @incmix-ui/close-button@2.0.2
-  - @incmix-ui/control-box@2.0.2
-  - @incmix-ui/counter@2.0.2
-  - @incmix-ui/css-reset@2.0.1
-  - @incmix-ui/editable@2.0.2
-  - @incmix-ui/react-env@2.0.2
-  - @incmix-ui/form-control@2.0.2
-  - @incmix-ui/hooks@2.0.2
-  - @incmix-ui/icon@3.0.2
-  - @incmix-ui/image@2.0.3
-  - @incmix-ui/input@2.0.2
-  - @incmix-ui/layout@2.0.2
-  - @incmix-ui/live-region@2.0.2
-  - @incmix-ui/menu@2.0.3
-  - @incmix-ui/number-input@2.0.2
-  - @incmix-ui/pin-input@2.0.3
-  - @incmix-ui/popover@2.0.2
-  - @incmix-ui/popper@3.0.2
-  - @incmix-ui/portal@2.0.2
-  - @incmix-ui/progress@2.0.2
-  - @incmix-ui/provider@2.0.5
-  - @incmix-ui/radio@2.0.2
-  - @incmix-ui/select@2.0.2
-  - @incmix-ui/skeleton@2.0.5
-  - @incmix-ui/slider@2.0.2
-  - @incmix-ui/spinner@2.0.2
-  - @incmix-ui/stat@2.0.2
-  - @incmix-ui/switch@2.0.3
-  - @incmix-ui/system@2.1.2
-  - @incmix-ui/table@2.0.2
-  - @incmix-ui/tabs@2.0.3
-  - @incmix-ui/tag@2.0.2
-  - @incmix-ui/textarea@2.0.3
-  - @incmix-ui/toast@2.0.6
-  - @incmix-ui/tooltip@2.0.2
-  - @incmix-ui/transition@2.0.2
-  - @incmix-ui/utils@2.0.2
-  - @incmix-ui/visually-hidden@2.0.2
+  - @chakra-ui/checkbox@2.1.0
+  - @chakra-ui/theme@2.1.0
+  - @chakra-ui/modal@2.0.3
+  - @chakra-ui/media-query@3.1.0
+  - @chakra-ui/accordion@2.0.3
+  - @chakra-ui/alert@2.0.2
+  - @chakra-ui/avatar@2.0.3
+  - @chakra-ui/breadcrumb@2.0.2
+  - @chakra-ui/button@2.0.2
+  - @chakra-ui/close-button@2.0.2
+  - @chakra-ui/control-box@2.0.2
+  - @chakra-ui/counter@2.0.2
+  - @chakra-ui/css-reset@2.0.1
+  - @chakra-ui/editable@2.0.2
+  - @chakra-ui/react-env@2.0.2
+  - @chakra-ui/form-control@2.0.2
+  - @chakra-ui/hooks@2.0.2
+  - @chakra-ui/icon@3.0.2
+  - @chakra-ui/image@2.0.3
+  - @chakra-ui/input@2.0.2
+  - @chakra-ui/layout@2.0.2
+  - @chakra-ui/live-region@2.0.2
+  - @chakra-ui/menu@2.0.3
+  - @chakra-ui/number-input@2.0.2
+  - @chakra-ui/pin-input@2.0.3
+  - @chakra-ui/popover@2.0.2
+  - @chakra-ui/popper@3.0.2
+  - @chakra-ui/portal@2.0.2
+  - @chakra-ui/progress@2.0.2
+  - @chakra-ui/provider@2.0.5
+  - @chakra-ui/radio@2.0.2
+  - @chakra-ui/select@2.0.2
+  - @chakra-ui/skeleton@2.0.5
+  - @chakra-ui/slider@2.0.2
+  - @chakra-ui/spinner@2.0.2
+  - @chakra-ui/stat@2.0.2
+  - @chakra-ui/switch@2.0.3
+  - @chakra-ui/system@2.1.2
+  - @chakra-ui/table@2.0.2
+  - @chakra-ui/tabs@2.0.3
+  - @chakra-ui/tag@2.0.2
+  - @chakra-ui/textarea@2.0.3
+  - @chakra-ui/toast@2.0.6
+  - @chakra-ui/tooltip@2.0.2
+  - @chakra-ui/transition@2.0.2
+  - @chakra-ui/utils@2.0.2
+  - @chakra-ui/visually-hidden@2.0.2
 
 ## 2.1.2
 
@@ -1234,7 +1287,7 @@
 
 - Updated dependencies
   [[`5dd3c8534`](https://github.com/incmix-ui/incmix-ui/commit/5dd3c85345872f789cf82009167b69896f789731)]:
-  - @incmix-ui/toast@2.0.5
+  - @chakra-ui/toast@2.0.5
 
 ## 2.1.1
 
@@ -1251,52 +1304,52 @@
   [`695c528c9`](https://github.com/incmix-ui/incmix-ui/commit/695c528c91d403667055e4fb7aeeb2f05cbb4d1f),
   [`7e05d36cf`](https://github.com/incmix-ui/incmix-ui/commit/7e05d36cf1c65142e035d43142488792911f8a7f),
   [`f77e3c98f`](https://github.com/incmix-ui/incmix-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c)]:
-  - @incmix-ui/utils@2.0.1
-  - @incmix-ui/toast@2.0.4
-  - @incmix-ui/alert@2.0.1
-  - @incmix-ui/avatar@2.0.2
-  - @incmix-ui/breadcrumb@2.0.1
-  - @incmix-ui/image@2.0.2
-  - @incmix-ui/modal@2.0.2
-  - @incmix-ui/popover@2.0.1
-  - @incmix-ui/popper@3.0.1
-  - @incmix-ui/portal@2.0.1
-  - @incmix-ui/progress@2.0.1
-  - @incmix-ui/slider@2.0.1
-  - @incmix-ui/spinner@2.0.1
-  - @incmix-ui/tabs@2.0.2
-  - @incmix-ui/tooltip@2.0.1
-  - @incmix-ui/transition@2.0.1
-  - @incmix-ui/theme@2.0.3
-  - @incmix-ui/system@2.1.1
-  - @incmix-ui/accordion@2.0.2
-  - @incmix-ui/button@2.0.1
-  - @incmix-ui/checkbox@2.0.2
-  - @incmix-ui/close-button@2.0.1
-  - @incmix-ui/control-box@2.0.1
-  - @incmix-ui/counter@2.0.1
-  - @incmix-ui/editable@2.0.1
-  - @incmix-ui/react-env@2.0.1
-  - @incmix-ui/form-control@2.0.1
-  - @incmix-ui/hooks@2.0.1
-  - @incmix-ui/icon@3.0.1
-  - @incmix-ui/input@2.0.1
-  - @incmix-ui/layout@2.0.1
-  - @incmix-ui/live-region@2.0.1
-  - @incmix-ui/media-query@3.0.2
-  - @incmix-ui/menu@2.0.2
-  - @incmix-ui/number-input@2.0.1
-  - @incmix-ui/pin-input@2.0.2
-  - @incmix-ui/provider@2.0.4
-  - @incmix-ui/radio@2.0.1
-  - @incmix-ui/select@2.0.1
-  - @incmix-ui/skeleton@2.0.4
-  - @incmix-ui/stat@2.0.1
-  - @incmix-ui/switch@2.0.2
-  - @incmix-ui/table@2.0.1
-  - @incmix-ui/tag@2.0.1
-  - @incmix-ui/textarea@2.0.2
-  - @incmix-ui/visually-hidden@2.0.1
+  - @chakra-ui/utils@2.0.1
+  - @chakra-ui/toast@2.0.4
+  - @chakra-ui/alert@2.0.1
+  - @chakra-ui/avatar@2.0.2
+  - @chakra-ui/breadcrumb@2.0.1
+  - @chakra-ui/image@2.0.2
+  - @chakra-ui/modal@2.0.2
+  - @chakra-ui/popover@2.0.1
+  - @chakra-ui/popper@3.0.1
+  - @chakra-ui/portal@2.0.1
+  - @chakra-ui/progress@2.0.1
+  - @chakra-ui/slider@2.0.1
+  - @chakra-ui/spinner@2.0.1
+  - @chakra-ui/tabs@2.0.2
+  - @chakra-ui/tooltip@2.0.1
+  - @chakra-ui/transition@2.0.1
+  - @chakra-ui/theme@2.0.3
+  - @chakra-ui/system@2.1.1
+  - @chakra-ui/accordion@2.0.2
+  - @chakra-ui/button@2.0.1
+  - @chakra-ui/checkbox@2.0.2
+  - @chakra-ui/close-button@2.0.1
+  - @chakra-ui/control-box@2.0.1
+  - @chakra-ui/counter@2.0.1
+  - @chakra-ui/editable@2.0.1
+  - @chakra-ui/react-env@2.0.1
+  - @chakra-ui/form-control@2.0.1
+  - @chakra-ui/hooks@2.0.1
+  - @chakra-ui/icon@3.0.1
+  - @chakra-ui/input@2.0.1
+  - @chakra-ui/layout@2.0.1
+  - @chakra-ui/live-region@2.0.1
+  - @chakra-ui/media-query@3.0.2
+  - @chakra-ui/menu@2.0.2
+  - @chakra-ui/number-input@2.0.1
+  - @chakra-ui/pin-input@2.0.2
+  - @chakra-ui/provider@2.0.4
+  - @chakra-ui/radio@2.0.1
+  - @chakra-ui/select@2.0.1
+  - @chakra-ui/skeleton@2.0.4
+  - @chakra-ui/stat@2.0.1
+  - @chakra-ui/switch@2.0.2
+  - @chakra-ui/table@2.0.1
+  - @chakra-ui/tag@2.0.1
+  - @chakra-ui/textarea@2.0.2
+  - @chakra-ui/visually-hidden@2.0.1
 
 ## 2.1.0
 
@@ -1334,7 +1387,7 @@
 - [#6046](https://github.com/incmix-ui/incmix-ui/pull/6046)
   [`3319eca8b`](https://github.com/incmix-ui/incmix-ui/commit/3319eca8bf02b892ea345a68294110919e2963cb)
   Thanks [@Averethel](https://github.com/Averethel)! - Ensure types used by
-  other incmix packages are properly exported and imported so that `src`
+  other chakra packages are properly exported and imported so that `src`
   directory is not referenced in the emitted type declarations.
 - Updated dependencies
   [[`3319eca8b`](https://github.com/incmix-ui/incmix-ui/commit/3319eca8bf02b892ea345a68294110919e2963cb),
@@ -1344,30 +1397,30 @@
   [`a799a4467`](https://github.com/incmix-ui/incmix-ui/commit/a799a4467704c9489427df896ffdeae42de99505),
   [`c93f5c90b`](https://github.com/incmix-ui/incmix-ui/commit/c93f5c90b0784584a8aef54fd912afa52f549016),
   [`1cea9022b`](https://github.com/incmix-ui/incmix-ui/commit/1cea9022bede29a4b9c27b76e73fea8a670bf70c)]:
-  - @incmix-ui/theme@2.0.2
-  - @incmix-ui/system@2.1.0
-  - @incmix-ui/textarea@2.0.1
-  - @incmix-ui/avatar@2.0.1
-  - @incmix-ui/image@2.0.1
-  - @incmix-ui/media-query@3.0.1
-  - @incmix-ui/toast@2.0.3
-  - @incmix-ui/accordion@2.0.1
-  - @incmix-ui/menu@2.0.1
-  - @incmix-ui/pin-input@2.0.1
-  - @incmix-ui/tabs@2.0.1
-  - @incmix-ui/modal@2.0.1
-  - @incmix-ui/provider@2.0.3
-  - @incmix-ui/skeleton@2.0.3
+  - @chakra-ui/theme@2.0.2
+  - @chakra-ui/system@2.1.0
+  - @chakra-ui/textarea@2.0.1
+  - @chakra-ui/avatar@2.0.1
+  - @chakra-ui/image@2.0.1
+  - @chakra-ui/media-query@3.0.1
+  - @chakra-ui/toast@2.0.3
+  - @chakra-ui/accordion@2.0.1
+  - @chakra-ui/menu@2.0.1
+  - @chakra-ui/pin-input@2.0.1
+  - @chakra-ui/tabs@2.0.1
+  - @chakra-ui/modal@2.0.1
+  - @chakra-ui/provider@2.0.3
+  - @chakra-ui/skeleton@2.0.3
 
 ## 2.0.2
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @incmix-ui/system@2.0.2
-  - @incmix-ui/provider@2.0.2
-  - @incmix-ui/skeleton@2.0.2
-  - @incmix-ui/toast@2.0.2
+  - @chakra-ui/system@2.0.2
+  - @chakra-ui/provider@2.0.2
+  - @chakra-ui/skeleton@2.0.2
+  - @chakra-ui/toast@2.0.2
 
 ## 2.0.1
 
@@ -1377,13 +1430,13 @@
   [[`3996f46d1`](https://github.com/incmix-ui/incmix-ui/commit/3996f46d1b6e3b4997542e6d3367387ed73d3f8d),
   [`7eaf538a4`](https://github.com/incmix-ui/incmix-ui/commit/7eaf538a4db9e168408e114f80a2c2898cf4fd47),
   [`a9099c106`](https://github.com/incmix-ui/incmix-ui/commit/a9099c106edf0364d36feedfc066c5523cb7c7c8)]:
-  - @incmix-ui/toast@2.0.1
-  - @incmix-ui/checkbox@2.0.1
-  - @incmix-ui/theme@2.0.1
-  - @incmix-ui/system@2.0.1
-  - @incmix-ui/switch@2.0.1
-  - @incmix-ui/provider@2.0.1
-  - @incmix-ui/skeleton@2.0.1
+  - @chakra-ui/toast@2.0.1
+  - @chakra-ui/checkbox@2.0.1
+  - @chakra-ui/theme@2.0.1
+  - @chakra-ui/system@2.0.1
+  - @chakra-ui/switch@2.0.1
+  - @chakra-ui/provider@2.0.1
+  - @chakra-ui/skeleton@2.0.1
 
 ## 2.0.0
 
@@ -1392,7 +1445,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for incmix UI version 2
+  to next major for Chakra UI version 2
 
 * [#5989](https://github.com/incmix-ui/incmix-ui/pull/5989)
   [`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)
@@ -1408,24 +1461,24 @@
 
   ### Breaking changes to `createStandaloneToast`
 
-  incmix UI v1 rendered the toast container DOM element for you. In v2 you need
+  Chakra UI v1 rendered the toast container DOM element for you. In v2 you need
   to render the `ToastContainer` in your application code. This allows you have
   only one React root in your application.
 
-  #### @incmix-ui/react v1
+  #### @chakra-ui/react v1
 
   ```ts
-  import { createStandaloneToast } from "@incmix-ui/toast"
+  import { createStandaloneToast } from "@chakra-ui/toast"
 
   const toast = createStandaloneToast()
-  toast({ title: "incmix UI" })
+  toast({ title: "Chakra UI" })
   ```
 
-  #### @incmix-ui/react v2
+  #### @chakra-ui/react v2
 
   ```tsx
   import * as ReactDOM from "react-dom/client"
-  import { createStandaloneToast } from "@incmix-ui/toast"
+  import { createStandaloneToast } from "@chakra-ui/toast"
 
   const { ToastContainer, toast } = createStandaloneToast()
 
@@ -1438,7 +1491,7 @@
     </>,
   )
 
-  toast({ title: "incmix UI" })
+  toast({ title: "Chakra UI" })
   ```
 
 * [#5882](https://github.com/incmix-ui/incmix-ui/pull/5882)
@@ -1475,53 +1528,53 @@
   [`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196),
   [`258fd9a61`](https://github.com/incmix-ui/incmix-ui/commit/258fd9a617d9224a0d6626399aad2b59efa15ace),
   [`d32aea176`](https://github.com/incmix-ui/incmix-ui/commit/d32aea176b66b4d5206df10530c011f8eaa2e42d)]:
-  - @incmix-ui/image@2.0.0
-  - @incmix-ui/alert@2.0.0
-  - @incmix-ui/toast@2.0.0
-  - @incmix-ui/accordion@2.0.0
-  - @incmix-ui/avatar@2.0.0
-  - @incmix-ui/breadcrumb@2.0.0
-  - @incmix-ui/button@2.0.0
-  - @incmix-ui/checkbox@2.0.0
-  - @incmix-ui/close-button@2.0.0
-  - @incmix-ui/control-box@2.0.0
-  - @incmix-ui/counter@2.0.0
-  - @incmix-ui/css-reset@2.0.0
-  - @incmix-ui/editable@2.0.0
-  - @incmix-ui/react-env@2.0.0
-  - @incmix-ui/form-control@2.0.0
-  - @incmix-ui/hooks@2.0.0
-  - @incmix-ui/icon@3.0.0
-  - @incmix-ui/input@2.0.0
-  - @incmix-ui/layout@2.0.0
-  - @incmix-ui/live-region@2.0.0
-  - @incmix-ui/media-query@3.0.0
-  - @incmix-ui/menu@2.0.0
-  - @incmix-ui/modal@2.0.0
-  - @incmix-ui/number-input@2.0.0
-  - @incmix-ui/pin-input@2.0.0
-  - @incmix-ui/popover@2.0.0
-  - @incmix-ui/popper@3.0.0
-  - @incmix-ui/portal@2.0.0
-  - @incmix-ui/progress@2.0.0
-  - @incmix-ui/provider@2.0.0
-  - @incmix-ui/radio@2.0.0
-  - @incmix-ui/select@2.0.0
-  - @incmix-ui/skeleton@2.0.0
-  - @incmix-ui/slider@2.0.0
-  - @incmix-ui/spinner@2.0.0
-  - @incmix-ui/stat@2.0.0
-  - @incmix-ui/switch@2.0.0
-  - @incmix-ui/system@2.0.0
-  - @incmix-ui/table@2.0.0
-  - @incmix-ui/tabs@2.0.0
-  - @incmix-ui/tag@2.0.0
-  - @incmix-ui/textarea@2.0.0
-  - @incmix-ui/theme@2.0.0
-  - @incmix-ui/tooltip@2.0.0
-  - @incmix-ui/transition@2.0.0
-  - @incmix-ui/utils@2.0.0
-  - @incmix-ui/visually-hidden@2.0.0
+  - @chakra-ui/image@2.0.0
+  - @chakra-ui/alert@2.0.0
+  - @chakra-ui/toast@2.0.0
+  - @chakra-ui/accordion@2.0.0
+  - @chakra-ui/avatar@2.0.0
+  - @chakra-ui/breadcrumb@2.0.0
+  - @chakra-ui/button@2.0.0
+  - @chakra-ui/checkbox@2.0.0
+  - @chakra-ui/close-button@2.0.0
+  - @chakra-ui/control-box@2.0.0
+  - @chakra-ui/counter@2.0.0
+  - @chakra-ui/css-reset@2.0.0
+  - @chakra-ui/editable@2.0.0
+  - @chakra-ui/react-env@2.0.0
+  - @chakra-ui/form-control@2.0.0
+  - @chakra-ui/hooks@2.0.0
+  - @chakra-ui/icon@3.0.0
+  - @chakra-ui/input@2.0.0
+  - @chakra-ui/layout@2.0.0
+  - @chakra-ui/live-region@2.0.0
+  - @chakra-ui/media-query@3.0.0
+  - @chakra-ui/menu@2.0.0
+  - @chakra-ui/modal@2.0.0
+  - @chakra-ui/number-input@2.0.0
+  - @chakra-ui/pin-input@2.0.0
+  - @chakra-ui/popover@2.0.0
+  - @chakra-ui/popper@3.0.0
+  - @chakra-ui/portal@2.0.0
+  - @chakra-ui/progress@2.0.0
+  - @chakra-ui/provider@2.0.0
+  - @chakra-ui/radio@2.0.0
+  - @chakra-ui/select@2.0.0
+  - @chakra-ui/skeleton@2.0.0
+  - @chakra-ui/slider@2.0.0
+  - @chakra-ui/spinner@2.0.0
+  - @chakra-ui/stat@2.0.0
+  - @chakra-ui/switch@2.0.0
+  - @chakra-ui/system@2.0.0
+  - @chakra-ui/table@2.0.0
+  - @chakra-ui/tabs@2.0.0
+  - @chakra-ui/tag@2.0.0
+  - @chakra-ui/textarea@2.0.0
+  - @chakra-ui/theme@2.0.0
+  - @chakra-ui/tooltip@2.0.0
+  - @chakra-ui/transition@2.0.0
+  - @chakra-ui/utils@2.0.0
+  - @chakra-ui/visually-hidden@2.0.0
 
 ## 2.0.0-next.5
 
@@ -1536,53 +1589,53 @@
 
 - Updated dependencies
   [[`ed692c0ae`](https://github.com/incmix-ui/incmix-ui/commit/ed692c0ae670bcac92b3da50d141afc6e233dee7)]:
-  - @incmix-ui/accordion@2.0.0-next.3
-  - @incmix-ui/alert@2.0.0-next.3
-  - @incmix-ui/avatar@2.0.0-next.3
-  - @incmix-ui/breadcrumb@2.0.0-next.2
-  - @incmix-ui/button@2.0.0-next.3
-  - @incmix-ui/checkbox@2.0.0-next.3
-  - @incmix-ui/close-button@2.0.0-next.2
-  - @incmix-ui/control-box@2.0.0-next.2
-  - @incmix-ui/counter@2.0.0-next.3
-  - @incmix-ui/css-reset@2.0.0-next.3
-  - @incmix-ui/editable@2.0.0-next.3
-  - @incmix-ui/react-env@2.0.0-next.2
-  - @incmix-ui/form-control@2.0.0-next.3
-  - @incmix-ui/hooks@2.0.0-next.3
-  - @incmix-ui/icon@3.0.0-next.2
-  - @incmix-ui/image@2.0.0-next.3
-  - @incmix-ui/input@2.0.0-next.3
-  - @incmix-ui/layout@2.0.0-next.4
-  - @incmix-ui/live-region@2.0.0-next.2
-  - @incmix-ui/media-query@3.0.0-next.2
-  - @incmix-ui/menu@2.0.0-next.4
-  - @incmix-ui/modal@2.0.0-next.3
-  - @incmix-ui/number-input@2.0.0-next.3
-  - @incmix-ui/pin-input@2.0.0-next.3
-  - @incmix-ui/popover@2.0.0-next.4
-  - @incmix-ui/popper@3.0.0-next.3
-  - @incmix-ui/portal@2.0.0-next.3
-  - @incmix-ui/progress@2.0.0-next.2
-  - @incmix-ui/provider@2.0.0-next.4
-  - @incmix-ui/radio@2.0.0-next.3
-  - @incmix-ui/select@2.0.0-next.3
-  - @incmix-ui/skeleton@2.0.0-next.4
-  - @incmix-ui/slider@2.0.0-next.3
-  - @incmix-ui/spinner@2.0.0-next.2
-  - @incmix-ui/stat@2.0.0-next.2
-  - @incmix-ui/switch@2.0.0-next.3
-  - @incmix-ui/system@2.0.0-next.4
-  - @incmix-ui/table@2.0.0-next.2
-  - @incmix-ui/tabs@2.0.0-next.3
-  - @incmix-ui/tag@2.0.0-next.2
-  - @incmix-ui/textarea@2.0.0-next.3
-  - @incmix-ui/theme@2.0.0-next.2
-  - @incmix-ui/toast@2.0.0-next.5
-  - @incmix-ui/tooltip@2.0.0-next.4
-  - @incmix-ui/transition@2.0.0-next.2
-  - @incmix-ui/utils@2.0.0-next.2
-  - @incmix-ui/visually-hidden@2.0.0-next.2
+  - @chakra-ui/accordion@2.0.0-next.3
+  - @chakra-ui/alert@2.0.0-next.3
+  - @chakra-ui/avatar@2.0.0-next.3
+  - @chakra-ui/breadcrumb@2.0.0-next.2
+  - @chakra-ui/button@2.0.0-next.3
+  - @chakra-ui/checkbox@2.0.0-next.3
+  - @chakra-ui/close-button@2.0.0-next.2
+  - @chakra-ui/control-box@2.0.0-next.2
+  - @chakra-ui/counter@2.0.0-next.3
+  - @chakra-ui/css-reset@2.0.0-next.3
+  - @chakra-ui/editable@2.0.0-next.3
+  - @chakra-ui/react-env@2.0.0-next.2
+  - @chakra-ui/form-control@2.0.0-next.3
+  - @chakra-ui/hooks@2.0.0-next.3
+  - @chakra-ui/icon@3.0.0-next.2
+  - @chakra-ui/image@2.0.0-next.3
+  - @chakra-ui/input@2.0.0-next.3
+  - @chakra-ui/layout@2.0.0-next.4
+  - @chakra-ui/live-region@2.0.0-next.2
+  - @chakra-ui/media-query@3.0.0-next.2
+  - @chakra-ui/menu@2.0.0-next.4
+  - @chakra-ui/modal@2.0.0-next.3
+  - @chakra-ui/number-input@2.0.0-next.3
+  - @chakra-ui/pin-input@2.0.0-next.3
+  - @chakra-ui/popover@2.0.0-next.4
+  - @chakra-ui/popper@3.0.0-next.3
+  - @chakra-ui/portal@2.0.0-next.3
+  - @chakra-ui/progress@2.0.0-next.2
+  - @chakra-ui/provider@2.0.0-next.4
+  - @chakra-ui/radio@2.0.0-next.3
+  - @chakra-ui/select@2.0.0-next.3
+  - @chakra-ui/skeleton@2.0.0-next.4
+  - @chakra-ui/slider@2.0.0-next.3
+  - @chakra-ui/spinner@2.0.0-next.2
+  - @chakra-ui/stat@2.0.0-next.2
+  - @chakra-ui/switch@2.0.0-next.3
+  - @chakra-ui/system@2.0.0-next.4
+  - @chakra-ui/table@2.0.0-next.2
+  - @chakra-ui/tabs@2.0.0-next.3
+  - @chakra-ui/tag@2.0.0-next.2
+  - @chakra-ui/textarea@2.0.0-next.3
+  - @chakra-ui/theme@2.0.0-next.2
+  - @chakra-ui/toast@2.0.0-next.5
+  - @chakra-ui/tooltip@2.0.0-next.4
+  - @chakra-ui/transition@2.0.0-next.2
+  - @chakra-ui/utils@2.0.0-next.2
+  - @chakra-ui/visually-hidden@2.0.0-next.2
 
 ## 2.0.0-next.4
 
@@ -1591,15 +1644,15 @@
 - Updated dependencies
   [[`0f10f9555`](https://github.com/incmix-ui/incmix-ui/commit/0f10f9555a07106bb3737f7e900c36d81507c926),
   [`6b969b41d`](https://github.com/incmix-ui/incmix-ui/commit/6b969b41dad850fa061613b3d50f50b8a15265a7)]:
-  - @incmix-ui/layout@2.0.0-next.3
-  - @incmix-ui/popper@3.0.0-next.2
-  - @incmix-ui/system@2.0.0-next.3
-  - @incmix-ui/menu@2.0.0-next.3
-  - @incmix-ui/popover@2.0.0-next.3
-  - @incmix-ui/tooltip@2.0.0-next.3
-  - @incmix-ui/provider@2.0.0-next.3
-  - @incmix-ui/skeleton@2.0.0-next.3
-  - @incmix-ui/toast@2.0.0-next.4
+  - @chakra-ui/layout@2.0.0-next.3
+  - @chakra-ui/popper@3.0.0-next.2
+  - @chakra-ui/system@2.0.0-next.3
+  - @chakra-ui/menu@2.0.0-next.3
+  - @chakra-ui/popover@2.0.0-next.3
+  - @chakra-ui/tooltip@2.0.0-next.3
+  - @chakra-ui/provider@2.0.0-next.3
+  - @chakra-ui/skeleton@2.0.0-next.3
+  - @chakra-ui/toast@2.0.0-next.4
 
 ## 2.0.0-next.3
 
@@ -1616,36 +1669,36 @@
   [`125a1709a`](https://github.com/incmix-ui/incmix-ui/commit/125a1709a0840e844613db0fd55da8b3e4add0b9),
   [`407dde8f5`](https://github.com/incmix-ui/incmix-ui/commit/407dde8f5ba3d09e160d411fdad05def0f537ef5),
   [`d32aea176`](https://github.com/incmix-ui/incmix-ui/commit/d32aea176b66b4d5206df10530c011f8eaa2e42d)]:
-  - @incmix-ui/image@2.0.0-next.2
-  - @incmix-ui/alert@2.0.0-next.2
-  - @incmix-ui/popover@2.0.0-next.2
-  - @incmix-ui/modal@2.0.0-next.2
-  - @incmix-ui/layout@2.0.0-next.2
-  - @incmix-ui/hooks@2.0.0-next.2
-  - @incmix-ui/css-reset@2.0.0-next.2
-  - @incmix-ui/toast@2.0.0-next.3
-  - @incmix-ui/avatar@2.0.0-next.2
-  - @incmix-ui/accordion@2.0.0-next.2
-  - @incmix-ui/button@2.0.0-next.2
-  - @incmix-ui/checkbox@2.0.0-next.2
-  - @incmix-ui/counter@2.0.0-next.2
-  - @incmix-ui/editable@2.0.0-next.2
-  - @incmix-ui/form-control@2.0.0-next.2
-  - @incmix-ui/menu@2.0.0-next.2
-  - @incmix-ui/number-input@2.0.0-next.2
-  - @incmix-ui/pin-input@2.0.0-next.2
-  - @incmix-ui/portal@2.0.0-next.2
-  - @incmix-ui/radio@2.0.0-next.2
-  - @incmix-ui/skeleton@2.0.0-next.2
-  - @incmix-ui/slider@2.0.0-next.2
-  - @incmix-ui/tabs@2.0.0-next.2
-  - @incmix-ui/tooltip@2.0.0-next.2
-  - @incmix-ui/provider@2.0.0-next.2
-  - @incmix-ui/system@2.0.0-next.2
-  - @incmix-ui/switch@2.0.0-next.2
-  - @incmix-ui/input@2.0.0-next.2
-  - @incmix-ui/select@2.0.0-next.2
-  - @incmix-ui/textarea@2.0.0-next.2
+  - @chakra-ui/image@2.0.0-next.2
+  - @chakra-ui/alert@2.0.0-next.2
+  - @chakra-ui/popover@2.0.0-next.2
+  - @chakra-ui/modal@2.0.0-next.2
+  - @chakra-ui/layout@2.0.0-next.2
+  - @chakra-ui/hooks@2.0.0-next.2
+  - @chakra-ui/css-reset@2.0.0-next.2
+  - @chakra-ui/toast@2.0.0-next.3
+  - @chakra-ui/avatar@2.0.0-next.2
+  - @chakra-ui/accordion@2.0.0-next.2
+  - @chakra-ui/button@2.0.0-next.2
+  - @chakra-ui/checkbox@2.0.0-next.2
+  - @chakra-ui/counter@2.0.0-next.2
+  - @chakra-ui/editable@2.0.0-next.2
+  - @chakra-ui/form-control@2.0.0-next.2
+  - @chakra-ui/menu@2.0.0-next.2
+  - @chakra-ui/number-input@2.0.0-next.2
+  - @chakra-ui/pin-input@2.0.0-next.2
+  - @chakra-ui/portal@2.0.0-next.2
+  - @chakra-ui/radio@2.0.0-next.2
+  - @chakra-ui/skeleton@2.0.0-next.2
+  - @chakra-ui/slider@2.0.0-next.2
+  - @chakra-ui/tabs@2.0.0-next.2
+  - @chakra-ui/tooltip@2.0.0-next.2
+  - @chakra-ui/provider@2.0.0-next.2
+  - @chakra-ui/system@2.0.0-next.2
+  - @chakra-ui/switch@2.0.0-next.2
+  - @chakra-ui/input@2.0.0-next.2
+  - @chakra-ui/select@2.0.0-next.2
+  - @chakra-ui/textarea@2.0.0-next.2
 
 ## 2.0.0-next.2
 
@@ -1665,53 +1718,53 @@
   [`bb68fee19`](https://github.com/incmix-ui/incmix-ui/commit/bb68fee196815ae69c32c28b485b57a81005e7c6),
   [`41b3119f5`](https://github.com/incmix-ui/incmix-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196),
   [`258fd9a61`](https://github.com/incmix-ui/incmix-ui/commit/258fd9a617d9224a0d6626399aad2b59efa15ace)]:
-  - @incmix-ui/theme@2.0.0-next.1
-  - @incmix-ui/react-env@2.0.0-next.1
-  - @incmix-ui/editable@2.0.0-next.1
-  - @incmix-ui/accordion@2.0.0-next.1
-  - @incmix-ui/alert@2.0.0-next.1
-  - @incmix-ui/avatar@2.0.0-next.1
-  - @incmix-ui/breadcrumb@2.0.0-next.1
-  - @incmix-ui/button@2.0.0-next.1
-  - @incmix-ui/checkbox@2.0.0-next.1
-  - @incmix-ui/close-button@2.0.0-next.1
-  - @incmix-ui/control-box@2.0.0-next.1
-  - @incmix-ui/counter@2.0.0-next.1
-  - @incmix-ui/css-reset@2.0.0-next.1
-  - @incmix-ui/form-control@2.0.0-next.1
-  - @incmix-ui/hooks@2.0.0-next.1
-  - @incmix-ui/icon@3.0.0-next.1
-  - @incmix-ui/image@2.0.0-next.1
-  - @incmix-ui/input@2.0.0-next.1
-  - @incmix-ui/layout@2.0.0-next.1
-  - @incmix-ui/live-region@2.0.0-next.1
-  - @incmix-ui/media-query@3.0.0-next.1
-  - @incmix-ui/menu@2.0.0-next.1
-  - @incmix-ui/modal@2.0.0-next.1
-  - @incmix-ui/number-input@2.0.0-next.1
-  - @incmix-ui/pin-input@2.0.0-next.1
-  - @incmix-ui/popover@2.0.0-next.1
-  - @incmix-ui/popper@3.0.0-next.1
-  - @incmix-ui/portal@2.0.0-next.1
-  - @incmix-ui/progress@2.0.0-next.1
-  - @incmix-ui/provider@2.0.0-next.1
-  - @incmix-ui/radio@2.0.0-next.1
-  - @incmix-ui/select@2.0.0-next.1
-  - @incmix-ui/skeleton@2.0.0-next.1
-  - @incmix-ui/slider@2.0.0-next.1
-  - @incmix-ui/spinner@2.0.0-next.1
-  - @incmix-ui/stat@2.0.0-next.1
-  - @incmix-ui/switch@2.0.0-next.1
-  - @incmix-ui/system@2.0.0-next.1
-  - @incmix-ui/table@2.0.0-next.1
-  - @incmix-ui/tabs@2.0.0-next.1
-  - @incmix-ui/tag@2.0.0-next.1
-  - @incmix-ui/textarea@2.0.0-next.1
-  - @incmix-ui/toast@2.0.0-next.2
-  - @incmix-ui/tooltip@2.0.0-next.1
-  - @incmix-ui/transition@2.0.0-next.1
-  - @incmix-ui/utils@2.0.0-next.1
-  - @incmix-ui/visually-hidden@2.0.0-next.1
+  - @chakra-ui/theme@2.0.0-next.1
+  - @chakra-ui/react-env@2.0.0-next.1
+  - @chakra-ui/editable@2.0.0-next.1
+  - @chakra-ui/accordion@2.0.0-next.1
+  - @chakra-ui/alert@2.0.0-next.1
+  - @chakra-ui/avatar@2.0.0-next.1
+  - @chakra-ui/breadcrumb@2.0.0-next.1
+  - @chakra-ui/button@2.0.0-next.1
+  - @chakra-ui/checkbox@2.0.0-next.1
+  - @chakra-ui/close-button@2.0.0-next.1
+  - @chakra-ui/control-box@2.0.0-next.1
+  - @chakra-ui/counter@2.0.0-next.1
+  - @chakra-ui/css-reset@2.0.0-next.1
+  - @chakra-ui/form-control@2.0.0-next.1
+  - @chakra-ui/hooks@2.0.0-next.1
+  - @chakra-ui/icon@3.0.0-next.1
+  - @chakra-ui/image@2.0.0-next.1
+  - @chakra-ui/input@2.0.0-next.1
+  - @chakra-ui/layout@2.0.0-next.1
+  - @chakra-ui/live-region@2.0.0-next.1
+  - @chakra-ui/media-query@3.0.0-next.1
+  - @chakra-ui/menu@2.0.0-next.1
+  - @chakra-ui/modal@2.0.0-next.1
+  - @chakra-ui/number-input@2.0.0-next.1
+  - @chakra-ui/pin-input@2.0.0-next.1
+  - @chakra-ui/popover@2.0.0-next.1
+  - @chakra-ui/popper@3.0.0-next.1
+  - @chakra-ui/portal@2.0.0-next.1
+  - @chakra-ui/progress@2.0.0-next.1
+  - @chakra-ui/provider@2.0.0-next.1
+  - @chakra-ui/radio@2.0.0-next.1
+  - @chakra-ui/select@2.0.0-next.1
+  - @chakra-ui/skeleton@2.0.0-next.1
+  - @chakra-ui/slider@2.0.0-next.1
+  - @chakra-ui/spinner@2.0.0-next.1
+  - @chakra-ui/stat@2.0.0-next.1
+  - @chakra-ui/switch@2.0.0-next.1
+  - @chakra-ui/system@2.0.0-next.1
+  - @chakra-ui/table@2.0.0-next.1
+  - @chakra-ui/tabs@2.0.0-next.1
+  - @chakra-ui/tag@2.0.0-next.1
+  - @chakra-ui/textarea@2.0.0-next.1
+  - @chakra-ui/toast@2.0.0-next.2
+  - @chakra-ui/tooltip@2.0.0-next.1
+  - @chakra-ui/transition@2.0.0-next.1
+  - @chakra-ui/utils@2.0.0-next.1
+  - @chakra-ui/visually-hidden@2.0.0-next.1
 
 ## 2.0.0-next.1
 
@@ -1720,7 +1773,7 @@
 - [#5879](https://github.com/incmix-ui/incmix-ui/pull/5879)
   [`c390af485`](https://github.com/incmix-ui/incmix-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f)
   Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bump all packages
-  to next major for incmix UI version 2.
+  to next major for Chakra UI version 2.
 
 ### Patch Changes
 
@@ -1730,53 +1783,53 @@
   [`1a47fd27e`](https://github.com/incmix-ui/incmix-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632),
   [`d0d08141b`](https://github.com/incmix-ui/incmix-ui/commit/d0d08141bee7f7c2f776d01798dfbeccfdde5978),
   [`3285faddf`](https://github.com/incmix-ui/incmix-ui/commit/3285faddf3019c6951f3823bf38951fbb8accb9e)]:
-  - @incmix-ui/toast@2.0.0-next.1
-  - @incmix-ui/accordion@2.0.0-next.0
-  - @incmix-ui/alert@2.0.0-next.0
-  - @incmix-ui/avatar@2.0.0-next.0
-  - @incmix-ui/breadcrumb@2.0.0-next.0
-  - @incmix-ui/button@2.0.0-next.0
-  - @incmix-ui/checkbox@2.0.0-next.0
-  - @incmix-ui/close-button@2.0.0-next.0
-  - @incmix-ui/control-box@2.0.0-next.0
-  - @incmix-ui/counter@2.0.0-next.0
-  - @incmix-ui/css-reset@2.0.0-next.0
-  - @incmix-ui/editable@2.0.0-next.0
-  - @incmix-ui/react-env@2.0.0-next.0
-  - @incmix-ui/form-control@2.0.0-next.0
-  - @incmix-ui/hooks@2.0.0-next.0
-  - @incmix-ui/icon@3.0.0-next.0
-  - @incmix-ui/image@2.0.0-next.0
-  - @incmix-ui/input@2.0.0-next.0
-  - @incmix-ui/layout@2.0.0-next.0
-  - @incmix-ui/live-region@2.0.0-next.0
-  - @incmix-ui/media-query@3.0.0-next.0
-  - @incmix-ui/menu@2.0.0-next.0
-  - @incmix-ui/modal@2.0.0-next.0
-  - @incmix-ui/number-input@2.0.0-next.0
-  - @incmix-ui/pin-input@2.0.0-next.0
-  - @incmix-ui/popover@2.0.0-next.0
-  - @incmix-ui/popper@3.0.0-next.0
-  - @incmix-ui/portal@2.0.0-next.0
-  - @incmix-ui/progress@2.0.0-next.0
-  - @incmix-ui/provider@2.0.0-next.0
-  - @incmix-ui/radio@2.0.0-next.0
-  - @incmix-ui/select@2.0.0-next.0
-  - @incmix-ui/skeleton@2.0.0-next.0
-  - @incmix-ui/slider@2.0.0-next.0
-  - @incmix-ui/spinner@2.0.0-next.0
-  - @incmix-ui/stat@2.0.0-next.0
-  - @incmix-ui/switch@2.0.0-next.0
-  - @incmix-ui/system@2.0.0-next.0
-  - @incmix-ui/table@2.0.0-next.0
-  - @incmix-ui/tabs@2.0.0-next.0
-  - @incmix-ui/tag@2.0.0-next.0
-  - @incmix-ui/textarea@2.0.0-next.0
-  - @incmix-ui/theme@2.0.0-next.0
-  - @incmix-ui/tooltip@2.0.0-next.0
-  - @incmix-ui/transition@2.0.0-next.0
-  - @incmix-ui/utils@2.0.0-next.0
-  - @incmix-ui/visually-hidden@2.0.0-next.0
+  - @chakra-ui/toast@2.0.0-next.1
+  - @chakra-ui/accordion@2.0.0-next.0
+  - @chakra-ui/alert@2.0.0-next.0
+  - @chakra-ui/avatar@2.0.0-next.0
+  - @chakra-ui/breadcrumb@2.0.0-next.0
+  - @chakra-ui/button@2.0.0-next.0
+  - @chakra-ui/checkbox@2.0.0-next.0
+  - @chakra-ui/close-button@2.0.0-next.0
+  - @chakra-ui/control-box@2.0.0-next.0
+  - @chakra-ui/counter@2.0.0-next.0
+  - @chakra-ui/css-reset@2.0.0-next.0
+  - @chakra-ui/editable@2.0.0-next.0
+  - @chakra-ui/react-env@2.0.0-next.0
+  - @chakra-ui/form-control@2.0.0-next.0
+  - @chakra-ui/hooks@2.0.0-next.0
+  - @chakra-ui/icon@3.0.0-next.0
+  - @chakra-ui/image@2.0.0-next.0
+  - @chakra-ui/input@2.0.0-next.0
+  - @chakra-ui/layout@2.0.0-next.0
+  - @chakra-ui/live-region@2.0.0-next.0
+  - @chakra-ui/media-query@3.0.0-next.0
+  - @chakra-ui/menu@2.0.0-next.0
+  - @chakra-ui/modal@2.0.0-next.0
+  - @chakra-ui/number-input@2.0.0-next.0
+  - @chakra-ui/pin-input@2.0.0-next.0
+  - @chakra-ui/popover@2.0.0-next.0
+  - @chakra-ui/popper@3.0.0-next.0
+  - @chakra-ui/portal@2.0.0-next.0
+  - @chakra-ui/progress@2.0.0-next.0
+  - @chakra-ui/provider@2.0.0-next.0
+  - @chakra-ui/radio@2.0.0-next.0
+  - @chakra-ui/select@2.0.0-next.0
+  - @chakra-ui/skeleton@2.0.0-next.0
+  - @chakra-ui/slider@2.0.0-next.0
+  - @chakra-ui/spinner@2.0.0-next.0
+  - @chakra-ui/stat@2.0.0-next.0
+  - @chakra-ui/switch@2.0.0-next.0
+  - @chakra-ui/system@2.0.0-next.0
+  - @chakra-ui/table@2.0.0-next.0
+  - @chakra-ui/tabs@2.0.0-next.0
+  - @chakra-ui/tag@2.0.0-next.0
+  - @chakra-ui/textarea@2.0.0-next.0
+  - @chakra-ui/theme@2.0.0-next.0
+  - @chakra-ui/tooltip@2.0.0-next.0
+  - @chakra-ui/transition@2.0.0-next.0
+  - @chakra-ui/utils@2.0.0-next.0
+  - @chakra-ui/visually-hidden@2.0.0-next.0
 
 ## 2.0.0-next.0
 
@@ -1792,23 +1845,23 @@
 
   ### Breaking changes to `createStandaloneToast`
 
-  With React <17 incmix UI was able to render the toast container DOM element
-  for you. To allow incmix UI to support all React versions >=16.8 you need to
+  With React <17 Chakra UI was able to render the toast container DOM element
+  for you. To allow Chakra UI to support all React versions >=16.8 you need to
   render the DOM element in your application code.
 
   #### before
 
   ```ts
-  import { createStandaloneToast } from "@incmix-ui/toast"
+  import { createStandaloneToast } from "@chakra-ui/toast"
 
   const toast = createStandaloneToast()
-  toast({ title: "incmix UI" })
+  toast({ title: "Chakra UI" })
   ```
 
   #### with React 17
 
   ```tsx
-  import { createStandaloneToast } from "@incmix-ui/toast"
+  import { createStandaloneToast } from "@chakra-ui/toast"
   import * as ReactDOM from "react-dom"
 
   const toastContainerElement = document.createElement("div")
@@ -1817,13 +1870,13 @@
   const { ToastContainer, toast } = createStandaloneToast()
   ReactDOM.render(<ToastContainer />, toastContainerElement)
 
-  toast({ title: "incmix UI" })
+  toast({ title: "Chakra UI" })
   ```
 
   #### with React 18
 
   ```tsx
-  import { createStandaloneToast } from "@incmix-ui/toast"
+  import { createStandaloneToast } from "@chakra-ui/toast"
   import * as ReactDOM from "react-dom/client"
 
   const toastContainerElement = document.createElement("div")
@@ -1833,14 +1886,14 @@
   const root = ReactDOM.createRoot(toastContainerElement)
   root.render(<ToastContainer />)
 
-  toast({ title: "incmix UI" })
+  toast({ title: "Chakra UI" })
   ```
 
 ### Patch Changes
 
 - Updated dependencies
   [[`c7a1a53ac`](https://github.com/incmix-ui/incmix-ui/commit/c7a1a53ace53020e23c1b92d48ff16d8d8e95709)]:
-  - @incmix-ui/toast@2.0.0-next.0
+  - @chakra-ui/toast@2.0.0-next.0
 
 ## 1.8.8
 
@@ -1855,36 +1908,36 @@
   [`7fa1e22c6`](https://github.com/incmix-ui/incmix-ui/commit/7fa1e22c63cdd77364a6bb31d7a60459fd945e3c),
   [`b19c89270`](https://github.com/incmix-ui/incmix-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90),
   [`aaadcd0ed`](https://github.com/incmix-ui/incmix-ui/commit/aaadcd0ed9388417b0b647d75055ede0613d3495)]:
-  - @incmix-ui/menu@1.8.11
-  - @incmix-ui/editable@1.4.2
-  - @incmix-ui/form-control@1.6.0
-  - @incmix-ui/hooks@1.9.1
-  - @incmix-ui/checkbox@1.7.1
-  - @incmix-ui/layout@1.8.0
-  - @incmix-ui/theme@1.14.1
-  - @incmix-ui/transition@1.4.8
-  - @incmix-ui/input@1.4.6
-  - @incmix-ui/number-input@1.4.7
-  - @incmix-ui/radio@1.5.1
-  - @incmix-ui/select@1.2.11
-  - @incmix-ui/textarea@1.2.11
-  - @incmix-ui/accordion@1.4.11
-  - @incmix-ui/button@1.5.10
-  - @incmix-ui/counter@1.2.10
-  - @incmix-ui/image@1.1.10
-  - @incmix-ui/modal@1.11.1
-  - @incmix-ui/pin-input@1.7.10
-  - @incmix-ui/popover@1.11.9
-  - @incmix-ui/portal@1.3.10
-  - @incmix-ui/provider@1.7.14
-  - @incmix-ui/skeleton@1.2.14
-  - @incmix-ui/slider@1.5.11
-  - @incmix-ui/tabs@1.6.10
-  - @incmix-ui/toast@1.5.9
-  - @incmix-ui/tooltip@1.5.1
-  - @incmix-ui/switch@1.3.10
-  - @incmix-ui/system@1.12.1
-  - @incmix-ui/avatar@1.3.11
+  - @chakra-ui/menu@1.8.11
+  - @chakra-ui/editable@1.4.2
+  - @chakra-ui/form-control@1.6.0
+  - @chakra-ui/hooks@1.9.1
+  - @chakra-ui/checkbox@1.7.1
+  - @chakra-ui/layout@1.8.0
+  - @chakra-ui/theme@1.14.1
+  - @chakra-ui/transition@1.4.8
+  - @chakra-ui/input@1.4.6
+  - @chakra-ui/number-input@1.4.7
+  - @chakra-ui/radio@1.5.1
+  - @chakra-ui/select@1.2.11
+  - @chakra-ui/textarea@1.2.11
+  - @chakra-ui/accordion@1.4.11
+  - @chakra-ui/button@1.5.10
+  - @chakra-ui/counter@1.2.10
+  - @chakra-ui/image@1.1.10
+  - @chakra-ui/modal@1.11.1
+  - @chakra-ui/pin-input@1.7.10
+  - @chakra-ui/popover@1.11.9
+  - @chakra-ui/portal@1.3.10
+  - @chakra-ui/provider@1.7.14
+  - @chakra-ui/skeleton@1.2.14
+  - @chakra-ui/slider@1.5.11
+  - @chakra-ui/tabs@1.6.10
+  - @chakra-ui/toast@1.5.9
+  - @chakra-ui/tooltip@1.5.1
+  - @chakra-ui/switch@1.3.10
+  - @chakra-ui/system@1.12.1
+  - @chakra-ui/avatar@1.3.11
 
 ## 1.8.7
 
@@ -1901,34 +1954,34 @@
   [`8e201b9f8`](https://github.com/incmix-ui/incmix-ui/commit/8e201b9f84a914e58cdc9ee90b3e03269fabf4d7),
   [`cedec803f`](https://github.com/incmix-ui/incmix-ui/commit/cedec803fb05b5d92ef32c67352265fc7636500c),
   [`232853068`](https://github.com/incmix-ui/incmix-ui/commit/232853068ab9ec95cd123ccf378b044ad7861ba1)]:
-  - @incmix-ui/tabs@1.6.9
-  - @incmix-ui/checkbox@1.7.0
-  - @incmix-ui/radio@1.5.0
-  - @incmix-ui/editable@1.4.1
-  - @incmix-ui/layout@1.7.8
-  - @incmix-ui/toast@1.5.8
-  - @incmix-ui/hooks@1.9.0
-  - @incmix-ui/tooltip@1.5.0
-  - @incmix-ui/system@1.12.0
-  - @incmix-ui/modal@1.11.0
-  - @incmix-ui/switch@1.3.9
-  - @incmix-ui/accordion@1.4.10
-  - @incmix-ui/button@1.5.9
-  - @incmix-ui/counter@1.2.9
-  - @incmix-ui/form-control@1.5.10
-  - @incmix-ui/image@1.1.9
-  - @incmix-ui/menu@1.8.10
-  - @incmix-ui/number-input@1.4.6
-  - @incmix-ui/pin-input@1.7.9
-  - @incmix-ui/popover@1.11.8
-  - @incmix-ui/portal@1.3.9
-  - @incmix-ui/provider@1.7.13
-  - @incmix-ui/skeleton@1.2.13
-  - @incmix-ui/slider@1.5.10
-  - @incmix-ui/avatar@1.3.10
-  - @incmix-ui/input@1.4.5
-  - @incmix-ui/select@1.2.10
-  - @incmix-ui/textarea@1.2.10
+  - @chakra-ui/tabs@1.6.9
+  - @chakra-ui/checkbox@1.7.0
+  - @chakra-ui/radio@1.5.0
+  - @chakra-ui/editable@1.4.1
+  - @chakra-ui/layout@1.7.8
+  - @chakra-ui/toast@1.5.8
+  - @chakra-ui/hooks@1.9.0
+  - @chakra-ui/tooltip@1.5.0
+  - @chakra-ui/system@1.12.0
+  - @chakra-ui/modal@1.11.0
+  - @chakra-ui/switch@1.3.9
+  - @chakra-ui/accordion@1.4.10
+  - @chakra-ui/button@1.5.9
+  - @chakra-ui/counter@1.2.9
+  - @chakra-ui/form-control@1.5.10
+  - @chakra-ui/image@1.1.9
+  - @chakra-ui/menu@1.8.10
+  - @chakra-ui/number-input@1.4.6
+  - @chakra-ui/pin-input@1.7.9
+  - @chakra-ui/popover@1.11.8
+  - @chakra-ui/portal@1.3.9
+  - @chakra-ui/provider@1.7.13
+  - @chakra-ui/skeleton@1.2.13
+  - @chakra-ui/slider@1.5.10
+  - @chakra-ui/avatar@1.3.10
+  - @chakra-ui/input@1.4.5
+  - @chakra-ui/select@1.2.10
+  - @chakra-ui/textarea@1.2.10
 
 ## 1.8.6
 
@@ -1941,36 +1994,36 @@
   [`d6bed344f`](https://github.com/incmix-ui/incmix-ui/commit/d6bed344f30af50c84d3ed802ec3f0c981586588),
   [`5cd5cff35`](https://github.com/incmix-ui/incmix-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac),
   [`e4da6359d`](https://github.com/incmix-ui/incmix-ui/commit/e4da6359d0a007a4b23959b0b8feed6231a947b6)]:
-  - @incmix-ui/editable@1.4.0
-  - @incmix-ui/layout@1.7.7
-  - @incmix-ui/theme@1.14.0
-  - @incmix-ui/media-query@2.0.4
-  - @incmix-ui/hooks@1.8.5
-  - @incmix-ui/popover@1.11.7
-  - @incmix-ui/menu@1.8.9
-  - @incmix-ui/system@1.11.2
-  - @incmix-ui/skeleton@1.2.12
-  - @incmix-ui/toast@1.5.7
-  - @incmix-ui/accordion@1.4.9
-  - @incmix-ui/button@1.5.8
-  - @incmix-ui/checkbox@1.6.8
-  - @incmix-ui/counter@1.2.8
-  - @incmix-ui/form-control@1.5.9
-  - @incmix-ui/image@1.1.8
-  - @incmix-ui/modal@1.10.10
-  - @incmix-ui/number-input@1.4.5
-  - @incmix-ui/pin-input@1.7.8
-  - @incmix-ui/portal@1.3.8
-  - @incmix-ui/provider@1.7.12
-  - @incmix-ui/radio@1.4.10
-  - @incmix-ui/slider@1.5.9
-  - @incmix-ui/tabs@1.6.8
-  - @incmix-ui/tooltip@1.4.9
-  - @incmix-ui/avatar@1.3.9
-  - @incmix-ui/input@1.4.4
-  - @incmix-ui/select@1.2.9
-  - @incmix-ui/switch@1.3.8
-  - @incmix-ui/textarea@1.2.9
+  - @chakra-ui/editable@1.4.0
+  - @chakra-ui/layout@1.7.7
+  - @chakra-ui/theme@1.14.0
+  - @chakra-ui/media-query@2.0.4
+  - @chakra-ui/hooks@1.8.5
+  - @chakra-ui/popover@1.11.7
+  - @chakra-ui/menu@1.8.9
+  - @chakra-ui/system@1.11.2
+  - @chakra-ui/skeleton@1.2.12
+  - @chakra-ui/toast@1.5.7
+  - @chakra-ui/accordion@1.4.9
+  - @chakra-ui/button@1.5.8
+  - @chakra-ui/checkbox@1.6.8
+  - @chakra-ui/counter@1.2.8
+  - @chakra-ui/form-control@1.5.9
+  - @chakra-ui/image@1.1.8
+  - @chakra-ui/modal@1.10.10
+  - @chakra-ui/number-input@1.4.5
+  - @chakra-ui/pin-input@1.7.8
+  - @chakra-ui/portal@1.3.8
+  - @chakra-ui/provider@1.7.12
+  - @chakra-ui/radio@1.4.10
+  - @chakra-ui/slider@1.5.9
+  - @chakra-ui/tabs@1.6.8
+  - @chakra-ui/tooltip@1.4.9
+  - @chakra-ui/avatar@1.3.9
+  - @chakra-ui/input@1.4.4
+  - @chakra-ui/select@1.2.9
+  - @chakra-ui/switch@1.3.8
+  - @chakra-ui/textarea@1.2.9
 
 ## 1.8.5
 
@@ -1982,53 +2035,53 @@
   CI configuration.
 - Updated dependencies
   [[`e1fe48cbe`](https://github.com/incmix-ui/incmix-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e)]:
-  - @incmix-ui/accordion@1.4.8
-  - @incmix-ui/alert@1.3.7
-  - @incmix-ui/avatar@1.3.8
-  - @incmix-ui/breadcrumb@1.3.6
-  - @incmix-ui/button@1.5.7
-  - @incmix-ui/checkbox@1.6.7
-  - @incmix-ui/close-button@1.2.7
-  - @incmix-ui/control-box@1.1.6
-  - @incmix-ui/counter@1.2.7
-  - @incmix-ui/css-reset@1.1.3
-  - @incmix-ui/editable@1.3.7
-  - @incmix-ui/react-env@1.1.6
-  - @incmix-ui/form-control@1.5.8
-  - @incmix-ui/hooks@1.8.4
-  - @incmix-ui/icon@2.0.5
-  - @incmix-ui/image@1.1.7
-  - @incmix-ui/input@1.4.3
-  - @incmix-ui/layout@1.7.6
-  - @incmix-ui/live-region@1.1.6
-  - @incmix-ui/media-query@2.0.3
-  - @incmix-ui/menu@1.8.8
-  - @incmix-ui/modal@1.10.9
-  - @incmix-ui/number-input@1.4.4
-  - @incmix-ui/pin-input@1.7.7
-  - @incmix-ui/popover@1.11.6
-  - @incmix-ui/popper@2.4.3
-  - @incmix-ui/portal@1.3.7
-  - @incmix-ui/progress@1.2.6
-  - @incmix-ui/provider@1.7.11
-  - @incmix-ui/radio@1.4.9
-  - @incmix-ui/select@1.2.8
-  - @incmix-ui/skeleton@1.2.11
-  - @incmix-ui/slider@1.5.8
-  - @incmix-ui/spinner@1.2.6
-  - @incmix-ui/stat@1.2.7
-  - @incmix-ui/switch@1.3.7
-  - @incmix-ui/system@1.11.1
-  - @incmix-ui/table@1.3.6
-  - @incmix-ui/tabs@1.6.7
-  - @incmix-ui/tag@1.2.7
-  - @incmix-ui/textarea@1.2.8
-  - @incmix-ui/theme@1.13.4
-  - @incmix-ui/toast@1.5.6
-  - @incmix-ui/tooltip@1.4.8
-  - @incmix-ui/transition@1.4.7
-  - @incmix-ui/utils@1.10.4
-  - @incmix-ui/visually-hidden@1.1.6
+  - @chakra-ui/accordion@1.4.8
+  - @chakra-ui/alert@1.3.7
+  - @chakra-ui/avatar@1.3.8
+  - @chakra-ui/breadcrumb@1.3.6
+  - @chakra-ui/button@1.5.7
+  - @chakra-ui/checkbox@1.6.7
+  - @chakra-ui/close-button@1.2.7
+  - @chakra-ui/control-box@1.1.6
+  - @chakra-ui/counter@1.2.7
+  - @chakra-ui/css-reset@1.1.3
+  - @chakra-ui/editable@1.3.7
+  - @chakra-ui/react-env@1.1.6
+  - @chakra-ui/form-control@1.5.8
+  - @chakra-ui/hooks@1.8.4
+  - @chakra-ui/icon@2.0.5
+  - @chakra-ui/image@1.1.7
+  - @chakra-ui/input@1.4.3
+  - @chakra-ui/layout@1.7.6
+  - @chakra-ui/live-region@1.1.6
+  - @chakra-ui/media-query@2.0.3
+  - @chakra-ui/menu@1.8.8
+  - @chakra-ui/modal@1.10.9
+  - @chakra-ui/number-input@1.4.4
+  - @chakra-ui/pin-input@1.7.7
+  - @chakra-ui/popover@1.11.6
+  - @chakra-ui/popper@2.4.3
+  - @chakra-ui/portal@1.3.7
+  - @chakra-ui/progress@1.2.6
+  - @chakra-ui/provider@1.7.11
+  - @chakra-ui/radio@1.4.9
+  - @chakra-ui/select@1.2.8
+  - @chakra-ui/skeleton@1.2.11
+  - @chakra-ui/slider@1.5.8
+  - @chakra-ui/spinner@1.2.6
+  - @chakra-ui/stat@1.2.7
+  - @chakra-ui/switch@1.3.7
+  - @chakra-ui/system@1.11.1
+  - @chakra-ui/table@1.3.6
+  - @chakra-ui/tabs@1.6.7
+  - @chakra-ui/tag@1.2.7
+  - @chakra-ui/textarea@1.2.8
+  - @chakra-ui/theme@1.13.4
+  - @chakra-ui/toast@1.5.6
+  - @chakra-ui/tooltip@1.4.8
+  - @chakra-ui/transition@1.4.7
+  - @chakra-ui/utils@1.10.4
+  - @chakra-ui/visually-hidden@1.1.6
 
 ## 1.8.4
 
@@ -2046,51 +2099,51 @@
   [`99c92df93`](https://github.com/incmix-ui/incmix-ui/commit/99c92df9331e6a0c5667b77e5a605343efccc6b3),
   [`5d4abe4b6`](https://github.com/incmix-ui/incmix-ui/commit/5d4abe4b68bd454389224ac1001084a9929f568b),
   [`0542b8a53`](https://github.com/incmix-ui/incmix-ui/commit/0542b8a53425093f18fd86d2b55220d3fa20253a)]:
-  - @incmix-ui/switch@1.3.6
-  - @incmix-ui/media-query@2.0.2
-  - @incmix-ui/checkbox@1.6.6
-  - @incmix-ui/utils@1.10.3
-  - @incmix-ui/modal@1.10.8
-  - @incmix-ui/icon@2.0.4
-  - @incmix-ui/system@1.11.0
-  - @incmix-ui/tag@1.2.6
-  - @incmix-ui/accordion@1.4.7
-  - @incmix-ui/theme@1.13.3
-  - @incmix-ui/skeleton@1.2.10
-  - @incmix-ui/alert@1.3.6
-  - @incmix-ui/avatar@1.3.7
-  - @incmix-ui/breadcrumb@1.3.5
-  - @incmix-ui/button@1.5.6
-  - @incmix-ui/close-button@1.2.6
-  - @incmix-ui/control-box@1.1.5
-  - @incmix-ui/counter@1.2.6
-  - @incmix-ui/editable@1.3.6
-  - @incmix-ui/react-env@1.1.5
-  - @incmix-ui/form-control@1.5.7
-  - @incmix-ui/hooks@1.8.3
-  - @incmix-ui/image@1.1.6
-  - @incmix-ui/input@1.4.2
-  - @incmix-ui/layout@1.7.5
-  - @incmix-ui/live-region@1.1.5
-  - @incmix-ui/menu@1.8.7
-  - @incmix-ui/number-input@1.4.3
-  - @incmix-ui/pin-input@1.7.6
-  - @incmix-ui/popover@1.11.5
-  - @incmix-ui/portal@1.3.6
-  - @incmix-ui/progress@1.2.5
-  - @incmix-ui/provider@1.7.10
-  - @incmix-ui/radio@1.4.8
-  - @incmix-ui/select@1.2.7
-  - @incmix-ui/slider@1.5.7
-  - @incmix-ui/spinner@1.2.5
-  - @incmix-ui/stat@1.2.6
-  - @incmix-ui/table@1.3.5
-  - @incmix-ui/tabs@1.6.6
-  - @incmix-ui/textarea@1.2.7
-  - @incmix-ui/toast@1.5.5
-  - @incmix-ui/tooltip@1.4.7
-  - @incmix-ui/transition@1.4.6
-  - @incmix-ui/visually-hidden@1.1.5
+  - @chakra-ui/switch@1.3.6
+  - @chakra-ui/media-query@2.0.2
+  - @chakra-ui/checkbox@1.6.6
+  - @chakra-ui/utils@1.10.3
+  - @chakra-ui/modal@1.10.8
+  - @chakra-ui/icon@2.0.4
+  - @chakra-ui/system@1.11.0
+  - @chakra-ui/tag@1.2.6
+  - @chakra-ui/accordion@1.4.7
+  - @chakra-ui/theme@1.13.3
+  - @chakra-ui/skeleton@1.2.10
+  - @chakra-ui/alert@1.3.6
+  - @chakra-ui/avatar@1.3.7
+  - @chakra-ui/breadcrumb@1.3.5
+  - @chakra-ui/button@1.5.6
+  - @chakra-ui/close-button@1.2.6
+  - @chakra-ui/control-box@1.1.5
+  - @chakra-ui/counter@1.2.6
+  - @chakra-ui/editable@1.3.6
+  - @chakra-ui/react-env@1.1.5
+  - @chakra-ui/form-control@1.5.7
+  - @chakra-ui/hooks@1.8.3
+  - @chakra-ui/image@1.1.6
+  - @chakra-ui/input@1.4.2
+  - @chakra-ui/layout@1.7.5
+  - @chakra-ui/live-region@1.1.5
+  - @chakra-ui/menu@1.8.7
+  - @chakra-ui/number-input@1.4.3
+  - @chakra-ui/pin-input@1.7.6
+  - @chakra-ui/popover@1.11.5
+  - @chakra-ui/portal@1.3.6
+  - @chakra-ui/progress@1.2.5
+  - @chakra-ui/provider@1.7.10
+  - @chakra-ui/radio@1.4.8
+  - @chakra-ui/select@1.2.7
+  - @chakra-ui/slider@1.5.7
+  - @chakra-ui/spinner@1.2.5
+  - @chakra-ui/stat@1.2.6
+  - @chakra-ui/table@1.3.5
+  - @chakra-ui/tabs@1.6.6
+  - @chakra-ui/textarea@1.2.7
+  - @chakra-ui/toast@1.5.5
+  - @chakra-ui/tooltip@1.4.7
+  - @chakra-ui/transition@1.4.6
+  - @chakra-ui/visually-hidden@1.1.5
 
 ## 1.8.3
 
@@ -2103,53 +2156,53 @@
 
 - Updated dependencies
   [[`a503acabe`](https://github.com/incmix-ui/incmix-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083)]:
-  - @incmix-ui/accordion@1.4.6
-  - @incmix-ui/alert@1.3.5
-  - @incmix-ui/avatar@1.3.6
-  - @incmix-ui/breadcrumb@1.3.4
-  - @incmix-ui/button@1.5.5
-  - @incmix-ui/checkbox@1.6.5
-  - @incmix-ui/close-button@1.2.5
-  - @incmix-ui/control-box@1.1.4
-  - @incmix-ui/counter@1.2.5
-  - @incmix-ui/css-reset@1.1.2
-  - @incmix-ui/editable@1.3.5
-  - @incmix-ui/react-env@1.1.4
-  - @incmix-ui/form-control@1.5.6
-  - @incmix-ui/hooks@1.8.2
-  - @incmix-ui/icon@2.0.3
-  - @incmix-ui/image@1.1.5
-  - @incmix-ui/input@1.4.1
-  - @incmix-ui/layout@1.7.4
-  - @incmix-ui/live-region@1.1.4
-  - @incmix-ui/media-query@2.0.1
-  - @incmix-ui/menu@1.8.6
-  - @incmix-ui/modal@1.10.7
-  - @incmix-ui/number-input@1.4.2
-  - @incmix-ui/pin-input@1.7.5
-  - @incmix-ui/popover@1.11.4
-  - @incmix-ui/popper@2.4.2
-  - @incmix-ui/portal@1.3.5
-  - @incmix-ui/progress@1.2.4
-  - @incmix-ui/provider@1.7.9
-  - @incmix-ui/radio@1.4.7
-  - @incmix-ui/select@1.2.6
-  - @incmix-ui/skeleton@1.2.9
-  - @incmix-ui/slider@1.5.6
-  - @incmix-ui/spinner@1.2.4
-  - @incmix-ui/stat@1.2.5
-  - @incmix-ui/switch@1.3.5
-  - @incmix-ui/system@1.10.3
-  - @incmix-ui/table@1.3.4
-  - @incmix-ui/tabs@1.6.5
-  - @incmix-ui/tag@1.2.5
-  - @incmix-ui/textarea@1.2.6
-  - @incmix-ui/theme@1.13.2
-  - @incmix-ui/toast@1.5.4
-  - @incmix-ui/tooltip@1.4.6
-  - @incmix-ui/transition@1.4.5
-  - @incmix-ui/utils@1.10.2
-  - @incmix-ui/visually-hidden@1.1.4
+  - @chakra-ui/accordion@1.4.6
+  - @chakra-ui/alert@1.3.5
+  - @chakra-ui/avatar@1.3.6
+  - @chakra-ui/breadcrumb@1.3.4
+  - @chakra-ui/button@1.5.5
+  - @chakra-ui/checkbox@1.6.5
+  - @chakra-ui/close-button@1.2.5
+  - @chakra-ui/control-box@1.1.4
+  - @chakra-ui/counter@1.2.5
+  - @chakra-ui/css-reset@1.1.2
+  - @chakra-ui/editable@1.3.5
+  - @chakra-ui/react-env@1.1.4
+  - @chakra-ui/form-control@1.5.6
+  - @chakra-ui/hooks@1.8.2
+  - @chakra-ui/icon@2.0.3
+  - @chakra-ui/image@1.1.5
+  - @chakra-ui/input@1.4.1
+  - @chakra-ui/layout@1.7.4
+  - @chakra-ui/live-region@1.1.4
+  - @chakra-ui/media-query@2.0.1
+  - @chakra-ui/menu@1.8.6
+  - @chakra-ui/modal@1.10.7
+  - @chakra-ui/number-input@1.4.2
+  - @chakra-ui/pin-input@1.7.5
+  - @chakra-ui/popover@1.11.4
+  - @chakra-ui/popper@2.4.2
+  - @chakra-ui/portal@1.3.5
+  - @chakra-ui/progress@1.2.4
+  - @chakra-ui/provider@1.7.9
+  - @chakra-ui/radio@1.4.7
+  - @chakra-ui/select@1.2.6
+  - @chakra-ui/skeleton@1.2.9
+  - @chakra-ui/slider@1.5.6
+  - @chakra-ui/spinner@1.2.4
+  - @chakra-ui/stat@1.2.5
+  - @chakra-ui/switch@1.3.5
+  - @chakra-ui/system@1.10.3
+  - @chakra-ui/table@1.3.4
+  - @chakra-ui/tabs@1.6.5
+  - @chakra-ui/tag@1.2.5
+  - @chakra-ui/textarea@1.2.6
+  - @chakra-ui/theme@1.13.2
+  - @chakra-ui/toast@1.5.4
+  - @chakra-ui/tooltip@1.4.6
+  - @chakra-ui/transition@1.4.5
+  - @chakra-ui/utils@1.10.2
+  - @chakra-ui/visually-hidden@1.1.4
 
 ## 1.8.2
 
@@ -2171,60 +2224,60 @@
   [`6d2affcdd`](https://github.com/incmix-ui/incmix-ui/commit/6d2affcdd390fe013eff684569573200b97e9e88),
   [`f149c6c9a`](https://github.com/incmix-ui/incmix-ui/commit/f149c6c9aa04b8c0abebaa6ac8dc72c7f8ceed35),
   [`98c5ec2bc`](https://github.com/incmix-ui/incmix-ui/commit/98c5ec2bc37fc0764446c3e4df816131418c14e1)]:
-  - @incmix-ui/input@1.4.0
-  - @incmix-ui/media-query@2.0.0
-  - @incmix-ui/tooltip@1.4.5
-  - @incmix-ui/accordion@1.4.5
-  - @incmix-ui/checkbox@1.6.4
-  - @incmix-ui/menu@1.8.5
-  - @incmix-ui/modal@1.10.6
-  - @incmix-ui/popover@1.11.3
-  - @incmix-ui/switch@1.3.4
-  - @incmix-ui/toast@1.5.3
-  - @incmix-ui/transition@1.4.4
-  - @incmix-ui/utils@1.10.1
-  - @incmix-ui/system@1.10.2
-  - @incmix-ui/form-control@1.5.5
-  - @incmix-ui/skeleton@1.2.8
-  - @incmix-ui/theme@1.13.1
-  - @incmix-ui/alert@1.3.4
-  - @incmix-ui/avatar@1.3.5
-  - @incmix-ui/breadcrumb@1.3.3
-  - @incmix-ui/button@1.5.4
-  - @incmix-ui/close-button@1.2.4
-  - @incmix-ui/control-box@1.1.3
-  - @incmix-ui/counter@1.2.4
-  - @incmix-ui/editable@1.3.4
-  - @incmix-ui/react-env@1.1.3
-  - @incmix-ui/hooks@1.8.1
-  - @incmix-ui/icon@2.0.2
-  - @incmix-ui/image@1.1.4
-  - @incmix-ui/layout@1.7.3
-  - @incmix-ui/live-region@1.1.3
-  - @incmix-ui/number-input@1.4.1
-  - @incmix-ui/pin-input@1.7.4
-  - @incmix-ui/portal@1.3.4
-  - @incmix-ui/progress@1.2.3
-  - @incmix-ui/provider@1.7.8
-  - @incmix-ui/radio@1.4.6
-  - @incmix-ui/select@1.2.5
-  - @incmix-ui/slider@1.5.5
-  - @incmix-ui/spinner@1.2.3
-  - @incmix-ui/stat@1.2.4
-  - @incmix-ui/table@1.3.3
-  - @incmix-ui/tabs@1.6.4
-  - @incmix-ui/tag@1.2.4
-  - @incmix-ui/textarea@1.2.5
-  - @incmix-ui/visually-hidden@1.1.3
+  - @chakra-ui/input@1.4.0
+  - @chakra-ui/media-query@2.0.0
+  - @chakra-ui/tooltip@1.4.5
+  - @chakra-ui/accordion@1.4.5
+  - @chakra-ui/checkbox@1.6.4
+  - @chakra-ui/menu@1.8.5
+  - @chakra-ui/modal@1.10.6
+  - @chakra-ui/popover@1.11.3
+  - @chakra-ui/switch@1.3.4
+  - @chakra-ui/toast@1.5.3
+  - @chakra-ui/transition@1.4.4
+  - @chakra-ui/utils@1.10.1
+  - @chakra-ui/system@1.10.2
+  - @chakra-ui/form-control@1.5.5
+  - @chakra-ui/skeleton@1.2.8
+  - @chakra-ui/theme@1.13.1
+  - @chakra-ui/alert@1.3.4
+  - @chakra-ui/avatar@1.3.5
+  - @chakra-ui/breadcrumb@1.3.3
+  - @chakra-ui/button@1.5.4
+  - @chakra-ui/close-button@1.2.4
+  - @chakra-ui/control-box@1.1.3
+  - @chakra-ui/counter@1.2.4
+  - @chakra-ui/editable@1.3.4
+  - @chakra-ui/react-env@1.1.3
+  - @chakra-ui/hooks@1.8.1
+  - @chakra-ui/icon@2.0.2
+  - @chakra-ui/image@1.1.4
+  - @chakra-ui/layout@1.7.3
+  - @chakra-ui/live-region@1.1.3
+  - @chakra-ui/number-input@1.4.1
+  - @chakra-ui/pin-input@1.7.4
+  - @chakra-ui/portal@1.3.4
+  - @chakra-ui/progress@1.2.3
+  - @chakra-ui/provider@1.7.8
+  - @chakra-ui/radio@1.4.6
+  - @chakra-ui/select@1.2.5
+  - @chakra-ui/slider@1.5.5
+  - @chakra-ui/spinner@1.2.3
+  - @chakra-ui/stat@1.2.4
+  - @chakra-ui/table@1.3.3
+  - @chakra-ui/tabs@1.6.4
+  - @chakra-ui/tag@1.2.4
+  - @chakra-ui/textarea@1.2.5
+  - @chakra-ui/visually-hidden@1.1.3
 
 ## 1.8.1
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @incmix-ui/system@1.10.1
-  - @incmix-ui/provider@1.7.7
-  - @incmix-ui/skeleton@1.2.7
+  - @chakra-ui/system@1.10.1
+  - @chakra-ui/provider@1.7.7
+  - @chakra-ui/skeleton@1.2.7
 
 ## 1.8.0
 
@@ -2252,51 +2305,51 @@
   [`a5f3bfce8`](https://github.com/incmix-ui/incmix-ui/commit/a5f3bfce846b44c9a4bdcd0bb80c17eb38da75a7),
   [`e4f5ee819`](https://github.com/incmix-ui/incmix-ui/commit/e4f5ee8195280316d11a27140affcdbb15aa356a),
   [`da90855dd`](https://github.com/incmix-ui/incmix-ui/commit/da90855dd120ff6b4ba6e99e98fb88308c90f003)]:
-  - @incmix-ui/number-input@1.4.0
-  - @incmix-ui/theme@1.13.0
-  - @incmix-ui/system@1.10.0
-  - @incmix-ui/popover@1.11.2
-  - @incmix-ui/menu@1.8.4
-  - @incmix-ui/media-query@1.2.4
-  - @incmix-ui/hooks@1.8.0
-  - @incmix-ui/slider@1.5.4
-  - @incmix-ui/button@1.5.3
-  - @incmix-ui/utils@1.10.0
-  - @incmix-ui/checkbox@1.6.3
-  - @incmix-ui/toast@1.5.2
-  - @incmix-ui/accordion@1.4.4
-  - @incmix-ui/alert@1.3.3
-  - @incmix-ui/avatar@1.3.4
-  - @incmix-ui/breadcrumb@1.3.2
-  - @incmix-ui/close-button@1.2.3
-  - @incmix-ui/control-box@1.1.2
-  - @incmix-ui/editable@1.3.3
-  - @incmix-ui/form-control@1.5.4
-  - @incmix-ui/icon@2.0.1
-  - @incmix-ui/image@1.1.3
-  - @incmix-ui/input@1.3.4
-  - @incmix-ui/layout@1.7.2
-  - @incmix-ui/modal@1.10.5
-  - @incmix-ui/pin-input@1.7.3
-  - @incmix-ui/progress@1.2.2
-  - @incmix-ui/provider@1.7.6
-  - @incmix-ui/radio@1.4.5
-  - @incmix-ui/select@1.2.4
-  - @incmix-ui/skeleton@1.2.6
-  - @incmix-ui/spinner@1.2.2
-  - @incmix-ui/stat@1.2.3
-  - @incmix-ui/switch@1.3.3
-  - @incmix-ui/table@1.3.2
-  - @incmix-ui/tabs@1.6.3
-  - @incmix-ui/tag@1.2.3
-  - @incmix-ui/textarea@1.2.4
-  - @incmix-ui/tooltip@1.4.4
-  - @incmix-ui/visually-hidden@1.1.2
-  - @incmix-ui/counter@1.2.3
-  - @incmix-ui/portal@1.3.3
-  - @incmix-ui/react-env@1.1.2
-  - @incmix-ui/live-region@1.1.2
-  - @incmix-ui/transition@1.4.3
+  - @chakra-ui/number-input@1.4.0
+  - @chakra-ui/theme@1.13.0
+  - @chakra-ui/system@1.10.0
+  - @chakra-ui/popover@1.11.2
+  - @chakra-ui/menu@1.8.4
+  - @chakra-ui/media-query@1.2.4
+  - @chakra-ui/hooks@1.8.0
+  - @chakra-ui/slider@1.5.4
+  - @chakra-ui/button@1.5.3
+  - @chakra-ui/utils@1.10.0
+  - @chakra-ui/checkbox@1.6.3
+  - @chakra-ui/toast@1.5.2
+  - @chakra-ui/accordion@1.4.4
+  - @chakra-ui/alert@1.3.3
+  - @chakra-ui/avatar@1.3.4
+  - @chakra-ui/breadcrumb@1.3.2
+  - @chakra-ui/close-button@1.2.3
+  - @chakra-ui/control-box@1.1.2
+  - @chakra-ui/editable@1.3.3
+  - @chakra-ui/form-control@1.5.4
+  - @chakra-ui/icon@2.0.1
+  - @chakra-ui/image@1.1.3
+  - @chakra-ui/input@1.3.4
+  - @chakra-ui/layout@1.7.2
+  - @chakra-ui/modal@1.10.5
+  - @chakra-ui/pin-input@1.7.3
+  - @chakra-ui/progress@1.2.2
+  - @chakra-ui/provider@1.7.6
+  - @chakra-ui/radio@1.4.5
+  - @chakra-ui/select@1.2.4
+  - @chakra-ui/skeleton@1.2.6
+  - @chakra-ui/spinner@1.2.2
+  - @chakra-ui/stat@1.2.3
+  - @chakra-ui/switch@1.3.3
+  - @chakra-ui/table@1.3.2
+  - @chakra-ui/tabs@1.6.3
+  - @chakra-ui/tag@1.2.3
+  - @chakra-ui/textarea@1.2.4
+  - @chakra-ui/tooltip@1.4.4
+  - @chakra-ui/visually-hidden@1.1.2
+  - @chakra-ui/counter@1.2.3
+  - @chakra-ui/portal@1.3.3
+  - @chakra-ui/react-env@1.1.2
+  - @chakra-ui/live-region@1.1.2
+  - @chakra-ui/transition@1.4.3
 
 ## 1.7.5
 
@@ -2307,12 +2360,12 @@
   [`a54757cd9`](https://github.com/incmix-ui/incmix-ui/commit/a54757cd9ef8f72b3a69428ec9012a8c318acfab),
   [`5f9407742`](https://github.com/incmix-ui/incmix-ui/commit/5f940774223c5b747a5b6eccff7657eabbe34776),
   [`d2d9af846`](https://github.com/incmix-ui/incmix-ui/commit/d2d9af8464d627d0ab854ad64a42d3c0be81d67d)]:
-  - @incmix-ui/modal@1.10.4
-  - @incmix-ui/avatar@1.3.3
-  - @incmix-ui/layout@1.7.1
-  - @incmix-ui/system@1.9.1
-  - @incmix-ui/provider@1.7.5
-  - @incmix-ui/skeleton@1.2.5
+  - @chakra-ui/modal@1.10.4
+  - @chakra-ui/avatar@1.3.3
+  - @chakra-ui/layout@1.7.1
+  - @chakra-ui/system@1.9.1
+  - @chakra-ui/provider@1.7.5
+  - @chakra-ui/skeleton@1.2.5
 
 ## 1.7.4
 
@@ -2332,36 +2385,36 @@
   [`e624a277a`](https://github.com/incmix-ui/incmix-ui/commit/e624a277ac7f75af9ec5c1d2cc010b54c165f430),
   [`eb5850687`](https://github.com/incmix-ui/incmix-ui/commit/eb5850687e0984d95c3dd06e57716188c69cae42),
   [`bc2613a9a`](https://github.com/incmix-ui/incmix-ui/commit/bc2613a9ab8273c844ed071947164f0a82ad9ea4)]:
-  - @incmix-ui/system@1.9.0
-  - @incmix-ui/slider@1.5.3
-  - @incmix-ui/hooks@1.7.2
-  - @incmix-ui/checkbox@1.6.2
-  - @incmix-ui/radio@1.4.4
-  - @incmix-ui/menu@1.8.3
-  - @incmix-ui/theme@1.12.3
-  - @incmix-ui/editable@1.3.2
-  - @incmix-ui/tooltip@1.4.3
-  - @incmix-ui/layout@1.7.0
-  - @incmix-ui/media-query@1.2.3
-  - @incmix-ui/accordion@1.4.3
-  - @incmix-ui/avatar@1.3.2
-  - @incmix-ui/button@1.5.2
-  - @incmix-ui/form-control@1.5.3
-  - @incmix-ui/image@1.1.2
-  - @incmix-ui/input@1.3.3
-  - @incmix-ui/modal@1.10.3
-  - @incmix-ui/number-input@1.3.3
-  - @incmix-ui/pin-input@1.7.2
-  - @incmix-ui/popover@1.11.1
-  - @incmix-ui/provider@1.7.4
-  - @incmix-ui/select@1.2.3
-  - @incmix-ui/skeleton@1.2.4
-  - @incmix-ui/switch@1.3.2
-  - @incmix-ui/tabs@1.6.2
-  - @incmix-ui/textarea@1.2.3
-  - @incmix-ui/toast@1.5.1
-  - @incmix-ui/counter@1.2.2
-  - @incmix-ui/portal@1.3.2
+  - @chakra-ui/system@1.9.0
+  - @chakra-ui/slider@1.5.3
+  - @chakra-ui/hooks@1.7.2
+  - @chakra-ui/checkbox@1.6.2
+  - @chakra-ui/radio@1.4.4
+  - @chakra-ui/menu@1.8.3
+  - @chakra-ui/theme@1.12.3
+  - @chakra-ui/editable@1.3.2
+  - @chakra-ui/tooltip@1.4.3
+  - @chakra-ui/layout@1.7.0
+  - @chakra-ui/media-query@1.2.3
+  - @chakra-ui/accordion@1.4.3
+  - @chakra-ui/avatar@1.3.2
+  - @chakra-ui/button@1.5.2
+  - @chakra-ui/form-control@1.5.3
+  - @chakra-ui/image@1.1.2
+  - @chakra-ui/input@1.3.3
+  - @chakra-ui/modal@1.10.3
+  - @chakra-ui/number-input@1.3.3
+  - @chakra-ui/pin-input@1.7.2
+  - @chakra-ui/popover@1.11.1
+  - @chakra-ui/provider@1.7.4
+  - @chakra-ui/select@1.2.3
+  - @chakra-ui/skeleton@1.2.4
+  - @chakra-ui/switch@1.3.2
+  - @chakra-ui/tabs@1.6.2
+  - @chakra-ui/textarea@1.2.3
+  - @chakra-ui/toast@1.5.1
+  - @chakra-ui/counter@1.2.2
+  - @chakra-ui/portal@1.3.2
 
 ## 1.7.3
 
@@ -2370,8 +2423,8 @@
 - [#5133](https://github.com/incmix-ui/incmix-ui/pull/5133)
   [`6efe10f21`](https://github.com/incmix-ui/incmix-ui/commit/6efe10f21077992acf0edd0a97f8d877bf97180c)
   Thanks [@yoannfleurydev](https://github.com/yoannfleurydev)! - Update
-  storybook url configuration for `@incmix-ui/react` to
-  [https://storybook.incmix-ui.com](https://storybook.incmix-ui.com)
+  storybook url configuration for `@chakra-ui/react` to
+  [https://storybook.chakra-ui.com](https://storybook.chakra-ui.com)
 - Updated dependencies
   [[`26d2a547b`](https://github.com/incmix-ui/incmix-ui/commit/26d2a547bca20e197f352c7492e3cad197b513e6),
   [`cd0b7996b`](https://github.com/incmix-ui/incmix-ui/commit/cd0b7996b3f9df999cd87371f1a4a1384a10063e),
@@ -2387,30 +2440,30 @@
   [`39846457e`](https://github.com/incmix-ui/incmix-ui/commit/39846457e241e6af3d18c77cdc0ba02857fe7462),
   [`f4fd9441e`](https://github.com/incmix-ui/incmix-ui/commit/f4fd9441eae40d135dfe9ae911a9b4547b4647f5),
   [`17400aff6`](https://github.com/incmix-ui/incmix-ui/commit/17400aff62601c1b70dcc4e60af1fadf3915f3e0)]:
-  - @incmix-ui/layout@1.6.0
-  - @incmix-ui/menu@1.8.2
-  - @incmix-ui/popover@1.11.0
-  - @incmix-ui/input@1.3.2
-  - @incmix-ui/system@1.8.3
-  - @incmix-ui/theme@1.12.2
-  - @incmix-ui/toast@1.5.0
-  - @incmix-ui/tooltip@1.4.2
-  - @incmix-ui/media-query@1.2.2
-  - @incmix-ui/transition@1.4.2
-  - @incmix-ui/icon@2.0.0
-  - @incmix-ui/accordion@1.4.2
-  - @incmix-ui/alert@1.3.2
-  - @incmix-ui/close-button@1.2.2
-  - @incmix-ui/form-control@1.5.2
-  - @incmix-ui/modal@1.10.2
-  - @incmix-ui/number-input@1.3.2
-  - @incmix-ui/provider@1.7.3
-  - @incmix-ui/radio@1.4.3
-  - @incmix-ui/select@1.2.2
-  - @incmix-ui/skeleton@1.2.3
-  - @incmix-ui/stat@1.2.2
-  - @incmix-ui/tag@1.2.2
-  - @incmix-ui/textarea@1.2.2
+  - @chakra-ui/layout@1.6.0
+  - @chakra-ui/menu@1.8.2
+  - @chakra-ui/popover@1.11.0
+  - @chakra-ui/input@1.3.2
+  - @chakra-ui/system@1.8.3
+  - @chakra-ui/theme@1.12.2
+  - @chakra-ui/toast@1.5.0
+  - @chakra-ui/tooltip@1.4.2
+  - @chakra-ui/media-query@1.2.2
+  - @chakra-ui/transition@1.4.2
+  - @chakra-ui/icon@2.0.0
+  - @chakra-ui/accordion@1.4.2
+  - @chakra-ui/alert@1.3.2
+  - @chakra-ui/close-button@1.2.2
+  - @chakra-ui/form-control@1.5.2
+  - @chakra-ui/modal@1.10.2
+  - @chakra-ui/number-input@1.3.2
+  - @chakra-ui/provider@1.7.3
+  - @chakra-ui/radio@1.4.3
+  - @chakra-ui/select@1.2.2
+  - @chakra-ui/skeleton@1.2.3
+  - @chakra-ui/stat@1.2.2
+  - @chakra-ui/tag@1.2.2
+  - @chakra-ui/textarea@1.2.2
 
 ## 1.7.2
 
@@ -2419,11 +2472,11 @@
 - Updated dependencies
   [[`e29634a07`](https://github.com/incmix-ui/incmix-ui/commit/e29634a07544f36e753d942ad8008b0198eddc53),
   [`002e3a488`](https://github.com/incmix-ui/incmix-ui/commit/002e3a48887c2ceb37bafceb8d4aa248b8dfa22f)]:
-  - @incmix-ui/radio@1.4.2
-  - @incmix-ui/slider@1.5.2
-  - @incmix-ui/system@1.8.2
-  - @incmix-ui/provider@1.7.2
-  - @incmix-ui/skeleton@1.2.2
+  - @chakra-ui/radio@1.4.2
+  - @chakra-ui/slider@1.5.2
+  - @chakra-ui/system@1.8.2
+  - @chakra-ui/provider@1.7.2
+  - @chakra-ui/skeleton@1.2.2
 
 ## 1.7.1
 
@@ -2437,53 +2490,53 @@
 - Updated dependencies
   [[`042994eb0`](https://github.com/incmix-ui/incmix-ui/commit/042994eb0866e4f49cc286f64f54962f613a4423),
   [`b28142946`](https://github.com/incmix-ui/incmix-ui/commit/b281429462a099b7fd7f9352e837cd28d1a2da0e)]:
-  - @incmix-ui/media-query@1.2.1
-  - @incmix-ui/accordion@1.4.1
-  - @incmix-ui/alert@1.3.1
-  - @incmix-ui/avatar@1.3.1
-  - @incmix-ui/breadcrumb@1.3.1
-  - @incmix-ui/button@1.5.1
-  - @incmix-ui/checkbox@1.6.1
-  - @incmix-ui/close-button@1.2.1
-  - @incmix-ui/control-box@1.1.1
-  - @incmix-ui/counter@1.2.1
-  - @incmix-ui/css-reset@1.1.1
-  - @incmix-ui/editable@1.3.1
-  - @incmix-ui/react-env@1.1.1
-  - @incmix-ui/form-control@1.5.1
-  - @incmix-ui/hooks@1.7.1
-  - @incmix-ui/icon@1.2.1
-  - @incmix-ui/image@1.1.1
-  - @incmix-ui/input@1.3.1
-  - @incmix-ui/layout@1.5.1
-  - @incmix-ui/live-region@1.1.1
-  - @incmix-ui/menu@1.8.1
-  - @incmix-ui/modal@1.10.1
-  - @incmix-ui/number-input@1.3.1
-  - @incmix-ui/pin-input@1.7.1
-  - @incmix-ui/popover@1.10.1
-  - @incmix-ui/popper@2.4.1
-  - @incmix-ui/portal@1.3.1
-  - @incmix-ui/progress@1.2.1
-  - @incmix-ui/provider@1.7.1
-  - @incmix-ui/radio@1.4.1
-  - @incmix-ui/select@1.2.1
-  - @incmix-ui/skeleton@1.2.1
-  - @incmix-ui/slider@1.5.1
-  - @incmix-ui/spinner@1.2.1
-  - @incmix-ui/stat@1.2.1
-  - @incmix-ui/switch@1.3.1
-  - @incmix-ui/system@1.8.1
-  - @incmix-ui/table@1.3.1
-  - @incmix-ui/tabs@1.6.1
-  - @incmix-ui/tag@1.2.1
-  - @incmix-ui/textarea@1.2.1
-  - @incmix-ui/theme@1.12.1
-  - @incmix-ui/toast@1.4.1
-  - @incmix-ui/tooltip@1.4.1
-  - @incmix-ui/transition@1.4.1
-  - @incmix-ui/utils@1.9.1
-  - @incmix-ui/visually-hidden@1.1.1
+  - @chakra-ui/media-query@1.2.1
+  - @chakra-ui/accordion@1.4.1
+  - @chakra-ui/alert@1.3.1
+  - @chakra-ui/avatar@1.3.1
+  - @chakra-ui/breadcrumb@1.3.1
+  - @chakra-ui/button@1.5.1
+  - @chakra-ui/checkbox@1.6.1
+  - @chakra-ui/close-button@1.2.1
+  - @chakra-ui/control-box@1.1.1
+  - @chakra-ui/counter@1.2.1
+  - @chakra-ui/css-reset@1.1.1
+  - @chakra-ui/editable@1.3.1
+  - @chakra-ui/react-env@1.1.1
+  - @chakra-ui/form-control@1.5.1
+  - @chakra-ui/hooks@1.7.1
+  - @chakra-ui/icon@1.2.1
+  - @chakra-ui/image@1.1.1
+  - @chakra-ui/input@1.3.1
+  - @chakra-ui/layout@1.5.1
+  - @chakra-ui/live-region@1.1.1
+  - @chakra-ui/menu@1.8.1
+  - @chakra-ui/modal@1.10.1
+  - @chakra-ui/number-input@1.3.1
+  - @chakra-ui/pin-input@1.7.1
+  - @chakra-ui/popover@1.10.1
+  - @chakra-ui/popper@2.4.1
+  - @chakra-ui/portal@1.3.1
+  - @chakra-ui/progress@1.2.1
+  - @chakra-ui/provider@1.7.1
+  - @chakra-ui/radio@1.4.1
+  - @chakra-ui/select@1.2.1
+  - @chakra-ui/skeleton@1.2.1
+  - @chakra-ui/slider@1.5.1
+  - @chakra-ui/spinner@1.2.1
+  - @chakra-ui/stat@1.2.1
+  - @chakra-ui/switch@1.3.1
+  - @chakra-ui/system@1.8.1
+  - @chakra-ui/table@1.3.1
+  - @chakra-ui/tabs@1.6.1
+  - @chakra-ui/tag@1.2.1
+  - @chakra-ui/textarea@1.2.1
+  - @chakra-ui/theme@1.12.1
+  - @chakra-ui/toast@1.4.1
+  - @chakra-ui/tooltip@1.4.1
+  - @chakra-ui/transition@1.4.1
+  - @chakra-ui/utils@1.9.1
+  - @chakra-ui/visually-hidden@1.1.1
 
 ## 1.7.0
 
@@ -2502,17 +2555,17 @@
   **Potential Breaking Change:** The side effect of this is that, if you
   imported any function, component or hook using the **undocumented** approach
   like
-  `import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"`,
+  `import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"`,
   you'll notice that the this doesn't work anymore.
 
   Here's how to resolve it:
 
   ```jsx live=false
   // Won't work 🎇
-  import { useOutsideClick } from "@incmix-ui/hooks/dist/use-outside-click"
+  import { useOutsideClick } from "@chakra-ui/hooks/dist/use-outside-click"
 
   // Works ✅
-  import { useOutsideClick } from "@incmix-ui/hooks"
+  import { useOutsideClick } from "@chakra-ui/hooks"
   ```
 
   If this affected your project, we recommend that you import hooks, functions
@@ -2526,53 +2579,53 @@
   [`c7277cdf7`](https://github.com/incmix-ui/incmix-ui/commit/c7277cdf715626926b3c12cfdc62a230b00609f0),
   [`802e0a4d2`](https://github.com/incmix-ui/incmix-ui/commit/802e0a4d2762eebd39bb337442609fc2ff75841e),
   [`6095eaf9a`](https://github.com/incmix-ui/incmix-ui/commit/6095eaf9ac64a7e4d9f934bcb530bae2a92111a6)]:
-  - @incmix-ui/select@1.2.0
-  - @incmix-ui/theme@1.12.0
-  - @incmix-ui/slider@1.5.0
-  - @incmix-ui/modal@1.10.0
-  - @incmix-ui/accordion@1.4.0
-  - @incmix-ui/alert@1.3.0
-  - @incmix-ui/avatar@1.3.0
-  - @incmix-ui/breadcrumb@1.3.0
-  - @incmix-ui/button@1.5.0
-  - @incmix-ui/checkbox@1.6.0
-  - @incmix-ui/close-button@1.2.0
-  - @incmix-ui/control-box@1.1.0
-  - @incmix-ui/counter@1.2.0
-  - @incmix-ui/css-reset@1.1.0
-  - @incmix-ui/editable@1.3.0
-  - @incmix-ui/react-env@1.1.0
-  - @incmix-ui/form-control@1.5.0
-  - @incmix-ui/hooks@1.7.0
-  - @incmix-ui/icon@1.2.0
-  - @incmix-ui/image@1.1.0
-  - @incmix-ui/input@1.3.0
-  - @incmix-ui/layout@1.5.0
-  - @incmix-ui/live-region@1.1.0
-  - @incmix-ui/media-query@1.2.0
-  - @incmix-ui/menu@1.8.0
-  - @incmix-ui/number-input@1.3.0
-  - @incmix-ui/pin-input@1.7.0
-  - @incmix-ui/popover@1.10.0
-  - @incmix-ui/popper@2.4.0
-  - @incmix-ui/portal@1.3.0
-  - @incmix-ui/progress@1.2.0
-  - @incmix-ui/provider@1.7.0
-  - @incmix-ui/radio@1.4.0
-  - @incmix-ui/skeleton@1.2.0
-  - @incmix-ui/spinner@1.2.0
-  - @incmix-ui/stat@1.2.0
-  - @incmix-ui/switch@1.3.0
-  - @incmix-ui/system@1.8.0
-  - @incmix-ui/table@1.3.0
-  - @incmix-ui/tabs@1.6.0
-  - @incmix-ui/tag@1.2.0
-  - @incmix-ui/textarea@1.2.0
-  - @incmix-ui/toast@1.4.0
-  - @incmix-ui/tooltip@1.4.0
-  - @incmix-ui/transition@1.4.0
-  - @incmix-ui/utils@1.9.0
-  - @incmix-ui/visually-hidden@1.1.0
+  - @chakra-ui/select@1.2.0
+  - @chakra-ui/theme@1.12.0
+  - @chakra-ui/slider@1.5.0
+  - @chakra-ui/modal@1.10.0
+  - @chakra-ui/accordion@1.4.0
+  - @chakra-ui/alert@1.3.0
+  - @chakra-ui/avatar@1.3.0
+  - @chakra-ui/breadcrumb@1.3.0
+  - @chakra-ui/button@1.5.0
+  - @chakra-ui/checkbox@1.6.0
+  - @chakra-ui/close-button@1.2.0
+  - @chakra-ui/control-box@1.1.0
+  - @chakra-ui/counter@1.2.0
+  - @chakra-ui/css-reset@1.1.0
+  - @chakra-ui/editable@1.3.0
+  - @chakra-ui/react-env@1.1.0
+  - @chakra-ui/form-control@1.5.0
+  - @chakra-ui/hooks@1.7.0
+  - @chakra-ui/icon@1.2.0
+  - @chakra-ui/image@1.1.0
+  - @chakra-ui/input@1.3.0
+  - @chakra-ui/layout@1.5.0
+  - @chakra-ui/live-region@1.1.0
+  - @chakra-ui/media-query@1.2.0
+  - @chakra-ui/menu@1.8.0
+  - @chakra-ui/number-input@1.3.0
+  - @chakra-ui/pin-input@1.7.0
+  - @chakra-ui/popover@1.10.0
+  - @chakra-ui/popper@2.4.0
+  - @chakra-ui/portal@1.3.0
+  - @chakra-ui/progress@1.2.0
+  - @chakra-ui/provider@1.7.0
+  - @chakra-ui/radio@1.4.0
+  - @chakra-ui/skeleton@1.2.0
+  - @chakra-ui/spinner@1.2.0
+  - @chakra-ui/stat@1.2.0
+  - @chakra-ui/switch@1.3.0
+  - @chakra-ui/system@1.8.0
+  - @chakra-ui/table@1.3.0
+  - @chakra-ui/tabs@1.6.0
+  - @chakra-ui/tag@1.2.0
+  - @chakra-ui/textarea@1.2.0
+  - @chakra-ui/toast@1.4.0
+  - @chakra-ui/tooltip@1.4.0
+  - @chakra-ui/transition@1.4.0
+  - @chakra-ui/utils@1.9.0
+  - @chakra-ui/visually-hidden@1.1.0
 
 ## 1.6.12
 
@@ -2589,22 +2642,22 @@
   [`97bad87c7`](https://github.com/incmix-ui/incmix-ui/commit/97bad87c7b8b4ff31f705a9d55b392385d921a33),
   [`c3f016149`](https://github.com/incmix-ui/incmix-ui/commit/c3f01614929d2f68a39cf78111d17f4f4c684706),
   [`f2df9cfc1`](https://github.com/incmix-ui/incmix-ui/commit/f2df9cfc1c3c2ef3f3b74ec2849079fd726cd84c)]:
-  - @incmix-ui/radio@1.3.13
-  - @incmix-ui/checkbox@1.5.10
-  - @incmix-ui/menu@1.7.8
-  - @incmix-ui/modal@1.9.4
-  - @incmix-ui/popover@1.9.1
-  - @incmix-ui/theme@1.11.1
-  - @incmix-ui/toast@1.3.4
-  - @incmix-ui/tooltip@1.3.14
-  - @incmix-ui/transition@1.3.8
-  - @incmix-ui/media-query@1.1.5
-  - @incmix-ui/popper@2.3.1
-  - @incmix-ui/switch@1.2.13
-  - @incmix-ui/accordion@1.3.10
-  - @incmix-ui/skeleton@1.1.21
-  - @incmix-ui/system@1.7.6
-  - @incmix-ui/provider@1.6.11
+  - @chakra-ui/radio@1.3.13
+  - @chakra-ui/checkbox@1.5.10
+  - @chakra-ui/menu@1.7.8
+  - @chakra-ui/modal@1.9.4
+  - @chakra-ui/popover@1.9.1
+  - @chakra-ui/theme@1.11.1
+  - @chakra-ui/toast@1.3.4
+  - @chakra-ui/tooltip@1.3.14
+  - @chakra-ui/transition@1.3.8
+  - @chakra-ui/media-query@1.1.5
+  - @chakra-ui/popper@2.3.1
+  - @chakra-ui/switch@1.2.13
+  - @chakra-ui/accordion@1.3.10
+  - @chakra-ui/skeleton@1.1.21
+  - @chakra-ui/system@1.7.6
+  - @chakra-ui/provider@1.6.11
 
 ## 1.6.11
 
@@ -2613,7 +2666,7 @@
 - [`cd0893c56`](https://github.com/incmix-ui/incmix-ui/commit/cd0893c561d8c72b69db7c03d10adae752468a4f)
   [#4873](https://github.com/incmix-ui/incmix-ui/pull/4873) Thanks
   [@Nfinished](https://github.com/Nfinished)! - fix: always use fromEntries
-  polyfill from @incmix-ui/utils #4872
+  polyfill from @chakra-ui/utils #4872
 
 - Updated dependencies
   [[`f5b00bdc2`](https://github.com/incmix-ui/incmix-ui/commit/f5b00bdc26d107c68469c9d15914cf6280fd7fd1),
@@ -2627,51 +2680,51 @@
   [`c28d9232d`](https://github.com/incmix-ui/incmix-ui/commit/c28d9232df555e88d149c17f2116600350c83b14),
   [`cd0893c56`](https://github.com/incmix-ui/incmix-ui/commit/cd0893c561d8c72b69db7c03d10adae752468a4f),
   [`45e3a8b4b`](https://github.com/incmix-ui/incmix-ui/commit/45e3a8b4bd117d5339c02da3d81a943ef193ce1f)]:
-  - @incmix-ui/switch@1.2.12
-  - @incmix-ui/popover@1.9.0
-  - @incmix-ui/theme@1.11.0
-  - @incmix-ui/slider@1.4.2
-  - @incmix-ui/hooks@1.6.2
-  - @incmix-ui/system@1.7.5
-  - @incmix-ui/menu@1.7.7
-  - @incmix-ui/radio@1.3.12
-  - @incmix-ui/breadcrumb@1.2.10
-  - @incmix-ui/utils@1.8.4
-  - @incmix-ui/toast@1.3.3
-  - @incmix-ui/accordion@1.3.9
-  - @incmix-ui/button@1.4.6
-  - @incmix-ui/checkbox@1.5.9
-  - @incmix-ui/counter@1.1.11
-  - @incmix-ui/editable@1.2.11
-  - @incmix-ui/form-control@1.4.3
-  - @incmix-ui/image@1.0.22
-  - @incmix-ui/modal@1.9.3
-  - @incmix-ui/number-input@1.2.12
-  - @incmix-ui/pin-input@1.6.7
-  - @incmix-ui/portal@1.2.11
-  - @incmix-ui/provider@1.6.10
-  - @incmix-ui/skeleton@1.1.20
-  - @incmix-ui/tabs@1.5.7
-  - @incmix-ui/tooltip@1.3.13
-  - @incmix-ui/alert@1.2.9
-  - @incmix-ui/avatar@1.2.12
-  - @incmix-ui/close-button@1.1.13
-  - @incmix-ui/control-box@1.0.17
-  - @incmix-ui/icon@1.1.13
-  - @incmix-ui/input@1.2.12
-  - @incmix-ui/layout@1.4.11
-  - @incmix-ui/media-query@1.1.4
-  - @incmix-ui/progress@1.1.16
-  - @incmix-ui/select@1.1.17
-  - @incmix-ui/spinner@1.1.14
-  - @incmix-ui/stat@1.1.14
-  - @incmix-ui/table@1.2.8
-  - @incmix-ui/tag@1.1.14
-  - @incmix-ui/textarea@1.1.16
-  - @incmix-ui/visually-hidden@1.0.16
-  - @incmix-ui/react-env@1.0.8
-  - @incmix-ui/live-region@1.0.16
-  - @incmix-ui/transition@1.3.7
+  - @chakra-ui/switch@1.2.12
+  - @chakra-ui/popover@1.9.0
+  - @chakra-ui/theme@1.11.0
+  - @chakra-ui/slider@1.4.2
+  - @chakra-ui/hooks@1.6.2
+  - @chakra-ui/system@1.7.5
+  - @chakra-ui/menu@1.7.7
+  - @chakra-ui/radio@1.3.12
+  - @chakra-ui/breadcrumb@1.2.10
+  - @chakra-ui/utils@1.8.4
+  - @chakra-ui/toast@1.3.3
+  - @chakra-ui/accordion@1.3.9
+  - @chakra-ui/button@1.4.6
+  - @chakra-ui/checkbox@1.5.9
+  - @chakra-ui/counter@1.1.11
+  - @chakra-ui/editable@1.2.11
+  - @chakra-ui/form-control@1.4.3
+  - @chakra-ui/image@1.0.22
+  - @chakra-ui/modal@1.9.3
+  - @chakra-ui/number-input@1.2.12
+  - @chakra-ui/pin-input@1.6.7
+  - @chakra-ui/portal@1.2.11
+  - @chakra-ui/provider@1.6.10
+  - @chakra-ui/skeleton@1.1.20
+  - @chakra-ui/tabs@1.5.7
+  - @chakra-ui/tooltip@1.3.13
+  - @chakra-ui/alert@1.2.9
+  - @chakra-ui/avatar@1.2.12
+  - @chakra-ui/close-button@1.1.13
+  - @chakra-ui/control-box@1.0.17
+  - @chakra-ui/icon@1.1.13
+  - @chakra-ui/input@1.2.12
+  - @chakra-ui/layout@1.4.11
+  - @chakra-ui/media-query@1.1.4
+  - @chakra-ui/progress@1.1.16
+  - @chakra-ui/select@1.1.17
+  - @chakra-ui/spinner@1.1.14
+  - @chakra-ui/stat@1.1.14
+  - @chakra-ui/table@1.2.8
+  - @chakra-ui/tag@1.1.14
+  - @chakra-ui/textarea@1.1.16
+  - @chakra-ui/visually-hidden@1.0.16
+  - @chakra-ui/react-env@1.0.8
+  - @chakra-ui/live-region@1.0.16
+  - @chakra-ui/transition@1.3.7
 
 ## 1.6.10
 
@@ -2689,51 +2742,51 @@
   [`5b4d8ef24`](https://github.com/incmix-ui/incmix-ui/commit/5b4d8ef24017dab1d69aeb5016b53366bdb3bcfd),
   [`126bf17db`](https://github.com/incmix-ui/incmix-ui/commit/126bf17db67d6226e6d48c57ef3b69e5504eaada),
   [`00ef98a33`](https://github.com/incmix-ui/incmix-ui/commit/00ef98a335a96b4db10bed9e2620f0b839203096)]:
-  - @incmix-ui/radio@1.3.11
-  - @incmix-ui/popover@1.8.5
-  - @incmix-ui/utils@1.8.3
-  - @incmix-ui/hooks@1.6.1
-  - @incmix-ui/slider@1.4.1
-  - @incmix-ui/modal@1.9.2
-  - @incmix-ui/checkbox@1.5.8
-  - @incmix-ui/accordion@1.3.8
-  - @incmix-ui/alert@1.2.8
-  - @incmix-ui/avatar@1.2.11
-  - @incmix-ui/breadcrumb@1.2.9
-  - @incmix-ui/button@1.4.5
-  - @incmix-ui/close-button@1.1.12
-  - @incmix-ui/control-box@1.0.16
-  - @incmix-ui/counter@1.1.10
-  - @incmix-ui/editable@1.2.10
-  - @incmix-ui/react-env@1.0.7
-  - @incmix-ui/form-control@1.4.2
-  - @incmix-ui/icon@1.1.12
-  - @incmix-ui/image@1.0.21
-  - @incmix-ui/input@1.2.11
-  - @incmix-ui/layout@1.4.10
-  - @incmix-ui/live-region@1.0.15
-  - @incmix-ui/media-query@1.1.3
-  - @incmix-ui/menu@1.7.6
-  - @incmix-ui/number-input@1.2.11
-  - @incmix-ui/pin-input@1.6.6
-  - @incmix-ui/portal@1.2.10
-  - @incmix-ui/progress@1.1.15
-  - @incmix-ui/provider@1.6.9
-  - @incmix-ui/select@1.1.16
-  - @incmix-ui/skeleton@1.1.19
-  - @incmix-ui/spinner@1.1.13
-  - @incmix-ui/stat@1.1.13
-  - @incmix-ui/switch@1.2.11
-  - @incmix-ui/system@1.7.4
-  - @incmix-ui/table@1.2.7
-  - @incmix-ui/tabs@1.5.6
-  - @incmix-ui/tag@1.1.13
-  - @incmix-ui/textarea@1.1.15
-  - @incmix-ui/theme@1.10.4
-  - @incmix-ui/toast@1.3.2
-  - @incmix-ui/tooltip@1.3.12
-  - @incmix-ui/transition@1.3.6
-  - @incmix-ui/visually-hidden@1.0.15
+  - @chakra-ui/radio@1.3.11
+  - @chakra-ui/popover@1.8.5
+  - @chakra-ui/utils@1.8.3
+  - @chakra-ui/hooks@1.6.1
+  - @chakra-ui/slider@1.4.1
+  - @chakra-ui/modal@1.9.2
+  - @chakra-ui/checkbox@1.5.8
+  - @chakra-ui/accordion@1.3.8
+  - @chakra-ui/alert@1.2.8
+  - @chakra-ui/avatar@1.2.11
+  - @chakra-ui/breadcrumb@1.2.9
+  - @chakra-ui/button@1.4.5
+  - @chakra-ui/close-button@1.1.12
+  - @chakra-ui/control-box@1.0.16
+  - @chakra-ui/counter@1.1.10
+  - @chakra-ui/editable@1.2.10
+  - @chakra-ui/react-env@1.0.7
+  - @chakra-ui/form-control@1.4.2
+  - @chakra-ui/icon@1.1.12
+  - @chakra-ui/image@1.0.21
+  - @chakra-ui/input@1.2.11
+  - @chakra-ui/layout@1.4.10
+  - @chakra-ui/live-region@1.0.15
+  - @chakra-ui/media-query@1.1.3
+  - @chakra-ui/menu@1.7.6
+  - @chakra-ui/number-input@1.2.11
+  - @chakra-ui/pin-input@1.6.6
+  - @chakra-ui/portal@1.2.10
+  - @chakra-ui/progress@1.1.15
+  - @chakra-ui/provider@1.6.9
+  - @chakra-ui/select@1.1.16
+  - @chakra-ui/skeleton@1.1.19
+  - @chakra-ui/spinner@1.1.13
+  - @chakra-ui/stat@1.1.13
+  - @chakra-ui/switch@1.2.11
+  - @chakra-ui/system@1.7.4
+  - @chakra-ui/table@1.2.7
+  - @chakra-ui/tabs@1.5.6
+  - @chakra-ui/tag@1.1.13
+  - @chakra-ui/textarea@1.1.15
+  - @chakra-ui/theme@1.10.4
+  - @chakra-ui/toast@1.3.2
+  - @chakra-ui/tooltip@1.3.12
+  - @chakra-ui/transition@1.3.6
+  - @chakra-ui/visually-hidden@1.0.15
 
 ## 1.6.9
 
@@ -2745,14 +2798,14 @@
   [`eafb21e18`](https://github.com/incmix-ui/incmix-ui/commit/eafb21e1883cf40bfe44e143714d9a480a0cc7da),
   [`b769e88f9`](https://github.com/incmix-ui/incmix-ui/commit/b769e88f977a4e2a8641de57beefd8220bc5dffa),
   [`6f99723f8`](https://github.com/incmix-ui/incmix-ui/commit/6f99723f8b2f170978a34bc4da1dc85228ab4512)]:
-  - @incmix-ui/button@1.4.4
-  - @incmix-ui/slider@1.4.0
-  - @incmix-ui/transition@1.3.5
-  - @incmix-ui/theme@1.10.3
-  - @incmix-ui/toast@1.3.1
-  - @incmix-ui/accordion@1.3.7
-  - @incmix-ui/menu@1.7.5
-  - @incmix-ui/modal@1.9.1
+  - @chakra-ui/button@1.4.4
+  - @chakra-ui/slider@1.4.0
+  - @chakra-ui/transition@1.3.5
+  - @chakra-ui/theme@1.10.3
+  - @chakra-ui/toast@1.3.1
+  - @chakra-ui/accordion@1.3.7
+  - @chakra-ui/menu@1.7.5
+  - @chakra-ui/modal@1.9.1
 
 ## 1.6.8
 
@@ -2773,22 +2826,22 @@
   [`19d9abe75`](https://github.com/incmix-ui/incmix-ui/commit/19d9abe75cf863468b70362ce7eee90f0ad94d29),
   [`87ffdd1cb`](https://github.com/incmix-ui/incmix-ui/commit/87ffdd1cb615e9d4bc8a9af66fb6ae9ef1563caf),
   [`fba77bf32`](https://github.com/incmix-ui/incmix-ui/commit/fba77bf32a817e31327e566484c1b1439f14fb42)]:
-  - @incmix-ui/theme@1.10.2
-  - @incmix-ui/checkbox@1.5.7
-  - @incmix-ui/slider@1.3.0
-  - @incmix-ui/modal@1.9.0
-  - @incmix-ui/image@1.0.20
-  - @incmix-ui/popper@2.3.0
-  - @incmix-ui/avatar@1.2.10
-  - @incmix-ui/toast@1.3.0
-  - @incmix-ui/provider@1.6.8
-  - @incmix-ui/menu@1.7.4
-  - @incmix-ui/button@1.4.3
-  - @incmix-ui/select@1.1.15
-  - @incmix-ui/progress@1.1.14
-  - @incmix-ui/switch@1.2.10
-  - @incmix-ui/popover@1.8.4
-  - @incmix-ui/tooltip@1.3.11
+  - @chakra-ui/theme@1.10.2
+  - @chakra-ui/checkbox@1.5.7
+  - @chakra-ui/slider@1.3.0
+  - @chakra-ui/modal@1.9.0
+  - @chakra-ui/image@1.0.20
+  - @chakra-ui/popper@2.3.0
+  - @chakra-ui/avatar@1.2.10
+  - @chakra-ui/toast@1.3.0
+  - @chakra-ui/provider@1.6.8
+  - @chakra-ui/menu@1.7.4
+  - @chakra-ui/button@1.4.3
+  - @chakra-ui/select@1.1.15
+  - @chakra-ui/progress@1.1.14
+  - @chakra-ui/switch@1.2.10
+  - @chakra-ui/popover@1.8.4
+  - @chakra-ui/tooltip@1.3.11
 
 ## 1.6.7
 
@@ -2796,8 +2849,8 @@
 
 - [`52640a1fd`](https://github.com/incmix-ui/incmix-ui/commit/52640a1fd9089e3c0ffc5dc8e42fcfa7a5752904)
   [#4594](https://github.com/incmix-ui/incmix-ui/pull/4594) Thanks
-  [@feychenie](https://github.com/feychenie)! - Move incmixProvider to a
-  separate package `@incmix-ui/provider`
+  [@feychenie](https://github.com/feychenie)! - Move ChakraProvider to a
+  separate package `@chakra-ui/provider`
 
 * [`e7a732755`](https://github.com/incmix-ui/incmix-ui/commit/e7a732755e8b2447d3193225ba8265f78a9d1d81)
   [#4611](https://github.com/incmix-ui/incmix-ui/pull/4611) Thanks
@@ -2822,35 +2875,35 @@
   [`a48449550`](https://github.com/incmix-ui/incmix-ui/commit/a484495501970cba793b709505c714c2b12304d6),
   [`6532f97eb`](https://github.com/incmix-ui/incmix-ui/commit/6532f97eb13105e126881f709f48f1270ac7f5c9),
   [`633df562f`](https://github.com/incmix-ui/incmix-ui/commit/633df562f4ab22ae5406d5a5cda7661171fc8a65)]:
-  - @incmix-ui/slider@1.2.9
-  - @incmix-ui/skeleton@1.1.18
-  - @incmix-ui/system@1.7.3
-  - @incmix-ui/radio@1.3.10
-  - @incmix-ui/provider@1.6.7
-  - @incmix-ui/hooks@1.6.0
-  - @incmix-ui/toast@1.2.11
-  - @incmix-ui/layout@1.4.9
-  - @incmix-ui/theme@1.10.1
-  - @incmix-ui/accordion@1.3.6
-  - @incmix-ui/avatar@1.2.9
-  - @incmix-ui/checkbox@1.5.6
-  - @incmix-ui/editable@1.2.9
-  - @incmix-ui/form-control@1.4.1
-  - @incmix-ui/image@1.0.19
-  - @incmix-ui/input@1.2.10
-  - @incmix-ui/menu@1.7.3
-  - @incmix-ui/modal@1.8.11
-  - @incmix-ui/number-input@1.2.10
-  - @incmix-ui/pin-input@1.6.5
-  - @incmix-ui/popover@1.8.3
-  - @incmix-ui/progress@1.1.13
-  - @incmix-ui/select@1.1.14
-  - @incmix-ui/switch@1.2.9
-  - @incmix-ui/tabs@1.5.5
-  - @incmix-ui/textarea@1.1.14
-  - @incmix-ui/tooltip@1.3.10
-  - @incmix-ui/counter@1.1.9
-  - @incmix-ui/portal@1.2.9
+  - @chakra-ui/slider@1.2.9
+  - @chakra-ui/skeleton@1.1.18
+  - @chakra-ui/system@1.7.3
+  - @chakra-ui/radio@1.3.10
+  - @chakra-ui/provider@1.6.7
+  - @chakra-ui/hooks@1.6.0
+  - @chakra-ui/toast@1.2.11
+  - @chakra-ui/layout@1.4.9
+  - @chakra-ui/theme@1.10.1
+  - @chakra-ui/accordion@1.3.6
+  - @chakra-ui/avatar@1.2.9
+  - @chakra-ui/checkbox@1.5.6
+  - @chakra-ui/editable@1.2.9
+  - @chakra-ui/form-control@1.4.1
+  - @chakra-ui/image@1.0.19
+  - @chakra-ui/input@1.2.10
+  - @chakra-ui/menu@1.7.3
+  - @chakra-ui/modal@1.8.11
+  - @chakra-ui/number-input@1.2.10
+  - @chakra-ui/pin-input@1.6.5
+  - @chakra-ui/popover@1.8.3
+  - @chakra-ui/progress@1.1.13
+  - @chakra-ui/select@1.1.14
+  - @chakra-ui/switch@1.2.9
+  - @chakra-ui/tabs@1.5.5
+  - @chakra-ui/textarea@1.1.14
+  - @chakra-ui/tooltip@1.3.10
+  - @chakra-ui/counter@1.1.9
+  - @chakra-ui/portal@1.2.9
 
 ## 1.6.6
 
@@ -2869,50 +2922,50 @@
   [`46d0fb099`](https://github.com/incmix-ui/incmix-ui/commit/46d0fb099f415f7f3556c657ecd05e35ec68a9de),
   [`ff4dc7c38`](https://github.com/incmix-ui/incmix-ui/commit/ff4dc7c38310367c0e89522db9e88ae069cb6c2b),
   [`43f66097b`](https://github.com/incmix-ui/incmix-ui/commit/43f66097b39f1c37a4627dd6ca8a85555f35b95c)]:
-  - @incmix-ui/checkbox@1.5.5
-  - @incmix-ui/form-control@1.4.0
-  - @incmix-ui/number-input@1.2.9
-  - @incmix-ui/radio@1.3.9
-  - @incmix-ui/utils@1.8.2
-  - @incmix-ui/button@1.4.2
-  - @incmix-ui/stat@1.1.12
-  - @incmix-ui/theme@1.10.0
-  - @incmix-ui/tooltip@1.3.9
-  - @incmix-ui/slider@1.2.8
-  - @incmix-ui/menu@1.7.2
-  - @incmix-ui/system@1.7.2
-  - @incmix-ui/layout@1.4.8
-  - @incmix-ui/switch@1.2.8
-  - @incmix-ui/input@1.2.9
-  - @incmix-ui/select@1.1.13
-  - @incmix-ui/textarea@1.1.13
-  - @incmix-ui/accordion@1.3.5
-  - @incmix-ui/alert@1.2.7
-  - @incmix-ui/avatar@1.2.8
-  - @incmix-ui/breadcrumb@1.2.8
-  - @incmix-ui/close-button@1.1.11
-  - @incmix-ui/control-box@1.0.15
-  - @incmix-ui/counter@1.1.8
-  - @incmix-ui/editable@1.2.8
-  - @incmix-ui/react-env@1.0.6
-  - @incmix-ui/hooks@1.5.5
-  - @incmix-ui/icon@1.1.11
-  - @incmix-ui/image@1.0.18
-  - @incmix-ui/live-region@1.0.14
-  - @incmix-ui/media-query@1.1.2
-  - @incmix-ui/modal@1.8.10
-  - @incmix-ui/pin-input@1.6.4
-  - @incmix-ui/popover@1.8.2
-  - @incmix-ui/portal@1.2.8
-  - @incmix-ui/progress@1.1.12
-  - @incmix-ui/skeleton@1.1.17
-  - @incmix-ui/spinner@1.1.12
-  - @incmix-ui/table@1.2.6
-  - @incmix-ui/tabs@1.5.4
-  - @incmix-ui/tag@1.1.12
-  - @incmix-ui/toast@1.2.10
-  - @incmix-ui/transition@1.3.4
-  - @incmix-ui/visually-hidden@1.0.14
+  - @chakra-ui/checkbox@1.5.5
+  - @chakra-ui/form-control@1.4.0
+  - @chakra-ui/number-input@1.2.9
+  - @chakra-ui/radio@1.3.9
+  - @chakra-ui/utils@1.8.2
+  - @chakra-ui/button@1.4.2
+  - @chakra-ui/stat@1.1.12
+  - @chakra-ui/theme@1.10.0
+  - @chakra-ui/tooltip@1.3.9
+  - @chakra-ui/slider@1.2.8
+  - @chakra-ui/menu@1.7.2
+  - @chakra-ui/system@1.7.2
+  - @chakra-ui/layout@1.4.8
+  - @chakra-ui/switch@1.2.8
+  - @chakra-ui/input@1.2.9
+  - @chakra-ui/select@1.1.13
+  - @chakra-ui/textarea@1.1.13
+  - @chakra-ui/accordion@1.3.5
+  - @chakra-ui/alert@1.2.7
+  - @chakra-ui/avatar@1.2.8
+  - @chakra-ui/breadcrumb@1.2.8
+  - @chakra-ui/close-button@1.1.11
+  - @chakra-ui/control-box@1.0.15
+  - @chakra-ui/counter@1.1.8
+  - @chakra-ui/editable@1.2.8
+  - @chakra-ui/react-env@1.0.6
+  - @chakra-ui/hooks@1.5.5
+  - @chakra-ui/icon@1.1.11
+  - @chakra-ui/image@1.0.18
+  - @chakra-ui/live-region@1.0.14
+  - @chakra-ui/media-query@1.1.2
+  - @chakra-ui/modal@1.8.10
+  - @chakra-ui/pin-input@1.6.4
+  - @chakra-ui/popover@1.8.2
+  - @chakra-ui/portal@1.2.8
+  - @chakra-ui/progress@1.1.12
+  - @chakra-ui/skeleton@1.1.17
+  - @chakra-ui/spinner@1.1.12
+  - @chakra-ui/table@1.2.6
+  - @chakra-ui/tabs@1.5.4
+  - @chakra-ui/tag@1.1.12
+  - @chakra-ui/toast@1.2.10
+  - @chakra-ui/transition@1.3.4
+  - @chakra-ui/visually-hidden@1.0.14
 
 ## 1.6.5
 
@@ -2921,50 +2974,50 @@
 - Updated dependencies
   [[`4a1e4d93b`](https://github.com/incmix-ui/incmix-ui/commit/4a1e4d93b0a07df7266d40bb66039385b158d3d1),
   [`56e99313e`](https://github.com/incmix-ui/incmix-ui/commit/56e99313e1177978c9842e55696be15c5bbfe8d9)]:
-  - @incmix-ui/utils@1.8.1
-  - @incmix-ui/system@1.7.1
-  - @incmix-ui/theme@1.9.2
-  - @incmix-ui/accordion@1.3.4
-  - @incmix-ui/alert@1.2.6
-  - @incmix-ui/avatar@1.2.7
-  - @incmix-ui/breadcrumb@1.2.7
-  - @incmix-ui/button@1.4.1
-  - @incmix-ui/checkbox@1.5.4
-  - @incmix-ui/close-button@1.1.10
-  - @incmix-ui/control-box@1.0.14
-  - @incmix-ui/counter@1.1.7
-  - @incmix-ui/editable@1.2.7
-  - @incmix-ui/react-env@1.0.5
-  - @incmix-ui/form-control@1.3.8
-  - @incmix-ui/hooks@1.5.4
-  - @incmix-ui/icon@1.1.10
-  - @incmix-ui/image@1.0.17
-  - @incmix-ui/input@1.2.8
-  - @incmix-ui/layout@1.4.7
-  - @incmix-ui/live-region@1.0.13
-  - @incmix-ui/media-query@1.1.1
-  - @incmix-ui/menu@1.7.1
-  - @incmix-ui/modal@1.8.9
-  - @incmix-ui/number-input@1.2.8
-  - @incmix-ui/pin-input@1.6.3
-  - @incmix-ui/popover@1.8.1
-  - @incmix-ui/portal@1.2.7
-  - @incmix-ui/progress@1.1.11
-  - @incmix-ui/radio@1.3.8
-  - @incmix-ui/select@1.1.12
-  - @incmix-ui/skeleton@1.1.16
-  - @incmix-ui/slider@1.2.7
-  - @incmix-ui/spinner@1.1.11
-  - @incmix-ui/stat@1.1.11
-  - @incmix-ui/switch@1.2.7
-  - @incmix-ui/table@1.2.5
-  - @incmix-ui/tabs@1.5.3
-  - @incmix-ui/tag@1.1.11
-  - @incmix-ui/textarea@1.1.12
-  - @incmix-ui/toast@1.2.9
-  - @incmix-ui/tooltip@1.3.8
-  - @incmix-ui/transition@1.3.3
-  - @incmix-ui/visually-hidden@1.0.13
+  - @chakra-ui/utils@1.8.1
+  - @chakra-ui/system@1.7.1
+  - @chakra-ui/theme@1.9.2
+  - @chakra-ui/accordion@1.3.4
+  - @chakra-ui/alert@1.2.6
+  - @chakra-ui/avatar@1.2.7
+  - @chakra-ui/breadcrumb@1.2.7
+  - @chakra-ui/button@1.4.1
+  - @chakra-ui/checkbox@1.5.4
+  - @chakra-ui/close-button@1.1.10
+  - @chakra-ui/control-box@1.0.14
+  - @chakra-ui/counter@1.1.7
+  - @chakra-ui/editable@1.2.7
+  - @chakra-ui/react-env@1.0.5
+  - @chakra-ui/form-control@1.3.8
+  - @chakra-ui/hooks@1.5.4
+  - @chakra-ui/icon@1.1.10
+  - @chakra-ui/image@1.0.17
+  - @chakra-ui/input@1.2.8
+  - @chakra-ui/layout@1.4.7
+  - @chakra-ui/live-region@1.0.13
+  - @chakra-ui/media-query@1.1.1
+  - @chakra-ui/menu@1.7.1
+  - @chakra-ui/modal@1.8.9
+  - @chakra-ui/number-input@1.2.8
+  - @chakra-ui/pin-input@1.6.3
+  - @chakra-ui/popover@1.8.1
+  - @chakra-ui/portal@1.2.7
+  - @chakra-ui/progress@1.1.11
+  - @chakra-ui/radio@1.3.8
+  - @chakra-ui/select@1.1.12
+  - @chakra-ui/skeleton@1.1.16
+  - @chakra-ui/slider@1.2.7
+  - @chakra-ui/spinner@1.1.11
+  - @chakra-ui/stat@1.1.11
+  - @chakra-ui/switch@1.2.7
+  - @chakra-ui/table@1.2.5
+  - @chakra-ui/tabs@1.5.3
+  - @chakra-ui/tag@1.1.11
+  - @chakra-ui/textarea@1.1.12
+  - @chakra-ui/toast@1.2.9
+  - @chakra-ui/tooltip@1.3.8
+  - @chakra-ui/transition@1.3.3
+  - @chakra-ui/visually-hidden@1.0.13
 
 ## 1.6.4
 
@@ -2994,43 +3047,43 @@
   [`245a164f6`](https://github.com/incmix-ui/incmix-ui/commit/245a164f6058e96986b2354017d96816b5d336e9),
   [`5afa7ef49`](https://github.com/incmix-ui/incmix-ui/commit/5afa7ef49c7e3b01bce932e252865226b9511b39),
   [`ff946d73e`](https://github.com/incmix-ui/incmix-ui/commit/ff946d73e121aba4b2ff2740ea22440a1c5fdb85)]:
-  - @incmix-ui/menu@1.7.0
-  - @incmix-ui/tabs@1.5.2
-  - @incmix-ui/popover@1.8.0
-  - @incmix-ui/button@1.4.0
-  - @incmix-ui/media-query@1.1.0
-  - @incmix-ui/theme@1.9.1
-  - @incmix-ui/accordion@1.3.3
-  - @incmix-ui/breadcrumb@1.2.6
-  - @incmix-ui/checkbox@1.5.3
-  - @incmix-ui/editable@1.2.6
-  - @incmix-ui/image@1.0.16
-  - @incmix-ui/layout@1.4.6
-  - @incmix-ui/modal@1.8.8
-  - @incmix-ui/portal@1.2.6
-  - @incmix-ui/progress@1.1.10
-  - @incmix-ui/radio@1.3.7
-  - @incmix-ui/slider@1.2.6
-  - @incmix-ui/spinner@1.1.10
-  - @incmix-ui/tag@1.1.10
-  - @incmix-ui/textarea@1.1.11
-  - @incmix-ui/transition@1.3.2
-  - @incmix-ui/stat@1.1.10
-  - @incmix-ui/hooks@1.5.3
-  - @incmix-ui/control-box@1.0.13
-  - @incmix-ui/number-input@1.2.7
-  - @incmix-ui/toast@1.2.8
-  - @incmix-ui/system@1.7.0
-  - @incmix-ui/popper@2.2.1
-  - @incmix-ui/skeleton@1.1.15
-  - @incmix-ui/switch@1.2.6
-  - @incmix-ui/avatar@1.2.6
-  - @incmix-ui/tooltip@1.3.7
-  - @incmix-ui/counter@1.1.6
-  - @incmix-ui/form-control@1.3.7
-  - @incmix-ui/pin-input@1.6.2
-  - @incmix-ui/input@1.2.7
-  - @incmix-ui/select@1.1.11
+  - @chakra-ui/menu@1.7.0
+  - @chakra-ui/tabs@1.5.2
+  - @chakra-ui/popover@1.8.0
+  - @chakra-ui/button@1.4.0
+  - @chakra-ui/media-query@1.1.0
+  - @chakra-ui/theme@1.9.1
+  - @chakra-ui/accordion@1.3.3
+  - @chakra-ui/breadcrumb@1.2.6
+  - @chakra-ui/checkbox@1.5.3
+  - @chakra-ui/editable@1.2.6
+  - @chakra-ui/image@1.0.16
+  - @chakra-ui/layout@1.4.6
+  - @chakra-ui/modal@1.8.8
+  - @chakra-ui/portal@1.2.6
+  - @chakra-ui/progress@1.1.10
+  - @chakra-ui/radio@1.3.7
+  - @chakra-ui/slider@1.2.6
+  - @chakra-ui/spinner@1.1.10
+  - @chakra-ui/tag@1.1.10
+  - @chakra-ui/textarea@1.1.11
+  - @chakra-ui/transition@1.3.2
+  - @chakra-ui/stat@1.1.10
+  - @chakra-ui/hooks@1.5.3
+  - @chakra-ui/control-box@1.0.13
+  - @chakra-ui/number-input@1.2.7
+  - @chakra-ui/toast@1.2.8
+  - @chakra-ui/system@1.7.0
+  - @chakra-ui/popper@2.2.1
+  - @chakra-ui/skeleton@1.1.15
+  - @chakra-ui/switch@1.2.6
+  - @chakra-ui/avatar@1.2.6
+  - @chakra-ui/tooltip@1.3.7
+  - @chakra-ui/counter@1.1.6
+  - @chakra-ui/form-control@1.3.7
+  - @chakra-ui/pin-input@1.6.2
+  - @chakra-ui/input@1.2.7
+  - @chakra-ui/select@1.1.11
 
 ## 1.6.3
 
@@ -3040,14 +3093,14 @@
   [[`d9f8bea60`](https://github.com/incmix-ui/incmix-ui/commit/d9f8bea6081020c1841cb0d0f094642c7ce71db6),
   [`760607680`](https://github.com/incmix-ui/incmix-ui/commit/76060768093b056a8d645b981da12f147bb7cf0f),
   [`5e24481fc`](https://github.com/incmix-ui/incmix-ui/commit/5e24481fc73b0097d0bac900479d7cc145a92670)]:
-  - @incmix-ui/modal@1.8.7
-  - @incmix-ui/media-query@1.0.14
-  - @incmix-ui/popper@2.2.0
-  - @incmix-ui/menu@1.6.3
-  - @incmix-ui/popover@1.7.1
-  - @incmix-ui/tooltip@1.3.6
-  - @incmix-ui/skeleton@1.1.14
-  - @incmix-ui/system@1.6.7
+  - @chakra-ui/modal@1.8.7
+  - @chakra-ui/media-query@1.0.14
+  - @chakra-ui/popper@2.2.0
+  - @chakra-ui/menu@1.6.3
+  - @chakra-ui/popover@1.7.1
+  - @chakra-ui/tooltip@1.3.6
+  - @chakra-ui/skeleton@1.1.14
+  - @chakra-ui/system@1.6.7
 
 ## 1.6.2
 
@@ -3055,7 +3108,7 @@
 
 - [`ddd5ef4a1`](https://github.com/incmix-ui/incmix-ui/commit/ddd5ef4a1e9cc988c99b80c26579205ea4c57b2f)
   [#3985](https://github.com/incmix-ui/incmix-ui/pull/3985) Thanks
-  [@TimKolberger](https://github.com/TimKolberger)! - `incmixProvider` now
+  [@TimKolberger](https://github.com/TimKolberger)! - `ChakraProvider` now
   accepts the prop `cssVarsRoot` which defaults to `:host, :root`.
 - Updated dependencies
   [[`4f1cf6d6b`](https://github.com/incmix-ui/incmix-ui/commit/4f1cf6d6b9de134806c5f24d6b1c49f5aadae9a8),
@@ -3066,20 +3119,20 @@
   [`c1f8d90ad`](https://github.com/incmix-ui/incmix-ui/commit/c1f8d90ad7ebd9594e9888010170cda7969f0ded),
   [`620f0b7d7`](https://github.com/incmix-ui/incmix-ui/commit/620f0b7d756ffb6bfc6ddf0459e96f774ffbb9be),
   [`4a7f8dab7`](https://github.com/incmix-ui/incmix-ui/commit/4a7f8dab7a9c4507bca05d9b9383de26447a7863)]:
-  - @incmix-ui/theme@1.9.0
-  - @incmix-ui/menu@1.6.2
-  - @incmix-ui/system@1.6.6
-  - @incmix-ui/radio@1.3.6
-  - @incmix-ui/transition@1.3.1
-  - @incmix-ui/form-control@1.3.6
-  - @incmix-ui/number-input@1.2.6
-  - @incmix-ui/toast@1.2.7
-  - @incmix-ui/accordion@1.3.2
-  - @incmix-ui/input@1.2.6
-  - @incmix-ui/modal@1.8.6
-  - @incmix-ui/select@1.1.10
-  - @incmix-ui/skeleton@1.1.13
-  - @incmix-ui/textarea@1.1.10
+  - @chakra-ui/theme@1.9.0
+  - @chakra-ui/menu@1.6.2
+  - @chakra-ui/system@1.6.6
+  - @chakra-ui/radio@1.3.6
+  - @chakra-ui/transition@1.3.1
+  - @chakra-ui/form-control@1.3.6
+  - @chakra-ui/number-input@1.2.6
+  - @chakra-ui/toast@1.2.7
+  - @chakra-ui/accordion@1.3.2
+  - @chakra-ui/input@1.2.6
+  - @chakra-ui/modal@1.8.6
+  - @chakra-ui/select@1.1.10
+  - @chakra-ui/skeleton@1.1.13
+  - @chakra-ui/textarea@1.1.10
 
 ## 1.6.1
 
@@ -3096,50 +3149,50 @@
   [`ad87d837a`](https://github.com/incmix-ui/incmix-ui/commit/ad87d837a9b7b117cec35d0819cc1f4c72769923),
   [`d0f50a46e`](https://github.com/incmix-ui/incmix-ui/commit/d0f50a46ea6c2bcf06d8cad8b9b3994fd934be01),
   [`db8adf204`](https://github.com/incmix-ui/incmix-ui/commit/db8adf20432a2e0b799c3eff9914fc8b5dfca7c6)]:
-  - @incmix-ui/utils@1.8.0
-  - @incmix-ui/popover@1.7.0
-  - @incmix-ui/react-env@1.0.4
-  - @incmix-ui/transition@1.3.0
-  - @incmix-ui/slider@1.2.5
-  - @incmix-ui/menu@1.6.1
-  - @incmix-ui/hooks@1.5.2
-  - @incmix-ui/modal@1.8.5
-  - @incmix-ui/accordion@1.3.1
-  - @incmix-ui/alert@1.2.5
-  - @incmix-ui/avatar@1.2.5
-  - @incmix-ui/breadcrumb@1.2.5
-  - @incmix-ui/button@1.3.2
-  - @incmix-ui/checkbox@1.5.2
-  - @incmix-ui/close-button@1.1.9
-  - @incmix-ui/control-box@1.0.12
-  - @incmix-ui/counter@1.1.5
-  - @incmix-ui/editable@1.2.5
-  - @incmix-ui/form-control@1.3.5
-  - @incmix-ui/icon@1.1.9
-  - @incmix-ui/image@1.0.15
-  - @incmix-ui/input@1.2.5
-  - @incmix-ui/layout@1.4.5
-  - @incmix-ui/live-region@1.0.12
-  - @incmix-ui/media-query@1.0.13
-  - @incmix-ui/number-input@1.2.5
-  - @incmix-ui/pin-input@1.6.1
-  - @incmix-ui/portal@1.2.5
-  - @incmix-ui/progress@1.1.9
-  - @incmix-ui/radio@1.3.5
-  - @incmix-ui/select@1.1.9
-  - @incmix-ui/skeleton@1.1.12
-  - @incmix-ui/spinner@1.1.9
-  - @incmix-ui/stat@1.1.9
-  - @incmix-ui/switch@1.2.5
-  - @incmix-ui/system@1.6.5
-  - @incmix-ui/table@1.2.4
-  - @incmix-ui/tabs@1.5.1
-  - @incmix-ui/tag@1.1.9
-  - @incmix-ui/textarea@1.1.9
-  - @incmix-ui/theme@1.8.5
-  - @incmix-ui/toast@1.2.6
-  - @incmix-ui/tooltip@1.3.5
-  - @incmix-ui/visually-hidden@1.0.12
+  - @chakra-ui/utils@1.8.0
+  - @chakra-ui/popover@1.7.0
+  - @chakra-ui/react-env@1.0.4
+  - @chakra-ui/transition@1.3.0
+  - @chakra-ui/slider@1.2.5
+  - @chakra-ui/menu@1.6.1
+  - @chakra-ui/hooks@1.5.2
+  - @chakra-ui/modal@1.8.5
+  - @chakra-ui/accordion@1.3.1
+  - @chakra-ui/alert@1.2.5
+  - @chakra-ui/avatar@1.2.5
+  - @chakra-ui/breadcrumb@1.2.5
+  - @chakra-ui/button@1.3.2
+  - @chakra-ui/checkbox@1.5.2
+  - @chakra-ui/close-button@1.1.9
+  - @chakra-ui/control-box@1.0.12
+  - @chakra-ui/counter@1.1.5
+  - @chakra-ui/editable@1.2.5
+  - @chakra-ui/form-control@1.3.5
+  - @chakra-ui/icon@1.1.9
+  - @chakra-ui/image@1.0.15
+  - @chakra-ui/input@1.2.5
+  - @chakra-ui/layout@1.4.5
+  - @chakra-ui/live-region@1.0.12
+  - @chakra-ui/media-query@1.0.13
+  - @chakra-ui/number-input@1.2.5
+  - @chakra-ui/pin-input@1.6.1
+  - @chakra-ui/portal@1.2.5
+  - @chakra-ui/progress@1.1.9
+  - @chakra-ui/radio@1.3.5
+  - @chakra-ui/select@1.1.9
+  - @chakra-ui/skeleton@1.1.12
+  - @chakra-ui/spinner@1.1.9
+  - @chakra-ui/stat@1.1.9
+  - @chakra-ui/switch@1.2.5
+  - @chakra-ui/system@1.6.5
+  - @chakra-ui/table@1.2.4
+  - @chakra-ui/tabs@1.5.1
+  - @chakra-ui/tag@1.1.9
+  - @chakra-ui/textarea@1.1.9
+  - @chakra-ui/theme@1.8.5
+  - @chakra-ui/toast@1.2.6
+  - @chakra-ui/tooltip@1.3.5
+  - @chakra-ui/visually-hidden@1.0.12
 
 ## 1.6.0
 
@@ -3157,7 +3210,7 @@
     withDefaultSize,
     withDefaultVariant,
     withDefaultProps,
-  } from "@incmix-ui/react"
+  } from "@chakra-ui/react"
 
   const customTheme = extendTheme(
     {
@@ -3188,7 +3241,7 @@
       components: ["Input", "NumberInput", "PinInput"],
     }),
     // optional:
-    yourCustomBaseTheme, // defaults to our incmix default theme
+    yourCustomBaseTheme, // defaults to our chakra default theme
   )
   ```
 
@@ -3204,51 +3257,51 @@
   [`946f8eab5`](https://github.com/incmix-ui/incmix-ui/commit/946f8eab5b98036db372dc0c85c9e5354c565b58),
   [`1d5e55272`](https://github.com/incmix-ui/incmix-ui/commit/1d5e55272fe1475ce6fa0ed5bdccef4218885f77),
   [`e9ac4cc76`](https://github.com/incmix-ui/incmix-ui/commit/e9ac4cc7629cd79efc753b4e3353bacdad46cd7d)]:
-  - @incmix-ui/pin-input@1.6.0
-  - @incmix-ui/menu@1.6.0
-  - @incmix-ui/accordion@1.3.0
-  - @incmix-ui/tabs@1.5.0
-  - @incmix-ui/button@1.3.1
-  - @incmix-ui/progress@1.1.8
-  - @incmix-ui/theme@1.8.4
-  - @incmix-ui/utils@1.7.0
-  - @incmix-ui/alert@1.2.4
-  - @incmix-ui/avatar@1.2.4
-  - @incmix-ui/breadcrumb@1.2.4
-  - @incmix-ui/checkbox@1.5.1
-  - @incmix-ui/editable@1.2.4
-  - @incmix-ui/form-control@1.3.4
-  - @incmix-ui/hooks@1.5.1
-  - @incmix-ui/input@1.2.4
-  - @incmix-ui/layout@1.4.4
-  - @incmix-ui/modal@1.8.4
-  - @incmix-ui/number-input@1.2.4
-  - @incmix-ui/popover@1.6.1
-  - @incmix-ui/popper@2.1.2
-  - @incmix-ui/portal@1.2.4
-  - @incmix-ui/radio@1.3.4
-  - @incmix-ui/slider@1.2.4
-  - @incmix-ui/system@1.6.4
-  - @incmix-ui/tooltip@1.3.4
-  - @incmix-ui/table@1.2.3
-  - @incmix-ui/toast@1.2.5
-  - @incmix-ui/close-button@1.1.8
-  - @incmix-ui/control-box@1.0.11
-  - @incmix-ui/counter@1.1.4
-  - @incmix-ui/react-env@1.0.3
-  - @incmix-ui/icon@1.1.8
-  - @incmix-ui/image@1.0.14
-  - @incmix-ui/live-region@1.0.11
-  - @incmix-ui/media-query@1.0.12
-  - @incmix-ui/select@1.1.8
-  - @incmix-ui/skeleton@1.1.11
-  - @incmix-ui/spinner@1.1.8
-  - @incmix-ui/stat@1.1.8
-  - @incmix-ui/switch@1.2.4
-  - @incmix-ui/tag@1.1.8
-  - @incmix-ui/textarea@1.1.8
-  - @incmix-ui/transition@1.2.2
-  - @incmix-ui/visually-hidden@1.0.11
+  - @chakra-ui/pin-input@1.6.0
+  - @chakra-ui/menu@1.6.0
+  - @chakra-ui/accordion@1.3.0
+  - @chakra-ui/tabs@1.5.0
+  - @chakra-ui/button@1.3.1
+  - @chakra-ui/progress@1.1.8
+  - @chakra-ui/theme@1.8.4
+  - @chakra-ui/utils@1.7.0
+  - @chakra-ui/alert@1.2.4
+  - @chakra-ui/avatar@1.2.4
+  - @chakra-ui/breadcrumb@1.2.4
+  - @chakra-ui/checkbox@1.5.1
+  - @chakra-ui/editable@1.2.4
+  - @chakra-ui/form-control@1.3.4
+  - @chakra-ui/hooks@1.5.1
+  - @chakra-ui/input@1.2.4
+  - @chakra-ui/layout@1.4.4
+  - @chakra-ui/modal@1.8.4
+  - @chakra-ui/number-input@1.2.4
+  - @chakra-ui/popover@1.6.1
+  - @chakra-ui/popper@2.1.2
+  - @chakra-ui/portal@1.2.4
+  - @chakra-ui/radio@1.3.4
+  - @chakra-ui/slider@1.2.4
+  - @chakra-ui/system@1.6.4
+  - @chakra-ui/tooltip@1.3.4
+  - @chakra-ui/table@1.2.3
+  - @chakra-ui/toast@1.2.5
+  - @chakra-ui/close-button@1.1.8
+  - @chakra-ui/control-box@1.0.11
+  - @chakra-ui/counter@1.1.4
+  - @chakra-ui/react-env@1.0.3
+  - @chakra-ui/icon@1.1.8
+  - @chakra-ui/image@1.0.14
+  - @chakra-ui/live-region@1.0.11
+  - @chakra-ui/media-query@1.0.12
+  - @chakra-ui/select@1.1.8
+  - @chakra-ui/skeleton@1.1.11
+  - @chakra-ui/spinner@1.1.8
+  - @chakra-ui/stat@1.1.8
+  - @chakra-ui/switch@1.2.4
+  - @chakra-ui/tag@1.1.8
+  - @chakra-ui/textarea@1.1.8
+  - @chakra-ui/transition@1.2.2
+  - @chakra-ui/visually-hidden@1.0.11
 
 ## 1.5.2
 
@@ -3265,50 +3318,50 @@
   [`f2544fb58`](https://github.com/incmix-ui/incmix-ui/commit/f2544fb581a6dbe558236ebb11883a273ed61a28),
   [`a139b106f`](https://github.com/incmix-ui/incmix-ui/commit/a139b106f428cadbaaffe9cdbd45ff264804b2c2),
   [`9c6be11b1`](https://github.com/incmix-ui/incmix-ui/commit/9c6be11b1d95f8add314dbe214bc7ce3c67b76cd)]:
-  - @incmix-ui/utils@1.6.0
-  - @incmix-ui/checkbox@1.5.0
-  - @incmix-ui/menu@1.5.0
-  - @incmix-ui/popover@1.6.0
-  - @incmix-ui/button@1.3.0
-  - @incmix-ui/hooks@1.5.0
-  - @incmix-ui/stat@1.1.7
-  - @incmix-ui/tabs@1.4.0
-  - @incmix-ui/react-env@1.0.2
-  - @incmix-ui/slider@1.2.3
-  - @incmix-ui/modal@1.8.3
-  - @incmix-ui/theme@1.8.3
-  - @incmix-ui/accordion@1.2.3
-  - @incmix-ui/alert@1.2.3
-  - @incmix-ui/avatar@1.2.3
-  - @incmix-ui/breadcrumb@1.2.3
-  - @incmix-ui/close-button@1.1.7
-  - @incmix-ui/control-box@1.0.10
-  - @incmix-ui/counter@1.1.3
-  - @incmix-ui/editable@1.2.3
-  - @incmix-ui/form-control@1.3.3
-  - @incmix-ui/icon@1.1.7
-  - @incmix-ui/image@1.0.13
-  - @incmix-ui/input@1.2.3
-  - @incmix-ui/layout@1.4.3
-  - @incmix-ui/live-region@1.0.10
-  - @incmix-ui/media-query@1.0.11
-  - @incmix-ui/number-input@1.2.3
-  - @incmix-ui/pin-input@1.5.3
-  - @incmix-ui/portal@1.2.3
-  - @incmix-ui/progress@1.1.7
-  - @incmix-ui/radio@1.3.3
-  - @incmix-ui/select@1.1.7
-  - @incmix-ui/skeleton@1.1.10
-  - @incmix-ui/spinner@1.1.7
-  - @incmix-ui/switch@1.2.3
-  - @incmix-ui/system@1.6.3
-  - @incmix-ui/table@1.2.2
-  - @incmix-ui/tag@1.1.7
-  - @incmix-ui/textarea@1.1.7
-  - @incmix-ui/toast@1.2.4
-  - @incmix-ui/tooltip@1.3.3
-  - @incmix-ui/transition@1.2.1
-  - @incmix-ui/visually-hidden@1.0.10
+  - @chakra-ui/utils@1.6.0
+  - @chakra-ui/checkbox@1.5.0
+  - @chakra-ui/menu@1.5.0
+  - @chakra-ui/popover@1.6.0
+  - @chakra-ui/button@1.3.0
+  - @chakra-ui/hooks@1.5.0
+  - @chakra-ui/stat@1.1.7
+  - @chakra-ui/tabs@1.4.0
+  - @chakra-ui/react-env@1.0.2
+  - @chakra-ui/slider@1.2.3
+  - @chakra-ui/modal@1.8.3
+  - @chakra-ui/theme@1.8.3
+  - @chakra-ui/accordion@1.2.3
+  - @chakra-ui/alert@1.2.3
+  - @chakra-ui/avatar@1.2.3
+  - @chakra-ui/breadcrumb@1.2.3
+  - @chakra-ui/close-button@1.1.7
+  - @chakra-ui/control-box@1.0.10
+  - @chakra-ui/counter@1.1.3
+  - @chakra-ui/editable@1.2.3
+  - @chakra-ui/form-control@1.3.3
+  - @chakra-ui/icon@1.1.7
+  - @chakra-ui/image@1.0.13
+  - @chakra-ui/input@1.2.3
+  - @chakra-ui/layout@1.4.3
+  - @chakra-ui/live-region@1.0.10
+  - @chakra-ui/media-query@1.0.11
+  - @chakra-ui/number-input@1.2.3
+  - @chakra-ui/pin-input@1.5.3
+  - @chakra-ui/portal@1.2.3
+  - @chakra-ui/progress@1.1.7
+  - @chakra-ui/radio@1.3.3
+  - @chakra-ui/select@1.1.7
+  - @chakra-ui/skeleton@1.1.10
+  - @chakra-ui/spinner@1.1.7
+  - @chakra-ui/switch@1.2.3
+  - @chakra-ui/system@1.6.3
+  - @chakra-ui/table@1.2.2
+  - @chakra-ui/tag@1.1.7
+  - @chakra-ui/textarea@1.1.7
+  - @chakra-ui/toast@1.2.4
+  - @chakra-ui/tooltip@1.3.3
+  - @chakra-ui/transition@1.2.1
+  - @chakra-ui/visually-hidden@1.0.10
 
 ## 1.5.1
 
@@ -3321,7 +3374,7 @@
 
 * [`81a40231f`](https://github.com/incmix-ui/incmix-ui/commit/81a40231f12461dcca0fa0cd3c4e9e2c0497a04d)
   Thanks [@segunadebayo](https://github.com/segunadebayo)! - Add
-  `EnvironmentProvider` to `incmixProvider` for better window and document
+  `EnvironmentProvider` to `ChakraProvider` for better window and document
   detection across hooks and components
 * Updated dependencies
   [[`8b5eb9654`](https://github.com/incmix-ui/incmix-ui/commit/8b5eb9654affe562795d38a19f732f84732a949d),
@@ -3349,51 +3402,51 @@
   [`dd2257935`](https://github.com/incmix-ui/incmix-ui/commit/dd225793575ff88aa2a2114a5840150ac3cf744c),
   [`655b1a878`](https://github.com/incmix-ui/incmix-ui/commit/655b1a878cde607921fe4c9ae6fe41373552c5c3),
   [`890839d9f`](https://github.com/incmix-ui/incmix-ui/commit/890839d9fe32d5ec90954c8f4c5b6c463ff0b57d)]:
-  - @incmix-ui/utils@1.5.2
-  - @incmix-ui/transition@1.2.0
-  - @incmix-ui/theme@1.8.2
-  - @incmix-ui/button@1.2.2
-  - @incmix-ui/tabs@1.3.2
-  - @incmix-ui/tooltip@1.3.2
-  - @incmix-ui/input@1.2.2
-  - @incmix-ui/react-env@1.0.1
-  - @incmix-ui/menu@1.4.0
-  - @incmix-ui/toast@1.2.3
-  - @incmix-ui/editable@1.2.2
-  - @incmix-ui/system@1.6.2
-  - @incmix-ui/layout@1.4.2
-  - @incmix-ui/hooks@1.4.0
-  - @incmix-ui/popper@2.1.1
-  - @incmix-ui/popover@1.5.1
-  - @incmix-ui/spinner@1.1.6
-  - @incmix-ui/progress@1.1.6
-  - @incmix-ui/accordion@1.2.2
-  - @incmix-ui/alert@1.2.2
-  - @incmix-ui/avatar@1.2.2
-  - @incmix-ui/breadcrumb@1.2.2
-  - @incmix-ui/checkbox@1.4.2
-  - @incmix-ui/close-button@1.1.6
-  - @incmix-ui/control-box@1.0.9
-  - @incmix-ui/counter@1.1.2
-  - @incmix-ui/form-control@1.3.2
-  - @incmix-ui/icon@1.1.6
-  - @incmix-ui/image@1.0.12
-  - @incmix-ui/live-region@1.0.9
-  - @incmix-ui/media-query@1.0.10
-  - @incmix-ui/modal@1.8.2
-  - @incmix-ui/number-input@1.2.2
-  - @incmix-ui/pin-input@1.5.2
-  - @incmix-ui/portal@1.2.2
-  - @incmix-ui/radio@1.3.2
-  - @incmix-ui/select@1.1.6
-  - @incmix-ui/skeleton@1.1.9
-  - @incmix-ui/slider@1.2.2
-  - @incmix-ui/stat@1.1.6
-  - @incmix-ui/switch@1.2.2
-  - @incmix-ui/table@1.2.1
-  - @incmix-ui/tag@1.1.6
-  - @incmix-ui/textarea@1.1.6
-  - @incmix-ui/visually-hidden@1.0.9
+  - @chakra-ui/utils@1.5.2
+  - @chakra-ui/transition@1.2.0
+  - @chakra-ui/theme@1.8.2
+  - @chakra-ui/button@1.2.2
+  - @chakra-ui/tabs@1.3.2
+  - @chakra-ui/tooltip@1.3.2
+  - @chakra-ui/input@1.2.2
+  - @chakra-ui/react-env@1.0.1
+  - @chakra-ui/menu@1.4.0
+  - @chakra-ui/toast@1.2.3
+  - @chakra-ui/editable@1.2.2
+  - @chakra-ui/system@1.6.2
+  - @chakra-ui/layout@1.4.2
+  - @chakra-ui/hooks@1.4.0
+  - @chakra-ui/popper@2.1.1
+  - @chakra-ui/popover@1.5.1
+  - @chakra-ui/spinner@1.1.6
+  - @chakra-ui/progress@1.1.6
+  - @chakra-ui/accordion@1.2.2
+  - @chakra-ui/alert@1.2.2
+  - @chakra-ui/avatar@1.2.2
+  - @chakra-ui/breadcrumb@1.2.2
+  - @chakra-ui/checkbox@1.4.2
+  - @chakra-ui/close-button@1.1.6
+  - @chakra-ui/control-box@1.0.9
+  - @chakra-ui/counter@1.1.2
+  - @chakra-ui/form-control@1.3.2
+  - @chakra-ui/icon@1.1.6
+  - @chakra-ui/image@1.0.12
+  - @chakra-ui/live-region@1.0.9
+  - @chakra-ui/media-query@1.0.10
+  - @chakra-ui/modal@1.8.2
+  - @chakra-ui/number-input@1.2.2
+  - @chakra-ui/pin-input@1.5.2
+  - @chakra-ui/portal@1.2.2
+  - @chakra-ui/radio@1.3.2
+  - @chakra-ui/select@1.1.6
+  - @chakra-ui/skeleton@1.1.9
+  - @chakra-ui/slider@1.2.2
+  - @chakra-ui/stat@1.1.6
+  - @chakra-ui/switch@1.2.2
+  - @chakra-ui/table@1.2.1
+  - @chakra-ui/tag@1.1.6
+  - @chakra-ui/textarea@1.1.6
+  - @chakra-ui/visually-hidden@1.0.9
 
 ## 1.5.0
 
@@ -3425,50 +3478,50 @@
   [`75817ec42`](https://github.com/incmix-ui/incmix-ui/commit/75817ec428ca3c078660a7c7f2a1c1b578c474df),
   [`07ddf0f27`](https://github.com/incmix-ui/incmix-ui/commit/07ddf0f276e14f900119668c87947d3e669e09af),
   [`ac21d798a`](https://github.com/incmix-ui/incmix-ui/commit/ac21d798a0759b45de02c6821804f40f492fd80e)]:
-  - @incmix-ui/progress@1.1.5
-  - @incmix-ui/table@1.2.0
-  - @incmix-ui/checkbox@1.4.1
-  - @incmix-ui/number-input@1.2.1
-  - @incmix-ui/radio@1.3.1
-  - @incmix-ui/accordion@1.2.1
-  - @incmix-ui/editable@1.2.1
-  - @incmix-ui/menu@1.3.1
-  - @incmix-ui/popover@1.5.0
-  - @incmix-ui/slider@1.2.1
-  - @incmix-ui/tabs@1.3.1
-  - @incmix-ui/utils@1.5.1
-  - @incmix-ui/toast@1.2.2
-  - @incmix-ui/transition@1.1.2
-  - @incmix-ui/modal@1.8.1
-  - @incmix-ui/tooltip@1.3.1
-  - @incmix-ui/popper@2.1.0
-  - @incmix-ui/theme@1.8.1
-  - @incmix-ui/form-control@1.3.1
-  - @incmix-ui/select@1.1.5
-  - @incmix-ui/alert@1.2.1
-  - @incmix-ui/avatar@1.2.1
-  - @incmix-ui/breadcrumb@1.2.1
-  - @incmix-ui/button@1.2.1
-  - @incmix-ui/hooks@1.3.1
-  - @incmix-ui/input@1.2.1
-  - @incmix-ui/layout@1.4.1
-  - @incmix-ui/pin-input@1.5.1
-  - @incmix-ui/portal@1.2.1
-  - @incmix-ui/switch@1.2.1
-  - @incmix-ui/close-button@1.1.5
-  - @incmix-ui/control-box@1.0.8
-  - @incmix-ui/counter@1.1.1
-  - @incmix-ui/icon@1.1.5
-  - @incmix-ui/image@1.0.11
-  - @incmix-ui/live-region@1.0.8
-  - @incmix-ui/media-query@1.0.9
-  - @incmix-ui/skeleton@1.1.8
-  - @incmix-ui/spinner@1.1.5
-  - @incmix-ui/stat@1.1.5
-  - @incmix-ui/system@1.6.1
-  - @incmix-ui/tag@1.1.5
-  - @incmix-ui/textarea@1.1.5
-  - @incmix-ui/visually-hidden@1.0.8
+  - @chakra-ui/progress@1.1.5
+  - @chakra-ui/table@1.2.0
+  - @chakra-ui/checkbox@1.4.1
+  - @chakra-ui/number-input@1.2.1
+  - @chakra-ui/radio@1.3.1
+  - @chakra-ui/accordion@1.2.1
+  - @chakra-ui/editable@1.2.1
+  - @chakra-ui/menu@1.3.1
+  - @chakra-ui/popover@1.5.0
+  - @chakra-ui/slider@1.2.1
+  - @chakra-ui/tabs@1.3.1
+  - @chakra-ui/utils@1.5.1
+  - @chakra-ui/toast@1.2.2
+  - @chakra-ui/transition@1.1.2
+  - @chakra-ui/modal@1.8.1
+  - @chakra-ui/tooltip@1.3.1
+  - @chakra-ui/popper@2.1.0
+  - @chakra-ui/theme@1.8.1
+  - @chakra-ui/form-control@1.3.1
+  - @chakra-ui/select@1.1.5
+  - @chakra-ui/alert@1.2.1
+  - @chakra-ui/avatar@1.2.1
+  - @chakra-ui/breadcrumb@1.2.1
+  - @chakra-ui/button@1.2.1
+  - @chakra-ui/hooks@1.3.1
+  - @chakra-ui/input@1.2.1
+  - @chakra-ui/layout@1.4.1
+  - @chakra-ui/pin-input@1.5.1
+  - @chakra-ui/portal@1.2.1
+  - @chakra-ui/switch@1.2.1
+  - @chakra-ui/close-button@1.1.5
+  - @chakra-ui/control-box@1.0.8
+  - @chakra-ui/counter@1.1.1
+  - @chakra-ui/icon@1.1.5
+  - @chakra-ui/image@1.0.11
+  - @chakra-ui/live-region@1.0.8
+  - @chakra-ui/media-query@1.0.9
+  - @chakra-ui/skeleton@1.1.8
+  - @chakra-ui/spinner@1.1.5
+  - @chakra-ui/stat@1.1.5
+  - @chakra-ui/system@1.6.1
+  - @chakra-ui/tag@1.1.5
+  - @chakra-ui/textarea@1.1.5
+  - @chakra-ui/visually-hidden@1.0.8
 
 ## 1.4.2
 
@@ -3493,50 +3546,50 @@
   [`428593906`](https://github.com/incmix-ui/incmix-ui/commit/428593906ca3f3423a2e1bc25241169d1bf4de81),
   [`bb5b004ef`](https://github.com/incmix-ui/incmix-ui/commit/bb5b004ef2498d6641e38713868c3e5ed1d8789f),
   [`69ae9f68e`](https://github.com/incmix-ui/incmix-ui/commit/69ae9f68e6f56e9b21660590b7a307f16b5695e8)]:
-  - @incmix-ui/popover@1.4.0
-  - @incmix-ui/layout@1.4.0
-  - @incmix-ui/hooks@1.3.0
-  - @incmix-ui/theme@1.8.0
-  - @incmix-ui/system@1.6.0
-  - @incmix-ui/switch@1.2.0
-  - @incmix-ui/avatar@1.2.0
-  - @incmix-ui/utils@1.5.0
-  - @incmix-ui/counter@1.1.0
-  - @incmix-ui/accordion@1.2.0
-  - @incmix-ui/alert@1.2.0
-  - @incmix-ui/breadcrumb@1.2.0
-  - @incmix-ui/button@1.2.0
-  - @incmix-ui/checkbox@1.4.0
-  - @incmix-ui/editable@1.2.0
-  - @incmix-ui/form-control@1.3.0
-  - @incmix-ui/input@1.2.0
-  - @incmix-ui/menu@1.3.0
-  - @incmix-ui/modal@1.8.0
-  - @incmix-ui/number-input@1.2.0
-  - @incmix-ui/pin-input@1.5.0
-  - @incmix-ui/portal@1.2.0
-  - @incmix-ui/radio@1.3.0
-  - @incmix-ui/slider@1.2.0
-  - @incmix-ui/tabs@1.3.0
-  - @incmix-ui/tooltip@1.3.0
-  - @incmix-ui/toast@1.2.1
-  - @incmix-ui/image@1.0.10
-  - @incmix-ui/skeleton@1.1.7
-  - @incmix-ui/transition@1.1.1
-  - @incmix-ui/close-button@1.1.4
-  - @incmix-ui/control-box@1.0.7
-  - @incmix-ui/icon@1.1.4
-  - @incmix-ui/media-query@1.0.8
-  - @incmix-ui/progress@1.1.4
-  - @incmix-ui/select@1.1.4
-  - @incmix-ui/spinner@1.1.4
-  - @incmix-ui/stat@1.1.4
-  - @incmix-ui/table@1.1.4
-  - @incmix-ui/tag@1.1.4
-  - @incmix-ui/textarea@1.1.4
-  - @incmix-ui/visually-hidden@1.0.7
-  - @incmix-ui/live-region@1.0.7
-  - @incmix-ui/popper@2.0.1
+  - @chakra-ui/popover@1.4.0
+  - @chakra-ui/layout@1.4.0
+  - @chakra-ui/hooks@1.3.0
+  - @chakra-ui/theme@1.8.0
+  - @chakra-ui/system@1.6.0
+  - @chakra-ui/switch@1.2.0
+  - @chakra-ui/avatar@1.2.0
+  - @chakra-ui/utils@1.5.0
+  - @chakra-ui/counter@1.1.0
+  - @chakra-ui/accordion@1.2.0
+  - @chakra-ui/alert@1.2.0
+  - @chakra-ui/breadcrumb@1.2.0
+  - @chakra-ui/button@1.2.0
+  - @chakra-ui/checkbox@1.4.0
+  - @chakra-ui/editable@1.2.0
+  - @chakra-ui/form-control@1.3.0
+  - @chakra-ui/input@1.2.0
+  - @chakra-ui/menu@1.3.0
+  - @chakra-ui/modal@1.8.0
+  - @chakra-ui/number-input@1.2.0
+  - @chakra-ui/pin-input@1.5.0
+  - @chakra-ui/portal@1.2.0
+  - @chakra-ui/radio@1.3.0
+  - @chakra-ui/slider@1.2.0
+  - @chakra-ui/tabs@1.3.0
+  - @chakra-ui/tooltip@1.3.0
+  - @chakra-ui/toast@1.2.1
+  - @chakra-ui/image@1.0.10
+  - @chakra-ui/skeleton@1.1.7
+  - @chakra-ui/transition@1.1.1
+  - @chakra-ui/close-button@1.1.4
+  - @chakra-ui/control-box@1.0.7
+  - @chakra-ui/icon@1.1.4
+  - @chakra-ui/media-query@1.0.8
+  - @chakra-ui/progress@1.1.4
+  - @chakra-ui/select@1.1.4
+  - @chakra-ui/spinner@1.1.4
+  - @chakra-ui/stat@1.1.4
+  - @chakra-ui/table@1.1.4
+  - @chakra-ui/tag@1.1.4
+  - @chakra-ui/textarea@1.1.4
+  - @chakra-ui/visually-hidden@1.0.7
+  - @chakra-ui/live-region@1.0.7
+  - @chakra-ui/popper@2.0.1
 
 ## 1.4.1
 
@@ -3547,8 +3600,8 @@
   for `getWithPriority` to get `textStyle` and `layerStyle` working
   consistently.
 - Updated dependencies []:
-  - @incmix-ui/system@1.5.1
-  - @incmix-ui/skeleton@1.1.6
+  - @chakra-ui/system@1.5.1
+  - @chakra-ui/skeleton@1.1.6
 
 ## 1.4.0
 
@@ -3585,50 +3638,50 @@
   [`91ef14839`](https://github.com/incmix-ui/incmix-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b),
   [`91ef14839`](https://github.com/incmix-ui/incmix-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b),
   [`eece70293`](https://github.com/incmix-ui/incmix-ui/commit/eece70293fb095d016a1ef8f2e367422b3e02ef5)]:
-  - @incmix-ui/system@1.5.0
-  - @incmix-ui/checkbox@1.3.0
-  - @incmix-ui/menu@1.2.0
-  - @incmix-ui/modal@1.7.0
-  - @incmix-ui/popover@1.3.0
-  - @incmix-ui/toast@1.2.0
-  - @incmix-ui/tooltip@1.2.0
-  - @incmix-ui/transition@1.1.0
-  - @incmix-ui/hooks@1.2.0
-  - @incmix-ui/utils@1.4.0
-  - @incmix-ui/layout@1.3.3
-  - @incmix-ui/radio@1.2.5
-  - @incmix-ui/theme@1.7.1
-  - @incmix-ui/editable@1.1.3
-  - @incmix-ui/number-input@1.1.3
-  - @incmix-ui/slider@1.1.3
-  - @incmix-ui/tag@1.1.3
-  - @incmix-ui/avatar@1.1.4
-  - @incmix-ui/popper@2.0.0
-  - @incmix-ui/accordion@1.1.4
-  - @incmix-ui/alert@1.1.3
-  - @incmix-ui/breadcrumb@1.1.3
-  - @incmix-ui/button@1.1.4
-  - @incmix-ui/close-button@1.1.3
-  - @incmix-ui/control-box@1.0.6
-  - @incmix-ui/form-control@1.2.3
-  - @incmix-ui/icon@1.1.3
-  - @incmix-ui/image@1.0.9
-  - @incmix-ui/input@1.1.4
-  - @incmix-ui/media-query@1.0.7
-  - @incmix-ui/pin-input@1.4.2
-  - @incmix-ui/progress@1.1.3
-  - @incmix-ui/select@1.1.3
-  - @incmix-ui/skeleton@1.1.5
-  - @incmix-ui/spinner@1.1.3
-  - @incmix-ui/stat@1.1.3
-  - @incmix-ui/switch@1.1.5
-  - @incmix-ui/table@1.1.3
-  - @incmix-ui/tabs@1.2.1
-  - @incmix-ui/textarea@1.1.3
-  - @incmix-ui/visually-hidden@1.0.6
-  - @incmix-ui/counter@1.0.9
-  - @incmix-ui/portal@1.1.3
-  - @incmix-ui/live-region@1.0.6
+  - @chakra-ui/system@1.5.0
+  - @chakra-ui/checkbox@1.3.0
+  - @chakra-ui/menu@1.2.0
+  - @chakra-ui/modal@1.7.0
+  - @chakra-ui/popover@1.3.0
+  - @chakra-ui/toast@1.2.0
+  - @chakra-ui/tooltip@1.2.0
+  - @chakra-ui/transition@1.1.0
+  - @chakra-ui/hooks@1.2.0
+  - @chakra-ui/utils@1.4.0
+  - @chakra-ui/layout@1.3.3
+  - @chakra-ui/radio@1.2.5
+  - @chakra-ui/theme@1.7.1
+  - @chakra-ui/editable@1.1.3
+  - @chakra-ui/number-input@1.1.3
+  - @chakra-ui/slider@1.1.3
+  - @chakra-ui/tag@1.1.3
+  - @chakra-ui/avatar@1.1.4
+  - @chakra-ui/popper@2.0.0
+  - @chakra-ui/accordion@1.1.4
+  - @chakra-ui/alert@1.1.3
+  - @chakra-ui/breadcrumb@1.1.3
+  - @chakra-ui/button@1.1.4
+  - @chakra-ui/close-button@1.1.3
+  - @chakra-ui/control-box@1.0.6
+  - @chakra-ui/form-control@1.2.3
+  - @chakra-ui/icon@1.1.3
+  - @chakra-ui/image@1.0.9
+  - @chakra-ui/input@1.1.4
+  - @chakra-ui/media-query@1.0.7
+  - @chakra-ui/pin-input@1.4.2
+  - @chakra-ui/progress@1.1.3
+  - @chakra-ui/select@1.1.3
+  - @chakra-ui/skeleton@1.1.5
+  - @chakra-ui/spinner@1.1.3
+  - @chakra-ui/stat@1.1.3
+  - @chakra-ui/switch@1.1.5
+  - @chakra-ui/table@1.1.3
+  - @chakra-ui/tabs@1.2.1
+  - @chakra-ui/textarea@1.1.3
+  - @chakra-ui/visually-hidden@1.0.6
+  - @chakra-ui/counter@1.0.9
+  - @chakra-ui/portal@1.1.3
+  - @chakra-ui/live-region@1.0.6
 
 ## 1.3.4
 
@@ -3654,50 +3707,50 @@
   [`f032942c8`](https://github.com/incmix-ui/incmix-ui/commit/f032942c8a2568a3a23baee0d5972834345e5fa6),
   [`39375c15b`](https://github.com/incmix-ui/incmix-ui/commit/39375c15b64635ea3f59d9f5ad1f31851f9f018b),
   [`1f4d0aa4e`](https://github.com/incmix-ui/incmix-ui/commit/1f4d0aa4eff7ba3caffb0599eb81edfb223a36cc)]:
-  - @incmix-ui/layout@1.3.2
-  - @incmix-ui/modal@1.6.1
-  - @incmix-ui/theme@1.7.0
-  - @incmix-ui/system@1.4.0
-  - @incmix-ui/hooks@1.1.5
-  - @incmix-ui/popper@1.1.5
-  - @incmix-ui/slider@1.1.2
-  - @incmix-ui/utils@1.3.0
-  - @incmix-ui/tabs@1.2.0
-  - @incmix-ui/select@1.1.2
-  - @incmix-ui/toast@1.1.12
-  - @incmix-ui/accordion@1.1.3
-  - @incmix-ui/alert@1.1.2
-  - @incmix-ui/avatar@1.1.3
-  - @incmix-ui/breadcrumb@1.1.2
-  - @incmix-ui/button@1.1.3
-  - @incmix-ui/checkbox@1.2.4
-  - @incmix-ui/close-button@1.1.2
-  - @incmix-ui/control-box@1.0.5
-  - @incmix-ui/editable@1.1.2
-  - @incmix-ui/form-control@1.2.2
-  - @incmix-ui/icon@1.1.2
-  - @incmix-ui/image@1.0.8
-  - @incmix-ui/input@1.1.3
-  - @incmix-ui/media-query@1.0.6
-  - @incmix-ui/menu@1.1.3
-  - @incmix-ui/number-input@1.1.2
-  - @incmix-ui/pin-input@1.4.1
-  - @incmix-ui/popover@1.2.3
-  - @incmix-ui/progress@1.1.2
-  - @incmix-ui/radio@1.2.4
-  - @incmix-ui/skeleton@1.1.4
-  - @incmix-ui/spinner@1.1.2
-  - @incmix-ui/stat@1.1.2
-  - @incmix-ui/switch@1.1.4
-  - @incmix-ui/table@1.1.2
-  - @incmix-ui/tag@1.1.2
-  - @incmix-ui/textarea@1.1.2
-  - @incmix-ui/tooltip@1.1.3
-  - @incmix-ui/visually-hidden@1.0.5
-  - @incmix-ui/counter@1.0.8
-  - @incmix-ui/portal@1.1.2
-  - @incmix-ui/transition@1.0.9
-  - @incmix-ui/live-region@1.0.5
+  - @chakra-ui/layout@1.3.2
+  - @chakra-ui/modal@1.6.1
+  - @chakra-ui/theme@1.7.0
+  - @chakra-ui/system@1.4.0
+  - @chakra-ui/hooks@1.1.5
+  - @chakra-ui/popper@1.1.5
+  - @chakra-ui/slider@1.1.2
+  - @chakra-ui/utils@1.3.0
+  - @chakra-ui/tabs@1.2.0
+  - @chakra-ui/select@1.1.2
+  - @chakra-ui/toast@1.1.12
+  - @chakra-ui/accordion@1.1.3
+  - @chakra-ui/alert@1.1.2
+  - @chakra-ui/avatar@1.1.3
+  - @chakra-ui/breadcrumb@1.1.2
+  - @chakra-ui/button@1.1.3
+  - @chakra-ui/checkbox@1.2.4
+  - @chakra-ui/close-button@1.1.2
+  - @chakra-ui/control-box@1.0.5
+  - @chakra-ui/editable@1.1.2
+  - @chakra-ui/form-control@1.2.2
+  - @chakra-ui/icon@1.1.2
+  - @chakra-ui/image@1.0.8
+  - @chakra-ui/input@1.1.3
+  - @chakra-ui/media-query@1.0.6
+  - @chakra-ui/menu@1.1.3
+  - @chakra-ui/number-input@1.1.2
+  - @chakra-ui/pin-input@1.4.1
+  - @chakra-ui/popover@1.2.3
+  - @chakra-ui/progress@1.1.2
+  - @chakra-ui/radio@1.2.4
+  - @chakra-ui/skeleton@1.1.4
+  - @chakra-ui/spinner@1.1.2
+  - @chakra-ui/stat@1.1.2
+  - @chakra-ui/switch@1.1.4
+  - @chakra-ui/table@1.1.2
+  - @chakra-ui/tag@1.1.2
+  - @chakra-ui/textarea@1.1.2
+  - @chakra-ui/tooltip@1.1.3
+  - @chakra-ui/visually-hidden@1.0.5
+  - @chakra-ui/counter@1.0.8
+  - @chakra-ui/portal@1.1.2
+  - @chakra-ui/transition@1.0.9
+  - @chakra-ui/live-region@1.0.5
 
 ## 1.3.3
 
@@ -3720,18 +3773,18 @@
   [`d6808f0a4`](https://github.com/incmix-ui/incmix-ui/commit/d6808f0a4ae6ad426b498e9556c76071f7aa9848),
   [`8597f58b7`](https://github.com/incmix-ui/incmix-ui/commit/8597f58b7d5c1fe401086d28a379bc1727756c5b),
   [`51ad518e2`](https://github.com/incmix-ui/incmix-ui/commit/51ad518e22642076485bee3dd1f99acbf025161b)]:
-  - @incmix-ui/theme@1.6.2
-  - @incmix-ui/modal@1.6.0
-  - @incmix-ui/checkbox@1.2.3
-  - @incmix-ui/radio@1.2.3
-  - @incmix-ui/popper@1.1.4
-  - @incmix-ui/system@1.3.1
-  - @incmix-ui/toast@1.1.11
-  - @incmix-ui/switch@1.1.3
-  - @incmix-ui/menu@1.1.2
-  - @incmix-ui/popover@1.2.2
-  - @incmix-ui/tooltip@1.1.2
-  - @incmix-ui/skeleton@1.1.3
+  - @chakra-ui/theme@1.6.2
+  - @chakra-ui/modal@1.6.0
+  - @chakra-ui/checkbox@1.2.3
+  - @chakra-ui/radio@1.2.3
+  - @chakra-ui/popper@1.1.4
+  - @chakra-ui/system@1.3.1
+  - @chakra-ui/toast@1.1.11
+  - @chakra-ui/switch@1.1.3
+  - @chakra-ui/menu@1.1.2
+  - @chakra-ui/popover@1.2.2
+  - @chakra-ui/tooltip@1.1.2
+  - @chakra-ui/skeleton@1.1.3
 
 ## 1.3.2
 
@@ -3744,8 +3797,8 @@
   ComponentMultiStyleConfig
 - Updated dependencies
   [[`f3ba8dd53`](https://github.com/incmix-ui/incmix-ui/commit/f3ba8dd53abc697c096165185764235012ada90f)]:
-  - @incmix-ui/theme@1.6.1
-  - @incmix-ui/toast@1.1.10
+  - @chakra-ui/theme@1.6.1
+  - @chakra-ui/toast@1.1.10
 
 ## 1.3.1
 
@@ -3753,13 +3806,13 @@
 
 - Updated dependencies
   [[`01231ed49`](https://github.com/incmix-ui/incmix-ui/commit/01231ed4919521fbe911cb1b035f4beadb340fa5)]:
-  - @incmix-ui/accordion@1.1.2
-  - @incmix-ui/avatar@1.1.2
-  - @incmix-ui/button@1.1.2
-  - @incmix-ui/checkbox@1.2.2
-  - @incmix-ui/input@1.1.2
-  - @incmix-ui/radio@1.2.2
-  - @incmix-ui/switch@1.1.2
+  - @chakra-ui/accordion@1.1.2
+  - @chakra-ui/avatar@1.1.2
+  - @chakra-ui/button@1.1.2
+  - @chakra-ui/checkbox@1.2.2
+  - @chakra-ui/input@1.1.2
+  - @chakra-ui/radio@1.2.2
+  - @chakra-ui/switch@1.1.2
 
 ## 1.3.0
 
@@ -3768,11 +3821,11 @@
 - [`408aaaace`](https://github.com/incmix-ui/incmix-ui/commit/408aaaace0dd413b61354958a4c30b9f2f8aa376)
   [#3227](https://github.com/incmix-ui/incmix-ui/pull/3227) Thanks
   [@TimKolberger](https://github.com/TimKolberger)! - Introducing a generic
-  TypeScript type `incmixTheme` to improve the `extendTheme` function even
+  TypeScript type `ChakraTheme` to improve the `extendTheme` function even
   further.
 
   ```ts
-  import { extendTheme } from "@incmix-ui/react"
+  import { extendTheme } from "@chakra-ui/react"
 
   export const customTheme = extendTheme({
     // here you get autocomplete for
@@ -3789,7 +3842,7 @@
   You can get typesafe access to your custom theme like this:
 
   ```ts
-  import { useTheme } from "@incmix-ui/react"
+  import { useTheme } from "@chakra-ui/react"
   import { MyCustomTheme } from "./my-custom-theme"
 
   const MyComponent = () => {
@@ -3816,50 +3869,50 @@
   [`483687237`](https://github.com/incmix-ui/incmix-ui/commit/483687237f2c4fed05dc6a79693f307c601c1285),
   [`61962345c`](https://github.com/incmix-ui/incmix-ui/commit/61962345c5b1c862445c16c586e304b28c376c9a),
   [`2eb58df12`](https://github.com/incmix-ui/incmix-ui/commit/2eb58df12b2ab1bd29cd02889e2eafa406747036)]:
-  - @incmix-ui/theme@1.6.0
-  - @incmix-ui/tooltip@1.1.1
-  - @incmix-ui/system@1.3.0
-  - @incmix-ui/toast@1.1.9
-  - @incmix-ui/utils@1.2.0
-  - @incmix-ui/input@1.1.1
-  - @incmix-ui/pin-input@1.4.0
-  - @incmix-ui/accordion@1.1.1
-  - @incmix-ui/alert@1.1.1
-  - @incmix-ui/avatar@1.1.1
-  - @incmix-ui/breadcrumb@1.1.1
-  - @incmix-ui/button@1.1.1
-  - @incmix-ui/checkbox@1.2.1
-  - @incmix-ui/close-button@1.1.1
-  - @incmix-ui/control-box@1.0.4
-  - @incmix-ui/editable@1.1.1
-  - @incmix-ui/form-control@1.2.1
-  - @incmix-ui/icon@1.1.1
-  - @incmix-ui/image@1.0.7
-  - @incmix-ui/layout@1.3.1
-  - @incmix-ui/media-query@1.0.5
-  - @incmix-ui/menu@1.1.1
-  - @incmix-ui/modal@1.5.1
-  - @incmix-ui/number-input@1.1.1
-  - @incmix-ui/popover@1.2.1
-  - @incmix-ui/progress@1.1.1
-  - @incmix-ui/radio@1.2.1
-  - @incmix-ui/select@1.1.1
-  - @incmix-ui/skeleton@1.1.2
-  - @incmix-ui/slider@1.1.1
-  - @incmix-ui/spinner@1.1.1
-  - @incmix-ui/stat@1.1.1
-  - @incmix-ui/switch@1.1.1
-  - @incmix-ui/table@1.1.1
-  - @incmix-ui/tabs@1.1.1
-  - @incmix-ui/tag@1.1.1
-  - @incmix-ui/textarea@1.1.1
-  - @incmix-ui/visually-hidden@1.0.4
-  - @incmix-ui/counter@1.0.7
-  - @incmix-ui/hooks@1.1.4
-  - @incmix-ui/live-region@1.0.4
-  - @incmix-ui/popper@1.1.3
-  - @incmix-ui/portal@1.1.1
-  - @incmix-ui/transition@1.0.8
+  - @chakra-ui/theme@1.6.0
+  - @chakra-ui/tooltip@1.1.1
+  - @chakra-ui/system@1.3.0
+  - @chakra-ui/toast@1.1.9
+  - @chakra-ui/utils@1.2.0
+  - @chakra-ui/input@1.1.1
+  - @chakra-ui/pin-input@1.4.0
+  - @chakra-ui/accordion@1.1.1
+  - @chakra-ui/alert@1.1.1
+  - @chakra-ui/avatar@1.1.1
+  - @chakra-ui/breadcrumb@1.1.1
+  - @chakra-ui/button@1.1.1
+  - @chakra-ui/checkbox@1.2.1
+  - @chakra-ui/close-button@1.1.1
+  - @chakra-ui/control-box@1.0.4
+  - @chakra-ui/editable@1.1.1
+  - @chakra-ui/form-control@1.2.1
+  - @chakra-ui/icon@1.1.1
+  - @chakra-ui/image@1.0.7
+  - @chakra-ui/layout@1.3.1
+  - @chakra-ui/media-query@1.0.5
+  - @chakra-ui/menu@1.1.1
+  - @chakra-ui/modal@1.5.1
+  - @chakra-ui/number-input@1.1.1
+  - @chakra-ui/popover@1.2.1
+  - @chakra-ui/progress@1.1.1
+  - @chakra-ui/radio@1.2.1
+  - @chakra-ui/select@1.1.1
+  - @chakra-ui/skeleton@1.1.2
+  - @chakra-ui/slider@1.1.1
+  - @chakra-ui/spinner@1.1.1
+  - @chakra-ui/stat@1.1.1
+  - @chakra-ui/switch@1.1.1
+  - @chakra-ui/table@1.1.1
+  - @chakra-ui/tabs@1.1.1
+  - @chakra-ui/tag@1.1.1
+  - @chakra-ui/textarea@1.1.1
+  - @chakra-ui/visually-hidden@1.0.4
+  - @chakra-ui/counter@1.0.7
+  - @chakra-ui/hooks@1.1.4
+  - @chakra-ui/live-region@1.0.4
+  - @chakra-ui/popper@1.1.3
+  - @chakra-ui/portal@1.1.1
+  - @chakra-ui/transition@1.0.8
 
 ## 1.2.1
 
@@ -3867,8 +3920,8 @@
 
 - Updated dependencies
   [[`2575d6957`](https://github.com/incmix-ui/incmix-ui/commit/2575d6957feb6da82775aacf6fe633b50ca3f81e)]:
-  - @incmix-ui/system@1.2.1
-  - @incmix-ui/skeleton@1.1.1
+  - @chakra-ui/system@1.2.1
+  - @chakra-ui/skeleton@1.1.1
 
 ## 1.2.0
 
@@ -3906,45 +3959,45 @@
   [`709ca0398`](https://github.com/incmix-ui/incmix-ui/commit/709ca0398a8c82c55b85c1364d80b90c5e075257),
   [`b572bceed`](https://github.com/incmix-ui/incmix-ui/commit/b572bceedd9fb0c41c65118f0d9ba672791932ca),
   [`e41e6b81b`](https://github.com/incmix-ui/incmix-ui/commit/e41e6b81bf6943fef9b34e5ddd31ee57b416a426)]:
-  - @incmix-ui/tabs@1.1.0
-  - @incmix-ui/modal@1.5.0
-  - @incmix-ui/tooltip@1.1.0
-  - @incmix-ui/breadcrumb@1.1.0
-  - @incmix-ui/number-input@1.1.0
-  - @incmix-ui/menu@1.1.0
-  - @incmix-ui/theme@1.5.0
-  - @incmix-ui/layout@1.3.0
-  - @incmix-ui/accordion@1.1.0
-  - @incmix-ui/alert@1.1.0
-  - @incmix-ui/avatar@1.1.0
-  - @incmix-ui/button@1.1.0
-  - @incmix-ui/checkbox@1.2.0
-  - @incmix-ui/close-button@1.1.0
-  - @incmix-ui/editable@1.1.0
-  - @incmix-ui/form-control@1.2.0
-  - @incmix-ui/icon@1.1.0
-  - @incmix-ui/input@1.1.0
-  - @incmix-ui/pin-input@1.3.0
-  - @incmix-ui/popover@1.2.0
-  - @incmix-ui/progress@1.1.0
-  - @incmix-ui/radio@1.2.0
-  - @incmix-ui/select@1.1.0
-  - @incmix-ui/skeleton@1.1.0
-  - @incmix-ui/slider@1.1.0
-  - @incmix-ui/spinner@1.1.0
-  - @incmix-ui/stat@1.1.0
-  - @incmix-ui/switch@1.1.0
-  - @incmix-ui/system@1.2.0
-  - @incmix-ui/table@1.1.0
-  - @incmix-ui/tag@1.1.0
-  - @incmix-ui/textarea@1.1.0
-  - @incmix-ui/hooks@1.1.3
-  - @incmix-ui/portal@1.1.0
-  - @incmix-ui/toast@1.1.8
-  - @incmix-ui/image@1.0.6
-  - @incmix-ui/counter@1.0.6
-  - @incmix-ui/popper@1.1.2
-  - @incmix-ui/transition@1.0.7
+  - @chakra-ui/tabs@1.1.0
+  - @chakra-ui/modal@1.5.0
+  - @chakra-ui/tooltip@1.1.0
+  - @chakra-ui/breadcrumb@1.1.0
+  - @chakra-ui/number-input@1.1.0
+  - @chakra-ui/menu@1.1.0
+  - @chakra-ui/theme@1.5.0
+  - @chakra-ui/layout@1.3.0
+  - @chakra-ui/accordion@1.1.0
+  - @chakra-ui/alert@1.1.0
+  - @chakra-ui/avatar@1.1.0
+  - @chakra-ui/button@1.1.0
+  - @chakra-ui/checkbox@1.2.0
+  - @chakra-ui/close-button@1.1.0
+  - @chakra-ui/editable@1.1.0
+  - @chakra-ui/form-control@1.2.0
+  - @chakra-ui/icon@1.1.0
+  - @chakra-ui/input@1.1.0
+  - @chakra-ui/pin-input@1.3.0
+  - @chakra-ui/popover@1.2.0
+  - @chakra-ui/progress@1.1.0
+  - @chakra-ui/radio@1.2.0
+  - @chakra-ui/select@1.1.0
+  - @chakra-ui/skeleton@1.1.0
+  - @chakra-ui/slider@1.1.0
+  - @chakra-ui/spinner@1.1.0
+  - @chakra-ui/stat@1.1.0
+  - @chakra-ui/switch@1.1.0
+  - @chakra-ui/system@1.2.0
+  - @chakra-ui/table@1.1.0
+  - @chakra-ui/tag@1.1.0
+  - @chakra-ui/textarea@1.1.0
+  - @chakra-ui/hooks@1.1.3
+  - @chakra-ui/portal@1.1.0
+  - @chakra-ui/toast@1.1.8
+  - @chakra-ui/image@1.0.6
+  - @chakra-ui/counter@1.0.6
+  - @chakra-ui/popper@1.1.2
+  - @chakra-ui/transition@1.0.7
 
 ## 1.1.6
 
@@ -3958,34 +4011,34 @@
   [`8816f3e3`](https://github.com/incmix-ui/incmix-ui/commit/8816f3e392eafbe283af119c44b900f5728b589e),
   [`07edd6d4`](https://github.com/incmix-ui/incmix-ui/commit/07edd6d4bf9988d95d49399f84f714533f96fb94),
   [`31881da7`](https://github.com/incmix-ui/incmix-ui/commit/31881da7314c9c464d080b7dd83edd59d8786b7c)]:
-  - @incmix-ui/menu@1.0.6
-  - @incmix-ui/layout@1.2.0
-  - @incmix-ui/pin-input@1.2.0
-  - @incmix-ui/hooks@1.1.2
-  - @incmix-ui/select@1.0.6
-  - @incmix-ui/popover@1.1.0
-  - @incmix-ui/portal@1.0.6
-  - @incmix-ui/accordion@1.0.6
-  - @incmix-ui/checkbox@1.1.3
-  - @incmix-ui/counter@1.0.5
-  - @incmix-ui/editable@1.0.5
-  - @incmix-ui/form-control@1.1.3
-  - @incmix-ui/image@1.0.5
-  - @incmix-ui/modal@1.4.5
-  - @incmix-ui/number-input@1.0.6
-  - @incmix-ui/popper@1.1.1
-  - @incmix-ui/radio@1.1.3
-  - @incmix-ui/skeleton@1.0.10
-  - @incmix-ui/slider@1.0.5
-  - @incmix-ui/tabs@1.0.7
-  - @incmix-ui/toast@1.1.7
-  - @incmix-ui/tooltip@1.0.6
-  - @incmix-ui/transition@1.0.6
-  - @incmix-ui/switch@1.0.6
-  - @incmix-ui/system@1.1.7
-  - @incmix-ui/input@1.0.6
-  - @incmix-ui/textarea@1.0.6
-  - @incmix-ui/avatar@1.0.5
+  - @chakra-ui/menu@1.0.6
+  - @chakra-ui/layout@1.2.0
+  - @chakra-ui/pin-input@1.2.0
+  - @chakra-ui/hooks@1.1.2
+  - @chakra-ui/select@1.0.6
+  - @chakra-ui/popover@1.1.0
+  - @chakra-ui/portal@1.0.6
+  - @chakra-ui/accordion@1.0.6
+  - @chakra-ui/checkbox@1.1.3
+  - @chakra-ui/counter@1.0.5
+  - @chakra-ui/editable@1.0.5
+  - @chakra-ui/form-control@1.1.3
+  - @chakra-ui/image@1.0.5
+  - @chakra-ui/modal@1.4.5
+  - @chakra-ui/number-input@1.0.6
+  - @chakra-ui/popper@1.1.1
+  - @chakra-ui/radio@1.1.3
+  - @chakra-ui/skeleton@1.0.10
+  - @chakra-ui/slider@1.0.5
+  - @chakra-ui/tabs@1.0.7
+  - @chakra-ui/toast@1.1.7
+  - @chakra-ui/tooltip@1.0.6
+  - @chakra-ui/transition@1.0.6
+  - @chakra-ui/switch@1.0.6
+  - @chakra-ui/system@1.1.7
+  - @chakra-ui/input@1.0.6
+  - @chakra-ui/textarea@1.0.6
+  - @chakra-ui/avatar@1.0.5
 
 ## 1.1.5
 
@@ -3998,34 +4051,34 @@
   [`b9e2cae0`](https://github.com/incmix-ui/incmix-ui/commit/b9e2cae06277b764278c427dea949abbf3278e92),
   [`0d620f1d`](https://github.com/incmix-ui/incmix-ui/commit/0d620f1d46b9c72c9aef3bb15a691a249ace2eb4),
   [`032f1678`](https://github.com/incmix-ui/incmix-ui/commit/032f16788553b84685de61af5f021c395e09648f)]:
-  - @incmix-ui/progress@1.0.5
-  - @incmix-ui/checkbox@1.1.2
-  - @incmix-ui/menu@1.0.5
-  - @incmix-ui/radio@1.1.2
-  - @incmix-ui/hooks@1.1.1
-  - @incmix-ui/popover@1.0.7
-  - @incmix-ui/portal@1.0.5
-  - @incmix-ui/popper@1.1.0
-  - @incmix-ui/switch@1.0.5
-  - @incmix-ui/system@1.1.6
-  - @incmix-ui/accordion@1.0.5
-  - @incmix-ui/counter@1.0.4
-  - @incmix-ui/editable@1.0.4
-  - @incmix-ui/form-control@1.1.2
-  - @incmix-ui/image@1.0.4
-  - @incmix-ui/modal@1.4.4
-  - @incmix-ui/number-input@1.0.5
-  - @incmix-ui/pin-input@1.1.4
-  - @incmix-ui/skeleton@1.0.9
-  - @incmix-ui/slider@1.0.4
-  - @incmix-ui/tabs@1.0.6
-  - @incmix-ui/toast@1.1.6
-  - @incmix-ui/tooltip@1.0.5
-  - @incmix-ui/transition@1.0.5
-  - @incmix-ui/avatar@1.0.4
-  - @incmix-ui/input@1.0.5
-  - @incmix-ui/select@1.0.5
-  - @incmix-ui/textarea@1.0.5
+  - @chakra-ui/progress@1.0.5
+  - @chakra-ui/checkbox@1.1.2
+  - @chakra-ui/menu@1.0.5
+  - @chakra-ui/radio@1.1.2
+  - @chakra-ui/hooks@1.1.1
+  - @chakra-ui/popover@1.0.7
+  - @chakra-ui/portal@1.0.5
+  - @chakra-ui/popper@1.1.0
+  - @chakra-ui/switch@1.0.5
+  - @chakra-ui/system@1.1.6
+  - @chakra-ui/accordion@1.0.5
+  - @chakra-ui/counter@1.0.4
+  - @chakra-ui/editable@1.0.4
+  - @chakra-ui/form-control@1.1.2
+  - @chakra-ui/image@1.0.4
+  - @chakra-ui/modal@1.4.4
+  - @chakra-ui/number-input@1.0.5
+  - @chakra-ui/pin-input@1.1.4
+  - @chakra-ui/skeleton@1.0.9
+  - @chakra-ui/slider@1.0.4
+  - @chakra-ui/tabs@1.0.6
+  - @chakra-ui/toast@1.1.6
+  - @chakra-ui/tooltip@1.0.5
+  - @chakra-ui/transition@1.0.5
+  - @chakra-ui/avatar@1.0.4
+  - @chakra-ui/input@1.0.5
+  - @chakra-ui/select@1.0.5
+  - @chakra-ui/textarea@1.0.5
 
 ## 1.1.4
 
@@ -4036,50 +4089,50 @@
   [`8b87406c`](https://github.com/incmix-ui/incmix-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54),
   [`8b87406c`](https://github.com/incmix-ui/incmix-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54),
   [`8b87406c`](https://github.com/incmix-ui/incmix-ui/commit/8b87406c3132586be3393117eef80d47ec82fc54)]:
-  - @incmix-ui/form-control@1.1.1
-  - @incmix-ui/theme@1.4.1
-  - @incmix-ui/hooks@1.1.0
-  - @incmix-ui/utils@1.1.0
-  - @incmix-ui/input@1.0.4
-  - @incmix-ui/number-input@1.0.4
-  - @incmix-ui/radio@1.1.1
-  - @incmix-ui/select@1.0.4
-  - @incmix-ui/textarea@1.0.4
-  - @incmix-ui/toast@1.1.5
-  - @incmix-ui/accordion@1.0.4
-  - @incmix-ui/checkbox@1.1.1
-  - @incmix-ui/counter@1.0.3
-  - @incmix-ui/editable@1.0.3
-  - @incmix-ui/image@1.0.3
-  - @incmix-ui/menu@1.0.4
-  - @incmix-ui/modal@1.4.3
-  - @incmix-ui/pin-input@1.1.3
-  - @incmix-ui/popover@1.0.6
-  - @incmix-ui/popper@1.0.3
-  - @incmix-ui/portal@1.0.4
-  - @incmix-ui/skeleton@1.0.8
-  - @incmix-ui/slider@1.0.3
-  - @incmix-ui/tabs@1.0.5
-  - @incmix-ui/tooltip@1.0.4
-  - @incmix-ui/transition@1.0.4
-  - @incmix-ui/alert@1.0.4
-  - @incmix-ui/avatar@1.0.3
-  - @incmix-ui/breadcrumb@1.0.3
-  - @incmix-ui/button@1.0.4
-  - @incmix-ui/close-button@1.0.4
-  - @incmix-ui/control-box@1.0.3
-  - @incmix-ui/icon@1.0.3
-  - @incmix-ui/layout@1.1.3
-  - @incmix-ui/live-region@1.0.3
-  - @incmix-ui/media-query@1.0.4
-  - @incmix-ui/progress@1.0.4
-  - @incmix-ui/spinner@1.0.3
-  - @incmix-ui/stat@1.0.3
-  - @incmix-ui/switch@1.0.4
-  - @incmix-ui/system@1.1.5
-  - @incmix-ui/table@1.0.3
-  - @incmix-ui/tag@1.0.4
-  - @incmix-ui/visually-hidden@1.0.3
+  - @chakra-ui/form-control@1.1.1
+  - @chakra-ui/theme@1.4.1
+  - @chakra-ui/hooks@1.1.0
+  - @chakra-ui/utils@1.1.0
+  - @chakra-ui/input@1.0.4
+  - @chakra-ui/number-input@1.0.4
+  - @chakra-ui/radio@1.1.1
+  - @chakra-ui/select@1.0.4
+  - @chakra-ui/textarea@1.0.4
+  - @chakra-ui/toast@1.1.5
+  - @chakra-ui/accordion@1.0.4
+  - @chakra-ui/checkbox@1.1.1
+  - @chakra-ui/counter@1.0.3
+  - @chakra-ui/editable@1.0.3
+  - @chakra-ui/image@1.0.3
+  - @chakra-ui/menu@1.0.4
+  - @chakra-ui/modal@1.4.3
+  - @chakra-ui/pin-input@1.1.3
+  - @chakra-ui/popover@1.0.6
+  - @chakra-ui/popper@1.0.3
+  - @chakra-ui/portal@1.0.4
+  - @chakra-ui/skeleton@1.0.8
+  - @chakra-ui/slider@1.0.3
+  - @chakra-ui/tabs@1.0.5
+  - @chakra-ui/tooltip@1.0.4
+  - @chakra-ui/transition@1.0.4
+  - @chakra-ui/alert@1.0.4
+  - @chakra-ui/avatar@1.0.3
+  - @chakra-ui/breadcrumb@1.0.3
+  - @chakra-ui/button@1.0.4
+  - @chakra-ui/close-button@1.0.4
+  - @chakra-ui/control-box@1.0.3
+  - @chakra-ui/icon@1.0.3
+  - @chakra-ui/layout@1.1.3
+  - @chakra-ui/live-region@1.0.3
+  - @chakra-ui/media-query@1.0.4
+  - @chakra-ui/progress@1.0.4
+  - @chakra-ui/spinner@1.0.3
+  - @chakra-ui/stat@1.0.3
+  - @chakra-ui/switch@1.0.4
+  - @chakra-ui/system@1.1.5
+  - @chakra-ui/table@1.0.3
+  - @chakra-ui/tag@1.0.4
+  - @chakra-ui/visually-hidden@1.0.3
 
 ## 1.1.3
 
@@ -4091,16 +4144,16 @@
   [`a98817de`](https://github.com/incmix-ui/incmix-ui/commit/a98817de0849bf9eec89fae3faf4fbe085f21011),
   [`ff7c3676`](https://github.com/incmix-ui/incmix-ui/commit/ff7c36764650dc7f01957c417eae1ec8ce356495),
   [`1286da79`](https://github.com/incmix-ui/incmix-ui/commit/1286da7977db7bd8f19e2abd03b73990737b1379)]:
-  - @incmix-ui/tabs@1.0.4
-  - @incmix-ui/skeleton@1.0.7
-  - @incmix-ui/portal@1.0.3
-  - @incmix-ui/theme@1.4.0
-  - @incmix-ui/media-query@1.0.3
-  - @incmix-ui/system@1.1.4
-  - @incmix-ui/modal@1.4.2
-  - @incmix-ui/popover@1.0.5
-  - @incmix-ui/tooltip@1.0.3
-  - @incmix-ui/toast@1.1.4
+  - @chakra-ui/tabs@1.0.4
+  - @chakra-ui/skeleton@1.0.7
+  - @chakra-ui/portal@1.0.3
+  - @chakra-ui/theme@1.4.0
+  - @chakra-ui/media-query@1.0.3
+  - @chakra-ui/system@1.1.4
+  - @chakra-ui/modal@1.4.2
+  - @chakra-ui/popover@1.0.5
+  - @chakra-ui/tooltip@1.0.3
+  - @chakra-ui/toast@1.1.4
 
 ## 1.1.2
 
@@ -4112,12 +4165,12 @@
   [`de3d059b`](https://github.com/incmix-ui/incmix-ui/commit/de3d059bf2ee7ca2a8ba5f10051b4cd76f86847a),
   [`f7142599`](https://github.com/incmix-ui/incmix-ui/commit/f714259943a03d6e191949c7c1c68c9f9b8b49fd),
   [`d45c4956`](https://github.com/incmix-ui/incmix-ui/commit/d45c495617ee5038b56eee89b094979b2ac96128)]:
-  - @incmix-ui/theme@1.3.0
-  - @incmix-ui/modal@1.4.1
-  - @incmix-ui/system@1.1.3
-  - @incmix-ui/progress@1.0.3
-  - @incmix-ui/toast@1.1.3
-  - @incmix-ui/skeleton@1.0.6
+  - @chakra-ui/theme@1.3.0
+  - @chakra-ui/modal@1.4.1
+  - @chakra-ui/system@1.1.3
+  - @chakra-ui/progress@1.0.3
+  - @chakra-ui/toast@1.1.3
+  - @chakra-ui/skeleton@1.0.6
 
 ## 1.1.1
 
@@ -4127,13 +4180,13 @@
   [[`5cef5de4`](https://github.com/incmix-ui/incmix-ui/commit/5cef5de4f45cd58f7a29436335543cb5b40c0d70),
   [`6a82a3d4`](https://github.com/incmix-ui/incmix-ui/commit/6a82a3d4f061191171a12e6d38719ba05414a86e),
   [`5c9ef8bd`](https://github.com/incmix-ui/incmix-ui/commit/5c9ef8bd9ca8a2bffae34bc96f9d50b17c9eb3c6)]:
-  - @incmix-ui/button@1.0.3
-  - @incmix-ui/layout@1.1.2
-  - @incmix-ui/modal@1.4.0
-  - @incmix-ui/tag@1.0.3
-  - @incmix-ui/tabs@1.0.3
-  - @incmix-ui/system@1.1.2
-  - @incmix-ui/skeleton@1.0.5
+  - @chakra-ui/button@1.0.3
+  - @chakra-ui/layout@1.1.2
+  - @chakra-ui/modal@1.4.0
+  - @chakra-ui/tag@1.0.3
+  - @chakra-ui/tabs@1.0.3
+  - @chakra-ui/system@1.1.2
+  - @chakra-ui/skeleton@1.0.5
 
 ## 1.1.0
 
@@ -4152,12 +4205,12 @@
   )
   ```
 
-  If no `baseTheme` is provided, defaults to the incmix theme.
+  If no `baseTheme` is provided, defaults to the Chakra theme.
 
 * [`a0e0bd9a`](https://github.com/incmix-ui/incmix-ui/commit/a0e0bd9a5d45fe08887f8df8d3eccc84951578df)
   [#2816](https://github.com/incmix-ui/incmix-ui/pull/2816) Thanks
   [@segunadebayo](https://github.com/segunadebayo)! - Add gradient support to
-  incmix style props. This PR adds to props:
+  chakra style props. This PR adds to props:
 
   - `bgGradient`: a shorthand, convenient style prop to apply theme-aware
     gradients.
@@ -4218,7 +4271,7 @@
     fontSize="7xl"
     fontWeight="extrabold"
   >
-    Welcome to incmix UI
+    Welcome to Chakra UI
   </Text>
   ```
 
@@ -4245,12 +4298,12 @@
   [`5c8f0838`](https://github.com/incmix-ui/incmix-ui/commit/5c8f08382858c0bbc77d875db52859e7c304392f),
   [`f09a1cbf`](https://github.com/incmix-ui/incmix-ui/commit/f09a1cbf2eaef537b31b1f2fdf1e7c685e1926bb),
   [`46e24c58`](https://github.com/incmix-ui/incmix-ui/commit/46e24c5820ef2726a4fb16a190efda39fb0b075a)]:
-  - @incmix-ui/checkbox@1.1.0
-  - @incmix-ui/radio@1.1.0
-  - @incmix-ui/skeleton@1.0.4
-  - @incmix-ui/pin-input@1.1.2
-  - @incmix-ui/switch@1.0.3
-  - @incmix-ui/system@1.1.1
+  - @chakra-ui/checkbox@1.1.0
+  - @chakra-ui/radio@1.1.0
+  - @chakra-ui/skeleton@1.0.4
+  - @chakra-ui/pin-input@1.1.2
+  - @chakra-ui/switch@1.0.3
+  - @chakra-ui/system@1.1.1
 
 ## 1.0.4
 
@@ -4274,50 +4327,50 @@
   [`85eb4090`](https://github.com/incmix-ui/incmix-ui/commit/85eb409039640949e01f3aa7353519b19a42a53f),
   [`080a7acc`](https://github.com/incmix-ui/incmix-ui/commit/080a7accdd321123e44df082911c6250154fdbd5),
   [`d1bd91e1`](https://github.com/incmix-ui/incmix-ui/commit/d1bd91e141fba54c1094a7f60932a060fba4949a)]:
-  - @incmix-ui/pin-input@1.1.1
-  - @incmix-ui/number-input@1.0.3
-  - @incmix-ui/system@1.1.0
-  - @incmix-ui/radio@1.0.3
-  - @incmix-ui/form-control@1.1.0
-  - @incmix-ui/modal@1.3.0
-  - @incmix-ui/checkbox@1.0.2
-  - @incmix-ui/menu@1.0.3
-  - @incmix-ui/popover@1.0.4
-  - @incmix-ui/toast@1.1.2
-  - @incmix-ui/tooltip@1.0.2
-  - @incmix-ui/transition@1.0.3
-  - @incmix-ui/utils@1.0.2
-  - @incmix-ui/skeleton@1.0.3
-  - @incmix-ui/layout@1.1.1
-  - @incmix-ui/input@1.0.3
-  - @incmix-ui/theme@1.2.2
-  - @incmix-ui/accordion@1.0.3
-  - @incmix-ui/alert@1.0.3
-  - @incmix-ui/avatar@1.0.2
-  - @incmix-ui/breadcrumb@1.0.2
-  - @incmix-ui/button@1.0.2
-  - @incmix-ui/close-button@1.0.3
-  - @incmix-ui/control-box@1.0.2
-  - @incmix-ui/editable@1.0.2
-  - @incmix-ui/icon@1.0.2
-  - @incmix-ui/image@1.0.2
-  - @incmix-ui/media-query@1.0.2
-  - @incmix-ui/progress@1.0.2
-  - @incmix-ui/select@1.0.3
-  - @incmix-ui/slider@1.0.2
-  - @incmix-ui/spinner@1.0.2
-  - @incmix-ui/stat@1.0.2
-  - @incmix-ui/switch@1.0.2
-  - @incmix-ui/table@1.0.2
-  - @incmix-ui/tabs@1.0.2
-  - @incmix-ui/tag@1.0.2
-  - @incmix-ui/textarea@1.0.3
-  - @incmix-ui/visually-hidden@1.0.2
-  - @incmix-ui/counter@1.0.2
-  - @incmix-ui/hooks@1.0.2
-  - @incmix-ui/live-region@1.0.2
-  - @incmix-ui/popper@1.0.2
-  - @incmix-ui/portal@1.0.2
+  - @chakra-ui/pin-input@1.1.1
+  - @chakra-ui/number-input@1.0.3
+  - @chakra-ui/system@1.1.0
+  - @chakra-ui/radio@1.0.3
+  - @chakra-ui/form-control@1.1.0
+  - @chakra-ui/modal@1.3.0
+  - @chakra-ui/checkbox@1.0.2
+  - @chakra-ui/menu@1.0.3
+  - @chakra-ui/popover@1.0.4
+  - @chakra-ui/toast@1.1.2
+  - @chakra-ui/tooltip@1.0.2
+  - @chakra-ui/transition@1.0.3
+  - @chakra-ui/utils@1.0.2
+  - @chakra-ui/skeleton@1.0.3
+  - @chakra-ui/layout@1.1.1
+  - @chakra-ui/input@1.0.3
+  - @chakra-ui/theme@1.2.2
+  - @chakra-ui/accordion@1.0.3
+  - @chakra-ui/alert@1.0.3
+  - @chakra-ui/avatar@1.0.2
+  - @chakra-ui/breadcrumb@1.0.2
+  - @chakra-ui/button@1.0.2
+  - @chakra-ui/close-button@1.0.3
+  - @chakra-ui/control-box@1.0.2
+  - @chakra-ui/editable@1.0.2
+  - @chakra-ui/icon@1.0.2
+  - @chakra-ui/image@1.0.2
+  - @chakra-ui/media-query@1.0.2
+  - @chakra-ui/progress@1.0.2
+  - @chakra-ui/select@1.0.3
+  - @chakra-ui/slider@1.0.2
+  - @chakra-ui/spinner@1.0.2
+  - @chakra-ui/stat@1.0.2
+  - @chakra-ui/switch@1.0.2
+  - @chakra-ui/table@1.0.2
+  - @chakra-ui/tabs@1.0.2
+  - @chakra-ui/tag@1.0.2
+  - @chakra-ui/textarea@1.0.3
+  - @chakra-ui/visually-hidden@1.0.2
+  - @chakra-ui/counter@1.0.2
+  - @chakra-ui/hooks@1.0.2
+  - @chakra-ui/live-region@1.0.2
+  - @chakra-ui/popper@1.0.2
+  - @chakra-ui/portal@1.0.2
 
 ## 1.0.3
 
@@ -4333,15 +4386,15 @@
   [`72bbd0db`](https://github.com/incmix-ui/incmix-ui/commit/72bbd0dbb913ba38ee2b9191d12bf73713ae4398),
   [`653f3dd6`](https://github.com/incmix-ui/incmix-ui/commit/653f3dd6f30a17e366c069666acbfd9eddb11936),
   [`c73cce25`](https://github.com/incmix-ui/incmix-ui/commit/c73cce25bf986fd5b1261575ca395f731f827f53)]:
-  - @incmix-ui/pin-input@1.1.0
-  - @incmix-ui/theme@1.2.1
-  - @incmix-ui/close-button@1.0.2
-  - @incmix-ui/system@1.0.2
-  - @incmix-ui/alert@1.0.2
-  - @incmix-ui/toast@1.1.1
-  - @incmix-ui/modal@1.2.1
-  - @incmix-ui/popover@1.0.3
-  - @incmix-ui/skeleton@1.0.2
+  - @chakra-ui/pin-input@1.1.0
+  - @chakra-ui/theme@1.2.1
+  - @chakra-ui/close-button@1.0.2
+  - @chakra-ui/system@1.0.2
+  - @chakra-ui/alert@1.0.2
+  - @chakra-ui/toast@1.1.1
+  - @chakra-ui/modal@1.2.1
+  - @chakra-ui/popover@1.0.3
+  - @chakra-ui/skeleton@1.0.2
 
 ## 1.0.2
 
@@ -4364,20 +4417,20 @@
   [`9fdc61d8`](https://github.com/incmix-ui/incmix-ui/commit/9fdc61d8801f6d76783b5c9f068525d4dfc28b20),
   [`2416cf9a`](https://github.com/incmix-ui/incmix-ui/commit/2416cf9abe183a3a38adbccff794088d86a46341),
   [`58e26653`](https://github.com/incmix-ui/incmix-ui/commit/58e26653134caee1dd2caddb9014f7a90dc4eb7e)]:
-  - @incmix-ui/number-input@1.0.2
-  - @incmix-ui/layout@1.1.0
-  - @incmix-ui/modal@1.2.0
-  - @incmix-ui/theme@1.2.0
-  - @incmix-ui/form-control@1.0.2
-  - @incmix-ui/toast@1.1.0
-  - @incmix-ui/transition@1.0.2
-  - @incmix-ui/radio@1.0.2
-  - @incmix-ui/input@1.0.2
-  - @incmix-ui/select@1.0.2
-  - @incmix-ui/textarea@1.0.2
-  - @incmix-ui/accordion@1.0.2
-  - @incmix-ui/menu@1.0.2
-  - @incmix-ui/popover@1.0.2
+  - @chakra-ui/number-input@1.0.2
+  - @chakra-ui/layout@1.1.0
+  - @chakra-ui/modal@1.2.0
+  - @chakra-ui/theme@1.2.0
+  - @chakra-ui/form-control@1.0.2
+  - @chakra-ui/toast@1.1.0
+  - @chakra-ui/transition@1.0.2
+  - @chakra-ui/radio@1.0.2
+  - @chakra-ui/input@1.0.2
+  - @chakra-ui/select@1.0.2
+  - @chakra-ui/textarea@1.0.2
+  - @chakra-ui/accordion@1.0.2
+  - @chakra-ui/menu@1.0.2
+  - @chakra-ui/popover@1.0.2
 
 ## 1.0.1
 
@@ -4392,56 +4445,56 @@
   [`204ff7e3`](https://github.com/incmix-ui/incmix-ui/commit/204ff7e39dd37003786194704b36069ef94d56a6),
   [`ba262ac7`](https://github.com/incmix-ui/incmix-ui/commit/ba262ac7b2e2d932bb227d4ff9181e83fbaa4149),
   [`a1ff404b`](https://github.com/incmix-ui/incmix-ui/commit/a1ff404b12a898ab97af024391a06c34da5bc69a)]:
-  - @incmix-ui/layout@1.0.1
-  - @incmix-ui/theme@1.1.0
-  - @incmix-ui/progress@1.0.1
-  - @incmix-ui/tabs@1.0.1
-  - @incmix-ui/utils@1.0.1
-  - @incmix-ui/hooks@1.0.1
-  - @incmix-ui/modal@1.1.0
-  - @incmix-ui/media-query@1.0.1
-  - @incmix-ui/system@1.0.1
-  - @incmix-ui/toast@1.0.1
-  - @incmix-ui/accordion@1.0.1
-  - @incmix-ui/alert@1.0.1
-  - @incmix-ui/avatar@1.0.1
-  - @incmix-ui/breadcrumb@1.0.1
-  - @incmix-ui/button@1.0.1
-  - @incmix-ui/checkbox@1.0.1
-  - @incmix-ui/close-button@1.0.1
-  - @incmix-ui/control-box@1.0.1
-  - @incmix-ui/counter@1.0.1
-  - @incmix-ui/editable@1.0.1
-  - @incmix-ui/form-control@1.0.1
-  - @incmix-ui/icon@1.0.1
-  - @incmix-ui/image@1.0.1
-  - @incmix-ui/input@1.0.1
-  - @incmix-ui/live-region@1.0.1
-  - @incmix-ui/menu@1.0.1
-  - @incmix-ui/number-input@1.0.1
-  - @incmix-ui/pin-input@1.0.1
-  - @incmix-ui/popover@1.0.1
-  - @incmix-ui/popper@1.0.1
-  - @incmix-ui/portal@1.0.1
-  - @incmix-ui/radio@1.0.1
-  - @incmix-ui/select@1.0.1
-  - @incmix-ui/skeleton@1.0.1
-  - @incmix-ui/slider@1.0.1
-  - @incmix-ui/spinner@1.0.1
-  - @incmix-ui/stat@1.0.1
-  - @incmix-ui/switch@1.0.1
-  - @incmix-ui/tag@1.0.1
-  - @incmix-ui/textarea@1.0.1
-  - @incmix-ui/tooltip@1.0.1
-  - @incmix-ui/transition@1.0.1
-  - @incmix-ui/visually-hidden@1.0.1
+  - @chakra-ui/layout@1.0.1
+  - @chakra-ui/theme@1.1.0
+  - @chakra-ui/progress@1.0.1
+  - @chakra-ui/tabs@1.0.1
+  - @chakra-ui/utils@1.0.1
+  - @chakra-ui/hooks@1.0.1
+  - @chakra-ui/modal@1.1.0
+  - @chakra-ui/media-query@1.0.1
+  - @chakra-ui/system@1.0.1
+  - @chakra-ui/toast@1.0.1
+  - @chakra-ui/accordion@1.0.1
+  - @chakra-ui/alert@1.0.1
+  - @chakra-ui/avatar@1.0.1
+  - @chakra-ui/breadcrumb@1.0.1
+  - @chakra-ui/button@1.0.1
+  - @chakra-ui/checkbox@1.0.1
+  - @chakra-ui/close-button@1.0.1
+  - @chakra-ui/control-box@1.0.1
+  - @chakra-ui/counter@1.0.1
+  - @chakra-ui/editable@1.0.1
+  - @chakra-ui/form-control@1.0.1
+  - @chakra-ui/icon@1.0.1
+  - @chakra-ui/image@1.0.1
+  - @chakra-ui/input@1.0.1
+  - @chakra-ui/live-region@1.0.1
+  - @chakra-ui/menu@1.0.1
+  - @chakra-ui/number-input@1.0.1
+  - @chakra-ui/pin-input@1.0.1
+  - @chakra-ui/popover@1.0.1
+  - @chakra-ui/popper@1.0.1
+  - @chakra-ui/portal@1.0.1
+  - @chakra-ui/radio@1.0.1
+  - @chakra-ui/select@1.0.1
+  - @chakra-ui/skeleton@1.0.1
+  - @chakra-ui/slider@1.0.1
+  - @chakra-ui/spinner@1.0.1
+  - @chakra-ui/stat@1.0.1
+  - @chakra-ui/switch@1.0.1
+  - @chakra-ui/tag@1.0.1
+  - @chakra-ui/textarea@1.0.1
+  - @chakra-ui/tooltip@1.0.1
+  - @chakra-ui/transition@1.0.1
+  - @chakra-ui/visually-hidden@1.0.1
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # 1.0.0 (2020-11-13)
 
-**Note:** Version bump only for package @incmix-ui/react
+**Note:** Version bump only for package @chakra-ui/react
 
 # Change Log
 
@@ -4463,23 +4516,23 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.7 (2020-10-25)
 
-**Note:** Version bump only for package @incmix-ui/core
+**Note:** Version bump only for package @chakra-ui/core
 
 # 1.0.0-rc.6 (2020-10-25)
 
-**Note:** Version bump only for package @incmix-ui/core
+**Note:** Version bump only for package @chakra-ui/core
 
 # 1.0.0-rc.5 (2020-09-27)
 
-**Note:** Version bump only for package @incmix-ui/core
+**Note:** Version bump only for package @chakra-ui/core
 
 # 1.0.0-rc.4 (2020-09-25)
 
-**Note:** Version bump only for package @incmix-ui/core
+**Note:** Version bump only for package @chakra-ui/core
 
 # 1.0.0-rc.3 (2020-08-30)
 
-**Note:** Version bump only for package @incmix-ui/core
+**Note:** Version bump only for package @chakra-ui/core
 
 # Change Log
 
@@ -4488,14 +4541,14 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.2 (2020-08-09)
 
-**Note:** Version bump only for package @incmix-ui/core
+**Note:** Version bump only for package @chakra-ui/core
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.1](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@1.0.0-rc.0...@incmix-ui/core@1.0.0-rc.1) (2020-08-06)
+# [1.0.0-rc.1](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@1.0.0-rc.0...@chakra-ui/core@1.0.0-rc.1) (2020-08-06)
 
 ### Bug Fixes
 
@@ -4507,34 +4560,34 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.0](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@1.0.0-next.7...@incmix-ui/core@1.0.0-rc.0) (2020-07-26)
+# [1.0.0-rc.0](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@1.0.0-next.7...@chakra-ui/core@1.0.0-rc.0) (2020-07-26)
 
-**Note:** Version bump only for package @incmix-ui/core
-
-# Change Log
-
-All notable changes to this project will be documented in this file. See
-[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
-# [1.0.0-next.7](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@1.0.0-next.6...@incmix-ui/core@1.0.0-next.7) (2020-07-26)
-
-**Note:** Version bump only for package @incmix-ui/core
+**Note:** Version bump only for package @chakra-ui/core
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.6](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@1.0.0-next.5...@incmix-ui/core@1.0.0-next.6) (2020-07-15)
+# [1.0.0-next.7](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@1.0.0-next.6...@chakra-ui/core@1.0.0-next.7) (2020-07-26)
 
-**Note:** Version bump only for package @incmix-ui/core
+**Note:** Version bump only for package @chakra-ui/core
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.5](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@1.0.0-next.4...@incmix-ui/core@1.0.0-next.5) (2020-07-15)
+# [1.0.0-next.6](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@1.0.0-next.5...@chakra-ui/core@1.0.0-next.6) (2020-07-15)
+
+**Note:** Version bump only for package @chakra-ui/core
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.0.0-next.5](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@1.0.0-next.4...@chakra-ui/core@1.0.0-next.5) (2020-07-15)
 
 ### Bug Fixes
 
@@ -4546,7 +4599,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.4](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@0.8.0...@incmix-ui/core@1.0.0-next.4) (2020-07-01)
+# [1.0.0-next.4](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@0.8.0...@chakra-ui/core@1.0.0-next.4) (2020-07-01)
 
 ### Bug Fixes
 
@@ -4564,7 +4617,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.3](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@0.8.0...@incmix-ui/core@1.0.0-next.3) (2020-06-28)
+# [1.0.0-next.3](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@0.8.0...@chakra-ui/core@1.0.0-next.3) (2020-06-28)
 
 ### Bug Fixes
 
@@ -4580,7 +4633,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.2](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@0.8.0...@incmix-ui/core@1.0.0-next.2) (2020-06-21)
+# [1.0.0-next.2](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@0.8.0...@chakra-ui/core@1.0.0-next.2) (2020-06-21)
 
 ### Bug Fixes
 
@@ -4594,7 +4647,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.4.0](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@0.3.4...@incmix-ui/core@0.4.0) (2019-10-14)
+# [0.4.0](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@0.3.4...@chakra-ui/core@0.4.0) (2019-10-14)
 
 ### Bug Fixes
 
@@ -4641,7 +4694,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.3.4](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@0.3.3...@incmix-ui/core@0.3.4) (2019-10-09)
+## [0.3.4](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@0.3.3...@chakra-ui/core@0.3.4) (2019-10-09)
 
 ### Bug Fixes
 
@@ -4653,7 +4706,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.3.3](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@0.3.2...@incmix-ui/core@0.3.3) (2019-10-09)
+## [0.3.3](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@0.3.2...@chakra-ui/core@0.3.3) (2019-10-09)
 
 ### Bug Fixes
 
@@ -4681,7 +4734,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.3.2](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@0.3.1...@incmix-ui/core@0.3.2) (2019-09-26)
+## [0.3.2](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@0.3.1...@chakra-ui/core@0.3.2) (2019-09-26)
 
 ### Bug Fixes
 
@@ -4702,7 +4755,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.3.1](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@0.3.0...@incmix-ui/core@0.3.1) (2019-09-25)
+## [0.3.1](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@0.3.0...@chakra-ui/core@0.3.1) (2019-09-25)
 
 ### Bug Fixes
 
@@ -4722,12 +4775,12 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.3.0](https://github.com/incmix-ui/incmix-ui/compare/@incmix-ui/core@0.2.8...@incmix-ui/core@0.3.0) (2019-09-24)
+# [0.3.0](https://github.com/incmix-ui/incmix-ui/compare/@chakra-ui/core@0.2.8...@chakra-ui/core@0.3.0) (2019-09-24)
 
 ### Features
 
 - Add typings for Slider.onChange
   ([2f15c6a](https://github.com/incmix-ui/incmix-ui/commit/2f15c6a)), closes
-  [incmix-ui/incmix-ui#88](https://github.com/incmix-ui/incmix-ui/issues/88)
+  [chakra-ui/chakra-ui#88](https://github.com/incmix-ui/incmix-ui/issues/88)
 - **modal, drawer, alertdialog:** remove console errors and improve api
   ([c5ce4b4](https://github.com/incmix-ui/incmix-ui/commit/c5ce4b4))

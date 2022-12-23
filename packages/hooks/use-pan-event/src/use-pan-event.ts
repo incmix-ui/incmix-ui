@@ -1,5 +1,5 @@
-import { addPointerEvent } from "@incmix-ui/event-utils"
-import { useLatestRef } from "@incmix-ui/react-use-latest-ref"
+import { addPointerEvent } from "@chakra-ui/event-utils"
+import { useLatestRef } from "@chakra-ui/react-use-latest-ref"
 import { useEffect, useRef } from "react"
 import { PanEvent } from "./pan-event"
 import { AnyPointerEvent, PanEventHandler, PanEventHandlers } from "./types"

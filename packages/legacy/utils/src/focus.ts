@@ -40,7 +40,7 @@ export function focus(
       warn({
         condition: true,
         message:
-          "[incmix-ui]: can't call focus() on `null` or `undefined` element",
+          "[chakra-ui]: can't call focus() on `null` or `undefined` element",
       })
       return
     }

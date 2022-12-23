@@ -1,4 +1,4 @@
-# @incmix-ui/layout
+# @chakra-ui/layout
 
 A set of layout primitives that make it super easy to manage page and
 components.
@@ -6,17 +6,17 @@ components.
 ## Installation
 
 ```sh
-yarn add @incmix-ui/layout
+yarn add @chakra-ui/layout
 
 # or
 
-npm i @incmix-ui/layout
+npm i @chakra-ui/layout
 ```
 
 ## Import Components
 
 ```jsx
-import { Box, Flex, Stack, Grid, Wrap, AspectRatio } from "@incmix-ui/layout"
+import { Box, Flex, Stack, Grid, Wrap, AspectRatio } from "@chakra-ui/layout"
 ```
 
 ## Usage

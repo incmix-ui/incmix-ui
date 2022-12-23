@@ -1,2 +1,1 @@
-export * from "./css-reset"
-export { default } from "./css-reset"
+export * from "@chakra-ui/css-reset"

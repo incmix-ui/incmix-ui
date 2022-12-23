@@ -1,0 +1,38 @@
+{
+  "name": "@incmix-ui/close-button",
+  "version": "2.0.13",
+  "description": "A React and Chakra UI close button component.",
+  "keywords": [
+    "close-button",
+    "button",
+    "icon-button",
+    "react",
+    "close-icon"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
+    "directory": "packages/components/close-button"
+  },
+  "dependencies": {
+    "@chakra-ui/close-button": "2.0.13"
+  },
+  "scripts": {
+    "build": "JSX=1 tsup src/index.ts --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "JSX=1 tsup src/index.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  }
+}

@@ -1,9 +1,9 @@
-# @incmix-ui/hooks
+# @chakra-ui/hooks
 
 A collection of React Hooks for Chakra UI components.
 
 ## Installation
 
 ```sh
-yarn add @incmix-ui/hooks
+yarn add @chakra-ui/hooks
 ```

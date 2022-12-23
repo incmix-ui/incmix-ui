@@ -1,4 +1,4 @@
-# @incmix-ui/breakpoint-utils
+# @chakra-ui/breakpoint-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/breakpoint-utils
+yarn add @chakra-ui/breakpoint-utils
 # or
-npm i @incmix-ui/breakpoint-utils
+npm i @chakra-ui/breakpoint-utils
 ```
 
 ## Contribution

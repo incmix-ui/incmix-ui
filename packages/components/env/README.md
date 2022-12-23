@@ -1,4 +1,4 @@
-# @incmix-ui/react-env
+# @chakra-ui/react-env
 
 React component and hook for handling window and document object in iframe or
 ssr environment
@@ -8,9 +8,9 @@ ssr environment
 ## Installation
 
 ```sh
-yarn add @incmix-ui/react-env
+yarn add @chakra-ui/react-env
 # or
-npm i @incmix-ui/react-env
+npm i @chakra-ui/react-env
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ the `useEnvironment` hook anywhere in your app to get access to the correct
 `window` and `document`.
 
 ```jsx
-import { EnvironmentProvider } from "@incmix-ui/react-env"
+import { EnvironmentProvider } from "@chakra-ui/react-env"
 
 // in your App
 const App = ({ children }) => {

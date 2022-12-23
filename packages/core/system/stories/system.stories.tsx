@@ -1,10 +1,10 @@
 import * as React from "react"
 import { motion } from "framer-motion"
 import {
-  Incmix,
+  chakra,
   ThemeProvider,
   useStyleConfig,
-  HTMLIncmixProps,
+  HTMLChakraProps,
   DarkMode,
 } from "../src"
 
@@ -12,7 +12,7 @@ export default {
   title: "System / Core",
 }
 
-const MotionBox = motion(incmix.div)
+const MotionBox = motion(chakra.div)
 
 export const WithFramerMotion = () => (
   <MotionBox
@@ -30,21 +30,21 @@ export const WithFramerMotion = () => (
 )
 
 export const ApplyProp = () => (
-  <Incmix.p>
+  <chakra.p>
     This is a paragraph, but apply styles from{" "}
-    <Incmix.code fontFamily="mono">styles.h1</Incmix.code>
-  </Incmix.p>
+    <chakra.code fontFamily="mono">styles.h1</chakra.code>
+  </chakra.p>
 )
 
 export const withHeading = () => (
   <div>
-    <Incmix.h1
+    <chakra.h1
       fontSize={["50px", "80px", "100px"]}
       color="tomato"
       sx={{ color: "teal.500" }}
     >
       Welcome
-    </Incmix.h1>
+    </chakra.h1>
   </div>
 )
 
@@ -68,37 +68,37 @@ export const withTextStyles = () => {
         },
       }}
     >
-      <Incmix.h1 textStyle="h2" color="red.300">
+      <chakra.h1 textStyle="h2" color="red.300">
         Welcome
-      </Incmix.h1>
-      <Incmix.p textStyle="h1" color="green.200">
+      </chakra.h1>
+      <chakra.p textStyle="h1" color="green.200">
         Welcome text
-      </Incmix.p>
+      </chakra.p>
     </ThemeProvider>
   )
 }
 
 export const WithGradient = () => (
   <>
-    <incmix.div
+    <chakra.div
       bgGradient="linear(to-r, pink.300, blue.500)"
       w="500px"
       h="64px"
     />
-    <Incmix.span
+    <chakra.span
       bgGradient="linear(to-r, red.200, papayawhip)"
       bgClip="text"
       fontSize="7xl"
       fontWeight="extrabold"
     >
-      Welcome to Incmix UI
-    </Incmix.span>
+      Welcome to Chakra UI
+    </chakra.span>
   </>
 )
 
 export const WithRgbGradient = () => (
   <>
-    <incmix.div
+    <chakra.div
       bgGradient="linear(to-r, rgb(0,0,0), rgb(230,230,230))"
       w="500px"
       h="64px"
@@ -125,15 +125,15 @@ export const WithLayerStyle = () => (
       },
     }}
   >
-    <incmix.div layerStyle="base" textStyle="caps" color="white" px="2">
+    <chakra.div layerStyle="base" textStyle="caps" color="white" px="2">
       Welcome
-    </incmix.div>
+    </chakra.div>
   </ThemeProvider>
 )
 
-const Div = ({ children }: HTMLIncmixProps<"div">) => {
+const Div = ({ children }: HTMLChakraProps<"div">) => {
   const styles = useStyleConfig("Div")
-  return <incmix.div sx={styles}>{children}</incmix.div>
+  return <chakra.div sx={styles}>{children}</chakra.div>
 }
 
 export const WithLayerStyleInComponentTheme = () => (
@@ -161,7 +161,7 @@ export const WithLayerStyleInComponentTheme = () => (
 
 export const WithCSSVarToken = () => {
   return (
-    <incmix.div
+    <chakra.div
       sx={{
         "--banner-height": "sizes.md",
         ".banner": {
@@ -171,23 +171,23 @@ export const WithCSSVarToken = () => {
       }}
     >
       <div className="banner">banner</div>
-    </incmix.div>
+    </chakra.div>
   )
 }
 
 export const WithSemanticTokens = () => {
   return (
     <div>
-      <Incmix.p color="semantic">I am in the default color mode</Incmix.p>
+      <chakra.p color="semantic">I am in the default color mode</chakra.p>
       <div data-theme="light">
-        <Incmix.p color="semantic">I am forced to light mode (red)</Incmix.p>
+        <chakra.p color="semantic">I am forced to light mode (red)</chakra.p>
       </div>
       <div data-theme="dark">
-        <Incmix.p color="semantic">I am forced to dark mode (blue)</Incmix.p>
+        <chakra.p color="semantic">I am forced to dark mode (blue)</chakra.p>
         <div data-theme="light">
-          <Incmix.p pl="4" color="semantic">
+          <chakra.p pl="4" color="semantic">
             I am nested and forced to light mode (red)
-          </Incmix.p>
+          </chakra.p>
         </div>
       </div>
     </div>
@@ -201,12 +201,12 @@ export const WithColorMode = () => {
   })
   return (
     <>
-      <Incmix.span>Not forced</Incmix.span>
+      <chakra.span>Not forced</chakra.span>
       <DarkMode>
-        <incmix.div bg="gray.800" padding="40px">
-          <Incmix.p color="Incmix-body-text">Forced color mode</Incmix.p>
-          <Incmix.span __css={styles}>Badge</Incmix.span>
-        </incmix.div>
+        <chakra.div bg="gray.800" padding="40px">
+          <chakra.p color="chakra-body-text">Forced color mode</chakra.p>
+          <chakra.span __css={styles}>Badge</chakra.span>
+        </chakra.div>
       </DarkMode>
     </>
   )

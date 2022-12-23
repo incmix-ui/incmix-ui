@@ -1,4 +1,4 @@
-import { hasFocusWithin, focus } from "@incmix-ui/utils"
+import { hasFocusWithin, focus } from "@chakra-ui/utils"
 import { useUpdateEffect } from "./use-update-effect"
 
 export type UseFocusEffectOptions = {

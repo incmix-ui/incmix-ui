@@ -1,4 +1,4 @@
-import { hooks } from "@incmix-ui/test-utils"
+import { hooks } from "@chakra-ui/test-utils"
 import { useConst } from "../src"
 
 type FooType = { foo: string }

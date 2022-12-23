@@ -1,8 +1,8 @@
-import { useColorMode } from "@incmix-ui/color-mode"
-import { Dict, StringOrNumber } from "@incmix-ui/utils"
+import { useColorMode } from "@chakra-ui/color-mode"
+import { Dict, StringOrNumber } from "@chakra-ui/utils"
 import { useTheme } from "./use-theme"
 
-export function useIncmix<T extends Dict = Dict>() {
+export function useChakra<T extends Dict = Dict>() {
   const colorModeResult = useColorMode()
   const theme = useTheme() as T
   return { ...colorModeResult, theme }
@@ -31,7 +31,7 @@ function getTokenValue<T extends StringOrNumber>(
 /**
  * `useToken` is a custom hook used to resolve design tokens from the theme.
  *
- * @see Docs https://incmix-ui.com/docs/hooks/use-token
+ * @see Docs https://chakra-ui.com/docs/hooks/use-token
  */
 export function useToken<T extends StringOrNumber | StringOrNumber[]>(
   scale: string,

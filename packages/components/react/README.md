@@ -1,41 +1,41 @@
-# Welcome to incmix UI ⚡️
+# Welcome to Chakra UI ⚡️
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 
-- Works out of the box. incmix UI contains a set of polished React components
+- Works out of the box. Chakra UI contains a set of polished React components
   that work out of the box.
 
-- Flexible & composable. incmix UI components are built on top of a React UI
+- Flexible & composable. Chakra UI components are built on top of a React UI
   Primitive for endless composability.
 
-- Accessible. incmix UI components follows the WAI-ARIA guidelines
+- Accessible. Chakra UI components follows the WAI-ARIA guidelines
   specifications.
 
 - Dark Mode 😍: All components are dark mode compatible.
 
 ## Looking for the documentation?
 
-https://incmix-ui.com
+https://chakra-ui.com
 
-## Installing incmix UI
+## Installing Chakra UI
 
-⚡️incmix UI is made up of multiple components and tools which you can import
-one by one. All you need to do is install the `@incmix-ui/react` package:
+⚡️Chakra UI is made up of multiple components and tools which you can import
+one by one. All you need to do is install the `@chakra-ui/react` package:
 
 ```sh
-$ yarn add @incmix-ui/react
+$ yarn add @chakra-ui/react
 # or
-$ npm install --save @incmix-ui/react
+$ npm install --save @chakra-ui/react
 ```
 
 # Getting set up
 
 To start using the components, please follow these steps:
 
-1. Wrap your application in a `ThemeProvider` provided by **@incmix-ui/react**
+1. Wrap your application in a `ThemeProvider` provided by **@chakra-ui/react**
 
 ```jsx
-import { ThemeProvider, ColorModeProvider } from "@incmix-ui/react"
+import { ThemeProvider, ColorModeProvider } from "@chakra-ui/react"
 
 const App = ({ children }) => (
   <ThemeProvider>
@@ -51,9 +51,9 @@ mode.
 2. Now you can start using components like so!:
 
 ```jsx
-import { Button } from "@incmix-ui/react"
+import { Button } from "@chakra-ui/react"
 
-const App = () => <Button>I just consumed some ⚡️incmix!</Button>
+const App = () => <Button>I just consumed some ⚡️Chakra!</Button>
 ```
 
 # Contributing

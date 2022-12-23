@@ -1,4 +1,4 @@
-import { callAllHandlers } from "@incmix-ui/utils"
+import { callAllHandlers } from "@chakra-ui/utils"
 import { useControllableProp } from "./use-controllable"
 import { useId } from "./use-id"
 import { useCallbackRef } from "./use-callback-ref"

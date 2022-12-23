@@ -1,4 +1,4 @@
-# @incmix-ui/react-use-size
+# @chakra-ui/react-use-size
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/react-use-size
+yarn add @chakra-ui/react-use-size
 # or
-npm i @incmix-ui/react-use-size
+npm i @chakra-ui/react-use-size
 ```
 
 ## Contribution

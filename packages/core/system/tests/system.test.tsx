@@ -1,11 +1,11 @@
-import { render } from "@incmix-ui/test-utils"
+import { render } from "@chakra-ui/test-utils"
 import * as React from "react"
-import { Incmix } from "../src"
+import { chakra } from "../src"
 
 const consoleSpy = jest.spyOn(console, "error").mockImplementation(() => {})
 
 test("should allow custom should forward props", () => {
-  const Div = Incmix<"div", { sample: string; isBig: string }>("div", {
+  const Div = chakra<"div", { sample: string; isBig: string }>("div", {
     shouldForwardProp: (prop) => !["sample"].includes(prop),
   })
   const { getByTestId } = render(

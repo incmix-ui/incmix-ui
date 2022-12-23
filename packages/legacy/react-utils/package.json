@@ -8,8 +8,6 @@
     "ui mode",
     "ui"
   ],
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -28,7 +26,7 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@incmix-ui/utils": "workspace:*"
+    "@chakra-ui/utils": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=18"

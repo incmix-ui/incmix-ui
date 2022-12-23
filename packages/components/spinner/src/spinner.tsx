@@ -1,13 +1,13 @@
 import {
-  incmix,
+  chakra,
   forwardRef,
   keyframes,
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-  HTMLIncmixProps,
-} from "@incmix-ui/system"
-import { cx } from "@incmix-ui/shared-utils"
+  HTMLChakraProps,
+} from "@chakra-ui/system"
+import { cx } from "@chakra-ui/shared-utils"
 
 const spin = keyframes({
   "0%": {
@@ -55,7 +55,7 @@ interface SpinnerOptions {
 }
 
 export interface SpinnerProps
-  extends Omit<HTMLIncmixProps<"div">, keyof SpinnerOptions>,
+  extends Omit<HTMLChakraProps<"div">, keyof SpinnerOptions>,
     SpinnerOptions,
     ThemingProps<"Spinner"> {}
 
@@ -63,7 +63,7 @@ export interface SpinnerProps
  * Spinner is used to indicate the loading state of a page or a component,
  * It renders a `div` by default.
  *
- * @see Docs https://incmix-ui.com/spinner
+ * @see Docs https://chakra-ui.com/spinner
  */
 export const Spinner = forwardRef<SpinnerProps, "div">((props, ref) => {
   const styles = useStyleConfig("Spinner", props)
@@ -77,7 +77,7 @@ export const Spinner = forwardRef<SpinnerProps, "div">((props, ref) => {
     ...rest
   } = omitThemingProps(props)
 
-  const _className = cx("incmix-spinner", className)
+  const _className = cx("chakra-spinner", className)
 
   const spinnerStyles = {
     display: "inline-block",
@@ -92,14 +92,14 @@ export const Spinner = forwardRef<SpinnerProps, "div">((props, ref) => {
   }
 
   return (
-    <incmix.div
+    <chakra.div
       ref={ref}
       __css={spinnerStyles}
       className={_className}
       {...rest}
     >
-      {label && <incmix.span srOnly>{label}</incmix.span>}
-    </incmix.div>
+      {label && <chakra.span srOnly>{label}</chakra.span>}
+    </chakra.div>
   )
 })
 

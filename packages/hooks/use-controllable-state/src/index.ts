@@ -1,10 +1,10 @@
 import { useMemo, useState } from "react"
-import { useCallbackRef } from "@incmix-ui/react-use-callback-ref"
+import { useCallbackRef } from "@chakra-ui/react-use-callback-ref"
 
 /**
  * Given a prop value and state value, the useControllableProp hook is used to determine whether a component is controlled or uncontrolled, and also returns the computed value.
  *
- * @see Docs https://incmix-ui.com/docs/hooks/use-controllable#usecontrollableprop
+ * @see Docs https://chakra-ui.com/docs/hooks/use-controllable#usecontrollableprop
  */
 export function useControllableProp<T>(prop: T | undefined, state: T) {
   const controlled = typeof prop !== "undefined"
@@ -22,7 +22,7 @@ export interface UseControllableStateProps<T> {
 /**
  * The `useControllableState` hook returns the state and function that updates the state, just like React.useState does.
  *
- * @see Docs https://incmix-ui.com/docs/hooks/use-controllable#usecontrollablestate
+ * @see Docs https://chakra-ui.com/docs/hooks/use-controllable#usecontrollablestate
  */
 export function useControllableState<T>(props: UseControllableStateProps<T>) {
   const {

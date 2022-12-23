@@ -1,7 +1,7 @@
-import { useColorMode } from "@incmix-ui/color-mode"
-import { createContext, CreateContextReturn } from "@incmix-ui/react-utils"
-import { css, toCSSVar, SystemStyleObject } from "@incmix-ui/styled-system"
-import { memoizedGet as get, runIfFn } from "@incmix-ui/utils"
+import { useColorMode } from "@chakra-ui/color-mode"
+import { createContext, CreateContextReturn } from "@chakra-ui/react-utils"
+import { css, toCSSVar, SystemStyleObject } from "@chakra-ui/styled-system"
+import { memoizedGet as get, runIfFn } from "@chakra-ui/utils"
 import {
   Global,
   Interpolation,
@@ -47,7 +47,7 @@ export function CSSVars({ root = ":host, :root" }: CSSVarsProps): JSX.Element {
  * @example
  *
  * ```jsx
- * import { createStylesContext } from "@incmix-ui/react"
+ * import { createStylesContext } from "@chakra-ui/react"
  *
  * const [StylesProvider, useStyles] = createStylesContext("Component")
  * ```

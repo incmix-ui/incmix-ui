@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import { useCallbackRef } from "@incmix-ui/react-use-callback-ref"
+import { useCallbackRef } from "@chakra-ui/react-use-callback-ref"
 
 /**
  * React hook that provides a declarative `setTimeout`

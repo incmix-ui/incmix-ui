@@ -1,4 +1,4 @@
-# @incmix-ui/use-animation-state
+# @chakra-ui/use-animation-state
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/react-use-animation-state
+yarn add @chakra-ui/react-use-animation-state
 # or
-npm i @incmix-ui/react-use-animation-state
+npm i @chakra-ui/react-use-animation-state
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-import { render, screen, hooks } from "@incmix-ui/test-utils"
+import { render, screen, hooks } from "@chakra-ui/test-utils"
 import React, { useState } from "react"
 import { useControllableState } from "../src"
 

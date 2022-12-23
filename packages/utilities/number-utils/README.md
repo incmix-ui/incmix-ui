@@ -1,4 +1,4 @@
-# @incmix-ui/number-utils
+# @chakra-ui/number-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @incmix-ui/number-utils
+yarn add @chakra-ui/number-utils
 # or
-npm i @incmix-ui/number-utils
+npm i @chakra-ui/number-utils
 ```
 
 ## Contribution
