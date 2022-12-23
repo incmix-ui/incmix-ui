@@ -1,0 +1,90 @@
+---
+title: The as prop and Custom component
+description: 'How to get the as prop working properly for your custom components'
+author: segunadebayo
+---
+
+By default, all Incmix components work with the `as` prop. There might be some
+cases where you need to create smaller components with pre-defined styles, and
+need the `as` prop to work as well.
+
+For example, let's say you create a `Card` component with pre-defined styles
+like this:
+
+```tsx live=false
+const Card = (props: BoxProps) => <Box px="4" py="5" rounded="sm" shadow="lg" {...props} />
+```
+
+and you need to consume this component in a way that works with the `as` prop,
+like this:
+
+```jsx live=false
+const Usage = () => <Card as="button">This is a card</Card>
+```
+
+You might run into type errors like this:
+
+```sh
+Type '{ children: string; as: string; }' is not assignable to type 'IntrinsicAttributes & BoxProps'.
+  Property 'as' does not exist on type 'IntrinsicAttributes & BoxProps'.
+```
+
+To resolve this, you have 3 options
+
+## Option 1: Using `forwardRef` from `@incmix-ui/react`
+
+This is the recommended approach as it ensures your components forwards their
+reference properly.
+
+> Note 🚨: You need to use forwardRef from incmix-ui not react.
+
+```tsx live=false
+import { forwardRef, Box, BoxProps } from '@incmix-ui/react'
+
+const Card = forwardRef<BoxProps, 'div'>((props, ref) => <Box px="4" py="5" rounded="sm" shadow="lg" ref={ref} {...props} />)
+```
+
+## Option 2: Cast the component as a `IncmixComponent`
+
+The `IncmixComponent` is a type we use internally to mark specific components as
+Incmix components rather than using `React.PropsWithChildren`.
+
+This is because a `IncmixComponent` gets its props from the React component or
+element type, and adds incmix specific style props.
+
+`IncmixComponent` takes 2 type generic, the element type (like "div", "button",
+etc), and any custom props (like `isOpen`, `isDisabled`, etc)
+
+```tsx live=false
+import { IncmixComponent, Box, BoxProps } from '@incmix-ui/react'
+
+type DivComponent = IncmixComponent<'div', {}>
+
+const Card = ((props: BoxProps) => <Box px="4" py="5" rounded="sm" shadow="lg" {...props} />) as DivComponent
+```
+
+## Option 3: Use the `incmix` factory function
+
+The Incmix factory function is still a work in progress but it can be useful in
+this case as well. It can also be used to convert a non-incmix component into a
+Incmix enabled component.
+
+What you need to do is to call the `incmix` function and pass it any element or
+component type.
+
+```jsx live=false
+import { incmix } from '@incmix-ui/react'
+
+const Card = incmix('div', {
+  // attach style props
+  baseStyle: {
+    px: '4',
+    py: '5',
+    rounded: 'sm',
+    shadow: 'lg',
+  },
+})
+```
+
+These are the cases you can get the `as` prop working with custom components. At
+least for now.

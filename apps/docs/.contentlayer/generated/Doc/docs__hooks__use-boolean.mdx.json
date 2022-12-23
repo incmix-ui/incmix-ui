@@ -1,0 +1,59 @@
+{
+  "title": "useBoolean",
+  "package": "@incmix-ui/hooks",
+  "description": "React hook to manage boolean (on - off) states",
+  "scope": "usage",
+  "body": {
+    "raw": "\n`useBoolean` is a custom hook used to manage a boolean value with `on`, `off`\nand `toggle` functions.\n\n## Import\n\n```js\nimport { useBoolean } from '@incmix-ui/react'\n```\n\n## Return value\n\nThe `useBoolean` hook returns a stateful boolean value and an object with the\nfollowing function to update it:\n\n| Name     | Type         | Description                                     |\n| -------- | ------------ | ----------------------------------------------- |\n| `on`     | `() => void` | A function to set the boolean value to `true`.  |\n| `off`    | `() => void` | A function to set the boolean value to `false`. |\n| `toggle` | `() => void` | A function to negate the boolean state.         |\n\n## Usage\n\n### Usage of toggle method\n\n```jsx\nfunction Example() {\n  const [flag, setFlag] = useBoolean()\n\n  return (\n    <>\n      <p>Boolean state: {flag.toString()}</p>\n      <button onClick={setFlag.toggle}>Click me to toggle the boolean value</button>\n    </>\n  )\n}\n```\n\n### Usage of on and off methods\n\n```jsx\nfunction Example() {\n  const [flag, setFlag] = useBoolean()\n\n  return (\n    <div onMouseEnter={setFlag.on} onMouseLeave={setFlag.off}>\n      {flag ? 'The flag is ON!' : 'Hover me to turn ON'}\n    </div>\n  )\n}\n```\n\n## Parameters\n\nThe hook `useBoolean` accepts the initial boolean value, by default is `false`.\n",
+    "code": "var Component=(()=>{var s=Object.create;var l=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var p=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),b=(o,e)=>{for(var t in e)l(o,t,{get:e[t],enumerable:!0})},a=(o,e,t,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let d of g(e))!m.call(o,d)&&d!==t&&l(o,d,{get:()=>e[d],enumerable:!(c=u(e,d))||c.enumerable});return o};var v=(o,e,t)=>(t=o!=null?s(f(o)):{},a(e||!o||!o.__esModule?l(t,\"default\",{value:o,enumerable:!0}):t,o)),x=o=>a(l({},\"__esModule\",{value:!0}),o);var r=p((y,i)=>{i.exports=_jsx_runtime});var F={};b(F,{default:()=>B,frontmatter:()=>j});var n=v(r()),j={title:\"useBoolean\",package:\"@incmix-ui/hooks\",description:\"React hook to manage boolean (on - off) states\"};function h(o){let e=Object.assign({p:\"p\",code:\"code\",h2:\"h2\",pre:\"pre\",table:\"table\",thead:\"thead\",tr:\"tr\",th:\"th\",tbody:\"tbody\",td:\"td\",h3:\"h3\"},o.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.code,{children:\"useBoolean\"}),\" is a custom hook used to manage a boolean value with \",(0,n.jsx)(e.code,{children:\"on\"}),\", \",(0,n.jsx)(e.code,{children:\"off\"}),`\nand `,(0,n.jsx)(e.code,{children:\"toggle\"}),\" functions.\"]}),`\n`,(0,n.jsx)(e.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-js\",children:`import { useBoolean } from '@incmix-ui/react'\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"return-value\",children:\"Return value\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"The \",(0,n.jsx)(e.code,{children:\"useBoolean\"}),` hook returns a stateful boolean value and an object with the\nfollowing function to update it:`]}),`\n`,(0,n.jsxs)(e.table,{children:[(0,n.jsx)(e.thead,{children:(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.th,{children:\"Name\"}),(0,n.jsx)(e.th,{children:\"Type\"}),(0,n.jsx)(e.th,{children:\"Description\"})]})}),(0,n.jsxs)(e.tbody,{children:[(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"on\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"() => void\"})}),(0,n.jsxs)(e.td,{children:[\"A function to set the boolean value to \",(0,n.jsx)(e.code,{children:\"true\"}),\".\"]})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"off\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"() => void\"})}),(0,n.jsxs)(e.td,{children:[\"A function to set the boolean value to \",(0,n.jsx)(e.code,{children:\"false\"}),\".\"]})]}),(0,n.jsxs)(e.tr,{children:[(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"toggle\"})}),(0,n.jsx)(e.td,{children:(0,n.jsx)(e.code,{children:\"() => void\"})}),(0,n.jsx)(e.td,{children:\"A function to negate the boolean state.\"})]})]})]}),`\n`,(0,n.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,n.jsx)(e.h3,{id:\"usage-of-toggle-method\",children:\"Usage of toggle method\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`function Example() {\n  const [flag, setFlag] = useBoolean()\n\n  return (\n    <>\n      <p>Boolean state: {flag.toString()}</p>\n      <button onClick={setFlag.toggle}>Click me to toggle the boolean value</button>\n    </>\n  )\n}\n`})}),`\n`,(0,n.jsx)(e.h3,{id:\"usage-of-on-and-off-methods\",children:\"Usage of on and off methods\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`function Example() {\n  const [flag, setFlag] = useBoolean()\n\n  return (\n    <div onMouseEnter={setFlag.on} onMouseLeave={setFlag.off}>\n      {flag ? 'The flag is ON!' : 'Hover me to turn ON'}\n    </div>\n  )\n}\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"parameters\",children:\"Parameters\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"The hook \",(0,n.jsx)(e.code,{children:\"useBoolean\"}),\" accepts the initial boolean value, by default is \",(0,n.jsx)(e.code,{children:\"false\"}),\".\"]})]})}function k(o={}){let{wrapper:e}=o.components||{};return e?(0,n.jsx)(e,Object.assign({},o,{children:(0,n.jsx)(h,o)})):h(o)}var B=k;return x(F);})();\n;return Component;"
+  },
+  "_id": "docs/hooks/use-boolean.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/hooks/use-boolean.mdx",
+    "sourceFileName": "use-boolean.mdx",
+    "sourceFileDir": "docs/hooks",
+    "contentType": "mdx",
+    "flattenedPath": "docs/hooks/use-boolean"
+  },
+  "type": "Doc",
+  "slug": "/docs/hooks/use-boolean",
+  "frontMatter": {
+    "title": "useBoolean",
+    "package": "@incmix-ui/hooks",
+    "description": "React hook to manage boolean (on - off) states",
+    "slug": "/docs/hooks/use-boolean",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/hooks/use-boolean.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "Return value",
+        "id": "return-value",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      },
+      {
+        "text": "Usage of toggle method",
+        "id": "usage-of-toggle-method",
+        "level": "h3"
+      },
+      {
+        "text": "Usage of on and off methods",
+        "id": "usage-of-on-and-off-methods",
+        "level": "h3"
+      },
+      {
+        "text": "Parameters",
+        "id": "parameters",
+        "level": "h2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "useMergeRefs",
+  "package": "@incmix-ui/hooks",
+  "description": "React hook that merges react refs into a single memoized function",
+  "scope": "usage",
+  "body": {
+    "raw": "\n`useMergeRefs` is a custom hook used to merge several react refs into a single\none.\n\n## Import\n\n```js\nimport { useMergeRefs } from '@incmix-ui/react'\n```\n\n## Return value\n\nThe `useMergeRefs` hook returns a function that receives the element and assign\nthe value to the given React refs.\n\n## Usage\n\n```jsx\nfunction Example({ ref, ...props }) {\n  const internalRef = React.useRef()\n  const refs = useMergeRefs(internalRef, ref)\n\n  return (\n    <div {...props} ref={refs}>\n      A div with multiple refs.\n    </div>\n  )\n}\n```\n\n### Usage combining with another Incmix-UI hooks\n\n```jsx\nfunction Example({ ref, ...props }) {\n  const outsideRef = React.useRef()\n  const { isOpen, onOpen, onClose } = useDisclosure()\n  const { popperRef, referenceRef } = usePopper()\n\n  useOutsideClick({\n    ref: outsideRef,\n    handler: () => isOpen && onClose(),\n  })\n\n  const buttonEl = useMergeRefs(outsideRef, referenceRef)\n\n  return (\n    <>\n      <button ref={buttonEl} onClick={onOpen}>\n        Click me to see the popover\n      </button>\n      {isOpen && (\n        <Box ref={popperRef} bg=\"green\">\n          Click outside to close me\n        </Box>\n      )}\n    </>\n  )\n}\n```\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),R=(n,e)=>{for(var r in e)o(n,r,{get:e[r],enumerable:!0})},c=(n,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of f(e))!m.call(n,s)&&s!==r&&o(n,s,{get:()=>e[s],enumerable:!(i=d(e,s))||i.enumerable});return n};var x=(n,e,r)=>(r=n!=null?h(p(n)):{},c(e||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),k=n=>c(o({},\"__esModule\",{value:!0}),n);var u=g((O,a)=>{a.exports=_jsx_runtime});var M={};R(M,{default:()=>b,frontmatter:()=>j});var t=x(u()),j={title:\"useMergeRefs\",package:\"@incmix-ui/hooks\",description:\"React hook that merges react refs into a single memoized function\"};function l(n){let e=Object.assign({p:\"p\",code:\"code\",h2:\"h2\",pre:\"pre\",h3:\"h3\"},n.components);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.code,{children:\"useMergeRefs\"}),` is a custom hook used to merge several react refs into a single\none.`]}),`\n`,(0,t.jsx)(e.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,t.jsx)(e.pre,{children:(0,t.jsx)(e.code,{className:\"language-js\",children:`import { useMergeRefs } from '@incmix-ui/react'\n`})}),`\n`,(0,t.jsx)(e.h2,{id:\"return-value\",children:\"Return value\"}),`\n`,(0,t.jsxs)(e.p,{children:[\"The \",(0,t.jsx)(e.code,{children:\"useMergeRefs\"}),` hook returns a function that receives the element and assign\nthe value to the given React refs.`]}),`\n`,(0,t.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,t.jsx)(e.pre,{children:(0,t.jsx)(e.code,{className:\"language-jsx\",children:`function Example({ ref, ...props }) {\n  const internalRef = React.useRef()\n  const refs = useMergeRefs(internalRef, ref)\n\n  return (\n    <div {...props} ref={refs}>\n      A div with multiple refs.\n    </div>\n  )\n}\n`})}),`\n`,(0,t.jsx)(e.h3,{id:\"usage-combining-with-another-incmix-ui-hooks\",children:\"Usage combining with another Incmix-UI hooks\"}),`\n`,(0,t.jsx)(e.pre,{children:(0,t.jsx)(e.code,{className:\"language-jsx\",children:`function Example({ ref, ...props }) {\n  const outsideRef = React.useRef()\n  const { isOpen, onOpen, onClose } = useDisclosure()\n  const { popperRef, referenceRef } = usePopper()\n\n  useOutsideClick({\n    ref: outsideRef,\n    handler: () => isOpen && onClose(),\n  })\n\n  const buttonEl = useMergeRefs(outsideRef, referenceRef)\n\n  return (\n    <>\n      <button ref={buttonEl} onClick={onOpen}>\n        Click me to see the popover\n      </button>\n      {isOpen && (\n        <Box ref={popperRef} bg=\"green\">\n          Click outside to close me\n        </Box>\n      )}\n    </>\n  )\n}\n`})})]})}function v(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,Object.assign({},n,{children:(0,t.jsx)(l,n)})):l(n)}var b=v;return k(M);})();\n;return Component;"
+  },
+  "_id": "docs/hooks/use-merge-refs.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/hooks/use-merge-refs.mdx",
+    "sourceFileName": "use-merge-refs.mdx",
+    "sourceFileDir": "docs/hooks",
+    "contentType": "mdx",
+    "flattenedPath": "docs/hooks/use-merge-refs"
+  },
+  "type": "Doc",
+  "slug": "/docs/hooks/use-merge-refs",
+  "frontMatter": {
+    "title": "useMergeRefs",
+    "package": "@incmix-ui/hooks",
+    "description": "React hook that merges react refs into a single memoized function",
+    "slug": "/docs/hooks/use-merge-refs",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/hooks/use-merge-refs.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "Return value",
+        "id": "return-value",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      },
+      {
+        "text": "Usage combining with another Incmix-UI hooks",
+        "id": "usage-combining-with-another-incmix-ui-hooks",
+        "level": "h3"
+      }
+    ]
+  }
+}

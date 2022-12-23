@@ -1,0 +1,53 @@
+{
+  "title": "The `sx` Prop",
+  "description": "The sx prop lets you style components inline, using your theme tokens.",
+  "scope": "usage",
+  "category": "features",
+  "body": {
+    "raw": "\nWith `sx` you can provide any valid CSS to an element and utilize tokens from\nyour theme to ensure consistency and that you are utilizing constraint-based\ndesign principles when styling your application.\n\nThis prop provides a superset of CSS (contains all CSS properties/selectors in\naddition to custom ones) that maps values directly from the theme, depending on\nthe CSS property used. Also, it allows a simple way of defining responsive\nvalues that correspond to the breakpoints defined in the theme.\n\nTo find out which properties are theme-aware, see the\n[Style Props](/docs/styled-system/style-props).\n\n## Use cases\n\nAlthough the `sx` prop is considered an escape hatch, there are few cases where\nit is needed.\n\n### Defining Any Standard CSS Property\n\nIn case you need to set a CSS property that is not listed in the\n[Style Props](/docs/styled-system/style-props) list, you can use the\n`sx` prop and pass it whatever CSS property you desire.\n\nOne such example is the `filter` property:\n\n```jsx\n<Image src=\"http://placekitten.com/200/300\" alt=\"a kitten\" sx={{ filter: 'blur(8px)' }} />\n```\n\n### Defining CSS Custom Properties\n\nCustom CSS properties can be defined via the `sx` prop as well:\n\n```jsx\n<Box sx={{ '--my-color': '#53c8c4' }}>\n  <Heading color=\"var(--my-color)\" size=\"lg\">\n    This uses CSS Custom Properties!\n  </Heading>\n</Box>\n```\n\n### Creating Nested Selectors\n\nTo create complex, nested selectors, you can use utilize the `&` operator. The\n`&` in selector will get resolved to unique `className` that is assigned the\ncomponent you put `sx` on.\n\n> For the following example you could also use the\n> [`_groupHover` shorthand prop](/docs/styled-system/style-props#pseudo).\n\n```jsx\n<Box borderWidth={2} borderColor=\"purple.500\" p={5} className=\"my-box\">\n  <Heading size=\"lg\">\n    Hover the box...\n    <Box\n      as=\"span\"\n      color=\"red.500\"\n      sx={{\n        '.my-box:hover &': {\n          color: 'green.500',\n        },\n      }}\n    >\n      And I will turn green!\n    </Box>\n  </Heading>\n</Box>\n```\n\n### Custom Media queries\n\n```jsx\n<Box\n  sx={{\n    '@media print': {\n      display: 'none',\n    },\n  }}\n>\n  This text won't be shown when printing this page.\n</Box>\n```\n",
+    "code": "var Component=(()=>{var h=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var g=(s,e)=>()=>(e||s((e={exports:{}}).exports,e),e.exports),x=(s,e)=>{for(var o in e)r(s,o,{get:e[o],enumerable:!0})},c=(s,e,o,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of u(e))!y.call(s,t)&&t!==o&&r(s,t,{get:()=>e[t],enumerable:!(i=p(e,t))||i.enumerable});return s};var f=(s,e,o)=>(o=s!=null?h(m(s)):{},c(e||!s||!s.__esModule?r(o,\"default\",{value:s,enumerable:!0}):o,s)),S=s=>c(r({},\"__esModule\",{value:!0}),s);var l=g((k,d)=>{d.exports=_jsx_runtime});var v={};x(v,{default:()=>b,frontmatter:()=>C});var n=f(l()),C={title:\"The `sx` Prop\",description:\"The sx prop lets you style components inline, using your theme tokens.\",category:\"features\"};function a(s){let e=Object.assign({p:\"p\",code:\"code\",a:\"a\",h2:\"h2\",h3:\"h3\",pre:\"pre\",blockquote:\"blockquote\"},s.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[\"With \",(0,n.jsx)(e.code,{children:\"sx\"}),` you can provide any valid CSS to an element and utilize tokens from\nyour theme to ensure consistency and that you are utilizing constraint-based\ndesign principles when styling your application.`]}),`\n`,(0,n.jsx)(e.p,{children:`This prop provides a superset of CSS (contains all CSS properties/selectors in\naddition to custom ones) that maps values directly from the theme, depending on\nthe CSS property used. Also, it allows a simple way of defining responsive\nvalues that correspond to the breakpoints defined in the theme.`}),`\n`,(0,n.jsxs)(e.p,{children:[`To find out which properties are theme-aware, see the\n`,(0,n.jsx)(e.a,{href:\"/docs/styled-system/style-props\",children:\"Style Props\"}),\".\"]}),`\n`,(0,n.jsx)(e.h2,{id:\"use-cases\",children:\"Use cases\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Although the \",(0,n.jsx)(e.code,{children:\"sx\"}),` prop is considered an escape hatch, there are few cases where\nit is needed.`]}),`\n`,(0,n.jsx)(e.h3,{id:\"defining-any-standard-css-property\",children:\"Defining Any Standard CSS Property\"}),`\n`,(0,n.jsxs)(e.p,{children:[`In case you need to set a CSS property that is not listed in the\n`,(0,n.jsx)(e.a,{href:\"/docs/styled-system/style-props\",children:\"Style Props\"}),` list, you can use the\n`,(0,n.jsx)(e.code,{children:\"sx\"}),\" prop and pass it whatever CSS property you desire.\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"One such example is the \",(0,n.jsx)(e.code,{children:\"filter\"}),\" property:\"]}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`<Image src=\"http://placekitten.com/200/300\" alt=\"a kitten\" sx={{ filter: 'blur(8px)' }} />\n`})}),`\n`,(0,n.jsx)(e.h3,{id:\"defining-css-custom-properties\",children:\"Defining CSS Custom Properties\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Custom CSS properties can be defined via the \",(0,n.jsx)(e.code,{children:\"sx\"}),\" prop as well:\"]}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`<Box sx={{ '--my-color': '#53c8c4' }}>\n  <Heading color=\"var(--my-color)\" size=\"lg\">\n    This uses CSS Custom Properties!\n  </Heading>\n</Box>\n`})}),`\n`,(0,n.jsx)(e.h3,{id:\"creating-nested-selectors\",children:\"Creating Nested Selectors\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"To create complex, nested selectors, you can use utilize the \",(0,n.jsx)(e.code,{children:\"&\"}),` operator. The\n`,(0,n.jsx)(e.code,{children:\"&\"}),\" in selector will get resolved to unique \",(0,n.jsx)(e.code,{children:\"className\"}),` that is assigned the\ncomponent you put `,(0,n.jsx)(e.code,{children:\"sx\"}),\" on.\"]}),`\n`,(0,n.jsxs)(e.blockquote,{children:[`\n`,(0,n.jsxs)(e.p,{children:[`For the following example you could also use the\n`,(0,n.jsxs)(e.a,{href:\"/docs/styled-system/style-props#pseudo\",children:[(0,n.jsx)(e.code,{children:\"_groupHover\"}),\" shorthand prop\"]}),\".\"]}),`\n`]}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`<Box borderWidth={2} borderColor=\"purple.500\" p={5} className=\"my-box\">\n  <Heading size=\"lg\">\n    Hover the box...\n    <Box\n      as=\"span\"\n      color=\"red.500\"\n      sx={{\n        '.my-box:hover &': {\n          color: 'green.500',\n        },\n      }}\n    >\n      And I will turn green!\n    </Box>\n  </Heading>\n</Box>\n`})}),`\n`,(0,n.jsx)(e.h3,{id:\"custom-media-queries\",children:\"Custom Media queries\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`<Box\n  sx={{\n    '@media print': {\n      display: 'none',\n    },\n  }}\n>\n  This text won't be shown when printing this page.\n</Box>\n`})})]})}function w(s={}){let{wrapper:e}=s.components||{};return e?(0,n.jsx)(e,Object.assign({},s,{children:(0,n.jsx)(a,s)})):a(s)}var b=w;return S(v);})();\n;return Component;"
+  },
+  "_id": "docs/styled-system/the-sx-prop.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/styled-system/the-sx-prop.mdx",
+    "sourceFileName": "the-sx-prop.mdx",
+    "sourceFileDir": "docs/styled-system",
+    "contentType": "mdx",
+    "flattenedPath": "docs/styled-system/the-sx-prop"
+  },
+  "type": "Doc",
+  "slug": "/docs/styled-system/the-sx-prop",
+  "frontMatter": {
+    "title": "The `sx` Prop",
+    "description": "The sx prop lets you style components inline, using your theme tokens.",
+    "slug": "/docs/styled-system/the-sx-prop",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/styled-system/the-sx-prop.mdx",
+    "headings": [
+      {
+        "text": "Use cases",
+        "id": "use-cases",
+        "level": "h2"
+      },
+      {
+        "text": "Defining Any Standard CSS Property",
+        "id": "defining-any-standard-css-property",
+        "level": "h3"
+      },
+      {
+        "text": "Defining CSS Custom Properties",
+        "id": "defining-css-custom-properties",
+        "level": "h3"
+      },
+      {
+        "text": "Creating Nested Selectors",
+        "id": "creating-nested-selectors",
+        "level": "h3"
+      },
+      {
+        "text": "Custom Media queries",
+        "id": "custom-media-queries",
+        "level": "h3"
+      }
+    ]
+  }
+}

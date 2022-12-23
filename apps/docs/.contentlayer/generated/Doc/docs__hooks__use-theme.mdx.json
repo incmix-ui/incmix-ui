@@ -1,0 +1,44 @@
+{
+  "title": "useTheme",
+  "package": "@incmix-ui/system",
+  "description": "React hook to get access to theme by reading from theme context",
+  "scope": "usage",
+  "body": {
+    "raw": "\n`useTheme` is a custom hook used to get the theme object from context.\n\n## Import\n\n```js\nimport { useTheme } from '@incmix-ui/react'\n```\n\n## Return value\n\nThe `useTheme` hook returns the theme object.\n\n## Usage\n\n```jsx live=false\nfunction Example() {\n  const theme = useTheme()\n\n  return <div>{/* Do something with the theme */}</div>\n}\n```\n",
+    "code": "var Component=(()=>{var d=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var o in e)r(t,o,{get:e[o],enumerable:!0})},i=(t,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let c of l(e))!g.call(t,c)&&c!==o&&r(t,c,{get:()=>e[c],enumerable:!(s=u(e,c))||s.enumerable});return t};var f=(t,e,o)=>(o=t!=null?d(p(t)):{},i(e||!t||!t.__esModule?r(o,\"default\",{value:t,enumerable:!0}):o,t)),_=t=>i(r({},\"__esModule\",{value:!0}),t);var m=x((D,h)=>{h.exports=_jsx_runtime});var k={};j(k,{default:()=>v,frontmatter:()=>T});var n=f(m()),T={title:\"useTheme\",package:\"@incmix-ui/system\",description:\"React hook to get access to theme by reading from theme context\"};function a(t){let e=Object.assign({p:\"p\",code:\"code\",h2:\"h2\",pre:\"pre\"},t.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.code,{children:\"useTheme\"}),\" is a custom hook used to get the theme object from context.\"]}),`\n`,(0,n.jsx)(e.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-js\",children:`import { useTheme } from '@incmix-ui/react'\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"return-value\",children:\"Return value\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"The \",(0,n.jsx)(e.code,{children:\"useTheme\"}),\" hook returns the theme object.\"]}),`\n`,(0,n.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",live:\"false\",children:`function Example() {\n  const theme = useTheme()\n\n  return <div>{/* Do something with the theme */}</div>\n}\n`})})]})}function b(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,Object.assign({},t,{children:(0,n.jsx)(a,t)})):a(t)}var v=b;return _(k);})();\n;return Component;"
+  },
+  "_id": "docs/hooks/use-theme.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/hooks/use-theme.mdx",
+    "sourceFileName": "use-theme.mdx",
+    "sourceFileDir": "docs/hooks",
+    "contentType": "mdx",
+    "flattenedPath": "docs/hooks/use-theme"
+  },
+  "type": "Doc",
+  "slug": "/docs/hooks/use-theme",
+  "frontMatter": {
+    "title": "useTheme",
+    "package": "@incmix-ui/system",
+    "description": "React hook to get access to theme by reading from theme context",
+    "slug": "/docs/hooks/use-theme",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/hooks/use-theme.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "Return value",
+        "id": "return-value",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      }
+    ]
+  }
+}

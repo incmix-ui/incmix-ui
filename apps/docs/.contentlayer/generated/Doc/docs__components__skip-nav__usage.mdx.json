@@ -1,0 +1,46 @@
+{
+  "title": "Skip Nav",
+  "package": "@incmix-ui/skip-nav",
+  "description": "Skip Nav Link allows keyboard users to skip to the main content of the page.",
+  "id": "skip-nav",
+  "scope": "usage",
+  "category": "navigation",
+  "body": {
+    "raw": "\nSkip Navigation link and destination container for screen readers and keyboard\nusers.\n\nPer WebAim.org on\n[WCAG 2.4.1 (Bypass Blocks - Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1),\nbecause the main content is not always the first section that the user\nencounters on a page, it is strongly recommended to include a skip link for\nusers to be able to bypass content that is present on multiple pages. Navigation\nlinks are the most common skipped.\n\n> A user with a screen reader or specialized software could skip content via the\n> headings or `main` region, but this is not sufficiant enough for sighted users\n> who primarily us\n\n## Imports\n\n```js\nimport { SkipNavLink, SkipNavContent } from '@incmix-ui/skip-nav'\n```\n\n## Usage\n\nThe `SkipNavLink` component ideally needs to be one of the first items a user\nencounters when they begin navigating a page after load. Therefore, it is\nrecommended to place it as high as possible in the app.\n\nIt renders an `a` tag and automatically creates a link with an `href` attribute\nthat will point to `SkipNavContent`.\n\nThe `SkipNavContent` component is used as a target for the link to place\nkeyboard focus on the first piece on main content. It renders a `div` and can\neither be a self-closing component, or wrap the main content.\n\n> You can supply a custom id value using the prop `id` but you will have to use\n> this prop and value in both components, or they will not match. For Example:\n> `id=\"custom-id\"` renders `href=\"#custom-id\"` in `SkipNavLink` and\n> `id=\"custom-id\"` in `SkipNavContent`.\n\n```jsx live=false\n<>\n  // If you want to make it the first element the user encounters\n  <SkipNavLink>Skip to content</SkipNavLink>\n  <App />\n</>\n\n// And inside another component, like App\n<div>\n  <SkipNavContent />\n  // The main content below\n</div>\n```\n\n## In Action\n\nYou can see these components in action on this page!\n\n1. Place your cursor in the browser's address bar.\n2. Remove any id queries from the url. (i.e. `/skip-nav#usage`)\n3. Hit `Enter` to reload the page, then hit `Tab`. The Skip Nav link will appear\n   in the upper left.\n4. Hitting `Enter` on the link will take you to the top of the docs content.\n",
+    "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var g=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),f=(i,e)=>{for(var t in e)a(i,t,{get:e[t],enumerable:!0})},c=(i,e,t,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!k.call(i,o)&&o!==t&&a(i,o,{get:()=>e[o],enumerable:!(r=p(e,o))||r.enumerable});return i};var v=(i,e,t)=>(t=i!=null?h(m(i)):{},c(e||!i||!i.__esModule?a(t,\"default\",{value:i,enumerable:!0}):t,i)),b=i=>c(a({},\"__esModule\",{value:!0}),i);var d=g((j,s)=>{s.exports=_jsx_runtime});var S={};f(S,{default:()=>N,frontmatter:()=>y});var n=v(d()),y={id:\"skip-nav\",category:\"navigation\",title:\"Skip Nav\",package:\"@incmix-ui/skip-nav\",description:\"Skip Nav Link allows keyboard users to skip to the main content of the page.\"};function l(i){let e=Object.assign({p:\"p\",a:\"a\",blockquote:\"blockquote\",code:\"code\",h2:\"h2\",pre:\"pre\",ol:\"ol\",li:\"li\"},i.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:`Skip Navigation link and destination container for screen readers and keyboard\nusers.`}),`\n`,(0,n.jsxs)(e.p,{children:[`Per WebAim.org on\n`,(0,n.jsx)(e.a,{href:\"https://webaim.org/standards/wcag/checklist#sc2.4.1\",children:\"WCAG 2.4.1 (Bypass Blocks - Level A)\"}),`,\nbecause the main content is not always the first section that the user\nencounters on a page, it is strongly recommended to include a skip link for\nusers to be able to bypass content that is present on multiple pages. Navigation\nlinks are the most common skipped.`]}),`\n`,(0,n.jsxs)(e.blockquote,{children:[`\n`,(0,n.jsxs)(e.p,{children:[`A user with a screen reader or specialized software could skip content via the\nheadings or `,(0,n.jsx)(e.code,{children:\"main\"}),` region, but this is not sufficiant enough for sighted users\nwho primarily us`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{id:\"imports\",children:\"Imports\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-js\",children:`import { SkipNavLink, SkipNavContent } from '@incmix-ui/skip-nav'\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"The \",(0,n.jsx)(e.code,{children:\"SkipNavLink\"}),` component ideally needs to be one of the first items a user\nencounters when they begin navigating a page after load. Therefore, it is\nrecommended to place it as high as possible in the app.`]}),`\n`,(0,n.jsxs)(e.p,{children:[\"It renders an \",(0,n.jsx)(e.code,{children:\"a\"}),\" tag and automatically creates a link with an \",(0,n.jsx)(e.code,{children:\"href\"}),` attribute\nthat will point to `,(0,n.jsx)(e.code,{children:\"SkipNavContent\"}),\".\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"The \",(0,n.jsx)(e.code,{children:\"SkipNavContent\"}),` component is used as a target for the link to place\nkeyboard focus on the first piece on main content. It renders a `,(0,n.jsx)(e.code,{children:\"div\"}),` and can\neither be a self-closing component, or wrap the main content.`]}),`\n`,(0,n.jsxs)(e.blockquote,{children:[`\n`,(0,n.jsxs)(e.p,{children:[\"You can supply a custom id value using the prop \",(0,n.jsx)(e.code,{children:\"id\"}),` but you will have to use\nthis prop and value in both components, or they will not match. For Example:\n`,(0,n.jsx)(e.code,{children:'id=\"custom-id\"'}),\" renders \",(0,n.jsx)(e.code,{children:'href=\"#custom-id\"'}),\" in \",(0,n.jsx)(e.code,{children:\"SkipNavLink\"}),` and\n`,(0,n.jsx)(e.code,{children:'id=\"custom-id\"'}),\" in \",(0,n.jsx)(e.code,{children:\"SkipNavContent\"}),\".\"]}),`\n`]}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",live:\"false\",children:`<>\n  // If you want to make it the first element the user encounters\n  <SkipNavLink>Skip to content</SkipNavLink>\n  <App />\n</>\n\n// And inside another component, like App\n<div>\n  <SkipNavContent />\n  // The main content below\n</div>\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"in-action\",children:\"In Action\"}),`\n`,(0,n.jsx)(e.p,{children:\"You can see these components in action on this page!\"}),`\n`,(0,n.jsxs)(e.ol,{children:[`\n`,(0,n.jsx)(e.li,{children:\"Place your cursor in the browser's address bar.\"}),`\n`,(0,n.jsxs)(e.li,{children:[\"Remove any id queries from the url. (i.e. \",(0,n.jsx)(e.code,{children:\"/skip-nav#usage\"}),\")\"]}),`\n`,(0,n.jsxs)(e.li,{children:[\"Hit \",(0,n.jsx)(e.code,{children:\"Enter\"}),\" to reload the page, then hit \",(0,n.jsx)(e.code,{children:\"Tab\"}),`. The Skip Nav link will appear\nin the upper left.`]}),`\n`,(0,n.jsxs)(e.li,{children:[\"Hitting \",(0,n.jsx)(e.code,{children:\"Enter\"}),\" on the link will take you to the top of the docs content.\"]}),`\n`]})]})}function w(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,Object.assign({},i,{children:(0,n.jsx)(l,i)})):l(i)}var N=w;return b(S);})();\n;return Component;"
+  },
+  "_id": "docs/components/skip-nav/usage.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/skip-nav/usage.mdx",
+    "sourceFileName": "usage.mdx",
+    "sourceFileDir": "docs/components/skip-nav",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/skip-nav/usage"
+  },
+  "type": "Doc",
+  "slug": "/docs/components/skip-nav/usage",
+  "frontMatter": {
+    "title": "Skip Nav",
+    "package": "@incmix-ui/skip-nav",
+    "description": "Skip Nav Link allows keyboard users to skip to the main content of the page.",
+    "slug": "/docs/components/skip-nav/usage",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/components/skip-nav/usage.mdx",
+    "headings": [
+      {
+        "text": "Imports",
+        "id": "imports",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      },
+      {
+        "text": "In Action",
+        "id": "in-action",
+        "level": "h2"
+      }
+    ]
+  }
+}

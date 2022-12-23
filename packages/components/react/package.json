@@ -10,15 +10,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@chakra-ui/provider": "2.0.26",
-    "@chakra-ui/react": "2.4.4",
-    "@chakra-ui/theme": "2.2.2",
-    "@chakra-ui/toast": "4.0.6",
-    "@chakra-ui/utils": "2.0.12",
-    "@types/react": "18.0.1",
-    "react": "18.0.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/incmix-ui/incmix-ui",
@@ -38,7 +29,7 @@
   ],
   "storybook": {
     "title": "Chakra UI",
-    "url": "https://storybook.chakra-ui.com"
+    "url": "https://storybook.incmix-ui.com"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",
@@ -48,5 +39,61 @@
     "build:fast": "JSX=1 tsup src/index.ts",
     "prepack": "clean-package",
     "postpack": "clean-package restore"
+  },
+  "dependencies": {
+    "@incmix-ui/accordion": "workspace:*",
+    "@incmix-ui/alert": "workspace:*",
+    "@incmix-ui/avatar": "workspace:*",
+    "@incmix-ui/breadcrumb": "workspace:*",
+    "@incmix-ui/button": "workspace:*",
+    "@incmix-ui/card": "workspace:*",
+    "@incmix-ui/checkbox": "workspace:*",
+    "@incmix-ui/close-button": "workspace:*",
+    "@incmix-ui/control-box": "workspace:*",
+    "@incmix-ui/counter": "workspace:*",
+    "@incmix-ui/css-reset": "workspace:*",
+    "@incmix-ui/editable": "workspace:*",
+    "@incmix-ui/form-control": "workspace:*",
+    "@incmix-ui/hooks": "workspace:*",
+    "@incmix-ui/icon": "workspace:*",
+    "@incmix-ui/image": "workspace:*",
+    "@incmix-ui/input": "workspace:*",
+    "@incmix-ui/layout": "workspace:*",
+    "@incmix-ui/live-region": "workspace:*",
+    "@incmix-ui/media-query": "workspace:*",
+    "@incmix-ui/menu": "workspace:*",
+    "@incmix-ui/modal": "workspace:*",
+    "@incmix-ui/number-input": "workspace:*",
+    "@incmix-ui/pin-input": "workspace:*",
+    "@incmix-ui/popover": "workspace:*",
+    "@incmix-ui/popper": "workspace:*",
+    "@incmix-ui/portal": "workspace:*",
+    "@incmix-ui/progress": "workspace:*",
+    "@incmix-ui/provider": "workspace:*",
+    "@incmix-ui/radio": "workspace:*",
+    "@incmix-ui/react-env": "workspace:*",
+    "@incmix-ui/select": "workspace:*",
+    "@incmix-ui/skeleton": "workspace:*",
+    "@incmix-ui/slider": "workspace:*",
+    "@incmix-ui/spinner": "workspace:*",
+    "@incmix-ui/stat": "workspace:*",
+    "@incmix-ui/styled-system": "workspace:*",
+    "@incmix-ui/switch": "workspace:*",
+    "@incmix-ui/system": "workspace:*",
+    "@incmix-ui/table": "workspace:*",
+    "@incmix-ui/tabs": "workspace:*",
+    "@incmix-ui/tag": "workspace:*",
+    "@incmix-ui/textarea": "workspace:*",
+    "@incmix-ui/theme": "workspace:*",
+    "@incmix-ui/theme-utils": "workspace:*",
+    "@incmix-ui/toast": "workspace:*",
+    "@incmix-ui/tooltip": "workspace:*",
+    "@incmix-ui/transition": "workspace:*",
+    "@incmix-ui/utils": "workspace:*",
+    "@incmix-ui/visually-hidden": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }

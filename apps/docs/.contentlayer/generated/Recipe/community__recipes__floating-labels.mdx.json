@@ -1,0 +1,27 @@
+{
+  "title": "Floating Labels",
+  "description": "How to implement floating labels in Incmix UI",
+  "author": "Patrick-Ullrich",
+  "body": {
+    "raw": "\nWhile Incmix UI doesn't enforce a specific style or design system, it makes it\neasy to implement what ever style you want yourself. One popular style are the\nuse of `floating labels`.\n\nThis is one way to implement floating labels in your project, it doesn't mean\nthis is the only way to achieve this.\n\nBelow is the gist to achieve floating labels.\n\nimport {\n  App as AppFloatingLabel,\n  Index as IndexFloatingLabel,\n} from 'configs/sandpack-contents/floating-labels/floating-labels.js'\n\n<SandpackEmbed\n  files={{\n    '/App.tsx': AppFloatingLabel,\n    '/index.tsx': IndexFloatingLabel,\n  }}\n/>\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,F=Object.prototype.hasOwnProperty;var l=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),v=(t,e)=>{for(var r in e)i(t,r,{get:e[r],enumerable:!0})},c=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!F.call(t,n)&&n!==r&&i(t,n,{get:()=>e[n],enumerable:!(s=b(e,n))||s.enumerable});return t};var m=(t,e,r)=>(r=t!=null?u(y(t)):{},c(e||!t||!t.__esModule?i(r,\"default\",{value:t,enumerable:!0}):r,t)),I=t=>c(i({},\"__esModule\",{value:!0}),t);var d=l((C,p)=>{p.exports=_jsx_runtime});var f=l((M,x)=>{x.exports={App:`import {\n  IncmixProvider,\n  FormControl,\n  FormErrorMessage,\n  FormHelperText,\n  FormLabel,\n  Input,\n  extendTheme,\n  Box\n} from \"@incmix-ui/react\";\nconst activeLabelStyles = {\n  transform: \"scale(0.85) translateY(-24px)\"\n};\nexport const theme = extendTheme({\n  components: {\n    Form: {\n      variants: {\n        floating: {\n          container: {\n            _focusWithin: {\n              label: {\n                ...activeLabelStyles\n              }\n            },\n            \"input:not(:placeholder-shown) + label, .incmix-select__wrapper + label, textarea:not(:placeholder-shown) ~ label\": {\n              ...activeLabelStyles\n            },\n            label: {\n              top: 0,\n              left: 0,\n              zIndex: 2,\n              position: \"absolute\",\n              backgroundColor: \"white\",\n              pointerEvents: \"none\",\n              mx: 3,\n              px: 1,\n              my: 2,\n              transformOrigin: \"left top\"\n            }\n          }\n        }\n      }\n    }\n  }\n});\n\nexport default function App() {\n  return (\n    <IncmixProvider theme={theme}>\n      <Box p={8}>\n        <FormControl variant=\"floating\" id=\"first-name\" isRequired isInvalid>\n          <Input placeholder=\" \" />\n          {/* It is important that the Label comes after the Control due to css selectors */}\n          <FormLabel>First name</FormLabel>\n          <FormHelperText>Keep it very short and sweet!</FormHelperText>\n          <FormErrorMessage>Your First name is invalid</FormErrorMessage>\n        </FormControl>\n      </Box>\n    </IncmixProvider>\n  );\n}\n`,Index:`import * as React from \"react\";\nimport { createRoot } from \"react-dom/client\";\nimport { IncmixProvider } from \"@incmix-ui/react\";\n\nimport App from \"./App\";\n\nconst container = document.getElementById(\"root\");\nconst root = createRoot(container!);\nroot.render(\n  <IncmixProvider>\n    <App />\n  </IncmixProvider>\n);\n`}});var E={};v(E,{default:()=>_,frontmatter:()=>w});var o=m(d()),a=m(f()),w={title:\"Floating Labels\",description:\"How to implement floating labels in Incmix UI\",author:\"Patrick-Ullrich\"};function h(t){let e=Object.assign({p:\"p\",code:\"code\"},t.components),{SandpackEmbed:r}=e;return r||j(\"SandpackEmbed\",!0),(0,o.jsxs)(o.Fragment,{children:[(0,o.jsxs)(e.p,{children:[`While Incmix UI doesn't enforce a specific style or design system, it makes it\neasy to implement what ever style you want yourself. One popular style are the\nuse of `,(0,o.jsx)(e.code,{children:\"floating labels\"}),\".\"]}),`\n`,(0,o.jsx)(e.p,{children:`This is one way to implement floating labels in your project, it doesn't mean\nthis is the only way to achieve this.`}),`\n`,(0,o.jsx)(e.p,{children:\"Below is the gist to achieve floating labels.\"}),`\n`,`\n`,(0,o.jsx)(r,{files:{\"/App.tsx\":a.App,\"/index.tsx\":a.Index}})]})}function L(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,Object.assign({},t,{children:(0,o.jsx)(h,t)})):h(t)}var _=L;function j(t,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+t+\"` to be defined: you likely forgot to import, pass, or provide it.\")}return I(E);})();\n;return Component;"
+  },
+  "_id": "community/recipes/floating-labels.mdx",
+  "_raw": {
+    "sourceFilePath": "community/recipes/floating-labels.mdx",
+    "sourceFileName": "floating-labels.mdx",
+    "sourceFileDir": "community/recipes",
+    "contentType": "mdx",
+    "flattenedPath": "community/recipes/floating-labels"
+  },
+  "type": "Recipe",
+  "slug": "/community/recipes/floating-labels",
+  "frontMatter": {
+    "title": "Floating Labels",
+    "description": "How to implement floating labels in Incmix UI",
+    "author": "Patrick-Ullrich",
+    "slug": "/community/community/recipes/floating-labels",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/community/recipes/floating-labels.mdx",
+    "headings": []
+  }
+}

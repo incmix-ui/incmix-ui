@@ -1,0 +1,5 @@
+import { incmix } from '@incmix-ui/react'
+import * as React from 'react'
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const Anchor = React.forwardRef((props: any, ref: any) => <incmix.a ref={ref} apply="mdx.a" {...props} />)

@@ -1,0 +1,23 @@
+{
+  "id": "skip-nav",
+  "scope": "theming",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var x=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,d=Object.prototype.hasOwnProperty;var g=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),j=(t,n)=>{for(var e in n)a(t,e,{get:n[e],enumerable:!0})},c=(t,n,e,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of p(n))!d.call(t,o)&&o!==e&&a(t,o,{get:()=>n[o],enumerable:!(s=f(n,o))||s.enumerable});return t};var M=(t,n,e)=>(e=t!=null?x(_(t)):{},c(n||!t||!t.__esModule?a(e,\"default\",{value:t,enumerable:!0}):e,t)),h=t=>c(a({},\"__esModule\",{value:!0}),t);var m=g((b,i)=>{i.exports=_jsx_runtime});var F={};j(F,{default:()=>D,frontmatter:()=>l});var r=M(m()),l={id:\"skip-nav\",scope:\"theming\"};function u(t){return(0,r.jsx)(r.Fragment,{})}function C(t={}){let{wrapper:n}=t.components||{};return n?(0,r.jsx)(n,Object.assign({},t,{children:(0,r.jsx)(u,t)})):u(t)}var D=C;return h(F);})();\n;return Component;"
+  },
+  "_id": "docs/components/skip-nav/theming.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/skip-nav/theming.mdx",
+    "sourceFileName": "theming.mdx",
+    "sourceFileDir": "docs/components/skip-nav",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/skip-nav/theming"
+  },
+  "type": "Doc",
+  "slug": "/docs/components/skip-nav/theming",
+  "frontMatter": {
+    "slug": "/docs/components/skip-nav/theming",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/components/skip-nav/theming.mdx",
+    "headings": []
+  }
+}

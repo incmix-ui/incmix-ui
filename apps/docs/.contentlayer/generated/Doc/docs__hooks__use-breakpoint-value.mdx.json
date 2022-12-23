@@ -1,0 +1,44 @@
+{
+  "title": "useBreakpointValue",
+  "package": "@incmix-ui/media-query",
+  "description": "React hook for getting the value for the current breakpoint from the provided responsive values object.",
+  "scope": "usage",
+  "body": {
+    "raw": "\n`useBreakpointValue` is a custom hook which returns the value for the current\nbreakpoint from the provided responsive values object. This hook also responds\nto the window resizing and returning the appropriate value for the new window\nsize.\n\nThe new `variant` and `size` props don't currently accept responsive values\n(specified as objects or arrays), but `useBreakpointValue` is a good way to\nachieve the same behavior.\n\n## Import\n\n```js\nimport { useBreakpointValue } from '@incmix-ui/react'\n```\n\n## Return value\n\nThe `useBreakpointValue` hook returns the value for the current breakpoint.\n\n## Usage\n\n> Make sure to provide a base value when using `useBreakpointValue` so it\n> doesn't return `undefined` in the first render.\n\n```jsx\nfunction Example() {\n  const variant = useBreakpointValue(\n    {\n      base: 'outline',\n      md: 'solid',\n    },\n    {\n      // Breakpoint to use when mediaqueries cannot be used, such as in server-side rendering\n      // (Defaults to 'base')\n      fallback: 'md',\n    },\n  )\n\n  return (\n    <VStack align=\"flex-start\">\n      <Text>Resize your window to see the button variant change</Text>\n      <Button colorScheme=\"teal\" variant={variant}>\n        Button\n      </Button>\n    </VStack>\n  )\n}\n```\n\nThis hook is built to work in server-side rendering (SSR) applications by\ndefault. You might notice a quick flash of incorrect media query values when you\nuse them.\n\nIf you're creating a client-side rendered app, you can leverage the ssr argument\nto get the correct value on the first render.\n\n```jsx live=false\nconst buttonSize = useBreakpointValue({ base: 'sm', lg: 'md' }, { ssr: false })\n\nconst breakpoint = useBreakpoint({ ssr: false })\n```\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var k=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),v=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!g.call(r,o)&&o!==t&&a(r,o,{get:()=>e[o],enumerable:!(i=h(e,o))||i.enumerable});return r};var f=(r,e,t)=>(t=r!=null?d(m(r)):{},s(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),b=r=>s(a({},\"__esModule\",{value:!0}),r);var u=k((V,c)=>{c.exports=_jsx_runtime});var B={};v(B,{default:()=>j,frontmatter:()=>x});var n=f(u()),x={title:\"useBreakpointValue\",package:\"@incmix-ui/media-query\",description:\"React hook for getting the value for the current breakpoint from the provided responsive values object.\"};function l(r){let e=Object.assign({p:\"p\",code:\"code\",h2:\"h2\",pre:\"pre\",blockquote:\"blockquote\"},r.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.code,{children:\"useBreakpointValue\"}),` is a custom hook which returns the value for the current\nbreakpoint from the provided responsive values object. This hook also responds\nto the window resizing and returning the appropriate value for the new window\nsize.`]}),`\n`,(0,n.jsxs)(e.p,{children:[\"The new \",(0,n.jsx)(e.code,{children:\"variant\"}),\" and \",(0,n.jsx)(e.code,{children:\"size\"}),` props don't currently accept responsive values\n(specified as objects or arrays), but `,(0,n.jsx)(e.code,{children:\"useBreakpointValue\"}),` is a good way to\nachieve the same behavior.`]}),`\n`,(0,n.jsx)(e.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-js\",children:`import { useBreakpointValue } from '@incmix-ui/react'\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"return-value\",children:\"Return value\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"The \",(0,n.jsx)(e.code,{children:\"useBreakpointValue\"}),\" hook returns the value for the current breakpoint.\"]}),`\n`,(0,n.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,n.jsxs)(e.blockquote,{children:[`\n`,(0,n.jsxs)(e.p,{children:[\"Make sure to provide a base value when using \",(0,n.jsx)(e.code,{children:\"useBreakpointValue\"}),` so it\ndoesn't return `,(0,n.jsx)(e.code,{children:\"undefined\"}),\" in the first render.\"]}),`\n`]}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`function Example() {\n  const variant = useBreakpointValue(\n    {\n      base: 'outline',\n      md: 'solid',\n    },\n    {\n      // Breakpoint to use when mediaqueries cannot be used, such as in server-side rendering\n      // (Defaults to 'base')\n      fallback: 'md',\n    },\n  )\n\n  return (\n    <VStack align=\"flex-start\">\n      <Text>Resize your window to see the button variant change</Text>\n      <Button colorScheme=\"teal\" variant={variant}>\n        Button\n      </Button>\n    </VStack>\n  )\n}\n`})}),`\n`,(0,n.jsx)(e.p,{children:`This hook is built to work in server-side rendering (SSR) applications by\ndefault. You might notice a quick flash of incorrect media query values when you\nuse them.`}),`\n`,(0,n.jsx)(e.p,{children:`If you're creating a client-side rendered app, you can leverage the ssr argument\nto get the correct value on the first render.`}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",live:\"false\",children:`const buttonSize = useBreakpointValue({ base: 'sm', lg: 'md' }, { ssr: false })\n\nconst breakpoint = useBreakpoint({ ssr: false })\n`})})]})}function w(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,Object.assign({},r,{children:(0,n.jsx)(l,r)})):l(r)}var j=w;return b(B);})();\n;return Component;"
+  },
+  "_id": "docs/hooks/use-breakpoint-value.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/hooks/use-breakpoint-value.mdx",
+    "sourceFileName": "use-breakpoint-value.mdx",
+    "sourceFileDir": "docs/hooks",
+    "contentType": "mdx",
+    "flattenedPath": "docs/hooks/use-breakpoint-value"
+  },
+  "type": "Doc",
+  "slug": "/docs/hooks/use-breakpoint-value",
+  "frontMatter": {
+    "title": "useBreakpointValue",
+    "package": "@incmix-ui/media-query",
+    "description": "React hook for getting the value for the current breakpoint from the provided responsive values object.",
+    "slug": "/docs/hooks/use-breakpoint-value",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/hooks/use-breakpoint-value.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "Return value",
+        "id": "return-value",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      }
+    ]
+  }
+}

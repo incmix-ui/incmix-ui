@@ -1,0 +1,54 @@
+{
+  "title": "useConst",
+  "package": "@incmix-ui/hooks",
+  "description": "React hook to initialize and return a constant value",
+  "scope": "usage",
+  "body": {
+    "raw": "\n`useConst` is a custom hook used to initialize and return a constant value.\nUnlike `useMemo`, this will always return the same value, and if the\ninitializer is a function, only call it once.\n\n## Import\n\n```js\nimport { useConst } from '@incmix-ui/react'\n```\n\n## Parameters\n\nThe hook `useConst` accepts the initial value, or a function to get the initial value.\n\n## Usage\n\n```jsx\nfunction Example() {\n  const mountTime = useConst(() => new Date().toTimeString())\n  const obj = useConst({ a: Math.random() })\n  return (\n    <>\n      <p>Mount time: {mountTime}</p>\n      <p>Value from constant object: {obj.a}</p>\n    </>\n  )\n}\n```\n\n## Why not use `useMemo`?\n\nThe React documentation says that the engine may choose to “forget” some\npreviously memoized values and recalculate them on next render, and you should\nwrite your code so that it still works without `useMemo` and then add it to\noptimize performance.\n\nYou should use `useMemo` only when you need to recalculate the value based on\ndependencies.\n\n## Why not use `useState`?\n\n```jsx\nfunction Example() {\n  const [value] = useState(new Date().toTimeString())\n  return <p>Mount time: {value}</p>\n}\n```\n\nThis will work as a constant, but this is semantically wrong and it's expensive\ndue to reducer handling which we don't need.\n",
+    "code": "var Component=(()=>{var u=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),w=(t,e)=>{for(var o in e)a(t,o,{get:e[o],enumerable:!0})},c=(t,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of m(e))!g.call(t,i)&&i!==o&&a(t,i,{get:()=>e[i],enumerable:!(s=h(e,i))||s.enumerable});return t};var y=(t,e,o)=>(o=t!=null?u(p(t)):{},c(e||!t||!t.__esModule?a(o,\"default\",{value:t,enumerable:!0}):o,t)),f=t=>c(a({},\"__esModule\",{value:!0}),t);var l=x((b,r)=>{r.exports=_jsx_runtime});var k={};w(k,{default:()=>M,frontmatter:()=>j});var n=y(l()),j={title:\"useConst\",package:\"@incmix-ui/hooks\",description:\"React hook to initialize and return a constant value\"};function d(t){let e=Object.assign({p:\"p\",code:\"code\",h2:\"h2\",pre:\"pre\"},t.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.code,{children:\"useConst\"}),` is a custom hook used to initialize and return a constant value.\nUnlike `,(0,n.jsx)(e.code,{children:\"useMemo\"}),`, this will always return the same value, and if the\ninitializer is a function, only call it once.`]}),`\n`,(0,n.jsx)(e.h2,{id:\"import\",children:\"Import\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-js\",children:`import { useConst } from '@incmix-ui/react'\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"parameters\",children:\"Parameters\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"The hook \",(0,n.jsx)(e.code,{children:\"useConst\"}),\" accepts the initial value, or a function to get the initial value.\"]}),`\n`,(0,n.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`function Example() {\n  const mountTime = useConst(() => new Date().toTimeString())\n  const obj = useConst({ a: Math.random() })\n  return (\n    <>\n      <p>Mount time: {mountTime}</p>\n      <p>Value from constant object: {obj.a}</p>\n    </>\n  )\n}\n`})}),`\n`,(0,n.jsxs)(e.h2,{id:\"why-not-use-usememo\",children:[\"Why not use \",(0,n.jsx)(e.code,{children:\"useMemo\"}),\"?\"]}),`\n`,(0,n.jsxs)(e.p,{children:[`The React documentation says that the engine may choose to \\u201Cforget\\u201D some\npreviously memoized values and recalculate them on next render, and you should\nwrite your code so that it still works without `,(0,n.jsx)(e.code,{children:\"useMemo\"}),` and then add it to\noptimize performance.`]}),`\n`,(0,n.jsxs)(e.p,{children:[\"You should use \",(0,n.jsx)(e.code,{children:\"useMemo\"}),` only when you need to recalculate the value based on\ndependencies.`]}),`\n`,(0,n.jsxs)(e.h2,{id:\"why-not-use-usestate\",children:[\"Why not use \",(0,n.jsx)(e.code,{children:\"useState\"}),\"?\"]}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`function Example() {\n  const [value] = useState(new Date().toTimeString())\n  return <p>Mount time: {value}</p>\n}\n`})}),`\n`,(0,n.jsx)(e.p,{children:`This will work as a constant, but this is semantically wrong and it's expensive\ndue to reducer handling which we don't need.`})]})}function v(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,Object.assign({},t,{children:(0,n.jsx)(d,t)})):d(t)}var M=v;return f(k);})();\n;return Component;"
+  },
+  "_id": "docs/hooks/use-const.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/hooks/use-const.mdx",
+    "sourceFileName": "use-const.mdx",
+    "sourceFileDir": "docs/hooks",
+    "contentType": "mdx",
+    "flattenedPath": "docs/hooks/use-const"
+  },
+  "type": "Doc",
+  "slug": "/docs/hooks/use-const",
+  "frontMatter": {
+    "title": "useConst",
+    "package": "@incmix-ui/hooks",
+    "description": "React hook to initialize and return a constant value",
+    "slug": "/docs/hooks/use-const",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/hooks/use-const.mdx",
+    "headings": [
+      {
+        "text": "Import",
+        "id": "import",
+        "level": "h2"
+      },
+      {
+        "text": "Parameters",
+        "id": "parameters",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      },
+      {
+        "text": "Why not use `useMemo`?",
+        "id": "why-not-use-usememo",
+        "level": "h2"
+      },
+      {
+        "text": "Why not use `useState`?",
+        "id": "why-not-use-usestate",
+        "level": "h2"
+      }
+    ]
+  }
+}

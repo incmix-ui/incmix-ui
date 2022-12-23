@@ -1,0 +1,63 @@
+{
+  "title": "Gradient",
+  "description": "Learn how to use gradients in Incmix UI. Gradients are a way to transition between two or more colors.",
+  "scope": "usage",
+  "category": "features",
+  "body": {
+    "raw": "\nGradients are a way to have transition between two or more colors. You can add\ngradient support using any of the following style props.\n\n- `bgGradient`: a shorthand, convenient style prop to apply theme-aware\n  gradients.\n- `bgClip`: a shorthand for `background-clip` CSS attribute. Useful when\n  creating text gradients.\n- `backgroundClip`: the typical `background-clip` CSS attribute. Useful when\n  creating text gradients.\n\n## Background Gradient API\n\nTo add a gradient to an element, pass the `bgGradient` prop and set its value\nfollowing the API:\n\n- `linear(<direction>, <from>, <to>)`\n- `radial(<from>, <to>)`\n\nYou can also use other CSS gradient types like `repeating-linear`, `conic`, etc.\n\nFor linear gradients, the `<direction>` can be set to the default CSS directions\n(e.g. `to top`) or the shorthand equivalent (e.g `to-t`).\n\nHere's the list of supported direction shorthands and their respective values:\n\n```json\n{\n  \"to-t\": \"to top\",\n  \"to-tr\": \"to top right\",\n  \"to-r\": \"to right\",\n  \"to-br\": \"to bottom right\",\n  \"to-b\": \"to bottom\",\n  \"to-bl\": \"to bottom left\",\n  \"to-l\": \"to left\",\n  \"to-tl\": \"to top left\"\n}\n```\n\n## Usage\n\nLet's create a simple gradient from `green.200` to `pink.500`\n\n```jsx\n<Box w=\"100%\" h=\"200px\" bgGradient=\"linear(to-r, green.200, pink.500)\" />\n```\n\n### Customizing Colors\n\nYou can use both theme-aware color tokens or raw CSS color values.\n\n```jsx\n<Box w=\"100%\" h=\"200px\" bgGradient=\"linear(to-l, #7928CA, #FF0080)\" />\n```\n\n### Multiple Color Stops\n\nBy adding more color-stop points on the gradient line, you can create a highly\ncustomized transition between multiple colors.\n\n```jsx\n<Box w=\"100%\" h=\"200px\" bgGradient=\"linear(to-r, gray.300, yellow.400, pink.200)\" />\n```\n\nFollowing the CSS gradient specification, you can also define the distribution\nof the color stops\n\n```jsx\n<Box w=\"100%\" h=\"200px\" bgGradient=\"linear(red.100 0%, orange.100 25%, yellow.100 50%)\" />\n```\n\n## Text Gradient API\n\nTo add a text gradient, pass the `bgGradient` following the API and `bgClip`\nprop to `text`.\n\n```jsx\n<Text bgGradient=\"linear(to-l, #7928CA, #FF0080)\" bgClip=\"text\" fontSize=\"6xl\" fontWeight=\"extrabold\">\n  Welcome to Incmix UI\n</Text>\n```\n\n## Responsive Gradients\n\nYou can control the responsiveness of gradients by specifying the gradients at\nthe different breakpoints.\n\n```jsx\n<Box\n  w=\"100%\"\n  h=\"200px\"\n  bgGradient={[\n    'linear(to-tr, teal.300, yellow.400)',\n    'linear(to-t, blue.200, teal.500)',\n    'linear(to-b, orange.100, purple.300)',\n  ]}\n/>\n```\n\n## Changing gradient with pseudo props\n\nYou can change the gradient of an element based on common CSS pseudo attributes\n(hover, focus, active, etc).\n\nFor example, on hover, add the gradient you wish to have.\n\n```jsx\n<Box\n  as=\"button\"\n  p={4}\n  color=\"white\"\n  fontWeight=\"bold\"\n  borderRadius=\"md\"\n  bgGradient=\"linear(to-r, teal.500, green.500)\"\n  _hover={{\n    bgGradient: 'linear(to-r, red.500, yellow.500)',\n  }}\n>\n  Click here\n</Box>\n```\n",
+    "code": "var Component=(()=>{var s=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var m=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var r in e)i(t,r,{get:e[r],enumerable:!0})},l=(t,e,r,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!b.call(t,o)&&o!==r&&i(t,o,{get:()=>e[o],enumerable:!(a=p(e,o))||a.enumerable});return t};var f=(t,e,r)=>(r=t!=null?s(u(t)):{},l(e||!t||!t.__esModule?i(r,\"default\",{value:t,enumerable:!0}):r,t)),w=t=>l(i({},\"__esModule\",{value:!0}),t);var c=m((v,d)=>{d.exports=_jsx_runtime});var S={};x(S,{default:()=>G,frontmatter:()=>y});var n=f(c()),y={title:\"Gradient\",description:\"Learn how to use gradients in Incmix UI. Gradients are a way to transition between two or more colors.\",category:\"features\"};function h(t){let e=Object.assign({p:\"p\",ul:\"ul\",li:\"li\",code:\"code\",h2:\"h2\",pre:\"pre\",h3:\"h3\"},t.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:`Gradients are a way to have transition between two or more colors. You can add\ngradient support using any of the following style props.`}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:\"bgGradient\"}),`: a shorthand, convenient style prop to apply theme-aware\ngradients.`]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:\"bgClip\"}),\": a shorthand for \",(0,n.jsx)(e.code,{children:\"background-clip\"}),` CSS attribute. Useful when\ncreating text gradients.`]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:\"backgroundClip\"}),\": the typical \",(0,n.jsx)(e.code,{children:\"background-clip\"}),` CSS attribute. Useful when\ncreating text gradients.`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{id:\"background-gradient-api\",children:\"Background Gradient API\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"To add a gradient to an element, pass the \",(0,n.jsx)(e.code,{children:\"bgGradient\"}),` prop and set its value\nfollowing the API:`]}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:(0,n.jsx)(e.code,{children:\"linear(<direction>, <from>, <to>)\"})}),`\n`,(0,n.jsx)(e.li,{children:(0,n.jsx)(e.code,{children:\"radial(<from>, <to>)\"})}),`\n`]}),`\n`,(0,n.jsxs)(e.p,{children:[\"You can also use other CSS gradient types like \",(0,n.jsx)(e.code,{children:\"repeating-linear\"}),\", \",(0,n.jsx)(e.code,{children:\"conic\"}),\", etc.\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"For linear gradients, the \",(0,n.jsx)(e.code,{children:\"<direction>\"}),` can be set to the default CSS directions\n(e.g. `,(0,n.jsx)(e.code,{children:\"to top\"}),\") or the shorthand equivalent (e.g \",(0,n.jsx)(e.code,{children:\"to-t\"}),\").\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Here's the list of supported direction shorthands and their respective values:\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-json\",children:`{\n  \"to-t\": \"to top\",\n  \"to-tr\": \"to top right\",\n  \"to-r\": \"to right\",\n  \"to-br\": \"to bottom right\",\n  \"to-b\": \"to bottom\",\n  \"to-bl\": \"to bottom left\",\n  \"to-l\": \"to left\",\n  \"to-tl\": \"to top left\"\n}\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"usage\",children:\"Usage\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Let's create a simple gradient from \",(0,n.jsx)(e.code,{children:\"green.200\"}),\" to \",(0,n.jsx)(e.code,{children:\"pink.500\"})]}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`<Box w=\"100%\" h=\"200px\" bgGradient=\"linear(to-r, green.200, pink.500)\" />\n`})}),`\n`,(0,n.jsx)(e.h3,{id:\"customizing-colors\",children:\"Customizing Colors\"}),`\n`,(0,n.jsx)(e.p,{children:\"You can use both theme-aware color tokens or raw CSS color values.\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`<Box w=\"100%\" h=\"200px\" bgGradient=\"linear(to-l, #7928CA, #FF0080)\" />\n`})}),`\n`,(0,n.jsx)(e.h3,{id:\"multiple-color-stops\",children:\"Multiple Color Stops\"}),`\n`,(0,n.jsx)(e.p,{children:`By adding more color-stop points on the gradient line, you can create a highly\ncustomized transition between multiple colors.`}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`<Box w=\"100%\" h=\"200px\" bgGradient=\"linear(to-r, gray.300, yellow.400, pink.200)\" />\n`})}),`\n`,(0,n.jsx)(e.p,{children:`Following the CSS gradient specification, you can also define the distribution\nof the color stops`}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`<Box w=\"100%\" h=\"200px\" bgGradient=\"linear(red.100 0%, orange.100 25%, yellow.100 50%)\" />\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"text-gradient-api\",children:\"Text Gradient API\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"To add a text gradient, pass the \",(0,n.jsx)(e.code,{children:\"bgGradient\"}),\" following the API and \",(0,n.jsx)(e.code,{children:\"bgClip\"}),`\nprop to `,(0,n.jsx)(e.code,{children:\"text\"}),\".\"]}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`<Text bgGradient=\"linear(to-l, #7928CA, #FF0080)\" bgClip=\"text\" fontSize=\"6xl\" fontWeight=\"extrabold\">\n  Welcome to Incmix UI\n</Text>\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"responsive-gradients\",children:\"Responsive Gradients\"}),`\n`,(0,n.jsx)(e.p,{children:`You can control the responsiveness of gradients by specifying the gradients at\nthe different breakpoints.`}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`<Box\n  w=\"100%\"\n  h=\"200px\"\n  bgGradient={[\n    'linear(to-tr, teal.300, yellow.400)',\n    'linear(to-t, blue.200, teal.500)',\n    'linear(to-b, orange.100, purple.300)',\n  ]}\n/>\n`})}),`\n`,(0,n.jsx)(e.h2,{id:\"changing-gradient-with-pseudo-props\",children:\"Changing gradient with pseudo props\"}),`\n`,(0,n.jsx)(e.p,{children:`You can change the gradient of an element based on common CSS pseudo attributes\n(hover, focus, active, etc).`}),`\n`,(0,n.jsx)(e.p,{children:\"For example, on hover, add the gradient you wish to have.\"}),`\n`,(0,n.jsx)(e.pre,{children:(0,n.jsx)(e.code,{className:\"language-jsx\",children:`<Box\n  as=\"button\"\n  p={4}\n  color=\"white\"\n  fontWeight=\"bold\"\n  borderRadius=\"md\"\n  bgGradient=\"linear(to-r, teal.500, green.500)\"\n  _hover={{\n    bgGradient: 'linear(to-r, red.500, yellow.500)',\n  }}\n>\n  Click here\n</Box>\n`})})]})}function C(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,Object.assign({},t,{children:(0,n.jsx)(h,t)})):h(t)}var G=C;return w(S);})();\n;return Component;"
+  },
+  "_id": "docs/styled-system/gradient.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/styled-system/gradient.mdx",
+    "sourceFileName": "gradient.mdx",
+    "sourceFileDir": "docs/styled-system",
+    "contentType": "mdx",
+    "flattenedPath": "docs/styled-system/gradient"
+  },
+  "type": "Doc",
+  "slug": "/docs/styled-system/gradient",
+  "frontMatter": {
+    "title": "Gradient",
+    "description": "Learn how to use gradients in Incmix UI. Gradients are a way to transition between two or more colors.",
+    "slug": "/docs/styled-system/gradient",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/styled-system/gradient.mdx",
+    "headings": [
+      {
+        "text": "Background Gradient API",
+        "id": "background-gradient-api",
+        "level": "h2"
+      },
+      {
+        "text": "Usage",
+        "id": "usage",
+        "level": "h2"
+      },
+      {
+        "text": "Customizing Colors",
+        "id": "customizing-colors",
+        "level": "h3"
+      },
+      {
+        "text": "Multiple Color Stops",
+        "id": "multiple-color-stops",
+        "level": "h3"
+      },
+      {
+        "text": "Text Gradient API",
+        "id": "text-gradient-api",
+        "level": "h2"
+      },
+      {
+        "text": "Responsive Gradients",
+        "id": "responsive-gradients",
+        "level": "h2"
+      },
+      {
+        "text": "Changing gradient with pseudo props",
+        "id": "changing-gradient-with-pseudo-props",
+        "level": "h2"
+      }
+    ]
+  }
+}

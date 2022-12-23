@@ -1,0 +1,27 @@
+{
+  "title": "Page specific color mode",
+  "description": "How to lock a specific page to a specific color mode",
+  "author": "segunadebayo",
+  "body": {
+    "raw": "\nThe default way to add color mode in your application or website is to wrap it\nin the `IncmixProvider` which provides a way to change the color mode to `light`\nor `dark` depending on system/user preferences.\n\nIn reality, you might run into scenarios where you want to lock a page to a\nspecific color mode (light or dark).\n\nA combination of `LightMode` or `DarkMode` components and the _undocumented_\n`GlobalStyle` component can help you achieve this.\n\nThe `GlobalStyle` component provides the styles defined in `theme.styles.global`\nto the elements on entire page.\n\n> **Note 🚨:** The caveat of this approach is that you won't be able to switch\n> between color modes. You're effectively \"locking\" the mode.\n\nLet's say we want to lock the page to light mode, you can import the `LightMode`\ncomponent and wrap the page within it.\n\n```jsx live=false\nimport { LightMode, GlobalStyle } from '@incmix-ui/react'\n\nfunction Page() {\n  return (\n    <LightMode>\n      <GlobalStyle />\n      {/* rest of your page */}\n    </LightMode>\n  )\n}\n```\n",
+    "code": "var Component=(()=>{var s=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var y=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var t in e)i(n,t,{get:e[t],enumerable:!0})},a=(n,e,t,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let c of m(e))!u.call(n,c)&&c!==t&&i(n,c,{get:()=>e[c],enumerable:!(r=p(e,c))||r.enumerable});return n};var b=(n,e,t)=>(t=n!=null?s(g(n)):{},a(e||!n||!n.__esModule?i(t,\"default\",{value:n,enumerable:!0}):t,n)),w=n=>a(i({},\"__esModule\",{value:!0}),n);var l=y((L,d)=>{d.exports=_jsx_runtime});var j={};f(j,{default:()=>M,frontmatter:()=>x});var o=b(l()),x={title:\"Page specific color mode\",description:\"How to lock a specific page to a specific color mode\",author:\"segunadebayo\"};function h(n){let e=Object.assign({p:\"p\",code:\"code\",em:\"em\",blockquote:\"blockquote\",strong:\"strong\",pre:\"pre\"},n.components);return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsxs)(e.p,{children:[`The default way to add color mode in your application or website is to wrap it\nin the `,(0,o.jsx)(e.code,{children:\"IncmixProvider\"}),\" which provides a way to change the color mode to \",(0,o.jsx)(e.code,{children:\"light\"}),`\nor `,(0,o.jsx)(e.code,{children:\"dark\"}),\" depending on system/user preferences.\"]}),`\n`,(0,o.jsx)(e.p,{children:`In reality, you might run into scenarios where you want to lock a page to a\nspecific color mode (light or dark).`}),`\n`,(0,o.jsxs)(e.p,{children:[\"A combination of \",(0,o.jsx)(e.code,{children:\"LightMode\"}),\" or \",(0,o.jsx)(e.code,{children:\"DarkMode\"}),\" components and the \",(0,o.jsx)(e.em,{children:\"undocumented\"}),`\n`,(0,o.jsx)(e.code,{children:\"GlobalStyle\"}),\" component can help you achieve this.\"]}),`\n`,(0,o.jsxs)(e.p,{children:[\"The \",(0,o.jsx)(e.code,{children:\"GlobalStyle\"}),\" component provides the styles defined in \",(0,o.jsx)(e.code,{children:\"theme.styles.global\"}),`\nto the elements on entire page.`]}),`\n`,(0,o.jsxs)(e.blockquote,{children:[`\n`,(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:\"Note \\u{1F6A8}:\"}),` The caveat of this approach is that you won't be able to switch\nbetween color modes. You're effectively \"locking\" the mode.`]}),`\n`]}),`\n`,(0,o.jsxs)(e.p,{children:[\"Let's say we want to lock the page to light mode, you can import the \",(0,o.jsx)(e.code,{children:\"LightMode\"}),`\ncomponent and wrap the page within it.`]}),`\n`,(0,o.jsx)(e.pre,{children:(0,o.jsx)(e.code,{className:\"language-jsx\",live:\"false\",children:`import { LightMode, GlobalStyle } from '@incmix-ui/react'\n\nfunction Page() {\n  return (\n    <LightMode>\n      <GlobalStyle />\n      {/* rest of your page */}\n    </LightMode>\n  )\n}\n`})})]})}function k(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,Object.assign({},n,{children:(0,o.jsx)(h,n)})):h(n)}var M=k;return w(j);})();\n;return Component;"
+  },
+  "_id": "community/recipes/page-specific-color-mode.mdx",
+  "_raw": {
+    "sourceFilePath": "community/recipes/page-specific-color-mode.mdx",
+    "sourceFileName": "page-specific-color-mode.mdx",
+    "sourceFileDir": "community/recipes",
+    "contentType": "mdx",
+    "flattenedPath": "community/recipes/page-specific-color-mode"
+  },
+  "type": "Recipe",
+  "slug": "/community/recipes/page-specific-color-mode",
+  "frontMatter": {
+    "title": "Page specific color mode",
+    "description": "How to lock a specific page to a specific color mode",
+    "author": "segunadebayo",
+    "slug": "/community/community/recipes/page-specific-color-mode",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/community/recipes/page-specific-color-mode.mdx",
+    "headings": []
+  }
+}

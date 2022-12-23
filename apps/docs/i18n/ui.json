@@ -1,0 +1,150 @@
+{
+  "homepage": {
+    "title": {
+      "main": "Create accessible React apps",
+      "highlighted": "with speed"
+    },
+    "message": "Incmix UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.",
+    "get-started": "Get Started",
+    "supported-and-backed-by": "Supported and Backed by",
+    "your-company": "Your company",
+    "less-code-more-speed": "Less code. More speed",
+    "less-code-description": "Spend less time writing UI code and more time building a great experience for your customers.",
+    "feature-section": {
+      "title": "An experience you'd expect from a design system",
+      "description": "Opinionated and designed for daily use.",
+      "accessible": {
+        "title": "Accessible",
+        "description": "Incmix UI strictly follows WAI-ARIA standards for all components."
+      },
+      "themeable": {
+        "title": "Themeable",
+        "description": "Customize any part of our components to match your design needs."
+      },
+      "composable": {
+        "title": "Composable",
+        "description": "Designed with composition in mind. Compose new components with ease."
+      },
+      "light-and-dark-ui": {
+        "title": "Light and Dark UI",
+        "description": "Optimized for multiple color modes. Use light or dark, your choice."
+      }
+    }
+  },
+  "notfound": {
+    "title": "404: Not found",
+    "description": "Page not found",
+    "heading": "404 | Page Not Found",
+    "message": "You just hit a route that doesn't exist... the sadness.😢",
+    "back-to-home": "Back to Home"
+  },
+  "tutorialError": {
+    "title": "Ooops something broke",
+    "description": "Error in the tutorial framework",
+    "heading": "Ooops something broke 😭",
+    "message": "You just found a really nasty issue. We are aware of it. Just hit 'Reload' and code on!",
+    "submessage": "PS: Try to have no code selected in the sandbox before copying new code 😉",
+    "reload": "Reload"
+  },
+  "team": {
+    "title": "Incmix UI Team",
+    "message": "Amazing engineers who have contributed time, effort, and thought to Incmix UI. Without them, this project would not be possible.",
+    "core-team": "Core Team 🤝",
+    "former-members": "Former Core Team 🏅",
+    "our-sponsors": "Our Sponsors 💰",
+    "organizations": "Organizations",
+    "individuals": "Individuals",
+    "project-contributors": "Project Contributors 💖",
+    "seo": {
+      "title": "Incmix UI Team and Contributors",
+      "description": "List of team members and contributors that make the Incmix UI project possible"
+    }
+  },
+  "component": {
+    "incmix-pro": {
+      "ad-banner": {
+        "message": "Build faster with Premium Incmix UI Components 💎",
+        "learn-more": "Learn more"
+      },
+      "docs-page-ad": {
+        "message-bold": "Incmix UI Pro:",
+        "message": "Start your application or marketing site with a growing collection of beautiful and responsive UI components.",
+        "ads-via-incmix-ui": "Ads via Incmix UI"
+      },
+      "home-page-ad": {
+        "premium-components": "Premium components",
+        "new": "New",
+        "build-fasler": "Build faster",
+        "with-incmix-ui-pro": "with Incmix UI Pro 💎",
+        "description": "Beautiful and responsive React components to build your application or marketing pages quicker.",
+        "learn-more": "Learn more"
+      }
+    },
+    "mdx-components": {
+      "copy-button": {
+        "copy": "copy",
+        "copied": "copied"
+      },
+      "react-live-block": {
+        "editable-example": "Editable Example"
+      },
+      "egghead-course-banner": {
+        "heading": "Build a Modern User Interface with Incmix UI",
+        "description": "In this free course, you will learn the basics of Incmix UI and how to build well-designed, accessible user interfaces with speed!",
+        "start-learning": "Start learning"
+      },
+      "carbon-ad": {
+        "message-bold": "Incmix UI Pro:",
+        "message": "Start your application or marketing site with a growing collection of beautiful and responsive UI components.",
+        "ads-via-incmix-ui": "Ads via Incmix UI"
+      },
+      "component-links": {
+        "view-source": "Source",
+        "view-storybook": "Storybook",
+        "view-theme-source": "Theme source",
+        "view-video": "Video"
+      }
+    },
+    "algolia-search": {
+      "search-the-docs": "Search the docs",
+      "press": "Press",
+      "and": "and",
+      "to-search": "to-search"
+    },
+    "discord-strip": {
+      "heading": "Connect with the community",
+      "description": "Feel free to ask questions, report issues, and meet new people.",
+      "join-the-incmix-discord": "Join the #Incmix Discord!"
+    },
+    "edit-page-button": {
+      "edit-this-page": "Edit this page on GitHub"
+    },
+    "footer": {},
+    "page-container": {
+      "skip-to-content": "Skip to Content"
+    },
+    "props-table": {
+      "required": "required",
+      "description": "Description",
+      "type": "Type",
+      "default": "Default",
+      "for": "for",
+      "are-not-implemented-in-the-default-theme": "are not implemented in the default theme.",
+      "you-can": "You can",
+      "extend-the-theme": "extend the theme",
+      "to-implement-them": "to implement them."
+    },
+    "table-of-content": {
+      "on-this-page": "On this page",
+      "versions": "Versions"
+    }
+  },
+  "showcase": {
+    "seo": {
+      "title": "Showcase",
+      "description": "A collection of beautiful websites that are built in Incmix UI"
+    },
+    "title": "Showcase",
+    "message": "A collection of beautiful websites that are built in Incmix UI"
+  }
+}

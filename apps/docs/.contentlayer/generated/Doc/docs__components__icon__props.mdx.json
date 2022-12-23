@@ -1,0 +1,39 @@
+{
+  "id": "icon",
+  "scope": "props",
+  "body": {
+    "raw": "\n## Props\n\n### `Icon` props\n\n| Name        | Type                  | Default        | Description                                                                          |\n| ----------- | --------------------- | -------------- | ------------------------------------------------------------------------------------ |\n| `viewBox`   | `string`              | `0 0 24 24`    | The viewBox of the icon.                                                             |\n| `boxSize`   | `string`              | `1em`          | The size (width and height) of the icon.                                             |\n| `color`     | `string`              | `currentColor` | The color of the icon.                                                               |\n| `focusable` | `boolean`             | `false`        | Denotes that the icon is not an interactive element, and only used for presentation. |\n| `role`      | `presentation`, `img` |                | The html role of the icon.                                                           |\n| `children`  | `React.ReactNode`     |                | The Path or Group of the icon                                                        |\n\n## `createIcon` options\n\n<PropsTable of=\"createIcon\" />\n",
+    "code": "var Component=(()=>{var a=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var u=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var t in e)r(n,t,{get:e[t],enumerable:!0})},i=(n,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let c of f(e))!b.call(n,c)&&c!==t&&r(n,c,{get:()=>e[c],enumerable:!(o=p(e,c))||o.enumerable});return n};var g=(n,e,t)=>(t=n!=null?a(m(n)):{},i(e||!n||!n.__esModule?r(t,\"default\",{value:n,enumerable:!0}):t,n)),j=n=>i(r({},\"__esModule\",{value:!0}),n);var l=u((M,h)=>{h.exports=_jsx_runtime});var D={};x(D,{default:()=>_,frontmatter:()=>y});var d=g(l()),y={id:\"icon\",scope:\"props\"};function s(n){let e=Object.assign({h2:\"h2\",h3:\"h3\",code:\"code\",table:\"table\",thead:\"thead\",tr:\"tr\",th:\"th\",tbody:\"tbody\",td:\"td\"},n.components),{PropsTable:t}=e;return t||w(\"PropsTable\",!0),(0,d.jsxs)(d.Fragment,{children:[(0,d.jsx)(e.h2,{id:\"props\",children:\"Props\"}),`\n`,(0,d.jsxs)(e.h3,{id:\"icon-props\",children:[(0,d.jsx)(e.code,{children:\"Icon\"}),\" props\"]}),`\n`,(0,d.jsxs)(e.table,{children:[(0,d.jsx)(e.thead,{children:(0,d.jsxs)(e.tr,{children:[(0,d.jsx)(e.th,{children:\"Name\"}),(0,d.jsx)(e.th,{children:\"Type\"}),(0,d.jsx)(e.th,{children:\"Default\"}),(0,d.jsx)(e.th,{children:\"Description\"})]})}),(0,d.jsxs)(e.tbody,{children:[(0,d.jsxs)(e.tr,{children:[(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"viewBox\"})}),(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"string\"})}),(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"0 0 24 24\"})}),(0,d.jsx)(e.td,{children:\"The viewBox of the icon.\"})]}),(0,d.jsxs)(e.tr,{children:[(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"boxSize\"})}),(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"string\"})}),(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"1em\"})}),(0,d.jsx)(e.td,{children:\"The size (width and height) of the icon.\"})]}),(0,d.jsxs)(e.tr,{children:[(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"color\"})}),(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"string\"})}),(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"currentColor\"})}),(0,d.jsx)(e.td,{children:\"The color of the icon.\"})]}),(0,d.jsxs)(e.tr,{children:[(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"focusable\"})}),(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"boolean\"})}),(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"false\"})}),(0,d.jsx)(e.td,{children:\"Denotes that the icon is not an interactive element, and only used for presentation.\"})]}),(0,d.jsxs)(e.tr,{children:[(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"role\"})}),(0,d.jsxs)(e.td,{children:[(0,d.jsx)(e.code,{children:\"presentation\"}),\", \",(0,d.jsx)(e.code,{children:\"img\"})]}),(0,d.jsx)(e.td,{}),(0,d.jsx)(e.td,{children:\"The html role of the icon.\"})]}),(0,d.jsxs)(e.tr,{children:[(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"children\"})}),(0,d.jsx)(e.td,{children:(0,d.jsx)(e.code,{children:\"React.ReactNode\"})}),(0,d.jsx)(e.td,{}),(0,d.jsx)(e.td,{children:\"The Path or Group of the icon\"})]})]})]}),`\n`,(0,d.jsxs)(e.h2,{id:\"createicon-options\",children:[(0,d.jsx)(e.code,{children:\"createIcon\"}),\" options\"]}),`\n`,(0,d.jsx)(t,{of:\"createIcon\"})]})}function T(n={}){let{wrapper:e}=n.components||{};return e?(0,d.jsx)(e,Object.assign({},n,{children:(0,d.jsx)(s,n)})):s(n)}var _=T;function w(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}return j(D);})();\n;return Component;"
+  },
+  "_id": "docs/components/icon/props.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/icon/props.mdx",
+    "sourceFileName": "props.mdx",
+    "sourceFileDir": "docs/components/icon",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/icon/props"
+  },
+  "type": "Doc",
+  "slug": "/docs/components/icon/props",
+  "frontMatter": {
+    "slug": "/docs/components/icon/props",
+    "editUrl": "https://github.com/incmix-ui/incmix-ui-docs/tree/main/content/docs/components/icon/props.mdx",
+    "headings": [
+      {
+        "text": "Props",
+        "id": "props",
+        "level": "h2"
+      },
+      {
+        "text": "`Icon` props",
+        "id": "icon-props",
+        "level": "h3"
+      },
+      {
+        "text": "`createIcon` options",
+        "id": "createicon-options",
+        "level": "h2"
+      }
+    ]
+  }
+}
