@@ -11,21 +11,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@chakra-ui/css-reset": "workspace:*",
-    "@chakra-ui/portal": "workspace:*",
-    "@chakra-ui/react-env": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/utils": "workspace:*"
+    "@chakra-ui/provider": "2.0.26"
   },
-  "peerDependencies": {
-    "@emotion/react": "^11.0.0",
-    "@emotion/styled": "^11.0.0",
-    "react": ">=18",
-    "react-dom": ">=18"
-  },
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "license": "MIT",
-  "homepage": "https://chakra-ui.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/incmix-ui/incmix-ui",
@@ -46,13 +33,6 @@
   "storybook": {
     "title": "Chakra UI",
     "url": "https://chakra-ui.netlify.app"
-  },
-  "devDependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "clean-package": "2.1.1"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

@@ -37,29 +37,7 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/react-use-pan-event": "workspace:*",
-    "@chakra-ui/react-use-size": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*",
-    "@chakra-ui/react-use-update-effect": "workspace:*",
-    "@chakra-ui/react-types": "workspace:*",
-    "@chakra-ui/react-use-controllable-state": "workspace:*",
-    "@chakra-ui/react-use-callback-ref": "workspace:*",
-    "@chakra-ui/react-use-latest-ref": "workspace:*",
-    "@chakra-ui/react-use-merge-refs": "workspace:*",
-    "@chakra-ui/number-utils": "workspace:*"
-  },
-  "devDependencies": {
-    "@chakra-ui/utils": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/theme": "workspace:*",
-    "@chakra-ui/provider": "workspace:*",
-    "@emotion/styled": "^11.8.1",
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
-  },
-  "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
-    "react": ">=18"
+    "@chakra-ui/slider": "2.0.16"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

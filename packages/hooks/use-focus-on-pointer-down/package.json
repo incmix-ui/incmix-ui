@@ -31,14 +31,7 @@
     "prepack": "clean-package",
     "postpack": "clean-package restore"
   },
-  "peerDependencies": {
-    "react": ">=18"
-  },
   "dependencies": {
-    "@chakra-ui/react-use-event-listener": "workspace:*"
-  },
-  "devDependencies": {
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
+    "@chakra-ui/react-use-focus-on-pointer-down": "2.0.4"
   }
 }

@@ -27,17 +27,6 @@
   "bugs": {
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
-  "peerDependencies": {
-    "framer-motion": ">=4.0.0",
-    "react": ">=18"
-  },
-  "devDependencies": {
-    "@chakra-ui/hooks": "workspace:*",
-    "@chakra-ui/shared-utils": "workspace:*",
-    "framer-motion": "^6.2.9",
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
-  },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",
     "dev": "pnpm build:fast -- --watch",
@@ -46,5 +35,8 @@
     "build:fast": "JSX=1 tsup src/index.ts",
     "prepack": "clean-package",
     "postpack": "clean-package restore"
+  },
+  "dependencies": {
+    "@chakra-ui/transition": "2.0.12"
   }
 }

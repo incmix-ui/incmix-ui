@@ -29,22 +29,7 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/checkbox": "workspace:*"
-  },
-  "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/form-control": "workspace:*",
-    "@chakra-ui/layout": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "framer-motion": "^6.2.9",
-    "react-hook-form": "7.18.1",
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
-  },
-  "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
-    "framer-motion": ">=4.0.0",
-    "react": ">=18"
+    "@chakra-ui/switch": "2.0.17"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

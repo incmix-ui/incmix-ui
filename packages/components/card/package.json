@@ -32,6 +32,6 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@chakra-ui/card": "workspace:^2.1.3"
+    "@chakra-ui/card": "2.1.3"
   }
 }

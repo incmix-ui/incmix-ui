@@ -1,1 +1,1 @@
-export * from "./focus-lock"
+export * from "@chakra-ui/focus-lock"

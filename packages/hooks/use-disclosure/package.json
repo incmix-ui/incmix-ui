@@ -32,13 +32,6 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@chakra-ui/react-use-callback-ref": "workspace:*"
-  },
-  "peerDependencies": {
-    "react": ">=18"
-  },
-  "devDependencies": {
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
+    "@chakra-ui/react-use-disclosure": "2.0.6"
   }
 }

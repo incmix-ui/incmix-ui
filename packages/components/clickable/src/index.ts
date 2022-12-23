@@ -1,1 +1,1 @@
-export * from "@chakra-ui/use-clickable"
+export * from "@chakra-ui/clickable"

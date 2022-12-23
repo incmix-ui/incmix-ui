@@ -1,1 +1,1 @@
-export * from "./switch"
+export * from "@chakra-ui/switch"

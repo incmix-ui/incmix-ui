@@ -1,5 +1,1 @@
-import { useEffect, useLayoutEffect } from "react"
-
-export const useSafeLayoutEffect = Boolean(globalThis?.document)
-  ? useLayoutEffect
-  : useEffect
+export * from "@chakra-ui/react-use-safe-layout-effect"

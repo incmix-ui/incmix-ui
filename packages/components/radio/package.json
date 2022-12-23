@@ -28,24 +28,7 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/form-control": "workspace:*",
-    "@chakra-ui/react-types": "workspace:*",
-    "@chakra-ui/react-context": "workspace:*",
-    "@chakra-ui/react-use-merge-refs": "workspace:*",
-    "@zag-js/focus-visible": "0.1.0"
-  },
-  "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/object-utils": "workspace:*",
-    "@chakra-ui/visually-hidden": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/layout": "workspace:*",
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
-  },
-  "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
-    "react": ">=18"
+    "@chakra-ui/radio": "2.0.14"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

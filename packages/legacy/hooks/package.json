@@ -26,17 +26,7 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/react-utils": "workspace:*",
-    "@chakra-ui/utils": "workspace:*",
-    "compute-scroll-into-view": "1.0.14",
-    "copy-to-clipboard": "3.3.1"
-  },
-  "peerDependencies": {
-    "react": ">=18"
-  },
-  "devDependencies": {
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
+    "@chakra-ui/hooks": "2.1.2"
   },
   "scripts": {
     "build": "tsup src/index.ts --dts",

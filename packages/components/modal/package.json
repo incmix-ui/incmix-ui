@@ -35,7 +35,7 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/modal": "^2.2.5"
+    "@chakra-ui/modal": "2.2.5"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

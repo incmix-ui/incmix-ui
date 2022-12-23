@@ -32,18 +32,7 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/react-use-merge-refs": "workspace:*",
-    "@chakra-ui/react-types": "workspace:*",
-    "@popperjs/core": "^2.9.3"
-  },
-  "devDependencies": {
-    "@chakra-ui/hooks": "workspace:*",
-    "framer-motion": "^6.2.9",
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
-  },
-  "peerDependencies": {
-    "react": ">=18"
+    "@chakra-ui/popper": "3.0.10"
   },
   "scripts": {
     "build": "tsup src/index.ts --dts",

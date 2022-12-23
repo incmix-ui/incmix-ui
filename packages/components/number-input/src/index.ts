@@ -1,2 +1,1 @@
-export * from "./number-input"
-export * from "./use-number-input"
+export * from "@chakra-ui/number-input"

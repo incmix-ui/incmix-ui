@@ -1,1 +1,1 @@
-export * from "./skip-nav"
+export * from "@chakra-ui/skip-nav"

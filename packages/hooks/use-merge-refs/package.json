@@ -31,11 +31,7 @@
     "prepack": "clean-package",
     "postpack": "clean-package restore"
   },
-  "peerDependencies": {
-    "react": ">=18"
-  },
-  "devDependencies": {
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
+  "dependencies": {
+    "@chakra-ui/react-use-merge-refs": "2.0.5"
   }
 }

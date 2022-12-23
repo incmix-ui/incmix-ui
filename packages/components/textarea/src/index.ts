@@ -1,1 +1,1 @@
-export * from "./textarea"
+export * from "@chakra-ui/textarea"

@@ -31,10 +31,7 @@
     "prepack": "clean-package",
     "postpack": "clean-package restore"
   },
-  "devDependencies": {
-    "clean-package": "2.1.1"
-  },
-  "peerDependencies": {
-    "react": ">=18"
+  "dependencies": {
+    "@chakra-ui/react-children-utils": "2.0.4"
   }
 }

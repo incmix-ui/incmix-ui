@@ -1,2 +1,1 @@
-export * from "./tooltip"
-export * from "./use-tooltip"
+export * from "@chakra-ui/tooltip"

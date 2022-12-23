@@ -1,1 +1,1 @@
-export * from "./chakra-provider"
+export * from "@chakra-ui/provider"

@@ -20,8 +20,6 @@
     "aria table"
   ],
   "sideEffects": false,
-  "author": "Tim Kolberger <tim@kolberger.eu>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -39,21 +37,7 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/react-context": "workspace:*"
-  },
-  "devDependencies": {
-    "@chakra-ui/shared-utils": "workspace:*",
-    "@chakra-ui/button": "workspace:*",
-    "@chakra-ui/icons": "workspace:*",
-    "@chakra-ui/system": "workspace:*",
-    "@chakra-ui/test-utils": "workspace:*",
-    "@tanstack/react-table": "^8.5.10",
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
-  },
-  "peerDependencies": {
-    "@chakra-ui/system": ">=2.0.0",
-    "react": ">=18"
+    "@chakra-ui/table": "2.0.13"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

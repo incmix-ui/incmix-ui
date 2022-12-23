@@ -1,3 +1,1 @@
-export * from "./visually-hidden"
-export { default } from "./visually-hidden"
-export { visuallyHiddenStyle } from "./visually-hidden.style"
+export * from "@chakra-ui/visually-hidden"

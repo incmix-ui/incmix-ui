@@ -1,1 +1,1 @@
-export * from "./tag"
+export * from "@chakra-ui/tag"

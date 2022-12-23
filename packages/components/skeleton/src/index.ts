@@ -1,3 +1,1 @@
-export * from "./skeleton"
-export * from "./skeleton-text"
-export * from "./skeleton-circle"
+export * from "@chakra-ui/skeleton"

@@ -25,10 +25,7 @@
   "bugs": {
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
-  "peerDependencies": {
-    "react": ">=18"
-  },
-  "devDependencies": {
-    "react": "^18.0.0"
+  "dependencies": {
+    "@chakra-ui/react-types": "2.0.5"
   }
 }

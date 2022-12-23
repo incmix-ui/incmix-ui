@@ -29,7 +29,7 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@chakra-ui/button": "workspace:^2.0.13"
+    "@chakra-ui/button": "^2.0.13"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

@@ -32,13 +32,6 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@zag-js/element-size": "0.1.0"
-  },
-  "peerDependencies": {
-    "react": ">=18"
-  },
-  "devDependencies": {
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
+    "@chakra-ui/react-use-size": "2.0.5"
   }
 }
