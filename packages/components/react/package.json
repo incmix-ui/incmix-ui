@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/react",
-  "version": "2.4.3",
+  "version": "2.4.4",
   "description": "Responsive and accessible React UI components built with React and Emotion",
   "main": "src/index.ts",
   "files": [
@@ -11,35 +11,14 @@
     "access": "public"
   },
   "dependencies": {
-    "@incmix-ui/button": "workspace:*",
-    "@incmix-ui/css-reset": "workspace:*",
-    "@incmix-ui/color-mode": "workspace:*",
-    "@incmix-ui/hooks": "workspace:*",
-    "@incmix-ui/icon": "workspace:*",
-    "@incmix-ui/layout": "workspace:*",
-    "@incmix-ui/live-region": "workspace:*",
-    "@incmix-ui/portal": "workspace:*",
-    "@incmix-ui/provider": "workspace:*",
-    "@incmix-ui/react-env": "workspace:*",
-    "@incmix-ui/spinner": "workspace:*",
-    "@incmix-ui/styled-system": "workspace:*",
-    "@incmix-ui/system": "workspace:*",
-    "@incmix-ui/theme": "workspace:*",
-    "@incmix-ui/theme-utils": "workspace:*",
-    "@incmix-ui/transition": "workspace:*",
-    "@incmix-ui/utils": "workspace:*",
-    "@incmix-ui/visually-hidden": "workspace:*"
+    "@chakra-ui/provider": "2.0.26",
+    "@chakra-ui/react": "2.4.4",
+    "@chakra-ui/theme": "2.2.2",
+    "@chakra-ui/toast": "4.0.6",
+    "@chakra-ui/utils": "2.0.12",
+    "@types/react": "18.0.1",
+    "react": "18.0.0"
   },
-  "peerDependencies": {
-    "@emotion/react": "^11.0.0",
-    "@emotion/styled": "^11.0.0",
-    "framer-motion": ">=4.0.0",
-    "react": ">=18",
-    "react-dom": ">=18"
-  },
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "license": "MIT",
-  "homepage": "https://incmix-ui.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/incmix-ui/incmix-ui",
@@ -58,16 +37,8 @@
     "design-system"
   ],
   "storybook": {
-    "title": "incmix UI",
-    "url": "https://storybook.incmix-ui.com"
-  },
-  "devDependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "framer-motion": "^6.2.9",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "clean-package": "2.1.1"
+    "title": "Chakra UI",
+    "url": "https://storybook.chakra-ui.com"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

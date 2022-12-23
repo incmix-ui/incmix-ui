@@ -1,0 +1,45 @@
+{
+  "name": "@incmix-ui/skip-nav",
+  "version": "2.0.12",
+  "description": "Skip navigation links for screen reader and keyboard users",
+  "keywords": [
+    "skip link",
+    "skip",
+    "link",
+    "navigation",
+    "a11y",
+    "screen reader",
+    "accessbility",
+    "react",
+    "chakra ui"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
+    "directory": "packages/components/skip-nav"
+  },
+  "bugs": {
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
+  },
+  "scripts": {
+    "build": "JSX=1 tsup src/index.ts --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "JSX=1 tsup src/index.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "dependencies": {
+    "@chakra-ui/skip-nav": "2.0.12"
+  }
+}

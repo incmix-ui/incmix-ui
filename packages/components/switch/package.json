@@ -1,0 +1,43 @@
+{
+  "name": "@incmix-ui/switch",
+  "version": "2.0.17",
+  "description": "A React component to view and switch between on or off states.",
+  "keywords": [
+    "switch",
+    "toggle",
+    "component",
+    "input",
+    "react",
+    "custom checkbox",
+    "chakra ui"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
+    "directory": "packages/components/switch"
+  },
+  "bugs": {
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
+  },
+  "dependencies": {
+    "@chakra-ui/switch": "2.0.17"
+  },
+  "scripts": {
+    "build": "JSX=1 tsup src/index.ts --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "JSX=1 tsup src/index.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  }
+}

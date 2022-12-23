@@ -1,9 +1,1 @@
-export {
-  objectToArrayNotation,
-  arrayToObjectNotation,
-  isCustomBreakpoint,
-  isResponsiveObjectLike,
-  mapResponsive,
-  breakpoints,
-} from "./responsive"
-export * from "./breakpoint"
+export * from "@chakra-ui/breakpoint-utils"

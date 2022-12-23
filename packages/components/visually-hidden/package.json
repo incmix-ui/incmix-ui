@@ -5,8 +5,8 @@
   "keywords": [
     "react",
     "component",
-    "incmix",
-    "incmix ui",
+    "chakra",
+    "chakra ui",
     "a11y",
     "aria",
     "accessibility",
@@ -17,8 +17,6 @@
     "screenreader"
   ],
   "sideEffects": false,
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -35,15 +33,6 @@
   "bugs": {
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
-  "devDependencies": {
-    "@incmix-ui/system": "workspace:*",
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
-  },
-  "peerDependencies": {
-    "@incmix-ui/system": ">=2.0.0",
-    "react": ">=18"
-  },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",
     "dev": "pnpm build:fast -- --watch",
@@ -52,5 +41,8 @@
     "build:fast": "JSX=1 tsup src/index.ts",
     "prepack": "clean-package",
     "postpack": "clean-package restore"
+  },
+  "dependencies": {
+    "@chakra-ui/visually-hidden": "2.0.13"
   }
 }

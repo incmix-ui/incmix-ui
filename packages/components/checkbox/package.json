@@ -1,0 +1,47 @@
+{
+  "name": "@incmix-ui/checkbox",
+  "version": "2.2.5",
+  "description": "A React Checkbox component for use in forms",
+  "keywords": [
+    "react",
+    "checkbox",
+    "custom-checkbox",
+    "checkbox-hook",
+    "react hook",
+    "input",
+    "chakra-ui",
+    "use-checkbox",
+    "checkboxGroup",
+    "checkbox-group-hook",
+    "use-checbox-group"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
+    "directory": "packages/components/checkbox"
+  },
+  "bugs": {
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
+  },
+  "dependencies": {
+    "@chakra-ui/checkbox": "2.2.5"
+  },
+  "scripts": {
+    "build": "JSX=1 tsup src/index.ts --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "JSX=1 tsup src/index.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  }
+}

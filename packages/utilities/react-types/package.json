@@ -7,8 +7,6 @@
     "types",
     "shared"
   ],
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "types": "src/index.d.ts",
   "sideEffects": false,
@@ -27,10 +25,7 @@
   "bugs": {
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
-  "peerDependencies": {
-    "react": ">=18"
-  },
-  "devDependencies": {
-    "react": "^18.0.0"
+  "dependencies": {
+    "@chakra-ui/react-types": "2.0.5"
   }
 }

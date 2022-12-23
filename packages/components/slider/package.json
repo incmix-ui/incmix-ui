@@ -1,0 +1,51 @@
+{
+  "name": "@incmix-ui/slider",
+  "version": "2.0.16",
+  "description": "Accessible slider component for React that implements <input type=range>",
+  "keywords": [
+    "react",
+    "chakra ui",
+    "chakra",
+    "component",
+    "slider",
+    "accessible",
+    "a11y slider",
+    "react a11y slider",
+    "react accessible slider",
+    "react slider",
+    "a11y",
+    "input range",
+    "react aria slider",
+    "aria",
+    "aria slider"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
+    "directory": "packages/components/slider"
+  },
+  "bugs": {
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
+  },
+  "dependencies": {
+    "@chakra-ui/slider": "2.0.16"
+  },
+  "scripts": {
+    "build": "JSX=1 tsup src/index.ts --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "JSX=1 tsup src/index.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  }
+}

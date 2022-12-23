@@ -1,2 +1,1 @@
-export * from "./extend-theme"
-export * from "./theme-extensions"
+export * from "@chakra-ui/theme-utils"

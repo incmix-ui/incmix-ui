@@ -1,1 +1,1 @@
-export * from "./control-box"
+export * from "@chakra-ui/control-box"

@@ -1,0 +1,46 @@
+{
+  "name": "@incmix-ui/provider",
+  "version": "2.0.26",
+  "description": "Theme and components agnostic ChakraProvider",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@chakra-ui/provider": "2.0.26"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/incmix-ui/incmix-ui",
+    "directory": "packages/components/react"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "design-system",
+    "react-components",
+    "uikit",
+    "accessible",
+    "components",
+    "emotion",
+    "library",
+    "design-system"
+  ],
+  "storybook": {
+    "title": "Chakra UI",
+    "url": "https://chakra-ui.netlify.app"
+  },
+  "scripts": {
+    "build": "JSX=1 tsup src/index.ts --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "JSX=1 tsup src/index.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  }
+}

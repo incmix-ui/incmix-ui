@@ -1,7 +1,7 @@
 {
   "name": "@incmix-ui/layout",
   "version": "2.1.11",
-  "description": "incmix UI layout components that give you massive speed",
+  "description": "Chakra UI layout components that give you massive speed",
   "keywords": [
     "layout",
     "component",
@@ -14,11 +14,9 @@
     "badge",
     "react",
     "primitives",
-    "incmix ui"
+    "chakra ui"
   ],
   "sideEffects": false,
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -36,23 +34,7 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@incmix-ui/icon": "workspace:*",
-    "@incmix-ui/react-context": "workspace:*",
-    "@incmix-ui/react-children-utils": "workspace:*",
-    "@incmix-ui/shared-utils": "workspace:*",
-    "@incmix-ui/object-utils": "workspace:*",
-    "@incmix-ui/breakpoint-utils": "workspace:*"
-  },
-  "devDependencies": {
-    "@incmix-ui/system": "workspace:*",
-    "react-icons": "^4.2.0",
-    "react-router-dom": "6.0.0",
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
-  },
-  "peerDependencies": {
-    "@incmix-ui/system": ">=2.0.0",
-    "react": ">=18"
+    "@chakra-ui/layout": "2.1.11"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

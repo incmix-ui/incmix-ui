@@ -1,0 +1,44 @@
+{
+  "name": "@incmix-ui/skeleton",
+  "version": "2.0.20",
+  "description": "React component to render a placeholders while you wait for content to load",
+  "keywords": [
+    "skeleton",
+    "loading",
+    "shim",
+    "chakra ui",
+    "theme",
+    "theming",
+    "ui mode",
+    "ui"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
+    "directory": "packages/components/skeleton"
+  },
+  "bugs": {
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
+  },
+  "dependencies": {
+    "@chakra-ui/skeleton": "2.0.20"
+  },
+  "scripts": {
+    "build": "JSX=1 tsup src/index.ts --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "JSX=1 tsup src/index.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  }
+}

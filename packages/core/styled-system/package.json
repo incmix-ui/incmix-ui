@@ -1,0 +1,46 @@
+{
+  "name": "@incmix-ui/styled-system",
+  "version": "2.5.0",
+  "description": "Style function for css-in-js building component libraries",
+  "keywords": [
+    "theme",
+    "theming",
+    "style",
+    "system",
+    "styled",
+    "css-in-js",
+    "component",
+    "functions",
+    "parser",
+    "chakra ui"
+  ],
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
+    "directory": "packages/components/styled-system"
+  },
+  "bugs": {
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
+  },
+  "dependencies": {
+    "@chakra-ui/styled-system": "2.5.0"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup --entry src/index.ts --entry src/theming.types.ts --entry src/shared.types.ts --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "tsup src/index.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  }
+}

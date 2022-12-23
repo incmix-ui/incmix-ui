@@ -1,1 +1,1 @@
-export * from "./spinner"
+export * from "@chakra-ui/spinner"

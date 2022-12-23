@@ -9,11 +9,9 @@
     "accessbility",
     "a11y",
     "react",
-    "Incmix ui"
+    "chakra ui"
   ],
   "sideEffects": false,
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -30,13 +28,6 @@
   "bugs": {
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
-  "peerDependencies": {
-    "react": ">=18"
-  },
-  "devDependencies": {
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
-  },
   "scripts": {
     "build": "tsup src/index.ts --dts",
     "dev": "pnpm build:fast -- --watch",
@@ -45,5 +36,8 @@
     "build:fast": "tsup src/index.ts",
     "prepack": "clean-package",
     "postpack": "clean-package restore"
+  },
+  "dependencies": {
+    "@chakra-ui/live-region": "2.0.11"
   }
 }

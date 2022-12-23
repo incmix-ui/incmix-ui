@@ -6,14 +6,12 @@
     "button",
     "button-group",
     "react",
-    "incmix-ui",
+    "chakra-ui",
     "component",
     "clickable",
     "tabbable"
   ],
   "sideEffects": false,
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
@@ -31,26 +29,7 @@
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
   "dependencies": {
-    "@incmix-ui/react-context": "workspace:*",
-    "@incmix-ui/react-use-merge-refs": "workspace:*",
-    "@incmix-ui/spinner": "workspace:*"
-  },
-  "devDependencies": {
-    "@incmix-ui/utils": "workspace:*",
-    "@incmix-ui/shared-utils": "workspace:*",
-    "@incmix-ui/system": "workspace:*",
-    "@incmix-ui/icons": "workspace:*",
-    "@incmix-ui/theme": "workspace:*",
-    "@incmix-ui/layout": "workspace:*",
-    "framer-motion": "^6.2.9",
-    "react-icons": "^4.2.0",
-    "react-spinners": "0.11.0",
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
-  },
-  "peerDependencies": {
-    "@incmix-ui/system": ">=2.0.0",
-    "react": ">=18"
+    "@chakra-ui/button": "^2.0.13"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

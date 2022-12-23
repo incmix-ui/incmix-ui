@@ -1,9 +1,7 @@
 {
   "name": "@incmix-ui/icons",
-  "version": "2.0.13",
-  "description": "incmix UI icons",
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
+  "version": "2.0.14",
+  "description": "Chakra UI icons",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -21,19 +19,8 @@
   "bugs": {
     "url": "https://github.com/incmix-ui/incmix-ui/issues"
   },
-  "peerDependencies": {
-    "@incmix-ui/system": ">=2.0.0",
-    "react": ">=18"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.1",
-    "@incmix-ui/system": "workspace:*",
-    "@incmix-ui/layout": "workspace:*",
-    "react": "^18.0.0",
-    "clean-package": "2.1.1"
-  },
   "dependencies": {
-    "@incmix-ui/icon": "workspace:*"
+    "@chakra-ui/icons": "2.0.14"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

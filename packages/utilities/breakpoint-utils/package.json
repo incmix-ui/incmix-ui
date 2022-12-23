@@ -5,10 +5,8 @@
   "keywords": [
     "breakpoint",
     "utilities",
-    "Incmix"
+    "chakra"
   ],
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/incmix-ui/incmix-ui#readme",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -35,8 +33,7 @@
     "prepack": "clean-package",
     "postpack": "clean-package restore"
   },
-  "devDependencies": {
-    "@incmix-ui/shared-utils": "workspace:*",
-    "clean-package": "2.1.1"
+  "dependencies": {
+    "@chakra-ui/breakpoint-utils": "2.0.5"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "name": "@incmix-ui/anatomy",
+  "version": "2.1.0",
+  "description": "The anatomy of all chakra components",
+  "keywords": [
+    "theme",
+    "theming",
+    "ui mode",
+    "ui"
+  ],
+  "license": "MIT",
+  "main": "src/index.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
+    "directory": "packages/components/anatomy"
+  },
+  "bugs": {
+    "url": "https://github.com/incmix-ui/incmix-ui/issues"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "tsup src/index.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "devDependencies": {
+    "clean-package": "2.1.1"
+  },
+  "dependencies": {
+    "@chakra-ui/anatomy": "2.1.0"
+  }
+}
