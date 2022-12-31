@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/live-region",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "description": "Aria live region for React components",
   "keywords": [
     "aria",
@@ -9,7 +9,7 @@
     "accessbility",
     "a11y",
     "react",
-    "chakra ui"
+    "incmix ui"
   ],
   "sideEffects": false,
   "license": "MIT",
@@ -17,17 +17,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/live-region"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "scripts": {
     "build": "tsup src/index.ts --dts",
     "dev": "pnpm build:fast -- --watch",
@@ -38,6 +27,6 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@chakra-ui/live-region": "2.0.11"
+    "@chakra-ui/live-region": "2.0.12"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/pin-input",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "description": "A React component optimized for entering sequences of digits",
   "keywords": [
     "pin",
@@ -9,7 +9,7 @@
     "ui",
     "react",
     "component",
-    "chakra ui"
+    "incmix ui"
   ],
   "sideEffects": false,
   "license": "MIT",
@@ -17,19 +17,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/pin-input"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/pin-input": "^2.0.16"
+    "@chakra-ui/pin-input": "2.0.17"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

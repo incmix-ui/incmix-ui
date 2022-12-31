@@ -1,9 +1,9 @@
 {
   "name": "@incmix-ui/editable",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "description": "React component used to build inline-editable components",
   "keywords": [
-    "chakra ui",
+    "incmix ui",
     "react",
     "inline",
     "editable",
@@ -19,19 +19,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/editable"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/editable": "2.0.16"
+    "@chakra-ui/editable": "2.0.17"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

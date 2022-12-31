@@ -1,13 +1,13 @@
 {
   "name": "@incmix-ui/alert",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "description": "A React component used to alert users of a particular screen area that needs user action",
   "keywords": [
     "alert",
     "notice",
     "notification",
     "react",
-    "chakra ui",
+    "incmix ui",
     "ui"
   ],
   "sideEffects": false,
@@ -16,19 +16,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/alert"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/alert": "2.0.13"
+    "@chakra-ui/alert": "^2.0.14"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/props-docs",
-  "version": "2.2.3",
+  "version": "2.0.30",
   "description": "A React Component for rendering dynamically positioned Tooltips",
   "sideEffects": false,
   "keywords": [
@@ -8,7 +8,7 @@
     "tooltip",
     "component",
     "popper",
-    "chakra ui",
+    "incmix ui",
     "toggletip",
     "react popper"
   ],
@@ -17,19 +17,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/tooltip"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/props-docs": "^2.0.28"
+    "@chakra-ui/props-docs": "2.0.30"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

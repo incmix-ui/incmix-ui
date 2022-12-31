@@ -1,9 +1,9 @@
 {
   "name": "@incmix-ui/clickable",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "description": "React hook and component that implements native button interactions",
   "keywords": [
-    "chakra ui",
+    "incmix ui",
     "clickable",
     "tabbable",
     "button",
@@ -15,16 +15,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/clickable"
-  },
   "dependencies": {
-    "@chakra-ui/clickable": "2.0.11"
+    "@chakra-ui/clickable": "2.0.12"
   },
   "scripts": {
     "build": "tsup src/index.ts --dts",

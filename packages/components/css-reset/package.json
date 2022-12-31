@@ -1,12 +1,12 @@
 {
   "name": "@incmix-ui/css-reset",
-  "version": "2.0.10",
-  "description": "CSS reset component for Chakra UI",
+  "version": "2.0.11",
+  "description": "CSS reset component for incmix UI",
   "keywords": [
     "theme",
     "theming",
     "ui mode",
-    "chakra ui",
+    "incmix ui",
     "css reset"
   ],
   "sideEffects": false,
@@ -15,17 +15,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/css-reset"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",
     "dev": "pnpm build:fast -- --watch",
@@ -36,6 +25,6 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@chakra-ui/css-reset": "2.0.10"
+    "@chakra-ui/css-reset": "2.0.11"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/descendant",
-  "version": "3.0.11",
+  "version": "3.0.12",
   "description": "Register child nodes of a react element for better accessibility",
   "keywords": [
     "dom",
@@ -9,7 +9,7 @@
     "descendants",
     "child",
     "hooks",
-    "chakra ui",
+    "incmix ui",
     "react"
   ],
   "sideEffects": false,
@@ -18,19 +18,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/descendant"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/descendant": "3.0.11"
+    "@chakra-ui/descendant": "3.0.12"
   },
   "scripts": {
     "build": "tsup src/index.ts --dts",

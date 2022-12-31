@@ -11,17 +11,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "hooks/use-event-listener"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "scripts": {
     "build": "tsup src/index.ts --format=esm,cjs --dts",
     "dev": "pnpm build:fast -- --watch",

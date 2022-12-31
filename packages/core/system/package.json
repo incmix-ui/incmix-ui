@@ -1,14 +1,14 @@
 {
   "name": "@incmix-ui/system",
   "version": "2.3.5",
-  "description": "Chakra UI system primitives",
+  "description": "incmix UI system primitives",
   "keywords": [
     "system",
     "styled-component",
     "emotion",
     "ui-component",
     "ui",
-    "chakra",
+    "incmix",
     "style-props",
     "design-system"
   ],
@@ -18,17 +18,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/system"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
     "@chakra-ui/system": "2.3.5",
     "react": "18.2.0"

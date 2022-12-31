@@ -1,11 +1,11 @@
 {
   "name": "@incmix-ui/hooks",
-  "version": "2.1.2",
-  "description": "React hooks for Chakra components",
+  "version": "2.1.4",
+  "description": "React hooks for incmix components",
   "keywords": [
     "hooks",
     "react",
-    "chakra ui",
+    "incmix ui",
     "utilities"
   ],
   "sideEffects": false,
@@ -14,19 +14,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/legacy/hooks"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/hooks": "2.1.2"
+    "@chakra-ui/hooks": "2.1.4"
   },
   "scripts": {
     "build": "tsup src/index.ts --dts",

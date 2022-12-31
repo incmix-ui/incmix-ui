@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/react-use-update-effect",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "",
   "keywords": [
     "use-update-effect"
@@ -11,17 +11,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "hooks/use-update-effect"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "scripts": {
     "build": "tsup src/index.ts --format=esm,cjs --dts",
     "dev": "pnpm build:fast -- --watch",
@@ -32,10 +21,12 @@
     "postpack": "clean-package restore"
   },
   "peerDependencies": {
-    "react": ">=18"
+    "react": "18.2.0"
   },
   "devDependencies": {
-    "react": "18.0.0",
     "clean-package": "2.1.1"
+  },
+  "dependencies": {
+    "@chakra-ui/react-use-update-effect": "2.0.6"
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "@incmix-ui/media-query",
-  "version": "3.2.8",
+  "version": "3.2.9",
   "description": "A React hook for changing properties or visibility of a component based on css media query",
   "keywords": [
-    "chakra ui",
+    "incmix ui",
     "breakpoint",
     "matchMedia",
     "react",
@@ -16,19 +16,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/media-query"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/media-query": "3.2.8"
+    "@chakra-ui/media-query": "3.2.9"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

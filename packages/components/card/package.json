@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/card",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "React component used to group related content",
   "keywords": [
     "card"
@@ -11,17 +11,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/card"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",
     "dev": "pnpm build:fast -- --watch",
@@ -32,6 +21,6 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@chakra-ui/card": "2.1.3"
+    "@chakra-ui/card": "2.1.4"
   }
 }

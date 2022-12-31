@@ -1,24 +1,13 @@
 {
   "name": "@incmix-ui/utils",
-  "version": "2.0.12",
-  "description": "Common utilities and types for Chakra UI",
+  "version": "2.0.14",
+  "description": "Common utilities and types for incmix UI",
   "license": "MIT",
   "sideEffects": false,
   "main": "src/index.ts",
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/legacy/utils"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "scripts": {
     "build": "tsup src/index.ts --dts",
     "dev": "pnpm build:fast -- --watch",
@@ -29,6 +18,6 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@chakra-ui/utils": "2.0.12"
+    "@chakra-ui/utils": "2.0.14"
   }
 }

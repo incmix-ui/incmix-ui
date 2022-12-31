@@ -2,7 +2,7 @@ import {
   ChakraProvider as BaseChakraProvider,
   ChakraProviderProps as BaseChakraProviderProps,
 } from "@incmix-ui/provider"
-import { theme as defaultTheme, baseTheme, Theme } from "@incmix-ui/theme"
+import { baseTheme, Theme, theme as defaultTheme } from "@incmix-ui/theme"
 import { ToastProvider, ToastProviderProps } from "@incmix-ui/toast"
 import { Dict } from "@incmix-ui/utils"
 
@@ -33,3 +33,5 @@ const createChakraProvider = (
 
 export const IncmixProvider = createChakraProvider(defaultTheme)
 export const IncmixBaseProvider = createChakraProvider(baseTheme)
+export const ChakraProvider = IncmixProvider
+export type ChakraProviderProps = IncmixProviderProps

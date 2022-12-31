@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/theme-tools",
-  "version": "2.0.14",
+  "version": "2.0.16",
   "description": "Set of helpers that makes theming and styling easier",
   "keywords": [
     "theme",
@@ -14,19 +14,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/theme-tools"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/theme-tools": "2.0.14"
+    "@chakra-ui/theme-tools": "2.0.16"
   },
   "scripts": {
     "build": "tsup src/index.ts --dts",

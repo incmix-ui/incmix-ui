@@ -1,12 +1,12 @@
 {
   "name": "@incmix-ui/counter",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "description": "A React hook for managing counters",
   "keywords": [
     "counter",
     "hooks",
     "react",
-    "chakra-ui",
+    "incmix-ui",
     "react-component",
     "counter-hook",
     "count-up",
@@ -19,19 +19,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/counter"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/counter": "2.0.11"
+    "@chakra-ui/counter": "2.0.12"
   },
   "scripts": {
     "build": "tsup src/index.ts --dts",

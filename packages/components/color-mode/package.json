@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/color-mode",
-  "version": "2.1.10",
+  "version": "2.1.11",
   "description": "React component and hooks for handling light and dark mode.",
   "keywords": [
     "react",
@@ -13,7 +13,7 @@
     "hook",
     "color scheme",
     "media query",
-    "chakra ui"
+    "incmix ui"
   ],
   "sideEffects": false,
   "license": "MIT",
@@ -30,18 +30,7 @@
     "prepack": "clean-package",
     "postpack": "clean-package restore"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/color-mode"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/color-mode": "2.1.10"
+    "@chakra-ui/color-mode": "2.1.11"
   }
 }

@@ -1,13 +1,13 @@
 {
   "name": "@incmix-ui/image",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "description": "React component for progressive image loading",
   "keywords": [
     "react",
     "progressive",
     "lazyloading",
     "component",
-    "chakra ui",
+    "incmix ui",
     "image",
     "loading"
   ],
@@ -17,19 +17,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/image"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/image": "2.0.12"
+    "@chakra-ui/image": "2.0.13"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

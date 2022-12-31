@@ -1,13 +1,13 @@
 {
   "name": "@incmix-ui/accordion",
-  "version": "2.1.4",
-  "description": "A simple and accessible accordion component for React & Chakra UI",
+  "version": "2.1.5",
+  "description": "A simple and accessible accordion component for React & incmix UI",
   "keywords": [
     "react",
     "component",
     "accordion",
-    "chakra",
-    "chakra ui",
+    "incmix",
+    "incmix ui",
     "collapse",
     "accessible",
     "accessibility",
@@ -21,19 +21,8 @@
     "dist"
   ],
   "sideEffects": false,
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/accordion"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/accordion": "2.1.4"
+    "@chakra-ui/accordion": "2.1.5"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

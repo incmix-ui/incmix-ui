@@ -1,11 +1,11 @@
 {
   "name": "@incmix-ui/theme-utils",
-  "version": "2.0.6",
+  "version": "2.0.2",
   "description": "",
   "keywords": [
     "theme",
     "utilities",
-    "chakra"
+    "incmix"
   ],
   "license": "MIT",
   "main": "src/index.ts",
@@ -13,17 +13,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/utilities/theme-utils"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "scripts": {
     "build": "tsup src/index.ts --format=esm,cjs --dts",
     "dev": "pnpm build -- --watch",
@@ -34,6 +23,6 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@chakra-ui/theme-utils": "2.0.6"
+    "@chakra-ui/theme-utils": "2.0.2"
   }
 }

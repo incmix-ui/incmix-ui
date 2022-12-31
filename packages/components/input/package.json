@@ -1,12 +1,12 @@
 {
   "name": "@incmix-ui/input",
-  "version": "2.0.14",
+  "version": "2.0.16",
   "description": "A React component for input text field",
   "keywords": [
     "react",
     "input",
     "text field",
-    "chakra ui",
+    "incmix ui",
     "react component",
     "validation",
     "form control"
@@ -17,19 +17,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/input"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/input": "2.0.14"
+    "@chakra-ui/input": "2.0.16"
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",

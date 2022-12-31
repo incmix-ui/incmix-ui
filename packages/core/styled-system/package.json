@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/styled-system",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "Style function for css-in-js building component libraries",
   "keywords": [
     "theme",
@@ -12,26 +12,15 @@
     "component",
     "functions",
     "parser",
-    "chakra ui"
+    "incmix ui"
   ],
   "license": "MIT",
   "main": "src/index.ts",
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/styled-system"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/styled-system": "2.5.0"
+    "@chakra-ui/styled-system": "2.5.1"
   },
   "sideEffects": false,
   "scripts": {

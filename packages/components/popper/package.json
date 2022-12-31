@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/popper",
-  "version": "3.0.10",
+  "version": "3.0.11",
   "description": "A React component and hooks wrapper for popper.js",
   "keywords": [
     "react",
@@ -11,7 +11,7 @@
     "positioning",
     "popperjs-modifier",
     "ui",
-    "chakra ui",
+    "incmix ui",
     "component"
   ],
   "sideEffects": false,
@@ -20,19 +20,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/popper"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
-    "@chakra-ui/popper": "3.0.10"
+    "@chakra-ui/popper": "3.0.11"
   },
   "scripts": {
     "build": "tsup src/index.ts --dts",

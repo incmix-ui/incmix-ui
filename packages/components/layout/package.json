@@ -1,7 +1,7 @@
 {
   "name": "@incmix-ui/layout",
   "version": "2.1.11",
-  "description": "Chakra UI layout components that give you massive speed",
+  "description": "incmix UI layout components that give you massive speed",
   "keywords": [
     "layout",
     "component",
@@ -14,7 +14,7 @@
     "badge",
     "react",
     "primitives",
-    "chakra ui"
+    "incmix ui"
   ],
   "sideEffects": false,
   "license": "MIT",
@@ -22,17 +22,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/components/layout"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "dependencies": {
     "@chakra-ui/layout": "2.1.11"
   },

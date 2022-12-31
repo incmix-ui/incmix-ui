@@ -1,6 +1,6 @@
 {
   "name": "@incmix-ui/shared-utils",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "",
   "keywords": [
     "shared-utils"
@@ -11,17 +11,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incmix-ui/incmix-ui.git",
-    "directory": "packages/utilities/shared-utils"
-  },
-  "bugs": {
-    "url": "https://github.com/incmix-ui/incmix-ui/issues"
-  },
   "scripts": {
     "build": "tsup src/index.ts --format=esm,cjs --dts",
     "dev": "pnpm build:fast -- --watch",
@@ -32,6 +21,6 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@chakra-ui/shared-utils": "2.0.3"
+    "@chakra-ui/shared-utils": "2.0.4"
   }
 }
